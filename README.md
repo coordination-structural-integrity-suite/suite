@@ -1,6 +1,6 @@
 # standards
 
-This repository contains five coordination standards developed in the course of building the Proof of Coordination protocol. They address structural failure modes that recur across coordination systems regardless of domain.
+This repository contains five coordination standards that address structural failure modes recurring across coordination systems regardless of domain.
 
 ## What these standards are
 
@@ -10,7 +10,7 @@ These standards specify those floors. Each is an instrument: a standalone specif
 
 ## What these standards are not
 
-These standards are not complete coordination infrastructure. They are compressive: they close exploitation vectors and prevent specific failure modes. The generative architecture that pairs with them is developed separately.
+These standards are not complete coordination infrastructure. They are compressive: they close exploitation vectors and prevent specific failure modes. The generative architecture that pairs with them is a separate concern.
 
 Partial adoption is legitimate. Partial adoption claimed as full conformance is not. Organizations adopting one or more of these standards without the full set should disclose which standards they have adopted rather than claiming general conformance.
 
@@ -27,12 +27,6 @@ These standards do not specify governance outcomes. They specify structural cond
 **Information Asymmetry Classification Standard:** Requires classification and disclosure of the structural types of information asymmetry present in a coordination system. Closes the gap between transparent-appearing and structurally transparent.
 
 **Structural Power Distribution Standard:** Requires that structural power arrangements be legible and contestable by participants who hold less of it. Closes the gap between claimed decentralization and actual power distribution.
-
-## Relationship to the Proof of Coordination protocol
-
-These standards are the normative foundation for the Proof of Coordination protocol, which builds measurement infrastructure for coordination capacity. The standards can be adopted independently of the full protocol. The protocol depends on them structurally.
-
-Full protocol documentation will be linked here as it is released.
 
 ## Licensing
 
