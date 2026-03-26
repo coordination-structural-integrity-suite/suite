@@ -4,7 +4,7 @@
 
 **Regis Lloyd Chapman (Durgadas)**
 
-Version 0.1.10 \| March 2026
+Version 0.1.11 \| March 2026
 
 *This document establishes a six-class taxonomy of information asymmetry
 in coordination systems. It is intended to be legible to researchers in
@@ -668,6 +668,77 @@ is the highest-order failure mode available to any detection-oriented
 governance system, and it requires that taxonomy governance - who
 determines what the framework can see - be itself subject to the most
 stringent structural scrutiny the system can provide.
+
+***Named Sub-Pattern: Distributed Monoculture***
+
+One recurrent instantiation of Class 3 warrants a named sub-pattern
+because its surface appearance actively resembles its opposite.
+Distributed monoculture arises when the formal structure of an
+evaluation or curation system distributes epistemic authority across
+many nominally independent actors, but those actors share training,
+priors, social network positions, or optimization targets sufficiently
+to produce consensus with a collective blind spot rather than genuine
+epistemic diversity. The form of distribution is present; the
+independence it implies is absent.
+
+This failure mode is distinct from the canonical Class 3 pattern of a
+single actor or small coalition controlling the interpretive framework.
+In canonical interpretive asymmetry, the asymmetry is detectable by
+identifying who controls the framework. In distributed monoculture, no
+single actor controls the framework; the monoculture is emergent from
+the structure of the participant pool. The asymmetry is therefore
+structurally invisible to standard concentration metrics. A participant
+pool that is nominally large, diverse in identity, and formally
+independent can exhibit distributed monoculture and produce outcomes
+that systematically exclude or undervalue the same categories of work
+that single-actor capture would produce, without any single actor being
+identifiable as the capture point.
+
+The failure mode is particularly acute in systems that rely on
+Schelling-point incentives: mechanisms where participants are rewarded
+for converging on the answer they expect the majority to select.
+Schelling-point mechanisms were designed to coordinate on truth by
+making convergence on consensus economically rational. Their documented
+failure boundary is precisely the condition distributed monoculture
+creates: when the participant pool shares a systematic blind spot, the
+Schelling equilibrium lands at the shared blind spot rather than at
+reality. What the mechanism surfaces as the obvious focal answer is
+actually the answer obvious to this particular epistemic community. The
+mechanism cannot detect this failure from the inside, because the
+evaluative framework used to assess accuracy is the same framework that
+contains the blind spot. A Schelling-point mechanism is therefore not a
+general solution to Class 3 interpretive asymmetry; it is a mechanism
+whose accuracy is contingent on the epistemic diversity of its
+participant pool, which it cannot verify internally.
+
+A live observable case is provided by the Deep Funding mechanism
+(Devansh Mehta, Clement Lesaege, Allan Niemerg, 2026): a retroactive
+public goods funding mechanism for Ethereum repositories in which AI
+models predict scores assigned by three named meta-jurors and trade on
+Seer prediction markets, with market prices at round close determining
+allocations. The formal structure distributes evaluation across
+competing models. The distributed monoculture failure mode applies if
+those models share training data, fine-tuning strategies, or
+optimization targets sufficiently to converge on the same scoring
+proxies. Market prices under that condition reflect the consensus of a
+particular epistemic community, not ecosystem impact. The two are
+indistinguishable from inside the mechanism's own resolution logic.
+
+***Observable Condition for Detecting Distributed Monoculture***
+
+Whether distributed monoculture is active in a given evaluation system
+is an empirical question, not an architectural one. The observable
+condition: profit in the evaluation market or system should be examined
+for correlation with actor type. If profit accrues predominantly to
+actors with independent domain knowledge, the epistemic diversity the
+mechanism claims to aggregate is functioning. If profit accrues
+predominantly to actors who have profiled the evaluators or optimized
+toward their documented priors, the mechanism is rewarding successful
+prediction of the monoculture's output rather than genuine epistemic
+contribution. This condition is checkable given market and outcome data
+and should be applied when evaluating any nominally distributed
+evaluation system as an input source for coordination-weighted
+decisions.
 
 **Class 4: Relational Asymmetry**
 
@@ -1386,6 +1457,8 @@ scope is explicit and auditable.
 Adoption of this standard at any tier below the full Commitment Standards threshold (Tier 4 across all five Commitment Standards) does not constitute full Commitment Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim, per the specification in the Proof of Coordination Architecture document.
 
 Changelog
+
+v0.1.11 (March 2026): Added named sub-pattern "Distributed Monoculture" to Class 3 (Interpretive Asymmetry). The sub-pattern names the failure mode in which epistemic distribution is formal but independence is absent, because participant pools share training, priors, or optimization targets sufficiently to produce consensus with a collective blind spot. Distinguishes from canonical single-actor Class 3 capture: distributed monoculture has no identifiable capture point and is structurally invisible to concentration metrics. Identifies Schelling-point mechanisms as a specific site of vulnerability: when the participant pool contains a systematic blind spot, the Schelling equilibrium lands at the blind spot rather than at reality, and the mechanism cannot detect this from the inside. Names Deep Funding (Mehta, Lesaege, Niemerg, 2026) as a live observable reference case. Includes observable condition for empirically testing whether the failure mode is active in a given evaluation system. No changes to the six-class taxonomy structure, existing detection surfaces, extension framework, tiered adoption, or inheritance clause.
 
 v0.1.10 (March 2026): Pre-release fix. Section 7: removed "(forthcoming)" from Proof of Coordination Architecture document reference, completing the intent of the v0.1.9 pass (which removed it from Section 8 but missed Section 7). No changes to normative content.
 
