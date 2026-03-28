@@ -4,6 +4,25 @@ Distributed governance is struggling to find solid footing. DAOs and other coord
 
 This repository contains eight standards developed in the course of building the Proof of Coordination protocol: five Tensegrity Compressive Standards and three Tensegrity Generative Standards. Together they form the Coordination Structural Integrity Suite of the protocol's normative architecture.
 
+## Repository structure
+
+```
+compressive/          five Tensegrity Compressive Standards
+  standards/          the standard documents
+  prompts/            AI audit prompts, one subfolder per standard
+  skills/             Claude skills, one file per standard
+
+generative/           three Tensegrity Generative Standards
+  standards/          the standard documents
+  prompts/            AI assessment prompts, one subfolder per standard
+  skills/             Claude skills, one file per standard
+
+suite/                suite-level documents and tooling
+  architecture/       suite architecture document and configurations primer
+  prompts/            suite-level audit prompts (compressive, generative, full)
+  skills/             suite-level Claude skill
+```
+
 ## What these standards are
 
 Coordination systems fail in predictable ways. The failures are structural: they happen because the systems lack structural floors, minimum conditions that, when absent, make exploitation and degradation predictable rather than merely possible.
@@ -88,9 +107,11 @@ Full protocol documentation will be linked here as it is released.
 
 ## Licensing
 
-- **Specifications** (`standards-*.md` and other standards documents): Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). See `LICENSE-SPEC`.
+- **Specifications** (standards documents in this repository): Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). See `LICENSE-SPEC`.
 - **Code and software artifacts** (now or future: examples, scripts, tests, reference implementations): Licensed under Apache License 2.0. See `LICENSE`.
 
 ## Changelog
+
+2026-03-28: Restructured repository into nested compressive/, generative/, and suite/ folders, each containing standards/, prompts/, and skills/ subfolders. Structure now reflects the tensegrity architecture of the suite directly in the file browser.
 
 2026-03-28: Added "Adoption architecture" section (five-tier framework, tier definitions) and "Adoption claims" section (three adoption categories: adoption level, full Tensegrity Compressive Standards designation, structural exposure disclosure). Updated "What these standards are not" partial adoption sentence to forward-reference the new adoption architecture section rather than giving a weaker standalone summary.
