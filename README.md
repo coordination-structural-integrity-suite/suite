@@ -7,20 +7,20 @@ This repository contains eight standards developed in the course of building the
 ## Repository structure
 
 ```
-compressive/          five Tensegrity Compressive Standards
-  standards/          the standard documents
-  prompts/            AI audit prompts, one subfolder per standard
-  skills/             Claude skills, one file per standard
+suite/                        Coordination Structural Integrity Suite
+  architecture/               suite architecture document and configurations primer
+  prompts/                    suite-level audit prompts (compressive, generative, full)
+  skills/                     suite-level Claude skill
 
-generative/           three Tensegrity Generative Standards
-  standards/          the standard documents
-  prompts/            AI assessment prompts, one subfolder per standard
-  skills/             Claude skills, one file per standard
+  compressive/                five Tensegrity Compressive Standards
+    standards/                the standard documents
+    prompts/                  AI audit prompts, one subfolder per standard
+    skills/                   Claude skills, one file per standard
 
-suite/                suite-level documents and tooling
-  architecture/       suite architecture document and configurations primer
-  prompts/            suite-level audit prompts (compressive, generative, full)
-  skills/             suite-level Claude skill
+  generative/                 three Tensegrity Generative Standards
+    standards/                the standard documents
+    prompts/                  AI assessment prompts, one subfolder per standard
+    skills/                   Claude skills, one file per standard
 ```
 
 ## What these standards are
