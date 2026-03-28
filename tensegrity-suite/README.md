@@ -8,4 +8,4 @@ The suite has two structural layers:
 
 **Tensegrity Generative Standards** (`generative/`) specify the structural conditions under which coordination capacity develops and is sustained. Three standards. They address what the compressive standards alone cannot provide: the conditions for shared understanding, capacity, and conflict transformation.
 
-Each layer folder contains the standard documents (`standards/`), AI audit and assessment prompts (`prompts/`), and Claude skills (`skills/`). Suite-level tooling covering both layers is in `architecture/`, `prompts/`, and `skills/` at this level.
+Each layer folder contains the standard documents (`standards/`), AI audit and assessment prompts (`prompts/`), and Claude skills (`skills/`). Suite-level tooling covering both layers is in `overview/`, `prompts/`, and `skills/` at this level.
