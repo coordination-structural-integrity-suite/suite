@@ -7,16 +7,14 @@ This repository contains eight standards developed in the course of building the
 ## Repository structure
 
 ```
-suite/                        Coordination Structural Integrity Suite
-  architecture/               suite architecture document and configurations primer
+tensegrity-suite/             Coordination Structural Integrity Suite
+  overview/                   tensegrity architecture document and configurations primer
   prompts/                    suite-level audit prompts (compressive, generative, full)
   skills/                     suite-level Claude skill
-
   compressive/                five Tensegrity Compressive Standards
     standards/                the standard documents
     prompts/                  AI audit prompts, one subfolder per standard
     skills/                   Claude skills, one file per standard
-
   generative/                 three Tensegrity Generative Standards
     standards/                the standard documents
     prompts/                  AI assessment prompts, one subfolder per standard
@@ -112,6 +110,6 @@ Full protocol documentation will be linked here as it is released.
 
 ## Changelog
 
-2026-03-28: Restructured repository into nested compressive/, generative/, and suite/ folders, each containing standards/, prompts/, and skills/ subfolders. Structure now reflects the tensegrity architecture of the suite directly in the file browser.
+2026-03-28: Repository restructured into nested suite/compressive/ and suite/generative/ folders. Subfolder READMEs added for suite/, compressive/, and generative/. Title updated to full suite name. Generative standards heading corrected to include full layer name. Licensing section path pattern generalized.
 
 2026-03-28: Added "Adoption architecture" section (five-tier framework, tier definitions) and "Adoption claims" section (three adoption categories: adoption level, full Tensegrity Compressive Standards designation, structural exposure disclosure). Updated "What these standards are not" partial adoption sentence to forward-reference the new adoption architecture section rather than giving a weaker standalone summary.
