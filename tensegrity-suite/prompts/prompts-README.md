@@ -18,9 +18,9 @@ For auditing or assessing against multiple standards at once.
 
 | Prompt | Use it on |
 |---|---|
-| [Compressive Audit](suite/suite-compressive-audit-0_1_0.md) | Any coordination system — runs all five Tensegrity Compressive Standards |
-| [Generative Assessment](suite/suite-generative-assessment-0_1_0.md) | Any coordination system — runs all three Tensegrity Generative Standards |
-| [Full Suite Audit](suite/suite-full-audit-0_1_0.md) | Any coordination system — runs all eight standards with cross-layer interaction analysis |
+| [Compressive Audit](suite-compressive-audit-0_1_0.md) | Any coordination system — runs all five Tensegrity Compressive Standards |
+| [Generative Assessment](suite-generative-assessment-0_1_0.md) | Any coordination system — runs all three Tensegrity Generative Standards |
+| [Full Suite Audit](suite-full-audit-0_1_0.md) | Any coordination system — runs all eight standards with cross-layer interaction analysis |
 
 ---
 
@@ -30,35 +30,35 @@ For auditing or assessing against multiple standards at once.
 
 | Prompt | Use it on |
 |---|---|
-| [General Audit](precision-first/precision-first-audit-general-0_1_1.md) | Any document, specification, or standard |
-| [Governance Audit](precision-first/precision-first-audit-governance-0_1_1.md) | Decentralized autonomous organization proposals, bylaws, charters, policies, constitutions |
-| [Software Audit](precision-first/precision-first-audit-software-0_1_1.md) | Application programming interface contracts, requirements docs, schemas, technical designs |
+| [General Audit](../compressive/prompts/precision-first/precision-first-audit-general-0_1_1.md) | Any document, specification, or standard |
+| [Governance Audit](../compressive/prompts/precision-first/precision-first-audit-governance-0_1_1.md) | Decentralized autonomous organization proposals, bylaws, charters, policies, constitutions |
+| [Software Audit](../compressive/prompts/precision-first/precision-first-audit-software-0_1_1.md) | Application programming interface contracts, requirements docs, schemas, technical designs |
 
 ### Adverse Signal Engagement Principle Core Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Organizational Audit](adverse-signal/organizational-adverse-signal-audit-0_1_0.md) | Governance documents, policies, process descriptions |
-| [Regulatory Compliance Audit](adverse-signal/regulatory-compliance-adverse-signal-audit-0_1_0.md) | Compliance frameworks, regulatory submissions |
-| [AI Systems Audit](adverse-signal/ai-adverse-signal-audit-0_1_0.md) | AI system designs, model documentation, feedback architectures |
+| [Organizational Audit](../compressive/prompts/adverse-signal/organizational-adverse-signal-audit-0_1_0.md) | Governance documents, policies, process descriptions |
+| [Regulatory Compliance Audit](../compressive/prompts/adverse-signal/regulatory-compliance-adverse-signal-audit-0_1_0.md) | Compliance frameworks, regulatory submissions |
+| [AI Systems Audit](../compressive/prompts/adverse-signal/ai-adverse-signal-audit-0_1_0.md) | AI system designs, model documentation, feedback architectures |
 
 ### Structural Consent Legibility Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Consent Legibility Audit](structural-consent/structural-consent-audit-0_1_0.md) | Governance documents, participation terms, consent architecture |
+| [Consent Legibility Audit](../compressive/prompts/structural-consent/structural-consent-audit-0_1_0.md) | Governance documents, participation terms, consent architecture |
 
 ### Information Asymmetry Classification Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Asymmetry Classification Audit](information-asymmetry/information-asymmetry-audit-0_1_0.md) | Coordination system descriptions, governance documents, platform architecture |
+| [Asymmetry Classification Audit](../compressive/prompts/information-asymmetry/information-asymmetry-audit-0_1_0.md) | Coordination system descriptions, governance documents, platform architecture |
 
 ### Structural Power Distribution Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Power Distribution Audit](structural-power-distribution/structural-power-distribution-audit-0_1_0.md) | Governance documents, organizational descriptions, protocol architecture |
+| [Power Distribution Audit](../compressive/prompts/structural-power-distribution/structural-power-distribution-audit-0_1_0.md) | Governance documents, organizational descriptions, protocol architecture |
 
 ---
 
@@ -68,25 +68,25 @@ For auditing or assessing against multiple standards at once.
 
 | Prompt | Use it on |
 |---|---|
-| [Sensemaking Presence Assessment](sensemaking/sensemaking-presence-assessment-0_1_0.md) | Coordination systems, organizations, or processes — assesses structural presence of sensemaking capacity |
+| [Sensemaking Presence Assessment](../generative/prompts/sensemaking/sensemaking-presence-assessment-0_1_0.md) | Coordination systems, organizations, or processes — assesses structural presence of sensemaking capacity |
 
 ### Four Batteries Capacity Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Four Batteries Presence Assessment](four-batteries/four-batteries-presence-assessment-0_1_0.md) | Coordination systems or organizations — assesses structural presence of generative capacity conditions |
+| [Four Batteries Presence Assessment](../generative/prompts/four-batteries/four-batteries-presence-assessment-0_1_0.md) | Coordination systems or organizations — assesses structural presence of generative capacity conditions |
 
 ### Conflict Transformation Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Conflict Transformation Presence Assessment](conflict-transformation/conflict-transformation-presence-assessment-0_1_0.md) | Coordination systems or organizations — assesses structural presence of conflict transformation capacity |
+| [Conflict Transformation Presence Assessment](../generative/prompts/conflict-transformation/conflict-transformation-presence-assessment-0_1_0.md) | Coordination systems or organizations — assesses structural presence of conflict transformation capacity |
 
 ---
 
 ## Claude Skills
 
-For more complex evaluation work requiring extended reasoning with the standards, use the Claude skills in `../claude-skills/`. Skills encode the frame needed for correct reasoning with each standard and with the suite as a whole.
+For more complex evaluation work requiring extended reasoning with the standards, use the Claude skills in `../skills/`. Skills encode the frame needed for correct reasoning with each standard and with the suite as a whole.
 
 - `claude-skill-suite-0_1_0.md` — Full suite skill covering all eight standards, the compressive/generative distinction, and cross-layer interactions
 - Individual skills for each standard: `claude-skill-[standard-name]-0_1_0.md`
