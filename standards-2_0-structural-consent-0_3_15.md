@@ -1,6 +1,6 @@
 Structural Consent Legibility Standard
 
-**Version:** v0.3.7
+**Version:** v0.3.15
 
 **Date:** March 2026
 
@@ -9,14 +9,14 @@ Structural Consent Legibility Standard
 **Status:** Working draft. Invariants, domain architecture, bandwidth
 framework, detection architecture, and standing evaluation are
 specified. OCAP/CARE integration layer is specified. Empirical
-calibration of detection thresholds and Cynefin time windows requires
-pilot data.
+calibration of detection thresholds and complexity-domain time windows
+requires pilot data.
 
-**Companion Standards:** This standard is designed for use alongside a
-precision-in-specification standard and an adverse signal engagement
-standard. See Section 7.5 for the Commitment Standards within the Structural Integrity Layer
+**Companion Standards:** This standard is designed for use alongside the
+Precision-First Design Standard and the Adverse-Signal Engagement
+Principle Core Standard. See Section 7.5 for the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite
 architecture. Each companion standard is independently adoptable; joint
-adoption at the highest tier of each constitutes the Commitment Standards within the Structural Integrity Layer.
+adoption at the highest tier of each constitutes the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite.
 
 1\. Purpose
 
@@ -46,6 +46,17 @@ coordination system, governance protocol, or organization that needs to
 verify that consent is structurally present, not merely claimed. Adoption
 tiers (Section 5) allow organizations to adopt the standard at the level
 appropriate to their operational context.
+
+**Typological declaration** (Descriptive Typology Map v0.1.1)
+
+*Operative classes*
+- Relational-topological: This standard operates primarily in this class. Consent is a structural property of the relationship between parties: who is acting and who benefits from the action. The two-axis framework decomposes every consent-bearing interaction into independently assessable relational properties, making the structural topology of consent visible to an independent observer.
+- Epistemic-perceptual: This standard operates in the precision and operationalization sub-aspect: making consent independently verifiable by decomposing it into observable structural axes. It also addresses detection: specifying how shadow dynamics become structurally visible.
+
+*Boundary classes*
+- Felt-experience: This standard assesses structural consent legibility, not experienced consent. Structural legibility is necessary but not sufficient for consent that is genuinely experienced as free, fair, and accessible. What a participant experiences inside a structurally legible consent transaction is outside this standard's vocabulary; it is the class where structural legibility ends and lived experience begins.
+- Structural-mechanical: This standard does not address how consent misalignment generates structural loads in the tensegrity configuration, modifies pre-stress distribution, or creates exploitation vectors at the configuration level.
+- Temporal-dynamic (frequency-dynamic sub-aspect): This standard addresses structural conditions for consent legibility but not how consent architecture responds to the frequency or rhythm of governance pressure over time.
 
 2\. Foundational Framework: The Wheel of Consent
 
@@ -425,8 +436,14 @@ entitlement rather than a gift from the observed (entitlement).
 
 4.5.1 Observation Consent Architecture
 
-Consent to observation must be obtained at three levels, each with
-specified scope and recourse.
+Consent to observation must be obtained at each governance layer at
+which participants can make an independent decision about what they
+permit to be monitored. In a protocol with layered adoption architecture,
+this requires at minimum: network-level consent (at protocol adoption),
+organization-level consent (at onboarding), and scope-change consent
+(when the detection surface expands). Each layer requires specified
+scope and recourse. Adopting systems with different governance
+architectures must identify the analogous layers for their design.
 
 **Level 1: Network-level consent (at protocol adoption).** When an
 organization joins a network or protocol adopting this standard, it
@@ -460,8 +477,19 @@ the observation layer to verify whether the observation was within
 scope, and scope clarification through Signal Escalation if the boundary
 is substantively ambiguous.
 
-Relationship to OCAP: Access, Control. Relationship to CARE:
-Responsibility, Ethics.
+4.5.2 Voice and Audio Recording as Observation Domain
+
+Audio recording of coordination sessions is a specific instance of observation consent that requires named treatment within the Level 2 consent architecture. When the adopting system or protocol designates spoken coordination sessions as sensemaking record sources (per the Sensemaking Standard, Section 9.2), the observation consent scope specified at onboarding must explicitly cover that recording practice: what sessions may be recorded, how recordings are processed and stored, who has access to recordings and transcripts, and the retention and deletion terms. Observation consent that does not name audio recording as an in-scope modality does not cover it; recording without explicit scope coverage is a consent failure in this domain.
+
+Within a session covered by organizational-level recording consent, individual participants retain identity-linked consent rights that the organizational layer may not override. Voice anonymization is the privacy-preserving default under Section 4.6.2: a participant who requests that their voice not be individually identifiable in a transcript or recording is exercising an identity-linked consent right that must be honored without requiring justification and without adverse governance consequences. This is a boundary within the session, not a withdrawal from it, and the consent architecture must structurally support it.
+
+The content-driven recording pause is structurally distinct from the identity-linked request. When a participant requests that recording be paused in order to address a coordination matter rather than for identity reasons, that request implicates the sensemaking record architecture rather than individual identity consent. Conflating the two produces either honor-everything (suppressing governance signals) or escalate-everything (violating individual consent rights). The Sensemaking Standard, Section 9.2, specifies how the content-driven pattern is classified and processed. The Adverse Signal Engagement Principle, Sections 3.1.2 and 4.1, governs the escalation path and anti-retaliation obligations.
+
+Relationship to Sensemaking Standard: Section 9.2 (spoken coordination channels, consent architecture for recording). Relationship to OCAP: Access, Control. Relationship to CARE: Responsibility, Ethics.
+
+4.5.3 Measurement Framework Consent
+
+Consent to a measurement framework is a distinct consent layer from consent to data collection and from consent to governance participation. A party being measured by a framework that cannot fully perceive their coordination dynamics has not fully consented unless that limitation has been made explicitly legible to them. This includes: what categories of coordination activity the framework can detect, what categories it cannot, and whether the framework's own vocabulary gaps are acknowledged and documented. When the measurement architecture's perceptual limits systematically exclude a party's coordination activities from the record, the party is consenting under a material omission. That omission must be disclosed at the Level 2 consent stage (Section 4.5.1) and must be updated through the Level 3 scope-change process whenever the detection architecture is revised in ways that expand or contract the perceptual boundary. Relationship to Information Asymmetry Classification Standard: Descriptive Capacity Asymmetry (Extension Class C, Section 5), which specifies the mechanism by which measurement vocabulary limitations produce structural invisibility.
 
 4.6 Domain Interaction
 
@@ -519,6 +547,8 @@ Relationship to OCAP: Ownership, Control, Possession. Relationship to CARE: Auth
 
 5\. Tiered Adoption
 
+The tier names in this standard use the prefix SCLS (Structural Consent Legibility Standard).
+
 5.1 SCLS-Assessed
 
 The system acknowledges that consent is structurally relevant to its
@@ -560,9 +590,11 @@ implausible absence of standing claims.
 Systems adopting this standard at the SCLS-Instrumented level must implement
 detection signatures for each shadow dynamic. Detection is
 probabilistic: the detection layer flags signals for Signal Escalation
-processing, not adjudication. Each shadow type has a three-signal
-detection model: primary signal (triggers monitoring), secondary signal
-(triggers naming), tertiary signal (triggers escalation).
+processing, not adjudication. Detection for each shadow type must be
+graduated: at minimum a monitoring threshold (a signal that initiates
+monitoring) and an escalation threshold (a signal or signal combination
+that triggers Signal Escalation processing). The following specifies a
+conformant graduated detection architecture for each shadow type.
 
 **Entitlement/Stealing: ratification benefits the voting body at the
 constituency's expense.**
@@ -613,11 +645,11 @@ Tertiary signal: resistance to relief. When governance labor rebalancing
 is proposed, the concentrated participant resists or does not
 participate in deliberation about rebalancing.
 
-Detection signals are composite. A single instance of any primary signal
-triggers monitoring; persistent patterns across multiple governance
-actions, combined with secondary and tertiary signals, trigger
-escalation through the system's signal escalation process. Individual
-signals are never treated as conclusive. The detection architecture must
+Detection signals are composite. A single instance of any monitoring-threshold
+signal triggers monitoring. Persistent patterns across multiple governance
+actions, combined with higher-confidence signals, trigger escalation
+through the system's Signal Escalation process. Individual signals are
+never treated as conclusive. The detection architecture must
 be transparent to participants: organizations operating at the
 SCLS-Instrumented level must know what patterns are being monitored (this is
 itself a consent requirement in the Observation consent domain; see
@@ -796,16 +828,17 @@ the governance process will default to single-loop responses at every
 level. Consent processes must be designed with the learning loop depth
 they require in mind.
 
-6.4 Cynefin Action Modes and Consent Process Shape
+6.4 Domain Complexity and Consent Process Shape
 
-Every process in a system adopting this standard that depends on Cynefin
-domain classification should specify both the duration and the action
-mode appropriate to that domain. The Cynefin framework defines not only
-four complexity domains but four corresponding action modes, each
-describing a fundamentally different relationship between action and
-understanding. The consent process must match the action mode, because
-the kind of understanding available to the affected constituency differs
-structurally across domains.
+Consent processes must be calibrated to the epistemic structure of the
+decision domain: the type of understanding available to the affected
+constituency differs structurally across complexity levels, and the
+consent process must match those differences. The following specifies
+the consent process requirements for four complexity levels, using the
+Cynefin framework's four domains and corresponding action modes as a
+conformant calibration tool. Systems that calibrate consent process
+shape using a different complexity classification framework must satisfy
+the same structural requirements.
 
 **Clear domain: sense-categorize-respond.** The causal relationships are
 known and the implications of the proposed action are evaluable from the
@@ -853,9 +886,9 @@ emergency action if the ratification process determines the action was
 disproportionate or misdirected).
 
 This principle extends beyond consent. Any process in a system adopting
-this standard that classifies actions by Cynefin domain and then
-prescribes a response should verify that the response matches the action
-mode for that domain.
+this standard that classifies actions by complexity domain and prescribes
+a response should verify that the response matches the action mode for
+that domain.
 A governance process that applies a linear deliberation-then-vote model
 to a Complex-domain change is using a Clear-domain action mode in a
 Complex-domain context; the mismatch will produce either false certainty
@@ -979,15 +1012,15 @@ Nations Principles of OCAP. https://fnigc.ca/ocap-training/. Global
 Indigenous Data Alliance. CARE Principles for Indigenous Data
 Governance. https://www.gida-global.org/care.
 
-7.5 Commitment Standards within the Structural Integrity Layer
+7.5 Tensegrity Compressive Standards within the Coordination Structural Integrity Suite
 
-This standard is one of the five Commitment Standards within the Structural Integrity Layer: the Precision-First Design Standard, the Adverse-Signal Engagement Principle Core Standard, the Structural Consent Legibility Standard, the Information Asymmetry Classification Standard, and the Structural Power Distribution Standard. Each standard addresses a distinct failure mode. Each is independently valid: no standard requires the others for its own validity. Together, they form a reinforcing set.
+This standard is one of the five Tensegrity Compressive Standards within the Coordination Structural Integrity Suite: the Precision-First Design Standard, the Adverse-Signal Engagement Principle Core Standard, the Structural Consent Legibility Standard, the Information Asymmetry Classification Standard, and the Structural Power Distribution Standard. Each standard addresses a distinct failure mode. Each is independently valid: no standard requires the others for its own validity. Together, they form a reinforcing set.
 
-Systems adopting any one of the five Commitment Standards are strongly recommended to adopt all five. The full Commitment Standards designation applies to systems that adopt all five at Tier 4 (Accountable) or above. The designation is descriptive: a system either satisfies all five standards at Tier 4 or above, or it does not. Partial adoption at any tier is a legitimate developmental stage; claiming full Commitment Standards conformance on the basis of partial adoption is structural exposure theater. Partial adopters should produce a structural exposure disclosure naming which standards are not adopted and which failure modes remain unaddressed.
+Systems adopting any one of the five Tensegrity Compressive Standards are strongly recommended to adopt all five. The full Tensegrity Compressive Standards designation applies to systems that adopt all five at Tier 4 (Accountable) or above. The designation is descriptive: a system either satisfies all five standards at Tier 4 or above, or it does not. Partial adoption at any tier is a legitimate developmental stage; claiming full Tensegrity Compressive Standards conformance on the basis of partial adoption is structural exposure theater. Partial adopters should produce a structural exposure disclosure naming which standards are not adopted and which failure modes remain unaddressed.
 
 A structural exposure disclosure must contain four elements to be substantive. First, the disclosure must name each standard not adopted or not yet at Tier 4, using its full canonical name. Second, for each absent standard, the disclosure must describe in plain language the specific failure mode class that standard addresses and what becomes structurally undetectable in its absence. Third, for each absent standard, the disclosure must state a self-assessed exposure level (low, medium, or high) with a rationale sufficient for an independent reader to evaluate the assessment. Fourth, for each absent standard where compensating controls exist, the disclosure must name those controls, describe their mechanism, and explain why they are considered adequate for the assessed exposure level. Where no compensating controls exist, the disclosure must say so explicitly. A disclosure that satisfies the form without the substance is itself a precision deficit under the Precision-First Design Standard. The full conformance theater prevention architecture is specified in the Proof of Coordination Architecture document.
 
-The Sensemaking Layer Standard governs an organization's capacity to perceive and apply all five standards with understanding. It is architecturally distinct from the Commitment Standards within the Structural Integrity Layer.
+The Sensemaking Standard governs an organization's capacity to perceive and apply all five standards with understanding. It is architecturally distinct from the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite.
 
 8\. Inheritance Clause
 
@@ -1010,11 +1043,11 @@ adverse signals subject to its adverse signal processing, and (d)
 specifying which consent domains are applicable and which are not, with
 rationale, so that the adoption scope is explicit and auditable.
 
-Adoption of this standard at any tier below the full Commitment Standards threshold (Tier 4 across all five Commitment Standards) does not constitute full Commitment Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim, per the specification in the Proof of Coordination Architecture document.
+Adoption of this standard at any tier below the full Tensegrity Compressive Standards threshold (Tier 4 across all five Tensegrity Compressive Standards) does not constitute full Tensegrity Compressive Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim, per the specification in the Proof of Coordination Architecture document.
 
 8.1 Precision-First Inheritance
 
-*Precision-First Inheritance: This document adopts the Precision-First Design Standard (v1.5.4, March 2026) at the PFDS-Operational tier. Every element of this document is subject to that standard at the declared tier. Any revision that reduces definitional precision, replaces typed constructs with vague terms, collapses previously distinguishable states, or makes a falsifiable claim unfalsifiable is a design error requiring correction, not a legitimate exercise of governance or editorial discretion.*
+*Precision-First Inheritance: This document adopts the Precision-First Design Standard at the PFDS-Operational tier. Every element of this document is subject to that standard at the declared tier. Any revision that reduces definitional precision, replaces typed constructs with vague terms, collapses previously distinguishable states, or makes a falsifiable claim unfalsifiable is a design error requiring correction, not a legitimate exercise of governance or editorial discretion.*
 
 9. Open Design Questions
 
@@ -1060,13 +1093,57 @@ requires external validation from the tenant body, not
 self-certification. Named as an ongoing governance challenge that
 requires continuous attention rather than a one-time design decision.
 
+Relationship To Other Standards
+
+The closest functional adjacency is with the Information Asymmetry Classification Standard: information asymmetry directly affects consent legibility, and the six asymmetry classes provide the vocabulary for specifying what a participant has access to when consenting. The Structural Power Distribution Standard addresses adjacent territory: power differentials affect consent voluntariness in ways this standard's three consent features address structurally.
+
+Tensegrity As A Whole
+
+The Coordination Structural Integrity Suite operates as a tensegrity: the Tensegrity Compressive Standards specify structural floors and close exploitation vectors; the Tensegrity Generative Standards specify the enabling conditions under which coordination capacity develops and sustains those floors. This standard is compressive.
+
+```
+Coordination Structural Integrity Suite
+│
+├── Tensegrity Compressive Standards (5)
+│   ├── Precision-First Design Standard
+│   ├── Adverse Signal Engagement Principle Core Standard
+│   ├── Structural Consent Legibility Standard               ← this standard
+│   ├── Information Asymmetry Classification Standard
+│   └── Structural Power Distribution Standard
+│
+└── Tensegrity Generative Standards (3)
+    ├── Sensemaking Standard
+    ├── Four Batteries Capacity Standard
+    └── Conflict Transformation Standard
+```
+
+Without this standard participation can appear consensual while being extractive. The three consent features this standard requires (negotiated limits, bidirectional awareness, revocability) are the structural conditions under which consent claims are verifiable rather than asserted.
+
+Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the eight standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
+
 Changelog
+
+**v0.3.15 (March 2026):** Canonical name correction. Companion standards on lines 15-17 referenced by descriptive shorthand ("precision-in-specification standard," "adverse signal engagement standard"); replaced with full canonical names (Precision-First Design Standard, Adverse-Signal Engagement Principle Core Standard).
+
+**v0.3.14 (March 2026):** Suite rename ("Coordination Structural Integrity Suite" replaces "Structural Integrity Layer" throughout). Added "Relationship To Other Standards" and "Tensegrity As A Whole" sections, replacing Section 12.
+
+**v0.3.13 (March 2026):** "What not how" precision pass. Three bounded edits applying the Precision-First Design Standard's structural condition requirement. (1) Status note: "Cynefin time windows" generalized to "complexity-domain time windows." (2) Section 4.5.1 opening reframed: "obtained at three levels" replaced with structural condition (consent at each governance layer where participants can make independent decisions about what they permit to be monitored); three-layer architecture (network, organization, scope-change) named as a conformant minimum for protocol-based systems; adopting systems with different governance architectures instructed to identify analogous layers. Scope and recourse requirement per layer retained. (3) Section 5.3.1 opening reframed: "three-signal detection model" replaced with graduated detection requirement (monitoring threshold and escalation threshold as minimum); specific signals for each shadow type retained as conformant graduated architecture; closing paragraph updated (monitoring-threshold signal terminology; Signal Escalation casing corrected throughout). (4) Section 6.4 retitled "Domain Complexity and Consent Process Shape"; opening paragraph restated as structural condition (consent processes calibrated to epistemic structure of decision domain); Cynefin named as conformant calibration tool rather than required framework; closing paragraph generalized from "Cynefin domain" to "complexity domain." Normative requirements at each complexity level unchanged.
+
+**v0.3.12 (March 2026):** Change 3 of anisotropy sequence. Typological declaration (Variant B) added to Section 1 (Purpose). Operative classes: relational-topological (primary, two-axis consent topology), epistemic-perceptual (precision/operationalization, detection sub-aspects). Boundary classes: felt-experience (structural legibility vs. experienced consent named explicitly), structural-mechanical, temporal-dynamic (frequency-dynamic sub-aspect). Map version v0.1.1 cited.
+
+**v0.3.11 (March 2026):** Terminology update. "Commitment Standards" renamed to "Tensegrity Compressive Standards" throughout. No normative content changes.
+
+**v0.3.10 (March 2026):** Citation fix. Section 8.1 Precision-First inheritance clause updated from v1.5.4 to v1.5.6. No normative content changes.
+
+**v0.3.9 (March 2026):** Added Section 4.5.3 (Measurement Framework Consent). Establishes consent to a measurement framework as a distinct consent layer from consent to data collection and consent to governance participation. A party measured by a framework that cannot fully perceive their coordination dynamics has not fully consented unless the framework's perceptual limits have been made explicitly legible to them: what categories are detectable, what are not, and whether vocabulary gaps are acknowledged. When measurement architecture limits systematically exclude a party's coordination activities from the record, this is a material omission that must be disclosed at Level 2 and updated via Level 3 scope-change process when the detection architecture changes. Cross-reference to Information Asymmetry Classification Standard, Extension Class C (Descriptive Capacity Asymmetry, Section 5), which specifies the mechanism. Source: standards audit session, March 26, 2026.
+
+**v0.3.8 (March 2026):** Section 4.5.2 added: Voice and Audio Recording as Observation Domain. Names audio recording of coordination sessions as a specific observation consent instance requiring explicit coverage in the Level 2 consent architecture: recording without named scope coverage is a consent failure. Individual voice anonymization established as the privacy-preserving default per Section 4.6.2: an identity-linked request to anonymize voice must be honored without justification and without adverse governance consequences. Content-driven recording pause distinguished from identity-linked request: the former implicates the sensemaking record architecture, the latter is an individual consent right; conflating them produces either signal suppression or consent violation. Cross-references to Sensemaking Standard Section 9.2 and Adverse Signal Engagement Principle Sections 3.1.2 and 4.1 added. Source: standards audit session and Sensemaking Standard v1.1.3 alignment, March 26, 2026.
 
 **v0.3.7 (March 2026):** Added Section 4.6.2 (Privacy Directionality as a Cross-Domain Constraint). New normative content establishing two principles across all five consent domains. First: where a design choice exists between a more and a less privacy-preserving option, the more privacy-preserving option is the structural default; departure requires a specific, documented reason legible to the affected constituency. Second: system-initiated exposure (disclosure without a prior participant consent action) and participant-initiated disclosure (disclosure triggered by an explicit consent action such as naming a counterparty or configuring a disclosure preference) are categorically distinct; the privacy-as-default principle governs the former; the three invariants govern the latter. Added OCAP and CARE relationship notes for the new section. Source: session sensemaking on CROPS alignment and EF Mandate privacy architecture principles, March 14, 2026.
 
-**v0.3.6 (March 2026):** Pre-release fixes. (1) Section 7.5 final sentence: "architecturally distinct from the pentad" replaced with "architecturally distinct from the Commitment Standards within the Structural Integrity Layer" (propagation miss from v0.3.5 pass). (2) Companion standards preamble: "constitutes the pentad" replaced with "constitutes the Commitment Standards within the Structural Integrity Layer" (second propagation miss from v0.3.5 pass). (3) Section 7.5: removed "(forthcoming)" from Proof of Coordination Architecture reference, consistent with other standards in the stack. (4) Section 8.1 Precision-First inheritance clause: version citation updated from v1.4.8 to v1.5.4. No changes to normative content.
+**v0.3.6 (March 2026):** Pre-release fixes. (1) Section 7.5 final sentence: "architecturally distinct from the pentad" replaced with "architecturally distinct from the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite" (propagation miss from v0.3.5 pass). (2) Companion standards preamble: "constitutes the pentad" replaced with "constitutes the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite" (second propagation miss from v0.3.5 pass). (3) Section 7.5: removed "(forthcoming)" from Proof of Coordination Architecture reference, consistent with other standards in the stack. (4) Section 8.1 Precision-First inheritance clause: version citation updated from v1.4.8 to v1.5.4. No changes to normative content.
 
-**v0.3.5 (March 2026):** Structural Integrity Layer naming propagation. Updated Section 7.5 heading from "Structural Integrity Pentad" to "Commitment Standards within the Structural Integrity Layer." Updated Section 7.5 body: replaced structural integrity pentad designation language with full Commitment Standards designation language throughout; "one of five standalone standards that form the structural integrity pentad" replaced with "one of the five Commitment Standards within the Structural Integrity Layer." Updated preamble reference and theater prevention clause in inheritance clause accordingly. No changes to normative content.
+**v0.3.5 (March 2026):** Coordination Structural Integrity Suite naming propagation. Updated Section 7.5 heading from "Structural Integrity Pentad" to "Tensegrity Compressive Standards within the Coordination Structural Integrity Suite." Updated Section 7.5 body: replaced structural integrity pentad designation language with full Tensegrity Compressive Standards designation language throughout; "one of five standalone standards that form the structural integrity pentad" replaced with "one of the five Tensegrity Compressive Standards within the Coordination Structural Integrity Suite." Updated preamble reference and theater prevention clause in inheritance clause accordingly. No changes to normative content.
 
 **v0.3.4 (March 2026):** Pre-publication check pass. Six fixes. (1) Section 3.1.1: "Witness Layer" replaced with "detection layer," completing the generalization pass from v0.3.0. (2) Section 5.4 SCLS-Accountable: "defined window" given three validity conditions (specified before adoption, publicly documented, short enough that inaction is detectable before the next governance cycle in which the deficit could compound); governance cycle length required as a co-specified public document alongside the window. (3) Section 7.5: Added "(forthcoming)" notation to Proof of Coordination Architecture reference for consistency with other standards in the stack. (4) Section 9.2: "design question for the Witness Layer Technical Paper" replaced with "design question for the detection layer specification of any adopting system." (5) Section 9.3: "Coordination Improvement Proposal zones" and "genesis cohort deliberation" replaced with domain-general equivalents. (6) Section 8.1 added: Precision-First inheritance clause at PFDS-Operational tier. Changelog formatting fix: unclosed bold marker in v0.3.2 entry corrected.
 

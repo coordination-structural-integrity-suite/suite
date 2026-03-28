@@ -2,13 +2,11 @@
 
 **(ASEP)**
 
-*Core Standard v0.5.4*
+*Core Standard v0.6.1*
 
 **Regis Lloyd Chapman (Durgadas)**
 
-Version 0.5.5 \| March 2026
-
-*Changes from v0.5.2: Pre-publication check pass. Five fixes: tier rename survivor corrected; Precision-First Design Standard version citation updated; surviving PoCA forward reference removed from Section 10; window validity requirements added to Section 3.3.6 with cross-references from Sections 5.4 and 5.5; Precision-First Design Standard inheritance clause added as Section 11. See changelog for full details.*
+Version 0.6.1 \| March 2026
 
 # 1. Preamble
 
@@ -54,6 +52,17 @@ engagement, but no qualifying signal may be silently ignored.
 chooses and revises its ASEP adoption tier, and how it classifies the
 severity of adverse signals, are themselves subject to ASEP. They MUST
 be logged, deliberate, and open to challenge.
+
+**Typological declaration** (Descriptive Typology Map v0.1.1)
+
+*Operative classes*
+- Epistemic-perceptual: This standard operates in the detection and signal processing sub-aspect: defining adverse signals, specifying what a detection instrument must distinguish, and establishing the false-negative boundary explicitly. It also operates in the precision and operationalization sub-aspect: signal categories, escalation tiers, and response obligations are operationally defined.
+- Relational-topological: This standard addresses the structural architecture of escalation pathways and response obligations: which roles must act on detection outputs, how governance inaction becomes visible to an independent observer without requiring the inacting party to self-report, and the defense-in-depth requirements for the response layer.
+
+*Boundary classes*
+- Felt-experience: This standard specifies structural signal detection and response obligations but does not address what it feels like to be a signal source in a monitored governance system, or the affective dimensions of being subject to adverse signal processing.
+- Action-structural: This standard classifies signal categories and escalation stages but does not address the action-coordinate content of what signal sources or responders are doing within an adverse signal pathway.
+- Temporal-dynamic (frequency-dynamic sub-aspect): Escalation timelines are specified sequentially. This standard does not address how governance structures respond to the frequency or rhythm of adverse signal pressure over time.
 
 ## 2.2 Invariants
 
@@ -108,8 +117,9 @@ Systems should treat certain absences as suspicious:
 
 -   abrupt silence from previously active participants.\[3\]\[4\]\[1\]
 
-Such implausible absences are themselves adverse signals about the
-record or the context.
+-   sustained signal absence coinciding with measurable low trust conditions, where Relational battery depletion (per the Four Batteries Capacity Standard) indicates that the coupling gate through which adverse signals propagate may be closed rather than empty.
+
+Such implausible absences are themselves adverse signals about the record or the context. The final class above requires disambiguation that ASEP detection instruments cannot perform alone: low trust suppresses adverse signal transmission at the source before signals enter the detection architecture, producing a signal-absence reading structurally identical to a healthy-system reading from inside the detection surface. Signal absence combined with low Relational battery state warrants investigation rather than clearance; disambiguating the two requires Four Batteries state data alongside ASEP detection data.
 
 ### 3.1.3 Proportional observation
 
@@ -199,6 +209,8 @@ along with a small set of allowed actions, such as:
 
 -   escalate to a higher authority or broader circle,
 
+-   initiate engagement with contested parties (for conflict-class signals; see Section 3.3.1a),
+
 -   monitor with defined review points,
 
 -   close with documented rationale.\[25\]\[2\]\[5\]
@@ -206,6 +218,12 @@ along with a small set of allowed actions, such as:
 Letting defined time bounds lapse without action or explicit closure is
 treated as a process failure and itself logged as an adverse signal
 about governance health.
+
+### 3.3.1a Conflict-class routing
+
+An adverse signal is conflict-class when it meets at least one of three observable conditions: two or more parties have deposited contested accounts of the same coordination event; one party has formally challenged a coordination determination by another party; or one party has deposited a signal naming another party as responsible for a harm to the coordination record, the coordination process, or a coordination participant. These conditions are determinable by an independent observer from the coordination record without access to parties' intentions.
+
+For conflict-class signals, initiating engagement with the contested parties is required before Navigate terminates the signal through escalation to external adjudication or closure. The structural conditions under which that engagement constitutes genuine transformation capacity are operational design requirements for the adopting system; ASEP does not specify them. A conflict-class signal may subsequently escalate to external adjudication or close with documented rationale; the requirement is that the engagement pathway is opened, that a documented exchange within the engagement process has taken place, and that the Navigate decision is recorded after that exchange.
 
 ### 3.3.2 Graduated and proportionate response
 
@@ -1032,7 +1050,7 @@ insight underlying ASEP's adverse‑signal engagement model.
 
 Chapman, Regis Lloyd (Durgadas). Precision-First Design Standard: A
 Transferable Standard for Coordination Systems, Governance Protocols,
-and Software Design. v1.5.4, March 2026.
+and Software Design. v1.5.11, March 2026.
 
 The meta-standard from which ASEP's operational structure derives.
 Establishes precision as a design invariant for coordination systems:
@@ -1088,16 +1106,6 @@ applied to the taxonomy itself. Any coordination system adopting this
 taxonomy for its Name phase inherits an ASEP‑conformant classification
 infrastructure.
 
-# Relationship to the Commitment Standards within the Structural Integrity Layer
-
-This standard is one of the five Commitment Standards within the Structural Integrity Layer: the Precision-First Design Standard, the Adverse-Signal Engagement Principle Core Standard, the Structural Consent Legibility Standard, the Information Asymmetry Classification Standard, and the Structural Power Distribution Standard. Each standard addresses a distinct failure mode. Each is independently valid: no standard requires the others for its own validity. Together, they form a reinforcing set. A system that satisfies all five has addressed the structural conditions under which accountability failure becomes predictable.
-
-Systems adopting any one of the five Commitment Standards are strongly recommended to adopt all five. The full Commitment Standards designation applies to systems that adopt all five at Tier 4 (Accountable) or above. Partial adoption at any tier is a legitimate developmental stage and is not theater when accompanied by a structural exposure disclosure naming which failure modes remain unaddressed. Claiming full Commitment Standards conformance on the basis of partial adoption is theater. Partial adopters should instead produce a structural exposure disclosure naming which standards are not adopted and which failure modes remain unaddressed.
-
-A structural exposure disclosure must contain four elements to be substantive. First, the disclosure must name each standard not adopted or not yet at Tier 4, using its full canonical name. Second, for each absent standard, the disclosure must describe in plain language the specific failure mode class that standard addresses and what becomes structurally undetectable in its absence. Third, for each absent standard, the disclosure must state a self-assessed exposure level (low, medium, or high) with a rationale sufficient for an independent reader to evaluate the assessment. Fourth, for each absent standard where compensating controls exist, the disclosure must name those controls, describe their mechanism, and explain why they are considered adequate for the assessed exposure level. Where no compensating controls exist, the disclosure must say so explicitly. A disclosure that satisfies the form without the substance is itself a precision deficit under the Precision-First Design Standard.
-
-The Sensemaking Layer Standard governs an organization's capacity to perceive and apply all five standards with understanding. It is architecturally distinct from the pentad: the pentad specifies what the organization does; the sensemaking layer addresses whether the organization can perceive what it is doing well enough to apply the pentad with understanding.
-
 # 10. Inheritance Clause
 
 Systems adopting this standard should include the following statement in their governance documentation:
@@ -1106,19 +1114,57 @@ Systems adopting this standard should include the following statement in their g
 
 The inheritance clause commits the adopting system to: (a) identifying which adverse signal classes are relevant to its operations, (b) applying the three-phase processing loop (Notice, Name, Navigate) at the adopted tier, (c) treating adverse signal suppression as a governance failure subject to the system's adverse signal processing, and (d) disclosing the detection architecture to its participant population as a condition of operating at the ASEP-Instrumented tier or above.
 
-Adoption of this standard at any tier below the full Commitment Standards threshold (Tier 4 across all five Commitment Standards) does not constitute full Commitment Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim. The four-element specification for a substantive structural exposure disclosure is provided in the Relationship to the Commitment Standards within the Structural Integrity Layer section of this document.
+Adoption of this standard at any tier below the full Tensegrity Compressive Standards threshold (Tier 4 across all five Tensegrity Compressive Standards) does not constitute full Tensegrity Compressive Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim. The four-element specification for a substantive structural exposure disclosure is provided in the standards README.
 
 # 11. Precision-First Design Standard Inheritance Clause
 
-This standard is declared at the Precision-First Design Standard (v1.5.4, March 2026) PFDS-Instrumented tier. The declaration reflects the current state of the standard: normative invariants, obligations, and tier specifications have been brought to design-time precision through recursive self-application. The governance infrastructure required for the PFDS-Accountable tier (closed governance loop with automatic disclosure on inaction, append-only governance records, independent auditor access) is deferred to the protocol's operational layer. The tier declaration will advance when that infrastructure is established.
+This standard is declared at the Precision-First Design Standard PFDS-Instrumented tier. The declaration reflects the current state of the standard: normative invariants, obligations, and tier specifications have been brought to design-time precision through recursive self-application. The governance infrastructure required for the PFDS-Accountable tier (closed governance loop with automatic disclosure on inaction, append-only governance records, independent auditor access) is deferred to the protocol's operational layer. The tier declaration will advance when that infrastructure is established.
 
-*End of ASEP Core Standard v0.5.4*
+# Relationship To Other Standards
+
+The closest functional seam is with the Conflict Transformation Standard: this standard addresses detection and escalation of signals contradicting current models; that standard addresses transformation capacity at the receiving end. The two are adjacent, not redundant. This standard also backstops the Precision-First Design Standard operationally: precision failures in a coordination approach often become visible only through external challenge, and structural suppression of adverse signals including disconfirmation prevents precision requirements from being operationally enforced regardless of how carefully documents are specified.
+
+# Tensegrity As A Whole
+
+The Coordination Structural Integrity Suite operates as a tensegrity: the Tensegrity Compressive Standards specify structural floors and close exploitation vectors; the Tensegrity Generative Standards specify the enabling conditions under which coordination capacity develops and sustains those floors. This standard is compressive.
+
+```
+Coordination Structural Integrity Suite
+│
+├── Tensegrity Compressive Standards (5)
+│   ├── Precision-First Design Standard
+│   ├── Adverse Signal Engagement Principle Core Standard     ← this standard
+│   ├── Structural Consent Legibility Standard
+│   ├── Information Asymmetry Classification Standard
+│   └── Structural Power Distribution Standard
+│
+└── Tensegrity Generative Standards (3)
+    ├── Sensemaking Standard
+    ├── Four Batteries Capacity Standard
+    └── Conflict Transformation Standard
+```
+
+Without this standard the suite has no structural requirement for engaging signals that contradict current models. The other compressive standards' governance loops cannot function if adverse signals can be suppressed without detection.
+
+Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the eight standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 # Changelog
 
+v0.6.1 (March 2026): Suite rename ("Coordination Structural Integrity Suite" replaces "Structural Integrity Layer" throughout). Added "Relationship To Other Standards" and "Tensegrity As A Whole" sections, replacing the unnumbered cross-standard section.
+
+v0.6.0 (March 2026): Conflict-class routing added (Section 3.3.1a). "Initiate engagement with contested parties" added to the Navigate action set as a named action for conflict-class signals. Section 3.3.1a specifies: three independently observable conditions that make a signal conflict-class (contested accounts, formal challenge, harm attribution naming a counterparty); the requirement that conflict-class signals must open an engagement pathway before Navigate terminates via escalation or closure; and the explicit scope boundary that the structural conditions for genuine transformation capacity are operational design requirements for the adopting system, not specified by ASEP. No cross-references to other standards. Closes the Corollary 4 (Precision-First Design Standard) deficit at ASEP's Navigate endpoint for conflict-class signals: initiation conditions are now operationally defined and determinable by an independent observer from the coordination record alone.
+
+v0.5.9 (March 2026): Change 3 of anisotropy sequence. Typological declaration (Variant B) added to Section 2.1. Operative classes: epistemic-perceptual (detection/signal processing, precision/operationalization sub-aspects), relational-topological (escalation pathways, response role architecture). Boundary classes: felt-experience, action-structural, temporal-dynamic (frequency-dynamic sub-aspect). Map version v0.1.1 cited.
+
+v0.5.8 (March 2026): Terminology update. "Commitment Standards" renamed to "Tensegrity Compressive Standards" throughout. No normative content changes.
+
+v0.5.7 (March 2026): Citation fixes and stale marker corrections. No normative content changes. (1) Subtitle corrected from v0.5.4 to v0.5.7 (propagation miss from v0.5.5 pass, which corrected to v0.5.4 but not forward). (2) End-of-document marker corrected from v0.5.4 to v0.5.7 (same miss). (3) Section 8.5 bibliographic citation updated from Precision-First Design Standard v1.5.4 to v1.5.6. (4) Section 11 Precision-First inheritance clause updated from v1.5.4 to v1.5.6.
+
+v0.5.6 (March 2026): Section 3.1.2 addition. Fourth implausible absence class added: sustained signal absence coinciding with measurable low Relational battery state (trust gate closure). Extended explanatory paragraph distinguishes this class from the other three: low trust suppresses adverse signal transmission before signals enter the detection architecture, producing a signal-absence reading structurally identical to a healthy-system reading. ASEP detection instruments cannot disambiguate the two alone; Four Batteries state data is required alongside ASEP detection data. Signal absence combined with low trust readings warrants investigation rather than clearance. Source: standards audit against Tensor Primitive Specification v0.2.0 and Four Batteries Capacity Standard v0.2.9, March 26, 2026.
+
 v0.5.5 (March 2026): Pre-release fixes. (1) Subtitle and end-of-document marker corrected from v0.5.3 to v0.5.4 (propagation miss from v0.5.4 pass). (2) Precision-First Design Standard version citation updated from v1.4.8 to v1.5.4 in Section 8.5 and Section 11 inheritance clause. No changes to normative content.
 
-v0.5.4 (March 2026): Structural Integrity Layer naming propagation. Updated "Relationship to the Structural Integrity Pentad" section heading to "Relationship to the Commitment Standards within the Structural Integrity Layer." Updated section body: replaced structural integrity pentad designation language with full Commitment Standards designation language throughout; "one of five standalone standards that form the structural integrity pentad" replaced with "one of the five Commitment Standards within the Structural Integrity Layer." Updated theater prevention clause in inheritance clause accordingly. No changes to normative content.
+v0.5.4 (March 2026): Coordination Structural Integrity Suite naming propagation. Updated "Relationship to the Structural Integrity Pentad" section heading to "Relationship to the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite." Updated section body: replaced structural integrity pentad designation language with full Tensegrity Compressive Standards designation language throughout; "one of five standalone standards that form the structural integrity pentad" replaced with "one of the five Tensegrity Compressive Standards within the Coordination Structural Integrity Suite." Updated theater prevention clause in inheritance clause accordingly. No changes to normative content.
 
 v0.5.3 (March 2026): Pre-publication check pass. Five fixes: (1) Tier rename survivor corrected in Section 3.3.6: "critical tier" replaced with "ASEP-Instrumented tier"; "Assessed or Operational tiers" replaced with "ASEP-Assessed or ASEP-Operational tiers." (2) Precision-First Design Standard version citation in Section 8.5 updated from v1.2 to v1.4.8. (3) Surviving Proof of Coordination Architecture forward reference removed from end of Relationship to the Structural Integrity Pentad section, completing the v0.5.0 generalization intent; Section 10 PoCA forward reference replaced with a self-contained pointer to the four-element disclosure specification already present in the same document. (4) Window validity requirements added as a named subsection in Section 3.3.6, specifying three conditions for any conforming time window: publicly specified before the window begins running, uniform across structurally equivalent signals, and non-retroactively adjustable. Section 5.4 (ASEP-Accountable) and Section 5.5 (ASEP-Auditable) updated to cross-reference Section 3.3.6 rather than carrying implicit window definitions. (5) Section 11 (Precision-First Design Standard Inheritance Clause) added, declaring this standard at the PFDS-Instrumented tier with rationale for deferred advancement to PFDS-Accountable. No changes to normative content of Sections 1 through 5.3 or 6 through 9.
 

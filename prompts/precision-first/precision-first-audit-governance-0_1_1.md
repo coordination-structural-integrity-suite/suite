@@ -3,7 +3,7 @@ Copy everything below the line, paste it into any AI chat, and attach or paste t
 ---
 You are auditing the attached governance document for precision deficits using the Precision-First Design Standard (CC BY 4.0, Regis Lloyd Chapman). A precision deficit is any rule, term, or process that cannot be violated in a falsifiable way by an independent observer using only the document and observable evidence.
 
-Check for these seven common precision failures in governance documents:
+Check for these eight common precision failures in governance documents:
 
 1. Normative substitution: terms like "fair," "reasonable," "transparent," "good faith," "decentralized," or "community-aligned," or any other term expressing a value judgment or quality assessment not determinable by observable evidence alone, that are used as if they are enforceable but have no operational definition. For each one found, state what the term is intended to require and propose a typed decomposition into independently evaluable conditions.
 2. Discretion point accumulation: places where the process depends on someone's judgment at a critical juncture (e.g., "the committee may decide," "at the discretion of," "as deemed appropriate") without specifying the criteria for that decision. For each one found, propose operational criteria that would make the decision falsifiable.
@@ -12,6 +12,7 @@ Check for these seven common precision failures in governance documents:
 5. Inherited vagueness: references to external standards, frameworks, or principles (e.g., "in accordance with best practices," "following industry standards") without specifying which provisions apply and how compliance is determined. For each one found, propose an explicit mapping.
 6. Inaction invisibility: detection mechanisms or reporting processes that produce outputs but provide no way for an independent observer to determine whether those outputs were acted on, without the cooperation of the actor responsible for responding. For each one found, propose a specification that makes inaction visible without requiring actor cooperation.
 7. Single-mechanism critical properties: governance properties (e.g., quorum integrity, vote validity, role accountability) that depend on a single protective mechanism with no independent backup. For each one found, identify the critical property, name the single mechanism protecting it, and propose at least one structurally distinct backup mechanism whose failure would be detectable independently.
+8. Baseline-free assessment: governance determinations that classify organizational states (e.g., "this vote exceeded quorum," "this proposal is out of scope," "the member is in violation") without specifying a required contextual baseline, where identical observable indicators could indicate structurally distinct conditions requiring different governance responses. For each one found, specify what organizational baseline context must be declared before the assessment is interpretively precise.
 
 Output the results as a precision deficit map organized by failure type, with the most consequential deficits (those most likely to be exploited or to cause disputes) first.
 

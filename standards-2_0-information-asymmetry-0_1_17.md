@@ -4,7 +4,7 @@
 
 **Regis Lloyd Chapman (Durgadas)**
 
-Version 0.1.11 \| March 2026
+Version 0.1.17 \| March 2026
 
 *This document establishes a six-class taxonomy of information asymmetry
 in coordination systems. It is intended to be legible to researchers in
@@ -213,6 +213,17 @@ concrete implementation. The taxonomy itself is not specific to any
 particular protocol. It is a general analytical framework for
 coordination systems, adoptable by any system in any domain.
 
+**Typological declaration** (Descriptive Typology Map v0.1.1)
+
+*Operative classes*
+- Epistemic-perceptual: This standard operates in the asymmetry classification sub-aspect: naming, defining, and distinguishing structural information asymmetries by mechanism, historical precedent, and detection surface. It also operates in the precision and operationalization sub-aspect: each primary class has an operational definition, distinguishing criteria, and a specified detection surface.
+- Relational-topological: Information asymmetry is a relational property, defined by who occupies which structural position relative to whom. All six primary classes are constituted by the relational structure of the asymmetry, not by properties of any individual party.
+
+*Boundary classes*
+- Felt-experience: This standard identifies structural information asymmetries but does not address the affective, somatic, or phenomenal dimensions of occupying a position of information disadvantage.
+- Structural-mechanical: This standard does not address how information asymmetries propagate as structural loads through a tensegrity configuration, modify pre-stress distribution, or contribute to the anisotropy profile.
+- Temporal-dynamic (frequency-dynamic sub-aspect): The temporal asymmetry class (Class 2) addresses sequential timing of information access. This standard does not address how governance structures respond to the frequency or rhythm of asymmetry pressure over time.
+
 **Section 2: Taxonomy Architecture**
 
 **What Makes a Valid Asymmetry Class**
@@ -308,16 +319,16 @@ could be instrumented against it; and (d) a clear account
 of why the candidate class is not adequately captured by any existing
 primary class or combination of classes.
 
-Two extension classes are already specified: Generative Asymmetry and
-Cryptographic Asymmetry. These are documented in Section 5. Their
-inclusion in the taxonomy reflects the fact that both satisfy the
-validity criteria and both describe mechanisms that are actively
-operating in current coordination environments, not merely anticipated
-future risks. Their status as \"extension\" rather than \"primary\"
-classes reflects not a judgment about their importance but a recognition
-that their documentation base is less extensive than that of the six
-primary classes, and that their detection surfaces are less
-well-established.
+Three extension classes are specified in Section 5: Generative Asymmetry,
+Cryptographic Asymmetry, and Descriptive Capacity Asymmetry. The first two
+were named in v0.1 as satisfying the validity criteria and as describing
+mechanisms actively operating in current coordination environments; their
+full specifications remain to be written and are documented as stubs in
+Section 5. Descriptive Capacity Asymmetry is fully specified in Section 5.
+The status of all three as \"extension\" rather than \"primary\" classes reflects
+not a judgment about their importance but a recognition that their
+documentation base is less extensive than that of the six primary classes,
+and that their detection surfaces are less well-established.
 
 Taxonomy extension is itself subject to the same adverse-signal
 engagement principles that the taxonomy governs. Changes to the
@@ -1212,16 +1223,16 @@ manufactures patterns from noise). The mapping below identifies the
 typical Cynefin domain for each class and the implied detection action
 mode.
 
-Positional asymmetry (Class 1) is typically a Complicated-domain
-detection problem. The advantage is structurally present and analyzable
+Positional asymmetry (Class 1) presents as a Complicated-domain
+detection problem in most coordination contexts. The advantage is structurally present and analyzable
 with network analysis expertise: who holds which positions, how those
 positions correlate with information access, and whether proposal timing
 patterns correlate with positional access. The detection action mode is
-sense-analyze-respond. Temporal asymmetry (Class 2) is typically a
-Complicated-domain detection problem as well, analyzable through
+sense-analyze-respond. Temporal asymmetry (Class 2) presents as a
+Complicated-domain detection problem in most coordination contexts as well, analyzable through
 statistical timing analysis. The detection action mode is
 sense-analyze-respond with time-series methods. Interpretive asymmetry
-(Class 3) is typically a Complex-domain detection problem, because the
+(Class 3) presents as a Complex-domain detection problem in most coordination contexts, because the
 framework through which you would analyze the asymmetry is itself the
 thing being manipulated. A detection process that applies
 sense-analyze-respond to interpretive asymmetry uses the potentially
@@ -1229,8 +1240,8 @@ captured analytical framework to assess whether the analytical framework
 has been captured; this is circular. The detection action mode is
 probe-sense-respond: propose alternative interpretive frameworks,
 observe whether the system resists them, and use the resistance pattern
-as the detection signal. Relational asymmetry (Class 4) is typically a
-Complex-domain detection problem. The relational layer is by definition
+as the detection signal. Relational asymmetry (Class 4) presents as a
+Complex-domain detection problem in most coordination contexts. The relational layer is by definition
 not in the formal record; detection depends on structural inference from
 patterns that emerge over time. The detection action mode is
 probe-sense-respond: observe whether formal outcomes consistently
@@ -1243,8 +1254,8 @@ it can be searched for) and Complex (before the category is named,
 detection requires probing for absences that the current taxonomy cannot
 specify). The initial detection action mode is probe-sense-respond; once
 an omission pattern is identified and named, subsequent detection shifts
-to sense-analyze-respond. Complexity asymmetry (Class 6) is typically a
-Complicated-domain detection problem, analyzable through comparison of
+to sense-analyze-respond. Complexity asymmetry (Class 6) presents as a
+Complicated-domain detection problem in most coordination contexts, analyzable through comparison of
 governance record complexity against the complexity level of the
 decisions being made and the participation distribution across
 complexity strata. The detection action mode is sense-analyze-respond,
@@ -1286,7 +1297,59 @@ complex action mode. See: Structural Consent and Legibility Standard,
 Section 6.4 for the general principle of Cynefin action mode
 calibration.
 
-**Section 5: Scope and Limitations**
+**Section 5: Extension Classes and Scope**
+
+**Extension Class Specifications**
+
+Two of the three extension classes specified here (Generative Asymmetry and Cryptographic Asymmetry) were named in v0.1 of this standard as satisfying the four validity criteria in Section 2. Their mechanism descriptions, regulatory precedents, and detection surfaces have not yet been formally written. Both are stubs: they are named, their validity claims have been entered into the governance record, but they are not specified to the level required for instrumentation in a detection architecture. A third extension class, Descriptive Capacity Asymmetry, is fully specified here.
+
+**Extension Class A: Generative Asymmetry**
+
+*Specification status: stub. Full specification pending.*
+
+Generative Asymmetry was named as an extension class in v0.1 of this standard. It was assessed at that time as satisfying the four validity criteria: distinct mechanism, documented evidence of the mechanism in real coordination contexts, distinct detection surface, and orthogonality to existing primary classes. The full mechanism description, regulatory precedent, detection surface specification, Cynefin domain classification, and boundary argument against existing primary classes remain to be written.
+
+Until this specification is complete, Generative Asymmetry may not be used in a conforming detection architecture as a named class. Reference to it in governance documentation should be accompanied by a note that the class specification is pending.
+
+**Extension Class B: Cryptographic Asymmetry**
+
+*Specification status: stub. Full specification pending.*
+
+Cryptographic Asymmetry was named as an extension class in v0.1 of this standard. It was assessed at that time as satisfying the four validity criteria. The full mechanism description, regulatory precedent, detection surface specification, Cynefin domain classification, and boundary argument against existing primary classes remain to be written.
+
+Until this specification is complete, Cryptographic Asymmetry may not be used in a conforming detection architecture as a named class. Reference to it in governance documentation should be accompanied by a note that the class specification is pending.
+
+**Extension Class C: Descriptive Capacity Asymmetry**
+
+*Specification status: fully specified.*
+
+Descriptive Capacity Asymmetry arises when differential linguistic, epistemic, and ontological frameworks between parties create a perception gap prior to interpretation. The asymmetric party does not merely frame the same phenomenon differently; their framework does not generate the categories required to perceive the phenomenon at all. This distinguishes it from Interpretive Asymmetry (Class 3), which assumes a shared phenomenon interpreted through different analytical lenses. Descriptive Capacity Asymmetry is prior to interpretation: the gap is not in how the phenomenon is understood but in whether it registers in the first place.
+
+The mechanism is a cascade. Language, epistemology, and ontology are mutually constitutive rather than independent. A vocabulary limitation constrains the epistemic questions that can be formed, which constrains the ontological commitments that can be held, which in turn constrains the vocabulary available for further description. Because the three components are mutually reinforcing, a gap at one level propagates through the others. The cascade operates in both directions: a party with richer frameworks in a domain can perceive phenomena that a party with narrower frameworks cannot, and the narrower party cannot perceive the gap without acquiring some degree of the richer framework.
+
+When a measurement system operates as a governance participant, the system's own vocabulary limitations fall within this class. A measurement architecture that cannot perceive certain coordination phenomena does not merely fail to measure them; it produces a coordination record that is systematically silent about them. That silence appears as absence rather than limitation. Governance actors relying on the record inherit the system's perceptual constraint without knowing the constraint exists.
+
+***Documented Evidence***
+
+The mechanism has been observed in cross-cultural governance settings where one cultural-epistemological tradition's categories for describing coordination relationships have no counterpart in the governance framework being applied. The United Nations Declaration on the Rights of Indigenous Peoples (2007) recognizes this mechanism in governance design: its provisions on free, prior, and informed consent rest on the observation that governance frameworks derived from one cultural-ontological tradition systematically fail to perceive coordination relationships that exist within other traditions, producing structural invisibility rather than mere misinterpretation.
+
+Informed consent doctrine in medical ethics and law provides a parallel documentation chain. Canterbury v. Spence (1972) and the subsequent development of the reasonable patient standard shifted the informed consent requirement from disclosure of facts to effective communication within the patient's comprehension framework. The doctrine recognizes that a clinician's technical framework can fulfill disclosure requirements while communicating nothing the patient can actually process. Structural advantage inheres in framework control, not in withholding information.
+
+The organizational research literature on care work and relational labor provides a third documentation site. Multiple studies have documented that coordination activities including emotional labor, mentorship, conflict de-escalation, and knowledge transfer are systematically underrepresented in governance records structured around formal role performance and documented decisions. The undercounting is not attributable to the absence of the activity; it results from the measurement framework's categorical structure, which does not generate entries for those activities.
+
+***Detection Surface***
+
+Descriptive Capacity Asymmetry produces three characteristic signals in a coordination record.
+
+First, systematic undercounting: the measurement architecture produces consistent zero or near-zero counts for a category of coordination activity while qualitative evidence (participant testimony, dispute patterns, informal documentation) indicates that activity is occurring. The undercounting is concentrated in specific domains rather than distributed across the record, and it aligns with the coordination activities of a specific participant subpopulation.
+
+Second, mutual legibility failure: communication breakdowns between parties that persist despite demonstrated good faith on both sides and that cannot be attributed to intent, information withholding, or translation error. Each party believes it has communicated clearly; the breakdown continues because the frameworks generating their descriptions do not share common perceptual ground. Mutual legibility failure is distinguishable from Class 3 (Interpretive Asymmetry) because in Class 3, both parties can in principle identify the phenomenon and their disagreement is about its significance. In Descriptive Capacity Asymmetry, one party's account includes phenomena the other party's framework does not make available for observation.
+
+Third, framework-congruence concentration: governance outcomes are systematically better for parties whose coordination activities are legible to the measurement framework, independently of the quality or quantity of their coordination activity. Framework-congruent parties receive higher detection rates, earlier escalation support, and more accurate representation in the coordination record. This concentration is detectable by comparing governance outcomes across participant subgroups while controlling for activity level.
+
+This class is a Complex-domain detection problem (probe-sense-respond). The detection architecture is itself subject to the asymmetry it is designed to detect: a system whose vocabulary cannot perceive certain coordination phenomena will also have difficulty detecting its own perceptual limits. Detection therefore requires iterative probing against anomalous absence signals, with vocabulary audits of the measurement system as a component of the detection process rather than a precondition for it.
+
+**Scope and Limitations**
 
 This classification standard is domain-general by design. The six
 classes and their detection surfaces are derived from documented
@@ -1330,7 +1393,7 @@ companion specifications.
 
 **Section 6: Tiered Adoption**
 
-This standard can be adopted at five tiers. The tiers describe the organization's
+This standard can be adopted at five tiers. The tier names use the prefix IACS (Information Asymmetry Classification Standard). The tiers describe the organization's
 accountability loop closure around information asymmetry detection, from initial
 mapping through independent auditability.
 
@@ -1366,6 +1429,19 @@ classification for each class per Section 4.1, and appropriate action mode
 Complicated-domain classes). The detection architecture is disclosed to the
 system's participant population.
 
+When Extension Class C (Descriptive Capacity Asymmetry) is applicable and the
+system produces documents directed at a participant population, the detection
+architecture must additionally declare the audience's linguistic, epistemic,
+and ontological baseline against which document production is calibrated. This
+requirement is not optional at Tier 3: all three Extension Class C detection
+surfaces (systematic undercounting of participant knowledge states, mutual
+legibility failure between framework vocabularies, and framework-congruence
+concentration in structural outputs) require a declared reference baseline to
+instrument. A detection architecture that records Extension Class C signals
+without a declared audience baseline is measuring against an unspecified
+reference point; its outputs have a precision deficit in the instrument itself,
+not only in the signal being observed.
+
 **Tier 4: IACS-Accountable.** Detection at IACS-Instrumented produces mandatory
 governance response. Detected asymmetry signals trigger defined review with
 documented outcomes. Governance inaction in the presence of a detection output
@@ -1400,42 +1476,7 @@ The audit itself must be documented: scope, period, auditor identity or body, fi
 
 IACS-Auditable systems must make audit reports available to their participant population within a defined period after audit completion. The disclosure period is specified by the system and subject to the same precision requirements as all other IACS obligations.
 
-**Section 7: Relationship to the Commitment Standards within the Structural Integrity Layer**
-
-This standard is one of the five Commitment Standards within the Structural Integrity
-Layer: the Precision-First Design Standard, the Adverse-Signal Engagement
-Principle Core Standard, the Structural Consent Legibility Standard, the
-Information Asymmetry Classification Standard, and the Structural Power
-Distribution Standard. Each standard addresses a distinct failure mode. Each is
-independently valid: no standard requires the others for its own validity. Together,
-they form a reinforcing set. A system that satisfies all five has addressed the
-structural conditions under which accountability failure becomes predictable.
-
-Systems adopting any one of the five Commitment Standards are strongly recommended to adopt
-all five. The full Commitment Standards designation applies to systems that
-adopt all five at Tier 4 (Accountable) or above. The designation
-is descriptive: a system either satisfies all five standards at Tier 4 or above, or
-it does not. Partial adoption at any tier is a legitimate developmental stage;
-claiming full Commitment Standards conformance on the basis of partial adoption is structural exposure
-theater. Partial adopters should produce a structural exposure disclosure naming
-which standards have not been adopted and what structural exposure that leaves.
-
-A structural exposure disclosure must contain four elements to be substantive. First, the disclosure must name each standard not adopted or not yet at Tier 4, using its full canonical name. Second, for each absent standard, the disclosure must describe in plain language the specific failure mode class that standard addresses and what becomes structurally undetectable in its absence. Third, for each absent standard, the disclosure must state a self-assessed exposure level (low, medium, or high) with a rationale sufficient for an independent reader to evaluate the assessment. Fourth, for each absent standard where compensating controls exist, the disclosure must name those controls, describe their mechanism, and explain why they are considered adequate for the assessed exposure level. Where no compensating controls exist, the disclosure must say so explicitly. A disclosure that satisfies the form without the substance is itself a precision deficit under the Precision-First Design Standard. The full conformance theater prevention architecture is specified in the Proof of Coordination Architecture document.
-
-The Sensemaking Layer Standard governs an organization's capacity to perceive and
-apply all five Commitment Standards with understanding. It is architecturally distinct from the
-Commitment Standards: the Commitment Standards specify what the organization does; the sensemaking layer
-addresses whether the organization can perceive what it is doing well enough to
-apply the Commitment Standards with understanding.
-
-The interaction between this standard and the Structural Power Distribution
-Standard is significant: interpretive asymmetry (Class 3) is the information-
-dimension expression of what the Structural Power Distribution Standard measures
-as interpretive capacity concentration in the coordination dimension. Systems
-applying both standards in the coordination domain will detect the same underlying
-structural condition from two angles, which strengthens classification confidence.
-
-**Section 8: Inheritance Clause**
+**Section 7: Inheritance Clause**
 
 Systems adopting this standard should include the following statement in their
 governance documentation:
@@ -1454,15 +1495,55 @@ signals subject to the system's adverse signal processing, and (d) specifying wh
 classes are applicable and which are not, with rationale, so that the adoption
 scope is explicit and auditable.
 
-Adoption of this standard at any tier below the full Commitment Standards threshold (Tier 4 across all five Commitment Standards) does not constitute full Commitment Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim, per the specification in the Proof of Coordination Architecture document.
+Adoption of this standard at any tier below the full Tensegrity Compressive Standards threshold (Tier 4 across all five Tensegrity Compressive Standards) does not constitute full Tensegrity Compressive Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim, per the specification in the Proof of Coordination Architecture document.
+
+Relationship To Other Standards
+
+The closest functional adjacency is with the Structural Consent Legibility Standard: information asymmetry is a precondition for consent failures, and the six asymmetry classes provide the diagnostic vocabulary for identifying which structural conditions make consent uninformed. The Structural Power Distribution Standard addresses related terrain: power differentials generate positional and relational asymmetry as classified in this standard's primary taxonomy.
+
+Tensegrity As A Whole
+
+The Coordination Structural Integrity Suite operates as a tensegrity: the Tensegrity Compressive Standards specify structural floors and close exploitation vectors; the Tensegrity Generative Standards specify the enabling conditions under which coordination capacity develops and sustains those floors. This standard is compressive.
+
+```
+Coordination Structural Integrity Suite
+│
+├── Tensegrity Compressive Standards (5)
+│   ├── Precision-First Design Standard
+│   ├── Adverse Signal Engagement Principle Core Standard
+│   ├── Structural Consent Legibility Standard
+│   ├── Information Asymmetry Classification Standard        ← this standard
+│   └── Structural Power Distribution Standard
+│
+└── Tensegrity Generative Standards (3)
+    ├── Sensemaking Standard
+    ├── Four Batteries Capacity Standard
+    └── Conflict Transformation Standard
+```
+
+Without this standard the suite has no mechanism for classifying which specific type of information asymmetry is present. A system can acknowledge that information asymmetry exists without diagnosing its structural source, and an unclassified asymmetry cannot be addressed structurally.
+
+Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the eight standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 Changelog
+
+v0.1.17 (March 2026): Tier 3 audience baseline declaration obligation added. When Extension Class C (Descriptive Capacity Asymmetry) is applicable in document production contexts, the Tier 3 minimum requirement now includes a declared audience baseline covering linguistic, epistemic, and ontological dimensions. Rationale: all three Extension Class C detection surfaces require a reference baseline to instrument; without one, detection outputs have a precision deficit in the instrument itself. One paragraph added to Section 6 Tier 3. No other normative changes.
+
+v0.1.16 (March 2026): Precision improvement in Section 9 detection framework mapping. Six instances of "typically" replaced with "in most coordination contexts" to remove weasel quantification from guidance-level domain classifications. No normative content changes.
+
+v0.1.15 (March 2026): Suite rename ("Coordination Structural Integrity Suite" replaces "Structural Integrity Layer" throughout). Added "Relationship To Other Standards" and "Tensegrity As A Whole" sections, replacing Section 12.
+
+v0.1.14 (March 2026): Change 3 of anisotropy sequence. Typological declaration (Variant B) added to Scope and Intended Audience section. Operative classes: epistemic-perceptual (asymmetry classification, precision/operationalization sub-aspects), relational-topological (positional relational structure of asymmetry). Boundary classes: felt-experience, structural-mechanical, temporal-dynamic (frequency-dynamic sub-aspect). Map version v0.1.1 cited.
+
+v0.1.13 (March 2026): Terminology update. "Commitment Standards" renamed to "Tensegrity Compressive Standards" throughout. No normative content changes.
+
+v0.1.12 (March 2026): Added extension class specifications to Section 5, which is retitled "Extension Classes and Scope." Three extension classes now specified: Generative Asymmetry and Cryptographic Asymmetry (both stubs, full specifications pending), and Descriptive Capacity Asymmetry (fully specified). Descriptive Capacity Asymmetry: mechanism is differential linguistic-epistemic-ontological frameworks creating a perception gap prior to interpretation; distinguished from Class 3 (Interpretive Asymmetry) because the phenomenon is not perceived at all rather than differently interpreted; cascade coupling (language, epistemology, ontology are mutually constitutive) means a gap at one level propagates through the others; measurement systems operating as governance participants fall within scope when their vocabulary limitations produce systematic silence in the coordination record; documented evidence from indigenous governance (UNDRIP, 2007), informed consent doctrine (Canterbury v. Spence, 1972), and care work research; detection surface: systematic undercounting, mutual legibility failure, framework-congruence concentration; Cynefin domain Complex (probe-sense-respond). Preamble updated from "Two extension classes are already specified" to "Three extension classes are specified in Section 5" with stub status noted for Generative and Cryptographic. Stubs include explicit notice that neither may be used in a conforming detection architecture until full specifications are written.
 
 v0.1.11 (March 2026): Added named sub-pattern "Distributed Monoculture" to Class 3 (Interpretive Asymmetry). The sub-pattern names the failure mode in which epistemic distribution is formal but independence is absent, because participant pools share training, priors, or optimization targets sufficiently to produce consensus with a collective blind spot. Distinguishes from canonical single-actor Class 3 capture: distributed monoculture has no identifiable capture point and is structurally invisible to concentration metrics. Identifies Schelling-point mechanisms as a specific site of vulnerability: when the participant pool contains a systematic blind spot, the Schelling equilibrium lands at the blind spot rather than at reality, and the mechanism cannot detect this from the inside. Names Deep Funding (Mehta, Lesaege, Niemerg, 2026) as a live observable reference case. Includes observable condition for empirically testing whether the failure mode is active in a given evaluation system. No changes to the six-class taxonomy structure, existing detection surfaces, extension framework, tiered adoption, or inheritance clause.
 
 v0.1.10 (March 2026): Pre-release fix. Section 7: removed "(forthcoming)" from Proof of Coordination Architecture document reference, completing the intent of the v0.1.9 pass (which removed it from Section 8 but missed Section 7). No changes to normative content.
 
-v0.1.9 (March 2026): Structural Integrity Layer naming propagation. Updated Section 7 heading from "Relationship to the Structural Integrity Pentad" to "Relationship to the Commitment Standards within the Structural Integrity Layer." Updated Section 7 body: replaced structural integrity pentad designation language with full Commitment Standards designation language throughout; "one of five standalone standards that form the structural integrity pentad" replaced with "one of the five Commitment Standards within the Structural Integrity Layer." Updated Sensemaking Layer Standard relationship note to reference Commitment Standards. Updated theater prevention clause in Section 8 and removed "(forthcoming)" from Architecture document reference. No changes to normative content.
+v0.1.9 (March 2026): Coordination Structural Integrity Suite naming propagation. Updated Section 7 heading from "Relationship to the Structural Integrity Pentad" to "Relationship to the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite." Updated Section 7 body: replaced structural integrity pentad designation language with full Tensegrity Compressive Standards designation language throughout; "one of five standalone standards that form the structural integrity pentad" replaced with "one of the five Tensegrity Compressive Standards within the Coordination Structural Integrity Suite." Updated Sensemaking Layer Standard relationship note to reference Tensegrity Compressive Standards. Updated theater prevention clause in Section 8 and removed "(forthcoming)" from Architecture document reference. No changes to normative content.
 
 v0.1.8 (March 2026): Pre-publication consistency pass. Added "Section 1:" prefix to Preamble heading, "Section 2:" prefix to Taxonomy Architecture heading, and "Section 3:" prefix to The Six Primary Classes heading, making section numbering consistent throughout (Sections 1-8 now uniformly numbered). Added "(forthcoming)" notation to both references to the Proof of Coordination Architecture document (Section 7 and Section 8 inheritance clause). No changes to normative content.
 

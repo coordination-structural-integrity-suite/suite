@@ -1,6 +1,6 @@
 Structural Power Distribution Standard: A Framework for Assessing Centralization, Decentralization, and the Dimensions They Conflate
 
-**Version:** v0.1.7
+**Version:** v0.1.12
 
 **Date:** March 2026
 
@@ -8,7 +8,7 @@ Structural Power Distribution Standard: A Framework for Assessing Centralization
 
 **Status:** Working draft. Foundational framework, three dimensions, invariants, change classification architecture, detection architecture, and tiered adoption are specified. Concentration threshold calibration and coopetition-specific detection signatures require pilot data. Cross-organizational power distribution in multi-protocol contexts is an open design question.
 
-**Companion Standards:** This standard is designed for use alongside a precision-in-specification standard, an adverse signal engagement standard, a structural consent standard, and an information asymmetry classification standard. See Section 9 for the structural integrity architecture. Each companion standard is independently adoptable; joint adoption at the highest tier of each constitutes the pentad.
+**Companion Standards:** This standard is designed for use alongside a precision-in-specification standard, an adverse signal engagement standard, a structural consent standard, and an information asymmetry classification standard. See Section 9 for the structural integrity architecture. Each companion standard is independently adoptable; joint adoption at the highest tier of each constitutes the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite.
 
 ---
 
@@ -21,6 +21,17 @@ This standard establishes a framework for assessing power distribution that take
 The standard addresses a specific failure mode: structural power accumulating across one or more dimensions in ways that exceed authorized concentration levels, regardless of whether that accumulation is intentional. Structural power can accumulate through drift, through deliberate strategic action, through network effects, or through the gradual erosion of the conditions that made distribution possible at founding. The mechanism differs. The structural outcome is the same: governance that cannot verify its own distribution claims cannot correct for concentration it cannot see.
 
 The standard is transferable. It is designed for adoption by any coordination system, governance protocol, or organization that needs to assess whether its power distribution is structurally present rather than merely claimed. Adoption tiers (Section 7) allow organizations to adopt the standard at the level appropriate to their operational context.
+
+**Typological declaration** (Descriptive Typology Map v0.1.1)
+
+*Operative classes*
+- Relational-topological: This standard operates primarily in this class. Power distribution is a property of the structural topology of authority relationships: where decision-making formally resides (Locus of Authority), how coordination and integration are structured (Degree of Coordination and Integration), and how specialization and differentiation are distributed (Degree of Specialization and Differentiation). All three dimensions are relational-topological properties.
+- Epistemic-perceptual: This standard operates in the precision and operationalization sub-aspect: decomposing "centralization" and "decentralization" into independently checkable structural conditions. It also addresses detection: specifying the observable criteria by which power concentration becomes visible to an independent observer.
+
+*Boundary classes*
+- Felt-experience: This standard assesses structural power distribution but does not address what it feels like to be a participant in a power-concentrated or power-distributed system. Whether distribution is experienced as equitable or empowering is outside this standard's vocabulary.
+- Structural-mechanical: This standard does not address how power concentration modifies pre-stress distribution, creates load-bearing asymmetries in the tensegrity configuration, or affects the configuration's anisotropy profile.
+- Temporal-dynamic (frequency-dynamic sub-aspect): This standard addresses structural conditions for power distribution but not how governance structures respond to the frequency or rhythm of concentration pressure over time.
 
 ---
 
@@ -104,7 +115,7 @@ The absence of an authorized distribution profile is itself a finding: systems t
 
 4.2 Authorize
 
-Concentration that exceeds authorized thresholds in any dimension requires legitimate authorization from the affected constituency before it is ratified as an intended structural condition rather than a deviation requiring correction. "Legitimate authorization" satisfies the Structural Consent Legibility Standard's three invariants: the affected constituency is identified, has a meaningful opportunity to authorize or refuse, and the consent record is verifiable.
+Concentration that exceeds authorized thresholds in any dimension requires legitimate authorization from the affected constituency before it is ratified as an intended structural condition rather than a deviation requiring correction. "Legitimate authorization" requires that: the affected constituency is identified before the ratification event, each identified member of the affected constituency has a documented opportunity to record their authorization or refusal before ratification occurs, and the authorization record is durable and accessible to the affected constituency.
 
 Concentration that occurred through drift rather than deliberate action is not exempt from this invariant. The authorization requirement applies to the structural condition, not to the mechanism through which it arose. A system that detects unauthorized concentration and ratifies it without affected constituency consent has performed authorization theater rather than legitimate authorization.
 
@@ -149,6 +160,8 @@ Strategic pivot triggers the Authorize invariant process if not already complete
 ---
 
 6\. Detection Architecture
+
+The tier names in this standard use the prefix SPDS (Structural Power Distribution Standard).
 
 Systems adopting this standard at the SPDS-Instrumented tier must implement a detection architecture that instruments all three dimensions. Detection is probabilistic: the detection layer flags signals for review and classification, not adjudication. Each dimension has a composite signal model.
 
@@ -268,22 +281,6 @@ The interaction between them is significant for the coordination dimension speci
 
 9\. Structural Integrity Architecture
 
-9.1 The Commitment Standards within the Structural Integrity Layer
-
-This standard is the fifth of the five Commitment Standards within the Structural Integrity Layer. The full set consists of: a precision-in-specification standard (governing how proposals, records, and outputs are described), an adverse signal engagement standard (governing how anomalies are detected, named, and navigated), a structural consent standard (governing how consent is identified, authorized, and verified), an information asymmetry classification standard (governing how information-dimension power is classified and detected), and this standard (governing how structural power is distributed, monitored, and classified across organizational dimensions).
-
-Each standard is independently valid. No standard requires the others for its own validity. Cross-adoption is recommended but not required. Systems adopting any one of the five Commitment Standards at its highest level are strongly recommended to adopt all five. The full Commitment Standards designation applies to systems that adopt all five at Tier 4 (Accountable) or above. The designation is descriptive: a system either satisfies all five standards at Tier 4 or above, or it does not. Partial adoption at any tier is a legitimate developmental stage; claiming full Commitment Standards conformance on the basis of partial adoption is structural exposure theater. Partial adopters should produce a structural exposure disclosure naming which standards have not been adopted and what structural exposure that leaves.
-
-A structural exposure disclosure must contain four elements to be substantive. First, the disclosure must name each standard not adopted or not yet at Tier 4, using its full canonical name. Second, for each absent standard, the disclosure must describe in plain language the specific failure mode class that standard addresses and what becomes structurally undetectable in its absence. Third, for each absent standard, the disclosure must state a self-assessed exposure level (low, medium, or high) with a rationale sufficient for an independent reader to evaluate the assessment. Fourth, for each absent standard where compensating controls exist, the disclosure must name those controls, describe their mechanism, and explain why they are considered adequate for the assessed exposure level. Where no compensating controls exist, the disclosure must say so explicitly. A disclosure that satisfies the form without the substance is itself a precision deficit under the Precision-First Design Standard. The full conformance theater prevention architecture is specified in the Proof of Coordination Architecture document (forthcoming).
-
-9.2 The Sensemaking Layer
-
-The five Commitment Standards specify structural requirements: what must be true about how things are described, how signals are processed, how consent is verified, how information asymmetry is classified, and how power is distributed. A sixth standard, the Sensemaking Layer Standard, functions as the meta-layer governing an organization's capacity to perceive and apply all five Commitment Standards with understanding rather than compliance. A system that installs all five standards without the sensemaking capacity to read whether they are functioning has a governance checklist, not governance wisdom.
-
-The sensemaking standard is architecturally distinct from the Commitment Standards: the Commitment Standards address what the organization does; the sensemaking standard addresses whether the organization can perceive what it is doing well enough to apply the Commitment Standards with understanding. The two layers are independently assessable, and this independence is a design requirement: if the only evidence of sufficient sensemaking capacity were full Commitment Standards conformance, the sensemaking standard would be circular. Independent observables for sensemaking capacity must be specifiable before Commitment Standards adoption, so that sensemaking development can be measured and used to predict effectiveness.
-
----
-
 10\. Inheritance Clause
 
 Systems adopting this standard should include the following statement in their governance documentation:
@@ -292,13 +289,13 @@ Systems adopting this standard should include the following statement in their g
 
 The inheritance clause commits the adopting system to: (a) establishing an authorized distribution profile across all three dimensions, (b) satisfying the three invariants (Distribute, Authorize, Monitor) at the adopted tier, (c) treating unauthorized concentration as an adverse signal subject to its adverse signal processing, (d) applying the change classification architecture to detected concentration shifts, and (e) disclosing the detection architecture to its participant population as a condition of operating at the SPDS-Instrumented tier.
 
-Adoption of this standard at any tier below the full Commitment Standards threshold (Tier 4 across all five Commitment Standards) does not constitute full Commitment Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim, per the specification in the Proof of Coordination Architecture document.
+Adoption of this standard at any tier below the full Tensegrity Compressive Standards threshold (Tier 4 across all five Tensegrity Compressive Standards) does not constitute full Tensegrity Compressive Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim, per the specification in the Proof of Coordination Architecture document.
 
 ---
 
 10.1 Precision-First Inheritance
 
-*Precision-First Inheritance: This document adopts the Precision-First Design Standard (v1.5.4, March 2026) at the PFDS-Instrumented tier. Every element of this document is subject to that standard at the declared tier. Any revision that reduces definitional precision, replaces typed constructs with vague terms, collapses previously distinguishable states, or makes a falsifiable claim unfalsifiable is a design error requiring correction, not a legitimate exercise of governance or editorial discretion.*
+*Precision-First Inheritance: This document adopts the Precision-First Design Standard at the PFDS-Instrumented tier. Every element of this document is subject to that standard at the declared tier. Any revision that reduces definitional precision, replaces typed constructs with vague terms, collapses previously distinguishable states, or makes a falsifiable claim unfalsifiable is a design error requiring correction, not a legitimate exercise of governance or editorial discretion.*
 
 ---
 
@@ -312,23 +309,63 @@ The following questions are structurally required by this standard but not yet f
 
 **11.3 Cross-organizational power distribution.** In multi-protocol and DAO-to-DAO contexts, power distribution cannot be assessed within a single system boundary. An actor cluster with distributed authority within each individual system may hold concentrated authority across the combined system through overlapping participation. Cross-organizational power distribution assessment requires a detection architecture that spans system boundaries, which this standard does not yet specify.
 
-**11.4 Sensemaking standard independence criterion.** Section 9.2 establishes that the sensemaking standard requires independent observables for sensemaking capacity that are distinct from pentad compliance. Specifying those observables is an open design question for the sensemaking standard that must be resolved before the pentad-plus-sensemaking architecture can be fully operationalized.
+**11.4 Sensemaking standard independence criterion.** Section 9.2 establishes that the sensemaking standard requires independent observables for sensemaking capacity that are distinct from Tensegrity Compressive Standards conformance. Specifying those observables is an open design question for the sensemaking standard that must be resolved before the Tensegrity Compressive Standards-plus-sensemaking architecture can be fully operationalized.
 
 **11.5 Constraint-type determination is outside this standard's scope.** This standard operates within an existing constraint structure. It assesses whether power distribution is structurally present, detects unauthorized concentration, and specifies response obligations when concentration is detected. It does not address who controls the upstream determination of what type of constraints apply to a given practice area or governance decision: whether a domain is governed by enabling constraints (probing, emergent practice) or governing constraints (standardized, best practice), and whether that classification is made by legitimate governance or by interest, ideology, or structural position.
 
 Constraint-type determination is a consequential power: the choice of constraint type governs what counts as a valid response and what counts as deviation. A system where constraint-type determination is ungoverned has a structural power concentration point that this standard's three-dimension framework does not reach, because the determination operates upstream of the governance activity the standard monitors.
 
-This is a named scope boundary, not a design oversight. The reason a new standard is not the straightforward answer is the recursive closure problem: any standard specifying who governs constraint-type determination requires a prior determination of what type of constraints govern that meta-governance function, producing infinite regress. The appropriate response to this recursion is tensegrity rather than specification: continuous monitoring of constraint-type determination by a detection layer capable of identifying when enabling-constraint domains are being treated as governing-constraint domains (and vice versa), producing signals that call for governance response rather than automated enforcement. The Witness Layer's tensional state monitoring function is the candidate architecture for this signal.
+This is a named scope boundary, not a design oversight. The reason a new standard is not the straightforward answer is the recursive closure problem: any standard specifying who governs constraint-type determination requires a prior determination of what type of constraints govern that meta-governance function, producing infinite regress. The appropriate response to this recursion is tensegrity rather than specification: continuous monitoring of constraint-type determination by a detection layer capable of identifying when enabling-constraint domains are being treated as governing-constraint domains (and vice versa), producing signals that call for governance response rather than automated enforcement. A detection layer's tensional state monitoring function is the candidate architecture for this signal.
+
+---
+
+Relationship To Other Standards
+
+The closest functional adjacency is with the Adverse Signal Engagement Principle Core Standard: power concentration is a structural condition that suppresses adverse signals, and the two standards together address both the suppression mechanism and the engagement requirement. The Information Asymmetry Classification Standard addresses adjacent territory: power differentials generate positional and relational asymmetry as classified in its primary taxonomy.
+
+Tensegrity As A Whole
+
+The Coordination Structural Integrity Suite operates as a tensegrity: the Tensegrity Compressive Standards specify structural floors and close exploitation vectors; the Tensegrity Generative Standards specify the enabling conditions under which coordination capacity develops and sustains those floors. This standard is compressive.
+
+```
+Coordination Structural Integrity Suite
+│
+├── Tensegrity Compressive Standards (5)
+│   ├── Precision-First Design Standard
+│   ├── Adverse Signal Engagement Principle Core Standard
+│   ├── Structural Consent Legibility Standard
+│   ├── Information Asymmetry Classification Standard
+│   └── Structural Power Distribution Standard               ← this standard
+│
+└── Tensegrity Generative Standards (3)
+    ├── Sensemaking Standard
+    ├── Four Batteries Capacity Standard
+    └── Conflict Transformation Standard
+```
+
+Without this standard, advantage can accumulate across the three dimensions (authority, coordination, specialization) in ways that governance documents do not reflect and participants cannot contest. The other four compressive standards address their respective failure modes, but none addresses the structural mechanism by which advantage accumulates across multiple organizational dimensions simultaneously.
+
+Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the eight standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 ---
 
 Changelog
 
+**v0.1.12 (March 2026):** Suite rename ("Coordination Structural Integrity Suite" replaces "Structural Integrity Layer" throughout). Added "Relationship To Other Standards" and "Tensegrity As A Whole" sections, replacing Section 12.
+
+**v0.1.11 (March 2026):** Precision-First compliance fix. Invariant 4.2: removed cross-reference to the Structural Consent Legibility Standard. "Legitimate authorization" is now defined self-containedly within this standard. Replaced "meaningful opportunity to authorize or refuse" (not independently verifiable) with a temporal/structural observable: affected constituency identified before ratification, each member has a documented opportunity to record authorization or refusal before ratification occurs, authorization record is durable and accessible. Standards independence preserved: this standard can now be adopted without reference to any other standard for compliance with the Authorize invariant.
+
+**v0.1.10 (March 2026):** Change 3 of anisotropy sequence. Typological declaration (Variant B) added to Section 1 (Purpose). Operative classes: relational-topological (primary, three-dimensional power topology), epistemic-perceptual (precision/operationalization, detection sub-aspects). Boundary classes: felt-experience, structural-mechanical, temporal-dynamic (frequency-dynamic sub-aspect). Map version v0.1.1 cited.
+
+**v0.1.9 (March 2026):** Terminology update. "Commitment Standards" renamed to "Tensegrity Compressive Standards" throughout. No normative content changes.
+
+**v0.1.8 (March 2026):** Generalization pass completing work left unfinished in v0.1.5. Five fixes, no normative content changes. (1) Header companion standards: "constitutes the pentad" replaced with "constitutes the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite." Missed in v0.1.5 naming propagation. (2) Section 11.4: "distinct from pentad compliance" replaced with "distinct from Tensegrity Compressive Standards conformance"; "pentad-plus-sensemaking architecture" replaced with "Tensegrity Compressive Standards-plus-sensemaking architecture." Two additional naming misses from v0.1.5. (3) Section 9.1: removed "(forthcoming)" from Proof of Coordination Architecture reference. v0.1.5 removed this from Section 10 but missed Section 9.1. (4) Section 10.1: Precision-First inheritance clause version citation updated from v1.5.4 to v1.5.6. (5) Section 11.5: "the Witness Layer's tensional state monitoring function" replaced with "a detection layer's tensional state monitoring function." The Witness Layer is a protocol-specific implementation; the domain-general standard names the function, not the implementation. Consistent with the generalization passes applied to the Adverse-Signal Engagement Principle and other Tensegrity Compressive Standards.
+
 **v0.1.7 (March 2026):** Pre-release fixes. (1) Section 7.4 SPDS-Accountable: governance review record requirement corrected from "(drift, accumulation, or capture per Section 5)" to "(drift, coherent evolution, strategic pivot, or capture per Section 5)." "Accumulation" is not a defined term in Section 5; the four defined classifications are drift, coherent evolution, strategic pivot, and capture. Normative fix: the record requirement now references the standard's actual classification vocabulary. (2) Section 10.1 Precision-First inheritance clause: version citation updated from v1.4.8 to v1.5.4. No other changes to normative content.
 
 **v0.1.6 (March 2026):** Added Section 11.5 (Constraint-type determination is outside this standard's scope). Names the upstream power concentration point this standard does not reach: who controls whether a domain is governed by enabling or governing constraints. States the recursive closure problem as the reason a new standard is not the answer. Identifies tensegrity and Witness Layer tensional state monitoring as the candidate architecture for this signal. No changes to normative content.
 
-**v0.1.5 (March 2026):** Structural Integrity Layer naming propagation. Updated Section 9.1 heading from "The Pentad" to "The Commitment Standards within the Structural Integrity Layer." Updated Section 9.1 body: replaced structural integrity pentad designation language with full Commitment Standards designation language throughout; "fifth of five mutually reinforcing standards" replaced with "fifth of the five Commitment Standards within the Structural Integrity Layer." Updated Section 9.2 sensemaking layer paragraph to reference Commitment Standards rather than pentad throughout. Updated theater prevention clause in Section 10 and removed "(forthcoming)" from Architecture document reference. No changes to normative content.
+**v0.1.5 (March 2026):** Coordination Structural Integrity Suite naming propagation. Updated Section 9.1 heading from "The Pentad" to "The Tensegrity Compressive Standards within the Coordination Structural Integrity Suite." Updated Section 9.1 body: replaced structural integrity pentad designation language with full Tensegrity Compressive Standards designation language throughout; "fifth of five mutually reinforcing standards" replaced with "fifth of the five Tensegrity Compressive Standards within the Coordination Structural Integrity Suite." Updated Section 9.2 sensemaking layer paragraph to reference Tensegrity Compressive Standards rather than pentad throughout. Updated theater prevention clause in Section 10 and removed "(forthcoming)" from Architecture document reference. No changes to normative content.
 
 **v0.1.4 (March 2026):** Pre-publication check pass. Five fixes. (1) Section 7.4 SPDS-Accountable: "defined window" given three validity conditions (specified before adoption, publicly documented, short enough that inaction is detectable before the next governance cycle in which the underlying concentration could compound); governance cycle length required as a co-specified public document alongside the window. (2) Section 9.1 and Section 10: Added "(forthcoming)" notation to both Proof of Coordination Architecture references for consistency with other standards in the stack. (3) Section 11.1: "genesis cohort deliberation" replaced with "empirical calibration through pilot data by any system adopting this standard." (4) Section 10.1 added: Precision-First inheritance clause at PFDS-Instrumented tier. (5) Changelog formatting fix: unclosed bold marker in v0.1.2 entry corrected.
 
