@@ -1,4 +1,4 @@
-# standards
+# Coordination Structural Integrity Suite
 
 Distributed governance is struggling to find solid footing. DAOs and other coordination experiments have failed not because participants were malicious or incompetent, but because the systems lacked structural foundations. These standards specify those foundations.
 
@@ -61,7 +61,7 @@ The "it won't happen to us" assumption is not something these standards argue ag
 
 **Structural Power Distribution Standard:** Requires that structural power arrangements be legible and contestable by participants who hold less of it. Three dimensions: coordination, authority, specialization.
 
-## The three generative standards
+## The three Tensegrity Generative Standards
 
 **Sensemaking Standard:** Specifies what sensemaking must structurally provide for coordination to remain self-correcting. Five structural invariants: disruption-occasioned, particular-to-general relating, action-entangled, sufficiency-oriented, temporally structured. Three operational scales: intra-personal, inter-personal, witness-reception. The standard specifies structural conditions; it does not prescribe method.
 
