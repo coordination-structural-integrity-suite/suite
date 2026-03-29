@@ -2,11 +2,11 @@
 
 **(ASEP)**
 
-*Core Standard v0.6.1*
+*Core Standard v0.7.0*
 
 **Regis Lloyd Chapman (Durgadas)**
 
-Version 0.6.1 \| March 2026
+Version 0.7.0 \| March 2026
 
 # 1. Preamble
 
@@ -543,6 +543,18 @@ body does not reward the people who performed it. This gap is itself
 detectable as a divergence between system-level and member-level
 adverse signal response patterns.
 
+**3.3.9 External governance override**
+
+External authority actions that preempt, override, or delegitimize a system's internal adverse-signal handling process are themselves adverse signals of a specific class. This class includes regulatory interventions that transfer adverse-signal classification authority to an external body without the affected constituency's consent, and authority assertions by external parties that selectively disable portions of the Notice-Name-Navigate sequence.
+
+A conforming implementation must: (a) name external governance override as a recognized signal class in its signal taxonomy; (b) treat recognition of the system's self-governance capacity by relevant external authorities as a detection prerequisite, disclosed where absent; and (c) apply Navigate phase obligations to external governance override signals at the tier appropriate to their structural impact.
+
+The detection prerequisite in (b) requires assessment, not mere absence of challenge. "No external authority has challenged our governance processes" is not a recognition assessment; it is an absence of detected conflict. A conforming recognition assessment documents what external authorities have governance reach over the system's processes and what the current recognition status is. Where recognition is absent, the gap is disclosed as a structural exposure rather than treated as compliance.
+
+This section applies where the system is within a governance jurisdiction where external authority has realistic governance reach. Systems operating below any meaningful regulatory or legal threshold in a given domain are not required to produce a recognition assessment for that domain, but must document the basis for that determination.
+
+The converse failure mode is also a signal class: a coordination system that claims self-governance legitimacy across multiple governance cycles while operating at a scale where external governance reach is structurally possible, and that carries no recognition assessment, has not satisfied this section. Absence of challenge is not recognition.
+
 # 4. Operational Guarantees and Ethical Posture
 
 ## 4.1 Anti‑retaliation
@@ -613,7 +625,9 @@ should:
 
 -   operate in a polycentric and nested fashion, with multiple
     overlapping loci of monitoring and response rather than a single
-    monolithic center.\[23\]\[24\]
+    monolithic center,\[23\]\[24\]
+
+-   recognize that the system's capacity to conduct its own adverse-signal engagement requires minimal recognition by relevant external authorities (Ostrom's seventh design principle), and treat external authority actions that preempt or override that internal capacity as an adverse signal class per Section 3.3.9.
 
 # 5. Adoption Tiers
 
@@ -1149,6 +1163,8 @@ Without this standard the suite has no structural requirement for engaging signa
 Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the eight standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 # Changelog
+
+v0.7.0 (March 2026): Ostrom DP7 addition. Added Section 3.3.9 (External governance override), specifying external governance interference as a named adverse signal class. A conforming implementation must: name external governance override in its signal taxonomy; treat recognition of the system's self-governance capacity by relevant external authorities as a detection prerequisite; and apply Navigate phase obligations to external governance override signals. The detection prerequisite requires an active recognition assessment, not merely the absence of challenge. The converse failure mode (self-governance claims without recognition assessment at sufficient operational scale) is also specified as a signal class. Added fifth bullet to Section 4.6 (Commons-aligned governance) cross-referencing Section 3.3.9. Together these additions address Ostrom's seventh design principle (minimal recognition of rights to organize) at the standards level. Source: Ostrom gap analysis, March 2026.
 
 v0.6.1 (March 2026): Suite rename ("Coordination Structural Integrity Suite" replaces "Structural Integrity Layer" throughout). Added "Relationship To Other Standards" and "Tensegrity As A Whole" sections, replacing the unnumbered cross-standard section.
 

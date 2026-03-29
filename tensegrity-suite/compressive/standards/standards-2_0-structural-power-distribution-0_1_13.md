@@ -1,12 +1,12 @@
 Structural Power Distribution Standard: A Framework for Assessing Centralization, Decentralization, and the Dimensions They Conflate
 
-**Version:** v0.1.12
+**Version:** v0.1.13
 
 **Date:** March 2026
 
 **Author:** Regis Lloyd Chapman (Durgadas)
 
-**Status:** Working draft. Foundational framework, three dimensions, invariants, change classification architecture, detection architecture, and tiered adoption are specified. Concentration threshold calibration and coopetition-specific detection signatures require pilot data. Cross-organizational power distribution in multi-protocol contexts is an open design question.
+**Status:** Working draft. Foundational framework, three dimensions, invariants, change classification architecture, detection architecture, and tiered adoption are specified. Concentration threshold calibration and coopetition-specific detection signatures require pilot data. Cross-organizational power distribution: structural requirements for multi-level contexts established in Sections 3.1 and 4.4; detection architecture for spanning system boundaries remains an open design question (Section 11.3).
 
 **Companion Standards:** This standard is designed for use alongside a precision-in-specification standard, an adverse signal engagement standard, a structural consent standard, and an information asymmetry classification standard. See Section 9 for the structural integrity architecture. Each companion standard is independently adoptable; joint adoption at the highest tier of each constitutes the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite.
 
@@ -83,6 +83,8 @@ The standard extends beyond the Nakamoto Coefficient in three ways. First, the c
 
 Ostrom's third design principle for governing commons provides the structural requirement for the authority dimension: those affected by governance rules must have meaningful participation in modifying them. This is the normative benchmark against which authority distribution is assessed. Authority concentration that excludes affected constituencies from rule modification is a structural failure regardless of the Nakamoto Coefficient's numerical value.
 
+In nested and polycentric governance contexts, the authority dimension extends across levels of the governance structure. Subsidiarity is the normative benchmark for cross-level authority distribution: authority must be held at the lowest level capable of exercising it effectively and accountably. Concentration of authority at levels higher than subsidiarity requires is a structural failure of the same category as intra-level concentration, and triggers the Authorize invariant at each level where it occurs.
+
 3.2 Coordination Dimension: Interpretive Capacity Concentration
 
 The coordination dimension's structural power concern is the concentration of interpretive capacity: the ability to define what coordination mechanisms mean, how they apply, and what falls within or outside their scope. Control of the interpretive layer is structural power that does not require formal authority and does not register in authority-dimension measurements.
@@ -122,6 +124,14 @@ Concentration that occurred through drift rather than deliberate action is not e
 4.3 Monitor
 
 Ongoing detection architecture must instrument all three dimensions continuously. Monitoring establishes trend direction in addition to point-in-time concentration values. The detection architecture must be capable of producing a change classification (Section 5) for any detected concentration shift in any dimension. Monitoring results must be durable, tamper-evident, and accessible to the affected constituency as a condition of the monitoring function's legitimacy.
+
+4.4 Multi-level extension
+
+The Distribute, Authorize, and Monitor invariants apply at each level of any nested or polycentric governance structure in which the adopting system participates. A system embedded within a larger governance structure, or one containing nested subsystems, must assess and document power distribution at each level, not only within its own boundary.
+
+At SPDS-Assessed and below, where cross-boundary detection architecture is not yet specified (see Section 11.3), this invariant is partially satisfied by documented disclosure: the system must identify the cross-boundary exposure, describe what is not yet monitorable, and treat that gap as a structural finding subject to periodic review at each tier review cycle. A current assessment of whether the detection gap has been addressed is required at each review. This provision applies only where the standard itself names an open design question (Section 11.3); it may not be invoked to self-declare compliance gaps for other coverage limitations.
+
+At SPDS-Instrumented, partial compliance by disclosure is not sufficient. A system at this tier must either implement cross-boundary detection architecture or explicitly decline to adopt the multi-level extension. Declining adoption at SPDS-Instrumented is not a compliance gap; it is a scoped adoption decision that requires a structural exposure disclosure specifying what cross-level power distribution the system does not assess and what additional risk that creates.
 
 ---
 
@@ -307,7 +317,7 @@ The following questions are structurally required by this standard but not yet f
 
 **11.2 Coopetition-specific detection signatures.** This standard's detection architecture was designed for cooperative governance contexts. In coopetition contexts, where the same actor is simultaneously a rival for governance influence and a collaborator on shared infrastructure, the concentration signals read differently: a Nakamoto Coefficient decline may represent competitive dynamics rather than capture, and authority concentration may be a coordination response to competitive pressure rather than extraction. Coopetition-specific detection signatures that distinguish these cases are an open design question requiring domain-specific pilot data.
 
-**11.3 Cross-organizational power distribution.** In multi-protocol and DAO-to-DAO contexts, power distribution cannot be assessed within a single system boundary. An actor cluster with distributed authority within each individual system may hold concentrated authority across the combined system through overlapping participation. Cross-organizational power distribution assessment requires a detection architecture that spans system boundaries, which this standard does not yet specify.
+**11.3 Cross-organizational power distribution.** In multi-protocol and DAO-to-DAO contexts, power distribution cannot be assessed within a single system boundary. An actor cluster with distributed authority within each individual system may hold concentrated authority across the combined system through overlapping participation. The structural requirement for cross-level assessment is established in Section 3.1 (subsidiarity as the normative benchmark for cross-level authority distribution) and Section 4.4 (Multi-level extension, applying the three invariants at each level of nested governance structures). The detection architecture for spanning system boundaries remains an open design question: the measurement instruments and monitoring protocols for cross-boundary detection require domain-specific specification before full operationalization.
 
 **11.4 Sensemaking standard independence criterion.** Section 9.2 establishes that the sensemaking standard requires independent observables for sensemaking capacity that are distinct from Tensegrity Compressive Standards conformance. Specifying those observables is an open design question for the sensemaking standard that must be resolved before the Tensegrity Compressive Standards-plus-sensemaking architecture can be fully operationalized.
 
@@ -350,6 +360,8 @@ Each standard in the Coordination Structural Integrity Suite is independently ad
 ---
 
 Changelog
+
+**v0.1.13 (March 2026):** Ostrom DP8 scope extension. Added cross-level authority distribution paragraph to Section 3.1, specifying subsidiarity as the normative benchmark for multi-level contexts: authority must be held at the lowest level capable of exercising it effectively and accountably, and concentration at higher levels triggers the Authorize invariant. Added Section 4.4 (Multi-level extension), extending the Distribute, Authorize, and Monitor invariants to nested and polycentric governance contexts. At SPDS-Assessed and below, cross-boundary exposure may be partially satisfied by documented disclosure under a standard-named provision, subject to periodic review; at SPDS-Instrumented, full implementation or explicit scoped non-adoption with structural exposure disclosure is required. Updated Section 11.3 from a fully open design question to a partially resolved entry: structural requirements are established; detection architecture for spanning system boundaries remains open. Updated Status field accordingly. Source: Ostrom gap analysis, March 2026.
 
 **v0.1.12 (March 2026):** Suite rename ("Coordination Structural Integrity Suite" replaces "Structural Integrity Layer" throughout). Added "Relationship To Other Standards" and "Tensegrity As A Whole" sections, replacing Section 12.
 
