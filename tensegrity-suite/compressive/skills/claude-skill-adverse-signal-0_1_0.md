@@ -13,7 +13,7 @@ This matters because adverse signals accumulate as dismissed noise before they b
 
 ## What the standard requires
 
-Seven structural conditions:
+Eight structural conditions:
 
 1. Signal channels: at least one channel exists for adverse signals from internal participants, external constituencies, technical monitoring, and independent observers. All four source types must have a path in.
 2. Implausible absence: the system does not contain a domain where adverse signals would be structurally expected but where none are recorded. Absence in high-conflict domains is itself a signal requiring engagement.
@@ -22,6 +22,7 @@ Seven structural conditions:
 5. Finite path requirement: every adverse signal must reach one of three outcomes — act, monitor, or formally close with rationale. Dead ends are not permitted.
 6. Inaction visibility: governance inaction on an acknowledged signal must become visible to participants without the cooperation of the inacting party. The inaction itself must be detectable.
 7. Unskilled signal inclusion: emotionally expressed, informal, or "unskilled" complaints are not disqualified from adverse signal status by virtue of their form. The signal is preserved; the form may be addressed separately.
+8. External governance override: external authority actions that preempt or override the system's internal adverse-signal handling process are themselves an adverse signal class requiring engagement. A conforming system names external governance override in its signal taxonomy, maintains a recognition assessment of its self-governance capacity with relevant external authorities (where those authorities have realistic governance reach), and treats the absence of that assessment as a structural exposure. "No external authority has challenged us" is not a recognition assessment.
 
 ## What the standard does not require
 

@@ -29,6 +29,8 @@ Three invariants apply across all dimensions:
 
 **Monitor.** Ongoing detection architecture must instrument all three dimensions continuously, establishing trend direction in addition to point-in-time values. Monitoring results must be durable, tamper-evident, and accessible to the affected constituency.
 
+**Multi-level extension.** All three invariants apply at each level of any nested or polycentric governance structure the system participates in. A system embedded within a larger governance structure, or containing nested subsystems, must satisfy the three invariants not only within its own boundary but at each level. Subsidiarity is the normative benchmark for cross-level authority distribution: authority must be held at the lowest level capable of exercising it effectively and accountably. Concentration at higher levels than subsidiarity requires triggers the Authorize invariant at each level where it occurs. Where cross-boundary detection architecture does not yet exist, the gap must be disclosed as a structural exposure rather than omitted from assessment.
+
 Four change classifications apply to detected concentration shifts: drift (unintentional accumulation without coherent authorization or articulable diagnosis), coherent evolution (gradual refinement with an articulable diagnosis and guiding policy, within authorized thresholds), strategic pivot (intentional departure authorized through legitimate governance), and capture (intentional concentration by a subset, disguised as one of the other three, detectable by consistent benefit to the same actors combined with suppression of dissenting interpretations).
 
 ## What the standard does not require
@@ -52,3 +54,5 @@ It does not address constraint-type determination — the upstream power over wh
 ## The key evaluation question
 
 Is this system's decentralization claim a structural fact or a stated intention? A structural claim can be verified from the architecture without the organization's cooperation. A stated intention cannot. The specific test: can a participant with below-median power across all three dimensions — authority, coordination (interpretive), and specialization — determine who holds more power than them, how that power was acquired, and what recourse they have? If not, the standard is not met regardless of the decentralization claim.
+
+For systems embedded in larger governance structures: are the three invariants satisfied at each level of the nested structure, not only within the system's own boundary? Is authority held at the lowest level capable of exercising it accountably? Where cross-boundary detection does not yet exist, has the gap been disclosed?

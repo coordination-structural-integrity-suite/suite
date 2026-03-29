@@ -35,6 +35,7 @@ Evaluate whether:
 - The definition of what counts as an adverse signal can be changed after a signal has been received
 - Every adverse signal must reach one of three outcomes: act, monitor, or formally close with rationale
 - Governance inaction on an acknowledged signal becomes visible to participants without the cooperation of the inacting party
+- External governance override is named as a signal class; where relevant external authorities have realistic governance reach, a recognition assessment of the system's self-governance capacity exists
 
 ---
 
@@ -79,6 +80,7 @@ Evaluate whether:
 - Ongoing detection architecture instruments all three dimensions continuously, not only at point-in-time assessments
 - Detected concentration shifts are classified as drift, coherent evolution, strategic pivot, or capture
 - The determination of what types of constraints apply to governance domains is itself subject to legitimate governance with affected constituency participation
+- Where the system participates in a nested or polycentric governance structure, the three invariants are applied at each level; subsidiarity governs cross-level authority distribution; cross-boundary exposure is disclosed where detection architecture does not yet exist
 
 ---
 

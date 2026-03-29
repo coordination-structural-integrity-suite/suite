@@ -52,6 +52,8 @@ This document is a Tensegrity Generative Standard within the Coordination Struct
 
 **Relationship to Ostrom's design principles.** This standard addresses Ostrom's design principles 4 (monitoring, with accountability to participants), 5 (graduated sanctions), and 6 (conflict resolution mechanisms providing rapid, low-cost local arenas) at the standards level. These three principles clustered because they are architecturally nested: monitoring detects conditions that graduated response engages, which escalates to conflict resolution when earlier engagement does not resolve. A system with only adjudication at the top of this spine is not missing features; it is missing the spine itself.
 
+Note on Ostrom's fifth design principle: the Adverse-Signal Engagement Principle Core Standard also addresses graduated sanctions independently, from the signal-engagement angle (Section 3.3.2). The two treatments are not redundant: the Adverse-Signal Engagement Principle Core Standard specifies the graduated response to incoming adverse signals as a detection and escalation architecture; this standard specifies the graduated engagement spine through which conflict is transformed rather than merely escalated. A coordination system requires both: the detection architecture that registers the signal and routes it, and the transformation capacity that receives and processes it.
+
 ---
 
 # 3. The Obligation Argument
