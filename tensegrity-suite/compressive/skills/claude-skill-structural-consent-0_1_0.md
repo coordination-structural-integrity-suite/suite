@@ -25,7 +25,7 @@ These three features must be structurally present, not just formally claimed.
 
 Three invariants apply to every consent-bearing action:
 
-**Identify.** The affected constituency — participants whose governance standing, data sovereignty, participation terms, or observation exposure would be materially altered — must be identified before the action proceeds. Absence of standing claims from parties who should be affected is itself an adverse signal.
+**Identify.** The affected constituency — participants whose governance standing, data sovereignty, participation terms, or observation exposure would be materially altered — must be identified before the action proceeds. Absence of standing claims from parties who should be affected is itself an adverse signal. The system must also maintain a durable, accessible definition of who holds participation rights as a structural precondition for per-action identification: without this definition, identification is performed against an implicit, unspecified reference and is not structurally legible. Unilateral modification of that definition by parties holding concentrated authority is itself a consent failure in the governance domain.
 
 **Authorize.** The affected constituency must have a meaningful opportunity to authorize or refuse. Meaningful requires legibility, time, support, and exit/objection cost obligations. Authorization that excludes affected parties or includes unaffected parties who dilute the affected constituency's voice is a consent failure.
 

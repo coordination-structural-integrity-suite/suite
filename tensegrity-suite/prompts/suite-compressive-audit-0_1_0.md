@@ -21,6 +21,7 @@ Evaluate whether:
 - Governance inaction in the presence of a detection output is itself detectable without the cooperation of the inacting party
 - Critical properties depend on multiple structurally distinct mechanisms rather than a single defensive mechanism
 - Each assessment architecture requires a contextual baseline statement before initial assessment when identical measurement outputs would indicate structurally distinct conditions requiring different responses
+- Each normative mechanism adopted from a different structural context carries a baseline statement specifying origin-context conditions, adopting-context conditions, and either a congruence confirmation or calibration adjustments
 
 ---
 
@@ -44,6 +45,7 @@ Evaluate whether:
 Every consent-bearing interaction must answer: who is acting, and who benefits? Negotiated limits, bidirectional awareness, and revocability must all be structurally present.
 
 Evaluate whether:
+- A durable, accessible definition of who holds participation rights exists as a structural precondition for per-action constituency identification; modifications to this definition cannot be made unilaterally by parties holding concentrated authority
 - The affected constituency is identified before consent-bearing actions proceed
 - The consent mechanism answers both "who is acting" and "who benefits from this action"
 - Silence, inaction, and absence of objection are structurally distinguished from authorization
@@ -75,6 +77,7 @@ Power distribution across three independent dimensions — authority, coordinati
 
 Evaluate whether:
 - Decentralization claims are assessed across all three dimensions independently, not only on authority
+- A defined constituency exists as a precondition for the authorized distribution profile; modifications to the constituency definition are treated as authority-dimension concentration events requiring the Authorize invariant
 - An authorized distribution profile exists against which current distribution can be compared
 - Concentration exceeding authorized thresholds has been legitimately authorized by the affected constituency with documented participation
 - Ongoing detection architecture instruments all three dimensions continuously, not only at point-in-time assessments

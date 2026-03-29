@@ -1,6 +1,6 @@
 Structural Consent Legibility Standard
 
-**Version:** v0.3.15
+**Version:** v0.3.16
 
 **Date:** March 2026
 
@@ -254,6 +254,36 @@ chair evaluates objection quality rather than counting votes, but
 distributes the evaluation function to avoid the single-point-of-failure
 that the Internet Engineering Task Force model creates when chairs have
 unchecked discretion.
+
+3.1.2 Constituency Definition as Structural Precondition
+
+The per-action identification requirement in Section 3.1 presupposes
+that the governing system maintains a durable, accessible definition of
+who holds participation rights and on what basis. Without this
+definition, the identification requirement cannot be fully satisfied: an
+affected constituency cannot be identified against a reference that does
+not exist. A system that performs per-action identification without a
+persistent constituency definition is identifying parties against an
+implicit, unspecified reference, which is not structurally legible.
+
+The durable constituency definition must satisfy three conditions.
+First, it must be accessible to any party asserting standing, without
+requiring access from parties holding more authority. Second, it must be
+durable: the definition cannot be modified unilaterally by parties
+holding concentrated authority; any modification that alters who holds
+participation rights is a governance consent action requiring the
+Authorize invariant as applied to the affected constituency whose
+standing is altered. Third, it must be specific enough that an
+independent observer can determine whether any given party holds
+participation rights, without access to the author's intent or
+unpublished context.
+
+The absence of a durable constituency definition is itself a consent
+architecture failure: it prevents the Identify invariant from being
+satisfied structurally rather than merely procedurally. Ostrom's first
+design principle (clearly defined boundaries for the governed
+constituency) identifies this as a precondition for sustainable commons
+governance; this section makes it a structural consent requirement.
 
 3.2 Authorize
 
@@ -1122,6 +1152,8 @@ Without this standard participation can appear consensual while being extractive
 Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the eight standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 Changelog
+
+**v0.3.16 (March 2026):** Section 3.1.2 (Constituency Definition as Structural Precondition) added after Section 3.1.1. The per-action constituency identification requirement in Section 3.1 presupposes a durable, accessible definition of who holds participation rights. Three conditions specified: accessible without authority-gating, durable against unilateral modification (modification triggers the Authorize invariant), and specific enough for independent observer determination. Absence of the definition is a consent architecture failure preventing structural (not merely procedural) satisfaction of the Identify invariant. Addresses Ostrom's first design principle at the standards level.
 
 **v0.3.15 (March 2026):** Canonical name correction. Companion standards on lines 15-17 referenced by descriptive shorthand ("precision-in-specification standard," "adverse signal engagement standard"); replaced with full canonical names (Precision-First Design Standard, Adverse-Signal Engagement Principle Core Standard).
 

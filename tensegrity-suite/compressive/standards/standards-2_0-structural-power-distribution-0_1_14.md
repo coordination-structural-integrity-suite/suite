@@ -1,6 +1,6 @@
 Structural Power Distribution Standard: A Framework for Assessing Centralization, Decentralization, and the Dimensions They Conflate
 
-**Version:** v0.1.13
+**Version:** v0.1.14
 
 **Date:** March 2026
 
@@ -114,6 +114,10 @@ Across all implementations and domains, this standard requires three invariants.
 Power distribution across all three dimensions must be assessed and documented. Assessment of the authority dimension alone does not satisfy this invariant. The assessment must: identify the current distribution profile across all three dimensions, identify the authorized distribution profile as established through legitimate governance, and identify the gap between the two in each dimension.
 
 The absence of an authorized distribution profile is itself a finding: systems that have not specified what power distribution they intend to maintain cannot detect unauthorized concentration. Establishing an authorized distribution profile is a prerequisite for the Distribute invariant.
+
+The authorized distribution profile presupposes a defined constituency: the set of participants whose standing within the governance system is subject to this standard's assessment. The constituency definition itself — who holds participation rights and on what basis — is a structural condition subject to power distribution analysis, not merely an administrative precondition. An undefined or implicitly defined constituency is itself a finding under this invariant, for the same reason an absent authorized distribution profile is: without a defined constituency, concentration cannot be assessed against a reference that does not exist.
+
+Modification of the constituency definition by parties holding concentrated authority is an authority-dimension concentration event. Expanding or contracting membership, altering the basis on which participation rights are held, or reclassifying participants in ways that alter their governance standing each shift the distribution of authority-dimension power. Each such action triggers the Authorize invariant: the affected constituency must be identified before modification proceeds and must have a documented opportunity to authorize or refuse. This requirement holds regardless of whether the modification is deliberate or occurs through drift. Ostrom's first design principle (clearly defined boundaries for the governed constituency) identifies constituency definition as a precondition for sustainable commons governance; this section makes it an explicit precondition for this standard's assessment architecture.
 
 4.2 Authorize
 
@@ -360,6 +364,8 @@ Each standard in the Coordination Structural Integrity Suite is independently ad
 ---
 
 Changelog
+
+**v0.1.14 (March 2026):** Ostrom DP1 scope extension. Two paragraphs added to Section 4.1 (Distribute). First: the authorized distribution profile presupposes a defined constituency; an undefined or implicitly defined constituency is a finding of the same class as an absent authorized profile. Second: modification of the constituency definition by parties holding concentrated authority is an authority-dimension concentration event triggering the Authorize invariant, regardless of whether the modification is deliberate or occurs through drift. Source: Ostrom gap analysis, March 2026.
 
 **v0.1.13 (March 2026):** Ostrom DP8 scope extension. Added cross-level authority distribution paragraph to Section 3.1, specifying subsidiarity as the normative benchmark for multi-level contexts: authority must be held at the lowest level capable of exercising it effectively and accountably, and concentration at higher levels triggers the Authorize invariant. Added Section 4.4 (Multi-level extension), extending the Distribute, Authorize, and Monitor invariants to nested and polycentric governance contexts. At SPDS-Assessed and below, cross-boundary exposure may be partially satisfied by documented disclosure under a standard-named provision, subject to periodic review; at SPDS-Instrumented, full implementation or explicit scoped non-adoption with structural exposure disclosure is required. Updated Section 11.3 from a fully open design question to a partially resolved entry: structural requirements are established; detection architecture for spanning system boundaries remains open. Updated Status field accordingly. Source: Ostrom gap analysis, March 2026.
 
