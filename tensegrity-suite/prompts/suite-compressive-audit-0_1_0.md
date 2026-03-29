@@ -78,7 +78,7 @@ Power distribution across three independent dimensions — authority, coordinati
 Evaluate whether:
 - Decentralization claims are assessed across all three dimensions independently, not only on authority
 - A defined constituency exists as a precondition for the authorized distribution profile; modifications to the constituency definition are treated as authority-dimension concentration events requiring the Authorize invariant
-- An authorized distribution profile exists against which current distribution can be compared
+- An authorized distribution profile exists against which current distribution can be compared (at SPDS-Assessed, an absent profile satisfied by identifying it as an open governance task; at SPDS-Operational and above, must be established and accessible)
 - Concentration exceeding authorized thresholds has been legitimately authorized by the affected constituency with documented participation
 - Ongoing detection architecture instruments all three dimensions continuously, not only at point-in-time assessments
 - Detected concentration shifts are classified as drift, coherent evolution, strategic pivot, or capture

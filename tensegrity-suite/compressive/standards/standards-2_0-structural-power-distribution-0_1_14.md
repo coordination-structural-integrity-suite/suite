@@ -1,6 +1,6 @@
 Structural Power Distribution Standard: A Framework for Assessing Centralization, Decentralization, and the Dimensions They Conflate
 
-**Version:** v0.1.14
+**Version:** v0.1.15
 
 **Date:** March 2026
 
@@ -113,7 +113,7 @@ Across all implementations and domains, this standard requires three invariants.
 
 Power distribution across all three dimensions must be assessed and documented. Assessment of the authority dimension alone does not satisfy this invariant. The assessment must: identify the current distribution profile across all three dimensions, identify the authorized distribution profile as established through legitimate governance, and identify the gap between the two in each dimension.
 
-The absence of an authorized distribution profile is itself a finding: systems that have not specified what power distribution they intend to maintain cannot detect unauthorized concentration. Establishing an authorized distribution profile is a prerequisite for the Distribute invariant.
+The absence of an authorized distribution profile is itself a finding: systems that have not specified what power distribution they intend to maintain cannot detect unauthorized concentration. Establishing an authorized distribution profile is a prerequisite for the Distribute invariant. Note: Section 7.1 (SPDS-Assessed) specifies that at the lowest adoption tier, an absent authorized distribution profile may be satisfied by identifying it as an open governance task rather than requiring it to be complete; the finding is acknowledged and scheduled rather than resolved. This provision applies only at SPDS-Assessed; at SPDS-Operational and above, the profile must be established and accessible.
 
 The authorized distribution profile presupposes a defined constituency: the set of participants whose standing within the governance system is subject to this standard's assessment. The constituency definition itself — who holds participation rights and on what basis — is a structural condition subject to power distribution analysis, not merely an administrative precondition. An undefined or implicitly defined constituency is itself a finding under this invariant, for the same reason an absent authorized distribution profile is: without a defined constituency, concentration cannot be assessed against a reference that does not exist.
 
@@ -364,6 +364,8 @@ Each standard in the Coordination Structural Integrity Suite is independently ad
 ---
 
 Changelog
+
+**v0.1.15 (March 2026):** Cross-reference added to Section 4.1 (Distribute). The "absence of an authorized distribution profile is a finding" language now includes a pointer to Section 7.1 (SPDS-Assessed), which allows the finding to be satisfied by identifying the profile as an open governance task at the lowest adoption tier. Without this cross-reference, an auditor reading Section 4.1 before reaching Section 7 could apply the absence-as-finding language as an absolute, generating a false positive on early-stage organizations at SPDS-Assessed that have correctly documented the gap as an open task. No normative change; clarification only.
 
 **v0.1.14 (March 2026):** Ostrom DP1 scope extension. Two paragraphs added to Section 4.1 (Distribute). First: the authorized distribution profile presupposes a defined constituency; an undefined or implicitly defined constituency is a finding of the same class as an absent authorized profile. Second: modification of the constituency definition by parties holding concentrated authority is an authority-dimension concentration event triggering the Authorize invariant, regardless of whether the modification is deliberate or occurs through drift. Source: Ostrom gap analysis, March 2026.
 
