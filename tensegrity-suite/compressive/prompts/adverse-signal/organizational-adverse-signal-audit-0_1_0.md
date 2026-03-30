@@ -2,7 +2,7 @@
 Copy everything below the line, paste it into any AI chat, and attach or paste the governance document, policy, or process description you want audited.
 
 You are auditing the attached document for adverse signal engagement failures using the Adverse Signal Engagement Principle Core Standard (CC BY 4.0, Regis Lloyd Chapman). An adverse signal engagement failure is any structural condition in which observations, anomalies, complaints, or misuse behaviors that could harm the system's constituencies or integrity are suppressed, ignored, or processed without a documented path to decision.
-Check for these eight failure conditions:
+Check for these nine failure conditions:
 
 Missing signal channels: the document does not specify at least one channel through which adverse signals can be surfaced by internal participants, external constituencies, technical monitoring, and independent observers. For each gap, identify whose signals have no path in and propose a channel specification.
 Implausible absence: the document contains no record or acknowledgment of adverse signals in a domain where their complete absence is structurally implausible. Flag this condition and identify what a conforming signal log would need to contain.
@@ -13,6 +13,7 @@ Inaction invisibility: the document does not specify how governance inaction on 
 Unskilled signal filtering: the document explicitly or implicitly treats emotionally expressed, informal, or "unskilled" complaints as disqualified from adverse signal status. For each instance, propose language that preserves the signal while allowing the form to be addressed separately.
 
 External governance override: the document does not name external authority interference with the organization's internal adverse-signal handling as a recognized signal class. Where relevant external authorities have realistic governance reach, the document does not specify a recognition assessment of the organization's self-governance capacity. The absence of external challenge is treated as recognition. For each instance, propose a recognition assessment requirement and a signal taxonomy entry for external governance override.
+Pattern Navigate structural root cause deficit: when a pattern threshold has been triggered (three or more similar signals triggering mandatory reclassification), the document does not require the Navigate phase to include a structural root cause assessment before individual attribution is accepted as final resolution. Individual attribution is permitted to close a pattern-escalated signal without a documented determination of whether a structural condition enabled the recurrence. For each instance, propose a structural root cause assessment requirement specifying the three required findings (no structural condition, structural condition identified, insufficient information) and the double-loop examination trigger.
 
 Output the results as an adverse signal engagement failure map organized by failure type, with failures most likely to result in harm to constituencies or system integrity first.
 Full standard: https://github.com/durgadasji/standards

@@ -2,11 +2,11 @@
 
 **(ASEP)**
 
-*Core Standard v0.7.0*
+*Core Standard v0.7.1*
 
 **Regis Lloyd Chapman (Durgadas)**
 
-Version 0.7.0 \| March 2026
+Version 0.7.1 \| March 2026
 
 # 1. Preamble
 
@@ -269,6 +269,21 @@ requires examination. Systems that structurally prevent this transition
 (by requiring all escalation to remain within the current response
 taxonomy) cap themselves at single-loop learning regardless of signal
 volume.
+
+When a pattern threshold triggers mandatory reclassification, the
+Navigate phase must include a structural root cause assessment before
+individual attribution is accepted as final resolution. The assessment
+must determine whether the recurrent signal class reflects individual
+failures, a structural condition enabling repeated failures, or both.
+Accepting individual attribution without this assessment closes the
+signal at the individual level while leaving the structural condition
+intact and unaddressed. The structural root cause assessment is complete
+when it has produced one of three findings: (a) no structural condition
+identified, individual attribution stands; (b) structural condition
+identified, system enters double-loop examination of the response
+framework; (c) insufficient information, monitoring extended and
+investigation continued. A determination that no structural condition
+exists must be documented as a finding, not left implicit.
 
 ### 3.3.4 Polycentric and nested handling
 
@@ -1163,6 +1178,8 @@ Without this standard the suite has no structural requirement for engaging signa
 Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the eight standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 # Changelog
+
+v0.7.1 (March 2026): Structural root cause assessment requirement added to Section 3.3.3 (Pattern escalation). When a pattern threshold triggers mandatory reclassification, the Navigate phase must now include a structural root cause assessment before individual attribution is accepted as final resolution. The assessment determines whether the recurrent signal class reflects individual failures, a structural condition, or both. Three required findings specified: no structural condition (individual attribution stands), structural condition identified (double-loop examination triggered), or insufficient information (monitoring extended). Accepting individual attribution without this assessment is not permitted. Source: structural blindness Class 13 (Blame Displacement) coverage gap identified in structural blindness protocol stack mapping, March 2026.
 
 v0.7.0 (March 2026): Ostrom DP7 addition. Added Section 3.3.9 (External governance override), specifying external governance interference as a named adverse signal class. A conforming implementation must: name external governance override in its signal taxonomy; treat recognition of the system's self-governance capacity by relevant external authorities as a detection prerequisite; and apply Navigate phase obligations to external governance override signals. The detection prerequisite requires an active recognition assessment, not merely the absence of challenge. The converse failure mode (self-governance claims without recognition assessment at sufficient operational scale) is also specified as a signal class. Added fifth bullet to Section 4.6 (Commons-aligned governance) cross-referencing Section 3.3.9. Together these additions address Ostrom's seventh design principle (minimal recognition of rights to organize) at the standards level. Source: Ostrom gap analysis, March 2026.
 

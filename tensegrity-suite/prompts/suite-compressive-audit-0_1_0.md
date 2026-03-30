@@ -37,6 +37,7 @@ Evaluate whether:
 - Every adverse signal must reach one of three outcomes: act, monitor, or formally close with rationale
 - Governance inaction on an acknowledged signal becomes visible to participants without the cooperation of the inacting party
 - External governance override is named as a signal class; where relevant external authorities have realistic governance reach, a recognition assessment of the system's self-governance capacity exists
+- When a pattern threshold triggers mandatory reclassification, the Navigate phase includes a structural root cause assessment before individual attribution is accepted as final resolution; the assessment produces one of three documented findings: no structural condition, structural condition identified (triggering double-loop examination), or insufficient information (monitoring extended)
 
 ---
 
