@@ -4,6 +4,10 @@ Distributed governance is struggling to find solid footing. DAOs and other coord
 
 This repository contains eight standards developed in the course of building the Proof of Coordination protocol: five Tensegrity Compressive Standards and three Tensegrity Generative Standards. Together they form the Coordination Structural Integrity Suite of the protocol's normative architecture.
 
+<p align="center">
+<img src="images/framework-relationships-0_1_0.svg" alt="Five Frameworks — One Phenomenon: the foundational architecture" width="900"/>
+</p>
+
 ## Repository structure
 
 ```
@@ -67,6 +71,10 @@ The "it won't happen to us" assumption is not something these standards argue ag
 
 **Conflict Transformation Standard:** Specifies the structural conditions under which a coordination system develops and sustains conflict transformation capacity. Five structural invariants: conflict legibility, graduated engagement architecture, proactive disposition enablement, transformation capacity provision, recognition as coordination work. Three operational scales: intra-organizational, inter-organizational, protocol-level. Addresses Ostrom's design principles 4, 5, and 6 at the standards level. Primary empirical grounding: GravityDAO operated for seven years, was universally recognized as necessary, and failed entirely because no existing coordination infrastructure provided a mechanism to recognize conflict transformation as coordination work. The standard addresses that structural gap directly.
 
+<p align="center">
+<img src="images/standards-frameworks-context-0_1_0.svg" alt="Five Frameworks to the Coordination Structural Integrity Suite: structural logic and two-layer architecture" width="900"/>
+</p>
+
 ## Adoption architecture
 
 Each standard in this repository carries a five-tier adoption framework that describes the organization's structural accountability for the requirement the standard specifies. The tiers are consistent in structure across all eight standards, though the specific operational requirements differ per standard.
@@ -99,6 +107,10 @@ Partial adoption is legitimate developmental progress. Partial adoption claimed 
 
 ## Relationship to the Proof of Coordination protocol
 
+<p align="center">
+<img src="images/standards-ostrom-mapping-0_1_0.svg" alt="Ostrom's Eight Design Principles mapped to corpus operationalization" width="900"/>
+</p>
+
 These standards are the normative foundation for the Proof of Coordination protocol, which builds measurement infrastructure for coordination capacity. The standards can be adopted independently of the full protocol. The protocol depends on them structurally.
 
 Full protocol documentation will be linked here as it is released.
@@ -109,6 +121,8 @@ Full protocol documentation will be linked here as it is released.
 - **Code and software artifacts** (now or future: examples, scripts, tests, reference implementations): Licensed under Apache License 2.0. See `LICENSE`.
 
 ## Changelog
+
+2026-03-31: Added two visualizations: (1) Five Frameworks — One Phenomenon, showing the structural logic of the suite and its relationship to the framework layer; (2) Ostrom's Eight Design Principles mapped to corpus operationalization. Both SVGs in images/ subfolder.
 
 2026-03-28: Repository restructured into nested suite/compressive/ and suite/generative/ folders. Subfolder READMEs added for suite/, compressive/, and generative/. Title updated to full suite name. Generative standards heading corrected to include full layer name. Licensing section path pattern generalized.
 

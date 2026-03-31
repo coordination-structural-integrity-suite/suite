@@ -1,0 +1,139 @@
+<svg width="960" height="760" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="760" fill="#0d1117"/>
+
+  <!-- ========= TITLE ========= -->
+  <rect x="20" y="12" width="920" height="44" rx="10" fill="#0c1a1a" stroke="#0f766e" stroke-width="1.5"/>
+  <text x="480" y="30" fill="#2dd4bf" font-size="13" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Ostrom's Eight Design Principles → Corpus Operationalization</text>
+  <text x="480" y="47" fill="#3d7a75" font-size="10.5" font-family="system-ui,sans-serif" text-anchor="middle">Each principle identifies a structural condition for sustained commons governance. Each standard or protocol element implements that condition structurally.</text>
+
+  <!-- ========= COLUMN HEADERS ========= -->
+  <text x="192" y="76" fill="#4a3f68" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">OSTROM'S PRINCIPLES</text>
+  <text x="590" y="76" fill="#4b7a75" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">CORPUS OPERATIONALIZATION</text>
+
+  <!-- Color key -->
+  <rect x="740" y="64" width="12" height="12" rx="2" fill="#0d1f1f" stroke="#0f766e" stroke-width="1.5"/>
+  <text x="756" y="75" fill="#3d7a75" font-size="10" font-family="system-ui,sans-serif">compressive standard</text>
+  <rect x="860" y="64" width="12" height="12" rx="2" fill="#231508" stroke="#b45309" stroke-width="1.5"/>
+  <text x="876" y="75" fill="#6b4017" font-size="10" font-family="system-ui,sans-serif">generative</text>
+
+  <!-- Row height: 78px, starting at y=86 -->
+
+  <!-- ========= DP1 ========= -->
+  <rect x="14" y="84" width="362" height="72" rx="8" fill="#13101f" stroke="#4a3f68" stroke-width="1"/>
+  <text x="30" y="102" fill="#7c6fb0" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">DP1 — Clearly Defined Boundaries</text>
+  <text x="30" y="118" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">Who belongs, on what basis, and what they govern.</text>
+  <text x="30" y="132" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">Without definition, consent cannot be meaningful.</text>
+  <text x="30" y="146" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">Power cannot be legitimately distributed.</text>
+  <!-- Arrow -->
+  <line x1="376" y1="120" x2="404" y2="120" stroke="#2d3a4a" stroke-width="1.5"/>
+  <polygon points="401,116 409,120 401,124" fill="#2d3a4a"/>
+  <!-- Standard -->
+  <rect x="408" y="84" width="540" height="72" rx="8" fill="#0d1f1f" stroke="#0f766e" stroke-width="1.5"/>
+  <text x="424" y="102" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">Structural Consent Legibility Standard</text>
+  <text x="424" y="118" fill="#4b7a75" font-size="10" font-family="system-ui,sans-serif">Requires durable, accessible definition of participation rights.</text>
+  <text x="424" y="132" fill="#4b7a75" font-size="10" font-family="system-ui,sans-serif">Modifications cannot be made unilaterally by concentrated authority.</text>
+  <text x="424" y="146" fill="#2d4a47" font-size="10" font-family="system-ui,sans-serif">+ Structural Power Distribution Standard (defined constituency as reference)</text>
+
+  <!-- ========= DP2 ========= -->
+  <rect x="14" y="162" width="362" height="72" rx="8" fill="#13101f" stroke="#4a3f68" stroke-width="1"/>
+  <text x="30" y="180" fill="#7c6fb0" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">DP2 — Rules Fit Local Conditions</text>
+  <text x="30" y="196" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">Governance rules must match the actual conditions</text>
+  <text x="30" y="210" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">of the community they govern, not be transplanted</text>
+  <text x="30" y="224" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">without adaptation.</text>
+  <line x1="376" y1="198" x2="404" y2="198" stroke="#2d3a4a" stroke-width="1.5"/>
+  <polygon points="401,194 409,198 401,202" fill="#2d3a4a"/>
+  <rect x="408" y="162" width="540" height="72" rx="8" fill="#0d1f1f" stroke="#0f766e" stroke-width="1.5"/>
+  <text x="424" y="180" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">Precision-First Design Standard</text>
+  <text x="424" y="196" fill="#4b7a75" font-size="10" font-family="system-ui,sans-serif">Any mechanism adopted from a different context must carry a baseline</text>
+  <text x="424" y="210" fill="#4b7a75" font-size="10" font-family="system-ui,sans-serif">statement: conditions it was built for, conditions of adopting context,</text>
+  <text x="424" y="224" fill="#4b7a75" font-size="10" font-family="system-ui,sans-serif">and confirmation of match or adjustments made.</text>
+
+  <!-- ========= DP3 ========= -->
+  <rect x="14" y="240" width="362" height="60" rx="8" fill="#13101f" stroke="#4a3f68" stroke-width="1"/>
+  <text x="30" y="258" fill="#7c6fb0" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">DP3 — Collective-Choice Arrangements</text>
+  <text x="30" y="274" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">Those governed by rules must have meaningful</text>
+  <text x="30" y="288" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">participation in modifying them.</text>
+  <line x1="376" y1="270" x2="404" y2="270" stroke="#2d3a4a" stroke-width="1.5"/>
+  <polygon points="401,266 409,270 401,274" fill="#2d3a4a"/>
+  <rect x="408" y="240" width="540" height="60" rx="8" fill="#0d1f1f" stroke="#0f766e" stroke-width="1.5"/>
+  <text x="424" y="258" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">Structural Power Distribution Standard</text>
+  <text x="424" y="274" fill="#4b7a75" font-size="10" font-family="system-ui,sans-serif">Authority to determine what governance mechanisms mean must be</text>
+  <text x="424" y="288" fill="#4b7a75" font-size="10" font-family="system-ui,sans-serif">distributed. Prevolution/Devolution arc detection in the protocol.</text>
+
+  <!-- ========= DP4 ========= -->
+  <rect x="14" y="306" width="362" height="60" rx="8" fill="#13101f" stroke="#4a3f68" stroke-width="1"/>
+  <text x="30" y="324" fill="#7c6fb0" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">DP4 — Monitoring</text>
+  <text x="30" y="340" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">Instruments to observe participant behavior</text>
+  <text x="30" y="354" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">and the state of the shared resource.</text>
+  <line x1="376" y1="336" x2="404" y2="336" stroke="#2d3a4a" stroke-width="1.5"/>
+  <polygon points="401,332 409,336 401,340" fill="#2d3a4a"/>
+  <rect x="408" y="306" width="540" height="60" rx="8" fill="#0e1520" stroke="#334155" stroke-width="1.5"/>
+  <text x="424" y="324" fill="#94a3b8" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">Protocol Layer — Coordination Ledger</text>
+  <text x="424" y="340" fill="#4b5a6e" font-size="10" font-family="system-ui,sans-serif">Coordination behavior observable at the level of individual events,</text>
+  <text x="424" y="354" fill="#4b5a6e" font-size="10" font-family="system-ui,sans-serif">including work previously invisible to any record.</text>
+
+  <!-- ========= DP5 ========= -->
+  <rect x="14" y="372" width="362" height="72" rx="8" fill="#13101f" stroke="#4a3f68" stroke-width="1"/>
+  <text x="30" y="390" fill="#7c6fb0" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">DP5 — Graduated Sanctions</text>
+  <text x="30" y="406" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">Violations met with proportional responses,</text>
+  <text x="30" y="420" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">escalating as needed. Adjudication is structurally</text>
+  <text x="30" y="434" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">last, not first.</text>
+  <line x1="376" y1="408" x2="404" y2="408" stroke="#2d3a4a" stroke-width="1.5"/>
+  <polygon points="401,404 409,408 401,412" fill="#2d3a4a"/>
+  <rect x="408" y="372" width="540" height="72" rx="8" fill="#231508" stroke="#b45309" stroke-width="1.5"/>
+  <text x="424" y="390" fill="#fb923c" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">Conflict Transformation Standard</text>
+  <text x="424" y="406" fill="#6b4017" font-size="10" font-family="system-ui,sans-serif">Graduated engagement spine: informal → facilitated → adjudication.</text>
+  <text x="424" y="420" fill="#6b4017" font-size="10" font-family="system-ui,sans-serif">Adjudication structurally last. Signal Escalation layer routes adverse</text>
+  <text x="424" y="434" fill="#6b4017" font-size="10" font-family="system-ui,sans-serif">signals through proportional graduated response.</text>
+
+  <!-- ========= DP6 ========= -->
+  <rect x="14" y="450" width="362" height="60" rx="8" fill="#13101f" stroke="#4a3f68" stroke-width="1"/>
+  <text x="30" y="468" fill="#7c6fb0" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">DP6 — Accessible Conflict Resolution</text>
+  <text x="30" y="484" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">Dispute mechanisms accessible and low-cost</text>
+  <text x="30" y="498" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">for all participants, not only the resourced.</text>
+  <line x1="376" y1="480" x2="404" y2="480" stroke="#2d3a4a" stroke-width="1.5"/>
+  <polygon points="401,476 409,480 401,484" fill="#2d3a4a"/>
+  <rect x="408" y="450" width="540" height="60" rx="8" fill="#231508" stroke="#b45309" stroke-width="1.5"/>
+  <text x="424" y="468" fill="#fb923c" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">Conflict Transformation Standard</text>
+  <text x="424" y="484" fill="#6b4017" font-size="10" font-family="system-ui,sans-serif">Transformation capacity must be structurally resourced — not volunteer-</text>
+  <text x="424" y="498" fill="#6b4017" font-size="10" font-family="system-ui,sans-serif">absorbed. Conflict events enter the coordination record as contributions.</text>
+
+  <!-- ========= DP7 ========= -->
+  <rect x="14" y="516" width="362" height="72" rx="8" fill="#13101f" stroke="#4a3f68" stroke-width="1"/>
+  <text x="30" y="534" fill="#7c6fb0" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">DP7 — Recognition of Rights to Organize</text>
+  <text x="30" y="550" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">External authorities must recognize the community's</text>
+  <text x="30" y="564" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">right to govern itself rather than preempting</text>
+  <text x="30" y="578" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">or overriding it.</text>
+  <line x1="376" y1="552" x2="404" y2="552" stroke="#2d3a4a" stroke-width="1.5"/>
+  <polygon points="401,548 409,552 401,556" fill="#2d3a4a"/>
+  <rect x="408" y="516" width="540" height="72" rx="8" fill="#0d1f1f" stroke="#0f766e" stroke-width="1.5"/>
+  <text x="424" y="534" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">Adverse-Signal Engagement Principle</text>
+  <text x="424" y="550" fill="#4b7a75" font-size="10" font-family="system-ui,sans-serif">External governance override is a named adverse signal class.</text>
+  <text x="424" y="564" fill="#4b7a75" font-size="10" font-family="system-ui,sans-serif">Recognition assessment required wherever external authorities have</text>
+  <text x="424" y="578" fill="#4b7a75" font-size="10" font-family="system-ui,sans-serif">realistic governance reach.</text>
+
+  <!-- ========= DP8 ========= -->
+  <rect x="14" y="594" width="362" height="72" rx="8" fill="#13101f" stroke="#4a3f68" stroke-width="1"/>
+  <text x="30" y="612" fill="#7c6fb0" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">DP8 — Nested Enterprises</text>
+  <text x="30" y="628" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">Governance organized in multiple nested layers.</text>
+  <text x="30" y="642" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">More foundational rules have more robust</text>
+  <text x="30" y="656" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif">constituency participation.</text>
+  <line x1="376" y1="630" x2="404" y2="630" stroke="#2d3a4a" stroke-width="1.5"/>
+  <polygon points="401,626 409,630 401,634" fill="#2d3a4a"/>
+  <rect x="408" y="594" width="540" height="72" rx="8" fill="#0d1f1f" stroke="#0f766e" stroke-width="1.5"/>
+  <text x="424" y="612" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">Structural Power Distribution Standard</text>
+  <text x="424" y="628" fill="#4b7a75" font-size="10" font-family="system-ui,sans-serif">Power assessed at each level of nested governance structure.</text>
+  <text x="424" y="642" fill="#4b7a75" font-size="10" font-family="system-ui,sans-serif">Subsidiarity as normative benchmark for cross-level authority.</text>
+  <text x="424" y="656" fill="#2d4a47" font-size="10" font-family="system-ui,sans-serif">Protocol specification: holonic architecture across multiple nested layers.</text>
+
+  <!-- ========= NOTE ========= -->
+  <text x="480" y="690" fill="#1f3a38" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Sensemaking Standard and Four Batteries Capacity Standard do not map to a single Ostrom principle — they implement the generative substrate</text>
+  <text x="480" y="704" fill="#1f3a38" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">that makes all eight principles operable over time: shared language and structural capacity across four dimensions.</text>
+
+  <!-- Side label: Ostrom -->
+  <text x="7" y="440" fill="#4a3f68" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle" transform="rotate(-90 7 440)">OSTROM'S EIGHT DESIGN PRINCIPLES</text>
+
+  <!-- Side label: Corpus -->
+  <text x="954" y="430" fill="#3d7a75" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle" transform="rotate(90 954 430)">CORPUS OPERATIONALIZATION</text>
+
+</svg>
