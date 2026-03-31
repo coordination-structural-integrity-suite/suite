@@ -4,7 +4,7 @@
 
 Regis Lloyd Chapman (Durgadas)
 
-Version 1.1.12 | March 2026
+Version 1.1.13 | March 2026
 
 Status: Release candidate
 
@@ -470,6 +470,8 @@ Snowden, D. J., & Boone, M. E. (2007). "A Leader's Framework for Decision Making
 
 Heidegger, M. (1927/1962). *Being and Time.* Trans. Macquarrie & Robinson. Harper & Row. Source for understanding-as-breakdown, the hermeneutic circle, and the ready-to-hand/present-at-hand distinction as a model for disruption-occasioned sensemaking.
 
+Maturana, H. R., & Varela, F. J. (1987). *The Tree of Knowledge: The Biological Roots of Human Understanding.* Shambhala. Source for the constitutive claim that language is the coordination of coordinations: not a means by which coordination is communicated but the substance of what coordination structurally is. This grounds the inter-personal leg of the obligation argument (Section 2.1) and the standard's central claim that shared language is coordination infrastructure rather than a prerequisite for it. The distinction between infrastructure and prerequisite in Section 2.1 carries the practical force of this claim.
+
 ## Ontological Politics
 
 Mol, A. (2002). *The Body Multiple: Ontology in Medical Practice.* Duke University Press. Source for ontological politics: the claim that reality is enacted differently in different practices and that no single enactment is neutral.
@@ -526,6 +528,7 @@ Each standard in the Coordination Structural Integrity Suite is independently ad
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.1.13 | March 2026 | References addition. Maturana and Varela (1987) added to Section 13 (References) under Sensemaking Traditions. Source for the constitutive claim that language is the coordination of coordinations; grounds the inter-personal leg of the obligation argument and the infrastructure-vs-prerequisite distinction in Section 2.1. No normative content changes. |
 | 1.1.12 | March 2026 | Overclaiming correction. "Confirmed the invariants' cross-traditional reach" replaced with accurate description of informal testing status: no disconfirming cases found; broader research to proceed during genesis cohort; feedback invited at GitHub Discussions. "Confirmed that the standard's analytical architecture carries assumptions" replaced with "found." |
 | 1.1.11 | March 2026 | Suite rename ("Coordination Structural Integrity Suite" replaces "Structural Integrity Layer" throughout). Added "Relationship To Other Standards" and "Tensegrity As A Whole" sections. Section 10 (Relationship to the Tensegrity Compressive Standards) removed; content migrated to the standards README. |
 | 1.1.10 | March 2026 | Precision-First compliance fix. Invariant 3.2 satisfaction test: added one sentence making explicit that this invariant operates at practitioner trace tier. The mutual relating between particular and general is a cognitive process not directly observable from outside; the lower observability threshold is explicit and intentional; what an independent observer can verify is whether the process record documents traced cues, frames, and revisions. |
