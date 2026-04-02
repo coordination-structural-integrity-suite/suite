@@ -12,7 +12,7 @@ This repository contains eight standards developed in the course of building the
 
 ```
 tensegrity-suite/             Coordination Structural Integrity Suite
-  overview/                   tensegrity architecture document and configurations primer
+  overview/                   tensegrity architecture document and structural patterns primer
   prompts/                    suite-level audit prompts (compressive, generative, full)
   skills/                     suite-level Claude skill
   compressive/                five Tensegrity Compressive Standards
@@ -108,7 +108,7 @@ Partial adoption is legitimate developmental progress. Partial adoption claimed 
 ## Relationship to the Proof of Coordination protocol
 
 <p align="center">
-<img src="images/standards-ostrom-mapping-0_1_0.svg" alt="Ostrom's Eight Design Principles mapped to corpus operationalization" width="900"/>
+<img src="images/standards-ostrom-mapping-0_1_0.svg" alt="Ostrom's Eight Design Principles mapped to Standards Implementation" width="900"/>
 </p>
 
 These standards are the normative foundation for the Proof of Coordination protocol, which builds measurement infrastructure for coordination capacity. The standards can be adopted independently of the full protocol. The protocol depends on them structurally.
@@ -121,6 +121,8 @@ Full protocol documentation will be linked here as it is released.
 - **Code and software artifacts** (now or future: examples, scripts, tests, reference implementations): Licensed under Apache License 2.0. See `LICENSE`.
 
 ## Changelog
+
+2026-04-02: SVG diagrams overhauled for contrast and legibility. All three diagrams updated: low-contrast text colors replaced with bright yellow (warm sections), bright sky blue (cool sections), and near-white (body text). Standard name headings in compressive section given teal accent for visual hierarchy. Ostrom diagram renamed "Standards Implementation" throughout for general-audience clarity.
 
 2026-03-31: Added two visualizations: (1) Five Frameworks — One Phenomenon, showing the structural logic of the suite and its relationship to the framework layer; (2) Ostrom's Eight Design Principles mapped to corpus operationalization. Both SVGs in images/ subfolder.
 
