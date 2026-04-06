@@ -1,0 +1,118 @@
+<svg width="900" height="730" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arw-v" markerWidth="9" markerHeight="6" refX="4.5" refY="6" orient="auto">
+      <polygon points="0 0, 9 0, 4.5 6" fill="#4b5563"/>
+    </marker>
+    <marker id="arw-teal" markerWidth="9" markerHeight="6" refX="4.5" refY="6" orient="auto">
+      <polygon points="0 0, 9 0, 4.5 6" fill="#0f766e"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="730" fill="#0d1117"/>
+
+  <!-- ========= FIVE FRAMEWORKS (compressed top strip) ========= -->
+  <rect x="20" y="14" width="860" height="96" rx="12" fill="#13101f" stroke="#7c3aed" stroke-width="2"/>
+  <text x="450" y="34" fill="#a78bfa" font-size="13" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Five Frameworks — One Phenomenon</text>
+  <text x="450" y="52" fill="#38bdf8" font-size="10.5" font-family="system-ui,sans-serif" text-anchor="middle">Pressure-Response Axiom  ·  Tensegrity  ·  Ostrom's Principles  ·  Shared Language  ·  Prevolution</text>
+  <text x="450" y="72" fill="#38bdf8" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Answering five different questions that the same phenomenon requires simultaneously.</text>
+  <text x="450" y="88" fill="#38bdf8" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">The standards implement what the frameworks specify — particularly the eight institutional conditions Ostrom identified.</text>
+
+  <!-- Arrow: frameworks → standards -->
+  <line x1="450" y1="110" x2="450" y2="130" stroke="#4b5563" stroke-width="1.5" marker-end="url(#arw-v)"/>
+  <text x="464" y="124" fill="#6b7280" font-size="10" font-family="system-ui,sans-serif">implemented structurally as</text>
+
+  <!-- ========= STANDARDS HEADING ========= -->
+  <rect x="20" y="133" width="860" height="26" rx="8" fill="#0c1a1a" stroke="#0f766e" stroke-width="1.5"/>
+  <text x="450" y="151" fill="#2dd4bf" font-size="12" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Coordination Structural Integrity Suite — Nine Standards</text>
+
+  <!-- ========= COMPRESSIVE STANDARDS ========= -->
+  <rect x="20" y="168" width="420" height="362" rx="12" fill="#0a1818" stroke="#0f766e" stroke-width="2"/>
+  <rect x="20" y="168" width="420" height="34" rx="12" fill="#0d1f1f"/>
+  <rect x="20" y="188" width="420" height="14" fill="#0d1f1f"/>
+  <text x="230" y="191" fill="#2dd4bf" font-size="13" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Tensegrity Compressive Standards</text>
+  <text x="230" y="212" fill="#5eead4" font-size="10.5" font-style="italic" font-family="system-ui,sans-serif" text-anchor="middle">Rigid members — structural floors</text>
+  <text x="230" y="230" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Conditions whose absence predictably opens exploitation vectors.</text>
+  <text x="230" y="244" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Each closes one class of failure mode that has repeatedly destroyed</text>
+  <text x="230" y="258" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">coordination systems that lacked it.</text>
+
+  <!-- Standard 1 -->
+  <rect x="34" y="270" width="392" height="38" rx="6" fill="#0c1e1e"/>
+  <text x="230" y="287" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Precision-First Design Standard</text>
+  <text x="230" y="302" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Claims must match the structural context they are applied to.</text>
+
+  <!-- Standard 2 -->
+  <rect x="34" y="314" width="392" height="38" rx="6" fill="#0c1e1e"/>
+  <text x="230" y="331" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Adverse-Signal Engagement Principle</text>
+  <text x="230" y="346" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Signals of structural strain must be engaged, not suppressed.</text>
+
+  <!-- Standard 3 -->
+  <rect x="34" y="358" width="392" height="38" rx="6" fill="#0c1e1e"/>
+  <text x="230" y="375" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Structural Consent Legibility Standard</text>
+  <text x="230" y="390" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Who is governed must be defined; consent must be meaningful.</text>
+
+  <!-- Standard 4 -->
+  <rect x="34" y="402" width="392" height="38" rx="6" fill="#0c1e1e"/>
+  <text x="230" y="419" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Information Asymmetry Classification Standard</text>
+  <text x="230" y="434" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Structural information advantages must be disclosed.</text>
+
+  <!-- Standard 5 -->
+  <rect x="34" y="446" width="392" height="38" rx="6" fill="#0c1e1e"/>
+  <text x="230" y="463" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Structural Power Distribution Standard</text>
+  <text x="230" y="478" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Power must remain contestable across three dimensions.</text>
+
+  <!-- Standard 6 -->
+  <rect x="34" y="490" width="392" height="38" rx="6" fill="#0c1e1e"/>
+  <text x="230" y="507" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Regenerative Accountability Standard</text>
+  <text x="230" y="522" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Extraction must be matched by non-fungible, proximate, embedded return.</text>
+
+  <!-- ========= TENSION INDICATOR (center) ========= -->
+  <text x="450" y="320" fill="#4b9b8e" font-size="28" font-family="system-ui,sans-serif" text-anchor="middle">⇌</text>
+  <text x="450" y="343" fill="#4b9b8e" font-size="9" font-family="system-ui,sans-serif" text-anchor="middle">neither alone</text>
+  <text x="450" y="355" fill="#4b9b8e" font-size="9" font-family="system-ui,sans-serif" text-anchor="middle">produces</text>
+  <text x="450" y="367" fill="#4b9b8e" font-size="9" font-family="system-ui,sans-serif" text-anchor="middle">coordination</text>
+  <text x="450" y="379" fill="#4b9b8e" font-size="9" font-family="system-ui,sans-serif" text-anchor="middle">health</text>
+
+  <!-- ========= GENERATIVE STANDARDS ========= -->
+  <rect x="460" y="168" width="420" height="362" rx="12" fill="#1c1508" stroke="#fb923c" stroke-width="2"/>
+  <rect x="460" y="168" width="420" height="34" rx="12" fill="#231b0a"/>
+  <rect x="460" y="188" width="420" height="14" fill="#231b0a"/>
+  <text x="670" y="191" fill="#fb923c" font-size="13" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Tensegrity Generative Standards</text>
+  <text x="670" y="212" fill="#fef08a" font-size="10.5" font-style="italic" font-family="system-ui,sans-serif" text-anchor="middle">Tensile layer — capacity development</text>
+  <text x="670" y="230" fill="#fef08a" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Conditions under which coordination capacity develops</text>
+  <text x="670" y="244" fill="#fef08a" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">rather than merely persisting. Without this layer, compressive</text>
+  <text x="670" y="258" fill="#fef08a" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">standards become compliance checklists performed around.</text>
+
+  <!-- Standard 7 -->
+  <rect x="474" y="290" width="392" height="60" rx="6" fill="#231508"/>
+  <text x="670" y="309" fill="#fdba74" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Sensemaking Standard</text>
+  <text x="670" y="325" fill="#fef08a" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Shared language must be actively produced, not assumed.</text>
+  <text x="670" y="338" fill="#fef08a" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Coordination flows that lack vocabulary cannot exist.</text>
+
+  <!-- Standard 8 -->
+  <rect x="474" y="358" width="392" height="60" rx="6" fill="#231508"/>
+  <text x="670" y="377" fill="#fdba74" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Four Batteries Capacity Standard</text>
+  <text x="670" y="393" fill="#fef08a" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Structural capacity across four dimensions must be</text>
+  <text x="670" y="406" fill="#fef08a" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">sustained: Personal, Relational, Contribution, Mission.</text>
+
+  <!-- Standard 9 -->
+  <rect x="474" y="426" width="392" height="60" rx="6" fill="#231508"/>
+  <text x="670" y="445" fill="#fdba74" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Conflict Transformation Standard</text>
+  <text x="670" y="461" fill="#fef08a" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Conflict must be read as coordination information.</text>
+  <text x="670" y="474" fill="#fef08a" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Transformation capacity must be structurally resourced.</text>
+
+  <!-- ========= TOGETHER THEY PRODUCE ========= -->
+  <rect x="20" y="542" width="860" height="62" rx="10" fill="#0c1a1a" stroke="#0f766e" stroke-width="1.5"/>
+  <text x="450" y="564" fill="#2dd4bf" font-size="12" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Together: A coordination architecture that becomes more coherent under pressure</text>
+  <text x="450" y="584" fill="#f1f5f9" font-size="11" font-family="system-ui,sans-serif" text-anchor="middle">Compressive standards prevent exploitation. Generative standards develop capacity. Neither does both.</text>
+  <text x="450" y="597" fill="#4b9b8e" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">The suite is itself a tensegrity: rigid floors held in relationship with a tensile generative layer.</text>
+
+  <!-- ========= FEEDS INTO ========= -->
+  <line x1="450" y1="604" x2="450" y2="622" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arw-v)"/>
+
+  <rect x="130" y="622" width="640" height="78" rx="10" fill="#0e1520" stroke="#334155" stroke-width="1.5"/>
+  <text x="450" y="644" fill="#f1f5f9" font-size="12" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Protocol Layer</text>
+  <text x="450" y="664" fill="#f1f5f9" font-size="10.5" font-family="system-ui,sans-serif" text-anchor="middle">Makes structural health measurable, comparable, and actionable.</text>
+  <text x="450" y="680" fill="#f1f5f9" font-size="10.5" font-family="system-ui,sans-serif" text-anchor="middle">Standards specify conditions; Protocol specifies how to know whether they are present.</text>
+  <text x="450" y="694" fill="#9ca3af" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">→ Revelis (diagnostic) and Praxis (action) surface protocol outputs for governance use</text>
+
+</svg>
