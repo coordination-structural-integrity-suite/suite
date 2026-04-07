@@ -94,7 +94,7 @@
   <text x="670" y="474" fill="#fef08a" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Transformation capacity must be structurally resourced.</text>
 
   <!-- ========= TENSION INDICATOR (center, rendered last so it sits above both boxes) ========= -->
-  <rect x="422" y="296" width="56" height="92" rx="4" fill="#0d1117"/>
+  <rect x="400" y="296" width="100" height="92" rx="4" fill="#0d1117"/>
   <text x="450" y="320" fill="#4b9b8e" font-size="28" font-family="system-ui,sans-serif" text-anchor="middle">⇌</text>
   <text x="450" y="343" fill="#4b9b8e" font-size="9" font-family="system-ui,sans-serif" text-anchor="middle">neither alone</text>
   <text x="450" y="355" fill="#4b9b8e" font-size="9" font-family="system-ui,sans-serif" text-anchor="middle">produces</text>
