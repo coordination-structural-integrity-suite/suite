@@ -65,13 +65,6 @@
   <text x="230" y="507" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Regenerative Accountability Standard</text>
   <text x="230" y="522" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Extraction must be matched by non-fungible, proximate, embedded return.</text>
 
-  <!-- ========= TENSION INDICATOR (center) ========= -->
-  <text x="450" y="320" fill="#4b9b8e" font-size="28" font-family="system-ui,sans-serif" text-anchor="middle">⇌</text>
-  <text x="450" y="343" fill="#4b9b8e" font-size="9" font-family="system-ui,sans-serif" text-anchor="middle">neither alone</text>
-  <text x="450" y="355" fill="#4b9b8e" font-size="9" font-family="system-ui,sans-serif" text-anchor="middle">produces</text>
-  <text x="450" y="367" fill="#4b9b8e" font-size="9" font-family="system-ui,sans-serif" text-anchor="middle">coordination</text>
-  <text x="450" y="379" fill="#4b9b8e" font-size="9" font-family="system-ui,sans-serif" text-anchor="middle">health</text>
-
   <!-- ========= GENERATIVE STANDARDS ========= -->
   <rect x="460" y="168" width="420" height="362" rx="12" fill="#1c1508" stroke="#fb923c" stroke-width="2"/>
   <rect x="460" y="168" width="420" height="34" rx="12" fill="#231b0a"/>
@@ -99,6 +92,14 @@
   <text x="670" y="445" fill="#fdba74" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Conflict Transformation Standard</text>
   <text x="670" y="461" fill="#fef08a" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Conflict must be read as coordination information.</text>
   <text x="670" y="474" fill="#fef08a" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Transformation capacity must be structurally resourced.</text>
+
+  <!-- ========= TENSION INDICATOR (center, rendered last so it sits above both boxes) ========= -->
+  <rect x="422" y="296" width="56" height="92" rx="4" fill="#0d1117"/>
+  <text x="450" y="320" fill="#4b9b8e" font-size="28" font-family="system-ui,sans-serif" text-anchor="middle">⇌</text>
+  <text x="450" y="343" fill="#4b9b8e" font-size="9" font-family="system-ui,sans-serif" text-anchor="middle">neither alone</text>
+  <text x="450" y="355" fill="#4b9b8e" font-size="9" font-family="system-ui,sans-serif" text-anchor="middle">produces</text>
+  <text x="450" y="367" fill="#4b9b8e" font-size="9" font-family="system-ui,sans-serif" text-anchor="middle">coordination</text>
+  <text x="450" y="379" fill="#4b9b8e" font-size="9" font-family="system-ui,sans-serif" text-anchor="middle">health</text>
 
   <!-- ========= TOGETHER THEY PRODUCE ========= -->
   <rect x="20" y="542" width="860" height="62" rx="10" fill="#0c1a1a" stroke="#0f766e" stroke-width="1.5"/>
