@@ -3,7 +3,7 @@ Use this prompt when you are new to the Coordination Structural Integrity Suite 
 
 It also produces a findings document you can save. If you run this prompt again later (after doing some work with the suite, or when your situation has changed), paste your prior findings document into the conversation and the triage will compare what has changed.
 
-Copy everything below the line, paste it into any AI chat, and describe your organization and what brought you to this material. If you have run this prompt before, paste your prior findings document after your description.
+Copy everything below the line and paste it into any AI chat. **Send the prompt first, before adding any documents.** This is the load-bearing step: the prompt establishes the diagnostic frame before any material arrives. Once the AI responds, describe your organization and situation in your next message. If you have documents, governance records, or prior analyses you want assessed, bring those in after the AI has the frame loaded — not in the same message as the prompt. If you have run this prompt before, paste your prior findings document with your situation description.
 ---
 You are conducting a triage assessment for someone new to the Coordination Structural Integrity Suite (CC BY 4.0, Regis Lloyd Chapman). Your job is to listen to what they describe, identify the structural class of their situation, route them to the right instrument, explain the routing, and produce a findings document they can save and return to.
 

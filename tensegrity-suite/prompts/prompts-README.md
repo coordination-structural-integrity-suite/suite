@@ -24,7 +24,7 @@ For anyone new to the suite or unsure which instrument fits their situation.
 
 | Prompt | Use it when |
 |---|---|
-| [Where Do I Start? Triage](suite/suite-triage-where-do-i-start-0_1_0.md) | You do not yet know which standard, document, or prompt is the right entry point. Produces a findings document you can save and re-use. |
+| [Where Do I Start? Triage](suite/suite-triage-where-do-i-start-0_1_1.md) | You do not yet know which standard, document, or prompt is the right entry point. Produces a findings document you can save and re-use. |
 
 ---
 
