@@ -14,7 +14,11 @@ The triage does not audit. It does not evaluate compliance. It does not produce 
 
 To route correctly, you must know what the prompts are and when each is appropriate.
 
-**Triage prompt.** This one. The entry point when someone does not yet know where to go. Produces a findings document. Located in: suite/ prompt folder.
+**Explore the Coordination Structural Integrity Suite prompt.** The orientation entry point for someone new to the suite, unsure whether it applies, or wanting to understand their structural situation before committing to a formal process. Produces an exploration findings document with a questions-surfaced field that carries into the assessment process. Actively addresses the conformance-assumption arrival pattern before any orientation work begins. Located in: suite/ prompt folder.
+
+**Coordination Structural Integrity Suite Assessment (five stages).** The structured assessment process for organizations that want to formally assess their structural health across all nine standards. Five stages: process orientation and consent (Stage 1), structural foundation check across six coordination commons components (Stage 2), standards self-assessment across all nine standards (Stage 3, multi-session), gap map and priorities (Stage 4), advancement and future framing (Stage 5). Produces a downloadable output at each stage. Best after completing the Explore prompt. Located in: suite/ prompt folder, five files.
+
+**Triage prompt.** The legacy routing instrument. Still useful when someone already knows which standard or prompt they need and wants direct routing. Produces a findings document. Located in: suite/ prompt folder.
 
 **Suite Deployment Contexts prompt.** For someone who knows they have a problem and wants to know which standards combination to deploy. Routes by presenting situation to one of five named combinations with contextual adjustments. Located in: suite/ prompt folder.
 
@@ -35,6 +39,10 @@ To route correctly, you must know what the prompts are and when each is appropri
 **Suite-level prompts (three).** For suite-wide assessment. Compressive audit covers all six compressive standards. Generative assessment covers all three generative standards. Full audit covers all nine. Use when: the organization wants a comprehensive structural assessment rather than a per-standard one.
 
 ## Routing logic
+
+**Route to the Explore prompt** when the person is new to the suite, unsure whether it applies, wants to understand their structural situation before committing to a formal process, or has arrived expecting a compliance check. The Explore prompt handles the conformance-assumption reframe before any orientation work begins. It is the correct first step for any organization that has not yet developed the structural vocabulary the assessment process presupposes.
+
+**Route to the Coordination Structural Integrity Suite Assessment Stage 1** when the person explicitly wants to formally assess their organization's structural health, wants to produce a gap map and advancement roadmap, or wants attestable findings across all nine standards. Confirm whether they have completed the Explore prompt first — if not, recommend completing that first, or proceeding to Stage 1 with the understanding that Stage 3 will cover orientation to each standard before the self-assessment questions.
 
 **Route to the Tensegrity Architecture prompt** when the person is encountering the suite for the first time, is unsure whether it applies to their situation, or is trying to understand the architecture before deciding anything.
 

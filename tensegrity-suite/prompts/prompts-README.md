@@ -6,9 +6,13 @@ Copy the full contents of any prompt file, paste it into any AI chat (Claude, Ch
 
 **If you are new to the suite and do not know where to start, use the [Where Do I Start? triage prompt](suite/suite-triage-where-do-i-start-0_1_0.md) first.** It assesses your situation and routes you to the right instrument, with an explanation of why.
 
-Four prompt formats are used across this repository:
+**Two entry paths.** This prompt system has two tracks. Start with the Explore prompt if you are new to the suite, want to understand whether it applies, or want to orient yourself before committing to a formal process. Start with the Coordination Structural Integrity Suite Assessment if you want to formally assess your organization's structural health across all nine standards and produce a concrete gap map and advancement roadmap. The assessment process works best after the exploration — it builds on the vocabulary and structural self-knowledge the exploration develops.
 
-**Triage format**: assesses your situation in plain language and routes you to the right prompt. Produces a findings document you can save and return to. Used for the "Where Do I Start?" triage and for first-contact orientation.
+Five prompt formats are used across this repository:
+
+**Exploration format**: orients you to the suite and your structural situation, routes you to the right instrument, and produces a findings document you can save and carry forward. Used for the Explore prompt.
+
+**Assessment format**: guides you through a structured five-stage process — foundation check, self-assessment across all nine standards, gap mapping, and advancement planning. Multi-session. Produces a downloadable output at each stage. Used for the Coordination Structural Integrity Suite Assessment.
 
 **Audit format** (compressive standards): identifies where a document or system fails to meet a structural requirement. Output is a failure map organized by criterion, most consequential deficits first. Used for the six Tensegrity Compressive Standards.
 
@@ -20,11 +24,28 @@ Four prompt formats are used across this repository:
 
 ## Where Do I Start?
 
-For anyone new to the suite or unsure which instrument fits their situation.
+Two entry points. Choose based on where you are.
 
 | Prompt | Use it when |
 |---|---|
-| [Where Do I Start? Triage](suite/suite-triage-where-do-i-start-0_1_1.md) | You do not yet know which standard, document, or prompt is the right entry point. Produces a findings document you can save and re-use. |
+| [Explore the Coordination Structural Integrity Suite](suite/suite-explore-coordination-structural-integrity-suite-0_1_0.md) | You are new to the suite, unsure whether it applies, or want to understand your structural situation before committing to a formal process. Produces an exploration findings document you can carry into the assessment process. |
+| [Coordination Structural Integrity Suite Assessment — Stage 1](suite/suite-assessment-stage-1-orientation-0_1_0.md) | You want to formally assess your organization's structural health across all nine standards. Five-stage process. Best after completing the Explore prompt. |
+
+The legacy triage prompt ([Where Do I Start?](suite/suite-triage-where-do-i-start-0_1_1.md)) is still available for direct routing to individual instruments when you already know which standard or prompt you need.
+
+---
+
+## Coordination Structural Integrity Suite Assessment
+
+A five-stage structured process for assessing your organization's structural health across all nine standards. Each stage produces a downloadable output. Stages can be completed in separate sessions — bring your prior stage output to each new session.
+
+| Stage | Prompt | What it does |
+|---|---|---|
+| Stage 1 | [Process Orientation](suite/suite-assessment-stage-1-orientation-0_1_0.md) | Orients you to the full process, establishes what you are hoping to understand, presents the data consent statement. Output: process summary. |
+| Stage 2 | [Structural Foundation Check](suite/suite-assessment-stage-2-foundation-check-0_1_0.md) | Assesses which of the six coordination commons components are present, partial, or absent in your actual practice. Output: commons components inventory. |
+| Stage 3 | [Standards Self-Assessment](suite/suite-assessment-stage-3-self-assessment-0_1_0.md) | For each of the nine standards, assesses where your organization currently stands against what the standard requires. Multi-session. Output: standards self-assessment with structured finding per standard. |
+| Stage 4 | [Gap Map and Priorities](suite/suite-assessment-stage-4-gap-map-0_1_0.md) | Synthesizes your Stage 2 and Stage 3 findings into your three most structurally significant gaps, with gap type and what addressing each would look like. Output: gap map. |
+| Stage 5 | [Advancement and Future Framing](suite/suite-assessment-stage-5-advancement-0_1_0.md) | Consolidates findings, establishes concrete next steps for each priority gap, frames a six-month re-assessment. Output: advancement summary. |
 
 ---
 
