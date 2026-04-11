@@ -22,7 +22,9 @@ The Coordination Structural Integrity Suite covers a lot of ground. The architec
 
 **AI prompts and Claude skills are the primary way to navigate this suite.** They are not supplemental tools — they are the designed entry point. The documentation in this repository is reference material that supports the prompts. The prompts carry everything an AI assistant needs to help you make sense of your situation and find the right instrument for it.
 
-**Two entry paths.**
+**Three entry paths.**
+
+If you want the simplest start: use the **[AI prompt launcher](https://coordination-structural-integrity-suite.github.io/ai/)**. A web interface with all prompts accessible in one place — select your path, copy the prompt, and paste it into any AI assistant. No navigation of this repository required.
 
 If you are new to the suite, want to understand whether it applies, or want to orient yourself before committing to a formal process: use the **[Explore the Coordination Structural Integrity Suite prompt](tensegrity-suite/prompts/suite/suite-explore-coordination-structural-integrity-suite-0_1_0.md)**. Paste it into any AI assistant (Claude, ChatGPT, Gemini, or similar), describe your organization and situation in plain language, and it will orient you to what the suite is, identify the structural class of your situation, and route you to the right instrument — with an explanation of why. It produces an exploration findings document you can save and carry forward.
 
@@ -226,7 +228,7 @@ Full protocol documentation will be linked here as it is released.
 
 ## Changelog
 
-2026-04-11: Foundational commitments section added between opening paragraphs and "Start here." Names precision and non-harming as constitutively paired axiomatic commitments: the failure modes of each in isolation, what they produce together, and the generative capacity that becomes possible above the structural floor they establish together.
+2026-04-11: AI prompt launcher added as first entry path in "Start here" section. "Two entry paths" updated to "Three entry paths" with the launcher (https://coordination-structural-integrity-suite.github.io/ai/) listed first as the simplest no-navigation-required option. Foundational commitments section added between opening paragraphs and "Start here." Names precision and non-harming as constitutively paired axiomatic commitments: the failure modes of each in isolation, what they produce together, and the generative capacity that becomes possible above the structural floor they establish together.
 
 2026-04-06: Suite 2.5 publication pass (continued). AI prompts and Claude skills established as primary orientation method. "Start here" section added to README: triage prompt and architecture orientation prompt called out as front-door entry points. Repository structure updated to reflect full prompt and skills architecture. Six new Claude skills added: coordination-suite-triage, tensegrity-architecture, structural-patterns-primer, integration-guide, deployment-contexts, conflict-transformation-preconditions. Six new prompts added: suite triage (Where Do I Start?), tensegrity-architecture orientation, structural-patterns-primer recognition, integration-guide adoption-sequencing, deployment-contexts combination-selection, conflict-transformation-preconditions readiness. New prompt subfolders created for all six. prompts-README restructured with triage as front-door entry and four-format taxonomy.
 
