@@ -4,6 +4,18 @@ Distributed governance is struggling to find solid footing. Decentralized Autono
 
 This repository contains nine standards developed in the course of building the Proof of Coordination protocol: six Tensegrity Compressive Standards and three Tensegrity Generative Standards. Together they form the Coordination Structural Integrity Suite of the protocol's normative architecture.
 
+## The foundational commitments
+
+The Coordination Structural Integrity Suite rests on two foundational commitments held together: precision and non-harming. These are not separate concerns that happen to both matter. They are constitutively paired: each makes the other possible, and each, taken alone, fails in a specific and predictable way.
+
+Precision without non-harming becomes a control instrument. When coordination systems make their internal dynamics visible and formal without orienting that formalism toward the protection of participants, legibility serves power rather than the people it is supposed to serve. Records exist, but they record what power wants recorded. Processes are defined, but defined to produce predetermined outcomes.
+
+Non-harming without precision is equally dangerous: it becomes an attack surface. Coordination systems built on good faith, informal trust, and the benefit of the doubt generate exactly the conditions that sufficiently adversarial actors exploit most reliably. The unrecorded spaces where real coordination happens, the deference extended to roles and relationships, the assumption of shared purpose that makes informal systems feel warm — these are not incidental vulnerabilities. They are the terrain where malignant dynamics operate, because formal precision instruments have no purchase there. The fragility of informal systems under adversarial pressure is no longer a theoretical concern. It is the condition of the moment we are in.
+
+Held together, precision and non-harming produce something neither achieves alone. When legibility is in the service of non-harming, it does not produce surveillance. It produces the structural conditions under which genuine presence is possible. For people who have been harmed by informality used against them, explicit structure is not a bureaucratic imposition. It is what trust requires before it can be extended again. Making things legible and explicit is not the obstacle to warmth or genuine connection. It is the prerequisite for them, when their absence has already caused harm. The precision is the compassion.
+
+And above that floor, something genuinely generative becomes possible. Participants who are not spending their energy protecting themselves from coordination systems that could be turned against them can bring their full capacity to the work instead. Organizations that do not suppress the signals most likely to challenge their models can actually learn. Coordination that is structurally honest about what it is and what it requires can develop collective intelligence that no individual participant could produce alone. The suite is built on this foundation: not as a ceiling, but as what makes a ceiling possible.
+
 ## Start here: AI prompts and Claude skills
 
 The Coordination Structural Integrity Suite covers a lot of ground. The architecture is intentionally broad because coordination failures are genuinely diverse and the suite is designed to address them structurally rather than symptomatically. That breadth can make it hard to know where to begin.
@@ -213,6 +225,8 @@ Full protocol documentation will be linked here as it is released.
 - **Code and software artifacts** (now or future: examples, scripts, tests, reference implementations): Licensed under Apache License 2.0. See `LICENSE`.
 
 ## Changelog
+
+2026-04-11: Foundational commitments section added between opening paragraphs and "Start here." Names precision and non-harming as constitutively paired axiomatic commitments: the failure modes of each in isolation, what they produce together, and the generative capacity that becomes possible above the structural floor they establish together.
 
 2026-04-06: Suite 2.5 publication pass (continued). AI prompts and Claude skills established as primary orientation method. "Start here" section added to README: triage prompt and architecture orientation prompt called out as front-door entry points. Repository structure updated to reflect full prompt and skills architecture. Six new Claude skills added: coordination-suite-triage, tensegrity-architecture, structural-patterns-primer, integration-guide, deployment-contexts, conflict-transformation-preconditions. Six new prompts added: suite triage (Where Do I Start?), tensegrity-architecture orientation, structural-patterns-primer recognition, integration-guide adoption-sequencing, deployment-contexts combination-selection, conflict-transformation-preconditions readiness. New prompt subfolders created for all six. prompts-README restructured with triage as front-door entry and four-format taxonomy.
 
