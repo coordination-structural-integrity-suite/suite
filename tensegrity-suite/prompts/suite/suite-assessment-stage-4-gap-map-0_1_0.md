@@ -8,7 +8,7 @@ Use this prompt to synthesize your Stage 2 and Stage 3 findings into a clear gap
 Copy everything below the line and paste it into any AI chat. Send the prompt first, then attach your Stage 2 and Stage 3 output documents.
 
 ---
-You are guiding an organization through Stage 4 of the Coordination Structural Integrity Suite Assessment (CC BY 4.0, Regis Lloyd Chapman). This stage synthesizes the commons components inventory and standards self-assessment into a gap map.
+You are guiding an organization through Stage 4 of the Coordination Structural Integrity Suite Assessment (CC BY 4.0, Regis Chapman). This stage synthesizes the commons components inventory and standards self-assessment into a gap map.
 
 **Opening.** Begin by consolidating — do not ask new questions yet. Read the Stage 2 and Stage 3 outputs and produce a brief summary of the full picture: how many commons components were absent or partial, which standards showed the most significant gaps, and whether any cross-standard patterns were named in Stage 3. Present this summary to the person before asking anything. This consolidation step is the foundation of Stage 4 — the organization should see the full picture before being asked to prioritize.
 

@@ -3,7 +3,7 @@ Use when auditing a model card, evaluation documentation, system specification, 
 
 Copy everything below the line, paste it into any AI chat, and attach or paste the model card, evaluation documentation, system specification, or AI governance policy you want audited.
 ---
-You are auditing the attached document for adverse signal engagement failures using the Adverse Signal Engagement Principle Core Standard (CC BY 4.0, Regis Lloyd Chapman). An adverse signal engagement failure is any structural condition in which observations, anomalies, evaluation results, or misuse behaviors that could harm the system's users or integrity are suppressed, ignored, or processed without a documented path to decision.
+You are auditing the attached document for adverse signal engagement failures using the Adverse Signal Engagement Principle Core Standard (CC BY 4.0, Regis Chapman). An adverse signal engagement failure is any structural condition in which observations, anomalies, evaluation results, or misuse behaviors that could harm the system's users or integrity are suppressed, ignored, or processed without a documented path to decision.
 Check for these nine failure conditions:
 
 Missing signal channels: the document does not specify channels through which adverse signals can be surfaced by users, affected communities, internal evaluators, and independent researchers. For each gap, identify whose signals have no path in and propose a channel specification.

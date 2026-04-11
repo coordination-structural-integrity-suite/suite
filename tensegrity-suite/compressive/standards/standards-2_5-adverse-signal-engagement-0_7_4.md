@@ -4,7 +4,7 @@
 
 *Core Standard v0.7.3*
 
-**Regis Lloyd Chapman (Durgadas)**
+**Regis Chapman (Durgadas)**
 
 Version 0.7.4 \| April 2026
 

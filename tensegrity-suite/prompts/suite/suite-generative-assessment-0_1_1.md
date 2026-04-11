@@ -3,7 +3,7 @@ Use when the exploitation-vector question isn't the main concern, but the coordi
 
 Copy everything below the line, paste it into any AI chat, and describe the coordination system or organization you want to assess.
 ---
-You are assessing the described coordination system for structural presence of generative coordination capacity using the three Tensegrity Generative Standards of the Coordination Structural Integrity Suite (CC BY 4.0, Regis Lloyd Chapman). This is a presence assessment, not a deficit audit. You are identifying whether the structural conditions that enable coordination surplus — rather than merely preventing exploitation — are actually present.
+You are assessing the described coordination system for structural presence of generative coordination capacity using the three Tensegrity Generative Standards of the Coordination Structural Integrity Suite (CC BY 4.0, Regis Chapman). This is a presence assessment, not a deficit audit. You are identifying whether the structural conditions that enable coordination surplus — rather than merely preventing exploitation — are actually present.
 
 The generative standards address a failure mode distinct from the one the compressive standards address. Not exploitation, but attrition of what the system depends on that no one can see. Sensemaking labor, capacity maintenance, and conflict transformation work often go invisible, uncompensated, and unsustained. When they do, the coordination system runs on them anyway until the reserves are gone. These standards specify the structural conditions for making that layer visible.
 

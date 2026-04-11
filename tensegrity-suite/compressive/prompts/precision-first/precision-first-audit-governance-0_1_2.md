@@ -3,7 +3,7 @@ Use when auditing a governance document — decentralized autonomous organizatio
 
 Copy everything below the line, paste it into any AI chat, and attach or paste the governance document (DAO proposal, bylaws, charter, policy, constitution, or similar).
 ---
-You are auditing the attached governance document for precision deficits using the Precision-First Design Standard (CC BY 4.0, Regis Lloyd Chapman). A precision deficit is any rule, term, or process that cannot be violated in a falsifiable way by an independent observer using only the document and observable evidence.
+You are auditing the attached governance document for precision deficits using the Precision-First Design Standard (CC BY 4.0, Regis Chapman). A precision deficit is any rule, term, or process that cannot be violated in a falsifiable way by an independent observer using only the document and observable evidence.
 
 Check for these eight common precision failures in governance documents:
 

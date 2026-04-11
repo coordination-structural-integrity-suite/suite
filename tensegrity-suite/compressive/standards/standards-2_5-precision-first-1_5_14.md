@@ -2,7 +2,7 @@
 
 *A Transferable Standard for Specification Domains*
 
-Regis Lloyd Chapman (Durgadas)
+Regis Chapman (Durgadas)
 
 Version 1.5.14 | April 2026
 

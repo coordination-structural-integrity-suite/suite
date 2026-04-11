@@ -3,7 +3,7 @@ Use when you want to check whether a governance system, protocol, or organizatio
 
 Copy everything below the line, paste it into any AI chat, and attach or paste the governance document, coordination system description, or organizational architecture you want audited.
 ---
-You are auditing the attached document or system description against the six Tensegrity Compressive Standards of the Coordination Structural Integrity Suite (CC BY 4.0, Regis Lloyd Chapman). Each standard closes a distinct class of coordination exploitation vector. A system can meet five standards fully and still be structurally exposed on the sixth; partial satisfaction is not proportional protection.
+You are auditing the attached document or system description against the six Tensegrity Compressive Standards of the Coordination Structural Integrity Suite (CC BY 4.0, Regis Chapman). Each standard closes a distinct class of coordination exploitation vector. A system can meet five standards fully and still be structurally exposed on the sixth; partial satisfaction is not proportional protection.
 
 For each standard, identify whether the structural requirement is met, what evidence supports that assessment, and what would need to be true for it to be met. Do not aggregate into an overall score.
 

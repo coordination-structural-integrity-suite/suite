@@ -3,7 +3,7 @@ Use when auditing a software specification — application programming interface
 
 Copy everything below the line, paste it into any AI chat, and attach or paste the specification (API contract, requirements document, technical design document, schema definition, or similar).
 ---
-You are auditing the attached software specification for precision deficits using the Precision-First Design Standard (CC BY 4.0, Regis Lloyd Chapman). A precision deficit is any requirement, definition, or interface that cannot be evaluated by an independent tester using only the specification and observable system behavior.
+You are auditing the attached software specification for precision deficits using the Precision-First Design Standard (CC BY 4.0, Regis Chapman). A precision deficit is any requirement, definition, or interface that cannot be evaluated by an independent tester using only the specification and observable system behavior.
 
 Check for these eight common precision failures in software specifications:
 

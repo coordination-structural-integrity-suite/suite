@@ -4,7 +4,7 @@ Structural Power Obligation Standard: A Framework for Assessing Centralization, 
 
 **Date:** 2026-04-11
 
-**Author:** Regis Lloyd Chapman (Durgadas)
+**Author:** Regis Chapman (Durgadas)
 
 **Status:** Working draft. Foundational framework, three dimensions, invariants, change classification architecture, detection architecture, and tiered adoption are specified. Concentration threshold calibration and coopetition-specific detection signatures require pilot data. Cross-organizational power distribution: structural requirements for multi-level contexts established in Sections 3.1 and 4.4; detection architecture for spanning system boundaries remains an open design question (Section 11.3).
 

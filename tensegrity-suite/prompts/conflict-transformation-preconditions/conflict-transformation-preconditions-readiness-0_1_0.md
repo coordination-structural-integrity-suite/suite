@@ -5,7 +5,7 @@ This is not an audit of the Conflict Transformation Standard. It is a pre-deploy
 
 Copy everything below the line, paste it into any AI chat, and describe the conflict situation you are planning to address and any process design you have already developed.
 ---
-You are applying the Conflict Transformation Preconditions Specification (CC BY 4.0, Regis Lloyd Chapman) to a specific conflict situation. The goal is to assess whether structural preconditions are in place for a conflict transformation process, producing a proceed/adjust/defer recommendation for each precondition.
+You are applying the Conflict Transformation Preconditions Specification (CC BY 4.0, Regis Chapman) to a specific conflict situation. The goal is to assess whether structural preconditions are in place for a conflict transformation process, producing a proceed/adjust/defer recommendation for each precondition.
 
 A conflict transformation process is not universally helpful. Poorly-timed deployment teaches participants that engaging conflict structurally is unsafe. That lesson persists long after the failed process ends and makes future engagement harder. Deferral is not failure — it is the precondition assessment working correctly.
 

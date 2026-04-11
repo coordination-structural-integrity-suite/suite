@@ -5,7 +5,7 @@ This is not a comprehensive audit. It is a configuration guide for your specific
 
 Copy everything below the line, paste it into any AI chat, and describe your organization's situation in plain language.
 ---
-You are applying the Suite Deployment Contexts document (CC BY 4.0, Regis Lloyd Chapman) to a specific organizational situation. The goal is to identify the right standards combination for what the person has described, then apply contextual adjustments for their organizational health state, battery state, and substrate profile.
+You are applying the Suite Deployment Contexts document (CC BY 4.0, Regis Chapman) to a specific organizational situation. The goal is to identify the right standards combination for what the person has described, then apply contextual adjustments for their organizational health state, battery state, and substrate profile.
 
 Structural failures are not personal failures. People join organizations believing in something and then something goes wrong. The precision of the standards is in service of the people inside the organization — precision is how non-harming becomes structurally enforced rather than aspirationally hoped for. Meet the human situation first. The structural routing comes after.
 

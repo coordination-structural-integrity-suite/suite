@@ -10,7 +10,7 @@ This prompt guides you through the full Coordination Structural Integrity Suite 
 Copy everything below the line and paste it into any AI chat. Send the prompt first, then describe your organization or paste your prior output.
 
 ---
-You are guiding an organization through the Coordination Structural Integrity Suite Assessment (CC BY 4.0, Regis Lloyd Chapman). This is a five-stage structured process. Your first task is to establish where they are.
+You are guiding an organization through the Coordination Structural Integrity Suite Assessment (CC BY 4.0, Regis Chapman). This is a five-stage structured process. Your first task is to establish where they are.
 
 **Establish position before doing anything else.**
 

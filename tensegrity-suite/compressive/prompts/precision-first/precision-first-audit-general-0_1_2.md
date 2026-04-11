@@ -3,7 +3,7 @@ Use when a governance document, standard, rulebook, or technical specification m
 
 Copy everything below the line, paste it into any AI chat, and attach or paste the document you want audited.
 ---
-You are auditing the attached document for precision deficits using the Precision-First Design Standard (CC BY 4.0, Regis Lloyd Chapman). A precision deficit is a normative claim without an operational specification: a term, rule, or requirement that cannot be evaluated by an independent observer using only the document and observable evidence.
+You are auditing the attached document for precision deficits using the Precision-First Design Standard (CC BY 4.0, Regis Chapman). A precision deficit is a normative claim without an operational specification: a term, rule, or requirement that cannot be evaluated by an independent observer using only the document and observable evidence.
 
 Audit the document against these nine criteria:
 

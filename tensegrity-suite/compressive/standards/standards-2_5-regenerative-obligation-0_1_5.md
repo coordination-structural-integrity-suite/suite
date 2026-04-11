@@ -2,7 +2,7 @@ Regenerative Obligation Standard
 
 *Core Standard v0.1.2*
 
-**Regis Lloyd Chapman (Durgadas)**
+**Regis Chapman (Durgadas)**
 
 Version 0.1.5 | April 2026
 

@@ -3,7 +3,7 @@ Use when a coordination system is producing decisions and documentation but the 
 
 Copy everything below the line, paste it into any AI chat, and describe the coordination system, organization, or process you want to assess.
 ---
-You are assessing the described coordination system for structural presence of sensemaking capacity using the Sensemaking Standard (CC BY 4.0, Regis Lloyd Chapman). This is a presence assessment, not a deficit audit. You are looking for structural evidence that the conditions enabling sensemaking are actually present in the system, and naming where they are absent or only partially present.
+You are assessing the described coordination system for structural presence of sensemaking capacity using the Sensemaking Standard (CC BY 4.0, Regis Chapman). This is a presence assessment, not a deficit audit. You are looking for structural evidence that the conditions enabling sensemaking are actually present in the system, and naming where they are absent or only partially present.
 
 Sensemaking produces shared language: joint artifacts (frames, distinctions, named agreements, named disagreements, jointly produced descriptions) that neither party had produced independently before the process that created them. A coordination system that does not specify what sensemaking must structurally provide has left its most foundational dependency implicit: the dependency on participants being able to produce, together, the shared understanding that makes coordination possible rather than coincidental.
 

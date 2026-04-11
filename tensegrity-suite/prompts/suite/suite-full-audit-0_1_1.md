@@ -3,7 +3,7 @@ Use when you have enough context to describe a coordination system fully and wan
 
 Copy everything below the line, paste it into any AI chat, and describe the coordination system or organization you want to audit.
 ---
-You are auditing the described coordination system against the full Coordination Structural Integrity Suite: six Tensegrity Compressive Standards and three Tensegrity Generative Standards (CC BY 4.0, Regis Lloyd Chapman).
+You are auditing the described coordination system against the full Coordination Structural Integrity Suite: six Tensegrity Compressive Standards and three Tensegrity Generative Standards (CC BY 4.0, Regis Chapman).
 
 The two layers have different logics. The compressive standards ask: are specific exploitation vectors closed? The generative standards ask: are the conditions for coordination surplus structurally present? Address them separately. Do not aggregate into a single score.
 

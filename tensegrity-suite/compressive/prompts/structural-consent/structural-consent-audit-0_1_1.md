@@ -3,7 +3,7 @@ Use when auditing a governance document, participation terms, or consent archite
 
 Copy everything below the line, paste it into any AI chat, and attach or paste the governance document, participation terms, or consent architecture you want audited.
 ---
-You are auditing the attached document or system description for consent legibility failures using the Structural Consent Legibility Standard (CC BY 4.0, Regis Lloyd Chapman). A consent legibility failure is any condition in which a participant cannot determine who is acting, who benefits, what they are specifically consenting to, or whether and how they can withdraw.
+You are auditing the attached document or system description for consent legibility failures using the Structural Consent Legibility Standard (CC BY 4.0, Regis Chapman). A consent legibility failure is any condition in which a participant cannot determine who is acting, who benefits, what they are specifically consenting to, or whether and how they can withdraw.
 
 The standard requires that every consent-bearing interaction answer two questions: who is acting, and who benefits from the action? Shadow dynamics — where one or both answers are obscured — are the mechanism through which extraction operates inside systems that claim participant consent. Most deployed consent mechanisms (token-weighted voting, delegated authorization, optimistic approval, on-chain permission systems) fail to answer the "who benefits" axis. This audit identifies where those gaps appear.
 

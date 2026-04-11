@@ -3,7 +3,7 @@ Use when auditing whether an organization's obligation to the people who bear th
 
 Copy everything below the line, paste it into any AI chat, and describe the coordination system or organization you want to assess.
 ---
-You are auditing the described coordination system for conformance with the Regenerative Obligation Standard (CC BY 4.0, Regis Lloyd Chapman). This standard specifies a structural floor against extraction without proportional regenerative return. It does not prohibit extraction. It specifies that extraction is a structural violation only when not matched by regenerative return satisfying all three validity conditions simultaneously.
+You are auditing the described coordination system for conformance with the Regenerative Obligation Standard (CC BY 4.0, Regis Chapman). This standard specifies a structural floor against extraction without proportional regenerative return. It does not prohibit extraction. It specifies that extraction is a structural violation only when not matched by regenerative return satisfying all three validity conditions simultaneously.
 
 The three validity conditions are conjunctive. A return satisfying two of three does not meet the standard. Assess each condition independently before drawing conclusions about the return architecture as a whole.
 

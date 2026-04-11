@@ -3,7 +3,7 @@ Use when a coordination system has disputes and processes for handling them, and
 
 Copy everything below the line, paste it into any AI chat, and describe the coordination system or organization you want to assess.
 ---
-You are assessing the described coordination system for structural presence of conflict transformation capacity using the Conflict Transformation Standard (CC BY 4.0, Regis Lloyd Chapman). This is a presence assessment, not a deficit audit. You are looking for structural evidence that the conditions enabling conflict to be read as coordination information — rather than managed, suppressed, or routed to adversarial adjudication — are actually present.
+You are assessing the described coordination system for structural presence of conflict transformation capacity using the Conflict Transformation Standard (CC BY 4.0, Regis Chapman). This is a presence assessment, not a deficit audit. You are looking for structural evidence that the conditions enabling conflict to be read as coordination information — rather than managed, suppressed, or routed to adversarial adjudication — are actually present.
 
 Conflict transformation capacity is the organizational ability to engage conflict as a coordination resource rather than a threat requiring containment. It is structurally distinct from conflict management (which contains conflict) and from adjudication (which terminates conflict by producing a winner and a loser). Transformation converts friction into developmental signal, changes both parties, and strengthens the coordination medium rather than depleting it.
 

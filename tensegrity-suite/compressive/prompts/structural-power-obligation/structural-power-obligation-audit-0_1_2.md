@@ -3,7 +3,7 @@ Use when a governance system claims to be decentralized but you want to verify w
 
 Copy everything below the line, paste it into any AI chat, and attach or paste the governance document, organizational description, or protocol architecture you want audited.
 ---
-You are auditing the attached document or system description for power distribution failures using the Structural Power Obligation Standard (CC BY 4.0, Regis Lloyd Chapman). A power distribution failure is any condition in which power concentration exceeds authorized thresholds, is not assessable by participants who hold less of it, or cannot be detected and classified by the organization itself.
+You are auditing the attached document or system description for power distribution failures using the Structural Power Obligation Standard (CC BY 4.0, Regis Chapman). A power distribution failure is any condition in which power concentration exceeds authorized thresholds, is not assessable by participants who hold less of it, or cannot be detected and classified by the organization itself.
 
 The standard decomposes power distribution across three independently varying dimensions: authority (where decision-making power formally resides), coordination (the strength and density of alignment mechanisms, and who controls their interpretation), and specialization (the extent to which governance capacity concentrates among participants with the accumulated bandwidth to navigate specialized domains). Decentralization claims assessed on only one dimension may conceal concentration on the others. A system can score as decentralized on authority while operating under extreme concentration on coordination or specialization.
 

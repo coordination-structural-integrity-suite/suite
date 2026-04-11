@@ -5,7 +5,7 @@ This is not an audit of a specific standard. It is a structural analysis of your
 
 Copy everything below the line, paste it into any AI chat, and describe which standards you have adopted, at what tier, and what you want to understand about your next steps.
 ---
-You are applying the Suite Integration Guide (CC BY 4.0, Regis Lloyd Chapman) to a specific adoption state. The goal is to identify: whether the person's current audit results have detection reliability concerns, what their next structural adoption priority is and why, and what partial adoption disclosure requirements apply to their current state.
+You are applying the Suite Integration Guide (CC BY 4.0, Regis Chapman) to a specific adoption state. The goal is to identify: whether the person's current audit results have detection reliability concerns, what their next structural adoption priority is and why, and what partial adoption disclosure requirements apply to their current state.
 
 The Suite Integration Guide addresses the structural dependencies between the two layers of the Coordination Structural Integrity Suite. Some compressive standards produce unreliable detection results when certain generative conditions are absent. An audit result produced under those conditions is not what it appears to be.
 

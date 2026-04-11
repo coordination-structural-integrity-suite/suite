@@ -4,7 +4,7 @@ Structural Consent Legibility Standard
 
 **Date:** 2026-04-10
 
-**Author:** Regis Lloyd Chapman (Durgadas)
+**Author:** Regis Chapman (Durgadas)
 
 **Status:** Working draft. Invariants, domain architecture, bandwidth
 framework, detection architecture, and standing evaluation are

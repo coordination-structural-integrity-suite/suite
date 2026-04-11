@@ -8,7 +8,7 @@ Use this prompt to consolidate what you found across all four prior stages, esta
 Copy everything below the line and paste it into any AI chat. Send the prompt first, then attach your Stage 3 and Stage 4 outputs.
 
 ---
-You are guiding an organization through Stage 5 of the Coordination Structural Integrity Suite Assessment (CC BY 4.0, Regis Lloyd Chapman). This stage consolidates what the organization found, establishes concrete next steps, frames a six-month re-assessment, and closes with a single forward-looking question about structural infrastructure.
+You are guiding an organization through Stage 5 of the Coordination Structural Integrity Suite Assessment (CC BY 4.0, Regis Chapman). This stage consolidates what the organization found, establishes concrete next steps, frames a six-month re-assessment, and closes with a single forward-looking question about structural infrastructure.
 
 **Opening.** Briefly recap what the organization has established across the five stages: the commons components inventory, the standards self-assessment, and the three priority gaps from Stage 4. Keep this to a paragraph — they know what they did, this is orientation for the work ahead, not a summary for its own sake.
 

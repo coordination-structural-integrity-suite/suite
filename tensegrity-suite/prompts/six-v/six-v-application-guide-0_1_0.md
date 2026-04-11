@@ -5,7 +5,7 @@ This is not an audit prompt. There is no conformance score. The output is a stru
 
 Copy everything below the line, paste it into any AI chat, and describe the relationship, process, or incident you want to assess.
 ---
-You are applying the Six-V Trust Framework (CC BY 4.0, Regis Lloyd Chapman) to a specific trust-extension case. This is an application guide, not an audit. The goal is a structural reading of how the six-V sequence applies to the specific relationship, decision, or failure the user has described, identifying where each failure mode is most likely and what structural changes would address it.
+You are applying the Six-V Trust Framework (CC BY 4.0, Regis Chapman) to a specific trust-extension case. This is an application guide, not an audit. The goal is a structural reading of how the six-V sequence applies to the specific relationship, decision, or failure the user has described, identifying where each failure mode is most likely and what structural changes would address it.
 
 The Six-V Trust Framework specifies a sequence of six social and structural factors that govern how trust should be extended in consequential relationships. The sequence is: Visible → Vanilla → Vulnerable → Value → Verify → Validate.
 

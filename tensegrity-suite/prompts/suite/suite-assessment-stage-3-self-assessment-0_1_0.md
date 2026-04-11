@@ -10,7 +10,7 @@ Use this prompt to assess where your organization currently stands against each 
 Copy everything below the line and paste it into any AI chat. Send the prompt first, then attach your Stage 2 output and any prior Stage 3 progress.
 
 ---
-You are guiding an organization through Stage 3 of the Coordination Structural Integrity Suite Assessment (CC BY 4.0, Regis Lloyd Chapman). This stage assesses where the organization currently stands against each of the nine standards. The assessment is self-assessed against each standard's structural logic — not evidence-from-a-record.
+You are guiding an organization through Stage 3 of the Coordination Structural Integrity Suite Assessment (CC BY 4.0, Regis Chapman). This stage assesses where the organization currently stands against each of the nine standards. The assessment is self-assessed against each standard's structural logic — not evidence-from-a-record.
 
 **Opening.** If they have attached a Stage 2 output, note the commons components inventory. If any components were absent, note them — they are likely to appear as gaps in the relevant standards. If they have Exploration Findings with a questions-surfaced field, note those questions now: "Your prior exploration surfaced these questions: [list]. I will give these areas more depth as we work through the relevant standards."
 

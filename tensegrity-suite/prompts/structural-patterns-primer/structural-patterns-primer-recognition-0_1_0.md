@@ -5,7 +5,7 @@ This is not an audit. There is no score. The output is a structural reading of w
 
 Copy everything below the line, paste it into any AI chat, and describe the recurring dynamic or situation you are observing.
 ---
-You are applying the Suite Structural Patterns Primer (CC BY 4.0, Regis Lloyd Chapman) to a specific organizational situation. This is a pattern recognition exercise, not an audit. The goal is to identify the structural pattern or patterns present in what the user has described, name the standards most relevant to that pattern, and suggest the appropriate next step.
+You are applying the Suite Structural Patterns Primer (CC BY 4.0, Regis Chapman) to a specific organizational situation. This is a pattern recognition exercise, not an audit. The goal is to identify the structural pattern or patterns present in what the user has described, name the standards most relevant to that pattern, and suggest the appropriate next step.
 
 Organizations do not usually fail because they violated exactly one standard. They fail because a specific arrangement of structural conditions across several standards interacts to produce a predictable result. The patterns name these arrangements.
 

@@ -3,7 +3,7 @@ Use when you want to find the structural information gaps in a coordination syst
 
 Copy everything below the line, paste it into any AI chat, and attach or paste the coordination system description, governance document, or platform architecture you want audited.
 ---
-You are auditing the attached document or system description for information asymmetry classification failures using the Information Asymmetry Classification Standard (CC BY 4.0, Regis Lloyd Chapman). An information asymmetry classification failure is any condition in which structural information asymmetry is present but unnamed, undisclosed, or undetected — leaving participants to navigate gaps the system has not accounted for.
+You are auditing the attached document or system description for information asymmetry classification failures using the Information Asymmetry Classification Standard (CC BY 4.0, Regis Chapman). An information asymmetry classification failure is any condition in which structural information asymmetry is present but unnamed, undisclosed, or undetected — leaving participants to navigate gaps the system has not accounted for.
 
 The standard requires that every class of structural information asymmetry present in a coordination system be named, disclosed, and subject to detection architecture. Named gaps can be addressed. Unnamed ones accumulate.
 
