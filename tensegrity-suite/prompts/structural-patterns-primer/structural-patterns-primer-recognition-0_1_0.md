@@ -13,23 +13,23 @@ The ten named structural patterns and their observable signatures:
 
 **Transition Narrative.** Leadership changes or organizational shifts framed before genuine sensemaking has produced an accurate account. The framing forecloses the meaning-making that would produce accurate diagnosis. Standards: Sensemaking Standard, Information Asymmetry Classification Standard, Structural Consent Legibility Standard.
 
-**Hidden Factory Collapse.** Stable organizational function, then sudden capacity loss when one or a few people exit or deplete. Invisible coordination work sustaining the system becomes visible only when it stops. Standards: Four Batteries Capacity Standard, Regenerative Accountability Standard, Information Asymmetry Classification Standard.
+**Hidden Factory Collapse.** Stable organizational function, then sudden capacity loss when one or a few people exit or deplete. Invisible coordination work sustaining the system becomes visible only when it stops. Standards: Four Batteries Capacity Standard, Regenerative Obligation Standard, Information Asymmetry Classification Standard.
 
 **Termination Reflex.** Conflict routinely resolved through exit (termination, resignation, ostracism) rather than a transformation process. Standards: Conflict Transformation Standard, Adverse-Signal Engagement Principle Core Standard, Structural Consent Legibility Standard.
 
-**Specialist Concentration.** One person holds both deep specialization in a critical domain and coordination power over what that specialization means for governance. No other participant can evaluate decisions from a position of meaningful participation. Standards: Structural Power Distribution Standard, Information Asymmetry Classification Standard, Structural Consent Legibility Standard.
+**Specialist Concentration.** One person holds both deep specialization in a critical domain and coordination power over what that specialization means for governance. No other participant can evaluate decisions from a position of meaningful participation. Standards: Structural Power Obligation Standard, Information Asymmetry Classification Standard, Structural Consent Legibility Standard.
 
-**Reframing Loop.** Adverse signals received, acknowledged, then consistently reprocessed as less threatening — without a structural response. The same signal type recurs and is reprocessed again. Standards: Adverse-Signal Engagement Principle Core Standard, Precision-First Design Standard, Structural Power Distribution Standard.
+**Reframing Loop.** Adverse signals received, acknowledged, then consistently reprocessed as less threatening — without a structural response. The same signal type recurs and is reprocessed again. Standards: Adverse-Signal Engagement Principle Core Standard, Precision-First Design Standard, Structural Power Obligation Standard.
 
-**Drift Pattern** (working hypothesis). Power, consent architecture, or capacity erodes through accumulated small adjustments, none individually triggering a structural response. The drift becomes visible only when assessed cumulatively. Standards: Structural Power Distribution Standard, Structural Consent Legibility Standard, Four Batteries Capacity Standard.
+**Drift Pattern** (working hypothesis). Power, consent architecture, or capacity erodes through accumulated small adjustments, none individually triggering a structural response. The drift becomes visible only when assessed cumulatively. Standards: Structural Power Obligation Standard, Structural Consent Legibility Standard, Four Batteries Capacity Standard.
 
-**Mission-Justified Hidden Factory** (working hypothesis). Invisible coordination work framed as mission contribution rather than coordination work requiring recognition and regeneration. Standards: Regenerative Accountability Standard, Four Batteries Capacity Standard, Sensemaking Standard.
+**Mission-Justified Hidden Factory** (working hypothesis). Invisible coordination work framed as mission contribution rather than coordination work requiring recognition and regeneration. Standards: Regenerative Obligation Standard, Four Batteries Capacity Standard, Sensemaking Standard.
 
 **Document Without Process** (working hypothesis). Policy decisions, governance changes, or structural shifts communicated through documents without a visible reasoning process. Standards: Precision-First Design Standard, Structural Consent Legibility Standard, Information Asymmetry Classification Standard.
 
-**Jurisdictional Capture** (working hypothesis). An informal domain boundary becomes treated as a formal authority boundary without a governance process establishing it. Standards: Structural Power Distribution Standard, Structural Consent Legibility Standard, Precision-First Design Standard.
+**Jurisdictional Capture** (working hypothesis). An informal domain boundary becomes treated as a formal authority boundary without a governance process establishing it. Standards: Structural Power Obligation Standard, Structural Consent Legibility Standard, Precision-First Design Standard.
 
-**Hidden Factory Self-Extraction** (working hypothesis). A participant performing significant invisible coordination work begins extracting value from organizational resources in ways not traceable in the record. Standards: Regenerative Accountability Standard, Information Asymmetry Classification Standard, Structural Consent Legibility Standard.
+**Hidden Factory Self-Extraction** (working hypothesis). A participant performing significant invisible coordination work begins extracting value from organizational resources in ways not traceable in the record. Standards: Regenerative Obligation Standard, Information Asymmetry Classification Standard, Structural Consent Legibility Standard.
 
 Note: Four patterns are marked as working hypotheses — they have been identified from real evaluations but are treated as provisional pending broader case validation.
 

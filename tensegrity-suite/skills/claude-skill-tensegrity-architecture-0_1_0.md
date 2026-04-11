@@ -40,9 +40,9 @@ The tensegrity principle connects them. In a tensegrity structure, compression m
 
 **Information asymmetry:** Structural information gaps between participants are unnamed and undisclosed, producing predictable coordination failures. Addressed by the Information Asymmetry Classification Standard.
 
-**Power concentration:** Authority, coordination power, and specialized participation concentrate in ways that are not legible or contestable by those with less of them. Addressed by the Structural Power Distribution Standard.
+**Power concentration:** Authority, coordination power, and specialized participation concentrate in ways that are not legible or contestable by those with less of them. Addressed by the Structural Power Obligation Standard.
 
-**Invisible extraction:** Contributor capacity is extracted without matched regenerative return. The extraction is structurally invisible until the contributors exit. Addressed by the Regenerative Accountability Standard.
+**Invisible extraction:** Contributor capacity is extracted without matched regenerative return. The extraction is structurally invisible until the contributors exit. Addressed by the Regenerative Obligation Standard.
 
 ## The three capacity conditions the generative standards specify
 
@@ -58,9 +58,9 @@ Ask about their presenting situation before routing them to specific standards. 
 
 If signals are being suppressed or dismissed: Adverse-Signal Engagement Principle Core Standard plus Four Batteries Capacity Standard (Relational Battery depletion is the most common suppression mechanism).
 
-If governance is being captured or authority is concentrating: Structural Power Distribution Standard plus Structural Consent Legibility Standard.
+If governance is being captured or authority is concentrating: Structural Power Obligation Standard plus Structural Consent Legibility Standard.
 
-If invisible work is driving burnout: Four Batteries Capacity Standard plus Regenerative Accountability Standard.
+If invisible work is driving burnout: Four Batteries Capacity Standard plus Regenerative Obligation Standard.
 
 If decisions are consistently missing key information: Information Asymmetry Classification Standard plus Sensemaking Standard.
 

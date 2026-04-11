@@ -4,7 +4,7 @@
 
 **Regis Lloyd Chapman (Durgadas)**
 
-Version 0.1.19 \| April 2026
+Version 0.1.20 \| April 2026
 
 *This document establishes a six-class taxonomy of information asymmetry
 in coordination systems. It is intended to be legible to researchers in
@@ -1010,6 +1010,33 @@ record is defined to capture is itself a governance act; when that
 definition excludes categories that would primarily implicate the actors
 who defined it, the definition is an omission asymmetry instrument.
 
+*Governance record asymmetry* is a named sub-pattern of scope boundary
+concentration in which the formal governance record is architecturally
+designed to capture ratification outputs rather than the coordination
+inputs that produce them. The defining characteristic is not that an
+actor has chosen to exclude specific information from an otherwise
+complete record — that is the canonical scope boundary concentration
+pattern. It is that the record's architectural scope was never designed
+to include pre-decision coordination at all: real coordination happens
+in private channels — messaging platforms, informal meetings, side
+conversations — and the formal record receives only the processed
+output. The record is not selectively incomplete; it is constitutively
+incomplete, because the boundary of what it captures was drawn at the
+ratification moment rather than the decision moment. The DAO governance
+failures document this sub-pattern in its clearest form: proposals
+pre-negotiated in private channels while formal voting mechanisms serve
+as ratification theater is governance record asymmetry operating at
+scale. The detection signal is distinct from other scope boundary
+concentration patterns: look not for what is missing from entries
+already in the record, but for whether the governance architecture
+systematically routes real decision-making to ungoverned, unarchived
+channels before it surfaces in the formal record. The remediation is
+also distinct: canonical scope boundary concentration is remediable by
+changing which actors control record scope; governance record asymmetry
+requires architectural change to where real coordination happens —
+bringing it into a governed, witnessed record rather than allowing the
+formal record to capture ratification only.
+
 The meta-level challenge for detecting omission asymmetry is identical
 to that of interpretive asymmetry, but one layer more fundamental: the
 detection taxonomy can only surface omissions it has categories for, and
@@ -1507,7 +1534,7 @@ Adoption of this standard at any tier below the full Tensegrity Compressive Stan
 
 Relationship To Other Standards
 
-The closest functional adjacency is with the Structural Consent Legibility Standard: information asymmetry is a precondition for consent failures, and the six asymmetry classes provide the diagnostic vocabulary for identifying which structural conditions make consent uninformed. The Structural Power Distribution Standard addresses related terrain: power differentials generate positional and relational asymmetry as classified in this standard's primary taxonomy.
+The closest functional adjacency is with the Structural Consent Legibility Standard: information asymmetry is a precondition for consent failures, and the six asymmetry classes provide the diagnostic vocabulary for identifying which structural conditions make consent uninformed. The Structural Power Obligation Standard addresses related terrain: power differentials generate positional and relational asymmetry as classified in this standard's primary taxonomy.
 
 Tensegrity As A Whole
 
@@ -1521,7 +1548,7 @@ Coordination Structural Integrity Suite
 │   ├── Adverse Signal Engagement Principle Core Standard
 │   ├── Structural Consent Legibility Standard
 │   ├── Information Asymmetry Classification Standard        ← this standard
-│   └── Structural Power Distribution Standard
+│   └── Structural Power Obligation Standard
 │
 └── Tensegrity Generative Standards (3)
     ├── Sensemaking Standard
@@ -1534,6 +1561,8 @@ Without this standard the suite has no mechanism for classifying which specific 
 Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 Changelog
+
+v0.1.20 (April 2026): Added governance record asymmetry as a named sub-pattern within Class 5 (Omission Asymmetry) scope boundary concentration detection signal. Sub-pattern names the architectural condition in which formal governance records are designed to capture ratification outputs only, while real coordination happens in ungoverned, unarchived channels. Distinguished from canonical scope boundary concentration (an actor choosing to exclude information from an otherwise complete record) by mechanism (constitutive architectural incompleteness, not selective exclusion), detection signal (look for routing of real decisions to ungoverned channels, not for gaps in existing entries), and remediation (architectural change to where coordination happens, not change of who controls record scope). DAO governance failure cases are the empirical grounding.
 
 v0.1.19 (April 2026): Plain-language preamble added. Two paragraphs inserted before the non-harming formula in Section 1 (Preamble), grounding the standard in the lived experience of the coordination failure it addresses (being outmaneuvered by information you cannot name). Navigation pointer added: one sentence pointing to the Suite Integration Guide and the Suite Deployment Contexts document. No changes to normative content.
 

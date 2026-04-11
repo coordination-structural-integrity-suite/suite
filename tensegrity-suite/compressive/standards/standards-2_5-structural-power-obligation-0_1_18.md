@@ -1,8 +1,8 @@
-Structural Power Distribution Standard: A Framework for Assessing Centralization, Decentralization, and the Dimensions They Conflate
+Structural Power Obligation Standard: A Framework for Assessing Centralization, Decentralization, and the Dimensions They Conflate
 
-**Version:** v0.1.17
+**Version:** v0.1.18
 
-**Date:** March 2026
+**Date:** 2026-04-11
 
 **Author:** Regis Lloyd Chapman (Durgadas)
 
@@ -183,7 +183,7 @@ Strategic pivot triggers the Authorize invariant process if not already complete
 
 6\. Detection Architecture
 
-The tier names in this standard use the prefix SPDS (Structural Power Distribution Standard).
+The tier names in this standard use the prefix SPDS (Structural Power Obligation Standard).
 
 Systems adopting this standard at the SPDS-Instrumented tier must implement a detection architecture that instruments all three dimensions. Detection is probabilistic: the detection layer flags signals for review and classification, not adjudication. Each dimension has a composite signal model.
 
@@ -307,7 +307,7 @@ The interaction between them is significant for the coordination dimension speci
 
 Systems adopting this standard should include the following statement in their governance documentation:
 
-*Structural Power Distribution Inheritance: This [document/system/protocol] adopts the Structural Power Distribution Standard (SPDS) (v[X], [date]) at the [SPDS-Assessed / SPDS-Operational / SPDS-Instrumented / SPDS-Accountable / SPDS-Auditable] level. The authorized distribution profile across the three dimensions (Authority, Coordination, Specialization) is specified at: [reference to distribution profile document or governance record]. The concentration thresholds triggering Authorize invariant review are: [thresholds per dimension]. Dimensions identified as not applicable to this system's operations: [list, with rationale].*
+*Structural Power Distribution Inheritance: This [document/system/protocol] adopts the Structural Power Obligation Standard (SPDS) (v[X], [date]) at the [SPDS-Assessed / SPDS-Operational / SPDS-Instrumented / SPDS-Accountable / SPDS-Auditable] level. The authorized distribution profile across the three dimensions (Authority, Coordination, Specialization) is specified at: [reference to distribution profile document or governance record]. The concentration thresholds triggering Authorize invariant review are: [thresholds per dimension]. Dimensions identified as not applicable to this system's operations: [list, with rationale].*
 
 The inheritance clause commits the adopting system to: (a) establishing an authorized distribution profile across all three dimensions, (b) satisfying the three invariants (Distribute, Authorize, Monitor) at the adopted tier, (c) treating unauthorized concentration as an adverse signal subject to its adverse signal processing, (d) applying the change classification architecture to detected concentration shifts, and (e) disclosing the detection architecture to its participant population as a condition of operating at the SPDS-Instrumented tier.
 
@@ -357,7 +357,7 @@ Coordination Structural Integrity Suite
 │   ├── Adverse Signal Engagement Principle Core Standard
 │   ├── Structural Consent Legibility Standard
 │   ├── Information Asymmetry Classification Standard
-│   └── Structural Power Distribution Standard               ← this standard
+│   └── Structural Power Obligation Standard               ← this standard
 │
 └── Tensegrity Generative Standards (3)
     ├── Sensemaking Standard
@@ -392,6 +392,8 @@ Changelog
 **v0.1.9 (March 2026):** Terminology update. "Commitment Standards" renamed to "Tensegrity Compressive Standards" throughout. No normative content changes.
 
 **v0.1.8 (March 2026):** Generalization pass completing work left unfinished in v0.1.5. Five fixes, no normative content changes. (1) Header companion standards: "constitutes the pentad" replaced with "constitutes the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite." Missed in v0.1.5 naming propagation. (2) Section 11.4: "distinct from pentad compliance" replaced with "distinct from Tensegrity Compressive Standards conformance"; "pentad-plus-sensemaking architecture" replaced with "Tensegrity Compressive Standards-plus-sensemaking architecture." Two additional naming misses from v0.1.5. (3) Section 9.1: removed "(forthcoming)" from Proof of Coordination Architecture reference. v0.1.5 removed this from Section 10 but missed Section 9.1. (4) Section 10.1: Precision-First inheritance clause version citation updated from v1.5.4 to v1.5.6. (5) Section 11.5: "the Witness Layer's tensional state monitoring function" replaced with "a detection layer's tensional state monitoring function." The Witness Layer is a protocol-specific implementation; the domain-general standard names the function, not the implementation. Consistent with the generalization passes applied to the Adverse-Signal Engagement Principle and other Tensegrity Compressive Standards.
+
+**v0.1.18 (2026-04-11):** Renamed from Structural Power Distribution Standard to Structural Power Obligation Standard. No changes to normative content. "Obligation" replaces "Distribution" throughout to name the structural requirement from inside the standard's own logic: power is legitimate only when matched by obligation toward all cost-bearing parties across all three dimensions (authority, coordination, specialization). "Distribution" names a condition to be measured; "Obligation" names the mechanism that makes any distribution profile legitimate. Directly invokes the Multiplex Obligation Directions architecture in the foundational frameworks. See Naming Decision 2.19 in reference-terminology-conventions-0_1_2.md.
 
 **v0.1.7 (March 2026):** Pre-release fixes. (1) Section 7.4 SPDS-Accountable: governance review record requirement corrected from "(drift, accumulation, or capture per Section 5)" to "(drift, coherent evolution, strategic pivot, or capture per Section 5)." "Accumulation" is not a defined term in Section 5; the four defined classifications are drift, coherent evolution, strategic pivot, and capture. Normative fix: the record requirement now references the standard's actual classification vocabulary. (2) Section 10.1 Precision-First inheritance clause: version citation updated from v1.4.8 to v1.5.4. No other changes to normative content.
 

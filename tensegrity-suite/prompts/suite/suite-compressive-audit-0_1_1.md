@@ -74,7 +74,7 @@ Evaluate whether:
 
 ---
 
-**Standard 5: Structural Power Distribution Standard**
+**Standard 5: Structural Power Obligation Standard**
 
 Power distribution across three independent dimensions — authority, coordination (interpretive), and specialization — must be legible and contestable by participants who hold less of it.
 
@@ -90,7 +90,7 @@ Evaluate whether:
 
 ---
 
-**Standard 6: Regenerative Accountability Standard**
+**Standard 6: Regenerative Obligation Standard**
 
 Extraction without proportional regenerative return is a structural violation. The return must satisfy three conditions simultaneously: it operates in the register of the harm (non-fungibility), reaches the specific parties who bore it (proximity), and operates within the relational structure that created the obligation (embeddedness). Two of three is not sufficient.
 

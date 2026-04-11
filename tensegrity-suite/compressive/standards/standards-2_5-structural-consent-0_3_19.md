@@ -1,8 +1,8 @@
 Structural Consent Legibility Standard
 
-**Version:** v0.3.18
+**Version:** v0.3.19
 
-**Date:** March 2026
+**Date:** 2026-04-10
 
 **Author:** Regis Lloyd Chapman (Durgadas)
 
@@ -472,7 +472,7 @@ their comfort because the alternative is exclusion from the system
 (enduring); observers who treat access to observation data as an
 entitlement rather than a gift from the observed (entitlement).
 
-4.5.1 Observation Consent Architecture
+4.5.1 Observation Consent Specification
 
 Consent to observation must be obtained at each governance layer at
 which participants can make an independent decision about what they
@@ -1052,7 +1052,7 @@ Governance. https://www.gida-global.org/care.
 
 7.5 Tensegrity Compressive Standards within the Coordination Structural Integrity Suite
 
-This standard is one of the six Tensegrity Compressive Standards within the Coordination Structural Integrity Suite: the Precision-First Design Standard, the Adverse-Signal Engagement Principle Core Standard, the Structural Consent Legibility Standard, the Information Asymmetry Classification Standard, the Structural Power Distribution Standard, and the Regenerative Accountability Standard. Each standard addresses a distinct failure mode. Each is independently valid: no standard requires the others for its own validity. Together, they form a reinforcing set.
+This standard is one of the six Tensegrity Compressive Standards within the Coordination Structural Integrity Suite: the Precision-First Design Standard, the Adverse-Signal Engagement Principle Core Standard, the Structural Consent Legibility Standard, the Information Asymmetry Classification Standard, the Structural Power Obligation Standard, and the Regenerative Obligation Standard. Each standard addresses a distinct failure mode. Each is independently valid: no standard requires the others for its own validity. Together, they form a reinforcing set.
 
 Systems adopting any one of the six Tensegrity Compressive Standards are strongly recommended to adopt all six. The full Tensegrity Compressive Standards designation applies to systems that adopt all six at Tier 4 (Accountable) or above. The designation is descriptive: a system either satisfies all five standards at Tier 4 or above, or it does not. Partial adoption at any tier is a legitimate developmental stage; claiming full Tensegrity Compressive Standards conformance on the basis of partial adoption is structural exposure theater. Partial adopters should produce a structural exposure disclosure naming which standards are not adopted and which failure modes remain unaddressed.
 
@@ -1133,7 +1133,7 @@ requires continuous attention rather than a one-time design decision.
 
 Relationship To Other Standards
 
-The closest functional adjacency is with the Information Asymmetry Classification Standard: information asymmetry directly affects consent legibility, and the six asymmetry classes provide the vocabulary for specifying what a participant has access to when consenting. The Structural Power Distribution Standard addresses adjacent territory: power differentials affect consent voluntariness in ways this standard's three consent features address structurally.
+The closest functional adjacency is with the Information Asymmetry Classification Standard: information asymmetry directly affects consent legibility, and the six asymmetry classes provide the vocabulary for specifying what a participant has access to when consenting. The Structural Power Obligation Standard addresses adjacent territory: power differentials affect consent voluntariness in ways this standard's three consent features address structurally.
 
 Tensegrity As A Whole
 
@@ -1147,7 +1147,7 @@ Coordination Structural Integrity Suite
 │   ├── Adverse Signal Engagement Principle Core Standard
 │   ├── Structural Consent Legibility Standard               ← this standard
 │   ├── Information Asymmetry Classification Standard
-│   └── Structural Power Distribution Standard
+│   └── Structural Power Obligation Standard
 │
 └── Tensegrity Generative Standards (3)
     ├── Sensemaking Standard
@@ -1160,6 +1160,8 @@ Without this standard participation can appear consensual while being extractive
 Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 Changelog
+
+**v0.3.19 (2026-04-10):** Section 4.5.1 heading renamed from "Observation Consent Architecture" to "Observation Consent Specification." No normative content changes. Rename frees "Consent Architecture" as a reserved compound for use as the Multiplex Consent Architecture sub-class name in the Uniplex/Multiplex architectural frame vocabulary (see reference-terminology-conventions-0_1_2.md).
 
 **v0.3.18 (April 2026):** Plain-language preamble added. Two paragraphs inserted before the non-harming formula in Section 1 (Purpose), grounding the standard in the lived experience of the coordination failure it addresses (consent claimed without structural verifiability). Navigation pointer added: one sentence pointing to the Suite Integration Guide and the Suite Deployment Contexts document. No changes to normative content.
 

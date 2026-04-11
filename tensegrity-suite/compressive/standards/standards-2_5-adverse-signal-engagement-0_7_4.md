@@ -1181,7 +1181,7 @@ Coordination Structural Integrity Suite
 │   ├── Adverse Signal Engagement Principle Core Standard     ← this standard
 │   ├── Structural Consent Legibility Standard
 │   ├── Information Asymmetry Classification Standard
-│   └── Structural Power Distribution Standard
+│   └── Structural Power Obligation Standard
 │
 └── Tensegrity Generative Standards (3)
     ├── Sensemaking Standard

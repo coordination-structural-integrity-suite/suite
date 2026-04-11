@@ -15,7 +15,7 @@ The four detection reliability dependencies:
 
 **Structural Consent Legibility Standard depends on the Four Batteries Capacity Standard (Relational Battery).** Consent reached under Relational Battery depletion is structurally hollow. A Structural Consent Legibility audit produced without Relational Battery visibility cannot distinguish genuine consent from coercion by depletion.
 
-**Structural Power Distribution Standard (coordination dimension) depends on the Sensemaking Standard.** Interpretive power — who controls what alignment mechanisms and events mean — is invisible without sensemaking infrastructure. A Structural Power Distribution audit produced without sensemaking infrastructure in place cannot see the coordination dimension of power.
+**Structural Power Obligation Standard (coordination dimension) depends on the Sensemaking Standard.** Interpretive power — who controls what alignment mechanisms and events mean — is invisible without sensemaking infrastructure. A Structural Power Distribution audit produced without sensemaking infrastructure in place cannot see the coordination dimension of power.
 
 **Information Asymmetry Classification Standard (omission class) depends on the Sensemaking Standard and the Four Batteries Capacity Standard (Contribution Battery).** Omission asymmetry requires both sensemaking infrastructure and Contribution Battery visibility to surface reliably. An Information Asymmetry audit produced without these conditions systematically under-detects the most consequential asymmetry class.
 

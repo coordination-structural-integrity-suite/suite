@@ -8,7 +8,7 @@ Version 0.2.5 | April 2026
 
 Status: Release candidate
 
-Companion Standards: Precision-First Design Standard, Adverse-Signal Engagement Principle Core Standard, Structural Consent Legibility Standard, Information Asymmetry Classification Standard, Structural Power Distribution Standard
+Companion Standards: Precision-First Design Standard, Adverse-Signal Engagement Principle Core Standard, Structural Consent Legibility Standard, Information Asymmetry Classification Standard, Structural Power Obligation Standard
 
 Layer: Coordination Structural Integrity Suite, Tensegrity Generative Standards
 
@@ -292,8 +292,8 @@ Coordination Structural Integrity Suite
 │   ├── Adverse Signal Engagement Principle Core Standard
 │   ├── Structural Consent Legibility Standard
 │   ├── Information Asymmetry Classification Standard
-│   ├── Structural Power Distribution Standard
-│   └── Regenerative Accountability Standard
+│   ├── Structural Power Obligation Standard
+│   └── Regenerative Obligation Standard
 │
 └── Tensegrity Generative Standards (3)
     ├── Sensemaking Standard
@@ -309,7 +309,7 @@ Each standard in the Coordination Structural Integrity Suite is independently ad
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 0.2.5 | 2026-04-06 | Plain-language preamble added. Two paragraphs inserted before the non-harming formula in Section 1 (Preamble and Abstract), grounding the standard in the lived experience of the coordination failure it addresses (conflict that cycles without structural transformation capacity). Navigation pointer added: one sentence pointing to the Suite Integration Guide and the Suite Deployment Contexts document. Stale counts corrected: six Tensegrity Compressive Standards replaces five throughout; nine standards replaces eight throughout; Regenerative Accountability Standard added to Tensegrity As A Whole diagram. Preconditions Specification version reference corrected from v0.1.4 to v0.1.0. No changes to normative content. |
+| 0.2.5 | 2026-04-06 | Plain-language preamble added. Two paragraphs inserted before the non-harming formula in Section 1 (Preamble and Abstract), grounding the standard in the lived experience of the coordination failure it addresses (conflict that cycles without structural transformation capacity). Navigation pointer added: one sentence pointing to the Suite Integration Guide and the Suite Deployment Contexts document. Stale counts corrected: six Tensegrity Compressive Standards replaces five throughout; nine standards replaces eight throughout; Regenerative Obligation Standard added to Tensegrity As A Whole diagram. Preconditions Specification version reference corrected from v0.1.4 to v0.1.0. No changes to normative content. |
 | 0.2.4 | 2026-04-06 | Non-harming opening formula added. New Preamble section inserted before Abstract, specifying the specific harms that absence of structural conflict transformation capacity produces (GravityDAO failure as the demonstration case) and naming the five structural invariants as the precise structural answer. No changes to normative content. |
 | 0.2.3 | 2026-03-31 | Terminology pass (decision 2.7). "Configuration Architecture" → "Suite Deployment Contexts" in typological declaration boundary class entry. No normative changes. |
 | 0.2.2 | March 2026 | Protocol references removed for standalone publication. Kleros references replaced with generic adjudication language. Section 5.3 abstracted from "Protocol-Level Scale" to "Platform-Level Scale" with infrastructure-generic language. Structural Blindness Inventory class numbers removed from all normative content; plain-language descriptions retained. Witness Layer reference in CT-Instrumented tier replaced with coordination record detection language. Dispute Resolution Domain Learnings reference abstracted. Formation-to-protection mode switch explained inline. |

@@ -1,9 +1,9 @@
-# Structural Power Distribution Audit
+# Structural Power Obligation Audit
 Use when a governance system claims to be decentralized but you want to verify whether that claim holds structurally, or when you suspect power is concentrating in ways the governance record doesn't make visible. Power distribution fails across three independent dimensions — authority, coordination, and specialization — and systems routinely appear decentralized on one while concentrating on the others. The prompt finds seven power distribution failures across all three dimensions and returns a failure map with the most likely pathways for unauthorized accumulation first.
 
 Copy everything below the line, paste it into any AI chat, and attach or paste the governance document, organizational description, or protocol architecture you want audited.
 ---
-You are auditing the attached document or system description for power distribution failures using the Structural Power Distribution Standard (CC BY 4.0, Regis Lloyd Chapman). A power distribution failure is any condition in which power concentration exceeds authorized thresholds, is not assessable by participants who hold less of it, or cannot be detected and classified by the organization itself.
+You are auditing the attached document or system description for power distribution failures using the Structural Power Obligation Standard (CC BY 4.0, Regis Lloyd Chapman). A power distribution failure is any condition in which power concentration exceeds authorized thresholds, is not assessable by participants who hold less of it, or cannot be detected and classified by the organization itself.
 
 The standard decomposes power distribution across three independently varying dimensions: authority (where decision-making power formally resides), coordination (the strength and density of alignment mechanisms, and who controls their interpretation), and specialization (the extent to which governance capacity concentrates among participants with the accumulated bandwidth to navigate specialized domains). Decentralization claims assessed on only one dimension may conceal concentration on the others. A system can score as decentralized on authority while operating under extreme concentration on coordination or specialization.
 

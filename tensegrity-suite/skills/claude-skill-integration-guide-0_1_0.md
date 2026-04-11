@@ -28,7 +28,7 @@ These are the specific cross-layer dependencies where compressive standard audit
 
 **Structural Consent Legibility Standard depends on the Four Batteries Capacity Standard (Relational Battery).** Agreement reached under conditions of Relational Battery depletion is structurally hollow. Participants may consent formally while unable to safely refuse or contest. Consent legibility audits run without Relational Battery visibility cannot distinguish genuine consent from structural coercion by depletion.
 
-**Structural Power Distribution Standard (coordination dimension) depends on the Sensemaking Standard.** The coordination dimension of power — who controls what alignment mechanisms mean — requires that the organization have a functioning sensemaking infrastructure. Without it, interpretive power is invisible: the people controlling how signals and events are framed hold coordination power that cannot be observed without sensemaking capacity. Power distribution audits run without sensemaking infrastructure cannot see the coordination dimension.
+**Structural Power Obligation Standard (coordination dimension) depends on the Sensemaking Standard.** The coordination dimension of power — who controls what alignment mechanisms mean — requires that the organization have a functioning sensemaking infrastructure. Without it, interpretive power is invisible: the people controlling how signals and events are framed hold coordination power that cannot be observed without sensemaking capacity. Power distribution audits run without sensemaking infrastructure cannot see the coordination dimension.
 
 **Information Asymmetry Classification Standard (omission class) depends on the Sensemaking Standard and the Four Batteries Capacity Standard (Contribution Battery).** Omission asymmetry — what is not surfaced because participants cannot or do not — requires both sensemaking infrastructure (to know what should be surfaced) and Contribution Battery visibility (to know whether participants have the agency and meaning to surface it). Omission class audits run without these generative conditions produce systematic false negatives on the most consequential asymmetry class.
 
@@ -46,9 +46,9 @@ When an organization needs to start somewhere specific, the guide names five pai
 
 Signals suppressed or dismissed: Adverse-Signal Engagement Principle Core Standard plus Four Batteries Capacity Standard.
 
-Governance capture or authority concentration: Structural Power Distribution Standard plus Structural Consent Legibility Standard.
+Governance capture or authority concentration: Structural Power Obligation Standard plus Structural Consent Legibility Standard.
 
-Invisible work or contributor burnout: Four Batteries Capacity Standard plus Regenerative Accountability Standard.
+Invisible work or contributor burnout: Four Batteries Capacity Standard plus Regenerative Obligation Standard.
 
 Decisions missing key information: Information Asymmetry Classification Standard plus Sensemaking Standard.
 

@@ -75,17 +75,17 @@ Low perceptual substrate (distributed organization, no shared history, no co-pre
 
 **The structural situation:** The organization has no graduated pathway for processing conflict as coordination information. Everything routes to adversarial adjudication eventually, which means the conflict either escalates to a formal process that produces a winner and a loser, or it is suppressed until it becomes an exit.
 
-**The combination:** Conflict Transformation Standard, Adverse-Signal Engagement Principle Core Standard, Structural Power Distribution Standard, and Structural Consent Legibility Standard.
+**The combination:** Conflict Transformation Standard, Adverse-Signal Engagement Principle Core Standard, Structural Power Obligation Standard, and Structural Consent Legibility Standard.
 
-The Conflict Transformation Standard provides the structural container: a transformation spine with graduated engagement pathways from early informal engagement through facilitated transformation through adjudication, with adjudication last. The Adverse-Signal Engagement Principle Core Standard ensures that what the conflict surfaces about structural conditions gets engaged rather than suppressed or routed directly to adversarial resolution. The Structural Power Distribution Standard addresses the structural exclusion claim: if one party believes they were excluded from a decision, that is a signal about who controls what the process means. The Structural Consent Legibility Standard addresses whether consent to the process was genuine: did both parties genuinely agree to the resource allocation process, or did structural conditions make refusal feel impossible?
+The Conflict Transformation Standard provides the structural container: a transformation spine with graduated engagement pathways from early informal engagement through facilitated transformation through adjudication, with adjudication last. The Adverse-Signal Engagement Principle Core Standard ensures that what the conflict surfaces about structural conditions gets engaged rather than suppressed or routed directly to adversarial resolution. The Structural Power Obligation Standard addresses the structural exclusion claim: if one party believes they were excluded from a decision, that is a signal about who controls what the process means. The Structural Consent Legibility Standard addresses whether consent to the process was genuine: did both parties genuinely agree to the resource allocation process, or did structural conditions make refusal feel impossible?
 
 **Adjustment by organizational health state**
 
 At Type 1 (full health): All four standards can be deployed at standard thresholds. Check first whether the Conflict Transformation Standard's transformation spine exists. Many organizations that consider themselves healthy have no graduated engagement architecture; conflict routes to adjudication by default. Establish the spine before the next conflict requires it.
 
-At Type 3 (rigidity without capture): The structural exclusion claim is more likely accurate. Over-compression tends to accumulate authority; the excluded party may be correctly identifying a real structural condition. Adjust the Structural Power Distribution Standard to emphasize the coordination dimension: who controls what the process means, whose interpretive frame governs the decision. Check whether the compression made refusal structurally costly, which would make the consent architecture theater rather than genuine authorization.
+At Type 3 (rigidity without capture): The structural exclusion claim is more likely accurate. Over-compression tends to accumulate authority; the excluded party may be correctly identifying a real structural condition. Adjust the Structural Power Obligation Standard to emphasize the coordination dimension: who controls what the process means, whose interpretive frame governs the decision. Check whether the compression made refusal structurally costly, which would make the consent architecture theater rather than genuine authorization.
 
-At Type 6 (pathological compression, capture): The transformation spine is likely absent or captured. Check whether any early engagement pathway exists that is not controlled by the party with concentrated power. If not, name that as the structural gap before prescribing the combination's use as if the spine were functional. Both the Adverse-Signal Engagement Principle Core Standard and the Structural Power Distribution Standard carry detection reliability limitations at Type 6; these must be stated in any audit output.
+At Type 6 (pathological compression, capture): The transformation spine is likely absent or captured. Check whether any early engagement pathway exists that is not controlled by the party with concentrated power. If not, name that as the structural gap before prescribing the combination's use as if the spine were functional. Both the Adverse-Signal Engagement Principle Core Standard and the Structural Power Obligation Standard carry detection reliability limitations at Type 6; these must be stated in any audit output.
 
 **Adjustment by battery state**
 
@@ -107,13 +107,13 @@ Low perceptual substrate creates a specific conflict risk: parties cannot read e
 
 **The structural situation:** Authority is concentrating across multiple power dimensions simultaneously, and the concentration is not visible in the governance record. Consent is formally present but structurally hollow because the relational context makes disagreement costly.
 
-**The combination:** Structural Power Distribution Standard and Structural Consent Legibility Standard.
+**The combination:** Structural Power Obligation Standard and Structural Consent Legibility Standard.
 
-The Structural Power Distribution Standard requires that power arrangements across all three dimensions (authority: where decisions formally reside; coordination: who controls what alignment mechanisms mean; specialization: who can meaningfully participate in specialized governance domains) be legible and contestable by participants who hold less of them. The Structural Consent Legibility Standard requires that consent be structurally distinguishable from coercion: negotiated limits, bidirectional awareness, and revocability must all be structurally present.
+The Structural Power Obligation Standard requires that power arrangements across all three dimensions (authority: where decisions formally reside; coordination: who controls what alignment mechanisms mean; specialization: who can meaningfully participate in specialized governance domains) be legible and contestable by participants who hold less of them. The Structural Consent Legibility Standard requires that consent be structurally distinguishable from coercion: negotiated limits, bidirectional awareness, and revocability must all be structurally present.
 
-These two standards address the two primary mechanisms of capture simultaneously. The Structural Power Distribution Standard makes accumulation legible. The Structural Consent Legibility Standard ensures that agreement to participate is distinguishable from agreement to the specific authority distribution that capture has produced.
+These two standards address the two primary mechanisms of capture simultaneously. The Structural Power Obligation Standard makes accumulation legible. The Structural Consent Legibility Standard ensures that agreement to participate is distinguishable from agreement to the specific authority distribution that capture has produced.
 
-Note the detection reliability concern: the Structural Power Distribution Standard's coordination dimension requires Sensemaking Standard infrastructure for its detection to be trustworthy. Without that infrastructure, interpretive power concentration may be invisible to the audit.
+Note the detection reliability concern: the Structural Power Obligation Standard's coordination dimension requires Sensemaking Standard infrastructure for its detection to be trustworthy. Without that infrastructure, interpretive power concentration may be invisible to the audit.
 
 **Adjustment by organizational health state**
 
@@ -139,15 +139,15 @@ Low motivational substrate (participation driven primarily by financial incentiv
 
 **The structural situation:** The organization's actual coordination work has migrated to channels that governance cannot see. The organization is taking a contributor's invisible work for granted, without recognition or integration, while continuing to extract the output of that work.
 
-**The combination:** Four Batteries Capacity Standard and Regenerative Accountability Standard.
+**The combination:** Four Batteries Capacity Standard and Regenerative Obligation Standard.
 
-The Four Batteries Capacity Standard makes the invisible work visible: Contribution Battery depletion is the signal that work is migrating outside the formal record. The Regenerative Accountability Standard specifies the floor: extraction of that invisible labor is a structural violation when not matched by regenerative return satisfying three conditions simultaneously: non-fungibility (the return must operate in the register of the harm), proximity (return must flow to the parties who bore the harm), and embeddedness (return must operate within the relational structure generated by the extraction obligation).
+The Four Batteries Capacity Standard makes the invisible work visible: Contribution Battery depletion is the signal that work is migrating outside the formal record. The Regenerative Obligation Standard specifies the floor: extraction of that invisible labor is a structural violation when not matched by regenerative return satisfying three conditions simultaneously: non-fungibility (the return must operate in the register of the harm), proximity (return must flow to the parties who bore the harm), and embeddedness (return must operate within the relational structure generated by the extraction obligation).
 
 **Adjustment by organizational health state**
 
 At Types 1 through 3: The invisible work is detectable and the organization has the structural capacity to recognize and integrate it. The priority is establishing recognition pathways before the contributor reaches depletion or exit.
 
-At Types 5 and 6: The invisible work has likely been present for longer and the extraction has continued further. Assess whether any of the three Regenerative Accountability Standard validity conditions are currently met. At Type 6, the harm-bearing affiliation registry may not exist at all, which means the proximity condition cannot be verified. Name that as a structural gap, not a finding of compliance.
+At Types 5 and 6: The invisible work has likely been present for longer and the extraction has continued further. Assess whether any of the three Regenerative Obligation Standard validity conditions are currently met. At Type 6, the harm-bearing affiliation registry may not exist at all, which means the proximity condition cannot be verified. Name that as a structural gap, not a finding of compliance.
 
 **Adjustment by battery state**
 

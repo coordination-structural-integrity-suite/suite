@@ -247,7 +247,7 @@ Why it matters: Information asymmetry is one of the most common vectors for gove
 
 Assessment questions: "What information do leaders or founders of your organization have that general participants do not? Is that asymmetry named and governed, or is it informal and unacknowledged? What information about the organization's health, finances, or decisions is available to all participants?"
 
-**Standard 5: Structural Power Distribution Standard**
+**Standard 5: Structural Power Obligation Standard**
 
 What it requires: Power within the coordination system must be distributed in ways that are legible, justified by the structural logic of the system, and resistant to concentration. This is not a requirement that all participants have equal power — it is a requirement that power distribution be visible, that its basis be named, and that structural mechanisms exist to prevent drift toward concentration.
 
@@ -255,7 +255,7 @@ Why it matters: Power concentrates gradually, through drift, before it becomes c
 
 Assessment questions: "Who has disproportionate influence over decisions in your organization, and on what basis? Is that influence legible and structurally justified, or has it accumulated informally over time? What mechanisms exist to prevent or reverse power concentration?"
 
-**Standard 6: Regenerative Accountability Standard**
+**Standard 6: Regenerative Obligation Standard**
 
 What it requires: Accountability relationships in the coordination system must be structured so that those who bear costs are also the parties who have standing to name them and hold others accountable for them. Accountability directed only upward — to funders or authority — without accountability to those most affected by coordination outcomes is structurally incomplete.
 

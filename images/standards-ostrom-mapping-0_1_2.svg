@@ -32,8 +32,8 @@
   <text x="424" y="102" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">Structural Consent Legibility Standard</text>
   <text x="424" y="116" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif">Requires durable, accessible definition of participation rights.</text>
   <text x="424" y="129" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif">Modifications cannot be made unilaterally by concentrated authority.</text>
-  <text x="424" y="142" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif">+ Structural Power Distribution Standard (defined constituency as reference)</text>
-  <text x="424" y="152" fill="#4b9b8e" font-size="9.5" font-family="system-ui,sans-serif">+ Regenerative Accountability Standard (harm-bearing affiliation registry as boundary condition)</text>
+  <text x="424" y="142" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif">+ Structural Power Obligation Standard (defined constituency as reference)</text>
+  <text x="424" y="152" fill="#4b9b8e" font-size="9.5" font-family="system-ui,sans-serif">+ Regenerative Obligation Standard (harm-bearing affiliation registry as boundary condition)</text>
 
   <!-- ========= DP2 ========= -->
   <rect x="14" y="162" width="362" height="72" rx="8" fill="#13101f" stroke="#38bdf8" stroke-width="1"/>
@@ -57,10 +57,10 @@
   <line x1="376" y1="270" x2="404" y2="270" stroke="#64748b" stroke-width="1.5"/>
   <polygon points="401,266 409,270 401,274" fill="#64748b"/>
   <rect x="408" y="240" width="540" height="60" rx="8" fill="#0d1f1f" stroke="#0f766e" stroke-width="1.5"/>
-  <text x="424" y="256" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">Structural Power Distribution Standard</text>
+  <text x="424" y="256" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">Structural Power Obligation Standard</text>
   <text x="424" y="270" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif">Authority to determine what governance mechanisms mean must be</text>
   <text x="424" y="283" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif">distributed. Prevolution/Devolution arc detection in the protocol.</text>
-  <text x="424" y="294" fill="#4b9b8e" font-size="9.5" font-family="system-ui,sans-serif">+ Regenerative Accountability Standard (return terms require collective determination by harm-bearing parties)</text>
+  <text x="424" y="294" fill="#4b9b8e" font-size="9.5" font-family="system-ui,sans-serif">+ Regenerative Obligation Standard (return terms require collective determination by harm-bearing parties)</text>
 
   <!-- ========= DP4 ========= -->
   <rect x="14" y="306" width="362" height="60" rx="8" fill="#13101f" stroke="#38bdf8" stroke-width="1"/>
@@ -123,7 +123,7 @@
   <line x1="376" y1="630" x2="404" y2="630" stroke="#64748b" stroke-width="1.5"/>
   <polygon points="401,626 409,630 401,634" fill="#64748b"/>
   <rect x="408" y="594" width="540" height="72" rx="8" fill="#0d1f1f" stroke="#0f766e" stroke-width="1.5"/>
-  <text x="424" y="612" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">Structural Power Distribution Standard</text>
+  <text x="424" y="612" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">Structural Power Obligation Standard</text>
   <text x="424" y="628" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif">Power assessed at each level of nested governance structure.</text>
   <text x="424" y="642" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif">Subsidiarity as normative benchmark for cross-level authority.</text>
   <text x="424" y="656" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif">Protocol specification: holonic architecture across multiple nested layers.</text>

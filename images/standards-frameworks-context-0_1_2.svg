@@ -57,12 +57,12 @@
 
   <!-- Standard 5 -->
   <rect x="34" y="446" width="392" height="38" rx="6" fill="#0c1e1e"/>
-  <text x="230" y="463" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Structural Power Distribution Standard</text>
+  <text x="230" y="463" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Structural Power Obligation Standard</text>
   <text x="230" y="478" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Power must remain contestable across three dimensions.</text>
 
   <!-- Standard 6 -->
   <rect x="34" y="490" width="392" height="38" rx="6" fill="#0c1e1e"/>
-  <text x="230" y="507" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Regenerative Accountability Standard</text>
+  <text x="230" y="507" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Regenerative Obligation Standard</text>
   <text x="230" y="522" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Extraction must be matched by non-fungible, proximate, embedded return.</text>
 
   <!-- ========= GENERATIVE STANDARDS ========= -->

@@ -25,8 +25,8 @@ Ask the person to describe their organization and what brought them to this mate
 
 3. **Entry point identification.** Which of the five entry point patterns best matches their situation?
    - Signals suppressed or dismissed: Adverse-Signal Engagement Principle Core Standard plus Four Batteries Capacity Standard
-   - Governance capture or authority concentration: Structural Power Distribution Standard plus Structural Consent Legibility Standard
-   - Invisible work and contributor burnout: Four Batteries Capacity Standard plus Regenerative Accountability Standard
+   - Governance capture or authority concentration: Structural Power Obligation Standard plus Structural Consent Legibility Standard
+   - Invisible work and contributor burnout: Four Batteries Capacity Standard plus Regenerative Obligation Standard
    - Decisions missing key information: Information Asymmetry Classification Standard plus Sensemaking Standard
    - Conflict destroying coordination capacity: Conflict Transformation Standard plus Adverse-Signal Engagement Principle Core Standard
 

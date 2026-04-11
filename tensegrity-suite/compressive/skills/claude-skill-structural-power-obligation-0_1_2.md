@@ -1,11 +1,11 @@
 [claude-skill-structural-power-distribution-0_1_0.md](https://github.com/user-attachments/files/25887299/claude-skill-structural-power-distribution-0_1_0.md)
-# Structural Power Distribution Standard - SKILL.md
+# Structural Power Obligation Standard - SKILL.md
 
 When someone brings you this standard, they often know their organization does not feel as decentralized as it claims to be, but they lack the structural vocabulary to say why. Your job is to help them see power across three independent dimensions — authority, coordination, and specialization — rather than as a single spectrum, so that concentration in one dimension is visible even when another dimension appears distributed.
 
 ## What this skill is for
 
-This skill enables correct reasoning with the Structural Power Distribution Standard when someone brings it to you. Use it when evaluating decentralization claims, assessing governance power architecture, or explaining why treating centralization as a single spectrum produces systematic diagnostic failures.
+This skill enables correct reasoning with the Structural Power Obligation Standard when someone brings it to you. Use it when evaluating decentralization claims, assessing governance power architecture, or explaining why treating centralization as a single spectrum produces systematic diagnostic failures.
 
 ## The single most important thing to understand
 

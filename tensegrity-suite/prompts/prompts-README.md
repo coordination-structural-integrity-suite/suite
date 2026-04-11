@@ -91,17 +91,17 @@ For auditing or assessing against multiple standards at once, or for orientation
 |---|---|
 | [Asymmetry Classification Audit](information-asymmetry/information-asymmetry-audit-0_1_1.md) | Coordination system descriptions, governance documents, platform architecture |
 
-### Structural Power Distribution Standard
+### Structural Power Obligation Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Power Distribution Audit](structural-power-distribution/structural-power-distribution-audit-0_1_1.md) | Governance documents, organizational descriptions, protocol architecture |
+| [Power Obligation Audit](structural-power-obligation/structural-power-obligation-audit-0_1_2.md) | Governance documents, organizational descriptions, protocol architecture |
 
-### Regenerative Accountability Standard
+### Regenerative Obligation Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Regenerative Accountability Audit](regenerative-accountability/regenerative-accountability-audit-0_1_1.md) | Organizations or protocols — assesses whether return to harm-bearing parties meets three simultaneous validity conditions |
+| [Regenerative Obligation Audit](regenerative-obligation/regenerative-obligation-audit-0_1_2.md) | Organizations or protocols — assesses whether return to harm-bearing parties meets three simultaneous validity conditions |
 
 ---
 
