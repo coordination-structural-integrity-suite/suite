@@ -4,7 +4,7 @@
 
 **Regis Chapman (Durgadas)**
 
-Version 0.1.20 \| April 2026
+Version 0.1.22 \| April 2026
 
 *This document establishes a six-class taxonomy of information asymmetry
 in coordination systems. It is intended to be legible to researchers in
@@ -1336,7 +1336,7 @@ calibration.
 
 **Extension Class Specifications**
 
-Two of the three extension classes specified here (Generative Asymmetry and Cryptographic Asymmetry) were named in v0.1 of this standard as satisfying the four validity criteria in Section 2. Their mechanism descriptions, regulatory precedents, and detection surfaces have not yet been formally written. Both are stubs: they are named, their validity claims have been entered into the governance record, but they are not specified to the level required for instrumentation in a detection architecture. A third extension class, Descriptive Capacity Asymmetry, is fully specified here.
+Two of the four extension classes specified here (Generative Asymmetry and Cryptographic Asymmetry) were named in v0.1 of this standard as satisfying the four validity criteria in Section 2. Their mechanism descriptions, regulatory precedents, and detection surfaces have not yet been formally written. Both are stubs: they are named, their validity claims have been entered into the governance record, but they are not specified to the level required for instrumentation in a detection architecture. A third extension class, Descriptive Capacity Asymmetry, is fully specified here. A fourth extension class, Derivation Opacity Asymmetry, is added in v0.1.21 as a stub with mechanism characterized but full specification pending.
 
 **Extension Class A: Generative Asymmetry**
 
@@ -1383,6 +1383,24 @@ Second, mutual legibility failure: communication breakdowns between parties that
 Third, framework-congruence concentration: governance outcomes are systematically better for parties whose coordination activities are legible to the measurement framework, independently of the quality or quantity of their coordination activity. Framework-congruent parties receive higher detection rates, earlier escalation support, and more accurate representation in the coordination record. This concentration is detectable by comparing governance outcomes across participant subgroups while controlling for activity level.
 
 This class is a Complex-domain detection problem (probe-sense-respond). The detection architecture is itself subject to the asymmetry it is designed to detect: a system whose vocabulary cannot perceive certain coordination phenomena will also have difficulty detecting its own perceptual limits. Detection therefore requires iterative probing against anomalous absence signals, with vocabulary audits of the measurement system as a component of the detection process rather than a precondition for it.
+
+**Extension Class D: Derivation Opacity Asymmetry**
+
+*Specification status: stub. Mechanism characterized; regulatory precedent chain, full detection surface, Cynefin domain classification, and complete boundary argument against Extension Class A pending.*
+
+Derivation Opacity Asymmetry arises when a coordination participant accesses synthesized cross-domain patterns derived from an opaque training process that other participants cannot audit. The asymmetry is not in information withheld: the participant discloses its outputs. The asymmetry inheres in the derivation process itself, which is inaccessible to the parties receiving the outputs. Participants can evaluate what the participant concludes; they cannot evaluate the epistemic substrate from which the conclusion was derived, what training data shaped it, or what systematic biases may have been introduced by the training process.
+
+This distinguishes Derivation Opacity Asymmetry from Class 5 (Omission Asymmetry), where information is deliberately or structurally withheld from the coordination record, and from Class 6 (Complexity Asymmetry), where the gap is in participants' capacity to process information they could in principle access. The derivation process itself is not accessible, independent of participant capacity. It also distinguishes from Class 3 (Interpretive Asymmetry): both parties perceive the same output; the structural problem is that one party's interpretive process is unverifiable by the other.
+
+A further distinguishing feature: this asymmetry is self-concealing. Participants may not know what they cannot verify. Outputs may appear authoritative and precise while being derived through processes the governance structure has no mechanism to evaluate. Detection therefore requires proactive disclosure requirements rather than signal detection from the coordination record alone.
+
+The primary deployment context for this extension class is coordination systems in which AI participants contribute analysis, recommendations, or framing to governance decisions. The class is not limited to AI: any participant whose analytical derivation process is structurally inaccessible to other participants produces this asymmetry type. AI is the primary documented instance.
+
+*Dual-nature note (added 2026-04-12).* The same structural property that generates this asymmetry — opaque training on vast cross-domain knowledge — is also what makes AI participants a functional solution to the knowledge scaling problem in coordination systems above Dunbar's Number: knowledge translation and cascade across scales without the informal trust network degradation that human knowledge transfer requires at scale. The derivation opacity is the risk face of this property; the knowledge scalability is the function face. They are not separable: the same opacity that prevents auditing is what enables the synthesis that makes the scaling function possible.
+
+The full specification of Extension Class D must address both faces. A specification that characterizes only the asymmetry risk without characterizing the functional capacity it is the other face of would produce an incomplete account of AI participation in coordination systems, with consequences for how detection architecture is designed and how governance decisions about AI participant inclusion are made. Detection architecture developed from a risk-only characterization may miss the structural conditions under which reducing the asymmetry also reduces the functional capacity — and the conditions under which addressing the risk and enabling the function are the same design move.
+
+Until this specification is complete, Derivation Opacity Asymmetry may not be used in a conforming detection architecture as a named class. Reference to it in governance documentation should be accompanied by a note that the class specification is pending. The full specification requires: a regulatory precedent chain documenting governance recognition of this asymmetry class; a fully characterized detection surface; Cynefin domain classification; and a complete boundary argument against Extension Class A (Generative Asymmetry), whose stub status prevents full orthogonality confirmation at this time.
 
 **Scope and Limitations**
 
@@ -1561,6 +1579,10 @@ Without this standard the suite has no mechanism for classifying which specific 
 Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 Changelog
+
+v0.1.22 (April 2026): Dual-nature note added to Extension Class D stub. The same structural property that generates the derivation opacity asymmetry (opaque training on vast cross-domain knowledge) is also what makes AI participants a functional solution to knowledge scaling above Dunbar's Number. Risk face: derivation opacity. Function face: knowledge scalability across scales without informal trust network degradation. Full specification of Extension Class D must address both faces. Note placed between the deployment context paragraph and the "until specification is complete" paragraph.
+
+v0.1.21 (April 2026): Extension Class D (Derivation Opacity Asymmetry) added to Section 5 as a stub. Mechanism characterized: asymmetry arises when a coordination participant accesses synthesized cross-domain patterns from an opaque training process that other participants cannot audit; distinguished from Class 5 (Omission Asymmetry) because information is disclosed rather than withheld; distinguished from Class 6 (Complexity Asymmetry) because the derivation process is inaccessible independent of participant capacity; distinguished from Class 3 (Interpretive Asymmetry) because both parties perceive the same output and the gap is in the derivation process rather than interpretation of a phenomenon. Self-concealing property named: participants may not know what they cannot verify. Primary deployment context: coordination systems with AI participants. Full specification pending: regulatory precedent chain, full detection surface, Cynefin domain classification, and complete boundary argument against Extension Class A (Generative Asymmetry, stub). Opening paragraph of Extension Class Specifications updated from "two of the three" to "two of the four." Sourcing: bucket/bucket-ai-coordination-boundary-layer-0_1_0.md.
 
 v0.1.20 (April 2026): Added governance record asymmetry as a named sub-pattern within Class 5 (Omission Asymmetry) scope boundary concentration detection signal. Sub-pattern names the architectural condition in which formal governance records are designed to capture ratification outputs only, while real coordination happens in ungoverned, unarchived channels. Distinguished from canonical scope boundary concentration (an actor choosing to exclude information from an otherwise complete record) by mechanism (constitutive architectural incompleteness, not selective exclusion), detection signal (look for routing of real decisions to ungoverned channels, not for gaps in existing entries), and remediation (architectural change to where coordination happens, not change of who controls record scope). DAO governance failure cases are the empirical grounding.
 
