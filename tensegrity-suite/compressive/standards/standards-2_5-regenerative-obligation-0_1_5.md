@@ -226,6 +226,29 @@ Tier 3 represents the structural floor against which the non-extraction principl
 
 **Structural Consent Legibility Standard.** Extraction without consent is the baseline case the regenerative accountability floor addresses. The Structural Consent Legibility Standard establishes when consent is structurally present; the Regenerative Obligation Standard establishes what is owed when extraction occurs within or without that consent structure. Identity fusion (Stage D-E, Four Batteries Capacity Standard) creates a specific intersection between these two standards: when identity fusion is present, the Structural Consent Standard's bidirectional awareness feature is structurally compromised at the contributor's end. Consent processes — scope reviews, check-ins, role assessments — run against a contributor who cannot accurately represent their state because their sense of worth has become entangled with the absorbed load. The consent forms pass; the bidirectional awareness condition does not. Organizations conforming to both standards must assess identity fusion conditions before relying on consent processes to surface extraction at Stage D-E.
 
+# Tensegrity As A Whole
+
+The Coordination Structural Integrity Suite operates as a tensegrity: the Tensegrity Compressive Standards specify structural floors and close exploitation vectors; the Tensegrity Generative Standards specify the enabling conditions under which coordination capacity develops and sustains those floors. This standard is compressive.
+
+```
+Coordination Structural Integrity Suite
+│
+├── Tensegrity Compressive Standards (6)
+│   ├── Precision-First Design Standard
+│   ├── Adverse Signal Engagement Principle Core Standard
+│   ├── Structural Consent Legibility Standard
+│   ├── Information Asymmetry Classification Standard
+│   ├── Structural Power Obligation Standard
+│   └── Regenerative Obligation Standard                     ← this standard
+│
+└── Tensegrity Generative Standards (3)
+    ├── Sensemaking Standard
+    ├── Four Batteries Capacity Standard
+    └── Conflict Transformation Standard
+```
+
+Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
+
 ---
 
 # 9. References

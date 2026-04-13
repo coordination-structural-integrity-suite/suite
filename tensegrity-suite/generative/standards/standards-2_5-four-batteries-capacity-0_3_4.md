@@ -995,13 +995,6 @@ The Coordination Structural Integrity Suite operates as a tensegrity: the Tenseg
 ```
 Coordination Structural Integrity Suite
 │
-├── Tensegrity Compressive Standards (5)
-│   ├── Precision-First Design Standard
-│   ├── Adverse Signal Engagement Principle Core Standard
-│   ├── Structural Consent Legibility Standard
-│   ├── Information Asymmetry Classification Standard
-│   └── Structural Power Obligation Standard
-│
 ├── Tensegrity Compressive Standards (6)
 │   ├── Precision-First Design Standard
 │   ├── Adverse Signal Engagement Principle Core Standard

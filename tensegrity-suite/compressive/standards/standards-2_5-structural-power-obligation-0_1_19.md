@@ -1,6 +1,6 @@
 Structural Power Obligation Standard: A Framework for Assessing Centralization, Decentralization, and the Dimensions They Conflate
 
-**Version:** v0.1.18
+**Version:** v0.1.19
 
 **Date:** 2026-04-11
 
@@ -92,6 +92,10 @@ The standard extends beyond the Nakamoto Coefficient in three ways. First, the c
 Ostrom's third design principle for governing commons provides the structural requirement for the authority dimension: those affected by governance rules must have meaningful participation in modifying them. This is the normative benchmark against which authority distribution is assessed. Authority concentration that excludes affected constituencies from rule modification is a structural failure regardless of the Nakamoto Coefficient's numerical value.
 
 In nested and polycentric governance contexts, the authority dimension extends across levels of the governance structure. Subsidiarity is the normative benchmark for cross-level authority distribution: authority must be held at the lowest level capable of exercising it effectively and accountably. Concentration of authority at levels higher than subsidiarity requires is a structural failure of the same category as intra-level concentration, and triggers the Authorize invariant at each level where it occurs.
+
+**Legal entity structure as authority-dimension override class.** A named threat class to authority dimension integrity in participatory governance systems is the legal entity structure that underlies the coordination system. In many Decentralized Autonomous Organization (DAO) and commons governance failures, the legal entity formation — company directors, foundation trustees, limited liability company managers, or equivalent roles — held legally enforceable authority over the same resources, decisions, and operational capacities that the participatory governance architecture claimed to govern. When legal entity authority can override participatory governance outcomes, the actual authority distribution does not match the participatory governance distribution. Participants experience a governance process with the form of authority distribution while the legal entity structure holds authority that can supersede participation outcomes. The authority dimension assessment must identify whether a legal entity structure exists that holds override authority, what decisions it applies to, and whether the existence and scope of this override authority are disclosed to participants. Undisclosed legal entity override authority is a structural transparency failure in addition to an authority-dimension concentration finding.
+
+**Participation-weighted distribution as a required measurement dimension.** In systems that derive authority dimension weighting from token holdings or similar economic stake mechanisms, a participation-weighted assessment is required in addition to stake-weighted assessment. Stake-weighted and participation-weighted distributions may diverge significantly: actors with high token concentration but low active participation may hold formal authority that exceeds their coordination engagement, while high-participation actors with low token concentration may hold governance influence below their coordination contribution. The authority dimension distribution profile must be assessed along both axes where both are applicable. A system in which stake-weighted authority concentration is below threshold but participation-weighted authority concentration is above threshold — or vice versa — presents two distinct structural findings requiring two distinct governance responses. Neither measure alone is sufficient for full authority dimension coverage in systems where economic stake and active participation are not structurally equivalent.
 
 3.2 Coordination Dimension: Interpretive Capacity Concentration
 
@@ -352,12 +356,13 @@ The Coordination Structural Integrity Suite operates as a tensegrity: the Tenseg
 ```
 Coordination Structural Integrity Suite
 │
-├── Tensegrity Compressive Standards (5)
+├── Tensegrity Compressive Standards (6)
 │   ├── Precision-First Design Standard
 │   ├── Adverse Signal Engagement Principle Core Standard
 │   ├── Structural Consent Legibility Standard
 │   ├── Information Asymmetry Classification Standard
-│   └── Structural Power Obligation Standard               ← this standard
+│   ├── Structural Power Obligation Standard               ← this standard
+│   └── Regenerative Obligation Standard
 │
 └── Tensegrity Generative Standards (3)
     ├── Sensemaking Standard
@@ -392,6 +397,8 @@ Changelog
 **v0.1.9 (March 2026):** Terminology update. "Commitment Standards" renamed to "Tensegrity Compressive Standards" throughout. No normative content changes.
 
 **v0.1.8 (March 2026):** Generalization pass completing work left unfinished in v0.1.5. Five fixes, no normative content changes. (1) Header companion standards: "constitutes the pentad" replaced with "constitutes the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite." Missed in v0.1.5 naming propagation. (2) Section 11.4: "distinct from pentad compliance" replaced with "distinct from Tensegrity Compressive Standards conformance"; "pentad-plus-sensemaking architecture" replaced with "Tensegrity Compressive Standards-plus-sensemaking architecture." Two additional naming misses from v0.1.5. (3) Section 9.1: removed "(forthcoming)" from Proof of Coordination Architecture reference. v0.1.5 removed this from Section 10 but missed Section 9.1. (4) Section 10.1: Precision-First inheritance clause version citation updated from v1.5.4 to v1.5.6. (5) Section 11.5: "the Witness Layer's tensional state monitoring function" replaced with "a detection layer's tensional state monitoring function." The Witness Layer is a protocol-specific implementation; the domain-general standard names the function, not the implementation. Consistent with the generalization passes applied to the Adverse-Signal Engagement Principle and other Tensegrity Compressive Standards.
+
+**v0.1.19 (2026-04-11):** Two normative additions to Section 3.1 (Authority Dimension) addressing structural threats surfaced by DAO failure case analysis. (1) Legal entity structure named as an authority-dimension override class: the legal entity formation underlying a coordination system (company directors, foundation trustees, limited liability company managers) may hold legally enforceable authority that can supersede participatory governance outcomes; the authority dimension assessment must identify whether such override authority exists, what decisions it applies to, and whether it is disclosed to participants. (2) Participation-weighted distribution named as a required measurement dimension alongside stake-weighted distribution: in token-weighted systems, stake-weighted and participation-weighted distributions may diverge significantly, producing two distinct structural findings requiring two distinct governance responses; neither measure alone is sufficient for full authority dimension coverage.
 
 **v0.1.18 (2026-04-11):** Renamed from Structural Power Distribution Standard to Structural Power Obligation Standard. No changes to normative content. "Obligation" replaces "Distribution" throughout to name the structural requirement from inside the standard's own logic: power is legitimate only when matched by obligation toward all cost-bearing parties across all three dimensions (authority, coordination, specialization). "Distribution" names a condition to be measured; "Obligation" names the mechanism that makes any distribution profile legitimate. Directly invokes the Multiplex Obligation Directions architecture in the foundational frameworks. See Naming Decision 2.19 in reference-terminology-conventions-0_1_2.md.
 
