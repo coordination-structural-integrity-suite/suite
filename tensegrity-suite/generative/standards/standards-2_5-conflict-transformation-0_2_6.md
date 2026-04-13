@@ -4,7 +4,7 @@
 
 Regis Chapman (Durgadas)
 
-Version 0.2.5 | April 2026
+Version 0.2.6 | April 2026
 
 Status: Release candidate
 
@@ -102,6 +102,8 @@ The disconfirmation condition: this leg is disconfirmed by showing that adjudica
 
 For each invariant: definition, satisfaction test, violation signature, satisfaction signature, and epistemic tier.
 
+**Constitutional pre-condition to the five invariants.** The five structural invariants specify what must be structurally present once parties are attempting to engage a conflict. But coordination failure cases surface a prior condition: parties must share sufficient foundational vocabulary about what the organization is — what its commitments are, what kinds of claims are valid within its governance architecture, and what register of obligation it operates in — to be able to name what they are in conflict about. Without this shared constitutional vocabulary, what appears to be a substantive conflict is often incompatibility between framings of the organization itself. In this condition, the required first engagement is constitutional dialogue — establishing whether a shared frame can be built — rather than conflict transformation. The graduated engagement architecture (Section 4.2) cannot process what parties cannot yet make legible to each other. This pre-condition is not satisfied by any of the five invariants. It is satisfied by the organization having addressed the constitutional vocabulary question at founding or through a formal constitutional process before high-stakes coordination begins.
+
 ## 4.1 Conflict Legibility
 
 **Definition.** The coordination system must structurally treat conflict events as coordination data. Conflict deposits, dispute events, disagreement signals, contestations, and process invocations must be visible in the coordination record. Their presence must not automatically degrade the coordination standing of the organization that surfaces them.
@@ -117,6 +119,8 @@ A conflict event is any observable interaction in the coordination record meetin
 **Epistemic tier.** The principle is Tier A: that a coordination system cannot sustain conflict transformation if conflict is invisible to the system is a structural observation not dependent on contested empirical claims. Measurement implementation is Tier C: base rate calibration and implausible-absence threshold setting require coordination record analysis.
 
 **Structural blindness addressed.** A system that cannot classify conflict as coordination data will find that signals enter proper channels and there is no category to process them at the level that matters. Structural preference for measurable output reinforces this: conflict engagement atrophies when it is absent from the measurement architecture.
+
+**Coordination record dependency.** This invariant assumes that the coordination record is the primary medium through which conflict is made visible to the system. If real coordination activity is architecturally off-record — decisions made in private channels with the formal record receiving only ratification outputs — conflict events appear in the formal record only as terminal outcomes of processes that were not themselves visible. A constitutively incomplete record cannot satisfy this invariant regardless of what it shows: implausible absence of early-stage conflict events in such conditions is a false negative produced by record incompleteness, not a sign of a healthy coordination system. An onchain, append-only, participation-witnessed coordination record is the structural answer to this dependency.
 
 ## 4.2 Graduated Engagement Architecture
 
@@ -309,6 +313,7 @@ Each standard in the Coordination Structural Integrity Suite is independently ad
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 0.2.6 | 2026-04-11 | Two normative additions to Section 4. Constitutional pre-condition note inserted before the five invariants: parties must share sufficient foundational vocabulary about what the organization is before conflict transformation can function; when this condition is absent, the required first engagement is constitutional dialogue, not conflict transformation. Coordination record dependency clause added to Section 4.1 (Conflict Legibility): this invariant assumes the coordination record is the primary medium through which conflict is made visible; architecturally off-record coordination produces false-negative absence that the invariant cannot detect. |
 | 0.2.5 | 2026-04-06 | Plain-language preamble added. Two paragraphs inserted before the non-harming formula in Section 1 (Preamble and Abstract), grounding the standard in the lived experience of the coordination failure it addresses (conflict that cycles without structural transformation capacity). Navigation pointer added: one sentence pointing to the Suite Integration Guide and the Suite Deployment Contexts document. Stale counts corrected: six Tensegrity Compressive Standards replaces five throughout; nine standards replaces eight throughout; Regenerative Obligation Standard added to Tensegrity As A Whole diagram. Preconditions Specification version reference corrected from v0.1.4 to v0.1.0. No changes to normative content. |
 | 0.2.4 | 2026-04-06 | Non-harming opening formula added. New Preamble section inserted before Abstract, specifying the specific harms that absence of structural conflict transformation capacity produces (GravityDAO failure as the demonstration case) and naming the five structural invariants as the precise structural answer. No changes to normative content. |
 | 0.2.3 | 2026-03-31 | Terminology pass (decision 2.7). "Configuration Architecture" → "Suite Deployment Contexts" in typological declaration boundary class entry. No normative changes. |

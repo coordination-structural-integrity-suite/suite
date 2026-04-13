@@ -11,20 +11,18 @@ For each standard, identify whether the structural requirement is met, what evid
 
 **Standard 1: Precision-First Design Standard**
 
-Every normative claim, process, and classification must carry the structural mechanism that produces its claimed outcome. Unfalsifiable claims cannot carry architectural weight.
+Every normative claim, process, and classification must carry the structural mechanism that produces its claimed outcome. Unfalsifiable claims cannot carry architectural weight. Precision fails in two directions: a precision deficit is a normative claim that cannot be evaluated by an independent observer; a precision imposition is a normative element specified so completely that compliance can be demonstrated while the coordination purpose it was designed to serve remains unserved. Each criterion below can fail in either direction.
 
 Evaluate whether:
-- Every normative term in a rule or condition has an operational definition an independent observer can apply without access to the author
-- Each rule specifies a procedure by which violations can be detected by an independent observer
-- Each taxonomy specifies a procedure for handling edge cases outside all existing categories
-- Each detection mechanism specifies what signals it would not produce (its false-negative boundary)
-- Each process specifies operational conditions for initiation, continuation, and conclusion
-- Each normative term expressing a value judgment (fair, reasonable, transparent) is decomposed into independently evaluable conditions
-- Governance inaction in the presence of a detection output is itself detectable without the cooperation of the inacting party
-- Critical properties depend on multiple structurally distinct mechanisms rather than a single defensive mechanism
-- Each assessment architecture requires a contextual baseline statement before initial assessment when identical measurement outputs would indicate structurally distinct conditions requiring different responses
-- Each normative mechanism adopted from a different structural context carries a baseline statement specifying origin-context conditions, adopting-context conditions, and either a congruence confirmation or calibration adjustments
-- No normative element is specified so completely that compliance can be demonstrated while the coordination purpose the element was designed to serve remains unserved (precision imposition — an equal failure direction to precision deficit)
+- Every normative term in a rule or condition has an operational definition an independent observer can apply without access to the author — and whether any definition achieves this by narrowing what counts as the phenomenon, excluding real instances of what it was built to identify
+- Each rule specifies a procedure by which violations can be detected by an independent observer — and whether any detection taxonomy creates more categories than the phenomenon has distinguishable states
+- Each taxonomy specifies a procedure for handling edge cases outside all existing categories — and whether any classification instrument eliminates false positives by narrowing its target state so far that it misses what it was designed to find
+- Each detection mechanism specifies what signals it would not produce (its false-negative boundary) — and whether any process is so elaborate it cannot be completed by the parties it was designed to protect
+- Each process specifies operational conditions for initiation, continuation, and conclusion — and whether any escalation mechanism fires on ordinary variation, producing outputs indistinguishable from background noise
+- Each normative term expressing a value judgment (fair, reasonable, transparent) is decomposed into independently evaluable conditions — and whether overlapping defensive mechanisms contradict each other or make operating the system structurally unachievable
+- Governance inaction in the presence of a detection output is itself detectable without the cooperation of the inacting party — and whether any challenge pathway requires so many procedural steps that no independent actor can realistically complete it
+- Critical properties depend on multiple structurally distinct mechanisms rather than a single defensive mechanism — and whether any typological declaration claims operative coverage beyond what the vocabulary supports
+- Each assessment architecture requires a contextual baseline statement before initial assessment when identical measurement outputs would indicate structurally distinct conditions requiring different responses; each normative mechanism adopted from a different structural context carries a baseline statement specifying origin-context conditions, adopting-context conditions, and either a congruence confirmation or calibration adjustments — and whether any baseline requirement imposes conditions no real case can satisfy, making the baseline itself the obstacle to what it was designed to make possible
 
 ---
 

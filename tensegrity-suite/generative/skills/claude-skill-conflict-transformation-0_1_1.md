@@ -39,6 +39,12 @@ It does not specify adjudication mechanisms. Adjudication is the last level of t
 
 It does not address how it feels to be in conflict in a coordination system. Felt experience is outside its vocabulary.
 
+## Prior condition to the five invariants
+
+Before the five invariants can be applied, parties must share sufficient foundational vocabulary about what the organization is: what its commitments are, what kinds of claims are valid within its governance architecture, and what register of obligation it operates in. Without this, what appears to be a substantive conflict may be incompatibility between framings of the organization itself. In that condition, the required first engagement is constitutional dialogue, not conflict transformation. The graduated engagement architecture cannot process what parties cannot yet make legible to each other.
+
+Conflict legibility (invariant 1) also assumes that the coordination record is the primary medium through which conflict becomes visible. If real coordination activity is architecturally off-record — decisions made in private channels, formal record receiving only ratification outputs — implausible absence of conflict events in the formal record is a false negative produced by record incompleteness, not evidence of a healthy system.
+
 ## Common misreadings to avoid
 
 **Treating conflict management as conflict transformation.** Conflict management produces resolution or suppression. Conflict transformation produces developmental signal. The structural marker is the transformation spine: early engagement pathways before adjudication, recognition that engagement at those pathways is coordination work, and resourcing making that work sustainable. If the first response to conflict is formal process, the system is doing management.

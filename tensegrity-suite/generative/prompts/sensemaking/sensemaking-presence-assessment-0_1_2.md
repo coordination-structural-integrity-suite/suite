@@ -32,6 +32,20 @@ For each invariant at each scale, assess:
 - What would full structural presence of this condition look like for this system?
 - What structural move would most develop this condition toward full presence?
 
+**Founding window assessment.** Before producing the presence map, establish the organization's founding window condition. This determines which structural challenge profile applies and what intervention design is appropriate.
+
+The founding window is the period in which shared language can be established before implicit coordination culture forms around an implicit frame. Organizations that begin high-stakes coordination without establishing shared language at the constitutional layer consistently exhibit the applying-without-understanding failure mode at organizational-culture scale. Once established, that failure mode does not respond to the same interventions as individual or group-level instances of the same pattern, because each coordination event is interpreted through the existing implicit frame, new participants are socialized into it, and incoming vocabulary is assimilated rather than producing genuine sensemaking.
+
+Two conditions require distinction:
+
+Born-without: the organization never had the founding window open. It began coordinating without explicit constitutional sensemaking and has since developed an implicit working vocabulary — default interpretive frames, informal norms, governance assumptions. Establishing shared language here requires working against the active resistance of an already-formed implicit culture. The applying-without-understanding failure mode may operate on the assessment itself; the sensemaking inventory is harder to conduct honestly when the culture being inventoried is the same culture conducting the inventory. External facilitation reduces this risk.
+
+Crossed-below: the organization established shared language at founding but has allowed that substrate to degrade. It may still have structural memory of its founding sensemaking to draw from. Remediation has a foundation to work from. The intervention design and prognosis differ substantially from the born-without condition.
+
+Constitutional adoption (before implicit coordination culture has formed) and remedial adoption (after high-stakes coordination is underway) have structurally different challenge profiles. Name which condition applies before proceeding to the invariant presence map.
+
+Ask the person you are assessing: "When your organization began its current governance or coordination work, was there a deliberate founding process that established shared language — definitions of terms, named agreements, explicit frames for what coordination was supposed to accomplish? Or did the current coordination culture form implicitly, without that kind of explicit establishment?" Follow up: "Has that founding substrate, if it existed, been maintained and built on, or has it degraded?"
+
 Output the results as a presence map organized by invariant, distinguishing: structurally present (with specific evidence), partially present (with what is present and what is missing), and structurally absent. End with a capacity development reading: identify which sensemaking conditions are most developed and can be built on; name the growth edge — the one or two invariants where structural strengthening would most advance the system's self-correcting capacity; and identify the structural move, design change, or practice that would most develop this capacity from where it currently is.
 
 Full standard: https://github.com/coordination-structural-integrity-suite/suite
