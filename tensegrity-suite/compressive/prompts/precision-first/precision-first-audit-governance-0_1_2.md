@@ -18,6 +18,6 @@ Check for these nine common precision failures in governance documents:
 
 9. Precision imposition: governance provisions specified so completely that an organization could demonstrate compliance while the governance purpose the provision was designed to serve remains absent. Characteristic signature: detailed procedural compliance is achievable but the structural condition the provision was meant to create is not. For each one found, identify what the governance purpose is and whether the provision can distinguish between compliance that serves that purpose and compliance that does not.
 
-Output the results as a precision map organized by failure type, with the most consequential failures first. Label each finding as a precision deficit (under-specification) or precision imposition (over-specification) so that the corrective direction is clear.
+Output the results as a precision map organized by failure type, with the most consequential failures first. Label each finding as a precision deficit (under-specification) or precision imposition (over-specification) so that the corrective direction is clear. For each finding, name the specific parties who cannot invoke protection (precision deficit) or cannot access the governance purpose (precision imposition), where the affected population is identifiable from the document. Where the population is not identifiable from the document alone, note this explicitly as part of the finding.
 
 Full standard: https://github.com/coordination-structural-integrity-suite/suite

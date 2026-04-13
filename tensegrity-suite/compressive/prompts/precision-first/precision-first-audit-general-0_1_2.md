@@ -24,6 +24,6 @@ For each criterion, list:
 
 10. Does any normative element impose precision so completely that a party could demonstrate compliance while the coordination purpose the element was designed to serve remains unserved? Identify what the coordination purpose is and whether demonstrated compliance can or cannot distinguish between serving and not serving that purpose.
 
-Output the results as a precision map: a structured list organized by criterion, with the most consequential failures first. Label each finding as a precision deficit (under-specification) or precision imposition (over-specification) so that the corrective direction is clear.
+Output the results as a precision map: a structured list organized by criterion, with the most consequential failures first. Label each finding as a precision deficit (under-specification) or precision imposition (over-specification) so that the corrective direction is clear. For each finding, name the specific parties who cannot invoke protection (precision deficit) or cannot access the coordination purpose (precision imposition), where the affected population is identifiable from the document. Where the population is not identifiable from the document alone, note this explicitly as part of the finding.
 
 Full standard: https://github.com/coordination-structural-integrity-suite/suite

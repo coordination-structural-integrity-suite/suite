@@ -54,3 +54,15 @@ It does not specify governance outcomes. It specifies how outcomes must be descr
 ## The key evaluation question
 
 When evaluating any claim, rule, process, or taxonomy: can an independent observer determine whether this requirement has been met without access to the person who wrote it? If not, the standard is not met. Then ask: if the observer can make that determination, is the structural mechanism that produces the claimed outcome specified? If the claim is only about the outcome and not the mechanism, the standard is not met.
+
+## Completing a finding: the harm-naming obligation
+
+The transclusion principle — that precision and non-harming are one commitment — has a direct implication for how audit findings are completed.
+
+A finding that identifies a structural gap but does not name who bears the cost of that gap has not yet served the audit's purpose. The gap is the structural fact. The harm is what makes it matter.
+
+For a precision deficit finding: after identifying the structural gap (vague term, missing detection procedure, unspecified process), name the specific parties who cannot invoke protection because of that gap, and what they cannot do as a result. If the affected population is not identifiable from the document alone, say so explicitly — an instrument whose affected parties are not nameable from the document cannot be assessed for whether it serves or fails them.
+
+For a precision imposition finding: after identifying the over-specified element, name the specific parties for whom the coordination purpose becomes unreachable, and in what way.
+
+This is not an additional audit criterion. It is what converts a structural checklist into a precision audit. An auditor who can identify every structural gap but cannot name any harmed parties has demonstrated procedural completion without serving the purpose that procedural completion is meant to serve.
