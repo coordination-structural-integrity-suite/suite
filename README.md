@@ -85,7 +85,7 @@ The "it won't happen to us" assumption is not something these standards argue ag
 
 ## The six Tensegrity Compressive Standards
 
-**Precision-First Design Standard:** Requires that every element of a governed system increase the precision with which the system's dynamics can be observed, classified, and acted upon. Closes the gap between what a coordination system says it does and what it structurally does. Nine corollaries. Addresses Ostrom's second design principle at the standards level.
+**Precision-First Design Standard:** Closes precision failure in two directions. A precision deficit occurs when instrument terms are under-specified: violations become undetectable and gaps remain permanently exploitable. A precision imposition occurs when an instrument is over-specified: compliance can be demonstrated while the coordination purpose remains unserved. Nine corollaries covering both failure directions. Addresses Ostrom's second design principle at the standards level.
 
 **Adverse-Signal Engagement Principle Core Standard:** Requires engagement with signals that contradict current models rather than suppression or reframing. Closes the gap between appearing to address problems and actually addressing them. Addresses Ostrom's design principles 5, 6, and 7 at the standards level.
 

@@ -24,6 +24,7 @@ Evaluate whether:
 - Critical properties depend on multiple structurally distinct mechanisms rather than a single defensive mechanism
 - Each assessment architecture requires a contextual baseline statement before initial assessment when identical measurement outputs would indicate structurally distinct conditions requiring different responses
 - Each normative mechanism adopted from a different structural context carries a baseline statement specifying origin-context conditions, adopting-context conditions, and either a congruence confirmation or calibration adjustments
+- No normative element is specified so completely that compliance can be demonstrated while the coordination purpose the element was designed to serve remains unserved (precision imposition — an equal failure direction to precision deficit)
 
 ---
 
@@ -41,6 +42,8 @@ Evaluate whether:
 - External governance override is named as a signal class; where relevant external authorities have realistic governance reach, a recognition assessment of the system's self-governance capacity exists
 - When a pattern threshold triggers mandatory reclassification, the Navigate phase includes a structural root cause assessment before individual attribution is accepted as final resolution; the assessment produces one of three documented findings: no structural condition, structural condition identified (triggering double-loop examination), or insufficient information (monitoring extended)
 
+Note: audit results for this standard are bounded by the organization's Relational Battery condition. Absence of recorded adverse signals in an organization with a depleted Relational Battery is not evidence of structural health — it is evidence that the surfacing mechanism has failed. Note the Relational Battery condition in findings.
+
 ---
 
 **Standard 3: Structural Consent Legibility Standard**
@@ -48,15 +51,18 @@ Evaluate whether:
 Every consent-bearing interaction must answer: who is acting, and who benefits? Negotiated limits, bidirectional awareness, and revocability must all be structurally present.
 
 Evaluate whether:
+- The action being consented to is specified with sufficient precision for affected parties to evaluate whether they are materially affected before standing identification proceeds
 - A durable, accessible definition of who holds participation rights exists as a structural precondition for per-action constituency identification; modifications to this definition cannot be made unilaterally by parties holding concentrated authority
 - The affected constituency is identified before consent-bearing actions proceed
 - The consent mechanism answers both "who is acting" and "who benefits from this action"
+- The party bearing the cost of a consent-bearing action is identified when that party is distinct from both the acting and benefiting parties; cost-bearing party consent to cost distribution is obtained before the action proceeds
 - Silence, inaction, and absence of objection are structurally distinguished from authorization
 - Participants can set and maintain explicit limits on what they are consenting to
 - Both parties in any consent-bearing interaction can identify who is acting and who it is for
 - Withdrawal is structurally feasible, not merely formally permitted
 - The system can verify, after the fact, that consent was structurally valid: who acted, who benefited, who was affected, and what the agreed limits were
 - The five consent domains (governance, data, participation, output, observation) are distinguished with domain-specific consent architecture
+- External legal requirements applicable to the adopting context are named and the gap between explicit consent architecture and externally imposed obligations is disclosed to participants
 
 ---
 
@@ -71,6 +77,7 @@ Evaluate whether:
 - Asymmetry types outside the six primary classes are evaluated for extension class specification
 - When document production targets a participant population from a different linguistic, epistemic, or ontological baseline, that audience baseline is declared as the detection reference point
 - The classification of which asymmetry classes are present is updated as the system's population and context evolve
+- Within the Omission class, governance record asymmetry is assessed as a distinct sub-pattern: does the formal record capture actual decision-making or only ratification? If real coordination routes through private channels before surfacing in the formal record, this requires architectural remediation, not record-scope adjustment
 
 ---
 
@@ -82,6 +89,8 @@ Evaluate whether:
 - Decentralization claims are assessed across all three dimensions independently, not only on authority
 - A defined constituency exists as a precondition for the authorized distribution profile; modifications to the constituency definition are treated as authority-dimension concentration events requiring the Authorize invariant
 - An authorized distribution profile exists against which current distribution can be compared (at SPDS-Assessed, an absent profile satisfied by identifying it as an open governance task; at SPDS-Operational and above, must be established and accessible)
+- Where a legal entity structure underlies the coordination system, its override authority over participatory governance outcomes is identified, scoped, and disclosed to participants as a named authority-dimension finding
+- In systems with token-weighted authority, both stake-weighted and participation-weighted distributions are assessed; divergence between the two is reported as a distinct structural finding
 - Concentration exceeding authorized thresholds has been legitimately authorized by the affected constituency with documented participation
 - Ongoing detection architecture instruments all three dimensions continuously, not only at point-in-time assessments
 - Detected concentration shifts are classified as drift, coherent evolution, strategic pivot, or capture

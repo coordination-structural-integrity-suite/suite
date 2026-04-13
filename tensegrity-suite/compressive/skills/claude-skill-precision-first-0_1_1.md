@@ -9,13 +9,15 @@ This skill enables correct reasoning with the Precision-First Design Standard wh
 
 ## The single most important thing to understand
 
-A precision deficit is not the same as being wrong. It is the condition of making a normative claim — a requirement, a rule, a classification — in a form that cannot be evaluated by an independent observer without access to a privileged interpreter. "This process is fair" is a precision deficit. "This process weights input by demonstrated coordination capacity, measured by the calculation in Section 3" is not.
+Precision in a coordination instrument fails in two directions. A precision deficit occurs when a normative claim is made without an operational specification: a term, rule, or requirement that cannot be evaluated by an independent observer using only the document and observable evidence. "This process is fair" is a precision deficit. A precision imposition occurs when an element is specified so completely that compliance can be demonstrated while the coordination purpose remains unserved. Both are precision failures requiring correction.
 
-This matters because unfalsifiable claims cannot carry architectural weight. A governance system built on unfalsifiable foundations cannot detect when it is failing, because failure is not operationally defined.
+This matters because unfalsifiable claims cannot carry architectural weight, and because compliance that does not serve the coordination purpose is worse than useless: it closes off the channel for correction by making the failure look like success.
+
+Precision and non-harming are one commitment at the specification layer. An instrument that under-specifies harms the people it was designed to protect by leaving exploitation vectors permanently open. An instrument that over-specifies harms differently: it makes the coordination purpose unreachable for the people it was designed to serve. These are two aspects of one commitment, not two separate concerns to be balanced against each other.
 
 ## What the standard requires
 
-The standard specifies nine corollaries to the core precision requirement. The core is: every element of a governed system must increase the precision with which the system's dynamics can be observed, classified, and acted upon.
+The standard specifies nine corollaries to the core precision requirement. The core is the double negation: precision fails when violations are undetectable (precision deficit) or when compliance can be demonstrated while the coordination purpose remains unserved (precision imposition). The requirement is met when violations are detectable and compliance can demonstrate that the coordination purpose is being served.
 
 Nine specific requirements follow from this:
 
@@ -38,6 +40,8 @@ It does not require certainty. It requires falsifiability: a claim structured so
 It does not specify governance outcomes. It specifies how outcomes must be described for them to be architecturally meaningful.
 
 ## Common misreadings to avoid
+
+**Treating precision deficit as the only failure direction.** Over-specification is an equal failure. A system can demonstrate formal compliance with all nine corollaries while the coordination purpose the instrument was designed to serve remains unreachable for the people it was supposed to protect. If an organization can show it followed every procedure while those procedures were supposed to protect had no access to the protection, the standard is not met.
 
 **Treating it as a style guide.** The standard does not say to write clearly. It says normative claims must be structured so that violations can be detected without privileged interpretation. These are different requirements.
 

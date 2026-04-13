@@ -3,9 +3,9 @@ Use when a governance document, standard, rulebook, or technical specification m
 
 Copy everything below the line, paste it into any AI chat, and attach or paste the document you want audited.
 ---
-You are auditing the attached document for precision deficits using the Precision-First Design Standard (CC BY 4.0, Regis Chapman). A precision deficit is a normative claim without an operational specification: a term, rule, or requirement that cannot be evaluated by an independent observer using only the document and observable evidence.
+You are auditing the attached document using the Precision-First Design Standard (CC BY 4.0, Regis Chapman). Precision fails in two directions: a precision deficit is a normative claim without an operational specification (a term, rule, or requirement that cannot be evaluated by an independent observer using only the document and observable evidence); a precision imposition is a normative element specified so completely that compliance can be demonstrated while the coordination purpose the element was designed to serve remains unserved. Both are precision failures requiring correction.
 
-Audit the document against these nine criteria:
+Audit the document against these ten criteria:
 
 1. Is every term that appears in a normative claim, condition, or classification defined operationally, without reference to a privileged interpreter?
 2. For each rule, is there a specified procedure by which a violation can be detected by an independent observer?
@@ -22,6 +22,8 @@ For each criterion, list:
 - Why it fails (what makes it vague, discretionary, or unfalsifiable)
 - A concrete suggestion for making it operationally precise
 
-Output the results as a precision deficit map: a structured list organized by criterion, with the most consequential deficits first.
+10. Does any normative element impose precision so completely that a party could demonstrate compliance while the coordination purpose the element was designed to serve remains unserved? Identify what the coordination purpose is and whether demonstrated compliance can or cannot distinguish between serving and not serving that purpose.
+
+Output the results as a precision map: a structured list organized by criterion, with the most consequential failures first. Label each finding as a precision deficit (under-specification) or precision imposition (over-specification) so that the corrective direction is clear.
 
 Full standard: https://github.com/coordination-structural-integrity-suite/suite

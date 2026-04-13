@@ -39,11 +39,11 @@ Do not rush through standards. If the person's response reveals something substa
 
 **Standard 1: Precision-First Design Standard**
 
-What it requires: Every element of your governed system should increase the precision with which the system's dynamics can be observed, classified, and acted upon. Vague language, undefined terms, and unclassified processes close off the ability to see what is actually happening. This standard requires that your coordination infrastructure — your governance documents, your decision processes, your records — be designed to make coordination dynamics more visible, not less.
+What it requires: Precision in a coordination instrument fails in two directions, and this standard closes both. A precision deficit occurs when terms, rules, or processes are under-specified: violations become undetectable, exploitation vectors stay permanently open, and the people the instrument was designed to protect cannot invoke that protection. A precision imposition occurs when an element is over-specified: compliance can be demonstrated while the coordination purpose remains unserved — the instrument looks complete but its beneficiaries cannot actually use it. This standard requires that your coordination infrastructure be precise enough that violations are detectable and compliance can demonstrate that the coordination purpose is being served.
 
-Why it matters: Coordination systems fail in ways that were visible in retrospect but invisible at the time, because the vocabulary and records that would have made the dynamics legible did not exist. Precision is not bureaucracy — it is the structural prerequisite for catching problems before they become failures.
+Why it matters: Coordination systems fail in ways that were visible in retrospect but invisible at the time, because the vocabulary and records that would have made the dynamics legible did not exist. Equally, systems can be formally compliant while the coordination they were supposed to enable remains structurally out of reach. Precision is not bureaucracy — it is the structural prerequisite for catching problems before they become failures, and for ensuring that instruments actually do what they say they do.
 
-Assessment questions: "Where in your organization's coordination infrastructure do you find yourself saying 'we all know what that means' rather than defining it? What processes or dynamics in your organization are currently unclassified — happening regularly but unnamed?" After their response: which conditions of this standard are present, which are absent, what is the most significant gap?
+Assessment questions: "Where in your organization's coordination infrastructure do you find yourself saying 'we all know what that means' rather than defining it? What processes or dynamics in your organization are currently unclassified — happening regularly but unnamed? Are there governance procedures your organization follows completely that the people those procedures were designed to protect cannot actually invoke?" After their response: which conditions of this standard are present, which are absent, what is the most significant gap?
 
 **Standard 2: Adverse-Signal Engagement Principle Core Standard**
 
@@ -53,13 +53,15 @@ Why it matters: Organizations experiencing structural failure almost always had 
 
 Assessment questions: "When someone in your organization raises a concern that contradicts how leadership or the group understands the situation, what happens structurally? Is there a legible process for raising and processing adverse signals, or does it depend on interpersonal dynamics?" After their response: which conditions are present, which are absent, what is the most significant gap?
 
+Note for assessment: this standard has a detection reliability dependency on the Relational Battery. An assessment conducted in an organization with a depleted Relational Battery cannot be considered fully reliable. Absence of recorded adverse signals in that context is not evidence of structural health; it is evidence that the surfacing mechanism has failed. If the organization's Relational Battery condition is known or assessable from Stage 3 Standard 8 work, note it here and flag any reliability limitation on this standard's findings.
+
 **Standard 3: Structural Consent Legibility Standard**
 
 What it requires: Consent to coordination arrangements must be legible — it must be possible to determine what someone consented to, when, and under what conditions. Participation alone is not consent. Silence is not consent. This standard requires that consent be specifically tied to specific arrangements, and that the terms of consent be accessible and revisable.
 
 Why it matters: Consent erosion is a common failure pattern: participants gradually operate under arrangements they never explicitly agreed to, or that have changed without their knowledge. By the time the erosion is visible, the structural damage is already done.
 
-Assessment questions: "What have participants in your organization explicitly consented to, and where is that consent recorded? If arrangements change — governance rules, resource allocation, decision rights — how do participants consent to the change, or learn that it has happened?" After their response: which conditions are present, which are absent, what is the most significant gap?
+Assessment questions: "What have participants in your organization explicitly consented to, and where is that consent recorded? If arrangements change — governance rules, resource allocation, decision rights — how do participants consent to the change, or learn that it has happened? When your organization makes a decision that redistributes costs — changing fee structures, reassigning work, removing access — who bears those costs, and do they have any consent mechanism over the redistribution? Are there external legal requirements (regulatory, jurisdictional, securities) that could override your internal consent arrangements, and are participants aware of them?" After their response: which conditions are present, which are absent, what is the most significant gap?
 
 **Standard 4: Information Asymmetry Classification Standard**
 
@@ -75,7 +77,7 @@ What it requires: Power within the coordination system must be distributed in wa
 
 Why it matters: Power concentrates gradually, through drift, before it becomes capture. The organizations most confident they have no power concentration problem are often the ones where concentration is already well underway but not yet visible.
 
-Assessment questions: "Who has disproportionate influence over decisions in your organization, and on what basis? Is that influence legible and structurally justified, or has it accumulated informally over time? What mechanisms exist to prevent or reverse power concentration?" After their response: which conditions are present, which are absent, what is the most significant gap?
+Assessment questions: "Who has disproportionate influence over decisions in your organization, and on what basis? Is that influence legible and structurally justified, or has it accumulated informally over time? What mechanisms exist to prevent or reverse power concentration? If your organization has a legal entity structure — a company, a foundation, a DAO wrapper — does that legal entity hold authority that could override governance decisions made by your participants? Are participants aware of this? If your system uses token-weighted governance, does the distribution of active participation match the distribution of governance weight, or do they diverge significantly?" After their response: which conditions are present, which are absent, what is the most significant gap?
 
 **Standard 6: Regenerative Obligation Standard**
 
@@ -95,15 +97,17 @@ What it develops: The capacity for participants to make shared meaning from comp
 
 Why it matters: Organizations without sensemaking capacity cannot respond coherently to novel situations. They default to whoever speaks most confidently, to prior patterns regardless of whether they apply, or to paralysis. Sensemaking capacity is what makes an organization's intelligence greater than the sum of its individuals.
 
-Assessment questions: "When your organization encounters a genuinely novel or ambiguous situation — something that doesn't fit your existing models — what happens? Is there a structured way for participants to collectively make sense of it, or does the organization wait for someone to provide an authoritative interpretation?" After their response: what capacity is present, what is partial or absent, what is the most significant gap?
+Assessment questions: Begin by establishing the founding window condition before assessing sensemaking capacity. Ask: "When your organization began its current governance or coordination work, was there a deliberate process that established shared language — definitions of key terms, named agreements about what you were doing, explicit frames for what coordination was supposed to accomplish? Or did your current coordination culture form more implicitly?" Follow up: "Has that founding substrate, if it existed, been maintained, or has it degraded?" This establishes whether the organization is in a constitutional adoption condition (shared language established before implicit culture formed), a born-without condition (never had the founding window open), or a crossed-below condition (had founding sensemaking but allowed the substrate to degrade). Note which condition applies, because the intervention design and prognosis differ substantially.
+
+Then ask: "When your organization encounters a genuinely novel or ambiguous situation — something that doesn't fit your existing models — what happens? Is there a structured way for participants to collectively make sense of it, or does the organization wait for someone to provide an authoritative interpretation?" After their response: what capacity is present, what is partial or absent, what is the most significant gap?
 
 **Standard 8: Four Batteries Capacity Standard**
 
-What it develops: The four batteries are four interdependent coordination capacities: cognitive (the ability to think clearly about complex coordination problems), relational (the ability to maintain trust and connection under pressure), structural (the ability to build and maintain legible coordination infrastructure), and adaptive (the ability to change course when the situation requires it). These batteries are interdependent: depletion in one depletes the others.
+What it develops: The four batteries are four interdependent coordination capacities, each with two independently assessable axes — current charge (cyclical, restorable) and developmental state (permanent until transformed through integration events). The four batteries are: Personal (physical, cognitive, and emotional availability), Relational (trust, psychological safety, and reciprocity — depletion here suppresses adverse signal surfacing even when participants are formally invited to contribute), Contribution (meaning and agency in formally recognized work — depletion drives activity outside the visible coordination record), and Mission (belief in the organizational purpose — high charge can mask structural dysfunction for extended periods; when it fails, tolerance collapses abruptly). These batteries are interdependent: depletion in one depletes the others.
 
-Why it matters: Coordination failures are frequently battery failures. An organization running on depleted relational capacity makes structural decisions that damage trust. An organization running on depleted cognitive capacity builds structural solutions that do not address the actual problem. The four batteries framework gives organizations a language for naming and addressing capacity depletion before it causes coordination failure.
+Why it matters: Coordination failures are frequently battery failures. An organization running on depleted Relational battery makes structural decisions that damage trust and cannot reliably surface adverse signals. An organization running on depleted Contribution battery finds that real coordination work migrates outside the formal record. Two organizations at identical charge levels but different developmental states produce structurally different coordination outputs — charge level alone does not predict capacity.
 
-Assessment questions: "Which of the four capacities — cognitive, relational, structural, adaptive — does your organization draw on most heavily in coordination work? Which are most depleted? What happens in your organization when the relational battery runs low — do structural processes hold, or do they start breaking down too?" After their response: what capacity is present, what is partial or absent, what is the most significant gap?
+Assessment questions: "Which of the four batteries — Personal, Relational, Contribution, Mission — does your organization draw on most heavily in coordination work? Which are most depleted? Is the depletion cyclical (recoverable with rest and restoration) or developmental (requires an integration event to transform)? What happens in your organization when the Relational battery runs low — do structural processes hold, or do they start breaking down too? Is coordination work that matters happening outside your formal record, which would indicate Contribution battery depletion?" After their response: what capacity is present, what is partial or absent, what is the most significant gap?
 
 **Standard 9: Conflict Transformation Standard**
 
@@ -111,7 +115,7 @@ What it develops: The capacity to engage conflict as a coordination signal — i
 
 Why it matters: Organizations without conflict transformation capacity either suppress conflict (which drives it underground and concentrates it until it explodes) or allow it to become destructive (which erodes trust and structural capacity). Conflict that is engaged structurally produces alignment; conflict that is suppressed produces brittleness.
 
-Assessment questions: "When genuine disagreement arises in your organization about direction, values, or decisions — not just minor friction, but real structural tension — what happens? Is there a process for engaging that disagreement structurally, or does it get managed interpersonally and informally? What does unresolved conflict look like in your organization six months later?" After their response: what capacity is present, what is partial or absent, what is the most significant gap?
+Assessment questions: "Before getting to how conflict is handled — do members of your organization share a common understanding of what the organization fundamentally is: what its commitments are, what kinds of claims are valid in your governance, and what it is ultimately obligated to? Or are there deep framings of the organization that not everyone shares? When genuine disagreement arises about direction, values, or decisions — not just minor friction, but real structural tension — what happens? Is there a process for engaging that disagreement structurally, or does it get managed interpersonally and informally? Are important decisions made in spaces that are not part of your formal coordination record, such that conflict over those decisions might be invisible in your official channels? What does unresolved conflict look like in your organization six months later?" After their response: what capacity is present, what is partial or absent, what is the most significant gap?
 
 ---
 
@@ -132,8 +136,8 @@ Assessment questions: "When genuine disagreement arises in your organization abo
 | Adverse-Signal Engagement | | | |
 | Structural Consent Legibility | | | |
 | Information Asymmetry Classification | | | |
-| Structural Power Distribution | | | |
-| Regenerative Accountability | | | |
+| Structural Power Obligation | | | |
+| Regenerative Obligation | | | |
 
 **Tensegrity Generative Standards (capacity conditions)**
 

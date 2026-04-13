@@ -23,6 +23,8 @@ Sensemaking produces shared language: joint artifacts that neither party had pro
 
 Three operational scales: intra-personal (individual participants distinguishing their experience from their automatic interpretation of it), inter-personal (participants producing joint artifacts together), witness-reception (future participants encountering crystallized sensemaking outputs).
 
+Before assessing the five invariants, establish the founding window condition: did the organization establish shared language at the constitutional layer before implicit coordination culture formed, or is sensemaking capacity being overlaid on a culture that already has its own implicit interpretive frames? Within the latter condition, distinguish born-without (never had the founding window open; must work against an already-formed implicit culture) from crossed-below (had founding sensemaking but allowed the substrate to degrade; may still have structural memory to draw from). These conditions have different intervention profiles and prognoses.
+
 For each invariant at each scale, assess: what structural evidence of presence exists? What would full presence look like for this system? What is the current structural gap?
 
 ---

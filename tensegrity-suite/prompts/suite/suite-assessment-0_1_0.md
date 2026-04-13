@@ -217,11 +217,11 @@ Do not rush. If the person's response reveals something substantive, follow it.
 
 **Standard 1: Precision-First Design Standard**
 
-What it requires: Every element of your governed system should increase the precision with which the system's dynamics can be observed, classified, and acted upon. Vague language, undefined terms, and unclassified processes close off the ability to see what is actually happening. This standard requires that your coordination infrastructure — your governance documents, your decision processes, your records — be designed to make coordination dynamics more visible, not less.
+What it requires: Precision in a coordination instrument fails in two directions, and this standard closes both. A precision deficit occurs when terms, rules, or processes are under-specified: violations become undetectable, exploitation vectors stay permanently open, and the people the instrument was designed to protect cannot invoke that protection. A precision imposition occurs when an element is over-specified: compliance can be demonstrated while the coordination purpose remains unserved. The instrument looks complete, but its beneficiaries cannot actually use it. This standard requires that your coordination infrastructure be precise enough that violations are detectable and compliance can demonstrate that the coordination purpose is being served.
 
-Why it matters: Coordination systems fail in ways that were visible in retrospect but invisible at the time, because the vocabulary and records that would have made the dynamics legible did not exist. Precision is not bureaucracy — it is the structural prerequisite for catching problems before they become failures.
+Why it matters: Coordination systems fail in ways that were visible in retrospect but invisible at the time, because the vocabulary and records that would have made the dynamics legible did not exist. Equally, systems can be formally compliant while the coordination they were supposed to enable remains structurally out of reach. Precision is not bureaucracy: it is the structural prerequisite for catching problems before they become failures, and for ensuring that instruments actually do what they say they do.
 
-Assessment questions: "Where in your organization's coordination infrastructure do you find yourself saying 'we all know what that means' rather than defining it? What processes or dynamics in your organization are currently unclassified — happening regularly but unnamed?"
+Assessment questions: "Where in your organization's coordination infrastructure do you find yourself saying 'we all know what that means' rather than defining it? What processes or dynamics in your organization are currently unclassified, happening regularly but unnamed? Are there governance procedures your organization follows completely that the people those procedures were designed to protect cannot actually invoke?"
 
 **Standard 2: Adverse-Signal Engagement Principle Core Standard**
 
@@ -310,8 +310,8 @@ Assessment questions: "When genuine disagreement arises in your organization abo
 | Adverse-Signal Engagement | | | |
 | Structural Consent Legibility | | | |
 | Information Asymmetry Classification | | | |
-| Structural Power Distribution | | | |
-| Regenerative Accountability | | | |
+| Structural Power Obligation | | | |
+| Regenerative Obligation | | | |
 
 **Tensegrity Generative Standards (capacity conditions)**
 
