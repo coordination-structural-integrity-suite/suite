@@ -71,7 +71,7 @@ This is not an additional audit criterion. It is what converts a structural chec
 
 When applying this standard in the context of a corpus evolution question (a new requirement, new standard element, new framework section, or new document being proposed), the transclusion check is a prior obligation. Before asking whether a proposed addition is precision-complete, ask: is there a frame at which an existing element is already true, such that the original precision and the new requirement are both fully operative within it as distinct instantiations, with neither requiring the other to diminish? If yes, the transclusion is the correct move and no new element is needed. If no such frame exists, a new element is the correct answer — and then precision-first applies to that new element.
 
-The standalone transclusion skill (`claude-skill-transclusion-0_1_0.md`) provides the full implementation: the prior differentiation check, the test for whether transclusion has occurred, the two failure modes (false separation and false merger), the nondual ground, and worked examples from the corpus. The pointer here is not a re-specification — it is a sequencing instruction. Transclusion check comes before precision audit in corpus evolution contexts.
+The standalone transclusion skill (`claude-skill-transclusion-0_1_1.md`) provides the full implementation: the prior differentiation check, the test for whether transclusion has occurred, the two failure modes (false separation and false merger), the nondual ground, and worked examples from the corpus. The pointer here is not a re-specification — it is a sequencing instruction. Transclusion check comes before precision audit in corpus evolution contexts.
 
 ---
 

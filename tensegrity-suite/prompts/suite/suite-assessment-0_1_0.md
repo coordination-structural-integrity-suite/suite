@@ -253,7 +253,7 @@ What it requires: Power within the coordination system must be distributed in wa
 
 Why it matters: Power concentrates gradually, through drift, before it becomes capture. The organizations most confident they have no power concentration problem are often the ones where concentration is already well underway but not yet visible.
 
-Assessment questions: "Who has disproportionate influence over decisions in your organization, and on what basis? Is that influence legible and structurally justified, or has it accumulated informally over time? What mechanisms exist to prevent or reverse power concentration?"
+Assessment questions: "Who has disproportionate influence over decisions in your organization, and on what basis? Is that influence legible and structurally justified, or has it accumulated informally over time? What mechanisms exist to prevent or reverse power concentration? If your organization has a legal entity structure — company, foundation, DAO wrapper — does that entity hold authority that could override decisions made by your participants? Are there external actors whose actions could override your governance outcomes regardless of your process — funders controlling required resources, platform providers, regulatory regimes, individuals whose departure would prevent the system from functioning? Are those conditions disclosed to participants?"
 
 **Standard 6: Regenerative Obligation Standard**
 

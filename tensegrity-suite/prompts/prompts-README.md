@@ -67,9 +67,9 @@ For auditing or assessing against multiple standards at once, or for orientation
 
 | Prompt | Use it on |
 |---|---|
-| [General Audit](precision-first/precision-first-audit-general-0_1_3.md) | Any document, specification, or standard |
-| [Governance Audit](precision-first/precision-first-audit-governance-0_1_3.md) | Decentralized autonomous organization proposals, bylaws, charters, policies, constitutions |
-| [Software Audit](precision-first/precision-first-audit-software-0_1_3.md) | Application programming interface contracts, requirements docs, schemas, technical designs |
+| [General Audit](precision-first/precision-first-audit-general-0_1_4.md) | Any document, specification, or standard |
+| [Governance Audit](precision-first/precision-first-audit-governance-0_1_4.md) | Decentralized autonomous organization proposals, bylaws, charters, policies, constitutions |
+| [Software Audit](precision-first/precision-first-audit-software-0_1_4.md) | Application programming interface contracts, requirements docs, schemas, technical designs |
 
 ### Adverse Signal Engagement Principle Core Standard
 

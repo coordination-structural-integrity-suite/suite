@@ -1,6 +1,6 @@
 # Coordination Structural Integrity Suite
 
-**Version:** 0.1.1 | April 2026
+**Version:** 0.1.2 | April 2026
 
 Nine standards. Two structural layers. One architecture for coordination that holds.
 
@@ -74,6 +74,8 @@ The suite combines the nine standards into something architecturally more than t
 
 The standards support each other. Their support is structural, not incidental.
 
+The six Tensegrity Compressive Standards are not six independent floors. They close the six structural mechanisms through which a single-trunk, top-down authority architecture — what this corpus calls the Columnar pattern — overrides distributed governance mechanisms when both are present in the same organization. Organizations designed for distributed authority fail in exactly these six ways: they allow specification to become unevaluable from outside, enabling compliance theater; they suppress adverse signals that would show the gap between what they claimed and what they built; they absorb participants through undifferentiated consent into arrangements those participants never specifically authorized; they allow information asymmetries to accumulate invisibly between formal governance and actual decision-making power; they allow authority to concentrate across dimensions that formal decentralization claims do not measure; and they extract from contributors without structural accountability for return. These are not six separate failure modes. They are six aspects of the same structural drift: toward an architecture where a small center holds interpretive, relational, and formal authority while distributing the forms of distributed governance without its substance. The six compressive standards close these six pathways precisely and collectively. That is why they form a coherent architectural layer rather than a list of useful practices.
+
 The architecture is verifiable. Each standard specifies observable conditions across five adoption tiers. Organizations can report their structural health state from their actual structural position rather than from confidence in their intentions. That verifiability is what makes the suite an integrity architecture rather than a set of aspirations.
 
 ---
@@ -126,5 +128,6 @@ The full suite does not produce good coordination. It creates the structural con
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 0.1.2 | April 2026 | Synthesizing statement added to "Nine Standards, One Architecture" section. The six Tensegrity Compressive Standards named as closing the six structural mechanisms through which a Columnar (single-trunk, top-down) architecture overrides distributed governance: imprecision enabling compliance theater, signal suppression, undifferentiated consent, invisible information asymmetries, authority concentration hidden by decentralization claims, and unaccountable extraction. Statement names these as six aspects of the same structural drift and names the compressive standards as collectively closing those pathways. |
 | 0.1.1 | April 2026 | Count and content pass for nine-standard suite. All references to "eight standards" updated to nine; all references to "five Tensegrity Compressive Standards" updated to six. Regenerative Obligation Standard paragraph added to "Exploit-Proof Your Coordination" section (was completely absent from standard descriptions). "Eight Standards, One Architecture" section heading updated to nine. No changes to the generative standards content. |
 | 0.1.0 | March 2026 | Initial draft. |
