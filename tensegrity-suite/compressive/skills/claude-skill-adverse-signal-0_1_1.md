@@ -15,17 +15,18 @@ This matters because adverse signals accumulate as dismissed noise before they b
 
 ## What the standard requires
 
-Eight structural conditions:
+Structural conditions:
 
 1. Signal channels: at least one channel exists for adverse signals from internal participants, external constituencies, technical monitoring, and independent observers. All four source types must have a path in.
 2. Implausible absence: the system does not contain a domain where adverse signals would be structurally expected but where none are recorded. Absence in high-conflict domains is itself a signal requiring engagement.
 3. Silent erasure prevention: adverse signals cannot be dismissed, deleted, or reclassified as non-adverse without a recorded rationale. Dismissal is permitted; invisible dismissal is not.
 4. Retroactive criteria prohibition: the definition of what counts as an adverse signal cannot be changed after a signal has been received, or at minimum, criteria must be versioned and frozen for open cases.
-5. Finite path requirement: every adverse signal must reach one of three outcomes — act, monitor, or formally close with rationale. Dead ends are not permitted.
-6. Inaction visibility: governance inaction on an acknowledged signal must become visible to participants without the cooperation of the inacting party. The inaction itself must be detectable.
-7. Unskilled signal inclusion: emotionally expressed, informal, or "unskilled" complaints are not disqualified from adverse signal status by virtue of their form. The signal is preserved; the form may be addressed separately.
-8. External governance override: external authority actions that preempt or override the system's internal adverse-signal handling process are themselves an adverse signal class requiring engagement. A conforming system names external governance override in its signal taxonomy, maintains a recognition assessment of its self-governance capacity with relevant external authorities (where those authorities have realistic governance reach), and treats the absence of that assessment as a structural exposure. "No external authority has challenged us" is not a recognition assessment.
-9. Pattern Navigate structural root cause assessment: when a pattern threshold has been triggered and mandatory reclassification has occurred, the Navigate phase must include a structural root cause assessment before individual attribution is accepted as final resolution. The assessment must produce one of three documented findings: no structural condition identified (individual attribution stands); structural condition identified (double-loop examination of the response framework is triggered); or insufficient information (monitoring is extended and investigation continues). Accepting individual attribution as the final disposition of a pattern-escalated signal without this assessment is not permitted.
+5. Shared classification authority: definitional authority over what counts as an adverse signal — which harm classes the classification framework recognizes, what severity levels apply, and how scope is drawn — must be distributed among cost-bearing constituencies, not solely held by system operators or insiders. Criteria are developed and updated with meaningful input from the parties who bear the risks. Persistent use of low-severity labels for recurring signals with substantial aggregate impact must prompt a review of the framework and thresholds; resisting such updates is treated as an adverse signal about the stewardship of shared classification authority.
+6. Finite path requirement: every adverse signal must reach one of three outcomes — act, monitor, or formally close with rationale. Dead ends are not permitted.
+7. Inaction visibility: inaction by coordination actors on an acknowledged signal must become visible to participants without the cooperation of the inacting party. The inaction itself must be detectable.
+8. Unskilled signal inclusion: emotionally expressed, informal, or "unskilled" complaints are not disqualified from adverse signal status by virtue of their form. The signal is preserved; the form may be addressed separately.
+9. External override signals: external authority actions that preempt or override the system's internal adverse-signal handling process are themselves an adverse signal class requiring engagement. A conforming system names external override as a recognized signal class in its classification framework, maintains a recognition assessment of its internal coordination capacity with relevant external authorities (where those authorities have realistic override reach), and treats the absence of that assessment as a structural exposure. "No external authority has challenged us" is not a recognition assessment.
+10. Pattern Navigate structural root cause assessment: when a pattern threshold has been triggered and mandatory reclassification has occurred, the Navigate phase must include a structural root cause assessment before individual attribution is accepted as final resolution. The assessment must produce one of three documented findings: no structural condition identified (individual attribution stands); structural condition identified (double-loop examination of the response framework is triggered); or insufficient information (monitoring is extended and investigation continues). Accepting individual attribution as the final disposition of a pattern-escalated signal without this assessment is not permitted.
 
 ## What the standard does not require
 
@@ -33,7 +34,7 @@ It does not require acting on every signal. It requires processing every signal 
 
 It does not require that all signals be treated as equally credible. It requires that credibility assessments be recorded and not made the mechanism of invisible dismissal.
 
-It does not specify the governance response to an adverse signal. It requires that the absence of a governance response is itself detectable.
+It does not specify the response to an adverse signal. It requires that the absence of a documented response is itself detectable.
 
 ## Common misreadings to avoid
 

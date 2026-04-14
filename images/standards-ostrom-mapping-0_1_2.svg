@@ -110,9 +110,9 @@
   <polygon points="401,548 409,552 401,556" fill="#64748b"/>
   <rect x="408" y="516" width="540" height="72" rx="8" fill="#0d1f1f" stroke="#0f766e" stroke-width="1.5"/>
   <text x="424" y="534" fill="#2dd4bf" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">Adverse-Signal Engagement Principle</text>
-  <text x="424" y="550" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif">External governance override is a named adverse signal class.</text>
-  <text x="424" y="564" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif">Recognition assessment required wherever external authorities have</text>
-  <text x="424" y="578" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif">realistic governance reach.</text>
+  <text x="424" y="550" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif">External override is a named adverse signal class in its</text>
+  <text x="424" y="564" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif">classification framework. Recognition assessment required</text>
+  <text x="424" y="578" fill="#f1f5f9" font-size="10" font-family="system-ui,sans-serif">wherever external authorities have realistic override reach.</text>
 
   <!-- ========= DP8 ========= -->
   <rect x="14" y="594" width="362" height="72" rx="8" fill="#13101f" stroke="#38bdf8" stroke-width="1"/>

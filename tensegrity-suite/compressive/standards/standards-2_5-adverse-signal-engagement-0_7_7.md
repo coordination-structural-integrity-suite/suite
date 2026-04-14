@@ -2,25 +2,25 @@
 
 **(ASEP)**
 
-*Core Standard v0.7.3*
+*Core Standard v0.7.7*
 
 **Regis Chapman (Durgadas)**
 
-Version 0.7.4 \| April 2026
+Version 0.7.7 \| April 2026
 
 # 1. Preamble
 
-Every serious governance failure comes with the same post-mortem. The warning signs were present. Someone raised a concern, flagged an anomaly, filed a report, or named a pattern. The system registered that signal as background noise, a complaint to be managed, something to document and revisit later. By the time the failure became undeniable, the moment for structural correction had passed.
+Every serious coordination failure comes with the same post-mortem. The warning signs were present. Someone raised a concern, flagged an anomaly, filed a report, or named a pattern. The system registered that signal as background noise, a complaint to be managed, something to document and revisit later. By the time the failure became undeniable, the moment for structural correction had passed.
 
-This is not a story about bad actors ignoring warnings they understood. It is a story about structural conditions that treated adverse signals as nuisances rather than primary governance inputs. No structural obligation to engage with the signal existed, so the signal was not engaged with. The harm is not only the failure that eventually arrived. The harm includes everyone who raised a concern, was not structurally heard, and continued carrying the cost of that signal alone.
+This is not a story about bad actors ignoring warnings they understood. It is a story about structural conditions that treated adverse signals as nuisances rather than primary coordination inputs. No structural obligation to engage with the signal existed, so the signal was not engaged with. The harm is not only the failure that eventually arrived. The harm includes everyone who raised a concern, was not structurally heard, and continued carrying the cost of that signal alone.
 
 For how this standard relates to others in the Coordination Structural Integrity Suite, and guidance on which standards to combine for specific organizational purposes, see the Suite Integration Guide and the Suite Deployment Contexts document.
 
-Non-harming is the first precision principle of the Coordination Structural Integrity Suite. The Precision-First Design Standard governs the suite as a whole: every standard in it is a precise specification of what non-harming requires in a specific coordination domain. The lack of a structural obligation to engage adverse signals produces specific harms to specific people: warning signs are present, visible to those positioned to see them, and not acted on because no structural obligation to act exists; those bearing the cost of the ignored signal absorb it invisibly while governance proceeds as though nothing has been surfaced; and by the time the harm becomes undeniable, the mechanisms that produced it are entrenched and the moment for structural correction has passed. This standard specifies adverse signal engagement as the precise structural answer: a binding obligation to treat adverse signals as primary governance inputs, not as nuisances to be minimized.
+Non-harming is the first precision principle of the Coordination Structural Integrity Suite. The Precision-First Design Standard governs the suite as a whole: every standard in it is a precise specification of what non-harming requires in a specific coordination domain. The lack of a structural obligation to engage adverse signals produces specific harms to specific people: warning signs are present, visible to those positioned to see them, and not acted on because no structural obligation to act exists; those bearing the cost of the ignored signal absorb it invisibly while coordination proceeds as though nothing has been surfaced; and by the time the harm becomes undeniable, the mechanisms that produced it are entrenched and the moment for structural correction has passed. This standard specifies adverse signal engagement as the precise structural answer: a binding obligation to treat adverse signals as primary coordination inputs, not as nuisances to be minimized.
 
 When a coordination system fails, the post-mortem almost always reveals the same thing: the warning signs were present, they were visible, and they were not treated as requiring a response. Ignored complaints, dismissed anomalies, buried reports, shifting evidence. The pattern recurs across financial systems, healthcare, infrastructure, online platforms, and decentralized protocols. The failure is not that the signals were undetectable. The failure is that no structural obligation existed to engage with them.
 
-The Adverse-Signal Engagement Principle (ASEP) is a cross-domain standard that specifies how systems with shared governance surfaces must treat adverse signals. It establishes a structural obligation: adverse signals must be treated as primary inputs to governance and security, not as nuisances to be minimized. The standard is rigorous (clear invariants and obligations), standardized (a common structure across domains), extensible (profiles for Web3, AI, regulators, media, and other contexts), and flexible (tiered adoption for different risk levels).\[5\]\[6\]\[7\]\[8\]\[1\]
+The Adverse-Signal Engagement Principle (ASEP) is a cross-domain standard that specifies how systems with shared coordination surfaces must treat adverse signals. It establishes a structural obligation: adverse signals must be treated as primary inputs to coordination and security, not as nuisances to be minimized. The standard is rigorous (clear invariants and obligations), standardized (a common structure across domains), extensible (profiles for Web3, AI, regulators, media, and other contexts), and flexible (tiered adoption for different risk levels).\[5\]\[6\]\[7\]\[8\]\[1\]
 
 ASEP is a standard, not a taxonomy. Taxonomies of harms, incidents, or
 asymmetries plug into ASEP's "Name" phase; they are implementation
@@ -36,11 +36,11 @@ ASEP applies to systems that:
     clearly bounded group (e.g., users, customers, citizens, depositors,
     communities), and
 
--   Do so through shared mechanisms (protocol rules, laws, policies,
-    governance processes), rather than pure personal discretion.\[1\]
+-   Do so through shared coordination mechanisms (protocol rules, laws, policies,
+    coordination processes), rather than pure personal discretion.\[1\]
 
 **Adverse‑Signal Engagement Principle (ASEP).** In such systems, adverse
-signals must be treated as primary inputs to governance and security,
+signals must be treated as primary inputs to coordination and security,
 not as nuisances to be minimized.\[5\]\[1\]
 
 An adverse signal is any observation, anomaly, pattern, or misuse
@@ -65,12 +65,12 @@ be logged, deliberate, and open to challenge.
 
 *Operative classes*
 - Epistemic-perceptual: This standard operates in the detection and signal processing sub-aspect: defining adverse signals, specifying what a detection instrument must distinguish, and establishing the false-negative boundary explicitly. It also operates in the precision and operationalization sub-aspect: signal categories, escalation tiers, and response obligations are operationally defined.
-- Relational-topological: This standard addresses the structural architecture of escalation pathways and response obligations: which roles must act on detection outputs, how governance inaction becomes visible to an independent observer without requiring the inacting party to self-report, and the defense-in-depth requirements for the response layer.
+- Relational-topological: This standard addresses the structural architecture of escalation pathways and response obligations: which roles must act on detection outputs, how inaction by coordination actors becomes visible to an independent observer without requiring the inacting party to self-report, and the defense-in-depth requirements for the response layer.
 
 *Boundary classes*
-- Felt-experience: This standard specifies structural signal detection and response obligations but does not address what it feels like to be a signal source in a monitored governance system, or the affective dimensions of being subject to adverse signal processing.
+- Felt-experience: This standard specifies structural signal detection and response obligations but does not address what it feels like to be a signal source in a monitored coordination system, or the affective dimensions of being subject to adverse signal processing.
 - Action-structural: This standard classifies signal categories and escalation stages but does not address the action-coordinate content of what signal sources or responders are doing within an adverse signal pathway.
-- Temporal-dynamic (frequency-dynamic sub-aspect): Escalation timelines are specified sequentially. This standard does not address how governance structures respond to the frequency or rhythm of adverse signal pressure over time.
+- Temporal-dynamic (frequency-dynamic sub-aspect): Escalation timelines are specified sequentially. This standard does not address how coordination structures respond to the frequency or rhythm of adverse signal pressure over time.
 
 ## 2.2 Invariants
 
@@ -92,7 +92,7 @@ These invariants define ASEP; everything else is implementation detail.
 
 ## 2.3 Detection Reliability Dependency
 
-This standard has a structural reliability dependency on the Relational Battery condition specified in the Four Batteries Capacity Standard. The detection architecture depends on participants surfacing adverse signals through the channels and processes this standard requires. When the Relational Battery is depleted, participants will not surface adverse signals even when explicitly invited to do so, because the relational context makes surfacing feel unsafe or pointless. This produces a systematic false negative: the detection surface shows no signals, governance concludes the standard is being met, and signals continue to accumulate invisibly.
+This standard has a structural reliability dependency on the Relational Battery condition specified in the Four Batteries Capacity Standard. The detection architecture depends on participants surfacing adverse signals through the channels and processes this standard requires. When the Relational Battery is depleted, participants will not surface adverse signals even when explicitly invited to do so, because the relational context makes surfacing feel unsafe or pointless. This produces a systematic false negative: the detection surface shows no signals, coordination actors conclude the standard is being met, and signals continue to accumulate invisibly.
 
 An audit of this standard conducted in an organization with a depleted Relational Battery cannot be considered reliable. The absence of recorded adverse signals in that context is not evidence of structural health; it is evidence that the surfacing mechanism has failed. Joint adoption of this standard and the Four Batteries Capacity Standard, with Relational Battery instrumented at a sufficient tier, is required for this standard's audit results to be trustworthy.
 
@@ -165,51 +165,21 @@ entry should include:
 
 -   who reported it, and in what role.\[13\]\[19\]\[1\]
 
-### 3.2.2 Non‑neutral context
+### 3.2.2 Shared Classification Authority
 
-ASEP assumes context (culture, power, history, incentives) is not
-neutral. Where salient, logs should capture contextual factors such as:
+Definitional authority over what counts as an adverse signal, what severity level it warrants, and which harm classes the classification framework recognizes must be distributed among cost-bearing constituencies, not solely held by system operators or insiders. The three operational requirements of this condition are:
 
--   relative power or dependency between reporter and subject,
+**Power context in the record.** ASEP assumes context — culture, power, history, incentives — is not neutral. Where salient, logs should capture relative power or dependency between reporter and subject, relevant history of similar incidents, and structural incentives that may shape reporting or suppression.\[1\] When "context" is invoked to downgrade, defer, or dismiss signals, that reasoning must be recorded; repeated use of context to explain away similar signals is itself a pattern to detect.\[14\]\[20\]\[5\]
 
--   relevant history of similar incidents,
+**Classification framework stewardship.** Systems maintain a public or at least internally documented classification framework covering adverse signal categories and severity levels. The framework must be defined ex-ante and versioned over time, and subject to periodic coverage review checking for missing harm classes, especially to marginalized groups, future users, or ecosystems.\[7\]\[8\]\[9\]\[1\] Classification can be approximate but must be explicit; "unclassified" is a temporary state with a maximum dwell time. Persistent use of low-severity labels for recurring signals with substantial aggregate impact MUST prompt a review of the framework and thresholds; resisting such updates is treated as an adverse signal about the stewardship of shared classification authority.
 
--   structural incentives that may shape reporting or suppression.\[1\]
-
-When "context" is invoked to downgrade, defer, or dismiss signals, that
-reasoning must be recorded; repeated use of context to explain away
-similar signals is itself a pattern to detect.\[14\]\[20\]\[5\]
-
-### 3.2.3 Taxonomy and severity
-
-Systems maintain a public or at least internally documented taxonomy of
-adverse signals (categories) and severity levels (impact and urgency
-bands). The taxonomy must be:
-
--   defined ex‑ante and versioned over time,
-
--   subject to periodic coverage review (checking for missing harm
-    classes, especially to marginalized groups, future users, or
-    ecosystems).\[7\]\[8\]\[9\]\[1\]
-
-Classification can be approximate but must be explicit; "unclassified"
-is a temporary state with a maximum dwell time.
-
-Persistent use of low‑severity labels for recurring signals with
-substantial aggregate impact MUST prompt a review of the taxonomy and
-thresholds; resisting such updates is treated as an adverse signal about
-taxonomy governance.
-
-### 3.2.4 Multi‑stakeholder criteria
-
-Criteria for what counts as an adverse signal, and for severity levels,
-should be developed and updated with meaningful input from
-constituencies who bear the risks, not solely by system operators or
-insiders.
+**Cost-bearing party participation.** Criteria for what counts as an adverse signal, and for severity levels, must be developed and updated with meaningful input from constituencies who bear the risks, not solely by system operators or insiders.
 
 ## 3.3 Navigate -- Responding and Deciding
 
-ASEP requires systems to move from signal to decision.
+The Navigate requirements specify the signal processing lifecycle: what happens to a classified adverse signal from decision through resolution. Their normative force derives from what coordination structurally requires — the conditions under which adverse signals can actually be engaged rather than absorbed, routed around, or quietly closed. These requirements do not derive their force from accommodation to the coordination arrangements of adopting systems. A system that already has authority structures in place cannot use those structures to determine which Navigate requirements apply to it; the requirements specify what coordination demands, and existing arrangements are evaluated against that, not the reverse.
+
+The structural conditions under which Navigate can operate — power distribution across authority, coordination, and specialization dimensions; nested and polycentric handling requirements; and external override exposure — are specified in the Structural Power Obligation Standard. A coordination system that adopts ASEP without assessing power distribution under that standard may operate a technically conformant Navigate process while the structural conditions for its effectiveness are absent.
 
 ### 3.3.1 Time‑boxing and action set
 
@@ -223,7 +193,7 @@ along with a small set of allowed actions, such as:
 
 -   mitigate or contain,
 
--   escalate to a higher authority or broader circle,
+-   escalate to a broader circle,
 
 -   initiate engagement with contested parties (for conflict-class signals; see Section 3.3.1a),
 
@@ -233,7 +203,7 @@ along with a small set of allowed actions, such as:
 
 Letting defined time bounds lapse without action or explicit closure is
 treated as a process failure and itself logged as an adverse signal
-about governance health.
+about coordination health.
 
 ### 3.3.1a Conflict-class routing
 
@@ -252,7 +222,7 @@ proportionate to severity and pattern:\[23\]\[24\]
 -   medium: targeted fixes, local policy changes, stronger oversight,
 
 -   high: decisive interventions (e.g., disabling functionality,
-    governance changes, public or regulatory notification).
+    structural changes, public or regulatory notification).
 
 Where safe and appropriate, responses should be resolved at the most
 local competent level, with clear escalation paths when local handling
@@ -283,7 +253,7 @@ responses (applying the designated fix each time), the pattern itself is
 evidence that the response framework, not the individual response,
 requires examination. Systems that structurally prevent this transition
 (by requiring all escalation to remain within the current response
-taxonomy) cap themselves at single-loop learning regardless of signal
+classification framework) cap themselves at single-loop learning regardless of signal
 volume.
 
 When a pattern threshold triggers mandatory reclassification, the
@@ -303,16 +273,7 @@ exists must be documented as a finding, not left implicit.
 
 ### 3.3.4 Polycentric and nested handling
 
-ASEP is intended to work at multiple nested levels (teams,
-organizations, protocols, ecosystems) with overlapping authorities.
-Implementations should:\[22\]\[21\]\[23\]\[24\]
-
--   define when signals stay local vs. escalate to higher levels (e.g.,
-    cross‑org patterns, conflicts of interest, failures at lower
-    levels),
-
--   avoid architectures where a single center can fully gate
-    adverse‑signal handling.
+Navigate must remain operable across nested coordination levels (teams, organizations, protocols, ecosystems) and must not be gateable by a single actor. The structural requirements for nested and polycentric contexts, including subsidiarity requirements for cross-level authority distribution and detection architecture for concentration at each level, are specified in the Structural Power Obligation Standard Section 4.4.\[22\]\[21\]\[23\]\[24\]
 
 ### 3.3.5 Adversarial misuse and abuse
 
@@ -333,7 +294,7 @@ itself a claim requiring a documented basis.
 Systems must define a maturation path for adverse signals that are not
 acknowledged within the time-to-assessment window. Signal Escalation is
 a state transition sequence governed by elapsed time, not by human
-initiative. Its purpose is to ensure that governance inaction in the
+initiative. Its purpose is to ensure that inaction by coordination actors in the
 presence of a detected adverse signal is itself observable and
 procedurally consequential.
 
@@ -349,45 +310,45 @@ A conforming maturation path must specify at least:
     without action, the signal automatically transitions to an escalated
     visibility state. The escalation is a system event, not a human
     decision. At minimum, the escalated signal must be published to the
-    governance record with a status indicating that it matured without
+    coordination record with a status indicating that it matured without
     acknowledgment.
 
-(c) A governance obligation trigger: if the escalated signal persists
+(c) An obligation trigger: if the escalated signal persists
     without acknowledgment for a second defined period, the system must
-    generate a governance artifact (equivalent in procedural standing to
+    generate an obligation artifact (equivalent in procedural standing to
     a filed proposal, inquiry, or review request) that enters the
-    system's standard governance lifecycle. This artifact does not
+    system's standard coordination lifecycle. This artifact does not
     require a human author. Its existence is the system's structural
     response to sustained inaction.
 
-(d) A terminal visibility state: if the governance artifact itself is
-    not processed within the governance lifecycle's own time limits,
-    that fact is recorded as a constitutional-level governance failure
+(d) A terminal visibility state: if the obligation artifact itself is
+    not processed within the coordination lifecycle's own time limits,
+    that fact is recorded as a constitutional-level coordination failure
     signal, visible in the system's aggregate health metrics and
     relevant to any exit, fork, or legitimacy assessment mechanism the
     system provides.
 
 The terminal visibility state is a triple-loop learning trigger. A
-system whose governance lifecycle cannot process its own governance
+system whose coordination lifecycle cannot process its own obligation
 artifacts has exhausted both single-loop correction (applying existing
 responses) and double-loop correction (modifying the response
 framework). What remains is examination of the values and commitments
-that generated the governance framework itself.
+that generated the coordination framework itself.
 
 The maturation path applies to all adverse signals, including signals
 about the maturation process itself. This recursion terminates because
 the maturation mechanism is time-governed, not initiative-dependent: the
-clock runs whether or not any governance actor chooses to engage.
+clock runs whether or not any coordination actor chooses to engage.
 
 Systems that adopt the Adverse-Signal Engagement Principle at the
 ASEP-Instrumented tier must implement Signal Escalation for all severity levels.
 Systems at the ASEP-Assessed or ASEP-Operational tiers should implement Signal Escalation
 for high-severity signals at minimum.
 
-**Window validity requirements.** Any time window specified in a conforming Signal Escalation architecture (including the acknowledgment window, auto-escalation threshold, governance obligation trigger period, and any audit disclosure period) must satisfy three conditions to be valid. First, the window length must be publicly specified before the window begins running for any given signal: a window whose length is determined after the fact, or is adjustable while the clock is running, does not constitute a defined window. Second, the window length must be uniform across structurally equivalent signals: the same severity level and complexity domain classification must yield the same window parameters, regardless of who filed the signal or who the signal implicates. Differential window treatment for structurally equivalent signals is a non-discrimination failure subject to the Notice/Name/Navigate flow. Third, the window parameters in effect at the time of signal generation govern that signal's escalation path: parameters may be revised through the system's governance process, but revision does not apply retroactively to signals already in the escalation sequence at the time of revision. This third condition is the window-specific expression of the ex-ante invariant in Section 2.2. The first two conditions are additive commitments not implied by that invariant.
+**Window validity requirements.** Any time window specified in a conforming Signal Escalation architecture (including the acknowledgment window, auto-escalation threshold, obligation trigger period, and any audit disclosure period) must satisfy three conditions to be valid. First, the window length must be publicly specified before the window begins running for any given signal: a window whose length is determined after the fact, or is adjustable while the clock is running, does not constitute a defined window. Second, the window length must be uniform across structurally equivalent signals: the same severity level and complexity domain classification must yield the same window parameters, regardless of who filed the signal or who the signal implicates. Differential window treatment for structurally equivalent signals is a non-discrimination failure subject to the Notice/Name/Navigate flow. Third, the window parameters in effect at the time of signal generation govern that signal's escalation path: parameters may be revised through the system's coordination process, but revision does not apply retroactively to signals already in the escalation sequence at the time of revision. This third condition is the window-specific expression of the ex-ante invariant in Section 2.2. The first two conditions are additive commitments not implied by that invariant.
 
 **Domain-calibrated escalation tempo.** The staged escalation path
-described above assumes that governance actors have deliberation time
+described above assumes that coordination actors have deliberation time
 between stages: time to assess the signal, convene the relevant
 expertise, and decide on a response. This assumption holds for
 Clear-domain, Complicated-domain, and Complex-domain signals, where the
@@ -402,7 +363,7 @@ destabilization where delay compounds harm. A Chaotic-domain adverse
 signal entering the standard staged escalation path encounters
 time-gated transitions designed for conditions that Chaotic events have
 already exceeded. The staged queue imposes a deliberation tempo on a
-situation that demands immediate governance visibility.
+situation that demands immediate coordination visibility.
 
 A conforming implementation must therefore classify incoming adverse
 signals by complexity domain and apply domain-appropriate escalation
@@ -410,14 +371,14 @@ behavior. Specifically:
 
 (a) Clear-domain, Complicated-domain, and Complex-domain signals follow
     the standard staged path: acknowledgment window, auto-escalation
-    threshold, governance obligation trigger, terminal visibility state,
+    threshold, obligation trigger, terminal visibility state,
     with timing parameters calibrated to the domain's action mode.
 
 (b) Chaotic-domain signals bypass the acknowledgment window and enter
     the escalation path at the auto-escalation stage. The signal is
-    immediately published to the governance record with
-    Chaotic-domain classification, made visible to all governance
-    actors, and the governance obligation countdown begins at the point
+    immediately published to the coordination record with
+    Chaotic-domain classification, made visible to all coordination
+    actors, and the obligation countdown begins at the point
     of signal generation rather than after an unacknowledged
     acknowledgment window.
 
@@ -425,11 +386,11 @@ behavior. Specifically:
     it compresses the timeline by removing the initial waiting period. A
     Chaotic-domain signal that is acknowledged after bypass follows
     standard Navigate processing from that point. A Chaotic-domain
-    signal that is not acknowledged proceeds through the governance
-    obligation trigger and terminal visibility state on the standard
+    signal that is not acknowledged proceeds through the obligation
+    trigger and terminal visibility state on the standard
     timeline.
 
-(d) Domain classification of incoming signals is itself a governance
+(d) Domain classification of incoming signals is itself a coordination
     judgment that must be logged. A signal classified as Chaotic that is
     later reclassified (once stabilization has been achieved) retains
     its escalation history; the reclassification does not retroactively
@@ -453,13 +414,13 @@ act-sense-respond (Chaotic). The shape of the Navigate path should match
 the action mode appropriate to the signal's complexity domain. A
 Clear-domain adverse signal (a parameter exceeds a known threshold, a
 procedural step was skipped) has a known resolution path: categorize the
-signal against the existing taxonomy and apply the designated response.
+signal against the existing classification framework and apply the designated response.
 A Complicated-domain adverse signal (a structural pattern that requires
 expert analysis to interpret) needs an analysis phase before the
 response can be selected; the time-to-assessment window should reflect
 the expert evaluation cycle. A Complex-domain adverse signal (an
 emergent pattern that does not match any existing asymmetry class, or
-that the taxonomy cannot yet classify) requires iterative probing before
+that the classification framework cannot yet classify) requires iterative probing before
 the resolution path becomes visible; the navigation process is
 probe-sense-respond, not a linear deliberation. A Chaotic-domain adverse
 signal (system crisis, cascading failures) requires stabilization before
@@ -475,9 +436,7 @@ single-loop learning, but recurrence of the same signal class despite
 correct responses is a double-loop trigger: the response framework
 itself may be inadequate, and expert analysis should evaluate the
 framework, not only the signal. A Complex-domain adverse signal may
-require double-loop or triple-loop learning: an emergent pattern that
-the taxonomy cannot classify is evidence of a structural gap in the
-classification framework. Addressing it by forcing the signal into
+require double-loop or triple-loop learning: an emergent pattern that no existing signal category covers is evidence of a structural gap in the classification framework. Addressing it by forcing the signal into
 existing categories (single-loop) suppresses the information the signal
 carries. A Chaotic-domain adverse signal calls for single-loop
 stabilization first (contain the crisis using available responses),
@@ -543,7 +502,7 @@ A conforming system should structure its incentive mechanisms to reward
 early-stage engagement with adverse signals. The specific mechanism
 depends on the system's context: token-weighted coordination protocols
 may assign higher weight to coordination evidence produced by early
-engagement; organizational governance systems may prioritize early-
+engagement; coordination systems may prioritize early-
 stage response in resource allocation; regulatory frameworks may
 offer graduated compliance benefits for proactive engagement. The
 principle is mechanism-agnostic: whatever incentive structure the
@@ -553,7 +512,7 @@ engagement, because the outcomes are not equivalent.
 Tier-differentiated guidance: systems at the ASEP-Instrumented tier must
 document how their incentive structures reward early engagement with
 adverse signals and must treat sustained delay in engaging acknowledged
-signals as itself an adverse signal about governance health (subject to
+signals as itself an adverse signal about coordination health (subject to
 the Notice/Name/Navigate flow). Systems at the ASEP-Operational tier should
 document their approach to early engagement incentives as part of their
 periodic tier review. Systems at the ASEP-Assessed tier are encouraged to
@@ -562,29 +521,23 @@ them.
 
 Sub-organizations or member bodies operating within an ASEP-conforming
 system may adopt this principle internally by structuring their own
-recognition, compensation, or governance-weight mechanisms to reward
+recognition, compensation, or coordination-weight mechanisms to reward
 early-stage adverse signal engagement. The parent system's incentive
 structure provides the external signal; the member body's internal
 structure determines whether that signal propagates to the individuals
 and teams who do the early-stage work. Systems that weight early
-engagement at the governance level but whose member bodies do not
+engagement at the coordination level but whose member bodies do not
 replicate the incentive internally create a structural gap: the parent
 system rewards the member body for early engagement, but the member
 body does not reward the people who performed it. This gap is itself
 detectable as a divergence between system-level and member-level
 adverse signal response patterns.
 
-**3.3.9 External governance override**
+**3.3.9 External override signals**
 
-External authority actions that preempt, override, or delegitimize a system's internal adverse-signal handling process are themselves adverse signals of a specific class. This class includes regulatory interventions that transfer adverse-signal classification authority to an external body without the affected constituency's consent, and authority assertions by external parties that selectively disable portions of the Notice-Name-Navigate sequence.
+External authority actions that preempt, override, or delegitimize a system's internal adverse-signal handling process constitute a recognized signal class subject to the Notice/Name/Navigate flow. A conforming implementation must name external override as a recognized signal class in its classification framework, apply Navigate phase obligations to such signals at the tier appropriate to their structural impact, and treat recognition of the system's internal coordination capacity by relevant external authorities as a detection prerequisite, disclosed where absent.
 
-A conforming implementation must: (a) name external governance override as a recognized signal class in its signal taxonomy; (b) treat recognition of the system's self-governance capacity by relevant external authorities as a detection prerequisite, disclosed where absent; and (c) apply Navigate phase obligations to external governance override signals at the tier appropriate to their structural impact.
-
-The detection prerequisite in (b) requires assessment, not mere absence of challenge. "No external authority has challenged our governance processes" is not a recognition assessment; it is an absence of detected conflict. A conforming recognition assessment documents what external authorities have governance reach over the system's processes and what the current recognition status is. Where recognition is absent, the gap is disclosed as a structural exposure rather than treated as compliance.
-
-This section applies where the system is within a governance jurisdiction where external authority has realistic governance reach. Systems operating below any meaningful regulatory or legal threshold in a given domain are not required to produce a recognition assessment for that domain, but must document the basis for that determination.
-
-The converse failure mode is also a signal class: a coordination system that claims self-governance legitimacy across multiple governance cycles while operating at a scale where external governance reach is structurally possible, and that carries no recognition assessment, has not satisfied this section. Absence of challenge is not recognition.
+The detection architecture for external override conditions, including the seven override classes and their tier provisions, is specified in the Structural Power Obligation Standard Section 4.5. Absence of external challenge is not recognition. A coordination system that carries no recognition assessment while operating at a scale where external override reach is structurally possible has not satisfied this section.
 
 # 4. Operational Guarantees and Ethical Posture
 
@@ -616,7 +569,7 @@ logs.
 Failures of ASEP implementation (chronic missed timelines, systematic
 retaliation, consistent over‑collection, or repeated use of "context" to
 silence certain signal types) are themselves treated as adverse signals
-about governance health and enter the same Notice/Name/Navigate flow.
+about coordination health and enter the same Notice/Name/Navigate flow.
 
 ## 4.5 Consent‑aware responses (Wheel of Consent)
 
@@ -632,24 +585,20 @@ For significant adverse‑signal responses, systems should record:
 
 Systematic divergence (responses initiated by those at risk but
 consistently designed to benefit operators or insiders) is itself an
-adverse governance signal that must enter the Notice/Name/Navigate flow.
+adverse coordination signal that must enter the Notice/Name/Navigate flow.
 
 ASEP discourages "for your own good" responses that primarily protect
 institutional power or optics, especially where affected constituencies
 lack real alternatives or voice.
 
-## 4.6 Commons‑aligned governance (Ostrom)
+## 4.6 Commons-aligned coordination (Ostrom)
 
-ASEP's governance structure is informed by Elinor Ostrom's principles
-for managing commons: monitoring by accountable participants, graduated
-responses, and polycentric governance.\[23\]\[24\] Implementations
-should:
+A commons persists when nothing can capture it and nothing can be excluded from sustaining it. Elinor Ostrom's principles for governing commons specify the structural conditions under which this remains possible: monitoring by participants who are themselves accountable to the commons, graduated responses, and polycentric coordination.\[23\]\[24\] ASEP's coordination architecture is directly informed by these principles. Implementations should:
 
 -   involve affected constituencies in defining adverse‑signal criteria
     and escalation rules,
 
--   ensure monitoring and response are accountable and not solely
-    centralized,
+-   ensure monitoring and response carry named obligation directions and are not solely centralized,
 
 -   provide low‑cost, timely paths to raise and resolve adverse‑related
     conflicts,
@@ -664,10 +613,10 @@ should:
 
 ASEP recognizes that not all systems require the same depth of
 machinery. At the same time, tier selection and maintenance are
-themselves governance decisions that can create or conceal risk, and are
+themselves coordination decisions that can create or conceal risk, and are
 subject to ASEP's own invariants.
 
-## 5.0 Tier governance and review
+## 5.0 Tier selection and review
 
 Systems MUST review their ASEP tier at defined intervals (e.g.,
 annually) and when crossing key thresholds of scale, dependency, or
@@ -679,7 +628,7 @@ rationale.
 
 Repeated decisions to remain at a lower tier despite accumulating
 evidence of higher impact or dependency are treated as adverse
-governance signals and MUST enter the Notice/Name/Navigate
+coordination signals and MUST enter the Notice/Name/Navigate
 flow.\[5\]\[1\]
 
 ## 5.1 ASEP-Assessed
@@ -707,7 +656,7 @@ external impact.
 
 Full Notice/Name/Navigate loop:
 
--   basic taxonomy and severity levels,
+-   basic classification framework and severity levels,
 
 -   time‑boxing for assessment and decision,
 
@@ -733,7 +682,7 @@ Includes all ASEP-Operational requirements plus:
 
 -   explicit anti‑retaliation policy and tracking,
 
--   multi‑stakeholder criteria setting and coverage reviews,
+-   multi-constituency criteria setting and coverage reviews,
 
 -   explicit polycentric/nested handling design,
 
@@ -744,7 +693,7 @@ Includes all ASEP-Operational requirements plus:
 
 Systems that perform high‑impact infrastructural roles are PRESUMED to
 require ASEP-Instrumented unless they can demonstrate the contrary in a
-logged, regularly reviewed governance decision.
+logged, regularly reviewed documented decision.
 
 A simple rule of thumb: the deeper and less reversible the potential
 harm, and the less real exit/choice constituencies have, the closer a
@@ -753,19 +702,19 @@ reviewed justification for a lower tier.
 
 ## 5.4 ASEP-Accountable
 
-Includes all ASEP-Instrumented requirements plus closed governance loop architecture.
+Includes all ASEP-Instrumented requirements plus closed coordination loop architecture.
 
-The defining property of ASEP-Accountable is that governance inaction is structurally visible without depending on any actor's cooperation. At ASEP-Instrumented, detection infrastructure produces outputs. At ASEP-Accountable, those outputs produce mandatory governance responses, and the absence of a response is itself a detected event.
+The defining property of ASEP-Accountable is that inaction by coordination actors is structurally visible without depending on any actor's cooperation. At ASEP-Instrumented, detection infrastructure produces outputs. At ASEP-Accountable, those outputs produce mandatory documented responses, and the absence of a response is itself a detected event.
 
 Minimum requirements:
 
-Every signal that enters Stage 3 (governance obligation trigger) in the Signal Escalation architecture must produce a documented governance decision within the defined Stage 3 window. The Stage 3 window must satisfy the window validity requirements specified in Section 3.3.6. The decision record must include: the signal identifier, the classification assigned at the Name phase, the decision made (including decisions to defer or decline action), the actor or body responsible for the decision, and the rationale. A decision to take no action is a decision and must be documented as such. The absence of any documented decision is not a permissible outcome at ASEP-Accountable.
+Every signal that enters Stage 3 (obligation trigger) in the Signal Escalation architecture must produce a documented decision within the defined Stage 3 window. The Stage 3 window must satisfy the window validity requirements specified in Section 3.3.6. The decision record must include: the signal identifier, the classification assigned at the Name phase, the decision made (including decisions to defer or decline action), the coordination actor or body responsible for the decision, and the rationale. A decision to take no action is a decision and must be documented as such. The absence of any documented decision is not a permissible outcome at ASEP-Accountable.
 
-The absence of a documented decision at Stage 3 must produce automatic Stage 4 publication without requiring any actor's initiation. Stage 4 publication makes the signal, its classification, the elapsed time since Stage 3 trigger, and the absence of a governance decision simultaneously visible to all governance actors. This publication is a structural consequence of the Signal Escalation architecture, not a discretionary act. A system in which Stage 4 publication requires a human decision to publish has not closed the governance loop and does not meet ASEP-Accountable.
+The absence of a documented decision at Stage 3 must produce automatic Stage 4 publication without requiring any actor's initiation. Stage 4 publication makes the signal, its classification, the elapsed time since Stage 3 trigger, and the absence of a documented decision simultaneously visible to all coordination actors. This publication is a structural consequence of the Signal Escalation architecture, not a discretionary act. A system in which Stage 4 publication requires a human decision to publish has not closed the coordination loop and does not meet ASEP-Accountable.
 
-The governance decision record is append-only. Decisions cannot be modified after recording; corrections are recorded as new entries referencing the original. This property is what makes governance inaction detectable without cooperation: an independent observer can verify that a Stage 3 trigger exists in the record, verify that no Stage 3 decision entry exists within the required window, and determine that Stage 4 publication was or was not produced as a consequence.
+The coordination record is append-only. Decisions cannot be modified after recording; corrections are recorded as new entries referencing the original. This property is what makes inaction detectable without cooperation: an independent observer can verify that a Stage 3 trigger exists in the record, verify that no Stage 3 decision entry exists within the required window, and determine that Stage 4 publication was or was not produced as a consequence.
 
-Tier review cadence for ASEP-Accountable systems: tier review MUST occur at minimum annually and MUST include a governance loop integrity check: confirmation that the Stage 3 to decision path operated as specified for all signals that reached Stage 3 in the review period, and that Stage 4 publications were produced where required.
+Tier review cadence for ASEP-Accountable systems: tier review MUST occur at minimum annually and MUST include a coordination loop integrity check: confirmation that the Stage 3 to decision path operated as specified for all signals that reached Stage 3 in the review period, and that Stage 4 publications were produced where required.
 
 ## 5.5 ASEP-Auditable
 
@@ -781,9 +730,9 @@ The auditor must be able to verify completeness: that all signals generated in t
 
 The auditor must be able to verify stage integrity: that each recorded stage transition is consistent with the Signal Escalation specification. This means stage transition timestamps are present, the transition conditions are documented per class and Cynefin domain, and the timing parameters applied to each signal are the parameters in effect at the time of signal generation (not retrospectively applied parameters).
 
-The auditor must be able to verify response completeness: that every Stage 3 trigger in the record produced either a documented governance decision within the specified window or an automatic Stage 4 publication. Gaps in this chain are reportable findings.
+The auditor must be able to verify response completeness: that every Stage 3 trigger in the record produced either a documented decision within the specified window or an automatic Stage 4 publication. Gaps in this chain are reportable findings.
 
-The audit itself must be documented: scope, period, auditor identity or body, findings, and system response to findings. Audit reports are retained in the governance record under the same append-only constraints as governance decisions.
+The audit itself must be documented: scope, period, auditor identity or body, findings, and system response to findings. Audit reports are retained in the coordination record under the same append-only constraints as documented decisions.
 
 ASEP-Auditable systems must make audit reports available to their participant population within a defined period after audit completion. The disclosure period is specified by the system, must satisfy the window validity requirements specified in Section 3.3.6, and is subject to the same precision requirements as all other ASEP obligations.
 
@@ -807,7 +756,7 @@ identifiers.\[19\]\[1\]
 
 **Linkage to system components.** Mechanisms to associate adverse
 signals with specific systems, components, contracts, organizations, or
-governance actions, so patterns can be detected and acted upon.\[1\]
+documented decisions, so patterns can be detected and acted upon.\[1\]
 
 ## 6.2 Process and interface implications
 
@@ -823,7 +772,7 @@ time‑bounded decisions.\[5\]\[1\]
 
 **Built‑in escalation paths.** Explicit actions or flows in tools that
 correspond to escalation, reclassification, and closure with rationale,
-aligned with the system's ASEP tier and governance model.\[5\]\[1\]
+aligned with the system's ASEP tier and coordination model.\[5\]\[1\]
 
 Implementations MAY differ widely by domain (e.g., smart‑contract events
 vs. enterprise tickets), but systems SHOULD be clear about how their
@@ -1153,17 +1102,17 @@ infrastructure.
 
 # 10. Inheritance Clause
 
-Systems adopting this standard should include the following statement in their governance documentation:
+Systems adopting this standard should include the following statement in their coordination documentation:
 
 *ASEP Inheritance: This [document/system/protocol] adopts the Adverse-Signal Engagement Principle Core Standard (v[X], [date]) at the [ASEP-Assessed / ASEP-Operational / ASEP-Instrumented / ASEP-Accountable / ASEP-Auditable] tier. The adverse signal classes identified as applicable to this system's operations are: [list]. Classes identified as not applicable: [list, with rationale].*
 
-The inheritance clause commits the adopting system to: (a) identifying which adverse signal classes are relevant to its operations, (b) applying the three-phase processing loop (Notice, Name, Navigate) at the adopted tier, (c) treating adverse signal suppression as a governance failure subject to the system's adverse signal processing, and (d) disclosing the detection architecture to its participant population as a condition of operating at the ASEP-Instrumented tier or above.
+The inheritance clause commits the adopting system to: (a) identifying which adverse signal classes are relevant to its operations, (b) applying the three-phase processing loop (Notice, Name, Navigate) at the adopted tier, (c) treating adverse signal suppression as a coordination failure subject to the system's adverse signal processing, and (d) disclosing the detection architecture to its participant population as a condition of operating at the ASEP-Instrumented tier or above.
 
 Adoption of this standard at any tier below the full Tensegrity Compressive Standards threshold (Tier 4 across all six Tensegrity Compressive Standards) does not constitute full Tensegrity Compressive Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim. The four-element specification for a substantive structural exposure disclosure is provided in the standards README.
 
 # 11. Precision-First Design Standard Inheritance Clause
 
-This standard is declared at the Precision-First Design Standard PFDS-Instrumented tier. The declaration reflects the current state of the standard: normative invariants, obligations, and tier specifications have been brought to design-time precision through recursive self-application. The governance infrastructure required for the PFDS-Accountable tier (closed governance loop with automatic disclosure on inaction, append-only governance records, independent auditor access) is deferred to the protocol's operational layer. The tier declaration will advance when that infrastructure is established.
+This standard is declared at the Precision-First Design Standard PFDS-Instrumented tier. The declaration reflects the current state of the standard: normative invariants, obligations, and tier specifications have been brought to design-time precision through recursive self-application. The coordination infrastructure required for the PFDS-Accountable tier (closed coordination loop with automatic disclosure on inaction, append-only coordination records, independent auditor access) is deferred to the protocol's operational layer. The tier declaration will advance when that infrastructure is established.
 
 # Relationship To Other Standards
 
@@ -1190,11 +1139,17 @@ Coordination Structural Integrity Suite
     └── Conflict Transformation Standard
 ```
 
-Without this standard the suite has no structural requirement for engaging signals that contradict current models. The other compressive standards' governance loops cannot function if adverse signals can be suppressed without detection.
+Without this standard the suite has no structural requirement for engaging signals that contradict current models. The other compressive standards' coordination loops cannot function if adverse signals can be suppressed without detection.
 
 Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 # Changelog
+
+v0.7.7 (April 2026): Frame Language pass, third sequence. Vocabulary translations and structural additions completing the pass across remaining sections. (1) Section 3.3 opening (Navigate) rewritten: "They derive their authority from the structural conditions that make coordination genuine, not from accommodation to the authority structures of adopting systems" replaced with four-sentence passage establishing that the Navigate requirements' normative force derives from what coordination structurally requires; that these requirements do not derive their force from accommodation to the coordination arrangements of adopting systems; and that existing arrangements are evaluated against requirements, not the reverse. (2) Typological declaration, Felt-experience boundary class: "monitored governance system" → "monitored coordination system." (3) Section 3.3.7: "an emergent pattern that the taxonomy cannot classify" → "an emergent pattern that no existing signal category covers." (4) Section 3.3.9 retitled "External override signals" (was "External governance override"); "external governance override as a recognized signal class" → "external override as a recognized signal class"; "external governance reach" → "external override reach"; "self-governance capacity" → "internal coordination capacity." Rationale: the section accurately describes a Frame 1 structural imposition — an external Uniplex entity preempting internal Multiplex coordination capacity — and must name that structural condition precisely. "External override" aligns with SPOS Section 4.5 canonical terminology ("External override capacity"). (5) Section 4.6 retitled "Commons-aligned coordination (Ostrom)" (was "Commons-aligned governance"). Frame 3 pointing sentence added as section opening: "A commons persists when nothing can capture it and nothing can be excluded from sustaining it." Ostrom's own vocabulary preserved: "governing commons," "accountable to the commons" (multi-directionality made explicit). "Polycentric governance" → "polycentric coordination" in ASEP's operative framing. "Ensure monitoring and response are accountable and not solely centralized" → "ensure monitoring and response carry named obligation directions and are not solely centralized." Sections 3.3.3, 3.3.6, 3.3.8, 5.2, 5.3, and 6.2 confirmed clean from prior passes; no changes required.
+
+v0.7.6 (April 2026): Frame Language pass, second sequence. Structural and vocabulary changes across Sections 2.1, 3.2, and 3.3. (1) Section 2.1: "shared mechanisms (protocol rules, laws, policies, governance processes)" → "shared coordination mechanisms (protocol rules, laws, policies, coordination processes)"; "primary inputs to governance and security" → "primary inputs to coordination and security"; temporal-dynamic boundary: "governance structures" → "coordination structures." (2) Sections 3.2.2/3.2.3/3.2.4 unified as "Shared Classification Authority" — a transclusion of three subsections describing the same structural condition (definitional authority over what counts as an adverse signal belongs to cost-bearing constituencies, not solely system operators) from three operational angles. Three nodes retained at full precision: Power context in the record, Classification framework stewardship, Cost-bearing party participation. (3) Section 3.3 opening restructured: new framing establishes signal processing lifecycle scope and names the Structural Power Obligation Standard dependency. Coordination systems that adopt ASEP without assessing power distribution under that standard may operate a technically conformant Navigate process while the structural conditions for its effectiveness are absent. (4) Section 3.3.4 compressed to cross-reference to Structural Power Obligation Standard Section 4.4 (polycentric and nested requirements are owned by that standard). (5) Section 3.3.9 compressed to cross-reference to Structural Power Obligation Standard Section 4.5 (external override capacity classification is owned by that standard). (6) Vocabulary translations applied throughout: "higher authority or broader circle" → "broader circle"; "response taxonomy" → "response classification framework"; "system's governance process" → "coordination process"; "existing taxonomy" → "existing classification framework"; "governance systems" → "coordination systems"; "governance-weight mechanisms" → "coordination-weight mechanisms"; "at the governance level" → "at the coordination level"; "ASEP's governance structure" → "ASEP's coordination architecture"; "governance model" → "coordination model"; "basic taxonomy and severity levels" → "basic classification framework and severity levels"; "multi-stakeholder criteria setting" → "multi-constituency criteria setting"; "that the taxonomy cannot yet classify" → "that the classification framework cannot yet classify." Scope-naming uses of "governance" retained (self-governance capacity, external governance override as signal class name, polycentric governance as Ostrom term of art).
+
+v0.7.5 (April 2026): Frame Language pass. Translated normative-content "governance" terms to Frame 2 coordination vocabulary throughout, following the pattern established in the Precision-First Design Standard v2.1.1 pass. Translations applied: "governance inaction" → "inaction by coordination actors"; "governance actor(s)" → "coordination actor(s)"; "governance record" → "coordination record"; "governance obligation trigger" → "obligation trigger"; "governance artifact" → "obligation artifact"; "governance lifecycle" → "coordination lifecycle"; "governance failure" → "coordination failure" (in obligation contexts); "governance framework" → "coordination framework"; "governance loop" → "coordination loop"; "adverse governance signal" → "adverse coordination signal"; "governance health" → "coordination health"; "governance decision" (in obligation clauses) → "documented decision"; "governance decisions" (about tier selection) → "coordination decisions"; "primary governance inputs" → "primary coordination inputs"; "governance changes" (Navigate high-severity action) → "structural changes"; "governance documentation" (Inheritance Clause) → "coordination documentation". Scope-naming uses of "governance" retained where appropriate: governance processes (definition of applicable systems), governance model (Section 6.2), self-governance capacity/legitimacy (Section 3.3.9, Ostrom DP7 vocabulary), external governance override (signal class name), polycentric governance (Ostrom term), Commons-aligned governance (section title, Ostrom reference). Subtitle corrected from v0.7.3 to v0.7.4 (header propagation miss from prior pass).
 
 v0.7.4 (April 2026): Plain-language preamble added. Two paragraphs inserted before the non-harming formula in Section 1 (Preamble), grounding the standard in the lived experience of the coordination failure it addresses (warning signs that systems do not act on). Navigation pointer added: one sentence pointing to the Suite Integration Guide and the Suite Deployment Contexts document. No changes to normative content.
 

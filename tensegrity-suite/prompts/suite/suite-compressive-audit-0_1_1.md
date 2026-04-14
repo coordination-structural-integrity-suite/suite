@@ -20,7 +20,7 @@ Evaluate whether:
 - Each detection mechanism specifies what signals it would not produce (its false-negative boundary) — and whether any process is so elaborate it cannot be completed by the parties it was designed to protect
 - Each process specifies operational conditions for initiation, continuation, and conclusion — and whether any escalation mechanism fires on ordinary variation, producing outputs indistinguishable from background noise
 - Each normative term expressing a value judgment (fair, reasonable, transparent) is decomposed into independently evaluable conditions — and whether overlapping defensive mechanisms contradict each other or make operating the system structurally unachievable
-- Governance inaction in the presence of a detection output is itself detectable without the cooperation of the inacting party — and whether any challenge pathway requires so many procedural steps that no independent actor can realistically complete it
+- Inaction by coordination actors in the presence of a detection output is itself detectable without the cooperation of the inacting party — and whether any challenge pathway requires so many procedural steps that no independent actor can realistically complete it
 - Critical properties depend on multiple structurally distinct mechanisms rather than a single defensive mechanism — and whether any typological declaration claims operative coverage beyond what the vocabulary supports
 - Each assessment architecture requires a contextual baseline statement before initial assessment when identical measurement outputs would indicate structurally distinct conditions requiring different responses; each normative mechanism adopted from a different structural context carries a baseline statement specifying origin-context conditions, adopting-context conditions, and either a congruence confirmation or calibration adjustments — and whether any baseline requirement imposes conditions no real case can satisfy, making the baseline itself the obstacle to what it was designed to make possible
 
@@ -35,9 +35,10 @@ Evaluate whether:
 - The signal record shows implausible absence in domains where adverse signals are structurally expected
 - Adverse signals can be dismissed without a recorded rationale
 - The definition of what counts as an adverse signal can be changed after a signal has been received
+- Definitional authority over what counts as an adverse signal — recognized harm classes, severity levels, classification framework scope — is distributed among cost-bearing constituencies rather than held solely by system operators; criteria are developed and updated with meaningful input from parties who bear the risks
 - Every adverse signal must reach one of three outcomes: act, monitor, or formally close with rationale
-- Governance inaction on an acknowledged signal becomes visible to participants without the cooperation of the inacting party
-- External governance override is named as a signal class; where relevant external authorities have realistic governance reach, a recognition assessment of the system's self-governance capacity exists
+- Inaction by coordination actors on an acknowledged signal becomes visible to participants without the cooperation of the inacting party
+- External override is named as a signal class in the classification framework; where relevant external authorities have realistic override reach, a recognition assessment of the system's internal coordination capacity exists
 - When a pattern threshold triggers mandatory reclassification, the Navigate phase includes a structural root cause assessment before individual attribution is accepted as final resolution; the assessment produces one of three documented findings: no structural condition, structural condition identified (triggering double-loop examination), or insufficient information (monitoring extended)
 
 Note: audit results for this standard are bounded by the organization's Relational Battery condition. Absence of recorded adverse signals in an organization with a depleted Relational Battery is not evidence of structural health — it is evidence that the surfacing mechanism has failed. Note the Relational Battery condition in findings.
