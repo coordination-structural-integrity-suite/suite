@@ -2,11 +2,11 @@
 
 **(ASEP)**
 
-*Core Standard v0.7.7*
+*Core Standard v0.7.8*
 
 **Regis Chapman (Durgadas)**
 
-Version 0.7.7 \| April 2026
+Version 0.7.8 \| April 2026
 
 # 1. Preamble
 
@@ -16,7 +16,7 @@ This is not a story about bad actors ignoring warnings they understood. It is a 
 
 For how this standard relates to others in the Coordination Structural Integrity Suite, and guidance on which standards to combine for specific organizational purposes, see the Suite Integration Guide and the Suite Deployment Contexts document.
 
-Non-harming is the first precision principle of the Coordination Structural Integrity Suite. The Precision-First Design Standard governs the suite as a whole: every standard in it is a precise specification of what non-harming requires in a specific coordination domain. The lack of a structural obligation to engage adverse signals produces specific harms to specific people: warning signs are present, visible to those positioned to see them, and not acted on because no structural obligation to act exists; those bearing the cost of the ignored signal absorb it invisibly while coordination proceeds as though nothing has been surfaced; and by the time the harm becomes undeniable, the mechanisms that produced it are entrenched and the moment for structural correction has passed. This standard specifies adverse signal engagement as the precise structural answer: a binding obligation to treat adverse signals as primary coordination inputs, not as nuisances to be minimized.
+Non-harming is the first precision principle of the Coordination Structural Integrity Suite. The Precision-First Design Standard is the meta-standard for the suite: every standard in it is a precise specification of what non-harming requires in a specific coordination domain. The lack of a structural obligation to engage adverse signals produces specific harms to specific people: warning signs are present, visible to those positioned to see them, and not acted on because no structural obligation to act exists; those bearing the cost of the ignored signal absorb it invisibly while coordination proceeds as though nothing has been surfaced; and by the time the harm becomes undeniable, the mechanisms that produced it are entrenched and the moment for structural correction has passed. This standard specifies adverse signal engagement as the precise structural answer: a binding obligation to treat adverse signals as primary coordination inputs, not as nuisances to be minimized.
 
 When a coordination system fails, the post-mortem almost always reveals the same thing: the warning signs were present, they were visible, and they were not treated as requiring a response. Ignored complaints, dismissed anomalies, buried reports, shifting evidence. The pattern recurs across financial systems, healthcare, infrastructure, online platforms, and decentralized protocols. The failure is not that the signals were undetectable. The failure is that no structural obligation existed to engage with them.
 
@@ -700,25 +700,25 @@ harm, and the less real exit/choice constituencies have, the closer a
 system MUST be to ASEP-Instrumented, absent a recorded and regularly
 reviewed justification for a lower tier.
 
-## 5.4 ASEP-Accountable
+## 5.4 ASEP-Loop-Closed
 
 Includes all ASEP-Instrumented requirements plus closed coordination loop architecture.
 
-The defining property of ASEP-Accountable is that inaction by coordination actors is structurally visible without depending on any actor's cooperation. At ASEP-Instrumented, detection infrastructure produces outputs. At ASEP-Accountable, those outputs produce mandatory documented responses, and the absence of a response is itself a detected event.
+The defining property of ASEP-Loop-Closed is that inaction by coordination actors is structurally visible without depending on any actor's cooperation. At ASEP-Instrumented, detection infrastructure produces outputs. At ASEP-Loop-Closed, those outputs produce mandatory documented responses, and the absence of a response is itself a detected event.
 
 Minimum requirements:
 
-Every signal that enters Stage 3 (obligation trigger) in the Signal Escalation architecture must produce a documented decision within the defined Stage 3 window. The Stage 3 window must satisfy the window validity requirements specified in Section 3.3.6. The decision record must include: the signal identifier, the classification assigned at the Name phase, the decision made (including decisions to defer or decline action), the coordination actor or body responsible for the decision, and the rationale. A decision to take no action is a decision and must be documented as such. The absence of any documented decision is not a permissible outcome at ASEP-Accountable.
+Every signal that enters Stage 3 (obligation trigger) in the Signal Escalation architecture must produce a documented decision within the defined Stage 3 window. The Stage 3 window must satisfy the window validity requirements specified in Section 3.3.6. The decision record must include: the signal identifier, the classification assigned at the Name phase, the decision made (including decisions to defer or decline action), the coordination actor or body responsible for the decision, and the rationale. A decision to take no action is a decision and must be documented as such. The absence of any documented decision is not a permissible outcome at ASEP-Loop-Closed.
 
-The absence of a documented decision at Stage 3 must produce automatic Stage 4 publication without requiring any actor's initiation. Stage 4 publication makes the signal, its classification, the elapsed time since Stage 3 trigger, and the absence of a documented decision simultaneously visible to all coordination actors. This publication is a structural consequence of the Signal Escalation architecture, not a discretionary act. A system in which Stage 4 publication requires a human decision to publish has not closed the coordination loop and does not meet ASEP-Accountable.
+The absence of a documented decision at Stage 3 must produce automatic Stage 4 publication without requiring any actor's initiation. Stage 4 publication makes the signal, its classification, the elapsed time since Stage 3 trigger, and the absence of a documented decision simultaneously visible to all coordination actors. This publication is a structural consequence of the Signal Escalation architecture, not a discretionary act. A system in which Stage 4 publication requires a human decision to publish has not closed the coordination loop and does not meet ASEP-Loop-Closed.
 
 The coordination record is append-only. Decisions cannot be modified after recording; corrections are recorded as new entries referencing the original. This property is what makes inaction detectable without cooperation: an independent observer can verify that a Stage 3 trigger exists in the record, verify that no Stage 3 decision entry exists within the required window, and determine that Stage 4 publication was or was not produced as a consequence.
 
-Tier review cadence for ASEP-Accountable systems: tier review MUST occur at minimum annually and MUST include a coordination loop integrity check: confirmation that the Stage 3 to decision path operated as specified for all signals that reached Stage 3 in the review period, and that Stage 4 publications were produced where required.
+Tier review cadence for ASEP-Loop-Closed systems: tier review MUST occur at minimum annually and MUST include a coordination loop integrity check: confirmation that the Stage 3 to decision path operated as specified for all signals that reached Stage 3 in the review period, and that Stage 4 publications were produced where required.
 
 ## 5.5 ASEP-Auditable
 
-Includes all ASEP-Accountable requirements plus independent auditability.
+Includes all ASEP-Loop-Closed requirements plus independent auditability.
 
 The defining property of ASEP-Auditable is that the full detection and response architecture can be verified by a party outside the system without depending on system operator cooperation or self-certification.
 
@@ -1104,7 +1104,7 @@ infrastructure.
 
 Systems adopting this standard should include the following statement in their coordination documentation:
 
-*ASEP Inheritance: This [document/system/protocol] adopts the Adverse-Signal Engagement Principle Core Standard (v[X], [date]) at the [ASEP-Assessed / ASEP-Operational / ASEP-Instrumented / ASEP-Accountable / ASEP-Auditable] tier. The adverse signal classes identified as applicable to this system's operations are: [list]. Classes identified as not applicable: [list, with rationale].*
+*ASEP Inheritance: This [document/system/protocol] adopts the Adverse-Signal Engagement Principle Core Standard (v[X], [date]) at the [ASEP-Assessed / ASEP-Operational / ASEP-Instrumented / ASEP-Loop-Closed / ASEP-Auditable] tier. The adverse signal classes identified as applicable to this system's operations are: [list]. Classes identified as not applicable: [list, with rationale].*
 
 The inheritance clause commits the adopting system to: (a) identifying which adverse signal classes are relevant to its operations, (b) applying the three-phase processing loop (Notice, Name, Navigate) at the adopted tier, (c) treating adverse signal suppression as a coordination failure subject to the system's adverse signal processing, and (d) disclosing the detection architecture to its participant population as a condition of operating at the ASEP-Instrumented tier or above.
 
@@ -1112,7 +1112,7 @@ Adoption of this standard at any tier below the full Tensegrity Compressive Stan
 
 # 11. Precision-First Design Standard Inheritance Clause
 
-This standard is declared at the Precision-First Design Standard PFDS-Instrumented tier. The declaration reflects the current state of the standard: normative invariants, obligations, and tier specifications have been brought to design-time precision through recursive self-application. The coordination infrastructure required for the PFDS-Accountable tier (closed coordination loop with automatic disclosure on inaction, append-only coordination records, independent auditor access) is deferred to the protocol's operational layer. The tier declaration will advance when that infrastructure is established.
+This standard is declared at the Precision-First Design Standard PFDS-Instrumented tier. The declaration reflects the current state of the standard: normative invariants, obligations, and tier specifications have been brought to design-time precision through recursive self-application. The coordination infrastructure required for the PFDS-Loop-Closed tier (closed coordination loop with automatic disclosure on inaction, append-only coordination records, independent auditor access) is deferred to the protocol's operational layer. The tier declaration will advance when that infrastructure is established.
 
 # Relationship To Other Standards
 
@@ -1144,6 +1144,8 @@ Without this standard the suite has no structural requirement for engaging signa
 Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 # Changelog
+
+v0.7.8 (April 2026): Frame Language pass, fourth sequence. Two findings from application of Frame Language skill v0.1.5. (1) Section 1 Preamble: "The Precision-First Design Standard governs the suite as a whole" → "The Precision-First Design Standard is the meta-standard for the suite." "Governs" is Frame 1 vocabulary importing authority-structure assumptions. The actual structural condition is specification inheritance: every standard in the suite inherits its precision requirements from PFDS. "Meta-standard" names this inheritance relation without the Frame 1 authority-over-participants reading. (2) Tier rename: "ASEP-Accountable" → "ASEP-Loop-Closed" throughout normative text. "Accountable" is terminal-upward Frame 1 vocabulary. The structural content of this tier (inaction visible without actor cooperation, automatic Stage 4 publication on absence of documented decision) is obligation loop closure, not upward accountability. Rename parallels PFDS-Accountable → PFDS-Loop-Closed established in PFDS v2.1.1. Applied in: Section 5.4 heading and body (five occurrences); Section 5.5 opening; Section 10 inheritance clause tier list. (3) Section 11 PFDS tier reference updated: "PFDS-Accountable tier" → "PFDS-Loop-Closed tier" to match current PFDS nomenclature. Changelog entries using prior tier names are historical records and were not modified.
 
 v0.7.7 (April 2026): Frame Language pass, third sequence. Vocabulary translations and structural additions completing the pass across remaining sections. (1) Section 3.3 opening (Navigate) rewritten: "They derive their authority from the structural conditions that make coordination genuine, not from accommodation to the authority structures of adopting systems" replaced with four-sentence passage establishing that the Navigate requirements' normative force derives from what coordination structurally requires; that these requirements do not derive their force from accommodation to the coordination arrangements of adopting systems; and that existing arrangements are evaluated against requirements, not the reverse. (2) Typological declaration, Felt-experience boundary class: "monitored governance system" → "monitored coordination system." (3) Section 3.3.7: "an emergent pattern that the taxonomy cannot classify" → "an emergent pattern that no existing signal category covers." (4) Section 3.3.9 retitled "External override signals" (was "External governance override"); "external governance override as a recognized signal class" → "external override as a recognized signal class"; "external governance reach" → "external override reach"; "self-governance capacity" → "internal coordination capacity." Rationale: the section accurately describes a Frame 1 structural imposition — an external Uniplex entity preempting internal Multiplex coordination capacity — and must name that structural condition precisely. "External override" aligns with SPOS Section 4.5 canonical terminology ("External override capacity"). (5) Section 4.6 retitled "Commons-aligned coordination (Ostrom)" (was "Commons-aligned governance"). Frame 3 pointing sentence added as section opening: "A commons persists when nothing can capture it and nothing can be excluded from sustaining it." Ostrom's own vocabulary preserved: "governing commons," "accountable to the commons" (multi-directionality made explicit). "Polycentric governance" → "polycentric coordination" in ASEP's operative framing. "Ensure monitoring and response are accountable and not solely centralized" → "ensure monitoring and response carry named obligation directions and are not solely centralized." Sections 3.3.3, 3.3.6, 3.3.8, 5.2, 5.3, and 6.2 confirmed clean from prior passes; no changes required.
 
