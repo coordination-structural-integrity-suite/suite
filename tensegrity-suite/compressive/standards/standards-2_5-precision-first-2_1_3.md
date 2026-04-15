@@ -4,7 +4,7 @@
 
 Regis Chapman (Durgadas)
 
-Version 2.1.2 | April 2026
+Version 2.1.3 | April 2026
 
 # Preamble
 
@@ -250,7 +250,7 @@ This section introduces two parallel frameworks that operate independently: thre
 
 Precision-first design can be applied at three depths, which describe how thoroughly the precision-first principle is integrated into an organization's specification practice. These adoption depths are distinct from the five-tier obligation loop framework shared across the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite (see the standards README); the depths describe quality of specification work, while the tiers describe the organization's obligation loop closure. An organization can operate at any combination of adoption depth and tier.
 
-Level 1, auditing, involves reviewing an existing document, system, or process for precision deficits: terms that are normative but not operationally defined, detection instruments that cannot specify what they would not detect, and governance processes with unspecified discretion points. The output is a precision deficit map: a structured list of the places where accountability is structurally unenforceable in the current specification. A Level 1 audit is complete when the precision review checklist has been applied to every normative element in the document and the output is a precision deficit map recording each deficit identified, its location, and its pattern type per Section 6.
+Level 1, auditing, involves reviewing an existing document, system, or process for precision deficits: terms that are normative but not operationally defined, detection instruments that cannot specify what they would not detect, and governance processes with unspecified discretion points. The output is a precision deficit map: a structured list of the places where obligation loop closure is structurally unachievable in the current specification. A Level 1 audit is complete when the precision review checklist has been applied to every normative element in the document and the output is a precision deficit map recording each deficit identified, its location, and its pattern type per Section 6.
 
 Level 2, remediation, involves resolving identified precision deficits by replacing vague terms with operational definitions, adding typed taxonomies to replace holistic judgments, and specifying the conditions for each discretionary decision point. The five frameworks in Section 4 are tools for remediation: each one provides a typed structure that can replace a class of vague normative language. A Level 2 remediation is complete when every deficit in the precision deficit map has either a documented resolution or a documented acceptance with rationale and a specified timeline for revisiting.
 
@@ -274,13 +274,13 @@ For organizations at Tier 1 or Tier 2, the following questions are recommended b
 
 For organizations at Tier 1 or Tier 2, a "no" answer to any of these questions identifies a precision deficit to be recorded in the precision deficit map. For organizations at Tier 3 and above, a "no" answer must be resolved before publication, or documented as a known gap with a specified timeline for resolution and entered into the deficit record per the requirements of the adopted tier.
 
-## 5.3 Precision-first in governance change processes
+## 5.3 Precision-first in coordination update processes
 
 Governance change processes (amendment procedures, proposal systems, parameter updates, and analogues) are particularly susceptible to precision degradation over time. Each change introduces an opportunity to add vague language, collapse previously distinct categories, or substitute normative assertions for operational definitions.
 
-A precision-first governance change process requires that each proposed change be evaluated against the following criterion: does this change increase or decrease the precision with which the dynamics the system is designed to govern can be observed, classified, and acted upon? A change that increases precision is a structural improvement regardless of its surface subject. A change that decreases precision is a structural regression regardless of its stated purpose.
+A precision-first coordination update process requires that each proposed change be evaluated against the following criterion: does this change increase or decrease the precision with which the dynamics the system is designed to govern can be observed, classified, and acted upon? A change that increases precision is a structural improvement regardless of its surface subject. A change that decreases precision is a structural regression regardless of its stated purpose.
 
-This criterion is not an obstacle to legitimate governance change. It is a filter that distinguishes changes that improve the system's measurement instrument from changes that degrade it. Governance bodies that internalize this filter tend to produce specifications that grow more precise over time rather than accumulating normative drift.
+This criterion is not an obstacle to legitimate coordination updates. It is a filter that distinguishes changes that improve the system's measurement instrument from changes that degrade it. Coordination bodies that internalize this filter tend to produce specifications that grow more precise over time rather than accumulating normative drift.
 
 Precision failures have different complexity profiles, and the appropriate precision standard depends on where a process sits in its maturation trajectory. A precision failure in a well-understood process (ambiguous parameter specification where operational definition is achievable) is a straightforward deficit: the specification should be more precise and can be. A precision failure in an emergent process (premature specification that forecloses emergent understanding) is a different kind of error: over-precision that prevents learning.
 
@@ -314,7 +314,7 @@ The decision must record: the deficit identifier, the document and location, the
 
 Three decision outcomes are permissible: remediation (the deficit is closed, with a record of the revision made), acceptance with rationale (the deficit is acknowledged as tolerable at current stage, with explicit rationale and a specified timeline for revisiting), and deferral (the deficit is acknowledged, with a specified timeline and the condition under which it will be revisited). A decision that a deficit is not actually a deficit is also permissible, with rationale. The absence of any decision within the defined window is not a permissible outcome.
 
-The absence of a documented decision within the defined window must be automatically visible to all governance actors without requiring any actor's initiation. A precision deficit that has exceeded its decision window without a recorded response is itself a precision deficit under Section 6.1 (normative substitution): the governance process has a normative obligation without a specified procedure. That gap is entered into the deficit record and begins its own decision cycle. A system in which an overdue deficit requires a human decision to be flagged has not closed the obligation loop and does not meet PFDS-Loop-Closed.
+The absence of a documented decision within the defined window must be automatically visible to all coordination actors without requiring any actor's initiation. A precision deficit that has exceeded its decision window without a recorded response is itself a precision deficit under Section 6.1 (normative substitution): the coordination decision process has a normative obligation without a specified procedure. That gap is entered into the deficit record and begins its own decision cycle. A system in which an overdue deficit requires a human decision to be flagged has not closed the obligation loop and does not meet PFDS-Loop-Closed.
 
 The deficit and decision records are append-only. Decisions cannot be modified after recording; corrections are recorded as new entries referencing the original. Remediations reference both the deficit entry and the revised document version.
 
@@ -372,7 +372,7 @@ This standard is offered for adoption by any team, organization, legal drafter, 
 
 Organizations that adopt this standard are encouraged to produce a precision deficit map of their existing specifications (see Section 5.1, Level 1 adoption depth) as their first action. This map creates a baseline against which future precision improvements can be measured.
 
-Adoption of this standard in conjunction with a formal governance change process should include the precision criterion from Section 5.3 as an explicit evaluation criterion for all proposed changes. This prevents normative drift over time by building precision maintenance into the change process itself.
+Adoption of this standard in conjunction with a formal coordination update process should include the precision criterion from Section 5.3 as an explicit evaluation criterion for all proposed changes. This prevents normative drift over time by building precision maintenance into the change process itself.
 
 Feedback on this standard, including candidate precision failure patterns meeting the criteria in Section 6, may be submitted via the Standards Feedback discussion category at https://github.com/coordination-structural-integrity-suite/suite/discussions.
 
@@ -480,6 +480,8 @@ v2.0.9 (April 2026): Suite layer correction. (1) Tensegrity As A Whole diagram: 
 v2.0.8 (April 2026): Suite count corrections. (1) Tensegrity As A Whole diagram: Regenerative Obligation Standard added (was absent). (2) Relationship To Other Standards: "the other seven standards" corrected to "the other eight standards." Nine standards total. No normative content changes. Note: v2.0.8 placed ROS in the wrong layer; corrected in v2.0.9.
 
 v2.0.7 (April 2026): Three self-referential precision corrections. (1) Section 5.1: stale cross-reference "(see Section 12)" updated to "(see the standards README)"; Section 12 was eliminated in v1.5.10 and its content migrated to the standards README. (2) Section 10: same stale reference "in Section 12 of this document" corrected to "in the standards README." (3) Section 10: count error "all six Tensegrity Compressive Standards" corrected to "all five"; the Tensegrity As A Whole diagram in this document lists five Tensegrity Compressive Standards. No normative content changes.
+
+v2.1.3 (April 2026): Frame Language completion pass. Residual Frame 1 vocabulary missed by the v2.1.1 pass corrected in three locations. Section 5.1: "accountability is structurally unenforceable" replaced with "obligation loop closure is structurally unachievable." Section 5.3: section heading renamed "Precision-first in coordination update processes"; "governance change process" replaced with "coordination update process" in section body (two instances) and in Section 8 reference; "legitimate governance change" replaced with "legitimate coordination updates"; "Governance bodies" replaced with "Coordination bodies." Section 5.5 (PFDS-Loop-Closed): "governance actors" replaced with "coordination actors"; "the governance process has a normative obligation" replaced with "the coordination decision process has a normative obligation." No changes to normative structural requirements.
 
 v2.1.2 (April 2026): Section 2 plain language pass. Nine plain-language openers added before the floor corollary of each corollary pair. Each opener names in plain prose what the requirement is and why it matters before the formal condition is stated, serving the general reader without altering normative content. Section 2 Frame Language completion: "governance process" replaced with "coordination process" in corollaries 4 (floor and ceiling); "governance inaction" replaced with "inaction" in corollary 5 floor; "governance rule" replaced with "coordination mechanism" in corollary 9 extended paragraph. These Frame 1 fixes complete the Frame Language pass begun in v2.1.1, which covered Sections 3.2, 5, 6, 7, and 8 but not Section 2. No changes to normative content.
 
