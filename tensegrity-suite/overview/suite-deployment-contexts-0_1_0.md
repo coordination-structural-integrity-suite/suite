@@ -105,11 +105,11 @@ Low perceptual substrate creates a specific conflict risk: parties cannot read e
 
 **The human situation:** Decisions that were supposed to involve everyone are being made by a small group. People who raise concerns about this find their concerns explained away or dismissed. The founding values are still being invoked, but they no longer describe how things actually work. The people with the most formal authority also seem to control what the governance process means, and nobody has a clear path to contest that.
 
-**The structural situation:** Authority is concentrating across multiple power dimensions simultaneously, and the concentration is not visible in the governance record. Consent is formally present but structurally hollow because the relational context makes disagreement costly.
+**The structural situation:** Authority is concentrating across multiple power dimensions simultaneously, and the concentration is not visible in the coordination record. Consent is formally present but structurally hollow because the relational context makes disagreement costly.
 
 **The combination:** Structural Power Obligation Standard and Structural Consent Legibility Standard.
 
-The Structural Power Obligation Standard requires that power arrangements across all three dimensions (authority: where decisions formally reside; coordination: who controls what alignment mechanisms mean; specialization: who can meaningfully participate in specialized governance domains) be legible and contestable by participants who hold less of them. The Structural Consent Legibility Standard requires that consent be structurally distinguishable from coercion: negotiated limits, bidirectional awareness, and revocability must all be structurally present.
+The Structural Power Obligation Standard requires that power arrangements across all three dimensions (authority: where decisions formally reside; coordination: who controls what alignment mechanisms mean; specialization: who can meaningfully participate in specialized coordination domains) be legible and contestable by participants who hold less of them. The Structural Consent Legibility Standard requires that consent be structurally distinguishable from coercion: negotiated limits, bidirectional awareness, and revocability must all be structurally present.
 
 These two standards address the two primary mechanisms of capture simultaneously. The Structural Power Obligation Standard makes accumulation legible. The Structural Consent Legibility Standard ensures that agreement to participate is distinguishable from agreement to the specific authority distribution that capture has produced.
 

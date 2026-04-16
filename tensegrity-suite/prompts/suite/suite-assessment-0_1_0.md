@@ -229,7 +229,7 @@ What it requires: When participants or the coordination system encounter signals
 
 Why it matters: Organizations experiencing structural failure almost always had advance warning signals they suppressed or reframed. Adverse signal suppression is not malicious — it is the predictable output of systems that do not have structural mechanisms for receiving and processing signals that challenge current models.
 
-Assessment questions: "When someone in your organization raises a concern that contradicts how leadership or the group understands the situation, what happens structurally? Is there a legible process for raising and processing adverse signals, or does it depend on interpersonal dynamics?"
+Assessment questions: "When someone in your organization raises a concern that contradicts how leadership or the group understands the situation, what happens structurally? Is there a legible process for raising and processing adverse signals, or does it depend on interpersonal dynamics? Who in your organization gets to decide what counts as an adverse signal in the first place — which concerns warrant formal processing and which do not? Is that definitional authority held by leadership or system operators, or do the people who bear the costs of things going wrong have meaningful input into how the classification criteria are set?"
 
 **Standard 3: Structural Consent Legibility Standard**
 

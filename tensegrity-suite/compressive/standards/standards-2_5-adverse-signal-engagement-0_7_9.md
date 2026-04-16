@@ -2,11 +2,11 @@
 
 **(ASEP)**
 
-*Core Standard v0.7.8*
+*Core Standard v0.7.9*
 
 **Regis Chapman (Durgadas)**
 
-Version 0.7.8 \| April 2026
+Version 0.7.9 \| April 2026
 
 # 1. Preamble
 
@@ -1077,7 +1077,7 @@ Commons - Proof of Coordination Protocol Specification v2.x.*
 PoC is an ASEP-Instrumented implementation. It instantiates all three ASEP
 obligations: Notice (Witness Layer and platform integrations), Name
 (Coordination Ledger with 18 event types and asymmetry class taxonomy),
-and Navigate (CIP governance, Classified Change Architecture, graduated
+and Navigate (CIP coordination, Classified Change Architecture, graduated
 Revelis sanctions), in a blockchain‑based coordination protocol. PoC is
 the reference implementation demonstrating how ASEP can be adopted at
 the ASEP-Instrumented tier in the Web3 context.
@@ -1094,7 +1094,7 @@ asymmetry classes (Positional, Temporal, Interpretive, Relational,
 Omission, Complexity) and two extension classes (Generative,
 Cryptographic), each with a distinct mechanism, historical regulatory
 precedent, and detection surface. The taxonomy is ASEP‑conformant: its
-governance (extension criteria, versioning, capture prevention)
+stewardship (extension criteria, versioning, capture prevention)
 satisfies ASEP's ex‑ante criteria and finite‑path‑to‑decision invariants
 applied to the taxonomy itself. Any coordination system adopting this
 taxonomy for its Name phase inherits an ASEP‑conformant classification
@@ -1144,6 +1144,8 @@ Without this standard the suite has no structural requirement for engaging signa
 Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 # Changelog
+
+v0.7.9 (April 2026): Frame Language pass (Row 7 v0.1.6). Two residual hits in bibliography annotations: "CIP governance" → "CIP coordination" (Section A1 Navigate description); "its governance" → "its stewardship" (Section A2 IACS taxonomy description). No normative content changes.
 
 v0.7.8 (April 2026): Frame Language pass, fourth sequence. Two findings from application of Frame Language skill v0.1.5. (1) Section 1 Preamble: "The Precision-First Design Standard governs the suite as a whole" → "The Precision-First Design Standard is the meta-standard for the suite." "Governs" is Frame 1 vocabulary importing authority-structure assumptions. The actual structural condition is specification inheritance: every standard in the suite inherits its precision requirements from PFDS. "Meta-standard" names this inheritance relation without the Frame 1 authority-over-participants reading. (2) Tier rename: "ASEP-Accountable" → "ASEP-Loop-Closed" throughout normative text. "Accountable" is terminal-upward Frame 1 vocabulary. The structural content of this tier (inaction visible without actor cooperation, automatic Stage 4 publication on absence of documented decision) is obligation loop closure, not upward accountability. Rename parallels PFDS-Accountable → PFDS-Loop-Closed established in PFDS v2.1.1. Applied in: Section 5.4 heading and body (five occurrences); Section 5.5 opening; Section 10 inheritance clause tier list. (3) Section 11 PFDS tier reference updated: "PFDS-Accountable tier" → "PFDS-Loop-Closed tier" to match current PFDS nomenclature. Changelog entries using prior tier names are historical records and were not modified.
 

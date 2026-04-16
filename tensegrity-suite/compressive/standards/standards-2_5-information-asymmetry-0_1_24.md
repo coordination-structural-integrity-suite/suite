@@ -4,7 +4,7 @@
 
 **Regis Chapman (Durgadas)**
 
-Version 0.1.22 \| April 2026
+Version 0.1.24 \| April 2026
 
 *This document establishes a six-class taxonomy of information asymmetry
 in coordination systems. It is intended to be legible to researchers in
@@ -24,7 +24,7 @@ The existing framework for thinking about information asymmetry, the economics o
 
 For how this standard relates to others in the Coordination Structural Integrity Suite, and guidance on which standards to combine for specific organizational purposes, see the Suite Integration Guide and the Suite Deployment Contexts document.
 
-Non-harming is the first precision principle of the Coordination Structural Integrity Suite. The Precision-First Design Standard governs the suite as a whole: every standard in it is a precise specification of what non-harming requires in a specific coordination domain. The lack of a precise taxonomy of information asymmetry in coordination systems produces specific harms to specific people: participants operating in good faith are structurally disadvantaged by information positions they cannot name and therefore cannot challenge; governance interventions address the visible symptoms of information asymmetry while the underlying structural vectors persist; and the standard adverse selection and moral hazard framework, powerful as it is for spot transactions, leaves the information structures that govern sustained coordination entirely unaddressed. This standard specifies a six-class taxonomy as the precise structural answer: a framework that names the distinct information asymmetry conditions that coordination systems produce, enabling them to be detected, challenged, and structurally closed.
+Non-harming is the first precision principle of the Coordination Structural Integrity Suite. The Precision-First Design Standard is the meta-standard for the suite: every standard in it is a precise specification of what non-harming requires in a specific coordination domain. The lack of a precise taxonomy of information asymmetry in coordination systems produces specific harms to specific people: participants operating in good faith are structurally disadvantaged by information positions they cannot name and therefore cannot challenge; coordination interventions address the visible symptoms of information asymmetry while the underlying structural vectors persist; and the standard adverse selection and moral hazard framework, powerful as it is for spot transactions, leaves the information structures that govern sustained coordination entirely unaddressed. This standard specifies a six-class taxonomy as the precise structural answer: a framework that names the distinct information asymmetry conditions that coordination systems produce, enabling them to be detected, challenged, and structurally closed.
 
 **The Standard Account and Its Limits**
 
@@ -72,10 +72,10 @@ They are not two phenomena. They are many.
 
 A coordination system, as used in this document, refers to any
 multi-party process in which participants make repeated, interdependent
-decisions over time within a shared governance structure. Decentralized
+decisions over time within a shared coordination structure. Decentralized
 autonomous organizations are the primary deployment context for the
 taxonomy developed here, but the classes apply wherever the following
-conditions hold: multiple parties share governance over a common
+conditions hold: multiple parties share coordination of a common
 resource or process; no single party has unilateral control; and the
 history of how decisions were made is as consequential as the decisions
 themselves.
@@ -97,10 +97,10 @@ often the information that is systematically absent.
 The central claim of this document is that information asymmetry in
 coordination systems manifests in at least six structurally distinct
 forms, each with its own mechanism, its own historical precedent in
-regulatory and legal contexts predating decentralized governance, and
+regulatory and legal contexts predating decentralized coordination, and
 its own detection surface. Treating these six forms as a single
 undifferentiated phenomenon --- as the adverse selection / moral hazard
-framework implicitly does --- produces governance responses that address
+framework implicitly does --- produces coordination responses that address
 some manifestations while remaining blind to others. The purpose of this
 taxonomy is to make that blindness legible.
 
@@ -117,7 +117,7 @@ maintenance of asymmetry becomes as deliberate and as consequential as
 its original acquisition. Strategic silence --- the deliberate
 non-disclosure of information that would change the decisions of other
 participants --- is not a passive failure to communicate. It is an
-action. A governance system that permits the suppression of negative
+action. A coordination system that permits the suppression of negative
 coordination events while requiring the disclosure of positive ones is
 not a neutral information environment. It is a system structured to
 preserve the advantages of those who can afford to wait out the
@@ -164,7 +164,7 @@ operationalizes, and that this taxonomy exists to support.
 
 This taxonomy is designed as an implementation of the Name phase of the
 Adverse-Signal Engagement Principle (ASEP), a cross-domain standard
-specifying how systems with shared governance surfaces must treat
+specifying how systems with shared coordination surfaces must treat
 adverse signals. ASEP establishes three obligations: Notice (systems
 must be able to detect adverse signals), Name (signals must be recorded
 and classified in ways that remain legible over time), and Navigate
@@ -208,10 +208,10 @@ academic pass when the primary audience and publication context are
 known.
 
 The intended primary audience is researchers and practitioners in
-decentralized governance, institutional economics, organizational
+decentralized coordination, institutional economics, organizational
 theory, and legal studies who are evaluating the theoretical foundations
 of coordination protocols. A secondary audience is protocol designers
-and governance architects who want to apply the taxonomy to evaluate
+and coordination architects who want to apply the taxonomy to evaluate
 their own systems. The document is written to be legible to both without
 sacrificing rigor for the former.
 
@@ -230,7 +230,7 @@ coordination systems, adoptable by any system in any domain.
 *Boundary classes*
 - Felt-experience: This standard identifies structural information asymmetries but does not address the affective, somatic, or phenomenal dimensions of occupying a position of information disadvantage.
 - Structural-mechanical: This standard does not address how information asymmetries propagate as structural loads through a tensegrity configuration, modify pre-stress distribution, or contribute to the anisotropy profile.
-- Temporal-dynamic (frequency-dynamic sub-aspect): The temporal asymmetry class (Class 2) addresses sequential timing of information access. This standard does not address how governance structures respond to the frequency or rhythm of asymmetry pressure over time.
+- Temporal-dynamic (frequency-dynamic sub-aspect): The temporal asymmetry class (Class 2) addresses sequential timing of information access. This standard does not address how coordination structures respond to the frequency or rhythm of asymmetry pressure over time.
 
 **Section 2: Taxonomy Architecture**
 
@@ -239,7 +239,7 @@ coordination systems, adoptable by any system in any domain.
 Before specifying the six classes, it is worth establishing the criteria
 by which something qualifies as a distinct asymmetry class rather than a
 variant of an existing one. This matters both for the intellectual
-integrity of the taxonomy and for the governance of its extension over
+integrity of the taxonomy and for the stewardship of its extension over
 time.
 
 A valid asymmetry class must satisfy four conditions. First, it must
@@ -252,7 +252,7 @@ that share a mechanism are variants of the same class, not separate
 classes.
 
 Second, it must have documented precedent in contexts predating
-decentralized governance. The claim of this taxonomy is not that
+decentralized coordination. The claim of this taxonomy is not that
 decentralized organizations have invented new forms of information
 asymmetry. The claim is that these forms, long documented in regulatory
 and legal contexts, have not previously been organized into a coherent
@@ -269,7 +269,7 @@ instrumented.
 
 Fourth, it must be genuinely orthogonal to existing classes at the level
 of mechanism, even if it frequently co-occurs with them. Co-occurrence
-is expected and important --- the most consequential governance failures
+is expected and important --- the most consequential coordination failures
 typically involve multiple classes operating simultaneously. But
 co-occurrence does not imply non-independence. Two classes are
 orthogonal if knowing that one is active does not, by itself, tell you
@@ -279,7 +279,7 @@ whether the other is active.
 
 The six-class structure is not derived from first principles. It is
 derived from the documented history of regulatory and legal responses to
-information asymmetry in governance contexts --- the body of
+information asymmetry in coordination contexts --- the body of
 institutional knowledge accumulated over decades about how informational
 advantage actually operates, where it concentrates, and what kinds of
 responses have been developed to address it.
@@ -309,11 +309,11 @@ new forms are identified and documented to the same standard.
 
 **The Extension Framework**
 
-The taxonomy is a governed artifact, not a fixed list. New asymmetry
+The taxonomy is a stewarded artifact, not a fixed list. New asymmetry
 classes can be added through a formal specification process administered
-by the technical working group responsible for taxonomy governance.
+by the technical working group responsible for taxonomy stewardship.
 Extension is not a lightweight process, because changes to the detection
-taxonomy are among the highest-consequence governance acts available to
+taxonomy are among the highest-consequence coordination acts available to
 a coordination protocol: they define what the system can and cannot see,
 and therefore what forms of structural advantage remain invisible.
 
@@ -339,9 +339,9 @@ documentation base is less extensive than that of the six primary classes,
 and that their detection surfaces are less well-established.
 
 Taxonomy extension is itself subject to the same adverse-signal
-engagement principles that the taxonomy governs. Changes to the
+engagement principles that the taxonomy covers. Changes to the
 detection surface are recorded, versioned, and subject to the same
-structural scrutiny as any other high-consequence governance act. The
+structural scrutiny as any other high-consequence coordination act. The
 risk of taxonomy capture --- the application of interpretive asymmetry
 to the interpretive framework itself --- is the highest-order failure
 mode available to a system of this kind, and it is treated accordingly.
@@ -358,7 +358,7 @@ that each class requires its own detection logic rather than being
 derivable from any other.
 
 In practice, however, the classes frequently co-occur and compound. The
-most consequential governance failures in coordination systems involve
+most consequential coordination failures in coordination systems involve
 multiple classes operating simultaneously, often in reinforcing
 patterns. Positional Asymmetry combined with Temporal Asymmetry is a
 common attack pattern: the actor with structural visibility advantage
@@ -391,7 +391,7 @@ logic of any individual class.
 **Class 1: Positional Asymmetry**
 
 Positional asymmetry arises when structural position within a network or
-governance system confers informational advantage that is not visible
+coordination system confers informational advantage that is not visible
 to, or accessible by, other participants. The actor in the positional
 advantage sees more of the system than others can see of them, and can
 use that visibility to act before others recognize that action is
@@ -452,14 +452,14 @@ advantage of the insider cannot be assumed away.
 
 Positional asymmetry leaves a characteristic signature in any
 coordination record: a pattern in which certain actors consistently act
-earlier relative to governance developments than their formal roles
+earlier relative to coordination developments than their formal roles
 would predict, or in which certain actors consistently shape which
 tensions reach deliberation while others do not. Neither of these
 patterns requires establishing intent. They are observable structural
 regularities in the coordination record itself.
 
 The primary detection signals are four. First, proposal timing
-concentration: the consistent initiation of governance proposals by a
+concentration: the consistent initiation of coordination proposals by a
 small set of actors, particularly when those proposals address matters
 that became visible to the broader participant population only after
 initiation. Second, agenda control asymmetry: the pattern of which
@@ -488,8 +488,8 @@ Neither interpretation is consistent with a healthy coordination record.
 Temporal asymmetry arises when one party times consequential actions to
 windows of reduced visibility, attention, or participation capacity. The
 information disadvantage is not about what is known but about when
-action occurs relative to the governed party\'s ability to respond. The
-same disclosure, the same proposal, the same governance action can
+action occurs relative to the affected party's ability to respond. The
+same disclosure, the same proposal, the same coordination action can
 produce structurally different outcomes depending entirely on when it is
 executed. A timing advantage does not require any false statement and
 does not require any concealment of content. It requires only the
@@ -541,15 +541,15 @@ directly.
 ***Detection Surface***
 
 Temporal asymmetry produces a characteristic clustering signature in a
-coordination record: consequential governance actions that consistently
+coordination record: consequential coordination actions that consistently
 occur in low-participation windows, and a correlation between the
 interests of specific actor classes and the timing patterns of
-governance activity that affects them. Neither pattern requires
+coordination activity that affects them. Neither pattern requires
 establishing intent. Both are observable in the structural record of
 when decisions were made relative to participation capacity.
 
 The primary detection signals are three. First, timing concentration in
-low-participation windows: governance proposals, parameter changes, or
+low-participation windows: coordination proposals, parameter changes, or
 constitutional amendments that are consistently introduced during
 periods when participation historically drops - overnight hours for
 globally distributed organizations, holiday periods, community crisis
@@ -559,17 +559,17 @@ taken in low-participation windows, and whether that correlation is
 consistent with strategic selection of timing rather than random
 distribution. Third, participation capacity asymmetry: the structural
 condition in which certain participant populations have systematically
-lower capacity to respond within standard governance windows due to time
+lower capacity to respond within standard coordination windows due to time
 zone, work schedule, or resource constraints, and whether that asymmetry
-is reflected in governance outcomes that consistently disadvantage those
+is reflected in coordination outcomes that consistently disadvantage those
 populations.
 
 A coordination record with no temporal concentration signal in its
-governance action history is either a record of an unstressed system or
-a record that does not capture the timing dimension of governance acts
+coordination action history is either a record of an unstressed system or
+a record that does not capture the timing dimension of coordination acts
 with enough resolution to make the signal visible. The absence of timing
 data in a coordination record is itself a signal about the record\'s
-integrity: organizations that do not document when governance actions
+integrity: organizations that do not document when coordination actions
 were introduced relative to participation patterns are organizations
 where temporal asymmetry cannot be detected regardless of its presence.
 
@@ -650,7 +650,7 @@ existing one.
 
 ***Detection Surface***
 
-Interpretive asymmetry leaves a distinctive signature in governance
+Interpretive asymmetry leaves a distinctive signature in coordination
 records: a pattern in which framework-level decisions - definitions of
 what counts as a significant event, classification criteria, scope
 determinations - are concentrated in a small deliberative group, made
@@ -662,7 +662,7 @@ serves the interests of the parties who participated in developing it.
 The primary detection signals are three. First, framework concentration:
 the pattern of who participates in taxonomy and classification
 decisions, whether that participation is proportional to the participant
-population whose interests the framework governs, and whether dissenting
+population whose interests the framework serves, and whether dissenting
 interpretations are documented or suppressed. Second, systematic
 exclusion: the pattern of event types, actor behaviors, or coordination
 outcomes that the framework has no category for, examined against the
@@ -671,7 +671,7 @@ categories. Third, interpretive bandwidth stratification: evidence that
 the operational consequences of a framework are legible to a small set
 of participants with specialized knowledge while remaining effectively
 unreadable to the broader participant population, combined with
-governance outcomes that consistently favor the informed minority. This
+coordination outcomes that consistently favor the informed minority. This
 last signal is closely related to complexity asymmetry but differs in
 mechanism: complexity asymmetry involves the deployment of genuine
 technical complexity as an extraction tool; interpretive asymmetry
@@ -684,7 +684,7 @@ the same capture dynamics it is designed to detect. An organization that
 successfully captures the interpretive framework governing what counts
 as a coordination failure has eliminated its own detection surface. This
 is the highest-order failure mode available to any detection-oriented
-governance system, and it requires that taxonomy governance - who
+coordination system, and it requires that taxonomy stewardship - who
 determines what the framework can see - be itself subject to the most
 stringent structural scrutiny the system can provide.
 
@@ -761,7 +761,7 @@ decisions.
 
 **Class 4: Relational Asymmetry**
 
-Relational asymmetry arises when access to consequential governance
+Relational asymmetry arises when access to consequential coordination
 decisions is mediated by relationship networks that are not structurally
 visible to all participants and that are not proportionally available to
 all participants. The asymmetry is not in what information exists but in
@@ -769,7 +769,7 @@ who is consulted before formal processes begin, whose concerns are
 incorporated into proposals before they are presented, and whose
 objections are resolved informally before they can be raised on the
 record. Dense relational networks operating as coordination
-infrastructure create a parallel governance layer that is structurally
+infrastructure create a parallel coordination layer that is structurally
 invisible to participants outside the network but that substantially
 determines the outcomes of formal processes. Formal procedures then
 ratify decisions whose substantive content was determined in a
@@ -865,7 +865,7 @@ support already assembled, measured against the question of whether that
 assembly is documented anywhere in the coordination record or whether it
 occurred in channels that leave no accessible trace. Second, network
 density stratification: the mapping of communication and consultation
-patterns prior to formal governance actions against the full participant
+patterns prior to formal coordination actions against the full participant
 population, identifying whether a dense relational cluster consistently
 participates in pre-decisional coordination while a broader population
 engages only at formal stages. Third, outcome-deliberation gap: the
@@ -874,7 +874,7 @@ substantive arguments that would be necessary to produce the documented
 outcome, indicating that the deliberation producing the outcome occurred
 elsewhere.
 
-The practical challenge of detecting relational asymmetry in governance
+The practical challenge of detecting relational asymmetry in coordination
 records is that the relational layer is definitionally not in the formal
 record. Detection therefore depends on structural inference: does the
 formal record contain enough of the reasoning that produced the outcome
@@ -896,7 +896,7 @@ outcomes, or the actors responsible for them. The mechanism is not
 misrepresentation of what is included but the structuring of what is
 absent. A record that is internally consistent and factually accurate in
 every entry it contains can simultaneously be deeply misleading if the
-selection of what enters the record is itself a governance act that has
+selection of what enters the record is itself a coordination act that has
 not been subjected to scrutiny. Omission asymmetry is the class in which
 the record\'s silences are as consequential as its contents - and in
 which the silences are not randomly distributed.
@@ -971,7 +971,7 @@ the record, treating strategic omission as equivalent in culpability to
 affirmative fraud. Section 404 further requires management to assess and
 report on the effectiveness of internal controls over financial
 reporting - a structural acknowledgment that the completeness of records
-is itself a governance process that requires dedicated oversight
+is itself a coordination process that requires dedicated oversight
 architecture.
 
 ***Detection Surface***
@@ -987,31 +987,31 @@ measured against the question of whose interests are systematically
 served by the gaps.
 
 The primary detection signals are three. First, category absence: the
-pattern in which an entire class of governance-relevant events -
+pattern in which an entire class of coordination-relevant events -
 objections raised and withdrawn, proposals considered and dropped before
 formalization, concerns documented in informal channels but not in the
 official record - has no representation in the coordination record.
 Category absence is distinct from low incidence: a category that is
 present but rarely triggered is different from a category for which no
 entries exist despite the system operating continuously. The absence of
-any record of disagreement in a governance environment where participant
+any record of disagreement in a coordination environment where participant
 interests are genuinely diverse is a strong omission signal. Second,
 resolution gap: the pattern in which problems or concerns that are known
-to have existed at an earlier stage in a governance process are absent
+to have existed at an earlier stage in a coordination process are absent
 from the formal record of that process\'s resolution. If a concern was
 raised informally and then the formal record shows a unanimous decision,
 the question of where the concern was addressed - and whether it was
 addressed substantively or simply removed from the record - is an
 omission detection question. Third, scope boundary concentration: the
 pattern in which the boundary of what the record covers is itself a
-governance decision that was made by a small set of actors whose
+coordination decision that was made by a small set of actors whose
 interests are served by the boundary being drawn where it is. What the
-record is defined to capture is itself a governance act; when that
+record is defined to capture is itself a coordination act; when that
 definition excludes categories that would primarily implicate the actors
 who defined it, the definition is an omission asymmetry instrument.
 
-*Governance record asymmetry* is a named sub-pattern of scope boundary
-concentration in which the formal governance record is architecturally
+*Coordination record asymmetry* is a named sub-pattern of scope boundary
+concentration in which the formal coordination record is architecturally
 designed to capture ratification outputs rather than the coordination
 inputs that produce them. The defining characteristic is not that an
 actor has chosen to exclude specific information from an otherwise
@@ -1022,19 +1022,19 @@ in private channels — messaging platforms, informal meetings, side
 conversations — and the formal record receives only the processed
 output. The record is not selectively incomplete; it is constitutively
 incomplete, because the boundary of what it captures was drawn at the
-ratification moment rather than the decision moment. The DAO governance
+ratification moment rather than the decision moment. The DAO coordination
 failures document this sub-pattern in its clearest form: proposals
 pre-negotiated in private channels while formal voting mechanisms serve
-as ratification theater is governance record asymmetry operating at
+as ratification theater is coordination record asymmetry operating at
 scale. The detection signal is distinct from other scope boundary
 concentration patterns: look not for what is missing from entries
-already in the record, but for whether the governance architecture
-systematically routes real decision-making to ungoverned, unarchived
+already in the record, but for whether the coordination architecture
+systematically routes real decision-making to unwitnessed, unarchived
 channels before it surfaces in the formal record. The remediation is
 also distinct: canonical scope boundary concentration is remediable by
-changing which actors control record scope; governance record asymmetry
+changing which actors control record scope; coordination record asymmetry
 requires architectural change to where real coordination happens —
-bringing it into a governed, witnessed record rather than allowing the
+bringing it into a structured, witnessed record rather than allowing the
 formal record to capture ratification only.
 
 The meta-level challenge for detecting omission asymmetry is identical
@@ -1044,7 +1044,7 @@ a system that has successfully omitted an entire category of event has
 also eliminated the taxonomic surface on which that omission would be
 detectable. The response to this structural problem is not to make
 detection taxonomies exhaustive - that is not achievable - but to
-require that the governance of the record\'s scope be itself on the
+require that the stewardship of the record's scope be itself on the
 record, legible, and subject to participation by the actors whose
 interests the record is intended to protect. A record-scope decision
 made by the actors the record is meant to hold accountable is an
@@ -1058,7 +1058,7 @@ structured to be navigable only by participants with specialized
 knowledge, capital, or access, while remaining nominally available to
 all. The asymmetry is not in who is permitted to participate but in who
 can effectively participate given the cognitive and resource demands of
-doing so. A governance process, financial product, or coordination
+doing so. A coordination process, financial product, or coordination
 record that is formally open but operationally accessible only to a
 small class of participants creates a structural advantage for that
 class that is not visible as exclusion from outside. Participants who
@@ -1069,12 +1069,12 @@ The distinguishing feature of complexity asymmetry relative to the other
 five classes is that the underlying information or process may be
 genuinely, irreducibly complex. Not all complexity asymmetry involves
 deliberate obfuscation: some results from accumulated technical debt in
-governance systems, some from genuine domain complexity that resists
+coordination systems, some from genuine domain complexity that resists
 simplification without loss, and some from the organizational incentive
 to produce thorough rather than legible records. The harm is the same in
 each case - differential capacity to participate produces differential
 influence over outcomes - but the remediation differs. Deliberate
-obfuscation calls for structural simplification as a governance
+obfuscation calls for structural simplification as a coordination
 requirement. Genuine irreducible complexity calls for translation
 infrastructure: mechanisms that make the operational consequences of
 complex processes legible to participants who cannot engage the
@@ -1155,10 +1155,10 @@ parties without that capacity.
 
 Complexity asymmetry produces a distinctive detection signature because
 it leaves traces in the relationship between the complexity of the
-governance record and the distribution of participation in governance
-decisions. A governance environment in which participation is broadly
-distributed but comprehension of governance processes is narrowly held
-is a governance environment in which complexity asymmetry is
+coordination record and the distribution of participation in coordination
+decisions. A coordination environment in which participation is broadly
+distributed but comprehension of coordination processes is narrowly held
+is a coordination environment in which complexity asymmetry is
 structurally present, regardless of whether it is deliberately deployed.
 
 The primary detection signals are three. First,
@@ -1171,15 +1171,15 @@ documentation, participatory formats that do not require technical
 fluency - that are absent from the process as designed. Nominal
 participation without comprehension infrastructure is a complexity
 asymmetry signal. Second, specialist concentration: the pattern in which
-governance outcomes consistently favor the positions of participants
+coordination outcomes consistently favor the positions of participants
 with specialist knowledge over the positions of participants without it,
 in environments where the interests of those groups are genuinely
-divergent. Specialist advantage in technical governance is expected;
-systematic specialist advantage across governance decisions that are not
+divergent. Specialist advantage in technical coordination is expected;
+systematic specialist advantage across coordination decisions that are not
 genuinely technical in character indicates that complexity is serving as
 a filter rather than a relevant constraint. Third, simplification
 resistance: the pattern in which attempts to produce accessible
-summaries of governance processes or their consequences are opposed,
+summaries of coordination processes or their consequences are opposed,
 delayed, or rendered optional by the actors whose positions are favored
 by the complexity of the current format. Actors who benefit from
 complexity asymmetry have structural incentives to characterize
@@ -1188,15 +1188,15 @@ and to ensure that participation formats that would enable broader
 engagement remain unavailable.
 
 The boundary between necessary and exploited complexity is itself a
-governance question, and one that is contested. The appropriate
+coordination question, and one that is contested. The appropriate
 analytical approach is not to treat all complexity as suspect but to ask
-whether the complexity level of the coordination record and governance
+whether the complexity level of the coordination record and coordination
 process is calibrated to the complexity level of the underlying
-coordination problem, or whether it substantially exceeds it. Governance
+coordination problem, or whether it substantially exceeds it. Coordination
 of a genuinely complex technical system requires technical
 documentation; that documentation need not also be the primary interface
-through which participants exercise governance rights. A coordination
-system that conflates technical documentation with governance
+through which participants exercise coordination rights. A coordination
+system that conflates technical documentation with coordination
 participation infrastructure has made a design choice that produces
 complexity asymmetry as a structural outcome, regardless of intent.
 
@@ -1241,7 +1241,7 @@ detection suppressor for omission in this configuration: participants
 who lack the capacity to process the full record cannot distinguish
 between records that are complex and complete and records that are
 complex and strategically incomplete. The combination is especially
-common in technical governance environments where the complexity of the
+common in technical coordination environments where the complexity of the
 subject matter is genuine but the record scope is controlled by a small
 actor class.
 
@@ -1291,7 +1291,7 @@ specify). The initial detection action mode is probe-sense-respond; once
 an omission pattern is identified and named, subsequent detection shifts
 to sense-analyze-respond. Complexity asymmetry (Class 6) presents as a
 Complicated-domain detection problem in most coordination contexts, analyzable through comparison of
-governance record complexity against the complexity level of the
+coordination record complexity against the complexity level of the
 decisions being made and the participation distribution across
 complexity strata. The detection action mode is sense-analyze-respond,
 but with the caveat that a successful complexity asymmetry attack
@@ -1336,7 +1336,7 @@ calibration.
 
 **Extension Class Specifications**
 
-Two of the four extension classes specified here (Generative Asymmetry and Cryptographic Asymmetry) were named in v0.1 of this standard as satisfying the four validity criteria in Section 2. Their mechanism descriptions, regulatory precedents, and detection surfaces have not yet been formally written. Both are stubs: they are named, their validity claims have been entered into the governance record, but they are not specified to the level required for instrumentation in a detection architecture. A third extension class, Descriptive Capacity Asymmetry, is fully specified here. A fourth extension class, Derivation Opacity Asymmetry, is added in v0.1.21 as a stub with mechanism characterized but full specification pending.
+Two of the four extension classes specified here (Generative Asymmetry and Cryptographic Asymmetry) were named in v0.1 of this standard as satisfying the four validity criteria in Section 2. Their mechanism descriptions, regulatory precedents, and detection surfaces have not yet been formally written. Both are stubs: they are named, their validity claims have been entered into the coordination record, but they are not specified to the level required for instrumentation in a detection architecture. A third extension class, Descriptive Capacity Asymmetry, is fully specified here. A fourth extension class, Derivation Opacity Asymmetry, is added in v0.1.21 as a stub with mechanism characterized but full specification pending.
 
 **Extension Class A: Generative Asymmetry**
 
@@ -1344,7 +1344,7 @@ Two of the four extension classes specified here (Generative Asymmetry and Crypt
 
 Generative Asymmetry was named as an extension class in v0.1 of this standard. It was assessed at that time as satisfying the four validity criteria: distinct mechanism, documented evidence of the mechanism in real coordination contexts, distinct detection surface, and orthogonality to existing primary classes. The full mechanism description, regulatory precedent, detection surface specification, Cynefin domain classification, and boundary argument against existing primary classes remain to be written.
 
-Until this specification is complete, Generative Asymmetry may not be used in a conforming detection architecture as a named class. Reference to it in governance documentation should be accompanied by a note that the class specification is pending.
+Until this specification is complete, Generative Asymmetry may not be used in a conforming detection architecture as a named class. Reference to it in coordination documentation should be accompanied by a note that the class specification is pending.
 
 **Extension Class B: Cryptographic Asymmetry**
 
@@ -1352,7 +1352,7 @@ Until this specification is complete, Generative Asymmetry may not be used in a 
 
 Cryptographic Asymmetry was named as an extension class in v0.1 of this standard. It was assessed at that time as satisfying the four validity criteria. The full mechanism description, regulatory precedent, detection surface specification, Cynefin domain classification, and boundary argument against existing primary classes remain to be written.
 
-Until this specification is complete, Cryptographic Asymmetry may not be used in a conforming detection architecture as a named class. Reference to it in governance documentation should be accompanied by a note that the class specification is pending.
+Until this specification is complete, Cryptographic Asymmetry may not be used in a conforming detection architecture as a named class. Reference to it in coordination documentation should be accompanied by a note that the class specification is pending.
 
 **Extension Class C: Descriptive Capacity Asymmetry**
 
@@ -1362,7 +1362,7 @@ Descriptive Capacity Asymmetry arises when differential linguistic, epistemic, a
 
 The mechanism is a cascade. Language, epistemology, and ontology are mutually constitutive rather than independent. A vocabulary limitation constrains the epistemic questions that can be formed, which constrains the ontological commitments that can be held, which in turn constrains the vocabulary available for further description. Because the three components are mutually reinforcing, a gap at one level propagates through the others. The cascade operates in both directions: a party with richer frameworks in a domain can perceive phenomena that a party with narrower frameworks cannot, and the narrower party cannot perceive the gap without acquiring some degree of the richer framework.
 
-When a measurement system operates as a governance participant, the system's own vocabulary limitations fall within this class. A measurement architecture that cannot perceive certain coordination phenomena does not merely fail to measure them; it produces a coordination record that is systematically silent about them. That silence appears as absence rather than limitation. Governance actors relying on the record inherit the system's perceptual constraint without knowing the constraint exists.
+When a measurement system operates as a coordination participant, the system's own vocabulary limitations fall within this class. A measurement architecture that cannot perceive certain coordination phenomena does not merely fail to measure them; it produces a coordination record that is systematically silent about them. That silence appears as absence rather than limitation. Coordination actors relying on the record inherit the system's perceptual constraint without knowing the constraint exists.
 
 ***Documented Evidence***
 
@@ -1370,7 +1370,7 @@ The mechanism has been observed in cross-cultural governance settings where one 
 
 Informed consent doctrine in medical ethics and law provides a parallel documentation chain. Canterbury v. Spence (1972) and the subsequent development of the reasonable patient standard shifted the informed consent requirement from disclosure of facts to effective communication within the patient's comprehension framework. The doctrine recognizes that a clinician's technical framework can fulfill disclosure requirements while communicating nothing the patient can actually process. Structural advantage inheres in framework control, not in withholding information.
 
-The organizational research literature on care work and relational labor provides a third documentation site. Multiple studies have documented that coordination activities including emotional labor, mentorship, conflict de-escalation, and knowledge transfer are systematically underrepresented in governance records structured around formal role performance and documented decisions. The undercounting is not attributable to the absence of the activity; it results from the measurement framework's categorical structure, which does not generate entries for those activities.
+The organizational research literature on care work and relational labor provides a third documentation site. Multiple studies have documented that coordination activities including emotional labor, mentorship, conflict de-escalation, and knowledge transfer are systematically underrepresented in coordination records structured around formal role performance and documented decisions. The undercounting is not attributable to the absence of the activity; it results from the measurement framework's categorical structure, which does not generate entries for those activities.
 
 ***Detection Surface***
 
@@ -1380,7 +1380,7 @@ First, systematic undercounting: the measurement architecture produces consisten
 
 Second, mutual legibility failure: communication breakdowns between parties that persist despite demonstrated good faith on both sides and that cannot be attributed to intent, information withholding, or translation error. Each party believes it has communicated clearly; the breakdown continues because the frameworks generating their descriptions do not share common perceptual ground. Mutual legibility failure is distinguishable from Class 3 (Interpretive Asymmetry) because in Class 3, both parties can in principle identify the phenomenon and their disagreement is about its significance. In Descriptive Capacity Asymmetry, one party's account includes phenomena the other party's framework does not make available for observation.
 
-Third, framework-congruence concentration: governance outcomes are systematically better for parties whose coordination activities are legible to the measurement framework, independently of the quality or quantity of their coordination activity. Framework-congruent parties receive higher detection rates, earlier escalation support, and more accurate representation in the coordination record. This concentration is detectable by comparing governance outcomes across participant subgroups while controlling for activity level.
+Third, framework-congruence concentration: coordination outcomes are systematically better for parties whose coordination activities are legible to the measurement framework, independently of the quality or quantity of their coordination activity. Framework-congruent parties receive higher detection rates, earlier escalation support, and more accurate representation in the coordination record. This concentration is detectable by comparing coordination outcomes across participant subgroups while controlling for activity level.
 
 This class is a Complex-domain detection problem (probe-sense-respond). The detection architecture is itself subject to the asymmetry it is designed to detect: a system whose vocabulary cannot perceive certain coordination phenomena will also have difficulty detecting its own perceptual limits. Detection therefore requires iterative probing against anomalous absence signals, with vocabulary audits of the measurement system as a component of the detection process rather than a precondition for it.
 
@@ -1392,15 +1392,15 @@ Derivation Opacity Asymmetry arises when a coordination participant accesses syn
 
 This distinguishes Derivation Opacity Asymmetry from Class 5 (Omission Asymmetry), where information is deliberately or structurally withheld from the coordination record, and from Class 6 (Complexity Asymmetry), where the gap is in participants' capacity to process information they could in principle access. The derivation process itself is not accessible, independent of participant capacity. It also distinguishes from Class 3 (Interpretive Asymmetry): both parties perceive the same output; the structural problem is that one party's interpretive process is unverifiable by the other.
 
-A further distinguishing feature: this asymmetry is self-concealing. Participants may not know what they cannot verify. Outputs may appear authoritative and precise while being derived through processes the governance structure has no mechanism to evaluate. Detection therefore requires proactive disclosure requirements rather than signal detection from the coordination record alone.
+A further distinguishing feature: this asymmetry is self-concealing. Participants may not know what they cannot verify. Outputs may appear authoritative and precise while being derived through processes the coordination structure has no mechanism to evaluate. Detection therefore requires proactive disclosure requirements rather than signal detection from the coordination record alone.
 
-The primary deployment context for this extension class is coordination systems in which AI participants contribute analysis, recommendations, or framing to governance decisions. The class is not limited to AI: any participant whose analytical derivation process is structurally inaccessible to other participants produces this asymmetry type. AI is the primary documented instance.
+The primary deployment context for this extension class is coordination systems in which AI participants contribute analysis, recommendations, or framing to coordination decisions. The class is not limited to AI: any participant whose analytical derivation process is structurally inaccessible to other participants produces this asymmetry type. AI is the primary documented instance.
 
 *Dual-nature note (added 2026-04-12).* The same structural property that generates this asymmetry — opaque training on vast cross-domain knowledge — is also what makes AI participants a functional solution to the knowledge scaling problem in coordination systems above Dunbar's Number: knowledge translation and cascade across scales without the informal trust network degradation that human knowledge transfer requires at scale. The derivation opacity is the risk face of this property; the knowledge scalability is the function face. They are not separable: the same opacity that prevents auditing is what enables the synthesis that makes the scaling function possible.
 
-The full specification of Extension Class D must address both faces. A specification that characterizes only the asymmetry risk without characterizing the functional capacity it is the other face of would produce an incomplete account of AI participation in coordination systems, with consequences for how detection architecture is designed and how governance decisions about AI participant inclusion are made. Detection architecture developed from a risk-only characterization may miss the structural conditions under which reducing the asymmetry also reduces the functional capacity — and the conditions under which addressing the risk and enabling the function are the same design move.
+The full specification of Extension Class D must address both faces. A specification that characterizes only the asymmetry risk without characterizing the functional capacity it is the other face of would produce an incomplete account of AI participation in coordination systems, with consequences for how detection architecture is designed and how coordination decisions about AI participant inclusion are made. Detection architecture developed from a risk-only characterization may miss the structural conditions under which reducing the asymmetry also reduces the functional capacity — and the conditions under which addressing the risk and enabling the function are the same design move.
 
-Until this specification is complete, Derivation Opacity Asymmetry may not be used in a conforming detection architecture as a named class. Reference to it in governance documentation should be accompanied by a note that the class specification is pending. The full specification requires: a regulatory precedent chain documenting governance recognition of this asymmetry class; a fully characterized detection surface; Cynefin domain classification; and a complete boundary argument against Extension Class A (Generative Asymmetry), whose stub status prevents full orthogonality confirmation at this time.
+Until this specification is complete, Derivation Opacity Asymmetry may not be used in a conforming detection architecture as a named class. Reference to it in coordination documentation should be accompanied by a note that the class specification is pending. The full specification requires: a regulatory precedent chain documenting coordination recognition of this asymmetry class; a fully characterized detection surface; Cynefin domain classification; and a complete boundary argument against Extension Class A (Generative Asymmetry), whose stub status prevents full orthogonality confirmation at this time.
 
 **Scope and Limitations**
 
@@ -1408,8 +1408,8 @@ This classification standard is domain-general by design. The six
 classes and their detection surfaces are derived from documented
 patterns across financial markets, corporate governance, regulatory
 history, and organizational behavior. They are intended to be applicable
-across governance contexts - including organizational, protocol, and
-community governance - without modification to the core class
+across coordination contexts - including organizational, protocol, and
+community coordination - without modification to the core class
 definitions, while acknowledging that the specific detection signals and
 regulatory analogues will vary by domain.
 
@@ -1437,9 +1437,9 @@ The standard does not address remediation architectures. Each class
 implies a different remediation approach - positional asymmetry calls
 for role-information disclosure requirements, temporal asymmetry for
 participation timing protections, interpretive asymmetry for framework
-governance and taxonomic independence, relational asymmetry for
+stewardship and taxonomic independence, relational asymmetry for
 pre-decisional coordination documentation, omission asymmetry for record
-scope governance, and complexity asymmetry for translation
+scope stewardship, and complexity asymmetry for translation
 infrastructure and comprehension parity requirements. Those
 architectures are beyond the scope of this document and are addressed in
 companion specifications.
@@ -1461,7 +1461,7 @@ present, where it is assumed, and where it is absent.
 
 **Tier 2: IACS-Operational.** The system has defined processes for classifying
 information asymmetry signals against the six-class taxonomy. The classification
-taxonomy is integrated into the system's governance workflow. Asymmetry
+taxonomy is integrated into the system's coordination workflow. Asymmetry
 observations are recorded in a durable form.
 
 Minimum requirement: for each applicable class, a documented classification
@@ -1495,48 +1495,48 @@ without a declared audience baseline is measuring against an unspecified
 reference point; its outputs have a precision deficit in the instrument itself,
 not only in the signal being observed.
 
-**Tier 4: IACS-Accountable.** Detection at IACS-Instrumented produces mandatory
-governance response. Detected asymmetry signals trigger defined review with
-documented outcomes. Governance inaction in the presence of a detection output
-is itself detectable without the cooperation of the inacting party. The governance
+**Tier 4: IACS-Loop-Closed.** Detection at IACS-Instrumented produces mandatory
+coordination response. Detected asymmetry signals trigger defined review with
+documented outcomes. Inaction by coordination actors in the presence of a detection output
+is itself detectable without the cooperation of the inacting party. The coordination
 loop is closed at this tier.
 
 Minimum requirements:
 
-Every asymmetry detection output that reaches the governance response threshold must produce a documented governance review within a defined window. The review record must include: the asymmetry signal identifier, the class designation assigned (positional, temporal, interpretive, relational, complexity, or omission per Section 3), the Cynefin domain classification applied, the review outcome (including decisions to address, accept with rationale, or defer with timeline), the actor or body responsible for the review, and the rationale. A decision to accept a detected asymmetry without correction is a decision and must be documented with rationale. The absence of any documented review is not a permissible outcome at IACS-Accountable.
+Every asymmetry detection output that reaches the coordination response threshold must produce a documented coordination review within a defined window. The review record must include: the asymmetry signal identifier, the class designation assigned (positional, temporal, interpretive, relational, complexity, or omission per Section 3), the Cynefin domain classification applied, the review outcome (including decisions to address, accept with rationale, or defer with timeline), the actor or body responsible for the review, and the rationale. A decision to accept a detected asymmetry without correction is a decision and must be documented with rationale. The absence of any documented review is not a permissible outcome at IACS-Loop-Closed.
 
-The absence of a documented review within the defined window must produce automatic disclosure to all governance actors without requiring any actor's initiation. This disclosure makes the asymmetry detection output, its class designation, the elapsed time since detection, and the absence of a governance review simultaneously visible. A system in which this disclosure requires a human decision to publish has not closed the governance loop and does not meet IACS-Accountable.
+The absence of a documented review within the defined window must produce automatic disclosure to all coordination actors without requiring any actor's initiation. This disclosure makes the asymmetry detection output, its class designation, the elapsed time since detection, and the absence of a coordination review simultaneously visible. A system in which this disclosure requires a human decision to publish has not closed the coordination loop and does not meet IACS-Loop-Closed.
 
-The governance review record is append-only. Reviews cannot be modified after recording; corrections are recorded as new entries referencing the original. This property is what makes governance inaction detectable without cooperation: an independent observer can verify that an asymmetry detection output exists in the record, verify that no review entry exists within the required window, and determine that automatic disclosure was or was not produced as a consequence.
+The coordination review record is append-only. Reviews cannot be modified after recording; corrections are recorded as new entries referencing the original. This property is what makes inaction detectable without cooperation: an independent observer can verify that an asymmetry detection output exists in the record, verify that no review entry exists within the required window, and determine that automatic disclosure was or was not produced as a consequence.
 
-Tier review cadence for IACS-Accountable systems: tier review MUST occur at minimum annually and MUST include a governance loop integrity check: confirmation that the detection-to-review path operated as specified for all asymmetry detection outputs in the review period, and that automatic disclosures were produced where required. The annual review must also include a class applicability reconfirmation: the set of applicable asymmetry classes is reviewed against the system's current operations and updated if operational scope has changed.
+Tier review cadence for IACS-Loop-Closed systems: tier review MUST occur at minimum annually and MUST include a coordination loop integrity check: confirmation that the detection-to-review path operated as specified for all asymmetry detection outputs in the review period, and that automatic disclosures were produced where required. The annual review must also include a class applicability reconfirmation: the set of applicable asymmetry classes is reviewed against the system's current operations and updated if operational scope has changed.
 
 **Tier 5: IACS-Auditable.** The full detection and response architecture is independently auditable by a party outside the system without depending on self-certification. Tier 5 is the gold standard for systems seeking external validation of IACS conformance.
 
-Includes all IACS-Accountable requirements plus independent auditability.
+Includes all IACS-Loop-Closed requirements plus independent auditability.
 
 Minimum requirements:
 
-The complete asymmetry detection record, from signal generation through documented governance review or automatic disclosure, must be accessible to an independent auditor. Access is not contingent on operator consent during a defined audit period. The record format is sufficient for an auditor to verify completeness without access to the detection layer itself.
+The complete asymmetry detection record, from signal generation through documented coordination review or automatic disclosure, must be accessible to an independent auditor. Access is not contingent on operator consent during a defined audit period. The record format is sufficient for an auditor to verify completeness without access to the detection layer itself.
 
 The auditor must be able to verify completeness: that all asymmetry detection outputs generated in the audit period are present in the record. This requires that the detection architecture produces a verifiable count or hash of detection outputs generated per class, against which the record can be checked. A record that can only be verified for presence (each signal in the record was detected) but not for completeness (all detected signals are in the record) does not meet IACS-Auditable.
 
 The auditor must be able to verify classification integrity: that each recorded asymmetry signal was classified against the six-class taxonomy in this standard, that the class designation applied is consistent with the detection evidence and mechanism descriptions in Section 3, and that the Cynefin domain classification applied is consistent with Section 4.1.
 
-The auditor must be able to verify response completeness: that every asymmetry detection output that reached the governance response threshold produced either a documented governance review within the specified window or an automatic disclosure. Gaps in this chain are reportable findings.
+The auditor must be able to verify response completeness: that every asymmetry detection output that reached the coordination response threshold produced either a documented coordination review within the specified window or an automatic disclosure. Gaps in this chain are reportable findings.
 
-The audit itself must be documented: scope, period, auditor identity or body, findings, and system response to findings. Audit reports are retained in the governance record under the same append-only constraints as governance reviews.
+The audit itself must be documented: scope, period, auditor identity or body, findings, and system response to findings. Audit reports are retained in the coordination record under the same append-only constraints as coordination reviews.
 
 IACS-Auditable systems must make audit reports available to their participant population within a defined period after audit completion. The disclosure period is specified by the system and subject to the same precision requirements as all other IACS obligations.
 
 **Section 7: Inheritance Clause**
 
 Systems adopting this standard should include the following statement in their
-governance documentation:
+coordination documentation:
 
 *Information Asymmetry Classification Inheritance: This [document/system/protocol]
 adopts the Information Asymmetry Classification Standard (IACS) (v[X], [date]) at
-the [IACS-Assessed / IACS-Operational / IACS-Instrumented / IACS-Accountable /
+the [IACS-Assessed / IACS-Operational / IACS-Instrumented / IACS-Loop-Closed /
 IACS-Auditable] tier. The asymmetry classes identified as applicable to this
 system's operations are: [list relevant classes from the six]. Classes identified
 as not applicable: [list, with rationale].*
@@ -1580,6 +1580,10 @@ Without this standard the suite has no mechanism for classifying which specific 
 Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 Changelog
+
+v0.1.24 (2026-04-15): Frame Language bridge vocabulary tightening. Residual Frame 1 vocabulary corrected under the revised Row 7 three-case rule. Approximately 70 instances replaced across Sections 1-6 and Extension Classes: "governance interventions" → "coordination interventions"; "shared governance structure" → "shared coordination structure"; "share governance over" → "share coordination of"; "governance responses" → "coordination responses"; "governance system" (×3 Section 1 and Section 3) → "coordination system"; "governance surfaces" → "coordination surfaces"; "governance architects" → "coordination architects"; "governance structures respond" → "coordination structures respond"; "taxonomy governance" → "taxonomy stewardship"; "governance acts/actions" → "coordination acts/actions" throughout detection surfaces; "governance proposals" → "coordination proposals"; "governance windows/outcomes/decisions/processes/environments/questions/records/contexts/workflow" → coordination equivalents throughout Sections 3-6 and extension classes; "*Governance record asymmetry*" (named sub-pattern) renamed to "*Coordination record asymmetry*" throughout (name, definition, detection signal, remediation); "ungoverned, unarchived channels" → "unwitnessed, unarchived channels"; "governed, witnessed record" → "structured, witnessed record"; "stewardship of the record's scope" replaces "governance of the record's scope". Admissible exceptions retained: opening paragraph of Section 1 (Case 1), "governance theory" in header tagline (Case 2), "corporate governance" in scope and limitations (Case 2), SEC Regulation FD doctrine uses (Case 3), Clayton Act Section 8 doctrine uses (Case 3), UNDRIP citation uses (Case 3). No normative content added or removed.
+
+v0.1.23 (2026-04-15): Frame Language pass. Three bounded corrections. (1) Section 1 preamble: "governs the suite as a whole" replaced with "is the meta-standard for the suite" (boilerplate correction consistent with all standards in the pass). (2) Tier 4 renamed from IACS-Accountable to IACS-Loop-Closed throughout normative text: heading, body (all occurrences), Tier 5 opening, inheritance clause tier list. (3) Tier 4 body and Tier 5 body: "governance review/actors/loop/response threshold/record" replaced with "coordination" equivalents; "governance inaction" replaced with "inaction by coordination actors"; "governance documentation" in Section 7 replaced with "coordination documentation." Academic and research-audience uses of "governance" in Sections 2, 3, and 4 (class descriptions, detection surfaces, regulatory precedent discussions) left as bridge vocabulary per the three-reader standard. No normative content added or removed.
 
 v0.1.22 (April 2026): Dual-nature note added to Extension Class D stub. The same structural property that generates the derivation opacity asymmetry (opaque training on vast cross-domain knowledge) is also what makes AI participants a functional solution to knowledge scaling above Dunbar's Number. Risk face: derivation opacity. Function face: knowledge scalability across scales without informal trust network degradation. Full specification of Extension Class D must address both faces. Note placed between the deployment context paragraph and the "until specification is complete" paragraph.
 

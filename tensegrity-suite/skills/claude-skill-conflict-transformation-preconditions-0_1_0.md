@@ -49,6 +49,6 @@ The most common failures in practice:
 
 ## Adoption tier reference
 
-The specification applies differently depending on the organization's adoption tier for the Conflict Transformation Standard. At CT-Declared (Tier 1), the specification serves as a self-assessment checklist. At CT-Instrumented (Tier 3), the precondition assessment must be documented before process deployment. At CT-Accountable (Tier 4) and CT-Auditable (Tier 5), a Defer response that proceeds anyway is itself a structural finding.
+The specification applies differently depending on the organization's adoption tier for the Conflict Transformation Standard. At CT-Declared (Tier 1), the specification serves as a self-assessment checklist. At CT-Instrumented (Tier 3), the precondition assessment must be documented before process deployment. At CT-Loop-Closed (Tier 4) and CT-Auditable (Tier 5), a Defer response that proceeds anyway is itself a structural finding.
 
 Reading this specification does not require familiarity with the Conflict Transformation Standard. The six preconditions stand as a pre-deployment assessment independent of adoption tier.

@@ -165,7 +165,7 @@ Each standard in this repository carries a five-tier adoption framework that des
 
 **Tier 3, Instrumented.** The organization applies the standard at design time. No element in scope is considered complete until the standard's requirements are met. The organization can report its current compliance state without a dedicated review cycle.
 
-**Tier 4, Accountable.** Includes all Tier 3 requirements plus closed governance loop architecture. Detected deficits produce mandatory governance responses, and the absence of a response is itself structurally visible.
+**Tier 4, Loop-Closed.** Includes all Tier 3 requirements plus closed coordination loop architecture. Detected deficits produce mandatory coordination responses, and the absence of a response is itself structurally visible.
 
 **Tier 5, Auditable.** Includes all Tier 4 requirements plus independent auditability. The deficit record must be verifiable by an independent auditor for both presence (each recorded deficit was identified) and completeness (all identified deficits are in the record).
 
@@ -177,7 +177,7 @@ Three adoption categories govern how adoption is described. They are mutually ex
 
 **Adoption level.** A system that has adopted one or more standards at any tier has an adoption level. Adoption level is a developmental description, not a conformance claim. It is expressed per standard: "this system has adopted the Adverse Signal Engagement Principle Core Standard at Tier 2 (Operational)." No general conformance claim follows from an adoption level. An adoption level is not a credential; it describes where a system is in its developmental trajectory.
 
-**Full Tensegrity Compressive Standards designation.** A system that has adopted all six Tensegrity Compressive Standards at Tier 4 (Accountable) or above holds the full Tensegrity Compressive Standards designation. This is the only category that carries a conformance claim. The designation is all-or-nothing: Tier 4 across five standards and Tier 3 on the sixth does not satisfy it. The designation is descriptive, not a credential: it names an observable structural state.
+**Full Tensegrity Compressive Standards designation.** A system that has adopted all six Tensegrity Compressive Standards at Tier 4 (Loop-Closed) or above holds the full Tensegrity Compressive Standards designation. This is the only category that carries a conformance claim. The designation is all-or-nothing: Tier 4 across five standards and Tier 3 on the sixth does not satisfy it. The designation is descriptive, not a credential: it names an observable structural state.
 
 **Structural exposure disclosure.** A system that claims structural accountability without holding the full designation must produce a structural exposure disclosure in place of a conformance claim. A substantive disclosure contains four elements: it names each absent or sub-Tier-4 standard by its full canonical name; it describes in plain language the specific failure mode class that standard addresses and what becomes structurally undetectable in its absence; it states a self-assessed exposure level (low, medium, or high) with a rationale an independent reader can evaluate; and it names any compensating controls with their mechanism and adequacy basis. Where no compensating controls exist, the disclosure says so explicitly.
 
@@ -221,6 +221,8 @@ Full protocol documentation will be linked here as it is released.
 - **Code and software artifacts** (now or future: examples, scripts, tests, reference implementations): Licensed under Apache License 2.0. See `LICENSE`.
 
 ## Changelog
+
+2026-04-15: Tier 4 renamed from "Accountable" to "Loop-Closed" in the adoption architecture section, matching the Frame Language pass naming convention applied in the Structural Power Obligation Standard (v0.1.22) and Adverse Signal Engagement Principle Core Standard (v0.7.8). "Closed governance loop architecture" updated to "closed coordination loop architecture"; "mandatory governance responses" updated to "mandatory coordination responses"; "Tier 4 (Accountable) or above" updated to "Tier 4 (Loop-Closed) or above."
 
 2026-04-11: AI prompt launcher added as first entry path in "Start here" section. "Two entry paths" updated to "Three entry paths" with the launcher (https://coordination-structural-integrity-suite.github.io/ai/) listed first as the simplest no-navigation-required option. Foundational commitments section added between opening paragraphs and "Start here." Names precision and non-harming as constitutively paired axiomatic commitments: the failure modes of each in isolation, what they produce together, and the generative capacity that becomes possible above the structural floor they establish together.
 

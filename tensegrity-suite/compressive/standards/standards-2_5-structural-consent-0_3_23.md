@@ -1,8 +1,8 @@
 Structural Consent Legibility Standard
 
-**Version:** v0.3.20
+**Version:** v0.3.23
 
-**Date:** 2026-04-11
+**Date:** 2026-04-15
 
 **Author:** Regis Chapman (Durgadas)
 
@@ -26,11 +26,11 @@ Consent in most governance systems gets reduced to a voting threshold: enough pa
 
 For how this standard relates to others in the Coordination Structural Integrity Suite, and guidance on which standards to combine for specific organizational purposes, see the Suite Integration Guide and the Suite Deployment Contexts document.
 
-Non-harming is the first precision principle of the Coordination Structural Integrity Suite. The Precision-First Design Standard governs the suite as a whole: every standard in it is a precise specification of what non-harming requires in a specific coordination domain. The lack of structural consent legibility produces specific harms to specific people: extraction operates inside systems that claim consent-based governance, without participants having any structural basis to verify that the consent claimed on their behalf is genuine; governance actions that benefit decision-makers at the expense of governed constituencies proceed because the distinction between who is acting and who benefits from the action is invisible in the governance record; and participants bear the costs of systems they cannot exit, cannot effectively challenge, and cannot verify are operating in their interests. This standard specifies two-axis consent legibility as the precise structural answer: an architecture that makes the 'who is acting' and 'who benefits from the action' questions independently answerable from the record.
+Non-harming is the first precision principle of the Coordination Structural Integrity Suite. The Precision-First Design Standard is the meta-standard for the suite: every standard in it is a precise specification of what non-harming requires in a specific coordination domain. The lack of structural consent legibility produces specific harms to specific people: extraction operates inside systems that claim consent-based coordination, without participants having any structural basis to verify that the consent claimed on their behalf is genuine; coordination decisions that benefit decision-makers at the expense of the affected participant population proceed because the distinction between who is acting and who benefits from the action is invisible in the coordination record; and participants bear the costs of systems they cannot exit, cannot effectively challenge, and cannot verify are operating in their interests. This standard specifies two-axis consent legibility as the precise structural answer: an architecture that makes the 'who is acting' and 'who benefits from the action' questions independently answerable from the record.
 
-Every governance system claims to act with the consent of its participants. Almost none can prove it. The gap between claimed consent and structural consent is not a philosophical distinction. It is the mechanism through which extraction operates inside systems that were designed to prevent it.
+Every coordination system claims to act with the consent of its participants. Almost none can prove it. The gap between claimed consent and structural consent is not a philosophical distinction. It is the mechanism through which extraction operates inside systems that were designed to prevent it.
 
-Consent in most governance systems is reduced to voting: a numerical
+Consent in most coordination systems is reduced to voting: a numerical
 threshold is met, and the change is deemed authorized. This standard
 establishes a higher bar. Drawing on Betty Martin's Wheel of Consent
 framework, it requires that every consent-bearing interaction be
@@ -40,7 +40,7 @@ answers are obscured, the interaction operates in a shadow dynamic that
 may be invisible to the system's participants but is structurally
 detectable.
 
-No widely deployed governance mechanism fully satisfies this standard's
+No widely deployed coordination mechanism fully satisfies this standard's
 requirements. Token-weighted voting, delegated authorization, optimistic
 approval, and on-chain permission systems all fail to answer the "who is
 it for" axis and cannot structurally distinguish proposals that benefit
@@ -50,8 +50,8 @@ at scale through consent fatigue. This standard addresses that gap
 across all of these contexts.
 
 The standard is transferable. It is designed for adoption by any
-coordination system, governance protocol, or organization that needs to
-verify that consent is structurally present, not merely claimed. Adoption
+coordination system or organization that needs to verify that consent is
+structurally present, not merely claimed. Adoption
 tiers (Section 5) allow organizations to adopt the standard at the level
 appropriate to their operational context.
 
@@ -64,15 +64,14 @@ appropriate to their operational context.
 *Boundary classes*
 - Felt-experience: This standard assesses structural consent legibility, not experienced consent. Structural legibility is necessary but not sufficient for consent that is genuinely experienced as free, fair, and accessible. What a participant experiences inside a structurally legible consent transaction is outside this standard's vocabulary; it is the class where structural legibility ends and lived experience begins.
 - Structural-mechanical: This standard does not address how consent misalignment generates structural loads in the tensegrity configuration, modifies pre-stress distribution, or creates exploitation vectors at the configuration level.
-- Temporal-dynamic (frequency-dynamic sub-aspect): This standard addresses structural conditions for consent legibility but not how consent architecture responds to the frequency or rhythm of governance pressure over time.
+- Temporal-dynamic (frequency-dynamic sub-aspect): This standard addresses structural conditions for consent legibility but not how consent architecture responds to the frequency or rhythm of coordination pressure over time.
 
 2\. Foundational Framework: The Wheel of Consent
 
 This standard adopts Betty Martin's Wheel of Consent as its foundational
 consent framework. The four-quadrant model and shadow dynamics are
 Martin's original contribution, cited here with attribution. The
-application of this framework to governance systems, coordination
-protocols, and data sovereignty, including the five consent domains and
+application of this framework to coordination systems and protocols, and data sovereignty, including the five consent domains and
 the structural verification architecture defined in this standard, is
 original to this standard.
 
@@ -168,7 +167,7 @@ structural indicator of valid consent.
 
 **Bidirectional awareness.** Non-shadow dynamics require both parties to
 know who is doing and who it is for. Shadow dynamics obscure one or both
-axes. When the beneficiary of a governance action is hidden (stealing)
+axes. When the beneficiary of a coordination action is hidden (stealing)
 or when the person acted upon does not know the action is for the other
 party's benefit (enduring), the bidirectional awareness test fails. The
 system must be able to verify that both axes were legible to both
@@ -186,7 +185,7 @@ formally permitted.
 A detection architecture implementing this standard instruments all
 three features. The absence of negotiated limits in high-service
 contexts, the absence of bidirectional awareness in self-benefiting
-governance actions, and the structural infeasibility of withdrawal in
+coordination actions, and the structural infeasibility of withdrawal in
 nominally consensual participation are the shadows' structural
 fingerprints.
 
@@ -194,9 +193,9 @@ fingerprints.
 
 A distinct class of consent failure is produced not by parties' failure of capacity or consent architecture, but by the imposition of external legal requirements that override the explicit consent arrangements within the coordination system. Securities law may classify participation tokens in ways that impose obligations participants did not consent to. Employment and labor law may impose obligations on contributors who participated under different terms. Territorial data requirements may override data sovereignty arrangements that were explicitly consented to. Anti-money-laundering and know-your-customer requirements may impose surveillance obligations that participants did not agree to when they joined the system.
 
-This shadow dynamic differs from the four quadrant-generated shadows: it is externally imposed rather than generated by the parties' relationship. Neither party's failure of consent practice produces it. The structural threat is that participants believe they have consented only to what is in the governance documents, while external legal frameworks impose material obligations that were not in those documents and that participants did not structurally choose.
+This shadow dynamic differs from the four quadrant-generated shadows: it is externally imposed rather than generated by the parties' relationship. Neither party's failure of consent practice produces it. The structural threat is that participants believe they have consented only to what is in the coordination documents, while external legal frameworks impose material obligations that were not in those documents and that participants did not structurally choose.
 
-The consent architecture must name this threat explicitly for the adopting context, identify which external legal jurisdictions apply, and specify how the organization governs the gap between its explicit consent architecture and externally imposed obligations. Absence of this disclosure is a consent legibility failure: participants cannot evaluate what they are consenting to if the consent architecture does not acknowledge the legal constraints that can override parts of it.
+The consent architecture must name this threat explicitly for the adopting context, identify which external legal jurisdictions apply, and specify how the organization addresses the gap between its explicit consent architecture and externally imposed obligations. Absence of this disclosure is a consent legibility failure: participants cannot evaluate what they are consenting to if the consent architecture does not acknowledge the legal constraints that can override parts of it.
 
 2.4 The Circle of Consent
 
@@ -216,11 +215,11 @@ Across all implementations and domains, this standard requires:
 
 3.1 Identify
 
-**Prior condition: action specification.** The Identify invariant presupposes that the action being consented to has been specified with sufficient precision for affected parties to evaluate whether they are materially affected. A standing claim cannot be properly made or evaluated against an underspecified action. "Approving the governance proposal" is not a sufficient action specification for standing evaluation; "approving the governance proposal that alters fee distribution in the following way" is. When an action is specified only at a category level — "the committee is authorized to make fee decisions" — the affected constituency cannot be identified in advance, and the Identify invariant cannot be satisfied before the action proceeds. Systems that use category-level authorization as a substitute for per-action consent must specify the conditions under which a specific action within the authorized class triggers a standing evaluation, and must perform that evaluation before the specific action proceeds.
+**Prior condition: action specification.** The Identify invariant presupposes that the action being consented to has been specified with sufficient precision for affected parties to evaluate whether they are materially affected. A standing claim cannot be properly made or evaluated against an underspecified action. "Approving the coordination proposal" is not a sufficient action specification for standing evaluation; "approving the coordination proposal that alters fee distribution in the following way" is. When an action is specified only at a category level — "the committee is authorized to make fee decisions" — the affected constituency cannot be identified in advance, and the Identify invariant cannot be satisfied before the action proceeds. Systems that use category-level authorization as a substitute for per-action consent must specify the conditions under which a specific action within the authorized class triggers a standing evaluation, and must perform that evaluation before the specific action proceeds.
 
 For any consent-bearing action, the affected constituency must be
 identified before the action proceeds. "Affected constituency" means the
-set of participants whose governance standing, coordination records,
+set of participants whose coordination standing, coordination records,
 data sovereignty, participation terms, or observation exposure would be
 materially altered by the action.
 
@@ -247,7 +246,7 @@ The system does not pre-screen who is "really" affected; it evaluates
 claims after they are made.
 
 Evidence-backed evaluation applies three criteria to each standing
-claim. First: is there system evidence that this party's governance
+claim. First: is there system evidence that this party's coordination
 standing, coordination records, data sovereignty, participation terms,
 or observation exposure would be materially altered by the action?
 Second: if the claimant self-identifies without system evidence, is the
@@ -291,7 +290,7 @@ First, it must be accessible to any party asserting standing, without
 requiring access from parties holding more authority. Second, it must be
 durable: the definition cannot be modified unilaterally by parties
 holding concentrated authority; any modification that alters who holds
-participation rights is a governance consent action requiring the
+participation rights is a coordination consent action requiring the
 Authorize invariant as applied to the affected constituency whose
 standing is altered. Third, it must be specific enough that an
 independent observer can determine whether any given party holds
@@ -371,17 +370,17 @@ adopting this standard must identify which domains are relevant to their
 operations and satisfy the invariants (Section 3) in each relevant
 domain.
 
-4.1 Governance Consent
+4.1 Coordination Consent
 
 Changes to rules, parameters, structures, and decision-making processes.
 The Wheel of Consent test: who is proposing the change, and who benefits
 from ratification?
 
-Shadow dynamics in this domain: a governance body that ratifies changes
+Shadow dynamics in this domain: a coordination body that ratifies changes
 benefiting itself at the constituency's expense (entitlement/stealing);
-participants who endure governance outcomes they did not meaningfully
+participants who endure coordination outcomes they did not meaningfully
 consent to because the cost of exit or objection is too high (enduring);
-governance service that exceeds the server's capacity, producing
+coordination service that exceeds the server's capacity, producing
 resentment-driven gatekeeping or burnout (martyrdom).
 
 Relationship to OCAP: Authority to Control. Relationship to CARE:
@@ -400,7 +399,7 @@ beyond their comfort because they see no alternative (enduring); systems
 that treat data access as an entitlement rather than a negotiated gift
 (entitlement).
 
-Three patterns characterize the current landscape across governance
+Three patterns characterize the current landscape across coordination
 contexts. Systems that grant access to individual interactions without
 bounding the scope of profile construction that aggregated access
 enables fail the Data consent test: users consent to individual
@@ -443,12 +442,12 @@ organizational layer may act in on the participant's behalf, what types
 of actions are within scope (e.g., parameter changes within the current
 framework vs. structural changes to the framework itself), and what
 actions are reserved for individual consent regardless of organizational
-governance outcomes.
+coordination outcomes.
 
 Scope expansion requires re-consent. If the organization seeks to use
 participant data, modify participation terms, or extend observation
 scope beyond what was specified at entry, it must obtain individual
-consent for the expanded scope. This is not a governance vote; it is a
+consent for the expanded scope. This is not a coordination vote; it is a
 per-individual consent process in the relevant domain, because the
 affected constituency is individual, not organizational.
 
@@ -486,13 +485,13 @@ entitlement rather than a gift from the observed (entitlement).
 
 4.5.1 Observation Consent Specification
 
-Consent to observation must be obtained at each governance layer at
+Consent to observation must be obtained at each coordination layer at
 which participants can make an independent decision about what they
 permit to be monitored. In a protocol with layered adoption architecture,
 this requires at minimum: network-level consent (at protocol adoption),
 organization-level consent (at onboarding), and scope-change consent
 (when the detection surface expands). Each layer requires specified
-scope and recourse. Adopting systems with different governance
+scope and recourse. Adopting systems with different coordination
 architectures must identify the analogous layers for their design.
 
 **Level 1: Network-level consent (at protocol adoption).** When an
@@ -512,7 +511,7 @@ quadrant implemented correctly: the organization grants access to the
 observer for a specified purpose, within negotiated limits.
 
 **Level 3: Scope-change consent (when detection surface expands).** If
-the observation scope is expanded through governance action, existing
+the observation scope is expanded through coordination action, existing
 participating organizations must be notified and given the opportunity
 to consent to the expanded scope. Scope expansion without re-consent is
 a consent failure in the Observation consent domain. This does not grant
@@ -522,7 +521,7 @@ Section 6), and a meaningful option to adjust participation terms if the
 expanded scope exceeds the organization's comfort.
 
 Recourse for observation scope disputes follows a three-step path:
-formal challenge through the system's governance process, self-audit by
+formal challenge through the system's coordination process, self-audit by
 the observation layer to verify whether the observation was within
 scope, and scope clarification through Signal Escalation if the boundary
 is substantively ambiguous.
@@ -531,20 +530,20 @@ is substantively ambiguous.
 
 Audio recording of coordination sessions is a specific instance of observation consent that requires named treatment within the Level 2 consent architecture. When the adopting system or protocol designates spoken coordination sessions as sensemaking record sources (per the Sensemaking Standard, Section 9.2), the observation consent scope specified at onboarding must explicitly cover that recording practice: what sessions may be recorded, how recordings are processed and stored, who has access to recordings and transcripts, and the retention and deletion terms. Observation consent that does not name audio recording as an in-scope modality does not cover it; recording without explicit scope coverage is a consent failure in this domain.
 
-Within a session covered by organizational-level recording consent, individual participants retain identity-linked consent rights that the organizational layer may not override. Voice anonymization is the privacy-preserving default under Section 4.6.2: a participant who requests that their voice not be individually identifiable in a transcript or recording is exercising an identity-linked consent right that must be honored without requiring justification and without adverse governance consequences. This is a boundary within the session, not a withdrawal from it, and the consent architecture must structurally support it.
+Within a session covered by organizational-level recording consent, individual participants retain identity-linked consent rights that the organizational layer may not override. Voice anonymization is the privacy-preserving default under Section 4.6.2: a participant who requests that their voice not be individually identifiable in a transcript or recording is exercising an identity-linked consent right that must be honored without requiring justification and without adverse coordination consequences. This is a boundary within the session, not a withdrawal from it, and the consent architecture must structurally support it.
 
-The content-driven recording pause is structurally distinct from the identity-linked request. When a participant requests that recording be paused in order to address a coordination matter rather than for identity reasons, that request implicates the sensemaking record architecture rather than individual identity consent. Conflating the two produces either honor-everything (suppressing governance signals) or escalate-everything (violating individual consent rights). The Sensemaking Standard, Section 9.2, specifies how the content-driven pattern is classified and processed. The Adverse Signal Engagement Principle, Sections 3.1.2 and 4.1, governs the escalation path and anti-retaliation obligations.
+The content-driven recording pause is structurally distinct from the identity-linked request. When a participant requests that recording be paused in order to address a coordination matter rather than for identity reasons, that request implicates the sensemaking record architecture rather than individual identity consent. Conflating the two produces either honor-everything (suppressing coordination signals) or escalate-everything (violating individual consent rights). The Sensemaking Standard, Section 9.2, specifies how the content-driven pattern is classified and processed. The Adverse Signal Engagement Principle, Sections 3.1.2 and 4.1, governs the escalation path and anti-retaliation obligations.
 
 Relationship to Sensemaking Standard: Section 9.2 (spoken coordination channels, consent architecture for recording). Relationship to OCAP: Access, Control. Relationship to CARE: Responsibility, Ethics.
 
 4.5.3 Measurement Framework Consent
 
-Consent to a measurement framework is a distinct consent layer from consent to data collection and from consent to governance participation. A party being measured by a framework that cannot fully perceive their coordination dynamics has not fully consented unless that limitation has been made explicitly legible to them. This includes: what categories of coordination activity the framework can detect, what categories it cannot, and whether the framework's own vocabulary gaps are acknowledged and documented. When the measurement architecture's perceptual limits systematically exclude a party's coordination activities from the record, the party is consenting under a material omission. That omission must be disclosed at the Level 2 consent stage (Section 4.5.1) and must be updated through the Level 3 scope-change process whenever the detection architecture is revised in ways that expand or contract the perceptual boundary. Relationship to Information Asymmetry Classification Standard: Descriptive Capacity Asymmetry (Extension Class C, Section 5), which specifies the mechanism by which measurement vocabulary limitations produce structural invisibility.
+Consent to a measurement framework is a distinct consent layer from consent to data collection and from consent to coordination participation. A party being measured by a framework that cannot fully perceive their coordination dynamics has not fully consented unless that limitation has been made explicitly legible to them. This includes: what categories of coordination activity the framework can detect, what categories it cannot, and whether the framework's own vocabulary gaps are acknowledged and documented. When the measurement architecture's perceptual limits systematically exclude a party's coordination activities from the record, the party is consenting under a material omission. That omission must be disclosed at the Level 2 consent stage (Section 4.5.1) and must be updated through the Level 3 scope-change process whenever the detection architecture is revised in ways that expand or contract the perceptual boundary. Relationship to Information Asymmetry Classification Standard: Descriptive Capacity Asymmetry (Extension Class C, Section 5), which specifies the mechanism by which measurement vocabulary limitations produce structural invisibility.
 
 4.6 Domain Interaction
 
 The five domains are not independent. A single system action may
-implicate multiple domains simultaneously. For example: a governance
+implicate multiple domains simultaneously. For example: a coordination
 change (4.1) that modifies data collection practices (4.2) affecting
 participants who did not consent to the new collection scope (4.3) and
 whose outputs will be used in new contexts (4.4) under new observation
@@ -563,7 +562,7 @@ layered specificity: the layer closest to the affected party governs,
 unless the affected party has explicitly delegated consent authority to
 the organizational layer for a specified scope (see Section 4.3.1).
 
-Organization-first consent (where organizational governance decisions
+Organization-first consent (where organizational coordination decisions
 automatically bind participants) produces enduring by default.
 Participants who disagree with a data use decision must either exit at
 structural cost or endure. Individual-first consent (where every
@@ -576,18 +575,18 @@ the organizational layer may decide on the individual's behalf.
 When individual and organizational consent conflict on a matter within
 the delegation scope, the escalation path is: mediation, review of
 whether the delegation scope actually covers the disputed action, and
-Signal Escalation processing of the conflict as a governance consent
+Signal Escalation processing of the conflict as a coordination consent
 domain signal. The system does not default to organizational override.
 
 4.6.2 Privacy Directionality as a Cross-Domain Constraint
 
 Across all five consent domains, where a design choice exists between a more and a less privacy-preserving option, the more privacy-preserving option is the structural default. This default may be departed from only when a specific, documented reason requires the less privacy-preserving option and that reason is legible to the affected constituency. A departure without a documented reason is a precision deficit under the Precision-First Design Standard and a consent failure in the relevant domain.
 
-This is a cross-domain constraint, not a property of any single domain. It applies to governance consent (what governance records are public), data consent (what participant data is collected and retained), participation consent (what information entry or continued membership requires), output consent (how outputs travel beyond their originating context), and observation consent (what is monitored and at what resolution).
+This is a cross-domain constraint, not a property of any single domain. It applies to coordination consent (what coordination records are public), data consent (what participant data is collected and retained), participation consent (what information entry or continued membership requires), output consent (how outputs travel beyond their originating context), and observation consent (what is monitored and at what resolution).
 
 **System-initiated and participant-initiated exposure are distinct categories.** The privacy-as-default principle applies to system-initiated exposure: any disclosure of participant information that occurs without a specific, prior consent action by the affected participant. System-initiated exposure that is not required for the system's minimum viable function is a consent failure in the relevant domain unless the affected participant has explicitly authorized it.
 
-Participant-initiated disclosure is categorically different. It is triggered by an explicit consent action: entering a governance process, submitting a record, naming a counterparty, or configuring a disclosure preference. The minimum disclosure that follows from such an action as a structural consequence of that action is not system-initiated exposure. It is the functional scope of the consent already given.
+Participant-initiated disclosure is categorically different. It is triggered by an explicit consent action: entering a coordination process, submitting a record, naming a counterparty, or configuring a disclosure preference. The minimum disclosure that follows from such an action as a structural consequence of that action is not system-initiated exposure. It is the functional scope of the consent already given.
 
 This distinction is particularly relevant in confirmation architectures, where a participant who names a counterparty has entered the Wheel of Consent's allowing quadrant with respect to that counterparty for that event. The counterparty's ability to perceive enough of the event to confirm it is a consequence of being named, not a system-imposed disclosure. The privacy-default principle does not constrain this case; the three invariants (Identify, Authorize, Verify) govern it instead.
 
@@ -651,7 +650,7 @@ constituency's expense.**
 
 Primary signal: benefit-vote correlation. The overlap ratio between
 parties who voted to ratify and parties who measurably benefit from the
-ratified action, computed across multiple governance actions. A ratio
+ratified action, computed across multiple coordination actions. A ratio
 consistently above a calibrated threshold is a monitoring trigger.
 
 Secondary signal: affected-constituency participation gap. Low
@@ -659,14 +658,14 @@ participation by the materially affected constituency combined with high
 participation by the benefiting body in the same deliberation and
 ratification process.
 
-Tertiary signal: conflict-of-interest disclosure absence. Governance
+Tertiary signal: conflict-of-interest disclosure absence. Coordination
 actions with high benefit-vote correlation where the proposer's
 conflict-of-interest disclosures are absent, vague, or pro forma.
 
 **Enduring: participation structurally compelled rather than chosen.**
 
 Primary signal: compliance-deliberation divergence. High ratification
-rates combined with low deliberation participation across governance
+rates combined with low deliberation participation across coordination
 actions. Participants who consistently vote without participating in the
 deliberation that precedes the vote are exhibiting a compliance pattern
 that may indicate structural compulsion rather than genuine consent.
@@ -677,26 +676,26 @@ dependencies) who show the highest compliance rates and lowest
 deliberation participation.
 
 Tertiary signal: battery vector stress signatures. Elevated stress
-indicators concurrent with governance compliance, where available in the
+indicators concurrent with coordination compliance, where available in the
 system's measurement architecture.
 
-**Martyrdom: governance service exceeding the server's limits.**
+**Martyrdom: coordination service exceeding the server's limits.**
 
 Primary signal: service concentration with declining quality. A small
-number of participants handling a disproportionate share of governance
+number of participants handling a disproportionate share of coordination
 labor with declining quality metrics over time (longer response
 latencies, shorter review outputs, higher revision rates).
 
-Secondary signal: delegation absence. Concentrated governance labor
+Secondary signal: delegation absence. Concentrated coordination labor
 without corresponding delegation or succession activity despite
-available capacity in the governance body.
+available capacity in the coordination body.
 
-Tertiary signal: resistance to relief. When governance labor rebalancing
+Tertiary signal: resistance to relief. When coordination labor rebalancing
 is proposed, the concentrated participant resists or does not
 participate in deliberation about rebalancing.
 
 Detection signals are composite. A single instance of any monitoring-threshold
-signal triggers monitoring. Persistent patterns across multiple governance
+signal triggers monitoring. Persistent patterns across multiple coordination
 actions, combined with higher-confidence signals, trigger escalation
 through the system's Signal Escalation process. Individual signals are
 never treated as conclusive. The detection architecture must
@@ -705,39 +704,39 @@ SCLS-Instrumented level must know what patterns are being monitored (this is
 itself a consent requirement in the Observation consent domain; see
 Section 4.5.1).
 
-5.4 SCLS-Accountable
+5.4 SCLS-Loop-Closed
 
-Includes all SCLS-Instrumented requirements plus closed governance loop architecture.
+Includes all SCLS-Instrumented requirements plus closed coordination loop architecture.
 
-The defining property of SCLS-Accountable is that governance inaction in the presence of a detected consent failure is structurally visible without depending on any actor's cooperation. At SCLS-Instrumented, the detection architecture produces consent failure outputs. At SCLS-Accountable, those outputs produce mandatory governance responses, and the absence of a response is itself a detected event.
+The defining property of SCLS-Loop-Closed is that inaction by coordination actors in the presence of a detected consent failure is structurally visible without depending on any actor's cooperation. At SCLS-Instrumented, the detection architecture produces consent failure outputs. At SCLS-Loop-Closed, those outputs produce mandatory documented responses, and the absence of a response is itself a detected event.
 
 Minimum requirements:
 
-Every consent failure detection output (shadow dynamic detection, implausible absence of a standing claim, or consent invariant violation per Section 3.4) must produce a documented governance review within a defined window. A window is valid under SCLS-Accountable if it satisfies three conditions: it is specified before any adoption claim is made; it is publicly documented so that any governance actor can verify whether the system is meeting its own stated commitment; and it is short enough that governance inaction within it is detectable before the next governance cycle in which the underlying consent failure could compound. The adopting system must define its governance cycle length in the same public documentation that specifies the window, as the two specifications are co-dependent. The review record must include: the consent failure identifier, the shadow dynamic classification or invariant violation type, the review outcome (including outcomes of no action, deferral, or declined action), the actor or body responsible for the review, and the rationale. A decision to take no action is a decision and must be documented as such. The absence of any documented review is not a permissible outcome at SCLS-Accountable.
+Every consent failure detection output (shadow dynamic detection, implausible absence of a standing claim, or consent invariant violation per Section 3.4) must produce a documented coordination review within a defined window. A window is valid under SCLS-Loop-Closed if it satisfies three conditions: it is specified before any adoption claim is made; it is publicly documented so that any coordination actor can verify whether the system is meeting its own stated commitment; and it is short enough that inaction within it is detectable before the next coordination cycle in which the underlying consent failure could compound. The adopting system must define its coordination cycle length in the same public documentation that specifies the window, as the two specifications are co-dependent. The review record must include: the consent failure identifier, the shadow dynamic classification or invariant violation type, the review outcome (including outcomes of no action, deferral, or declined action), the actor or body responsible for the review, and the rationale. A decision to take no action is a decision and must be documented as such. The absence of any documented review is not a permissible outcome at SCLS-Loop-Closed.
 
-The absence of a documented review within the defined window must produce automatic disclosure to all governance actors without requiring any actor's initiation. This disclosure makes the consent failure detection output, its classification, the elapsed time since detection, and the absence of a governance review simultaneously visible to all governance actors. This disclosure is a structural consequence of the consent failure detection architecture, not a discretionary act. A system in which this disclosure requires a human decision to publish has not closed the governance loop and does not meet SCLS-Accountable.
+The absence of a documented review within the defined window must produce automatic disclosure to all coordination actors without requiring any actor's initiation. This disclosure makes the consent failure detection output, its classification, the elapsed time since detection, and the absence of a coordination review simultaneously visible to all coordination actors. This disclosure is a structural consequence of the consent failure detection architecture, not a discretionary act. A system in which this disclosure requires a human decision to publish has not closed the coordination loop and does not meet SCLS-Loop-Closed.
 
-The governance review record is append-only. Reviews cannot be modified after recording; corrections are recorded as new entries referencing the original. This property is what makes governance inaction detectable without cooperation: an independent observer can verify that a consent failure detection output exists in the record, verify that no review entry exists within the required window, and determine that automatic disclosure was or was not produced as a consequence.
+The coordination review record is append-only. Reviews cannot be modified after recording; corrections are recorded as new entries referencing the original. This property is what makes inaction detectable without cooperation: an independent observer can verify that a consent failure detection output exists in the record, verify that no review entry exists within the required window, and determine that automatic disclosure was or was not produced as a consequence.
 
-Tier review cadence for SCLS-Accountable systems: tier review MUST occur at minimum annually and MUST include a governance loop integrity check: confirmation that the detection-to-review path operated as specified for all consent failure detection outputs in the review period, and that automatic disclosures were produced where required.
+Tier review cadence for SCLS-Loop-Closed systems: tier review MUST occur at minimum annually and MUST include a coordination loop integrity check: confirmation that the detection-to-review path operated as specified for all consent failure detection outputs in the review period, and that automatic disclosures were produced where required.
 
 5.5 SCLS-Auditable
 
-Includes all SCLS-Accountable requirements plus independent auditability.
+Includes all SCLS-Loop-Closed requirements plus independent auditability.
 
 The defining property of SCLS-Auditable is that the full detection and response architecture can be verified by a party outside the system without depending on system operator cooperation or self-certification.
 
 Minimum requirements:
 
-The complete consent failure record, from detection output through documented governance review or automatic disclosure, must be accessible to an independent auditor. Access is not contingent on operator consent during a defined audit period. The record format is sufficient for an auditor to verify completeness without access to the detection layer itself.
+The complete consent failure record, from detection output through documented review or automatic disclosure, must be accessible to an independent auditor. Access is not contingent on operator consent during a defined audit period. The record format is sufficient for an auditor to verify completeness without access to the detection layer itself.
 
 The auditor must be able to verify completeness: that all consent failure detection outputs generated in the audit period are present in the record. This requires that the detection architecture produces a verifiable count or hash of outputs generated, against which the record can be checked. A record that can only be verified for presence (each failure in the record was detected) but not for completeness (all detections are in the record) does not meet SCLS-Auditable. The gap between generated and recorded detection outputs is the detection surface for suppression; an audit that cannot detect that gap cannot verify that suppression has not occurred.
 
 The auditor must be able to verify classification integrity: that each recorded consent failure was classified using the shadow dynamic taxonomy and consent invariant tests in this standard, and that the classification applied is consistent with the detection evidence recorded.
 
-The auditor must be able to verify response completeness: that every consent failure detection output in the record produced either a documented governance review within the specified window or an automatic disclosure. Gaps in this chain are reportable findings.
+The auditor must be able to verify response completeness: that every consent failure detection output in the record produced either a documented review within the specified window or an automatic disclosure. Gaps in this chain are reportable findings.
 
-The audit itself must be documented: scope, period, auditor identity or body, findings, and system response to findings. Audit reports are retained in the governance record under the same append-only constraints as governance reviews.
+The audit itself must be documented: scope, period, auditor identity or body, findings, and system response to findings. Audit reports are retained in the coordination record under the same append-only constraints as documented reviews.
 
 SCLS-Auditable systems must make audit reports available to their participant population within a defined period after audit completion. The disclosure period is specified by the system and subject to the same precision and legibility obligations specified in Section 6.1.
 
@@ -780,7 +779,7 @@ not require the participant to independently acquire the expertise.
 
 **Exit/objection cost obligation.** The structural cost of dissent
 (including exit, objection, and abstention) must not be punitive.
-Systems where objecting to a governance outcome carries a cost
+Systems where objecting to a coordination outcome carries a cost
 (reputation penalty, social sanction, loss of access) that exceeds the
 benefit of participation operate in the enduring shadow by default. This
 obligation is the strongest test of consent validity: would a
@@ -811,7 +810,7 @@ the participants experiencing them.
 interaction falls on one side of a consent distinction or the other. A
 participant with ontological bandwidth but insufficient epistemic
 bandwidth can see the distinction but cannot assess whether a specific
-governance proposal is genuine serving or martyrdom-driven gatekeeping.
+coordination proposal is genuine serving or martyrdom-driven gatekeeping.
 
 **Pedagogical bandwidth:** the capacity to teach and transmit consent
 distinctions so they become operational within the system. Organizations
@@ -870,11 +869,11 @@ framework) requires ontological bandwidth at a deeper level: the
 capacity to perceive that the values motivating the framework are
 themselves open to examination. A system that does not invest in
 ontological bandwidth structurally caps itself at single-loop learning,
-regardless of what its governance process formally permits. This has a
-direct design implication: governance processes that require structural
+regardless of what its coordination process formally permits. This has a
+direct design implication: coordination processes that require structural
 change (changes to the framework itself, rather than changes within it)
 must invest in ontological bandwidth, not only epistemic bandwidth, or
-the governance process will default to single-loop responses at every
+the coordination process will default to single-loop responses at every
 level. Consent processes must be designed with the learning loop depth
 they require in mind.
 
@@ -925,8 +924,8 @@ consent to the probe does not constitute consent to full deployment.
 
 **Chaotic domain: act-sense-respond.** The system is in crisis and
 action must precede analysis. The consent process is inverted: the
-system acts first (under whatever emergency authority its governance
-specifies), then provides the affected constituency with an account of
+system acts first (under whatever emergency authority its coordination
+system specifies), then provides the affected constituency with an account of
 what was done and why, and obtains post-hoc ratification once the system
 returns to a non-chaotic state. The system obligation is to constrain
 emergency authority to the minimum action required, to document the
@@ -939,7 +938,7 @@ This principle extends beyond consent. Any process in a system adopting
 this standard that classifies actions by complexity domain and prescribes
 a response should verify that the response matches the action mode for
 that domain.
-A governance process that applies a linear deliberation-then-vote model
+A coordination process that applies a linear deliberation-then-vote model
 to a Complex-domain change is using a Clear-domain action mode in a
 Complex-domain context; the mismatch will produce either false certainty
 (the constituency votes on implications that cannot yet be known) or
@@ -962,7 +961,7 @@ that does not specify who acted, who benefits, who was affected, and
 what the agreed limits were is not a consent record. Systems adopting
 this standard at the SCLS-Instrumented level are strongly recommended to
 pair it with a precision-in-specification standard that applies
-precision requirements to governance proposals, consent records, and
+precision requirements to coordination proposals, consent records, and
 detection outputs.
 
 7.2 Adverse Signal Processing
@@ -994,8 +993,8 @@ for this standard. The two-axis model (who is doing / who is it for),
 the four quadrants (Serving, Taking, Accepting, Allowing), and the four
 shadow dynamics (martyrdom, stealing, entitlement, enduring) are
 Martin's original contribution. This standard applies the framework to
-governance systems, coordination protocols, and data sovereignty. The
-governance domain mapping, shadow-to-failure-mode translation, five
+coordination systems and protocols, and data sovereignty. The
+coordination domain mapping, shadow-to-failure-mode translation, five
 consent domains, and structural verification architecture are original
 to this standard.
 
@@ -1066,21 +1065,21 @@ Governance. https://www.gida-global.org/care.
 
 This standard is one of the six Tensegrity Compressive Standards within the Coordination Structural Integrity Suite: the Precision-First Design Standard, the Adverse-Signal Engagement Principle Core Standard, the Structural Consent Legibility Standard, the Information Asymmetry Classification Standard, the Structural Power Obligation Standard, and the Regenerative Obligation Standard. Each standard addresses a distinct failure mode. Each is independently valid: no standard requires the others for its own validity. Together, they form a reinforcing set.
 
-Systems adopting any one of the six Tensegrity Compressive Standards are strongly recommended to adopt all six. The full Tensegrity Compressive Standards designation applies to systems that adopt all six at Tier 4 (Accountable) or above. The designation is descriptive: a system either satisfies all five standards at Tier 4 or above, or it does not. Partial adoption at any tier is a legitimate developmental stage; claiming full Tensegrity Compressive Standards conformance on the basis of partial adoption is structural exposure theater. Partial adopters should produce a structural exposure disclosure naming which standards are not adopted and which failure modes remain unaddressed.
+Systems adopting any one of the six Tensegrity Compressive Standards are strongly recommended to adopt all six. The full Tensegrity Compressive Standards designation applies to systems that adopt all six at Tier 4 (Loop-Closed) or above. The designation is descriptive: a system either satisfies all five standards at Tier 4 or above, or it does not. Partial adoption at any tier is a legitimate developmental stage; claiming full Tensegrity Compressive Standards conformance on the basis of partial adoption is structural exposure theater. Partial adopters should produce a structural exposure disclosure naming which standards are not adopted and which failure modes remain unaddressed.
 
 A structural exposure disclosure must contain four elements to be substantive. First, the disclosure must name each standard not adopted or not yet at Tier 4, using its full canonical name. Second, for each absent standard, the disclosure must describe in plain language the specific failure mode class that standard addresses and what becomes structurally undetectable in its absence. Third, for each absent standard, the disclosure must state a self-assessed exposure level (low, medium, or high) with a rationale sufficient for an independent reader to evaluate the assessment. Fourth, for each absent standard where compensating controls exist, the disclosure must name those controls, describe their mechanism, and explain why they are considered adequate for the assessed exposure level. Where no compensating controls exist, the disclosure must say so explicitly. A disclosure that satisfies the form without the substance is itself a precision deficit under the Precision-First Design Standard. The full conformance theater prevention architecture is specified in the Proof of Coordination Architecture document.
 
-The Sensemaking Standard governs an organization's capacity to perceive and apply all six standards with understanding. It is architecturally distinct from the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite.
+The Sensemaking Standard covers an organization's capacity to perceive and apply all six standards with understanding. It is architecturally distinct from the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite.
 
 8\. Inheritance Clause
 
 Systems adopting this standard should include the following statement in
-their governance documentation:
+their coordination documentation:
 
 *Structural Consent Legibility Inheritance: This
 \[document/system/protocol\] adopts the Structural Consent Legibility
 Standard (v\[X\], \[date\]) at the \[SCLS-Assessed /
-SCLS-Operational / SCLS-Instrumented / SCLS-Accountable / SCLS-Auditable\] level. The consent domains identified
+SCLS-Operational / SCLS-Instrumented / SCLS-Loop-Closed / SCLS-Auditable\] level. The consent domains identified
 as relevant to this system's operations are: \[list relevant domains
 from the five\]. Consent domains identified as not applicable: \[list,
 with rationale\].*
@@ -1097,7 +1096,7 @@ Adoption of this standard at any tier below the full Tensegrity Compressive Stan
 
 8.1 Precision-First Inheritance
 
-*Precision-First Inheritance: This document adopts the Precision-First Design Standard at the PFDS-Operational tier. Every element of this document is subject to that standard at the declared tier. Any revision that reduces definitional precision, replaces typed constructs with vague terms, collapses previously distinguishable states, or makes a falsifiable claim unfalsifiable is a design error requiring correction, not a legitimate exercise of governance or editorial discretion.*
+*Precision-First Inheritance: This document adopts the Precision-First Design Standard at the PFDS-Operational tier. Every element of this document is subject to that standard at the declared tier. Any revision that reduces definitional precision, replaces typed constructs with vague terms, collapses previously distinguishable states, or makes a falsifiable claim unfalsifiable is a design error requiring correction, not a legitimate exercise of coordination or editorial discretion.*
 
 9. Open Design Questions
 
@@ -1111,10 +1110,10 @@ resolution appears.
 Resolved. See Section 3.1.1. Open edge: calibration of evaluation
 criteria thresholds requires pilot data.
 
-**9.2 Detection signatures for governance shadow dynamics.** Resolved.
+**9.2 Detection signatures for coordination consent shadow dynamics.** Resolved.
 See Section 5.3.1. Open edges: shadow detection threshold calibration
 (how much benefit-vote correlation constitutes stealing vs. normal
-governance) requires pilot data. Compound shadow model (organizations
+coordination) requires pilot data. Compound shadow model (organizations
 operating in multiple shadows simultaneously) requires a compositional
 detection architecture; design question for the detection layer specification of any adopting system.
 
@@ -1137,10 +1136,10 @@ specified.
 
 **9.6 Meta-consent for observation layers.** Open. An observation layer
 that audits its own observation scope is a self-referential problem. The
-observation layer's monitoring of its own behavior is a governance
-consent domain question (who authorized the layer to audit itself?) that
+observation layer's monitoring of its own behavior is a coordination consent
+domain question (who authorized the layer to audit itself?) that
 requires external validation from the tenant body, not
-self-certification. Named as an ongoing governance challenge that
+self-certification. Named as an ongoing coordination challenge that
 requires continuous attention rather than a one-time design decision.
 
 Relationship To Other Standards
@@ -1173,6 +1172,12 @@ Without this standard participation can appear consensual while being extractive
 Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 Changelog
+
+**v0.3.23 (2026-04-15):** Frame Language pass (Row 7 v0.1.6). One residual non-admissible hit: "The Sensemaking Standard governs an organization's capacity" → "covers." Admissible: all other remaining "govern" instances are Case 1 (Section 1 opening), Case 2 (Ostrom, CARE/OCAP, indigenous governance authority), Case 3 (external regulatory doctrine), or plain English verb. No normative content changes.
+
+**v0.3.22 (2026-04-15):** Frame Language bridge vocabulary tightening. Residual Frame 1 vocabulary corrected under the revised Row 7 three-case rule. "consent-based governance" → "consent-based coordination"; "governance actions" → "coordination decisions"; "governance record" in Section 1 harms paragraph → "coordination record"; "Every governance system" (paragraph 5 of Section 1) → "Every coordination system"; "most governance systems" → "most coordination systems"; "governance mechanism" → "coordination mechanism"; "governance protocol" removed from Section 1 transferability clause (redundant with "coordination system"); "governance pressure" → "coordination pressure"; "governance systems, coordination protocols" in Section 2 attribution note → "coordination systems and protocols"; "governance domain mapping" in Section 7.3 → "coordination domain mapping"; "governance documents" in Section 2.3.2 → "coordination documents"; "governs the gap" → "addresses the gap"; "governance contexts" in Section 4.2 → "coordination contexts"; "adverse governance consequences" in Section 4.5.2 → "adverse coordination consequences"; "suppressing governance signals" in Section 4.5.2 → "suppressing coordination signals"; "governance participation" in Section 4.5.3 → "coordination participation"; "exercise of governance or editorial discretion" in Section 8.1 → "exercise of coordination or editorial discretion." Admissible exceptions retained: opening two paragraphs of Section 1 (Case 1), Ostrom commons governance reference in Section 3.1 (Case 2), indigenous governance authority in OCAP/CARE compliance bridge (Case 3). No normative content added or removed.
+
+**v0.3.21 (2026-04-15):** Frame Language pass. Frame 1 vocabulary replaced with Frame 2 equivalents throughout normative content. "governance actions/process/vote/proposal/body/decisions/outcomes/standing/layer/architecture" replaced with "coordination" equivalents across Sections 2.3.1, 3.1, 3.1.1, 3.1.2, 4.1 (heading and body), 4.3.1, 4.5.1, 4.6, 4.6.1, 4.6.2, 5.3.1, 6.2, 6.3, 6.4, 7.1, 9.2, and 9.6. Section 4.1 renamed from "Governance Consent" to "Coordination Consent." Tier 4 renamed from "SCLS-Accountable" to "SCLS-Loop-Closed" throughout normative text (Sections 5.4 heading, 5.4 body, 5.5 opening, 7.5 conformance threshold, Section 8 inheritance clause tier list). Section 5.4 heading updated accordingly; closed-loop requirement language updated to use "coordination" equivalents throughout. "governs the suite as a whole" in Section 1 replaced with "is the meta-standard for the suite" (PFDS boilerplate correction). "their governance documentation" in Section 8 replaced with "their coordination documentation." No normative content added or removed.
 
 **v0.3.20 (2026-04-11):** Three normative additions addressing structural consent failures surfaced by DAO failure case analysis. (1) Cost-bearing party identification added to Section 2.1: the two-axis framework is supplemented with an explicit requirement to identify who bears the cost when the cost-bearing party is distinct from both the acting and benefiting parties; failure to identify the cost-bearing party is a consent failure independent of two-axis legibility. (2) External legal override named as a structural threat in new Section 2.3.2: external legal requirements (securities classification, employment law, data sovereignty mandates, anti-money-laundering obligations) can override explicit consent architecture; the consent architecture must name applicable jurisdictions and govern the gap between explicit consent and externally imposed obligations. (3) Action specification prior condition added to Section 3.1: the Identify invariant presupposes that the action being consented to is specified with sufficient precision for affected parties to evaluate standing; category-level authorization cannot substitute for per-action consent without a named trigger condition for standing evaluation.
 
