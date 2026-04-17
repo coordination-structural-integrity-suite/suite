@@ -4,7 +4,7 @@ Paste-and-go prompts for using the Coordination Structural Integrity Suite with 
 
 Copy the full contents of any prompt file, paste it into any AI chat (Claude, ChatGPT, Gemini, or similar), and describe your situation or attach the document you want assessed. No prior knowledge of the suite is required. The prompts carry everything the AI needs.
 
-**If you are new to the suite and do not know where to start, use the [Where Do I Start? triage prompt](suite/suite-triage-where-do-i-start-0_1_0.md) first.** It assesses your situation and routes you to the right instrument, with an explanation of why.
+**If you are new to the suite and do not know where to start, use the [Where Do I Start? triage prompt](suite/suite-triage-where-do-i-start-0_1_1.md) first.** It assesses your situation and routes you to the right instrument, with an explanation of why.
 
 **Two entry paths.** This prompt system has two tracks. Start with the Explore prompt if you are new to the suite, want to understand whether it applies, or want to orient yourself before committing to a formal process. Start with the Coordination Structural Integrity Suite Assessment if you want to formally assess your organization's structural health across all nine standards and produce a concrete gap map and advancement roadmap. The assessment process works best after the exploration — it builds on the vocabulary and structural self-knowledge the exploration develops.
 
@@ -67,41 +67,41 @@ For auditing or assessing against multiple standards at once, or for orientation
 
 | Prompt | Use it on |
 |---|---|
-| [General Audit](precision-first/precision-first-audit-general-0_1_4.md) | Any document, specification, or standard |
-| [Governance Audit](precision-first/precision-first-audit-governance-0_1_4.md) | Decentralized autonomous organization proposals, bylaws, charters, policies, constitutions |
-| [Software Audit](precision-first/precision-first-audit-software-0_1_4.md) | Application programming interface contracts, requirements docs, schemas, technical designs |
+| [General Audit](../compressive/prompts/precision-first/precision-first-audit-general-0_1_4.md) | Any document, specification, or standard |
+| [Governance Audit](../compressive/prompts/precision-first/precision-first-audit-governance-0_1_4.md) | Decentralized autonomous organization proposals, bylaws, charters, policies, constitutions |
+| [Software Audit](../compressive/prompts/precision-first/precision-first-audit-software-0_1_4.md) | Application programming interface contracts, requirements docs, schemas, technical designs |
 
 ### Adverse Signal Engagement Principle Core Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Organizational Audit](adverse-signal/organizational-adverse-signal-audit-0_1_1.md) | Governance documents, policies, process descriptions |
-| [Regulatory Compliance Audit](adverse-signal/regulatory-compliance-adverse-signal-audit-0_1_1.md) | Compliance frameworks, regulatory submissions |
-| [AI Systems Audit](adverse-signal/ai-adverse-signal-audit-0_1_1.md) | AI system designs, model documentation, feedback architectures |
+| [Organizational Audit](../compressive/prompts/adverse-signal/organizational-adverse-signal-audit-0_1_1.md) | Governance documents, policies, process descriptions |
+| [Regulatory Compliance Audit](../compressive/prompts/adverse-signal/regulatory-compliance-adverse-signal-audit-0_1_1.md) | Compliance frameworks, regulatory submissions |
+| [AI Systems Audit](../compressive/prompts/adverse-signal/ai-adverse-signal-audit-0_1_1.md) | AI system designs, model documentation, feedback architectures |
 
 ### Structural Consent Legibility Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Consent Legibility Audit](structural-consent/structural-consent-audit-0_1_1.md) | Governance documents, participation terms, consent architecture |
+| [Consent Legibility Audit](../compressive/prompts/structural-consent/structural-consent-audit-0_1_1.md) | Governance documents, participation terms, consent architecture |
 
 ### Information Asymmetry Classification Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Asymmetry Classification Audit](information-asymmetry/information-asymmetry-audit-0_1_1.md) | Coordination system descriptions, governance documents, platform architecture |
+| [Asymmetry Classification Audit](../compressive/prompts/information-asymmetry/information-asymmetry-audit-0_1_1.md) | Coordination system descriptions, governance documents, platform architecture |
 
 ### Structural Power Obligation Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Power Obligation Audit](structural-power-obligation/structural-power-obligation-audit-0_1_2.md) | Governance documents, organizational descriptions, protocol architecture |
+| [Power Obligation Audit](../compressive/prompts/structural-power-obligation/structural-power-obligation-audit-0_1_2.md) | Governance documents, organizational descriptions, protocol architecture |
 
 ### Regenerative Obligation Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Regenerative Obligation Audit](regenerative-obligation/regenerative-obligation-audit-0_1_2.md) | Organizations or protocols — assesses whether return to harm-bearing parties meets three simultaneous validity conditions |
+| [Regenerative Obligation Audit](../compressive/prompts/regenerative-obligation/regenerative-obligation-audit-0_1_2.md) | Organizations or protocols — assesses whether return to harm-bearing parties meets three simultaneous validity conditions |
 
 ---
 
@@ -111,19 +111,19 @@ For auditing or assessing against multiple standards at once, or for orientation
 
 | Prompt | Use it on |
 |---|---|
-| [Sensemaking Presence Assessment](sensemaking/sensemaking-presence-assessment-0_1_2.md) | Coordination systems, organizations, or processes — assesses structural presence of sensemaking capacity |
+| [Sensemaking Presence Assessment](../generative/prompts/sensemaking/sensemaking-presence-assessment-0_1_2.md) | Coordination systems, organizations, or processes — assesses structural presence of sensemaking capacity |
 
 ### Four Batteries Capacity Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Four Batteries Presence Assessment](four-batteries/four-batteries-presence-assessment-0_1_2.md) | Coordination systems or organizations — assesses structural presence of generative capacity conditions |
+| [Four Batteries Presence Assessment](../generative/prompts/four-batteries/four-batteries-presence-assessment-0_1_2.md) | Coordination systems or organizations — assesses structural presence of generative capacity conditions |
 
 ### Conflict Transformation Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Conflict Transformation Presence Assessment](conflict-transformation/conflict-transformation-presence-assessment-0_1_2.md) | Coordination systems or organizations — assesses structural presence of conflict transformation capacity |
+| [Conflict Transformation Presence Assessment](../generative/prompts/conflict-transformation/conflict-transformation-presence-assessment-0_1_2.md) | Coordination systems or organizations — assesses structural presence of conflict transformation capacity |
 
 ---
 
