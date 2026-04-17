@@ -44,7 +44,7 @@ Each combination includes adjustment guidance for three contextual factors that 
 
 ## What is not yet in this document
 
-The document currently specifies five combinations fully. Three additional named combinations are pending: Full Structural Health (maintenance configuration for organizations meeting all nine standards), Post-Crisis Stabilization (recovery sequence for organizations emerging from Type 6-7 states), and Genesis Cohort (adoption configuration for organizations forming from the beginning). Formal assessment instruments for organizational health state, battery state, and substrate profile are also pending.
+The document currently specifies five combinations fully. Three additional named combinations are pending: Full Structural Health (maintenance configuration for organizations meeting all ten standards), Post-Crisis Stabilization (recovery sequence for organizations emerging from Type 6-7 states), and Genesis Cohort (adoption configuration for organizations forming from the beginning). Formal assessment instruments for organizational health state, battery state, and substrate profile are also pending.
 
 When someone's situation does not match any of the five current combinations, route them to the Suite Integration Guide for adoption sequencing from their specific starting point, and to the Structural Patterns Primer for pattern identification.
 

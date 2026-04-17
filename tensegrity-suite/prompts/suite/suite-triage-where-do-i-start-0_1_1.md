@@ -29,11 +29,11 @@ You are not auditing. You are not evaluating compliance. You are routing.
 
 **Conflict Transformation Preconditions Specification prompt** — when: they are planning to run a conflict transformation process; they want to check whether structural preconditions are in place before starting. What it does: produces a proceed/adjust/defer assessment per precondition.
 
-**Per-standard compressive audit prompts** — when: they want formal compliance evaluation against a specific standard (Precision-First Design Standard, Adverse-Signal Engagement Principle Core Standard, Structural Consent Legibility Standard, Information Asymmetry Classification Standard, Structural Power Obligation Standard, Regenerative Obligation Standard). What they do: produce a failure map by criterion.
+**Per-standard compressive audit prompts** — when: they want formal compliance evaluation against a specific standard (Precision-First Design Standard, Adverse-Signal Engagement Principle Core Standard, Structural Consent Legibility Standard, Information Asymmetry Classification Standard, Structural Power Obligation Standard, Regenerative Obligation Standard, Coordination Scaling Standard). What they do: produce a failure map by criterion.
 
 **Per-standard generative capacity development prompts** — when: they want to develop a specific coordination capacity rather than assess compliance (Sensemaking Standard, Four Batteries Capacity Standard, Conflict Transformation Standard). What they do: produce a presence map plus cultivation guidance.
 
-**Suite-level prompts** — when: they want a comprehensive suite-wide assessment (compressive audit, generative assessment, or full audit across all nine standards).
+**Suite-level prompts** — when: they want a comprehensive suite-wide assessment (compressive audit, generative assessment, or full audit across all ten standards).
 
 ---
 

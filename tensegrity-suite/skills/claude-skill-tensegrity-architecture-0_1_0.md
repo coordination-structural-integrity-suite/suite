@@ -4,11 +4,11 @@ When someone brings you the Tensegrity Architecture document, they are usually a
 
 ## What this skill is for
 
-This skill enables correct reasoning with the Tensegrity Architecture document. That document is the architectural overview of the full Coordination Structural Integrity Suite: why these nine standards exist, why they are organized into two layers, and how to enter the suite given a specific organizational situation.
+This skill enables correct reasoning with the Tensegrity Architecture document. That document is the architectural overview of the full Coordination Structural Integrity Suite: why these ten standards exist, why they are organized into two layers, and how to enter the suite given a specific organizational situation.
 
 Use this skill when someone is:
 - Encountering the suite for the first time and trying to understand what it is
-- Trying to understand why the architecture has the shape it does (two layers, six compressive standards, three generative standards)
+- Trying to understand why the architecture has the shape it does (two layers, seven compressive standards, three generative standards)
 - Deciding whether adoption is relevant to their organization
 - Asking where to start given a specific presenting problem
 
@@ -22,15 +22,15 @@ This is the orientation that shapes everything else. The architecture is proacti
 
 ## The two-layer logic
 
-The nine standards divide into two structurally distinct layers with different logics.
+The ten standards divide into two structurally distinct layers with different logics.
 
-The six Tensegrity Compressive Standards are structural floors. Each one closes a specific class of exploitation vector: precision deficit, adverse signal suppression, consent erosion, information asymmetry, power concentration, invisible extraction. A floor is a minimum that must be held. Floors do not produce coordination capacity; they prevent specific failure modes from being structurally available.
+The seven Tensegrity Compressive Standards are structural floors. Each one closes a specific class of exploitation vector: precision deficit, adverse signal suppression, consent erosion, information asymmetry, power concentration, invisible extraction, and scale threshold failure. A floor is a minimum that must be held. Floors do not produce coordination capacity; they prevent specific failure modes from being structurally available.
 
 The three Tensegrity Generative Standards are capacity conditions. They specify what must be structurally present for coordination capacity to develop: a functioning sensemaking infrastructure, visibility into participant capacity, and a transformation pathway for conflict. These do not close exploitation vectors; they build the structural substrate that makes a coordination system self-correcting over time.
 
 The tensegrity principle connects them. In a tensegrity structure, compression members (rigid floors) and tension members (flexible capacity elements) work together to create a load-bearing structure that is stronger under pressure than in the absence of load. Neither layer is sufficient alone. A system with full compressive coverage and no generative infrastructure is protected but brittle. A system with full generative capacity and no compressive floors is capable but exploitable.
 
-## The six exploitation vectors the compressive standards address
+## The seven exploitation vectors the compressive standards address
 
 **Precision deficit:** Claims without structural mechanisms. Governance that asserts outcomes without specifying the mechanisms that produce them. Addressed by the Precision-First Design Standard.
 
@@ -43,6 +43,8 @@ The tensegrity principle connects them. In a tensegrity structure, compression m
 **Power concentration:** Authority, coordination power, and specialized participation concentrate in ways that are not legible or contestable by those with less of them. Addressed by the Structural Power Obligation Standard.
 
 **Invisible extraction:** Contributor capacity is extracted without matched regenerative return. The extraction is structurally invisible until the contributors exit. Addressed by the Regenerative Obligation Standard.
+
+**Scale threshold failure:** Dunbar-scale thresholds are crossed without installing the structural conditions those thresholds require. Coordination failures at threshold crossings look like culture or personnel problems but are structural architecture failures. The Board conditions at each Radius specify what must be structurally present; the Dome conditions specify what must be absent. Addressed by the Coordination Scaling Standard.
 
 ## The three capacity conditions the generative standards specify
 

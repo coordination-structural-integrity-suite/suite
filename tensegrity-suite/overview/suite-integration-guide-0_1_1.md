@@ -1,13 +1,13 @@
 ---
 title: Suite Integration Guide
-version: 0.1.0
-date: 2026-04-06
+version: 0.1.1
+date: 2026-04-17
 status: Draft
 ---
 
 # Suite Integration Guide
 
-**Version:** 0.1.0 | April 2026
+**Version:** 0.1.1 | April 2026
 
 *Coordination Structural Integrity Suite*
 
@@ -15,7 +15,7 @@ status: Draft
 
 ## What This Document Is For
 
-The nine standards in the Coordination Structural Integrity Suite are each independently adoptable. The README and each standard's own documentation explain what each one does. What they do not explain in full is what happens structurally when you deploy them together: which combinations are load-bearing for which failure modes, where detection reliability breaks down when certain standards are absent, and how to sequence adoption when you cannot adopt all nine at once.
+The ten standards in the Coordination Structural Integrity Suite are each independently adoptable. The README and each standard's own documentation explain what each one does. What they do not explain in full is what happens structurally when you deploy them together: which combinations are load-bearing for which failure modes, where detection reliability breaks down when certain standards are absent, and how to sequence adoption when you cannot adopt all ten at once.
 
 This guide addresses those questions. It does not replace the standards. It does not specify implementation paths; those are protocol-bound and context-specific. It specifies the structural logic of deploying the suite as a whole, so that practitioners can make informed adoption decisions and understand what partial adoption actually covers and leaves exposed.
 
@@ -31,9 +31,9 @@ It is not a checklist. A practitioner who reads this guide and uses it as a chec
 
 The suite has two structural layers with different logics. Getting this distinction right is prior to every other integration question.
 
-The six Tensegrity Compressive Standards are floors. They specify what must not be violated. Violating a compressive standard means a structural exploitation vector is open. The violation is detectable, at least in principle, because these standards specify observable structural conditions and prohibit specific structural absences.
+The seven Tensegrity Compressive Standards are floors. They specify what must not be violated. Violating a compressive standard means a structural exploitation vector is open. The violation is detectable, at least in principle, because these standards specify observable structural conditions and prohibit specific structural absences.
 
-The three Tensegrity Generative Standards specify what must be structurally present for coordination capacity to develop. A system can meet all six compressive standards and still fail to develop genuine coordination capacity. That is not a failure of the compressive layer. It is a structural condition the generative layer addresses.
+The three Tensegrity Generative Standards specify what must be structurally present for coordination capacity to develop. A system can meet all seven compressive standards and still fail to develop genuine coordination capacity. That is not a failure of the compressive layer. It is a structural condition the generative layer addresses.
 
 The failure modes are different in kind. Compressive failures are exploitation vectors: they enable bad actors, or enable well-intentioned actors operating in the wrong structural conditions, to concentrate power, suppress signals, and extract without accountability. Generative failures are attritional: they drain the structural resources that coordination depends on, invisibly, until the system cannot self-correct under novel stress.
 
@@ -85,7 +85,7 @@ If you are deciding where to begin, the most reliable guide is not a general rec
 
 These five entry points are not exhaustive, and the pain presentations they describe are not mutually exclusive. An organization facing governance capture will often also have signal suppression and invisible work dynamics, because these structural conditions co-occur and reinforce each other. When multiple entry points apply, the joint starting set should cover all of them, with the understanding that the detection reliability dependencies above apply to the full joint set.
 
-The full suite offers full structural coverage. The entry points are starting positions for organizations that cannot adopt all nine standards simultaneously. They are not resting positions.
+The full suite offers full structural coverage. The entry points are starting positions for organizations that cannot adopt all ten standards simultaneously. They are not resting positions.
 
 ---
 
@@ -105,6 +105,8 @@ This section describes what becomes structurally detectable, and what remains st
 
 **Adding the Regenerative Obligation Standard** installs the extraction accountability floor. Without it, a system can consume coordination labor, local knowledge, legitimacy, and attention from contributors without any structural obligation to return value in a form that reaches the parties who bore the extraction. With it, each extraction event above a declaration threshold requires regenerative return satisfying non-fungibility, proximity, and embeddedness simultaneously. The stance declaration requirement makes the extraction vector legible before the accountability question arises.
 
+**Adding the Coordination Scaling Standard** closes the gap between headcount growth and structural preparation for that growth. Without it, a system can cross Dunbar-scale thresholds without installing the structural conditions those thresholds require, producing coordination failures that appear to be personnel or culture problems but are structural: the coordination architecture was never built for the Radius the unit is actually operating at. With it, each Dunbar-scale Radius (5, 15, 50, 150, and provisional 500 and 1500) carries a Board specifying the minimum structural conditions required for coordination at that Radius to be possible, and a Dome specifying the structural condition whose absence enables capture at that Radius. All Board conditions for all crossed thresholds apply simultaneously; partial installation is not conformance. The standard is precondition compressive: operating below the Board conditions for the current effective Radius means the coordination functions the other compressive standards protect have already broken at the threshold. The founding window concept, the period before a threshold crossing when the next Board can be installed most effectively, is the diagnostic instrument for developmental trajectory rather than post-hoc remediation.
+
 **Adding the Sensemaking Standard** installs the structural conditions under which the system can produce new understanding from disruption rather than applying existing frames to novel situations. Without it, the system can learn within its existing models but cannot revise the models themselves when disruption challenges them. With it, the five structural invariants specify what genuine meaning-making requires as distinct from pattern-matching; the liminal phase requirement is the diagnostic marker. This standard also enables two compressive standards to reach full detection reliability: Structural Power Distribution (coordination dimension) and Information Asymmetry Classification (omission class).
 
 **Adding the Four Batteries Capacity Standard** makes organizational capacity legible across two independent axes per battery. The charge axis (current depletion state) and the developmental state axis (what full charge enables at this stage of development) are structurally distinct and require separate assessment. Without this standard, a system cannot distinguish an organization that is depleted from one that is fully charged but at an early developmental state; both may look identical from outside while producing structurally different coordination outputs. With it, both axes are assessed on a regular cadence with enough specificity that a low reading would change what the organization does. This standard also enables two compressive standards to reach full detection reliability: Adverse Signal Engagement Principle Core Standard and Structural Consent Legibility Standard.
@@ -115,7 +117,7 @@ This section describes what becomes structurally detectable, and what remains st
 
 ## Disclosure Requirements for Partial Adoption
 
-Every organization that claims structural accountability without holding the full Tensegrity Compressive Standards designation, all six compressive standards at Tier 4 or above, must produce a structural exposure disclosure. The README specifies the four required elements of a substantive disclosure: naming each absent standard, describing the failure mode class it addresses, stating a self-assessed exposure level with rationale, and naming compensating controls or explicitly stating that none exist.
+Every organization that claims structural accountability without holding the full Tensegrity Compressive Standards designation, all seven compressive standards at Tier 4 or above, must produce a structural exposure disclosure. The README specifies the four required elements of a substantive disclosure: naming each absent standard, describing the failure mode class it addresses, stating a self-assessed exposure level with rationale, and naming compensating controls or explicitly stating that none exist.
 
 The suite integration logic above adds a fifth requirement to substantive disclosure: stating the detection reliability bound on any compressive standard audit results.
 
@@ -141,4 +143,5 @@ The suite is designed to be adopted developmentally. The standards are each inde
 
 | Version | Date | Summary |
 | --- | --- | --- |
+| 0.1.1 | 2026-04-17 | Updated throughout to reflect ten total standards and seven Tensegrity Compressive Standards. Added Coordination Scaling Standard entry to the per-standard addition map. |
 | 0.1.0 | 2026-04-06 | Initial document. Four detection reliability dependencies, five adoption entry points, per-standard addition map, disclosure requirements for partial adoption, developmental trajectory framing. |

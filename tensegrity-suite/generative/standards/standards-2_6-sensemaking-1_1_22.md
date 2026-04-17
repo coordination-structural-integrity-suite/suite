@@ -4,7 +4,7 @@
 
 Regis Chapman (Durgadas)
 
-Version 1.1.21 | April 2026
+Version 1.1.22 | April 2026
 
 Status: Release candidate
 
@@ -38,7 +38,7 @@ This standard specifies what sensemaking must structurally provide in any coordi
 
 This standard names its ontological commitments rather than claiming framework-neutrality. Research in ontological politics (Mol, Bowker and Star, Mignolo) and cross-cultural pressure testing against Chinese, African, and Indigenous philosophical traditions confirmed that framework-neutrality is not achievable at this scope. The honest design goal is: name what the standard assumes, specify which traditions are compatible, provide structural mechanisms for detecting blind spots, and do not claim a neutrality it cannot deliver.
 
-This is the first Tensegrity Generative Standard. The six Tensegrity Compressive Standards (Precision-First Design, Adverse-Signal Engagement, Structural Consent Legibility, Information Asymmetry Classification, Structural Power Obligation Standard, Regenerative Obligation Standard) are compressive: they close exploitation vectors and specify structural floors. Tensegrity Generative Standards are tensile: they specify enabling conditions for coordination health. The Tensegrity Compressive Standards name what must not happen. The Tensegrity Generative Standards name what must be structurally present for coordination to be genuine rather than coincidental. Both are required. Neither substitutes for the other.
+This is the first Tensegrity Generative Standard. The seven Tensegrity Compressive Standards (Precision-First Design, Adverse-Signal Engagement, Structural Consent Legibility, Information Asymmetry Classification, Structural Power Obligation Standard, Regenerative Obligation Standard, and the Coordination Scaling Standard) are compressive: they close exploitation vectors and specify structural floors. Tensegrity Generative Standards are tensile: they specify enabling conditions for coordination health. The Tensegrity Compressive Standards name what must not happen. The Tensegrity Generative Standards name what must be structurally present for coordination to be genuine rather than coincidental. Both are required. Neither substitutes for the other.
 
 **Typological declaration** (Descriptive Typology Map v0.1.1)
 
@@ -274,7 +274,7 @@ Other capacity frameworks may also satisfy these requirements. The structural te
 
 Any capacity framework paired with the Tensegrity Compressive Standards will produce structural couplings: specific capacity conditions that specific standards presuppose, and specific detection blind spots that specific capacity depletions create. These couplings are properties of the pairing, not of either document alone.
 
-The Four Batteries Capacity Standard (Section 9.1) specifies seven such couplings between its four batteries and the six Tensegrity Compressive Standards. These are documented here as a worked example of what capacity-detection coupling looks like when a specific capacity framework is paired with the Tensegrity Compressive Standards. The authoritative specification is in the Four Batteries standard; what follows is a summary.
+The Four Batteries Capacity Standard (Section 9.1) specifies seven such couplings between its four batteries and the seven Tensegrity Compressive Standards. These are documented here as a worked example of what capacity-detection coupling looks like when a specific capacity framework is paired with the Tensegrity Compressive Standards. The authoritative specification is in the Four Batteries standard; what follows is a summary.
 
 The seven connections, summarized from the Four Batteries Capacity Standard's authoritative specification:
 
@@ -535,13 +535,14 @@ The Coordination Structural Integrity Suite operates as a tensegrity: the Tenseg
 ```
 Coordination Structural Integrity Suite
 │
-├── Tensegrity Compressive Standards (6)
+├── Tensegrity Compressive Standards (7)
 │   ├── Precision-First Design Standard
 │   ├── Adverse Signal Engagement Principle Core Standard
 │   ├── Structural Consent Legibility Standard
 │   ├── Information Asymmetry Classification Standard
 │   ├── Structural Power Obligation Standard
-│   └── Regenerative Obligation Standard
+│   ├── Regenerative Obligation Standard
+│   └── Coordination Scaling Standard
 │
 └── Tensegrity Generative Standards (3)
     ├── Sensemaking Standard                                  ← this standard
@@ -551,12 +552,13 @@ Coordination Structural Integrity Suite
 
 Its relationship to the compressive standards is enabling rather than parallel: the Tensegrity Compressive Standards specify what must not be violated; this standard specifies the conditions under which participants can develop the shared understanding to recognize when those floors are being approached and to act before they are breached. Without this standard, the compressive standards function as compliance instruments. With it, they function as coordination instruments that participants can sustain.
 
-Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
+Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the ten standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 # 14. Changelog
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.1.22 | 2026-04-17 | Suite count correction. Coordination Scaling Standard added as seventh Tensegrity Compressive Standard in Section 1 preamble and Section 6.4 reference. No normative content changes. |
 | 1.1.21 | 2026-04-16 | Tier 4 renamed from SMS-Accountable to SMS-Loop-Closed throughout normative text: Section 9.4 heading, defining property statement, constitutive elements list, inheritance clause template, and three cross-references in Sections 3.5, 7.3, and 9.6. No normative content added or removed. |
 | 1.1.20 | 2026-04-15 | Frame Language pass: bridge vocabulary tightened to v0.1.6 Row 7 standard. Version header corrected from stale 1.1.18 to 1.1.20. Admissible exceptions retained: "Haudenosaunee governance" ×2 in Section 7 (Case 2, established name of Indigenous political system); "environmental governance" in Section 7.4 (Case 2, named academic field); changelog entries. Major replacements: "governance record" to "coordination record" throughout (~8 instances, including all action invariant observable markers, Section 9 adoption architecture, SMS-Accountable and SMS-Auditable tier definitions); "closed governance loop architecture" to "closed coordination loop architecture"; "mandatory governance responses" to "mandatory coordination responses"; "governance review" to "coordination review" throughout; "Governance Change Proposal Mechanisms" (Section 8.6 heading) to "Coordination Change Proposal Mechanisms"; "Governance Layer Assignments" (Section 9.6 heading) to "Coordination Layer Assignments"; "Governance-mutable elements" to "Coordination-mutable elements"; "governance infrastructure" to "coordination infrastructure"; "governance assumptions" to "coordination assumptions"; "founding governance architecture" to "founding coordination architecture"; "Research into governance failures" to "Research into coordination failures"; "governs the suite as a whole" to "applies to the suite as a whole"; "both governed by the Structural Consent Legibility Standard" to "both subject to"; "Individual consent governs identity-linked participation" to "Individual consent covers"; "not a legitimate exercise of governance or editorial discretion" to "coordination or editorial discretion"; "community-based governance, indigenous governance frameworks" to "community-based coordination, indigenous coordination frameworks"; "cosmological governance" to "cosmological coordination practice." |
 | 1.1.19 | 2026-04-10 | Founding window clause severity corrected. Three revisions to the founding window note in Section 9: (1) Para 1 final sentence revised — "very difficult to establish" replaced with accurate characterization of the research finding: organizations that begin high-stakes coordination without constitutional shared language consistently exhibit the applying-without-understanding failure mode at organizational-culture scale, and this failure mode does not respond to the same interventions as individual or group-level instances. (2) Para 3 extended — born-without vs. crossed-below distinction added: an organization founded without constitutional sensemaking has never had the founding window open (distinct from one that had it and lost it); the first requires constitution, the second may have structural memory to draw on; both within the tier architecture but with different intervention profiles and prognoses. (3) Para 6 revised — "structural friction" replaced with "organizational survival": the founding window is the period for establishing shared language before implicit culture forms; not opening it means beginning without the coordination substrate governance, signal detection, and consent processes all depend on; constitutional and remedial adoption have different prognoses; born-without and crossed-below conditions have different intervention profiles. |

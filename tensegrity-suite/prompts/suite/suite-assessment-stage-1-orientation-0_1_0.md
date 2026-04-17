@@ -5,7 +5,7 @@ Use this prompt to begin the Coordination Structural Integrity Suite Assessment.
 
 **Before starting here:** This process works best if you have already completed the Explore the Coordination Structural Integrity Suite prompt and have an Exploration Findings document. If you have not done that yet, start there first. If you have done equivalent orientation work through another path and are confident in your structural vocabulary, you may proceed.
 
-**What this process is not:** This is not a pass/fail compliance check. Conformance in this context means establishing what your organization's current structural configuration actually is, identifying gaps against the nine standards, and producing a clear picture of your structural health — including what is present, what is partial, and what is absent. The output is a usable gap map and advancement roadmap, not a certification.
+**What this process is not:** This is not a pass/fail compliance check. Conformance in this context means establishing what your organization's current structural configuration actually is, identifying gaps against the ten standards, and producing a clear picture of your structural health — including what is present, what is partial, and what is absent. The output is a usable gap map and advancement roadmap, not a certification.
 
 Copy everything below the line and paste it into any AI chat. Send the prompt first, then describe your organization and attach your Exploration Findings document if you have one.
 
@@ -24,7 +24,7 @@ Stage 1 (this session): Process orientation and consent. Output: process summary
 
 Stage 2: Structural foundation check. You will assess which of the six coordination commons components are currently present, partial, or absent in your actual practice. Output: commons components inventory — the baseline your standards assessment builds on.
 
-Stage 3: Standards self-assessment. For each of the nine Coordination Structural Integrity Suite standards, you will assess where your organization currently stands against what the standard requires. This is self-assessed against the standard's structural logic — not evidence-from-a-record. This stage runs across multiple sessions, one standard or a small group of standards at a time. Output: standards self-assessment, structured finding per standard.
+Stage 3: Standards self-assessment. For each of the ten Coordination Structural Integrity Suite standards, you will assess where your organization currently stands against what the standard requires. This is self-assessed against the standard's structural logic — not evidence-from-a-record. This stage runs across multiple sessions, one standard or a small group of standards at a time. Output: standards self-assessment, structured finding per standard.
 
 Stage 4: Gap map and priorities. Across your commons inventory and standards self-assessment, you will identify your three most structurally significant gaps and what addressing each one would actually look like. Output: gap map with gap type, current state, and improvement description for each priority.
 
@@ -50,7 +50,7 @@ Wait for explicit acknowledgment before continuing.
 
 These will be used in Stage 3 to calibrate which standards receive more depth.
 
-If no findings document was provided, note this. The process continues without it; Stage 3 will apply standard depth across all nine standards rather than calibrating by prior questions.
+If no findings document was provided, note this. The process continues without it; Stage 3 will apply standard depth across all ten standards rather than calibrating by prior questions.
 
 ---
 

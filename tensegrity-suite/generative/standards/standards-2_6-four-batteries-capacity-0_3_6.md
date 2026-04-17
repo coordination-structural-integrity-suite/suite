@@ -1,6 +1,6 @@
 # Four Batteries Capacity Standard
 
-**Version:** 0.3.5
+**Version:** 0.3.6
 **Status:** Working draft. Core architecture fully specified. Falsifiability architecture complete. Instrument/practice distinction resolved. Section 8 (Scope and Delegation Conditions) added: four structural conditions, three organizational failure signatures, satisfaction signature, developmental practice requirement, and tiered adoption. Regenerative Obligation Standard relationship added to Section 9.  
 **Layer:** Tensegrity Generative Standards within the Coordination Structural Integrity Suite  
 
@@ -993,13 +993,14 @@ The Coordination Structural Integrity Suite operates as a tensegrity: the Tenseg
 ```
 Coordination Structural Integrity Suite
 │
-├── Tensegrity Compressive Standards (6)
+├── Tensegrity Compressive Standards (7)
 │   ├── Precision-First Design Standard
 │   ├── Adverse Signal Engagement Principle Core Standard
 │   ├── Structural Consent Legibility Standard
 │   ├── Information Asymmetry Classification Standard
 │   ├── Structural Power Obligation Standard
-│   └── Regenerative Obligation Standard
+│   ├── Regenerative Obligation Standard
+│   └── Coordination Scaling Standard
 │
 └── Tensegrity Generative Standards (3)
     ├── Sensemaking Standard
@@ -1007,11 +1008,13 @@ Coordination Structural Integrity Suite
     └── Conflict Transformation Standard
 ```
 
-A system can satisfy all six compressive standards at high tiers while its participants operate at depletion, making structural floors unenforceable in practice even though specified on paper. This standard addresses the capacity conditions that close that gap. Where the Tensegrity Compressive Standards address what must not be violated, this standard addresses what must be present for the compressive standards to function as live instruments rather than dormant requirements.
+A system can satisfy all seven compressive standards at high tiers while its participants operate at depletion, making structural floors unenforceable in practice even though specified on paper. This standard addresses the capacity conditions that close that gap. Where the Tensegrity Compressive Standards address what must not be violated, this standard addresses what must be present for the compressive standards to function as live instruments rather than dormant requirements.
 
-Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
+Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the ten standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 ## Changelog
+
+**v0.3.6 (2026-04-17):** Suite count correction. Coordination Scaling Standard added as seventh Tensegrity Compressive Standard: normative text in Section 9 introduction updated from "all six compressive standards" to "all seven." No normative content changes.
 
 **v0.3.5 (2026-04-15):** Frame Language pass: bridge vocabulary tightened to v0.1.6 Row 7 standard. Admissible exceptions retained: "governing constraints" ×4 in Section 3 (Case 2, Cynefin established technical term); "governing/enabling constraint axis" in Section 5.2 empirical anchor (Case 2, same); "commons governance research" in Section 4.3 disconfirmation note (Case 2, named research tradition); changelog entries. Major replacements: "governance architecture" to "coordination architecture" (Section 1); "governance machinery" to "coordination machinery" (Sections 1 and 3); "governs the suite as a whole" to "applies to the suite as a whole"; "governance structures" to "coordination structures"; "institutional structures that govern it" to "institutional structures that shape it"; "The Governance Capture Archetype" renamed to "The Coordination Capture Archetype" throughout (name, cross-references in Section 7.3 altitude-mapped hypotheses, Section 9.1); "governance proposals" to "coordination proposals"; "governance discussions/deliberations" to "coordination discussions/deliberations"; "governance participation" to "coordination participation"; "governance activity" to "coordination activity"; "governance events" to "coordination events"; "governance record/records" to "coordination record/records"; "token-weighted governance" to "token-weighted coordination"; "governance mechanisms" to "coordination mechanisms"; "governance standing" to "coordination standing"; "governance capture" to "coordination capture" throughout; "governance artifacts" to "coordination artifacts"; "decentralized governance" to "decentralized coordination"; "The governing distinction" to "The primary distinction" (Section 10 falsifiability); "token-governed contexts" to "token-based coordination contexts"; frame-type lists "(technical, governance, spiritual, relational)" and "(technical, spiritual, governance, economic)" updated to use "coordination" in place of "governance."
 

@@ -233,13 +233,14 @@ The Coordination Structural Integrity Suite operates as a tensegrity: the Tenseg
 ```
 Coordination Structural Integrity Suite
 │
-├── Tensegrity Compressive Standards (6)
+├── Tensegrity Compressive Standards (7)
 │   ├── Precision-First Design Standard
 │   ├── Adverse Signal Engagement Principle Core Standard
 │   ├── Structural Consent Legibility Standard
 │   ├── Information Asymmetry Classification Standard
 │   ├── Structural Power Obligation Standard
-│   └── Regenerative Obligation Standard                     ← this standard
+│   ├── Regenerative Obligation Standard                     ← this standard
+│   └── Coordination Scaling Standard
 │
 └── Tensegrity Generative Standards (3)
     ├── Sensemaking Standard
@@ -247,7 +248,7 @@ Coordination Structural Integrity Suite
     └── Conflict Transformation Standard
 ```
 
-Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
+Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the ten standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 ---
 

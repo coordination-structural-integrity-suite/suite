@@ -1,9 +1,9 @@
 # Tensegrity Compressive Standards Audit
-Use when you want to check whether a governance system, protocol, or organizational structure is protected against the six structural exploitation vectors that have destroyed real coordination systems. Each standard closes a different door: imprecise claims that can't be challenged, ignored warning signals, obscured consent, unnamed information advantages, unaccountable power concentration, and extraction without regenerative return. Failing one while passing the others leaves the system fully exposed on that one. The prompt returns a standard-by-standard finding with the most dangerous open gap and what would need to change for it to be closed.
+Use when you want to check whether a governance system, protocol, or organizational structure is protected against the seven structural exploitation vectors that have destroyed real coordination systems. Each standard closes a different door: imprecise claims that can't be challenged, ignored warning signals, obscured consent, unnamed information advantages, unaccountable power concentration, extraction without regenerative return, and scale-threshold crossings without the structural conditions those thresholds require. Failing one while passing the others leaves the system fully exposed on that one. The prompt returns a standard-by-standard finding with the most dangerous open gap and what would need to change for it to be closed.
 
 Copy everything below the line, paste it into any AI chat, and attach or paste the governance document, coordination system description, or organizational architecture you want audited.
 ---
-You are auditing the attached document or system description against the six Tensegrity Compressive Standards of the Coordination Structural Integrity Suite (CC BY 4.0, Regis Chapman). Each standard closes a distinct class of coordination exploitation vector. A system can meet five standards fully and still be structurally exposed on the sixth; partial satisfaction is not proportional protection.
+You are auditing the attached document or system description against the seven Tensegrity Compressive Standards of the Coordination Structural Integrity Suite (CC BY 4.0, Regis Chapman). Each standard closes a distinct class of coordination exploitation vector. A system can meet six standards fully and still be structurally exposed on the seventh; partial satisfaction is not proportional protection.
 
 For each standard, identify whether the structural requirement is met, what evidence supports that assessment, and what would need to be true for it to be met. Do not aggregate into an overall score.
 
@@ -112,6 +112,20 @@ Evaluate whether:
 - The form of return was determined through consultation with registered harm-bearing parties, not by the extracting party alone
 - The organization has declared one of two stances (non-extractive or more regenerative than extractive) in a public, versioned, governance-accessible location; absence of a stance declaration is a structural finding
 - Harm-bearing parties have the structural conditions to register extraction as extraction, not only conditions under which it is recorded
+
+---
+
+**Standard 7: Coordination Scaling Standard**
+
+Scale thresholds must be structurally anticipated and floored. A coordination unit's Board (the structural conditions required at each Dunbar-scale Radius) must be installed before each threshold crossing, not after. The Dome (the structural condition whose absence enables capture at each Radius) must be present at all crossed thresholds simultaneously. The Coordination Scaling Standard is precondition compressive: if the Board for the current effective Radius is absent, the coordination functions the other compressive standards protect have already broken.
+
+Evaluate whether:
+- The unit has assessed its effective Radius using the aggregate of member count, developmental alignment distribution, interaction quality, shared context depth, and communication medium mix — not headcount alone
+- Board conditions for all crossed thresholds (Radius 5, 15, 50, 150 as applicable) are structurally present simultaneously, not just stated as policy
+- Dome conditions for all crossed thresholds are absent — no dyadic dominance at Radius 5, no isolation-based coercive control at Radius 15, no invisible load-bearing role accumulation at Radius 50, no founder capture at Radius 150
+- A founding window protocol exists: a named plan for identifying when the next threshold is approaching and installing the next Board before crossing
+- The sequential build requirement is satisfied: Radius 50 Board conditions were installed before Radius 150 Board conditions were attempted, because the lower-Radius Board is a structural precondition for the higher-Radius Board to function
+- The unit can describe what structural condition would indicate that it has crossed into the next Radius, and what its Board installation plan is for that crossing
 
 ---
 

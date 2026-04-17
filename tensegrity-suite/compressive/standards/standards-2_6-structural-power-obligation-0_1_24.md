@@ -1,8 +1,8 @@
 Structural Power Obligation Standard: A Framework for Assessing Centralization, Decentralization, and the Dimensions They Conflate
 
-**Version:** v0.1.23
+**Version:** v0.1.24
 
-**Date:** 2026-04-15
+**Date:** 2026-04-17
 
 **Author:** Regis Chapman (Durgadas)
 
@@ -358,7 +358,7 @@ Systems adopting this standard should include the following statement in their c
 
 The inheritance clause commits the adopting system to: (a) establishing an authorized distribution profile across all three dimensions, (b) satisfying the three invariants (Distribute, Authorize, Monitor) at the adopted tier, (c) treating unauthorized concentration as an adverse signal subject to its adverse signal processing, (d) applying the change classification architecture to detected concentration shifts, and (e) disclosing the detection architecture to its participant population as a condition of operating at the SPDS-Instrumented tier.
 
-Adoption of this standard at any tier below the full Tensegrity Compressive Standards threshold (Tier 4 across all six Tensegrity Compressive Standards) does not constitute full Tensegrity Compressive Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim, per the specification in the Proof of Coordination Architecture document.
+Adoption of this standard at any tier below the full Tensegrity Compressive Standards threshold (Tier 4 across all seven Tensegrity Compressive Standards) does not constitute full Tensegrity Compressive Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim, per the specification in the Proof of Coordination Architecture document.
 
 ---
 
@@ -409,13 +409,14 @@ The Coordination Structural Integrity Suite operates as a tensegrity: the Tenseg
 ```
 Coordination Structural Integrity Suite
 │
-├── Tensegrity Compressive Standards (6)
+├── Tensegrity Compressive Standards (7)
 │   ├── Precision-First Design Standard
 │   ├── Adverse Signal Engagement Principle Core Standard
 │   ├── Structural Consent Legibility Standard
 │   ├── Information Asymmetry Classification Standard
 │   ├── Structural Power Obligation Standard               ← this standard
-│   └── Regenerative Obligation Standard
+│   ├── Regenerative Obligation Standard
+│   └── Coordination Scaling Standard
 │
 └── Tensegrity Generative Standards (3)
     ├── Sensemaking Standard
@@ -425,11 +426,13 @@ Coordination Structural Integrity Suite
 
 Without this standard, advantage can accumulate across the three dimensions (authority, coordination, specialization) in ways that coordination documents do not reflect and participants cannot contest. The other five compressive standards address their respective failure modes, but none addresses the structural mechanism by which advantage accumulates across multiple organizational dimensions simultaneously.
 
-Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
+Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the ten standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 ---
 
 Changelog
+
+**v0.1.24 (2026-04-17):** Suite count correction. Coordination Scaling Standard added as seventh Tensegrity Compressive Standard: conformance threshold in inheritance clause updated from "all six" to "all seven." No normative content changes.
 
 **v0.1.23 (2026-04-15):** Frame Language bridge vocabulary tightening. Residual Frame 1 vocabulary corrected under the revised Row 7 three-case rule. Approximately 60 instances replaced: "Web3 governance" → "Web3 coordination"; "governance/coordination system contexts" in Lawrence-Lorsch attribution note → "coordination system contexts"; "governance discourse" → "coordination discourse"; "federated governance" → "federated coordination"; "governance system and coordination protocol" → "coordination system and protocol"; "specialized governance domains" → "coordination domains" throughout detection signals and dimension descriptions; "governance decision" (dimension independence) → "coordination decision"; "formal governance design" → "coordination design"; "commons governance failures" (DAO section) → "coordination failures"; "participatory governance systems/architecture/outcomes/distribution/process" → "coordination" equivalents; "governance influence" → "coordination influence"; "open governance task" → "open coordination task"; "governance structures" (4.4) → "coordination structures"; "governance outcomes/processes/records/continuity/decisions" throughout Sections 4.5-11 → coordination equivalents; "governance system" in Classes 4, 7 → "coordination system"; "governance token concentration/distribution" → "coordination token distribution"; "governance outcomes" in Classes 2, 5, 6 → "coordination outcomes"; "governed system" (Class 5) → "coordination system"; "governance must appeal to" (Class 6) → "coordination must appeal to"; "legitimate governance" (strategic pivot) → "legitimate coordination"; "governance outcome" (drift response) → "coordination outcome"; "governance documents" (closing paragraph) → "coordination documents"; "open governance task" (Section 7.1) → "open coordination task"; "governance or editorial discretion" (PFDS clause) → "coordination or editorial discretion"; "Web3 governance research" → "Web3 coordination research"; "cooperative governance contexts" → "coordination contexts"; "governance influence" → "coordination influence"; "nested governance structures" → "coordination structures"; "governance records" (Section 11.6) → "coordination records"; "governance decisions/discourse/cycles/outcomes" in behavioral indicators → coordination equivalents; "governance activity/meta-governance function" (Section 11.5) → coordination equivalents. Admissible exceptions retained: opening paragraph (Case 1), Ostrom "governing commons" / "governance rules" / "governed constituency" / "commons governance" (Case 2 ×2), "governance participation or governance token holding" in securities enforcement regulatory context (Case 3). No normative content added or removed.
 

@@ -4,7 +4,7 @@
 
 Regis Chapman (Durgadas)
 
-Version 0.2.8 | April 2026
+Version 0.2.9 | April 2026
 
 Status: Release candidate
 
@@ -36,7 +36,7 @@ GravityDAO's own architectural naming for what conflict transformation consists 
 
 GravityDAO's visual architecture makes a further structural claim: Trust Creation work generates intrinsic motivation in participants; Conflict Transformation work does not. It sits on the extrinsic motivation side of the architecture by design. The work of holding space for conflict, surfacing hidden dynamics, and facilitating transformation absorbs costs without generating the internal reward cycle that trust-building interactions produce. This means that informal recognition of conflict transformation work, appreciation, working group acknowledgment, and reputation, is an intrinsic-motivation-type reward. It is structurally insufficient for work that does not generate intrinsic motivation. The work that sits on the extrinsic side requires extrinsic provision: structural resourcing, ledger recognition, economic weight. This is the precise mechanism behind the GravityDAO failure. The organization received universal recognition (acknowledgment, an intrinsic-reward-type signal) but no structural economic provision (the extrinsic resourcing the work requires). Recognition without structural provision is appreciation. It is not sustainability.
 
-This is the third Tensegrity Generative Standard. The six Tensegrity Compressive Standards (Precision-First Design, Adverse-Signal Engagement, Structural Consent Legibility, Information Asymmetry Classification, Structural Power Obligation Standard, Regenerative Obligation Standard) are compressive: they close exploitation vectors and specify structural floors. Tensegrity Generative Standards are tensile: they specify enabling conditions for coordination health. The Tensegrity Compressive Standards name what must not happen. The Tensegrity Generative Standards name what must be structurally present for coordination to remain healthy under pressure. Both are required. Neither substitutes for the other.
+This is the third Tensegrity Generative Standard. The seven Tensegrity Compressive Standards (Precision-First Design, Adverse-Signal Engagement, Structural Consent Legibility, Information Asymmetry Classification, Structural Power Obligation Standard, Regenerative Obligation Standard, and the Coordination Scaling Standard) are compressive: they close exploitation vectors and specify structural floors. Tensegrity Generative Standards are tensile: they specify enabling conditions for coordination health. The Tensegrity Compressive Standards name what must not happen. The Tensegrity Generative Standards name what must be structurally present for coordination to remain healthy under pressure. Both are required. Neither substitutes for the other.
 
 **Typological declaration** (Descriptive Typology Map v0.1.1)
 
@@ -301,13 +301,14 @@ The Coordination Structural Integrity Suite operates as a tensegrity: the Tenseg
 ```
 Coordination Structural Integrity Suite
 │
-├── Tensegrity Compressive Standards (6)
+├── Tensegrity Compressive Standards (7)
 │   ├── Precision-First Design Standard
 │   ├── Adverse Signal Engagement Principle Core Standard
 │   ├── Structural Consent Legibility Standard
 │   ├── Information Asymmetry Classification Standard
 │   ├── Structural Power Obligation Standard
-│   └── Regenerative Obligation Standard
+│   ├── Regenerative Obligation Standard
+│   └── Coordination Scaling Standard
 │
 └── Tensegrity Generative Standards (3)
     ├── Sensemaking Standard
@@ -315,14 +316,15 @@ Coordination Structural Integrity Suite
     └── Conflict Transformation Standard                      ← this standard
 ```
 
-Without this standard the suite addresses structural floors and enabling conditions for participation but has no structural requirement for transformation capacity when conflicts arise. A system can satisfy all six Tensegrity Compressive Standards and both other Tensegrity Generative Standards while leaving conflict resolution to informal norms or attrition. This standard specifies the structural conditions that make conflict transformation a recognized, resourced, and sustained function.
+Without this standard the suite addresses structural floors and enabling conditions for participation but has no structural requirement for transformation capacity when conflicts arise. A system can satisfy all seven Tensegrity Compressive Standards and both other Tensegrity Generative Standards while leaving conflict resolution to informal norms or attrition. This standard specifies the structural conditions that make conflict transformation a recognized, resourced, and sustained function.
 
-Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
+Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the ten standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 # 12. Changelog
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 0.2.9 | 2026-04-17 | Suite count correction. Coordination Scaling Standard added as seventh Tensegrity Compressive Standard in Section 1 preamble and Section 11 suite description. No normative content changes. |
 | 0.2.8 | 2026-04-16 | Tier 4 renamed from CT-Accountable to CT-Loop-Closed. Loop-closed property added to tier definition: conflict transformation failures (movement to a higher engagement level without satisfying prior level's named resolution conditions, proactive disposition ratio falling below adopting-organization-specified threshold, operator resourcing below documented prerequisites) produce mandatory coordination responses whose absence is structurally visible without actor cooperation. Minimum requirements added: documented coordination review within a defined window, review record fields specified, automatic disclosure on absent review, append-only record constraint. Annual review extended with operator resourcing and developmental prerequisite verification alongside loop integrity check. Original CT-Accountable external assessability content (coordination review subject, independently assessable, externally reviewable, ratio computable) retained and repositioned after the loop architecture specification. CT-Auditable opening line updated to reference CT-Loop-Closed. |
 | 0.2.7 | 2026-04-15 | Frame Language pass (Row 7 v0.1.6). Replaced all non-admissible Frame 1 vocabulary with Frame 2 coordination equivalents: "governs the suite as a whole" replaced with "covers"; "governance model" replaced with "coordination model" (×3); Section 3.2 heading "does not emerge from governance design" changed to "coordination design"; "governance systems" changed to "coordination systems" (×3); "governance architecture" changed to "coordination architecture"; "adverse signal governance mechanisms" changed to "adverse signal coordination mechanisms"; "infrastructure-level governance outcomes" changed to "coordination outcomes"; "participating organization's governance" changed to "coordination system"; "governs the capacity conditions" changed to "specifies"; "governance review" changed to "coordination review"; "governance systems lacking" changed to "coordination systems lacking". Admissible: "governing and enabling constraint traversal modes" (Case 2, Cynefin/GravityDAO established vocabulary); "Governing the Commons" book title (Case 2); changelog entries. No normative content changes. |
 | 0.2.6 | 2026-04-11 | Two normative additions to Section 4. Constitutional pre-condition note inserted before the five invariants: parties must share sufficient foundational vocabulary about what the organization is before conflict transformation can function; when this condition is absent, the required first engagement is constitutional dialogue, not conflict transformation. Coordination record dependency clause added to Section 4.1 (Conflict Legibility): this invariant assumes the coordination record is the primary medium through which conflict is made visible; architecturally off-record coordination produces false-negative absence that the invariant cannot detect. |

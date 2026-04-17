@@ -2,7 +2,7 @@
 
 **(ASEP)**
 
-*Core Standard v0.7.9*
+*Core Standard v0.7.11*
 
 **Regis Chapman (Durgadas)**
 
@@ -1044,7 +1044,7 @@ insight underlying ASEP's adverse‑signal engagement model.
 
 Chapman, Regis Lloyd (Durgadas). Precision-First Design Standard: A
 Transferable Standard for Coordination Systems, Governance Protocols,
-and Software Design. v1.5.11, March 2026.
+and Software Design. v2.1.6, April 2026.
 
 The meta-standard from which ASEP's operational structure derives.
 Establishes precision as a design invariant for coordination systems:
@@ -1108,7 +1108,7 @@ Systems adopting this standard should include the following statement in their c
 
 The inheritance clause commits the adopting system to: (a) identifying which adverse signal classes are relevant to its operations, (b) applying the three-phase processing loop (Notice, Name, Navigate) at the adopted tier, (c) treating adverse signal suppression as a coordination failure subject to the system's adverse signal processing, and (d) disclosing the detection architecture to its participant population as a condition of operating at the ASEP-Instrumented tier or above.
 
-Adoption of this standard at any tier below the full Tensegrity Compressive Standards threshold (Tier 4 across all six Tensegrity Compressive Standards) does not constitute full Tensegrity Compressive Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim. The four-element specification for a substantive structural exposure disclosure is provided in the standards README.
+Adoption of this standard at any tier below the full Tensegrity Compressive Standards threshold (Tier 4 across all seven Tensegrity Compressive Standards) does not constitute full Tensegrity Compressive Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim. The four-element specification for a substantive structural exposure disclosure is provided in the standards README.
 
 # 11. Precision-First Design Standard Inheritance Clause
 
@@ -1125,13 +1125,14 @@ The Coordination Structural Integrity Suite operates as a tensegrity: the Tenseg
 ```
 Coordination Structural Integrity Suite
 │
-├── Tensegrity Compressive Standards (6)
+├── Tensegrity Compressive Standards (7)
 │   ├── Precision-First Design Standard
 │   ├── Adverse Signal Engagement Principle Core Standard     ← this standard
 │   ├── Structural Consent Legibility Standard
 │   ├── Information Asymmetry Classification Standard
 │   ├── Structural Power Obligation Standard
-│   └── Regenerative Obligation Standard
+│   ├── Regenerative Obligation Standard
+│   └── Coordination Scaling Standard
 │
 └── Tensegrity Generative Standards (3)
     ├── Sensemaking Standard
@@ -1141,9 +1142,13 @@ Coordination Structural Integrity Suite
 
 Without this standard the suite has no structural requirement for engaging signals that contradict current models. The other compressive standards' coordination loops cannot function if adverse signals can be suppressed without detection.
 
-Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
+Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the ten standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 # Changelog
+
+v0.7.11 (2026-04-17): Section 8.5 bibliographic citation updated from Precision-First Design Standard v1.5.11 to v2.1.7. No normative content changes.
+
+v0.7.10 (2026-04-17): Suite count correction. Coordination Scaling Standard added as seventh Tensegrity Compressive Standard: conformance threshold in inheritance clause updated from "all six" to "all seven." No normative content changes.
 
 v0.7.9 (April 2026): Frame Language pass (Row 7 v0.1.6). Two residual hits in bibliography annotations: "CIP governance" → "CIP coordination" (Section A1 Navigate description); "its governance" → "its stewardship" (Section A2 IACS taxonomy description). No normative content changes.
 

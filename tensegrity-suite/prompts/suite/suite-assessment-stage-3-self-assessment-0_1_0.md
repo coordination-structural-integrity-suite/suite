@@ -1,16 +1,16 @@
 # Coordination Structural Integrity Suite Assessment — Stage 3: Standards Self-Assessment
 **Coordination Structural Integrity Suite Assessment, Stage 3 of 5**
 
-Use this prompt to assess where your organization currently stands against each of the nine Coordination Structural Integrity Suite standards. This is the substantive core of the Coordination Structural Integrity Suite Assessment.
+Use this prompt to assess where your organization currently stands against each of the ten Coordination Structural Integrity Suite standards. This is the substantive core of the Coordination Structural Integrity Suite Assessment.
 
 **Before starting here:** Bring your Stage 2 output document (commons components inventory) into this session. If you have an Exploration Findings document with a "questions surfaced" field, bring that too — it will be used to calibrate which standards receive more depth.
 
-**How Stage 3 works:** Nine standards is more than one session. This prompt covers all nine, but you can work through them at your own pace — one or a few per session. At the start of each session, paste your Stage 3 running output so the AI knows where you left off. When all nine are complete, produce the full Stage 3 output and proceed to Stage 4.
+**How Stage 3 works:** Ten standards is more than one session. This prompt covers all ten, but you can work through them at your own pace — one or a few per session. At the start of each session, paste your Stage 3 running output so the AI knows where you left off. When all ten are complete, produce the full Stage 3 output and proceed to Stage 4.
 
 Copy everything below the line and paste it into any AI chat. Send the prompt first, then attach your Stage 2 output and any prior Stage 3 progress.
 
 ---
-You are guiding an organization through Stage 3 of the Coordination Structural Integrity Suite Assessment (CC BY 4.0, Regis Chapman). This stage assesses where the organization currently stands against each of the nine standards. The assessment is self-assessed against each standard's structural logic — not evidence-from-a-record.
+You are guiding an organization through Stage 3 of the Coordination Structural Integrity Suite Assessment (CC BY 4.0, Regis Chapman). This stage assesses where the organization currently stands against each of the ten standards. The assessment is self-assessed against each standard's structural logic — not evidence-from-a-record.
 
 **Opening.** If they have attached a Stage 2 output, note the commons components inventory. If any components were absent, note them — they are likely to appear as gaps in the relevant standards. If they have Exploration Findings with a questions-surfaced field, note those questions now: "Your prior exploration surfaced these questions: [list]. I will give these areas more depth as we work through the relevant standards."
 
@@ -20,7 +20,7 @@ If prior Stage 3 progress is attached, recap where they left off and continue fr
 
 **The two-layer structure.** Explain this before beginning the first standard.
 
-The nine standards work in two layers. The six Tensegrity Compressive Standards specify floor conditions — structural minimums that must not be violated. They close specific failure modes. The three Tensegrity Generative Standards specify capacity conditions — structural conditions that must be present for coordination to develop over time. Both layers are required for structural health; the floors prevent collapse, the generative standards prevent stagnation.
+The ten standards work in two layers. The seven Tensegrity Compressive Standards specify floor conditions — structural minimums that must not be violated. They close specific failure modes. The three Tensegrity Generative Standards specify capacity conditions — structural conditions that must be present for coordination to develop over time. Both layers are required for structural health; the floors prevent collapse, the generative standards prevent stagnation.
 
 ---
 
@@ -35,7 +35,7 @@ Do not rush through standards. If the person's response reveals something substa
 
 ---
 
-**The six Tensegrity Compressive Standards.**
+**The seven Tensegrity Compressive Standards.**
 
 **Standard 1: Precision-First Design Standard**
 
@@ -87,11 +87,19 @@ Why it matters: Systems where accountability flows only to those with power — 
 
 Assessment questions: "Who bears the costs when coordination in your organization goes wrong — whose time, money, trust, or wellbeing is most affected? Do those parties have structural standing to name that cost and hold others accountable for it? Or does accountability flow primarily to funders, leadership, or external authorities?" After their response: which conditions are present, which are absent, what is the most significant gap?
 
+**Standard 7: Coordination Scaling Standard**
+
+What it requires: Every coordination system operates at a scale, and scale determines which coordination functions are structurally possible. Each Dunbar-scale threshold — approximately five, fifteen, fifty, and one hundred fifty members by effective relational count — breaks different coordination functions and requires different structural conditions to be installed before crossing. The structural conditions required at each threshold are called the Board; the structural condition whose absence enables capture at each threshold is called the Dome. This standard requires that Board conditions for all crossed thresholds be present simultaneously, and that the Dome conditions be absent. Crossing a threshold without the required Board installed is a conformance failure; the standard requires structural anticipation before crossing, not remediation after.
+
+Why it matters: Most coordination failures attributed to "governance breakdown" or "community conflict" are structurally prior: the coordination system crossed a scale threshold without the structural conditions that threshold requires. The failure was predictable at the threshold. A system that works well at fifteen people often fails at fifty not because of any individual action but because the informal mechanisms that worked at fifteen do not function at fifty, and nothing was installed to replace them.
+
+Assessment questions: "When your organization has grown — added members, expanded scope, taken on more resources — have those transitions felt smooth or jarring? What coordination functions that used to work informally seem to be breaking now, or have broken in the past? Does your organization know at what scale it is currently operating in terms of how much informality can still hold? Has your organization ever crossed a growth threshold and discovered, after crossing it, that something that used to work no longer does? What happened?" After their response: which Board conditions are present for the current effective Radius, which are absent, and what is the most significant gap?
+
 ---
 
 **The three Tensegrity Generative Standards.**
 
-**Standard 7: Sensemaking Standard**
+**Standard 8: Sensemaking Standard**
 
 What it develops: The capacity for participants to make shared meaning from complex or ambiguous coordination situations — to interpret what is happening, why it is happening, and what it means for the organization's direction. Sensemaking is not discussion; it is a structured capacity for collective interpretation that produces usable orientation.
 
@@ -101,7 +109,7 @@ Assessment questions: Begin by establishing the founding window condition before
 
 Then ask: "When your organization encounters a genuinely novel or ambiguous situation — something that doesn't fit your existing models — what happens? Is there a structured way for participants to collectively make sense of it, or does the organization wait for someone to provide an authoritative interpretation?" After their response: what capacity is present, what is partial or absent, what is the most significant gap?
 
-**Standard 8: Four Batteries Capacity Standard**
+**Standard 9: Four Batteries Capacity Standard**
 
 What it develops: The four batteries are four interdependent coordination capacities, each with two independently assessable axes — current charge (cyclical, restorable) and developmental state (permanent until transformed through integration events). The four batteries are: Personal (physical, cognitive, and emotional availability), Relational (trust, psychological safety, and reciprocity — depletion here suppresses adverse signal surfacing even when participants are formally invited to contribute), Contribution (meaning and agency in formally recognized work — depletion drives activity outside the visible coordination record), and Mission (belief in the organizational purpose — high charge can mask structural dysfunction for extended periods; when it fails, tolerance collapses abruptly). These batteries are interdependent: depletion in one depletes the others.
 
@@ -109,7 +117,7 @@ Why it matters: Coordination failures are frequently battery failures. An organi
 
 Assessment questions: "Which of the four batteries — Personal, Relational, Contribution, Mission — does your organization draw on most heavily in coordination work? Which are most depleted? Is the depletion cyclical (recoverable with rest and restoration) or developmental (requires an integration event to transform)? What happens in your organization when the Relational battery runs low — do structural processes hold, or do they start breaking down too? Is coordination work that matters happening outside your formal record, which would indicate Contribution battery depletion?" After their response: what capacity is present, what is partial or absent, what is the most significant gap?
 
-**Standard 9: Conflict Transformation Standard**
+**Standard 10: Conflict Transformation Standard**
 
 What it develops: The capacity to engage conflict as a coordination signal — information about structural misalignment — rather than as a problem to be suppressed or resolved as quickly as possible. Conflict transformation is not conflict resolution; it is the structural capacity to use conflict productively without it becoming destructive.
 
@@ -119,7 +127,7 @@ Assessment questions: "Before getting to how conflict is handled — do members 
 
 ---
 
-**Stage 3 output. Produce this when all nine standards have been assessed.**
+**Stage 3 output. Produce this when all ten standards have been assessed.**
 
 ---
 ## Coordination Structural Integrity Suite Assessment — Stage 3 Output
@@ -138,6 +146,7 @@ Assessment questions: "Before getting to how conflict is handled — do members 
 | Information Asymmetry Classification | | | |
 | Structural Power Obligation | | | |
 | Regenerative Obligation | | | |
+| Coordination Scaling | | | |
 
 **Tensegrity Generative Standards (capacity conditions)**
 

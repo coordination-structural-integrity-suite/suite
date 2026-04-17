@@ -78,7 +78,7 @@ Name the classification and briefly describe what the presence, partiality, or a
 
 **Most significant absences:** [1-3 sentences naming which absent or partial components are most likely to create structural problems under pressure, and why]
 
-**Next step:** Proceed to Stage 3 (Standards Self-Assessment) when ready. Stage 3 works through the nine standards one at a time. You can begin Stage 3 in this session or return to it separately — bring this Stage 2 output with you.
+**Next step:** Proceed to Stage 3 (Standards Self-Assessment) when ready. Stage 3 works through the ten standards one at a time. You can begin Stage 3 in this session or return to it separately — bring this Stage 2 output with you.
 
 ---
 

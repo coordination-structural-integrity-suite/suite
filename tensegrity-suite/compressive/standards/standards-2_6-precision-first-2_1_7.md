@@ -4,7 +4,7 @@
 
 Regis Chapman (Durgadas)
 
-Version 2.1.5 | April 2026
+Version 2.1.7 | April 2026
 
 # Preamble
 
@@ -77,7 +77,7 @@ This is not a counsel of perfection. No specification is complete at first draft
 - Relational-topological: This standard addresses coordination process structure in Corollaries 4 and 5: the conditions under which a coordination process is precisely specifiable and a detection system is structurally complete relative to the roles required to respond to it.
 
 *Boundary classes*
-- Felt-experience: This standard assesses the structural properties of a coordination instrument but not the experience of operating under it. Whether a specification is navigable, fair, or accessible to the population it applies to is outside this standard's vocabulary.
+- Felt-experience: This standard assesses the structural properties of a coordination instrument but not the subjective quality of operating under it. Whether a specification feels fair, transparent, or well-designed to those who use it is outside this standard's vocabulary. Whether a specification is structurally accessible to the parties it was designed to protect is not: a specification so procedurally demanding that those parties cannot invoke its protections fails the precision imposition corollary. The boundary is between subjective experience of quality (outside scope) and structural accessibility of protection (inside scope, ceiling direction).
 - Temporal-dynamic (frequency-dynamic sub-aspect): This standard addresses the structure and magnitude of specification requirements, not how coordination structures respond to the temporal pattern of pressure. A specification can satisfy all nine corollaries while remaining poorly matched to the rhythm of pressure the population it applies to faces.
 - Structural-mechanical: This standard addresses semantic and definitional precision in coordination specifications, not the load-bearing or tension-distribution properties of coordination structures. Whether a specification's structural elements are adequate to sustain the coordination forces they carry is outside this standard's vocabulary.
 - Action-structural: This standard specifies what instrument elements must do (be precisely defined and falsifiable) but not the structural properties of the actions those elements structure. The causal architecture of coordination actions, how actions produce their effects at the structural level, is outside this standard's vocabulary.
@@ -396,7 +396,7 @@ Documents and systems that adopt this standard may include the following stateme
 
 The inheritance clause is optional for general adoption. It is recommended for governance documents, standards specifications, and any system where the precision-first commitment needs to be enforceable against future revision.
 
-Adoption of this standard at any tier below the full Tensegrity Compressive Standards threshold (Tier 4, Loop-Closed, across all six Tensegrity Compressive Standards) does not constitute full Tensegrity Compressive Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim. The specification for a substantive disclosure is in the standards README.
+Adoption of this standard at any tier below the full Tensegrity Compressive Standards threshold (Tier 4, Loop-Closed, across all seven Tensegrity Compressive Standards) does not constitute full Tensegrity Compressive Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim. The specification for a substantive disclosure is in the standards README.
 
 # 11. From Precision to Metrology
 
@@ -453,13 +453,14 @@ The Coordination Structural Integrity Suite operates as a tensegrity: the Tenseg
 ```
 Coordination Structural Integrity Suite
 │
-├── Tensegrity Compressive Standards (6)
+├── Tensegrity Compressive Standards (7)
 │   ├── Precision-First Design Standard          ← this standard
 │   ├── Adverse Signal Engagement Principle Core Standard
 │   ├── Structural Consent Legibility Standard
 │   ├── Information Asymmetry Classification Standard
 │   ├── Structural Power Obligation Standard
-│   └── Regenerative Obligation Standard
+│   ├── Regenerative Obligation Standard
+│   └── Coordination Scaling Standard
 │
 └── Tensegrity Generative Standards (3)
     ├── Sensemaking Standard
@@ -469,9 +470,13 @@ Coordination Structural Integrity Suite
 
 This standard bears the precision load across the full suite: in its absence, vague or unfalsifiable normative claims in any of the other eight standards are structurally undetectable. The suite's ability to self-correct depends on this standard being active, because precision deficits in the other standards' own specifications cannot be identified without it.
 
-Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
+Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the ten standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 # Changelog
+
+v2.1.7 (2026-04-17): Felt-experience boundary class corrected. The boundary class previously declared navigability and accessibility outside this standard's vocabulary. This was a structural error: whether a specification is accessible to the parties it was designed to protect is within scope via the precision imposition corollary (a specification so procedurally demanding that those parties cannot invoke its protections fails the ceiling direction of the invariant). Revised to distinguish subjective experience of quality (outside scope) from structural accessibility of protection (inside scope, ceiling direction). "Fair" and "transparent" as subjective value assessments remain outside scope. No changes to normative corollaries.
+
+v2.1.6 (2026-04-17): Suite count correction. Coordination Scaling Standard added as seventh Tensegrity Compressive Standard: conformance threshold in Section 10 updated from "all six" to "all seven." No normative content changes.
 
 v2.1.5 (2026-04-16): Two residual "Accountable" tier references corrected. Section 10 inheritance clause template: "PFDS-Accountable" → "PFDS-Loop-Closed." Section 10 conformance threshold statement: "Tier 4, Accountable" → "Tier 4, Loop-Closed." The PFDS-Loop-Closed tier definition body (Sections 8.4 through 8.4 minimum requirements) was already correct from an earlier pass; only the template list and the cross-standard threshold reference had not been updated. No normative content added or removed.
 

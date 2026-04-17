@@ -1,8 +1,8 @@
 Structural Consent Legibility Standard
 
-**Version:** v0.3.23
+**Version:** v0.3.24
 
-**Date:** 2026-04-15
+**Date:** 2026-04-17
 
 **Author:** Regis Chapman (Durgadas)
 
@@ -1063,13 +1063,13 @@ Governance. https://www.gida-global.org/care.
 
 7.5 Tensegrity Compressive Standards within the Coordination Structural Integrity Suite
 
-This standard is one of the six Tensegrity Compressive Standards within the Coordination Structural Integrity Suite: the Precision-First Design Standard, the Adverse-Signal Engagement Principle Core Standard, the Structural Consent Legibility Standard, the Information Asymmetry Classification Standard, the Structural Power Obligation Standard, and the Regenerative Obligation Standard. Each standard addresses a distinct failure mode. Each is independently valid: no standard requires the others for its own validity. Together, they form a reinforcing set.
+This standard is one of the seven Tensegrity Compressive Standards within the Coordination Structural Integrity Suite: the Precision-First Design Standard, the Adverse-Signal Engagement Principle Core Standard, the Structural Consent Legibility Standard, the Information Asymmetry Classification Standard, the Structural Power Obligation Standard, the Regenerative Obligation Standard, and the Coordination Scaling Standard. Each standard addresses a distinct failure mode. Each is independently valid: no standard requires the others for its own validity. Together, they form a reinforcing set.
 
-Systems adopting any one of the six Tensegrity Compressive Standards are strongly recommended to adopt all six. The full Tensegrity Compressive Standards designation applies to systems that adopt all six at Tier 4 (Loop-Closed) or above. The designation is descriptive: a system either satisfies all five standards at Tier 4 or above, or it does not. Partial adoption at any tier is a legitimate developmental stage; claiming full Tensegrity Compressive Standards conformance on the basis of partial adoption is structural exposure theater. Partial adopters should produce a structural exposure disclosure naming which standards are not adopted and which failure modes remain unaddressed.
+Systems adopting any one of the seven Tensegrity Compressive Standards are strongly recommended to adopt all seven. The full Tensegrity Compressive Standards designation applies to systems that adopt all seven at Tier 4 (Loop-Closed) or above. The designation is descriptive: a system either satisfies all seven standards at Tier 4 or above, or it does not. Partial adoption at any tier is a legitimate developmental stage; claiming full Tensegrity Compressive Standards conformance on the basis of partial adoption is structural exposure theater. Partial adopters should produce a structural exposure disclosure naming which standards are not adopted and which failure modes remain unaddressed.
 
 A structural exposure disclosure must contain four elements to be substantive. First, the disclosure must name each standard not adopted or not yet at Tier 4, using its full canonical name. Second, for each absent standard, the disclosure must describe in plain language the specific failure mode class that standard addresses and what becomes structurally undetectable in its absence. Third, for each absent standard, the disclosure must state a self-assessed exposure level (low, medium, or high) with a rationale sufficient for an independent reader to evaluate the assessment. Fourth, for each absent standard where compensating controls exist, the disclosure must name those controls, describe their mechanism, and explain why they are considered adequate for the assessed exposure level. Where no compensating controls exist, the disclosure must say so explicitly. A disclosure that satisfies the form without the substance is itself a precision deficit under the Precision-First Design Standard. The full conformance theater prevention architecture is specified in the Proof of Coordination Architecture document.
 
-The Sensemaking Standard covers an organization's capacity to perceive and apply all six standards with understanding. It is architecturally distinct from the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite.
+The Sensemaking Standard covers an organization's capacity to perceive and apply all seven standards with understanding. It is architecturally distinct from the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite.
 
 8\. Inheritance Clause
 
@@ -1092,7 +1092,7 @@ adverse signals subject to its adverse signal processing, and (d)
 specifying which consent domains are applicable and which are not, with
 rationale, so that the adoption scope is explicit and auditable.
 
-Adoption of this standard at any tier below the full Tensegrity Compressive Standards threshold (Tier 4 across all six Tensegrity Compressive Standards) does not constitute full Tensegrity Compressive Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim, per the specification in the Proof of Coordination Architecture document.
+Adoption of this standard at any tier below the full Tensegrity Compressive Standards threshold (Tier 4 across all seven Tensegrity Compressive Standards) does not constitute full Tensegrity Compressive Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim, per the specification in the Proof of Coordination Architecture document.
 
 8.1 Precision-First Inheritance
 
@@ -1153,13 +1153,14 @@ The Coordination Structural Integrity Suite operates as a tensegrity: the Tenseg
 ```
 Coordination Structural Integrity Suite
 │
-├── Tensegrity Compressive Standards (6)
+├── Tensegrity Compressive Standards (7)
 │   ├── Precision-First Design Standard
 │   ├── Adverse Signal Engagement Principle Core Standard
 │   ├── Structural Consent Legibility Standard               ← this standard
 │   ├── Information Asymmetry Classification Standard
 │   ├── Structural Power Obligation Standard
-│   └── Regenerative Obligation Standard
+│   ├── Regenerative Obligation Standard
+│   └── Coordination Scaling Standard
 │
 └── Tensegrity Generative Standards (3)
     ├── Sensemaking Standard
@@ -1169,9 +1170,11 @@ Coordination Structural Integrity Suite
 
 Without this standard participation can appear consensual while being extractive. The three consent features this standard requires (negotiated limits, bidirectional awareness, revocability) are the structural conditions under which consent claims are verifiable rather than asserted.
 
-Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
+Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the ten standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 Changelog
+
+**v0.3.24 (2026-04-17):** Suite count correction. Coordination Scaling Standard added as seventh Tensegrity Compressive Standard throughout Section 7.5: standard count updated from six to seven in all instances; CSS added to canonical standard list; conformance threshold corrected from "all five" to "all seven." No normative content changes.
 
 **v0.3.23 (2026-04-15):** Frame Language pass (Row 7 v0.1.6). One residual non-admissible hit: "The Sensemaking Standard governs an organization's capacity" → "covers." Admissible: all other remaining "govern" instances are Case 1 (Section 1 opening), Case 2 (Ostrom, CARE/OCAP, indigenous governance authority), Case 3 (external regulatory doctrine), or plain English verb. No normative content changes.
 

@@ -1,8 +1,8 @@
 # Coordination Structural Integrity Suite
 
-**Version:** 0.1.2 | April 2026
+**Version:** 0.1.3 | April 2026
 
-Nine standards. Two structural layers. One architecture for coordination that holds.
+Ten standards. Two structural layers. One architecture for coordination that holds.
 
 ---
 
@@ -18,7 +18,7 @@ The Coordination Structural Integrity Suite is for organizations that want to ar
 
 ## Exploit-Proof Your Coordination
 
-The six Tensegrity Compressive Standards each address one class of coordination failure. Each failure class is an exploitation vector: a structural gap that, when present, makes specific forms of harm predictable rather than merely possible. The standards close those gaps.
+The seven Tensegrity Compressive Standards each address one class of coordination failure. Each failure class is an exploitation vector: a structural gap that, when present, makes specific forms of harm predictable rather than merely possible. The standards close those gaps.
 
 Your team is three meetings into debating a mechanism no one can describe precisely enough to test. That is not a communication problem. It is a coordination system that cannot specify what it structurally does. Without that specification, drift is undetectable and accountability is impossible. The **Precision-First Design Standard** requires that every element of a governed system include the structural mechanism that produces its claimed outcome. When that requirement is met, you know what you built.
 
@@ -32,7 +32,9 @@ Your organization says power is distributed. A participant in a contested govern
 
 The coordination work in your organization is not equally visible. The people who hold space for others, who absorb friction that would otherwise break things, who make the structure work without appearing in any governance record, are doing work your coordination system depends on and cannot see. When that invisible labor is extracted without return, contributors deplete and exit, and the system that consumed them attributes the loss to individual failure. The **Regenerative Obligation Standard** requires that extraction from contributors be matched by regenerative return that is non-fungible, proximate, and embedded in the relationship that generated the extraction obligation. It specifies the structural floor against invisible extraction that a coordination system claiming regenerative intent must satisfy.
 
-Each of these standards is independently deployable and specifies verifiable conditions for the structural floor it establishes. Closing these six exploitation vectors is what architecting integrity means at the compressive layer.
+Your organization has grown. You can feel it in coordination that used to be simple and now requires three rounds of clarification. What you cannot see is that growth does not degrade coordination gradually; it changes it at specific thresholds. At Radius 5, the coordination functions required are different from those at Radius 15, which are different from those at Radius 50, which are different from those at Radius 150. When a coordination system crosses these Dunbar-scale thresholds without installing the structural conditions they require, the coordination failures that follow look like culture problems or personnel failures. They are structural architecture failures. The **Coordination Scaling Standard** specifies the Board and Dome conditions required at each threshold: the Board names what must be structurally present for coordination at that Radius to be possible; the Dome names the structural condition whose absence enables capture at that Radius. All Board conditions for all crossed thresholds apply simultaneously. Partial installation is not conformance.
+
+Each of these standards is independently deployable and specifies verifiable conditions for the structural floor it establishes. Closing these seven exploitation vectors is what architecting integrity means at the compressive layer.
 
 ---
 
@@ -60,21 +62,21 @@ Generative standards alone produce coordination systems that are adaptive but ex
 
 In structural engineering, tensegrity describes a configuration where compression members (rigid struts that hold their shape under load) and tension members (cables that transmit force through flexibility) work together. Neither type alone produces a stable load-bearing structure. Together, they distribute load dynamically, respond to stress without collapse, and become more stable as the forces on them balance. The structure does not merely survive pressure. The pressure makes it more coherent.
 
-The Coordination Structural Integrity Suite is built on this principle. The six Tensegrity Compressive Standards are the rigid floors: structural conditions that cannot be bent without being broken. The three generative standards are the tensile layer: the conditions under which coordination capacity develops, flexes under load, and transmits the forces that compressive structure alone cannot carry.
+The Coordination Structural Integrity Suite is built on this principle. The seven Tensegrity Compressive Standards are the rigid floors: structural conditions that cannot be bent without being broken. The three generative standards are the tensile layer: the conditions under which coordination capacity develops, flexes under load, and transmits the forces that compressive structure alone cannot carry.
 
-An organization that holds all nine standards can read its own structural condition accurately, communicate that condition to participants and outside observers, and adjust before external pressure forces the adjustment. That is not merely surviving problems. It is the structural condition for learning from them. It is what a coordination architecture that gets stronger under pressure looks like from the inside.
+An organization that holds all ten standards can read its own structural condition accurately, communicate that condition to participants and outside observers, and adjust before external pressure forces the adjustment. That is not merely surviving problems. It is the structural condition for learning from them. It is what a coordination architecture that gets stronger under pressure looks like from the inside.
 
 ---
 
-## Nine Standards, One Architecture
+## Ten Standards, One Architecture
 
 Each standard in the suite is independently deployable. Any organization can adopt one standard without adopting the others. Partial adoption is legitimate developmental progress.
 
-The suite combines the nine standards into something architecturally more than their sum because the structural conditions the standards address are not independent. A system with strong consent architecture but unaddressed power concentration creates conditions where consent is formally present but structurally hollow. A system with strong sensemaking infrastructure but no adverse signal engagement produces shared understanding that systematically excludes the signals most likely to challenge it. The Four Batteries Capacity Standard specifies structural connections to each of the six compressive standards because capacity depletion produces compressive deficits in predictable patterns.
+The suite combines the ten standards into something architecturally more than their sum because the structural conditions the standards address are not independent. A system with strong consent architecture but unaddressed power concentration creates conditions where consent is formally present but structurally hollow. A system with strong sensemaking infrastructure but no adverse signal engagement produces shared understanding that systematically excludes the signals most likely to challenge it. The Four Batteries Capacity Standard specifies structural connections to each of the seven compressive standards because capacity depletion produces compressive deficits in predictable patterns.
 
 The standards support each other. Their support is structural, not incidental.
 
-The six Tensegrity Compressive Standards are not six independent floors. They close the six structural mechanisms through which a single-trunk, top-down authority architecture — what this corpus calls the Columnar pattern — overrides distributed governance mechanisms when both are present in the same organization. Organizations designed for distributed authority fail in exactly these six ways: they allow specification to become unevaluable from outside, enabling compliance theater; they suppress adverse signals that would show the gap between what they claimed and what they built; they absorb participants through undifferentiated consent into arrangements those participants never specifically authorized; they allow information asymmetries to accumulate invisibly between formal governance and actual decision-making power; they allow authority to concentrate across dimensions that formal decentralization claims do not measure; and they extract from contributors without structural accountability for return. These are not six separate failure modes. They are six aspects of the same structural drift: toward an architecture where a small center holds interpretive, relational, and formal authority while distributing the forms of distributed governance without its substance. The six compressive standards close these six pathways precisely and collectively. That is why they form a coherent architectural layer rather than a list of useful practices.
+The seven Tensegrity Compressive Standards are not seven independent floors. They close the seven structural mechanisms through which a single-trunk, top-down authority architecture — what this corpus calls the Columnar pattern — overrides distributed coordination mechanisms when both are present in the same organization. Organizations designed for distributed authority fail in exactly these seven ways: they allow specification to become unevaluable from outside, enabling compliance theater; they suppress adverse signals that would show the gap between what they claimed and what they built; they absorb participants through undifferentiated consent into arrangements those participants never specifically authorized; they allow information asymmetries to accumulate invisibly between formal coordination and actual decision-making power; they allow authority to concentrate across dimensions that formal decentralization claims do not measure; they extract from contributors without structural accountability for return; and they cross Dunbar-scale thresholds without installing the structural conditions those thresholds require, producing coordination failures that look like personnel or culture problems but are structural scale architecture failures that the other compressive standards cannot address because coordination capacity has already broken at the threshold. These are not seven separate failure modes. They are seven aspects of the same structural drift: toward an architecture where a small center holds interpretive, relational, and formal authority while distributing the forms of distributed coordination without its substance. The seven compressive standards close these seven pathways precisely and collectively. That is why they form a coherent architectural layer rather than a list of useful practices.
 
 The architecture is verifiable. Each standard specifies observable conditions across five adoption tiers. Organizations can report their structural health state from their actual structural position rather than from confidence in their intentions. That verifiability is what makes the suite an integrity architecture rather than a set of aspirations.
 
@@ -106,7 +108,7 @@ Natural structural pairings within the suite offer concentrated diagnostic value
 
 ### Run One Side First
 
-When an organization needs to make an adoption choice under resource constraints, start with the compressive layer. The six Tensegrity Compressive Standards address the failure modes most likely to produce irreversible structural damage. Exploitation, power capture, and consent erosion produce damage that generative capacity cannot repair after the fact. Build the structural floors first.
+When an organization needs to make an adoption choice under resource constraints, start with the compressive layer. The seven Tensegrity Compressive Standards address the failure modes most likely to produce irreversible structural damage. Exploitation, power capture, and consent erosion produce damage that generative capacity cannot repair after the fact. Build the structural floors first.
 
 Once the compressive layer is established, the generative standards address the capacity conditions that make those floors sustainable as coordination instruments rather than compliance artifacts.
 
@@ -114,13 +116,13 @@ Once the compressive layer is established, the generative standards address the 
 
 Full suite adoption is not the goal for every organization at every stage. It is the structural condition for making a coordination integrity claim that holds under independent scrutiny.
 
-An organization with adoption-tier evidence across all nine standards has answered the structural health question from its architecture rather than from its confidence. That distinction matters most to the people evaluating from outside: funders, governance participants, counterparties, and future members who need to assess whether your coordination infrastructure is sound before they commit to it.
+An organization with adoption-tier evidence across all ten standards has answered the structural health question from its architecture rather than from its confidence. That distinction matters most to the people evaluating from outside: funders, governance participants, counterparties, and future members who need to assess whether your coordination infrastructure is sound before they commit to it.
 
 The full suite does not produce good coordination. It creates the structural conditions under which good coordination becomes architecturally possible rather than merely intended. That is what architecting full coordination integrity means.
 
 ---
 
-*Nine standards. Two structural layers. One architecture for coordination that holds.*
+*Ten standards. Two structural layers. One architecture for coordination that holds.*
 
 ---
 
@@ -128,6 +130,7 @@ The full suite does not produce good coordination. It creates the structural con
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 0.1.3 | 2026-04-17 | Suite expanded from nine to ten standards. Coordination Scaling Standard added as seventh Tensegrity Compressive Standard throughout: standard count updated from six to seven in all normative references; CSS paragraph added to "Exploit-Proof Your Coordination" section; synthesizing paragraph updated to name seven failure mechanisms (scale threshold failure added as seventh); section heading updated from "Nine Standards, One Architecture" to "Ten." Closing statement and version header updated to match. |
 | 0.1.2 | April 2026 | Synthesizing statement added to "Nine Standards, One Architecture" section. The six Tensegrity Compressive Standards named as closing the six structural mechanisms through which a Columnar (single-trunk, top-down) architecture overrides distributed governance: imprecision enabling compliance theater, signal suppression, undifferentiated consent, invisible information asymmetries, authority concentration hidden by decentralization claims, and unaccountable extraction. Statement names these as six aspects of the same structural drift and names the compressive standards as collectively closing those pathways. |
 | 0.1.1 | April 2026 | Count and content pass for nine-standard suite. All references to "eight standards" updated to nine; all references to "five Tensegrity Compressive Standards" updated to six. Regenerative Obligation Standard paragraph added to "Exploit-Proof Your Coordination" section (was completely absent from standard descriptions). "Eight Standards, One Architecture" section heading updated to nine. No changes to the generative standards content. |
 | 0.1.0 | March 2026 | Initial draft. |

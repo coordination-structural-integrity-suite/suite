@@ -2,7 +2,7 @@
 
 Distributed governance is struggling to find solid footing. Decentralized Autonomous Organizations (DAOs) and other coordination experiments have failed not because participants were malicious or incompetent, but because the systems lacked structural foundations. These standards specify those foundations.
 
-This repository contains nine standards developed in the course of building the Proof of Coordination protocol: six Tensegrity Compressive Standards and three Tensegrity Generative Standards. Together they form the Coordination Structural Integrity Suite of the protocol's normative architecture.
+This repository contains ten standards developed in the course of building the Proof of Coordination protocol: seven Tensegrity Compressive Standards and three Tensegrity Generative Standards. Together they form the Coordination Structural Integrity Suite of the protocol's normative architecture.
 
 ## The foundational commitments
 
@@ -22,7 +22,7 @@ If you want the simplest start: use the **[AI prompt launcher](https://coordinat
 
 If you are new to the suite, want to understand whether it applies, or want to orient yourself before committing to a formal process: use the **[Explore the Coordination Structural Integrity Suite prompt](tensegrity-suite/prompts/suite/suite-explore-coordination-structural-integrity-suite-0_1_0.md)**. Paste it into any AI assistant (Claude, ChatGPT, Gemini, or similar), describe your organization and situation in plain language, and it will orient you to what the suite is, identify the structural class of your situation, and route you to the right instrument — with an explanation of why. It produces an exploration findings document you can save and carry forward.
 
-If you want to formally assess your organization's structural health across all nine standards and produce a gap map and advancement roadmap: use the **[Coordination Structural Integrity Suite Assessment](tensegrity-suite/prompts/suite/suite-assessment-stage-1-orientation-0_1_0.md)**. This is a five-stage structured process. Each stage produces a downloadable output. Start with Stage 1, which orients you to the full process before any assessment begins. The assessment works best after completing the Explore prompt — it builds on the vocabulary and self-knowledge the exploration develops.
+If you want to formally assess your organization's structural health across all ten standards and produce a gap map and advancement roadmap: use the **[Coordination Structural Integrity Suite Assessment](tensegrity-suite/prompts/suite/suite-assessment-stage-1-orientation-0_1_0.md)**. This is a five-stage structured process. Each stage produces a downloadable output. Start with Stage 1, which orients you to the full process before any assessment begins. The assessment works best after completing the Explore prompt — it builds on the vocabulary and self-knowledge the exploration develops.
 
 All prompts are in the `tensegrity-suite/prompts/` folder. The **[prompts README](tensegrity-suite/prompts/prompts-README.md)** maps every prompt by type and use case, including the full Coordination Structural Integrity Suite Assessment stage sequence. For extended reasoning work with an AI assistant that already has access to your documents and tools, **Claude skills** are in the `skills/` subfolders — they encode the full reasoning frame for each document and for the suite as a whole.
 
@@ -46,7 +46,7 @@ tensegrity-suite/             Coordination Structural Integrity Suite
     six-v/                    Six-V Trust Framework application guide
     [per-standard subfolders] one subfolder per standard
   skills/                     Claude skills — suite-level, triage, and suite-document skills
-  compressive/                six Tensegrity Compressive Standards
+  compressive/                seven Tensegrity Compressive Standards
     standards/                the standard documents
     specifications/           companion specifications
     prompts/                  AI audit prompts, one subfolder per standard
@@ -83,7 +83,7 @@ Adopting these standards is not primarily an act of self-protection. It is a str
 
 The "it won't happen to us" assumption is not something these standards argue against. It is something these standards make structurally legible. An organization with adoption-tier evidence demonstrating its power distribution, adverse signal engagement, and consent architecture has answered the question from its structure rather than from its confidence.
 
-## The six Tensegrity Compressive Standards
+## The seven Tensegrity Compressive Standards
 
 **Precision-First Design Standard:** Closes precision failure in two directions. A precision deficit occurs when instrument terms are under-specified: violations become undetectable and gaps remain permanently exploitable. A precision imposition occurs when an instrument is over-specified: compliance can be demonstrated while the coordination purpose remains unserved. Nine corollaries covering both failure directions. Addresses Ostrom's second design principle at the standards level.
 
@@ -97,11 +97,13 @@ The "it won't happen to us" assumption is not something these standards argue ag
 
 **Regenerative Obligation Standard:** Requires that extraction of contributor capacity (labor, attention, knowledge, legitimacy) be matched by regenerative return satisfying three conditions simultaneously: non-fungibility (return must operate in the register of the harm, not a substitute register chosen by the extracting party), proximity (return must flow through a traceable causal chain to the parties who bear the harm, verified against a harm-bearing affiliation registry), and embeddedness (return must operate within the relational structure generated by the extraction obligation, not severed by market substitution or disconnected pooling). Any instrument using additionality logic or Social Return on Investment (SROI) aggregation is a categorical disqualifier for the proximity condition. Organizations adopting the standard must declare a stance (non-extractive, or more regenerative than extractive) and register harm-bearing affiliations. The standard addresses the Hidden Factory failure mode: when an organization reaches Stage D and continues extracting the output of a contributor's hidden factory without recognition or integration, that is the extraction this floor exists to prevent. The visibility condition requires that extraction be registerable, not only recorded. Two suppression types are structurally distinct: Step 01-formation (distorted normal baseline from growing up inside extraction) and identity fusion (the Stage D-E mechanism where the contributor's sense of worth has become entangled with absorbing the load, making claim-raising require disidentification from a load-bearing role). Organizations cannot rely on voluntary claim-raising when either suppression type is present.
 
+**Coordination Scaling Standard:** Specifies the structural conditions that coordination units must install at each Dunbar-scale threshold before crossing it. Six nested Radii define coordination segments (Radius 5, 15, 50, 150 are normative; Radius 500 and 1500 are provisional) at which specific coordination functions change. At each threshold, a Board specifies the minimum structural conditions required for coordination at that Radius to be possible; a Dome specifies the structural condition whose absence enables capture at that Radius. All Board conditions for all crossed thresholds apply simultaneously: partial Board installation across thresholds is not conformance. The standard is precondition compressive: operating below the Board conditions for the current effective Radius means the coordination functions the other compressive standards protect have already broken at the threshold. Effective Radius is determined by the aggregate of member count, developmental alignment distribution, interaction quality, shared context depth, and communication medium mix, not by headcount alone. The founding window — the period before each threshold crossing during which the Board for the next Radius can be installed most effectively — closes at the crossing; installing a Board during the crisis that an absent Board creates produces poor Board architecture.
+
 ## The three Tensegrity Generative Standards
 
 **Sensemaking Standard:** Specifies what sensemaking must structurally provide for coordination to remain self-correcting. Five structural invariants: disruption-occasioned, particular-to-general relating, action-entangled, sufficiency-oriented, temporally structured. Three operational scales: intra-personal, inter-personal, witness-reception. The particular-to-general relating invariant names three violation signatures: assertion (conclusion without traceable cues), cataloging (cues accumulated without a general frame emerging), and personal-framing misapplication (a general frame applied that misidentifies the register of causation, assigning personal causes to a structural mechanism or vice versa, without examining whether the frame fits the cues). The standard specifies structural conditions; it does not prescribe method.
 
-**Four Batteries Capacity Standard:** Specifies the structural conditions under which four orthogonal capacity dimensions (Personal, Relational, Contribution, Mission) enable coordination surplus rather than merely preventing failure. Each battery operates across two independent dimensions: charge (cyclical, maintainable) and developmental state (permanent until transformed through integration events). Specifies depletion archetypes, generative archetypes, and structural connections to each of the six Tensegrity Compressive Standards. The seventh connection (Contribution Battery and Regenerative Obligation Standard) names the Hidden Factory Stage D self-reinforcing detection gap: the Regenerative Obligation Standard floor violation depletes the claiming capacity needed to surface it, and voluntary claim-raising cannot break the loop without battery state data showing the co-occurrence pattern.
+**Four Batteries Capacity Standard:** Specifies the structural conditions under which four orthogonal capacity dimensions (Personal, Relational, Contribution, Mission) enable coordination surplus rather than merely preventing failure. Each battery operates across two independent dimensions: charge (cyclical, maintainable) and developmental state (permanent until transformed through integration events). Specifies depletion archetypes, generative archetypes, and structural connections to the seven Tensegrity Compressive Standards. The seventh connection (Contribution Battery and Regenerative Obligation Standard) names the Hidden Factory Stage D self-reinforcing detection gap: the Regenerative Obligation Standard floor violation depletes the claiming capacity needed to surface it, and voluntary claim-raising cannot break the loop without battery state data showing the co-occurrence pattern.
 
 **Conflict Transformation Standard:** Specifies the structural conditions under which a coordination system develops and sustains conflict transformation capacity. Five structural invariants: conflict legibility, graduated engagement architecture, proactive disposition enablement, transformation capacity provision, recognition as coordination work. Three operational scales: intra-organizational, inter-organizational, protocol-level. Addresses Ostrom's design principles 4, 5, and 6 at the standards level. Primary empirical grounding: GravityDAO operated for seven years, was universally recognized as necessary, and failed entirely because no existing coordination infrastructure provided a mechanism to recognize conflict transformation as coordination work. The standard addresses that structural gap directly.
 
@@ -113,11 +115,11 @@ The "it won't happen to us" assumption is not something these standards argue ag
 
 Five documents support the standards as a system rather than as individual instruments.
 
-**Tensegrity Architecture** describes the two-layer structural logic of the suite: how the six Tensegrity Compressive Standards and three Tensegrity Generative Standards work together, why both layers are required, and the failure modes each addresses. Start here if you want to understand the architecture before reading individual standards.
+**Tensegrity Architecture** describes the two-layer structural logic of the suite: how the seven Tensegrity Compressive Standards and three Tensegrity Generative Standards work together, why both layers are required, and the failure modes each addresses. Start here if you want to understand the architecture before reading individual standards.
 
 **Suite Structural Patterns Primer** describes recurring structural patterns across the standards, common adoption sequences, and cross-cutting design principles.
 
-**Suite Integration Guide** describes how the nine standards relate to each other structurally: which standards depend on which for reliable detection, what the detection reliability dependencies mean for audit confidence, five adoption entry points organized by organizational pain, and how to navigate the suite as a system rather than a collection of independent instruments.
+**Suite Integration Guide** describes how the ten standards relate to each other structurally: which standards depend on which for reliable detection, what the detection reliability dependencies mean for audit confidence, five adoption entry points organized by organizational pain, and how to navigate the suite as a system rather than a collection of independent instruments.
 
 **Suite Deployment Contexts** is the practice-level companion for standards selection. It organizes the suite by the purposes you are trying to achieve rather than by structural layer: which standards to deploy together for adverse signal surfacing, governance disputes, governance capture, invisible work and contributor burnout, and decision-making without adequate information. Includes calibration guidance for tensegrity type, battery state, and substrate profile.
 
@@ -127,7 +129,7 @@ Five documents support the standards as a system rather than as individual instr
 
 ## How the standards work together
 
-The nine standards are each independently adoptable. But the suite works as a whole, and some standards have structural reliability dependencies that matter for how you use them.
+The ten standards are each independently adoptable. But the suite works as a whole, and some standards have structural reliability dependencies that matter for how you use them.
 
 ### Detection reliability dependencies
 
@@ -157,7 +159,7 @@ If you are deciding where to begin, map your primary pain to the standards most 
 
 ## Adoption architecture
 
-Each standard in this repository carries a five-tier adoption framework that describes the organization's structural accountability for the requirement the standard specifies. The tiers are consistent in structure across all nine standards, though the specific operational requirements differ per standard.
+Each standard in this repository carries a five-tier adoption framework that describes the organization's structural accountability for the requirement the standard specifies. The tiers are consistent in structure across all ten standards, though the specific operational requirements differ per standard.
 
 **Tier 1, Assessed.** The organization has mapped its documents or operations against the standard. A deficit inventory exists. No process changes are required at this tier. No conformance claim is made.
 
@@ -169,7 +171,7 @@ Each standard in this repository carries a five-tier adoption framework that des
 
 **Tier 5, Auditable.** Includes all Tier 4 requirements plus independent auditability. The deficit record must be verifiable by an independent auditor for both presence (each recorded deficit was identified) and completeness (all identified deficits are in the record).
 
-Tiers 1 through 3 are normatively specified across all six Tensegrity Compressive Standards. Tiers 4 and 5 are specified in architecture; normative completion is pending pilot data.
+Tiers 1 through 3 are normatively specified across all seven Tensegrity Compressive Standards. Tiers 4 and 5 are specified in architecture; normative completion is pending pilot data.
 
 ## Adoption claims
 
@@ -177,7 +179,7 @@ Three adoption categories govern how adoption is described. They are mutually ex
 
 **Adoption level.** A system that has adopted one or more standards at any tier has an adoption level. Adoption level is a developmental description, not a conformance claim. It is expressed per standard: "this system has adopted the Adverse Signal Engagement Principle Core Standard at Tier 2 (Operational)." No general conformance claim follows from an adoption level. An adoption level is not a credential; it describes where a system is in its developmental trajectory.
 
-**Full Tensegrity Compressive Standards designation.** A system that has adopted all six Tensegrity Compressive Standards at Tier 4 (Loop-Closed) or above holds the full Tensegrity Compressive Standards designation. This is the only category that carries a conformance claim. The designation is all-or-nothing: Tier 4 across five standards and Tier 3 on the sixth does not satisfy it. The designation is descriptive, not a credential: it names an observable structural state.
+**Full Tensegrity Compressive Standards designation.** A system that has adopted all seven Tensegrity Compressive Standards at Tier 4 (Loop-Closed) or above holds the full Tensegrity Compressive Standards designation. This is the only category that carries a conformance claim. The designation is all-or-nothing: Tier 4 across five standards and Tier 3 on the sixth does not satisfy it. The designation is descriptive, not a credential: it names an observable structural state.
 
 **Structural exposure disclosure.** A system that claims structural accountability without holding the full designation must produce a structural exposure disclosure in place of a conformance claim. A substantive disclosure contains four elements: it names each absent or sub-Tier-4 standard by its full canonical name; it describes in plain language the specific failure mode class that standard addresses and what becomes structurally undetectable in its absence; it states a self-assessed exposure level (low, medium, or high) with a rationale an independent reader can evaluate; and it names any compensating controls with their mechanism and adequacy basis. Where no compensating controls exist, the disclosure says so explicitly.
 
@@ -187,7 +189,7 @@ Partial adoption is legitimate developmental progress. Partial adoption claimed 
 
 ## Framework-application documents
 
-The nine standards specify structural conditions. They define what must be present or absent for a coordination system to meet a structural requirement. They do not specify how to make operational decisions in specific domains.
+The ten standards specify structural conditions. They define what must be present or absent for a coordination system to meet a structural requirement. They do not specify how to make operational decisions in specific domains.
 
 Framework-application documents are a companion class that works differently. They take a specific decision domain — one where the foundational frameworks produce concrete operational guidance — and specify how to work through that domain systematically. They do not carry conformance tiers and cannot be adopted or failed. They are operational tools: sequences, checks, and structural design guidance for a defined problem class.
 
@@ -221,6 +223,8 @@ Full protocol documentation will be linked here as it is released.
 - **Code and software artifacts** (now or future: examples, scripts, tests, reference implementations): Licensed under Apache License 2.0. See `LICENSE`.
 
 ## Changelog
+
+2026-04-17: Suite expanded from nine standards to ten. Coordination Scaling Standard added as the seventh Tensegrity Compressive Standard. All suite-level counts updated (nine → ten, six compressive → seven compressive). Coordination Scaling Standard description added to the compressive standards section. Full Tensegrity Compressive Standards designation threshold updated to seven. Suite Integration Guide and detection reliability count updated.
 
 2026-04-15: Tier 4 renamed from "Accountable" to "Loop-Closed" in the adoption architecture section, matching the Frame Language pass naming convention applied in the Structural Power Obligation Standard (v0.1.22) and Adverse Signal Engagement Principle Core Standard (v0.7.8). "Closed governance loop architecture" updated to "closed coordination loop architecture"; "mandatory governance responses" updated to "mandatory coordination responses"; "Tier 4 (Accountable) or above" updated to "Tier 4 (Loop-Closed) or above."
 

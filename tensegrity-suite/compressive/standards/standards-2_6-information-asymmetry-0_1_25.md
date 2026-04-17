@@ -4,7 +4,7 @@
 
 **Regis Chapman (Durgadas)**
 
-Version 0.1.24 \| April 2026
+Version 0.1.25 \| April 2026
 
 *This document establishes a six-class taxonomy of information asymmetry
 in coordination systems. It is intended to be legible to researchers in
@@ -1548,7 +1548,7 @@ signals subject to the system's adverse signal processing, and (d) specifying wh
 classes are applicable and which are not, with rationale, so that the adoption
 scope is explicit and auditable.
 
-Adoption of this standard at any tier below the full Tensegrity Compressive Standards threshold (Tier 4 across all six Tensegrity Compressive Standards) does not constitute full Tensegrity Compressive Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim, per the specification in the Proof of Coordination Architecture document.
+Adoption of this standard at any tier below the full Tensegrity Compressive Standards threshold (Tier 4 across all seven Tensegrity Compressive Standards) does not constitute full Tensegrity Compressive Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim, per the specification in the Proof of Coordination Architecture document.
 
 Relationship To Other Standards
 
@@ -1561,13 +1561,14 @@ The Coordination Structural Integrity Suite operates as a tensegrity: the Tenseg
 ```
 Coordination Structural Integrity Suite
 │
-├── Tensegrity Compressive Standards (6)
+├── Tensegrity Compressive Standards (7)
 │   ├── Precision-First Design Standard
 │   ├── Adverse Signal Engagement Principle Core Standard
 │   ├── Structural Consent Legibility Standard
 │   ├── Information Asymmetry Classification Standard        ← this standard
 │   ├── Structural Power Obligation Standard
-│   └── Regenerative Obligation Standard
+│   ├── Regenerative Obligation Standard
+│   └── Coordination Scaling Standard
 │
 └── Tensegrity Generative Standards (3)
     ├── Sensemaking Standard
@@ -1577,9 +1578,11 @@ Coordination Structural Integrity Suite
 
 Without this standard the suite has no mechanism for classifying which specific type of information asymmetry is present. A system can acknowledge that information asymmetry exists without diagnosing its structural source, and an unclassified asymmetry cannot be addressed structurally.
 
-Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the nine standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
+Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the ten standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 Changelog
+
+v0.1.25 (2026-04-17): Suite count correction. Coordination Scaling Standard added as seventh Tensegrity Compressive Standard: conformance threshold in inheritance clause updated from "all six" to "all seven." No normative content changes.
 
 v0.1.24 (2026-04-15): Frame Language bridge vocabulary tightening. Residual Frame 1 vocabulary corrected under the revised Row 7 three-case rule. Approximately 70 instances replaced across Sections 1-6 and Extension Classes: "governance interventions" → "coordination interventions"; "shared governance structure" → "shared coordination structure"; "share governance over" → "share coordination of"; "governance responses" → "coordination responses"; "governance system" (×3 Section 1 and Section 3) → "coordination system"; "governance surfaces" → "coordination surfaces"; "governance architects" → "coordination architects"; "governance structures respond" → "coordination structures respond"; "taxonomy governance" → "taxonomy stewardship"; "governance acts/actions" → "coordination acts/actions" throughout detection surfaces; "governance proposals" → "coordination proposals"; "governance windows/outcomes/decisions/processes/environments/questions/records/contexts/workflow" → coordination equivalents throughout Sections 3-6 and extension classes; "*Governance record asymmetry*" (named sub-pattern) renamed to "*Coordination record asymmetry*" throughout (name, definition, detection signal, remediation); "ungoverned, unarchived channels" → "unwitnessed, unarchived channels"; "governed, witnessed record" → "structured, witnessed record"; "stewardship of the record's scope" replaces "governance of the record's scope". Admissible exceptions retained: opening paragraph of Section 1 (Case 1), "governance theory" in header tagline (Case 2), "corporate governance" in scope and limitations (Case 2), SEC Regulation FD doctrine uses (Case 3), Clayton Act Section 8 doctrine uses (Case 3), UNDRIP citation uses (Case 3). No normative content added or removed.
 
