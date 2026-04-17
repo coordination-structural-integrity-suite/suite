@@ -1,0 +1,45 @@
+name: Internal Link Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check internal links in markdown files
+        run: |
+          python3 << 'EOF'
+          import re
+          import sys
+          from pathlib import Path
+
+          repo_root = Path(".")
+          broken = []
+
+          for md_file in sorted(repo_root.rglob("*.md")):
+              content = md_file.read_text(errors="replace")
+              links = re.findall(r'\[([^\]]*)\]\(([^)]+)\)', content)
+              for text, url in links:
+                  url_clean = url.split('#')[0].strip()
+                  if not url_clean:
+                      continue
+                  if url_clean.startswith('http://') or url_clean.startswith('https://'):
+                      continue
+                  resolved = (md_file.parent / url_clean).resolve()
+                  if not resolved.exists():
+                      broken.append((str(md_file), url))
+
+          if broken:
+              print(f"BROKEN INTERNAL LINKS ({len(broken)} found):\n")
+              for src, url in broken:
+                  print(f"  {src}\n    -> {url}\n")
+              sys.exit(1)
+          else:
+              print(f"All internal links resolved successfully.")
+          EOF
