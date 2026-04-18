@@ -39,6 +39,14 @@ It does not require certainty. It requires falsifiability: a claim structured so
 
 It does not specify governance outcomes. It specifies how outcomes must be described for them to be architecturally meaningful.
 
+## Scope boundary: subjective experience vs. structural accessibility
+
+Whether a specification feels fair, transparent, or well-designed to those who use it is outside this standard's vocabulary. Subjective quality experience is not a precision question.
+
+Whether a specification is structurally accessible to the parties it was designed to protect is not outside scope. A specification so procedurally demanding that those parties cannot invoke its protections fails the precision imposition corollary — it is an over-specification failure in the ceiling direction. The test is structural, not experiential: can the parties the instrument was designed to protect actually invoke its protections, or does formal compliance exist while that access is structurally unavailable?
+
+This boundary is easy to misread. "Navigable" and "fair" appear similar. The distinction is: subjective navigation experience is outside scope; structural access to protection is inside scope, evaluated as a ceiling condition.
+
 ## Common misreadings to avoid
 
 **Treating precision deficit as the only failure direction.** Over-specification is an equal failure. A system can demonstrate formal compliance with all nine corollaries while the coordination purpose the instrument was designed to serve remains unreachable for the people it was supposed to protect. If an organization can show it followed every procedure while those procedures were supposed to protect had no access to the protection, the standard is not met.
@@ -79,6 +87,7 @@ The standalone transclusion skill (`claude-skill-transclusion-0_1_1.md`) provide
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 0.1.5 | 2026-04-17 | Scope boundary section added: distinguishes subjective experience of quality (outside scope) from structural accessibility of protection (inside scope, ceiling direction). Follows PFDS v2.1.7 boundary class correction. |
 | 0.1.4 | 2026-04-13 | Frame Language pass: opening line updated from "governance instrument" to "coordination instrument" and "accountability without a falsifiable criterion" to "obligation loop closure without a falsifiable criterion." Follows PFDS v2.1.1 Frame Language pass. |
 | 0.1.3 | 2026-04-13 | Nine ceiling conditions added to the requirements list, one paired with each floor condition. Intro sentence before the nine requirements updated to name the two-direction structure. Follows PFDS v2.1.0, which added nine ceiling corollaries to Section 2. |
 | 0.1.2 | 2026-04-13 | Added corpus evolution section: pointer to transclusion skill as prior check before precision audit in corpus evolution contexts. |
