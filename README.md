@@ -26,6 +26,8 @@ If you want to formally assess your organization's structural health across all 
 
 All prompts are in the `tensegrity-suite/prompts/` folder. The **[prompts README](tensegrity-suite/prompts/prompts-README.md)** maps every prompt by type and use case, including the full Coordination Structural Integrity Suite Assessment stage sequence. For extended reasoning work with an AI assistant that already has access to your documents and tools, **Claude skills** are in the `skills/` subfolders — they encode the full reasoning frame for each document and for the suite as a whole.
 
+If you have questions about applying the suite to your situation, want to share findings from using these instruments, or want to engage with others working with these standards: use **[GitHub Discussions](https://github.com/coordination-structural-integrity-suite/suite/discussions)**.
+
 <p align="center">
 <img src="images/framework-relationships-0_1_0.svg" alt="Five Frameworks — One Phenomenon: the foundational architecture" width="900"/>
 </p>
