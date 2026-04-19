@@ -219,6 +219,14 @@ These standards are the normative foundation for the Proof of Coordination proto
 
 Full protocol documentation will be linked here as it is released.
 
+## Standards built on this suite
+
+The Coordination Structural Integrity Suite is a foundation. The following standards are built on top of it, using the suite's compressive standards as their structural backbone. They are not part of the suite; they are downstream of it.
+
+**The Collegius Standard** — structural conditions for a self-curating body of contributors to function as credibly neutral, funder-independent distribution infrastructure for a field of sustained work. A self-curated membership registry, a distribution invariant, and a thin funder interface, each constitutively load-bearing for the others. [github.com/durgadasji/collegius-standard](https://github.com/durgadasji/collegius-standard)
+
+A full index of downstream standards is maintained at [github.com/durgadasji/standards-index](https://github.com/durgadasji/standards-index).
+
 ## Licensing
 
 - **Specifications** (standards documents in this repository): Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). See `LICENSE-SPEC`.
