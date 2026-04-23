@@ -41,11 +41,13 @@ A five-stage structured process for assessing your organization's structural hea
 
 | Stage | Prompt | What it does |
 |---|---|---|
+| Stage 0 | [Context Accumulation](suite/suite-assessment-stage-0-context-accumulation-0_3_0.md) | Establishes what kind of arrangement is being assessed, what the historical and structural record says about that kind of thing, and who outside the arrangement's defined party list is affected. Classifies the institutional form, surfaces the compressive and generative precondition profiles, maps the active failure modes (FM1-FM15), assesses the tensegrity configuration, and states the suite's standing limitation. This stage is not optional — without it, the assessment cannot catch correctness-of-design failures, external validity failures, or reference class failures. Output: context summary. |
 | Stage 1 | [Process Orientation](suite/suite-assessment-stage-1-orientation-0_1_0.md) | Orients you to the full process, establishes what you are hoping to understand, presents the data consent statement. Output: process summary. |
 | Stage 2 | [Structural Foundation Check](suite/suite-assessment-stage-2-foundation-check-0_1_0.md) | Assesses which of the six coordination commons components are present, partial, or absent in your actual practice. Output: commons components inventory. |
 | Stage 3 | [Standards Self-Assessment](suite/suite-assessment-stage-3-self-assessment-0_1_0.md) | For each of the ten standards, assesses where your organization currently stands against what the standard requires. Multi-session. Output: standards self-assessment with structured finding per standard. |
 | Stage 4 | [Gap Map and Priorities](suite/suite-assessment-stage-4-gap-map-0_1_0.md) | Synthesizes your Stage 2 and Stage 3 findings into your three most structurally significant gaps, with gap type and what addressing each would look like. Output: gap map. |
-| Stage 5 | [Advancement and Future Framing](suite/suite-assessment-stage-5-advancement-0_1_0.md) | Consolidates findings, establishes concrete next steps for each priority gap, frames a six-month re-assessment. Output: advancement summary. |
+| Stage 5 | [External Frame Assessment](suite/suite-assessment-stage-5-external-frame-0_1_0.md) | Assesses the arrangement from outside its own logic across four dimensions: ecological fit (ecosystem dependencies and externalities), counterfactual (better than absence or alternatives?), legitimacy class (basis and soundness of authority claim), and value instantiation (what values the incentive structure actually produces). Requires Stage 0 context summary and Stage 4 gap map as inputs. Output: external frame assessment with synthesis. |
+| Stage 6 | [Advancement and Future Framing](suite/suite-assessment-stage-5-advancement-0_1_0.md) | Consolidates findings from all five prior stages, opens with the most important external frame finding, establishes concrete next steps for each priority gap, frames a six-month re-assessment. Output: advancement summary. |
 
 ---
 
@@ -107,7 +109,7 @@ For auditing or assessing against multiple standards at once, or for orientation
 
 | Prompt | Use it on |
 |---|---|
-| [Coordination Scaling Audit](../compressive/prompts/coordination-scaling/coordination-scaling-audit-0_1_0.md) | Any coordination unit — assesses whether Board conditions for all crossed Radius thresholds are installed and Dome conditions are absent |
+| [Coordination Scaling Audit](../compressive/prompts/coordination-scaling/coordination-scaling-audit-0_1_0.md) | Any coordination unit — assesses whether minimum conditions for all crossed Radius thresholds are installed and maximum conditions are absent |
 
 ---
 
@@ -166,6 +168,16 @@ Suite documents are orientation, diagnostic, and configuration tools for the sui
 | Prompt | Use it when |
 |---|---|
 | [Readiness Assessment](conflict-transformation-preconditions/conflict-transformation-preconditions-readiness-0_1_0.md) | You are planning to run a conflict transformation process and want to verify structural preconditions are in place |
+
+---
+
+## Frame Language
+
+Frame Language is a diagnostic method for auditing governance documents, charters, constitutions, proposal templates, and dispute resolution processes for vocabulary that imports Frame 1 structural assumptions. Frame 1 vocabulary names organizational conditions in terms of authority, accumulation, and hierarchical accountability. It constructs the system into a specific structural form before a single rule is written. The audit identifies which terms are doing that work, what structural assumption each carries, what more specified Frame 2 vocabulary would name instead, and what structural possibilities the Frame 1 vocabulary forecloses.
+
+| Prompt | Use it on |
+|---|---|
+| [Frame Language Vocabulary Audit](frame-language/frame-language-vocabulary-audit-0_1_0.md) | Any governance document, charter, constitution, proposal template, or dispute resolution process |
 
 ---
 
