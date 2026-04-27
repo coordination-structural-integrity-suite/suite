@@ -1,24 +1,34 @@
 # Frame Language Vocabulary Audit
-Use when auditing a governance document, charter, constitution, proposal template, or dispute resolution process for vocabulary that imports Frame 1 structural assumptions. Frame 1 vocabulary names organizational conditions in terms of authority, accumulation, and hierarchical accountability. It does not merely describe a system — it constructs the system into a specific structural form before a single rule is written. Terms like "voting power," "governance," and "stakeholder" are not neutral; they build in assumptions about who counts, who decides, and which direction obligation flows. This audit identifies which terms are doing that work, what structural assumption each one carries, what more specified vocabulary would name instead, and what structural possibilities the Frame 1 vocabulary forecloses.
+Use when auditing a governance document, charter, constitution, proposal template, or dispute resolution process for vocabulary that imports structural assumptions the document's stated purpose does not intend. Vocabulary does not describe structures — it constructs them. The structural conditions an organization can build are bounded by what its vocabulary can name, because what the vocabulary cannot name cannot appear as a design decision; it can only be absent. This audit makes that visible.
 
 Note: Frame 2 vocabulary is more specified than Frame 1. It is not better. Replacing vocabulary makes structural conditions visible so they can be evaluated and designed around. It does not fix the conditions. The audit names what becomes visible after replacement, not what is solved.
 
 Copy everything below the line, paste it into any AI chat, and attach or paste the governance document, charter, proposal template, or dispute resolution process you want audited.
 
 ---
-You are auditing the attached document for Frame Language failures using the Frame Language standard (CC BY 4.0, Regis Chapman). A Frame Language failure is any instance where a term in a load-bearing position — used as a defining criterion, not just as shorthand — imports a structural assumption that the document's stated purpose does not intend.
+You are auditing the attached document for Frame Language failures using the Frame Language standard (CC BY 4.0, Regis Chapman). A Frame Language failure is any instance where a term in a load-bearing position — used as a defining criterion, not just as shorthand — imports a structural assumption that the document's stated purpose does not intend. Load-bearing means the term appears in a clause that creates a structural rule, determining who has authority, what they can do, or how decisions are made.
 
-Three orientations are relevant to this audit, not as a hierarchy of better-to-worse but as distinct access levels:
+---
 
-Frame 1 sees the visible and measurable as the whole truth: token holdings, current votes, treasury balance. It names structural positions in terms of authority, accumulation, and hierarchical obligation. Most organizational vocabulary was built at Frame 1.
+## The three orientations
 
-Frame 2 sees structural conditions underneath the surface: what the actual obligations are, which direction they flow, who bears costs, what the consent architecture actually does. Frame 2 vocabulary is more specified than Frame 1 — it names the same territory with precision that can be audited. A Frame 1 system stated in Frame 2 vocabulary is still a Frame 1 system, now precisely specified.
+Three orientations with different access levels to structural reality. Not a developmental hierarchy from worse to better.
 
-Frame 3 holds both directions of the organizational cycle — building capacity and dissolving structures when they need to end — without preference for either. It is solving problems both Frame 1 and Frame 2 have: Frame 1 cannot see structural conditions; Frame 2 cannot hold both directions without preferring the structurally healthy one. Frame 3 cannot be specified or claimed as a position. It is named here so Frame 2 is not mistaken for the destination.
+**Frame 1 (Two-Dimensional):** Sees the visible and measurable as the whole truth — token holdings, current votes, treasury balance, formal standing. Takes the surface expressions of a system as what the system is. The seer-capacity configuration has Suppression and Projection dominant, with little Perception. Frame 1 failure mode: takes the visible, manifest expressions as the complete reality. Vocabulary built at this level imports terminal-upward obligation, authority-over-participants, and property-rights influence into every structural position it occupies.
 
-Check for the following in the attached document:
+**Frame 2 (Three-Dimensional):** Sees structural conditions underneath the surface — what obligations actually are, which direction they flow, who bears costs, what the consent architecture does. More specified than Frame 1, not better. Frame 2 has a preferred configuration space: structural health over structural pathology. That preference is not error. But it creates blind spots: Frame 2 cannot assess configurations outside its recognized structural forms, and can over-fire by forcing unrecognized patterns into recognized categories.
 
-**1. Frame 1 vocabulary in load-bearing positions**
+Frame 2 failure modes: (1) preferred configuration space — blind spots outside recognized structural forms; (2) Frame 2 imitation — vocabulary performing precision without providing it: Frame 2 terms present but no structural condition is specified; (3) over-specification — conditions so complete that compliance can be demonstrated while the coordination purpose remains unserved; (4) the over-specification exploit — Frame 2 describing Frame 3 as a named position, level, or philosophy that practitioners can occupy or claim.
+
+**Frame 3:** A perspective, not a language. Cannot be specified or claimed as a position. Holds both composition and decomposition — the Innate Totality that includes all its expressions constitutively, without preference for any of them. Frame 3 can use Frame 1 and Frame 2 languages without being bound by them. Named here so Frame 2 is not mistaken for the destination.
+
+Frame 3 has exactly one failure mode: identification with the Innate Totality while refusing compositional movement — using Frame 3 orientation as a reason not to act, not to specify, not to install structural conditions. Extremely rare in governance documents.
+
+Two patterns appear in documents as Frame 3 but are not: (a) Frame 1 using Frame 3 language to avoid Frame 2 precision requirements — this is a Frame 1 failure; (b) Frame 2 naming Frame 3 as an organizational attribute or practice that can be adopted — this is a Frame 2 failure (over-specification exploit). Neither is Frame 3 pointing. Vocabulary obligation: never use "ground" or "foundation" as descriptors for Frame 3. Use "Innate Totality" instead.
+
+---
+
+## 1. Frame 1 vocabulary in load-bearing positions
 
 For each of the following terms, identify every instance where it appears as a defining criterion — not shorthand or bridge language — and name what structural assumption it imports:
 
@@ -42,52 +52,71 @@ For each instance found, report:
 - Whether it functions as a defining criterion or as bridge shorthand
 - What structural assumption it imports
 - The Frame 2 replacement and what it names instead
+- What structural possibility this term forecloses (what protection becomes unimaginable from inside this vocabulary)
 
-**2. Slippage points**
+**Diagnostic procedure for difficult terms:** When a term is suspicious but the structural condition being suppressed is not immediately visible, apply this three-move traversal:
 
-These terms feel like Frame 2 language but carry Frame 1 structural assumptions. Check for each:
+Suppression move: what does this term make inert or invisible? What structural condition cannot be seen as long as this term is operative?
 
-"Accountability" used as reform language ("multi-directional accountability," "community accountability"): the structural mechanism remains terminal-upward regardless of the modifier. The Frame 2 condition the reform intends requires naming obligation directions explicitly.
+Projection move: what vivid object does this term place onto that suppressed surface in place of the actual structural condition? What does a reader hold as fully real when they encounter this term?
 
-"Decentralized governance": distributes Frame 1 control mechanisms without changing the frame. A decentralized structure that still names authority over participants, property-rights voting, and upward obligation has distributed Frame 1, not moved beyond it.
+Perception move: if Suppression and Projection are both removed, what structural condition becomes directly visible? Name it precisely — that is the Frame 2 replacement candidate.
 
-"Transparency" used as if it means openness to participants: in Frame 1, transparency means financial and legal disclosure upward to formal authorities and investors. If the document intends multi-directional visibility, name what is made visible, to whom, and by what structural mechanism.
+---
 
-"Stakeholder" used as if it means everyone affected: the structural meaning names only parties with formal legal or financial standing. Parties who bear costs but lack formal standing are excluded by this term regardless of how broadly it is intended.
+## 2. Slippage points and difficult cases
 
-For each slippage point found, identify the passage and propose language that names the Frame 2 condition precisely.
+**Slippage points** are terms that feel like Frame 2 — they oppose what Frame 1 gets wrong — but carry Frame 1 structural assumptions intact. For each found, identify the passage and propose language that names the Frame 2 condition precisely.
 
-**3. Foreclosed structural protections**
+"Accountability" with modifiers ("multi-directional accountability," "community accountability," "accountability to our values"): the modifier performs the move without making it. The structural mechanism of accountability — terminal-upward reporting — is carried in the head noun, not the modifier. The modifier can point toward a direction; it cannot change the mechanism. Test: does the document name which parties obligation flows toward, through what mechanism, enforced by what structure? If not, the structural condition remains unspecified regardless of the modifier.
+
+"Decentralized governance": distributes Frame 1 control mechanisms without changing the frame. A decentralized structure that still names authority over participants, property-rights voting, and upward obligation is distributed Frame 1, not a different structural form.
+
+"Transparency" used as if it means openness to participants: in Frame 1, transparency means financial and legal disclosure upward to formal authorities and investors. Test: who is the disclosure for, and toward whom does it flow?
+
+"Stakeholder" used as if it means everyone affected: structurally names only formally standing parties. Test: are there parties bearing organizational costs who lack formal standing? If yes, "stakeholder" vocabulary excludes them regardless of intent.
+
+**Frame 2 imitation** is a distinct failure mode: Frame 2 vocabulary performing precision without providing it. Signs: Frame 2 terms present but no structural condition is independently evaluable; precision language used as legitimacy signaling ("we are accountable to our community" without naming direction, parties, or mechanism); conditions proliferating without specifying who owes what to whom through what mechanism. Frame 2 imitation is a Frame 2 failure, not Frame 2 presence.
+
+**The two exploits** — route to their correct frames:
+
+Under-specification exploit (Frame 1 failure): Frame 3 language deployed precisely when a Frame 2 precision requirement is being challenged — used to license omitting structural conditions. Example: "That's too Frame 2 thinking; we operate from abundance." Report as a Frame 1 failure, not Frame 3 pointing.
+
+Over-specification exploit (Frame 2 failure): Frame 3 described as a named level, state, consciousness model, or governance philosophy practitioners can "be at" or "operate from." Example: "Our governance embodies regenerative values." Report as Frame 2 imitation.
+
+---
+
+## 3. Foreclosed structural protections
 
 Some Frame 1 terms, by their structural assumptions, make certain protections unimaginable from inside the document's own vocabulary. Check for:
 
-Absent floor: does the vocabulary make it impossible to require distributed support for decisions? Specifically, does "voting power" or equivalent language name influence as a property right that scales with accumulation, making a minimum distribution requirement structurally incoherent from within the document's frame?
+**Absent floor:** does the vocabulary name influence as a property right that scales with accumulation, making a minimum distribution requirement structurally incoherent from within the document's frame?
 
-Absent ceiling: does the vocabulary make it impossible to name a maximum concentration limit? If "voting power" is a property right, a ceiling on that property is not imaginable from inside the vocabulary.
+**Absent ceiling:** does the vocabulary make maximum concentration limits unimaginable? If influence is a property right, a ceiling on that property is not a coherent phrase inside that vocabulary.
 
-Absent cost-bearing party identification: does the vocabulary identify only formal stakeholders, leaving parties who bear costs from decisions without standing or named recognition?
+**Absent cost-bearing party identification:** does the vocabulary identify only formal stakeholders, leaving parties who bear costs from decisions without standing or named recognition?
+
+**Absent obligation direction:** does the vocabulary specify only upward or terminal obligation, making multi-directional obligation architectures unnameable from within the frame?
 
 For each foreclosed protection, name what becomes imaginable once the Frame 1 vocabulary is replaced with the Frame 2 equivalent.
 
-**4. Output**
+---
 
-Produce a vocabulary map organized as follows:
+## 4. Output
 
-First, a summary finding: how pervasively does Frame 1 vocabulary appear in load-bearing positions, and what is the structural character of the architecture the vocabulary has constructed?
+Produce an audit organized as follows:
 
-Then, for each term found in load-bearing positions:
-- Term and location
-- What assumption it imports
-- Frame 2 replacement
-- What structural possibility this term forecloses
+First, a summary finding: what totalizing assumptions have been silently imported by the vocabulary into this document? Name the vocabulary-architecture gap: what the organization states it is building versus what the structural assumptions already in its vocabulary are actually constructing.
 
-Then, slippage points found with proposed Frame 2 language.
+Then, for each Frame 1 term found in load-bearing positions: term and location, what assumption it imports, Frame 2 replacement, what structural possibility it forecloses.
 
-Then, foreclosed protections: what floors, ceilings, or cost-bearing party identifications are not imaginable from inside the document's current vocabulary.
+Then, slippage points and Frame 2 imitation instances found, with proposed Frame 2 language.
+
+Then, foreclosed protections: what floors, ceilings, cost-bearing party identifications, or obligation direction specifications are not imaginable from inside the document's current vocabulary.
 
 Close with a plain statement: given this vocabulary, what organizational form has this document already built, regardless of what its stated purpose intends?
 
-Full standard and reference table: https://github.com/coordination-structural-integrity-suite/suite
+Full standard and reference: https://github.com/coordination-structural-integrity-suite/suite
 
 ---
 
@@ -95,4 +124,5 @@ Full standard and reference table: https://github.com/coordination-structural-in
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 0.2.0 | 2026-04-26 | Major update aligning with current Frame Language method. Frame descriptions updated: Two-Dimensional/Three-Dimensional naming added; Suppression/Projection/Perception seer-capacity states named; Innate Totality terminology throughout; Frame 2 failure modes expanded to four (preferred configuration space, Frame 2 imitation, over-specification, over-specification exploit); Frame 3 description corrected (Innate Totality, not "holds both directions of cycle"). New in Section 2: Frame 2 imitation as a named failure mode; under-specification exploit (Frame 1 failure) and over-specification exploit (Frame 2 failure) explicitly named and routed; Suppression-Projection-Perception diagnostic added as tool for difficult terms. Section 3: absent obligation direction added as fourth foreclosed protection. Reference article: "Frame Language: Vocabulary Is Structure, Is Code, Is Law" (2026-04-24). Method reference: FLA analyze.ts SYSTEM_PROMPT. |
 | 0.1.0 | 2026-04-23 | Initial prompt. Drafted as companion to article "The Words Your DAO Inherited." General-purpose Frame Language vocabulary audit for any governance document. Three-frame orientation summary; twelve-term recognition table; slippage points; foreclosed protections check; vocabulary map output format. |
