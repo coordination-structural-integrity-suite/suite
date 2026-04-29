@@ -34,6 +34,7 @@ For each of the following terms, identify every instance where it appears as a d
 
 | Term | Structural assumption imported | Frame 2 replacement |
 |---|---|---|
+| Authority (positional) | Hierarchical license derived from role or title without origination grounding; enforcement capacity imported as legitimate standing; conflates origination weight with positional license | Gravity (structural weight of a framework or finding arising from genuine origination); Gravitas (personal weight arising from origination capacity) |
 | Governance / governs | A structure exists to exercise authority over participants | Coordination instrument |
 | Accountability | Obligation flows upward toward whoever holds formal authority | Obligation direction |
 | Stakeholder | Only parties with formal legal or financial standing count | Cost-bearing party |
@@ -124,5 +125,6 @@ Full standard and reference: https://github.com/coordination-structural-integrit
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 0.2.1 | 2026-04-29 | Authority (positional) row added as first entry in Section 1 vocabulary table. Frame 2 equivalents: Gravity (structural weight arising from genuine origination) and Gravitas (personal weight arising from origination capacity). Propagates Naming Decision 2.30 from Terminology Conventions v0.2.6. |
 | 0.2.0 | 2026-04-26 | Major update aligning with current Frame Language method. Frame descriptions updated: Two-Dimensional/Three-Dimensional naming added; Suppression/Projection/Perception seer-capacity states named; Innate Totality terminology throughout; Frame 2 failure modes expanded to four (preferred configuration space, Frame 2 imitation, over-specification, over-specification exploit); Frame 3 description corrected (Innate Totality, not "holds both directions of cycle"). New in Section 2: Frame 2 imitation as a named failure mode; under-specification exploit (Frame 1 failure) and over-specification exploit (Frame 2 failure) explicitly named and routed; Suppression-Projection-Perception diagnostic added as tool for difficult terms. Section 3: absent obligation direction added as fourth foreclosed protection. Reference article: "Frame Language: Vocabulary Is Structure, Is Code, Is Law" (2026-04-24). Method reference: FLA analyze.ts SYSTEM_PROMPT. |
 | 0.1.0 | 2026-04-23 | Initial prompt. Drafted as companion to article "The Words Your DAO Inherited." General-purpose Frame Language vocabulary audit for any governance document. Three-frame orientation summary; twelve-term recognition table; slippage points; foreclosed protections check; vocabulary map output format. |
