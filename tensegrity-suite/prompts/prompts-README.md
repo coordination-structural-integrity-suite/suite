@@ -177,7 +177,7 @@ Frame Language is a diagnostic method for auditing governance documents, charter
 
 | Prompt | Use it on |
 |---|---|
-| [Frame Language Vocabulary Audit](frame-language/frame-language-vocabulary-audit-0_1_0.md) | Any governance document, charter, constitution, proposal template, or dispute resolution process |
+| [Frame Language Vocabulary Audit](frame-language/frame-language-vocabulary-audit-0_1_0.md) | Any governance document, charter, constitution, proposal template, dispute resolution process, or regenerative/regen community document — includes a regen-specific audit (Regen Reality Check) for documents making regenerative claims |
 
 ---
 
