@@ -103,7 +103,7 @@ For auditing or assessing against multiple standards at once, or for orientation
 
 | Prompt | Use it on |
 |---|---|
-| [Regenerative Obligation Audit](../compressive/prompts/regenerative-obligation/regenerative-obligation-audit-0_1_2.md) | Organizations or protocols — assesses whether return to harm-bearing parties meets three simultaneous validity conditions |
+| [Regenerative Obligation Audit](../compressive/prompts/regenerative-obligation/regenerative-obligation-audit-0_1_4.md) | Organizations or protocols — assesses whether return to harm-bearing parties meets three simultaneous validity conditions |
 
 ### Coordination Scaling Standard
 
