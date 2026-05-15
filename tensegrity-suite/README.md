@@ -77,7 +77,7 @@ These standards do not specify coordination outcomes. They specify structural co
 
 Every governance system that has failed believed it was adequate before it failed. FTX had governance documentation. Terra/Luna had economic theory. GravityDAO had values and processes. Every DAO that required emergency conflict transformation had a community that believed it had a community. The belief that structural failure modes do not apply to a specific system is not irrational from inside that system: it is the predictable output of the mechanisms those failure modes create. Organizations experiencing structural blindness do not experience it as blindness. They experience it as clarity.
 
-These standards are designed primarily for organizations that do not currently believe they have a structural problem. Organizations already in crisis can use them, but the organizations most likely to benefit are the ones convinced they are doing governance correctly.
+These standards are designed primarily for organizations that do not currently believe they have a structural problem. Organizations already in crisis can use them, but the organizations most likely to benefit are the ones convinced their coordination is structurally sound.
 
 The reason is structural. The failure modes these standards address are most dangerous in the phase before they are visible. Structural power concentrates gradually, through drift, before it becomes capture. Consent erodes through accumulated friction before it becomes coercion. Adverse signals accumulate as dismissed noise before they become the record of a foreseeable failure. None of the protective work these standards enable is available after the failure is apparent. It is only available before.
 
