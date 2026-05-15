@@ -129,7 +129,7 @@ Five documents support the standards as a system rather than as individual instr
 
 **Frame Language Foundational Vocabulary Specification** (added in Suite 3.0, CC BY 4.0) is the vocabulary specification for the diagnostic language used across the Suite and in grant obligation contexts. It documents the conceptual tools developed over 17 iterative patch versions to describe the distinction between structural grounding and aspiration in coordination systems. Frame Language is not a normative standard and does not add requirements to the ten compressive and generative standards; it names the vocabulary those standards assume when diagnosing failure modes. It is published as a Suite document at version 1.0.0 rather than a patch version because the vocabulary it documents is conceptually mature.
 
-**[CROSS: Common Reporting Outcome Standards Schema](cross/README.md)** is an independent standard co-released alongside Suite 3.0 under CC0. CROSS specifies what funded interventions are obligated to produce. It is not a Suite document and does not carry the CC BY 4.0 license; it maintains independent publication status so any grants ecosystem can adopt it without adopting the Suite. It is covered in this README because it was developed in parallel with the Suite and shares structural grounding with the Precision-First Design Standard, Adverse-Signal Engagement Principle Core Standard, Information Asymmetry Classification Standard, and Regenerative Obligation Standard, from which it inherits requirements by reference.
+**[CROSS: Common Reporting Outcome Standards Schema](https://github.com/durgadasji/cross-standard)** is an independent standard co-released alongside Suite 3.0 under CC0. CROSS specifies what funded interventions are obligated to produce. It is not a Suite document and does not carry the CC BY 4.0 license; it maintains independent publication status so any grants ecosystem can adopt it without adopting the Suite. It is covered in this README because it was developed in parallel with the Suite and shares structural grounding with the Precision-First Design Standard, Adverse-Signal Engagement Principle Core Standard, Information Asymmetry Classification Standard, and Regenerative Obligation Standard, from which it inherits requirements by reference. CROSS is published in its own repository at github.com/durgadasji/cross-standard.
 
 ---
 
@@ -229,6 +229,8 @@ Full protocol documentation will be linked here as it is released.
 - **Code and software artifacts** (now or future: examples, scripts, tests, reference implementations): Licensed under Apache License 2.0. See `LICENSE`.
 
 ## Changelog
+
+2026-05-15: CROSS moved to its own repository at github.com/durgadasji/cross-standard. The cross/ subfolder has been removed from this repository. The Suite-level documents section link updated to point to the external repo. CROSS remains independently adoptable without adopting the Suite.
 
 2026-04-17: Suite expanded from nine standards to ten. Coordination Scaling Standard added as the seventh Tensegrity Compressive Standard. All suite-level counts updated (nine → ten, six compressive → seven compressive). Coordination Scaling Standard description added to the compressive standards section. Full Tensegrity Compressive Standards designation threshold updated to seven. Suite Integration Guide and detection reliability count updated.
 
