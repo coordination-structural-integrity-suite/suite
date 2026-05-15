@@ -97,6 +97,8 @@ Class D1 (canonical vocabulary without structural grounding): the application us
 
 **Application timing is not the diagnostic.** A team that built something before the grant round opened is not automatically exhibiting a gate failure. They can name the FROM state precisely because they built the solution to address it. Application timing tells the reviewer when the applicant sought funding; it does not reveal whether a diagnosis was performed.
 
+**Build nested inside change is valid.** An application that describes what it will build while also naming a qualifying FROM state has not failed the change-obligation gate. The build is the mechanism; the change specification is intact. The gate question is whether a FROM state can be named, not whether the applicant also commits to producing an artifact. Build becomes the failure mode when it has replaced the change specification: the applicant names a deliverable but cannot produce a FROM state because the problem was never diagnosed.
+
 **Gate finding options.**
 
 Gate passes: document "Gate passes: applicant names [specific condition, verbatim or paraphrased] in [specific population] with [named source or evidence]." Proceed to Section 3.
