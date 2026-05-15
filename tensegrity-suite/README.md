@@ -1,6 +1,6 @@
 # Coordination Structural Integrity Suite
 
-Distributed governance is struggling to find solid footing. Decentralized Autonomous Organizations (DAOs) and other coordination experiments have failed not because participants were malicious or incompetent, but because the systems lacked structural foundations. These standards specify those foundations.
+Distributed coordination is struggling to find solid footing. Decentralized Autonomous Organizations (DAOs) and other coordination experiments have failed not because participants were malicious or incompetent, but because the systems lacked structural foundations. These standards specify those foundations.
 
 This repository contains ten standards developed in the course of building the Proof of Coordination protocol: seven Tensegrity Compressive Standards and three Tensegrity Generative Standards. Together they form the Coordination Structural Integrity Suite of the protocol's normative architecture.
 
