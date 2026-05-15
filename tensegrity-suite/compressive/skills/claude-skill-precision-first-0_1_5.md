@@ -23,9 +23,9 @@ Nine specific requirements follow from this. Each requirement runs in two direct
 
 1. Every term in a normative claim has an operational definition an independent observer can apply without access to the author. Ceiling: a definition that achieves independent determinability by narrowing what counts as the phenomenon rather than specifying it has missed real instances of what it was built to detect.
 2. Each rule specifies a detection procedure by which an independent observer can identify a violation. Ceiling: a taxonomy that creates more categories than the phenomenon has distinguishable states, or demands classification before the required information exists, forces real cases into boxes that do not fit.
-3. Each taxonomy or classification system specifies a procedure for handling edge cases outside all existing categories. Ceiling: a detection instrument can eliminate every false positive by narrowing its target state — and in doing so, systematically miss what it was designed to find.
-4. Each detection mechanism specifies what signals it would not produce — its false-negative boundary. Ceiling: a governance process too elaborate to use fails the parties who need it, even if every condition is formally met.
-5. Each process specifies operational conditions for initiation, continuation, and conclusion; no step depends on discretion without criteria. Ceiling: an escalation mechanism that fires on ordinary variation in timing becomes background noise — indistinguishable from a system that is simply running hot.
+3. Each taxonomy or classification system specifies a procedure for handling edge cases outside all existing categories. Ceiling: a detection instrument can eliminate every false positive by narrowing its target state, and in doing so systematically miss what it was designed to find.
+4. Each detection mechanism specifies what signals it would not produce (its false-negative boundary). Ceiling: a governance process too elaborate to use fails the parties who need it, even if every condition is formally met.
+5. Each process specifies operational conditions for initiation, continuation, and conclusion; no step depends on discretion without criteria. Ceiling: an escalation mechanism that fires on ordinary variation in timing becomes background noise, indistinguishable from a system that is simply running hot.
 6. Each normative term expressing a value judgment (fair, reasonable, transparent) is decomposed into independently evaluable conditions. Ceiling: too many overlapping defensive mechanisms contradict each other, generate false violation readings, or make operating the system structurally unachievable.
 7. Governance inaction in the presence of a detection output is itself detectable without the cooperation of the inacting party. Ceiling: a challenge pathway requiring so many procedural steps that no independent actor can complete it exists formally while remaining structurally inaccessible.
 8. Critical properties depend on multiple structurally distinct mechanisms, not a single defensive mechanism. Ceiling: a typological declaration that claims operative coverage beyond what the vocabulary supports generates conformance expectations the document cannot meet.
@@ -43,7 +43,7 @@ It does not specify governance outcomes. It specifies how outcomes must be descr
 
 Whether a specification feels fair, transparent, or well-designed to those who use it is outside this standard's vocabulary. Subjective quality experience is not a precision question.
 
-Whether a specification is structurally accessible to the parties it was designed to protect is not outside scope. A specification so procedurally demanding that those parties cannot invoke its protections fails the precision imposition corollary — it is an over-specification failure in the ceiling direction. The test is structural, not experiential: can the parties the instrument was designed to protect actually invoke its protections, or does formal compliance exist while that access is structurally unavailable?
+Whether a specification is structurally accessible to the parties it was designed to protect is not outside scope. A specification so procedurally demanding that those parties cannot invoke its protections fails the precision imposition corollary; it is an over-specification failure in the ceiling direction. The test is structural, not experiential: can the parties the instrument was designed to protect actually invoke its protections, or does formal compliance exist while that access is structurally unavailable?
 
 This boundary is easy to misread. "Navigable" and "fair" appear similar. The distinction is: subjective navigation experience is outside scope; structural access to protection is inside scope, evaluated as a ceiling condition.
 
@@ -65,7 +65,7 @@ When evaluating any claim, rule, process, or taxonomy: can an independent observ
 
 ## Completing a finding: the harm-naming obligation
 
-The transclusion principle — that precision and non-harming are one commitment — has a direct implication for how audit findings are completed.
+The transclusion principle (that precision and non-harming are one commitment) has a direct implication for how audit findings are completed.
 
 A finding that identifies a structural gap but does not name who bears the cost of that gap has not yet served the audit's purpose. The gap is the structural fact. The harm is what makes it matter.
 
@@ -77,9 +77,9 @@ This is not an additional audit criterion. It is what converts a structural chec
 
 ## Corpus evolution: invoke the transclusion check first
 
-When applying this standard in the context of a corpus evolution question (a new requirement, new standard element, new framework section, or new document being proposed), the transclusion check is a prior obligation. Before asking whether a proposed addition is precision-complete, ask: is there a frame at which an existing element is already true, such that the original precision and the new requirement are both fully operative within it as distinct instantiations, with neither requiring the other to diminish? If yes, the transclusion is the correct move and no new element is needed. If no such frame exists, a new element is the correct answer — and then precision-first applies to that new element.
+When applying this standard in the context of a corpus evolution question (a new requirement, new standard element, new framework section, or new document being proposed), the transclusion check is a prior obligation. Before asking whether a proposed addition is precision-complete, ask: is there a frame at which an existing element is already true, such that the original precision and the new requirement are both fully operative within it as distinct instantiations, with neither requiring the other to diminish? If yes, the transclusion is the correct move and no new element is needed. If no such frame exists, a new element is the correct answer; and then precision-first applies to that new element.
 
-The standalone transclusion skill (`claude-skill-transclusion-0_1_1.md`) provides the full implementation: the prior differentiation check, the test for whether transclusion has occurred, the two failure modes (false separation and false merger), the nondual ground, and worked examples from the corpus. The pointer here is not a re-specification — it is a sequencing instruction. Transclusion check comes before precision audit in corpus evolution contexts.
+The standalone transclusion skill (`claude-skill-transclusion-0_1_1.md`) provides the full implementation: the prior differentiation check, the test for whether transclusion has occurred, the two failure modes (false separation and false merger), the nondual ground, and worked examples from the corpus. The pointer here is not a re-specification; it is a sequencing instruction. Transclusion check comes before precision audit in corpus evolution contexts.
 
 ---
 

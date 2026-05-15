@@ -58,7 +58,7 @@ Separation removes relational colonization of the access decision. It does not i
 
 ## Scope condition
 
-The framework applies to relationships that are advancing in access or trust over time. It is not designed for cold-contact or single-interaction cases where relational accumulation has not yet occurred. The sequencing is most critical in the phase between initial contact and consequential access extension — the phase where Visible and Vanilla signals are building but structural checks have not yet run.
+The framework applies to relationships that are advancing in access or trust over time. It is not designed for cold-contact or single-interaction cases where relational accumulation has not yet occurred. The sequencing is most critical in the phase between initial contact and consequential access extension, the phase where Visible and Vanilla signals are building but structural checks have not yet run.
 
 ## Working with someone applying this framework
 

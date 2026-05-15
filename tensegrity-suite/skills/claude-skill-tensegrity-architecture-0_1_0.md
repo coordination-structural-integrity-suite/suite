@@ -44,7 +44,7 @@ The tensegrity principle connects them. In a tensegrity structure, compression m
 
 **Invisible extraction:** Contributor capacity is extracted without matched regenerative return. The extraction is structurally invisible until the contributors exit. Addressed by the Regenerative Obligation Standard.
 
-**Scale threshold failure:** Dunbar-scale thresholds are crossed without installing the structural conditions those thresholds require. Coordination failures at threshold crossings look like culture or personnel problems but are structural architecture failures. The Board conditions at each Radius specify what must be structurally present; the Dome conditions specify what must be absent. Addressed by the Coordination Scaling Standard.
+**Scale threshold failure:** Dunbar-scale thresholds are crossed without installing the structural conditions those thresholds require. Coordination failures at threshold crossings look like culture or personnel problems but are structural architecture failures. The minimum conditions at each Radius specify what must be structurally present; the maximum conditions specify what must be absent. Addressed by the Coordination Scaling Standard.
 
 ## The three capacity conditions the generative standards specify
 

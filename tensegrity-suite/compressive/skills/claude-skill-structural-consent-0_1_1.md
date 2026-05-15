@@ -5,17 +5,17 @@ When someone brings you this standard, they are often trying to name something t
 
 ## What this skill is for
 
-This skill enables correct reasoning with the Structural Consent Legibility Standard when someone brings it to you. Use it when evaluating governance consent architecture, reviewing participation terms, or explaining why common consent mechanisms fail the standard's requirements.
+This skill enables correct reasoning with the Structural Consent Legibility Standard when someone brings it to you. Use it when evaluating consent architecture in coordinating structures, reviewing participation terms, or explaining why common consent mechanisms fail the standard's requirements.
 
 ## The single most important thing to understand
 
-Most consent mechanisms answer "did the participant agree?" This standard requires answering two different questions: who is acting, and who benefits from the action? These questions expose shadow dynamics — conditions where consent is formally present but structurally hollow.
+Most consent mechanisms answer "did the participant agree?" This standard requires answering two different questions: who is acting, and who benefits from the action? These questions expose shadow dynamics: conditions where consent is formally present but structurally hollow.
 
 The canonical shadow dynamics from Betty Martin's Wheel of Consent: serving (acting for the other's benefit), taking (acting for your own benefit), accepting (allowing action for the other's benefit), and enduring (allowing action for the other's benefit at personal cost). Shadow dynamics arise when the "who benefits" question is obscured. Token-weighted voting where the voting body benefits from ratification is a shadow dynamic: the form is consent, the structure is something else.
 
 ## What the standard requires
 
-The two-axis framework (who acts; who benefits) is supplemented by cost-bearing party identification. In any consent-bearing interaction, the party who bears the cost — risk, expenditure, constraint, or negative consequence — may be distinct from both the acting party and the benefiting party. When the cost-bearing party is a third party outside the two-axis interaction, the consent architecture must identify them and obtain their consent to the cost distribution before the action proceeds. This is a consent failure independent of two-axis legibility.
+The two-axis framework (who acts; who benefits) is supplemented by cost-bearing party identification. In any consent-bearing interaction, the party who bears the cost (risk, expenditure, constraint, or negative consequence) may be distinct from both the acting party and the benefiting party. When the cost-bearing party is a third party outside the two-axis interaction, the consent architecture must identify them and obtain their consent to the cost distribution before the action proceeds. This is a consent failure independent of two-axis legibility.
 
 External legal override is a named structural threat: external legal requirements (securities classification, employment law, data sovereignty mandates, anti-money-laundering obligations) can impose obligations on participants that override explicit consent architecture. The consent architecture must name applicable jurisdictions and govern the gap between explicit consent arrangements and externally imposed obligations. Absence of this disclosure is a consent legibility failure.
 
@@ -31,7 +31,7 @@ These three features must be structurally present, not just formally claimed.
 
 Three invariants apply to every consent-bearing action:
 
-**Identify.** Prior condition: the action being consented to must be specified with sufficient precision for affected parties to evaluate whether they are materially affected. An underspecified action prevents standing claims from being properly made or evaluated. Category-level authorization ("the committee is authorized to make fee decisions") cannot substitute for per-action consent without a named trigger condition for standing evaluation. Then: the affected constituency — participants whose governance standing, data sovereignty, participation terms, or observation exposure would be materially altered — must be identified before the action proceeds. Absence of standing claims from parties who should be affected is itself an adverse signal. The system must also maintain a durable, accessible definition of who holds participation rights as a structural precondition for per-action identification: without this definition, identification is performed against an implicit, unspecified reference and is not structurally legible. Unilateral modification of that definition by parties holding concentrated authority is itself a consent failure in the governance domain.
+**Identify.** Prior condition: the action being consented to must be specified with sufficient precision for affected parties to evaluate whether they are materially affected. An underspecified action prevents standing claims from being properly made or evaluated. Category-level authorization ("the committee is authorized to make fee decisions") cannot substitute for per-action consent without a named trigger condition for standing evaluation. Then: the affected constituency (participants whose governance standing, data sovereignty, participation terms, or observation exposure would be materially altered) must be identified before the action proceeds. Absence of standing claims from parties who should be affected is itself an adverse signal. The system must also maintain a durable, accessible definition of who holds participation rights as a structural precondition for per-action identification: without this definition, identification is performed against an implicit, unspecified reference and is not structurally legible. Unilateral modification of that definition by parties holding concentrated authority is itself a consent failure in the governance domain.
 
 **Authorize.** The affected constituency must have a meaningful opportunity to authorize or refuse. Meaningful requires legibility, time, support, and exit/objection cost obligations. Authorization that excludes affected parties or includes unaffected parties who dilute the affected constituency's voice is a consent failure.
 
@@ -39,7 +39,7 @@ Three invariants apply to every consent-bearing action:
 
 ## What the standard does not require
 
-It does not require that consent be experienced as free or fair — only that it be structurally legible. Structural legibility is necessary but not sufficient for felt consent.
+It does not require that consent be experienced as free or fair, only that it be structurally legible. Structural legibility is necessary but not sufficient for felt consent.
 
 It does not address how consent misalignment feels to participants. The standard operates at the structural level; felt experience is outside its vocabulary.
 

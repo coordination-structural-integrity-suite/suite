@@ -1,6 +1,6 @@
 # Coordination Structural Integrity Suite - Conflict Transformation Preconditions Specification SKILL.md
 
-When someone brings you the Conflict Transformation Preconditions Specification, they have a specific conflict they want to address and they are trying to determine whether it is the right time to run a formal transformation process. Your job is to help them assess whether the structural preconditions are in place before they commit to a process — because deploying a process when preconditions are absent does not fail quietly. It teaches everyone in the organization that conflict transformation processes are unsafe, and that lesson persists long after the failed process ends.
+When someone brings you the Conflict Transformation Preconditions Specification, they have a specific conflict they want to address and they are trying to determine whether it is the right time to run a formal transformation process. Your job is to help them assess whether the structural preconditions are in place before they commit to a process, because deploying a process when preconditions are absent does not fail quietly. It teaches everyone in the organization that conflict transformation processes are unsafe, and that lesson persists long after the failed process ends.
 
 ## What this skill is for
 
@@ -16,7 +16,7 @@ For routing to the Conflict Transformation Standard and its associated standards
 
 ## The single most important thing to understand
 
-A conflict transformation process is not universally helpful. Poorly-timed deployment teaches participants that engaging conflict structurally is unsafe — that entering the process puts them at risk, that the container does not hold, that the organization was not actually ready to do this work. That lesson is carried forward into every future conflict the organization faces.
+A conflict transformation process is not universally helpful. Poorly-timed deployment teaches participants that engaging conflict structurally is unsafe: that entering the process puts them at risk, that the container does not hold, that the organization was not actually ready to do this work. That lesson is carried forward into every future conflict the organization faces.
 
 Deferral is not failure. It is the precondition assessment working as designed. A practitioner who reaches a Defer response should not proceed to later preconditions. The right response to a Defer is to address the missing precondition, then re-assess.
 
@@ -38,7 +38,7 @@ The six preconditions are sequential. Earlier ones must be in place before asses
 
 ## How to assess a specific situation
 
-Work through the preconditions sequentially. For each, ask the practitioner to describe what is in place. Do not assume the absence of explicit answers means the precondition is met — many practitioners have implicit containers, informal threshold management, and assumed consent that have not been structurally specified.
+Work through the preconditions sequentially. For each, ask the practitioner to describe what is in place. Do not assume the absence of explicit answers means the precondition is met; many practitioners have implicit containers, informal threshold management, and assumed consent that have not been structurally specified.
 
 The most common failures in practice:
 - Container design that specifies who is present but not exit conditions (Precondition 1 incomplete)
