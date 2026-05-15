@@ -2,9 +2,11 @@
 
 Version 0.2.0 | 2026-05-14 | CC0
 
-CROSS specifies what funded interventions are accountable for producing. It provides grants ecosystems with a portable accountability schema that accommodates multiple accountability modes, calibrates evidentiary pressure to program context, and generates structured reporting data that is comparable across funders, rounds, and grantees.
+Most grant programs have a funding process but no accountability standard. They collect applications, select projects, distribute funds, and hope for the best. CROSS fills that gap.
 
-CROSS is not a process standard. It does not specify how rounds are structured, how funds are distributed, or how governance decisions are made. CROSS specifies the content of accountability: what applicants must demonstrate, what funders must evaluate, what grantees must report, and how evidentiary pressure is structured across the funding lifecycle.
+CROSS is a standard for grant accountability. It answers three questions that every grant program must answer but rarely specifies: what must an applicant demonstrate before funding is approved, what must a grantee report during the grant, and what evidence must a funder actually evaluate before releasing each payment. It does this across three types of grants: grants for building something specific, grants for producing a measurable change in the world, and grants recognizing work already done.
+
+CROSS does not tell programs how to run their governance, how to score applications, or how to distribute funds. It specifies the content of accountability at each stage of the funding lifecycle, and makes that content portable across programs so that grantees, funders, and evaluators work from the same definitions.
 
 ---
 
