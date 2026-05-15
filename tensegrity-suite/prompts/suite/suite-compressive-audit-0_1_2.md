@@ -14,34 +14,34 @@ For each standard, identify whether the structural requirement is met, what evid
 Every normative claim, process, and classification must carry the structural mechanism that produces its claimed outcome. Unfalsifiable claims cannot carry architectural weight. Precision fails in two directions: a precision deficit is a normative claim that cannot be evaluated by an independent observer; a precision imposition is a normative element specified so completely that compliance can be demonstrated while the coordination purpose it was designed to serve remains unserved. Each criterion below can fail in either direction.
 
 Evaluate whether:
-- Every normative term in a rule or condition has an operational definition an independent observer can apply without access to the author — and whether any definition achieves this by narrowing what counts as the phenomenon, excluding real instances of what it was built to identify
-- Each rule specifies a procedure by which violations can be detected by an independent observer — and whether any detection taxonomy creates more categories than the phenomenon has distinguishable states
-- Each taxonomy specifies a procedure for handling edge cases outside all existing categories — and whether any classification instrument eliminates false positives by narrowing its target state so far that it misses what it was designed to find
-- Each detection mechanism specifies what signals it would not produce (its false-negative boundary) — and whether any process is so elaborate it cannot be completed by the parties it was designed to protect
-- Each process specifies operational conditions for initiation, continuation, and conclusion — and whether any escalation mechanism fires on ordinary variation, producing outputs indistinguishable from background noise
-- Each normative term expressing a value judgment (fair, reasonable, transparent) is decomposed into independently evaluable conditions — and whether overlapping defensive mechanisms contradict each other or make operating the system structurally unachievable
-- Inaction by coordination actors in the presence of a detection output is itself detectable without the cooperation of the inacting party — and whether any challenge pathway requires so many procedural steps that no independent actor can realistically complete it
-- Critical properties depend on multiple structurally distinct mechanisms rather than a single defensive mechanism — and whether any typological declaration claims operative coverage beyond what the vocabulary supports
-- Each assessment architecture requires a contextual baseline statement before initial assessment when identical measurement outputs would indicate structurally distinct conditions requiring different responses; each normative mechanism adopted from a different structural context carries a baseline statement specifying origin-context conditions, adopting-context conditions, and either a congruence confirmation or calibration adjustments — and whether any baseline requirement imposes conditions no real case can satisfy, making the baseline itself the obstacle to what it was designed to make possible
+- Every normative term in a rule or condition has an operational definition an independent observer can apply without access to the author, and whether any definition achieves this by narrowing what counts as the phenomenon, excluding real instances of what it was built to identify
+- Each rule specifies a procedure by which violations can be detected by an independent observer, and whether any detection taxonomy creates more categories than the phenomenon has distinguishable states
+- Each taxonomy specifies a procedure for handling edge cases outside all existing categories, and whether any classification instrument eliminates false positives by narrowing its target state so far that it misses what it was designed to find
+- Each detection mechanism specifies what signals it would not produce (its false-negative boundary), and whether any process is so elaborate it cannot be completed by the parties it was designed to protect
+- Each process specifies operational conditions for initiation, continuation, and conclusion, and whether any escalation mechanism fires on ordinary variation, producing outputs indistinguishable from background noise
+- Each normative term expressing a value judgment (fair, reasonable, transparent) is decomposed into independently evaluable conditions, and whether overlapping defensive mechanisms contradict each other or make operating the system structurally unachievable
+- Inaction by coordination actors in the presence of a detection output is itself detectable without the cooperation of the inacting party, and whether any challenge pathway requires so many procedural steps that no independent actor can realistically complete it
+- Critical properties depend on multiple structurally distinct mechanisms rather than a single defensive mechanism, and whether any typological declaration claims operative coverage beyond what the vocabulary supports
+- Each assessment architecture requires a contextual baseline statement before initial assessment when identical measurement outputs would indicate structurally distinct conditions requiring different responses; each normative mechanism adopted from a different structural context carries a baseline statement specifying origin-context conditions, adopting-context conditions, and either a congruence confirmation or calibration adjustments, and whether any baseline requirement imposes conditions no real case can satisfy, making the baseline itself the obstacle to what it was designed to make possible
 
 ---
 
 **Standard 2: Adverse Signal Engagement Principle Core Standard**
 
-Adverse signals must be genuinely processed — registered, engaged, and traced to a documented conclusion before dismissal.
+Adverse signals must be genuinely processed, registered, engaged, and traced to a documented conclusion before dismissal.
 
 Evaluate whether:
 - At least one channel exists for adverse signals from internal participants, external constituencies, technical monitoring, and independent observers
 - The signal record shows implausible absence in domains where adverse signals are structurally expected
 - Adverse signals can be dismissed without a recorded rationale
 - The definition of what counts as an adverse signal can be changed after a signal has been received
-- Definitional authority over what counts as an adverse signal — recognized harm classes, severity levels, classification framework scope — is distributed among cost-bearing constituencies rather than held solely by system operators; criteria are developed and updated with meaningful input from parties who bear the risks
+- Definitional authority over what counts as an adverse signal, recognized harm classes, severity levels, classification framework scope, is distributed among cost-bearing constituencies rather than held solely by system operators; criteria are developed and updated with meaningful input from parties who bear the risks
 - Every adverse signal must reach one of three outcomes: act, monitor, or formally close with rationale
 - Inaction by coordination actors on an acknowledged signal becomes visible to participants without the cooperation of the inacting party
 - External override is named as a signal class in the classification framework; where relevant external authorities have realistic override reach, a recognition assessment of the system's internal coordination capacity exists
 - When a pattern threshold triggers mandatory reclassification, the Navigate phase includes a structural root cause assessment before individual attribution is accepted as final resolution; the assessment produces one of three documented findings: no structural condition, structural condition identified (triggering double-loop examination), or insufficient information (monitoring extended)
 
-Note: audit results for this standard are bounded by the organization's Relational Battery condition. Absence of recorded adverse signals in an organization with a depleted Relational Battery is not evidence of structural health — it is evidence that the surfacing mechanism has failed. Note the Relational Battery condition in findings.
+Note: audit results for this standard are bounded by the organization's Relational Battery condition. Absence of recorded adverse signals in an organization with a depleted Relational Battery is not evidence of structural health: it is evidence that the surfacing mechanism has failed. Note the Relational Battery condition in findings.
 
 ---
 
@@ -82,7 +82,7 @@ Evaluate whether:
 
 **Standard 5: Structural Power Obligation Standard**
 
-Power distribution across three independent dimensions — authority, coordination (interpretive), and specialization — must be legible and contestable by participants who hold less of it.
+Power distribution across three independent dimensions, authority, coordination (interpretive), and specialization, must be legible and contestable by participants who hold less of it.
 
 Evaluate whether:
 - Decentralization claims are assessed across all three dimensions independently, not only on authority
@@ -105,27 +105,28 @@ Evaluate whether:
 Extraction without proportional regenerative return is a structural violation. The return must satisfy three conditions simultaneously: it operates in the register of the harm (non-fungibility), reaches the specific parties who bore it (proximity), and operates within the relational structure that created the obligation (embeddedness). Two of three is not sufficient.
 
 Evaluate whether:
-- The return architecture avoids the two categorical proximity disqualifiers: additionality logic (routes payment to parties who threatened harm, not parties who bore it) and Social Return on Investment aggregation (permits harm to one stakeholder group to be offset by benefit to another)
+- The assessment is applied to internal extraction and return mechanics, not only to what the system funds externally; a system that funds regenerative projects externally while failing the validity conditions for its contributors' extraction is not conformant
+- The return architecture avoids the three categorical proximity disqualifiers: additionality logic (routes payment to parties who threatened harm, not parties who bore it); Social Return on Investment aggregation (permits harm to one stakeholder group to be offset by benefit to another); and the temporal deferral trap (architecture that resolves the organization's accounting through declaration of intent rather than verifiable proximate return delivery, the test is whether registered harm-bearing parties can verify receipt, not merely that intent was declared)
 - The return operates in the register of the harm, not in a substitute register chosen by the extracting party
 - A harm-bearing affiliation registry exists establishing which parties bear harm and what form of return would satisfy the obligation from their perspective
 - The return flows through a traceable causal chain to registered harm-bearing parties
 - The form of return was determined through consultation with registered harm-bearing parties, not by the extracting party alone
-- The organization has declared one of two stances (non-extractive or more regenerative than extractive) in a public, versioned, governance-accessible location; absence of a stance declaration is a structural finding
+- The organization has declared one of two stances (non-extractive or more regenerative than extractive) in a public, versioned, accessible location; absence of a stance declaration is a structural finding
 - Harm-bearing parties have the structural conditions to register extraction as extraction, not only conditions under which it is recorded
 
 ---
 
 **Standard 7: Coordination Scaling Standard**
 
-Scale thresholds must be structurally anticipated and floored. A coordination unit's Board (the structural conditions required at each Dunbar-scale Radius) must be installed before each threshold crossing, not after. The Dome (the structural condition whose absence enables capture at each Radius) must be present at all crossed thresholds simultaneously. The Coordination Scaling Standard is precondition compressive: if the Board for the current effective Radius is absent, the coordination functions the other compressive standards protect have already broken.
+Scale thresholds must be structurally anticipated and floored. A coordination unit's minimum conditions (the structural requirements at each Dunbar-scale Radius) must be installed before each threshold crossing, not after. Maximum conditions (the structural specification whose absence enables capture at each Radius) must be absent at all crossed thresholds simultaneously. The Coordination Scaling Standard is precondition compressive: if minimum conditions for the current effective Radius are absent, the coordination functions the other compressive standards protect have already broken.
 
 Evaluate whether:
-- The unit has assessed its effective Radius using the aggregate of member count, developmental alignment distribution, interaction quality, shared context depth, and communication medium mix — not headcount alone
-- Board conditions for all crossed thresholds (Radius 5, 15, 50, 150 as applicable) are structurally present simultaneously, not just stated as policy
-- Dome conditions for all crossed thresholds are absent — no dyadic dominance at Radius 5, no isolation-based coercive control at Radius 15, no invisible load-bearing role accumulation at Radius 50, no founder capture at Radius 150
-- A founding window protocol exists: a named plan for identifying when the next threshold is approaching and installing the next Board before crossing
-- The sequential build requirement is satisfied: Radius 50 Board conditions were installed before Radius 150 Board conditions were attempted, because the lower-Radius Board is a structural precondition for the higher-Radius Board to function
-- The unit can describe what structural condition would indicate that it has crossed into the next Radius, and what its Board installation plan is for that crossing
+- The unit has assessed its effective Radius using the aggregate of member count, interaction frequency and quality, shared context depth, and communication medium mix, not headcount alone; and has considered whether robust Effective Radius (under worst-case single departure) differs from nominal
+- Minimum conditions for all crossed thresholds (Radius 5, 15, 50, 150 as applicable) are structurally present simultaneously, not just stated as policy
+- Maximum conditions for all crossed thresholds are absent, no dyadic dominance at Radius 5, no isolation-based coercive control at Radius 15, no invisible load-bearing role accumulation at Radius 50, no founder capture at Radius 150
+- A founding window protocol exists: a named plan for identifying when the next threshold is approaching and installing minimum conditions before crossing
+- The sequential build requirement is satisfied: Radius 50 minimum conditions were installed before Radius 150 minimum conditions were attempted, because the lower-Radius minimum conditions are a structural precondition for the higher-Radius minimum conditions to function
+- The unit can describe what structural condition would indicate that it has crossed into the next Radius, and what its minimum condition installation plan is for that crossing
 
 ---
 
@@ -136,3 +137,12 @@ For each standard, output:
 - What would need to be structurally present for the requirement to be satisfied
 
 Full standards: https://github.com/coordination-structural-integrity-suite/suite
+
+---
+
+## Changelog
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 0.1.2 | 2026-05-09 | Standard 6 (Regenerative Obligation Standard) updated: (1) direction vs. destination scope check added as first evaluation criterion, internal mechanics vs. external funding are independent assessments; (2) temporal deferral trap added as third categorical proximity disqualifier alongside additionality and SROI; (3) Frame Language correction: "governance-accessible location" → "accessible location". |
+| 0.1.1 | prior | Initial compressive audit prompt. Seven compressive standards evaluation framework. |

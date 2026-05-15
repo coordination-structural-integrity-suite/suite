@@ -1,7 +1,7 @@
 ---
 title: Coordination Scaling Standard
-document_id: standards-2_6-coordination-scaling-0_1_0.md
-ring: Standards (2.6)
+document_id: standards-3_0-coordination-scaling-0_1_0.md
+ring: Standards (3.0)
 version: v0.1.1
 date: 2026-04-17
 status: Normative. Seventh Tensegrity Compressive Standard in the Coordination Structural Integrity Suite. Radius 5 through Radius 150 specifications are normative. Radius 500 and Radius 1500 specifications are provisional pending validation through cohort experience at those thresholds.

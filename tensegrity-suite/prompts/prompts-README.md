@@ -6,13 +6,13 @@ Copy the full contents of any prompt file, paste it into any AI chat (Claude, Ch
 
 **If you are new to the suite and do not know where to start, use the [Where Do I Start? triage prompt](suite/suite-triage-where-do-i-start-0_1_1.md) first.** It assesses your situation and routes you to the right instrument, with an explanation of why.
 
-**Two entry paths.** This prompt system has two tracks. Start with the Explore prompt if you are new to the suite, want to understand whether it applies, or want to orient yourself before committing to a formal process. Start with the Coordination Structural Integrity Suite Assessment if you want to formally assess your organization's structural health across all ten standards and produce a concrete gap map and advancement roadmap. The assessment process works best after the exploration — it builds on the vocabulary and structural self-knowledge the exploration develops.
+**Two entry paths.** This prompt system has two tracks. Start with the Explore prompt if you are new to the suite, want to understand whether it applies, or want to orient yourself before committing to a formal process. Start with the Coordination Structural Integrity Suite Assessment if you want to formally assess your organization's structural health across all ten standards and produce a concrete gap map and advancement roadmap. The assessment process works best after the exploration; it builds on the vocabulary and structural self-knowledge the exploration develops.
 
 Five prompt formats are used across this repository:
 
 **Exploration format**: orients you to the suite and your structural situation, routes you to the right instrument, and produces a findings document you can save and carry forward. Used for the Explore prompt.
 
-**Assessment format**: guides you through a structured five-stage process — foundation check, self-assessment across all ten standards, gap mapping, and advancement planning. Multi-session. Produces a downloadable output at each stage. Used for the Coordination Structural Integrity Suite Assessment.
+**Assessment format**: guides you through a structured five-stage process: foundation check, self-assessment across all ten standards, gap mapping, and advancement planning. Multi-session. Produces a downloadable output at each stage. Used for the Coordination Structural Integrity Suite Assessment.
 
 **Audit format** (compressive standards): identifies where a document or system fails to meet a structural requirement. Output is a failure map organized by criterion, most consequential deficits first. Used for the seven Tensegrity Compressive Standards.
 
@@ -29,7 +29,7 @@ Two entry points. Choose based on where you are.
 | Prompt | Use it when |
 |---|---|
 | [Explore the Coordination Structural Integrity Suite](suite/suite-explore-coordination-structural-integrity-suite-0_1_0.md) | You are new to the suite, unsure whether it applies, or want to understand your structural situation before committing to a formal process. Produces an exploration findings document you can carry into the assessment process. |
-| [Coordination Structural Integrity Suite Assessment — Stage 1](suite/suite-assessment-stage-1-orientation-0_1_0.md) | You want to formally assess your organization's structural health across all ten standards. Five-stage process. Best after completing the Explore prompt. |
+| [Coordination Structural Integrity Suite Assessment - Stage 1](suite/suite-assessment-stage-1-orientation-0_1_0.md) | You want to formally assess your organization's structural health across all ten standards. Five-stage process. Best after completing the Explore prompt. |
 
 The legacy triage prompt ([Where Do I Start?](suite/suite-triage-where-do-i-start-0_1_1.md)) is still available for direct routing to individual instruments when you already know which standard or prompt you need.
 
@@ -37,11 +37,11 @@ The legacy triage prompt ([Where Do I Start?](suite/suite-triage-where-do-i-star
 
 ## Coordination Structural Integrity Suite Assessment
 
-A five-stage structured process for assessing your organization's structural health across all ten standards. Each stage produces a downloadable output. Stages can be completed in separate sessions — bring your prior stage output to each new session.
+A five-stage structured process for assessing your organization's structural health across all ten standards. Each stage produces a downloadable output. Stages can be completed in separate sessions; bring your prior stage output to each new session.
 
 | Stage | Prompt | What it does |
 |---|---|---|
-| Stage 0 | [Context Accumulation](suite/suite-assessment-stage-0-context-accumulation-0_3_0.md) | Establishes what kind of arrangement is being assessed, what the historical and structural record says about that kind of thing, and who outside the arrangement's defined party list is affected. Classifies the institutional form, surfaces the compressive and generative precondition profiles, maps the active failure modes (FM1-FM15), assesses the tensegrity configuration, and states the suite's standing limitation. This stage is not optional — without it, the assessment cannot catch correctness-of-design failures, external validity failures, or reference class failures. Output: context summary. |
+| Stage 0 | [Context Accumulation](suite/suite-assessment-stage-0-context-accumulation-0_3_0.md) | Establishes what kind of arrangement is being assessed, what the historical and structural record says about that kind of thing, and who outside the arrangement's defined party list is affected. Classifies the institutional form, surfaces the compressive and generative precondition profiles, maps the active failure modes (FM1-FM15), assesses the tensegrity configuration, and states the suite's standing limitation. This stage is not optional; without it, the assessment cannot catch correctness-of-design failures, external validity failures, or reference class failures. Output: context summary. |
 | Stage 1 | [Process Orientation](suite/suite-assessment-stage-1-orientation-0_1_0.md) | Orients you to the full process, establishes what you are hoping to understand, presents the data consent statement. Output: process summary. |
 | Stage 2 | [Structural Foundation Check](suite/suite-assessment-stage-2-foundation-check-0_1_0.md) | Assesses which of the six coordination commons components are present, partial, or absent in your actual practice. Output: commons components inventory. |
 | Stage 3 | [Standards Self-Assessment](suite/suite-assessment-stage-3-self-assessment-0_1_0.md) | For each of the ten standards, assesses where your organization currently stands against what the standard requires. Multi-session. Output: standards self-assessment with structured finding per standard. |
@@ -57,9 +57,9 @@ For auditing or assessing against multiple standards at once, or for orientation
 
 | Prompt | Use it on |
 |---|---|
-| [Compressive Audit](suite/suite-compressive-audit-0_1_1.md) | Any coordination system — runs all seven Tensegrity Compressive Standards |
-| [Generative Assessment](suite/suite-generative-assessment-0_1_1.md) | Any coordination system — runs all three Tensegrity Generative Standards |
-| [Full Suite Audit](suite/suite-full-audit-0_1_1.md) | Any coordination system — runs all ten standards with cross-layer interaction analysis |
+| [Compressive Audit](suite/suite-compressive-audit-0_1_1.md) | Any coordination system (runs all seven Tensegrity Compressive Standards) |
+| [Generative Assessment](suite/suite-generative-assessment-0_1_1.md) | Any coordination system (runs all three Tensegrity Generative Standards) |
+| [Full Suite Audit](suite/suite-full-audit-0_1_1.md) | Any coordination system (runs all ten standards with cross-layer interaction analysis) |
 
 ---
 
@@ -103,13 +103,13 @@ For auditing or assessing against multiple standards at once, or for orientation
 
 | Prompt | Use it on |
 |---|---|
-| [Regenerative Obligation Audit](../compressive/prompts/regenerative-obligation/regenerative-obligation-audit-0_1_4.md) | Organizations or protocols — assesses whether return to harm-bearing parties meets three simultaneous validity conditions |
+| [Regenerative Obligation Audit](../compressive/prompts/regenerative-obligation/regenerative-obligation-audit-0_1_4.md) | Organizations or protocols; assesses whether return to harm-bearing parties meets three simultaneous validity conditions |
 
 ### Coordination Scaling Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Coordination Scaling Audit](../compressive/prompts/coordination-scaling/coordination-scaling-audit-0_1_0.md) | Any coordination unit — assesses whether minimum conditions for all crossed Radius thresholds are installed and maximum conditions are absent |
+| [Coordination Scaling Audit](../compressive/prompts/coordination-scaling/coordination-scaling-audit-0_1_0.md) | Any coordination unit; assesses whether minimum conditions for all crossed Radius thresholds are installed and maximum conditions are absent |
 
 ---
 
@@ -119,19 +119,19 @@ For auditing or assessing against multiple standards at once, or for orientation
 
 | Prompt | Use it on |
 |---|---|
-| [Sensemaking Presence Assessment](../generative/prompts/sensemaking/sensemaking-presence-assessment-0_1_2.md) | Coordination systems, organizations, or processes — assesses structural presence of sensemaking capacity |
+| [Sensemaking Presence Assessment](../generative/prompts/sensemaking/sensemaking-presence-assessment-0_1_2.md) | Coordination systems, organizations, or processes; assesses structural presence of sensemaking capacity |
 
 ### Four Batteries Capacity Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Four Batteries Presence Assessment](../generative/prompts/four-batteries/four-batteries-presence-assessment-0_1_2.md) | Coordination systems or organizations — assesses structural presence of generative capacity conditions |
+| [Four Batteries Presence Assessment](../generative/prompts/four-batteries/four-batteries-presence-assessment-0_1_2.md) | Coordination systems or organizations; assesses structural presence of generative capacity conditions |
 
 ### Conflict Transformation Standard
 
 | Prompt | Use it on |
 |---|---|
-| [Conflict Transformation Presence Assessment](../generative/prompts/conflict-transformation/conflict-transformation-presence-assessment-0_1_2.md) | Coordination systems or organizations — assesses structural presence of conflict transformation capacity |
+| [Conflict Transformation Presence Assessment](../generative/prompts/conflict-transformation/conflict-transformation-presence-assessment-0_1_2.md) | Coordination systems or organizations; assesses structural presence of conflict transformation capacity |
 
 ---
 
@@ -177,7 +177,7 @@ Frame Language is a diagnostic method for auditing governance documents, charter
 
 | Prompt | Use it on |
 |---|---|
-| [Frame Language Vocabulary Audit](frame-language/frame-language-vocabulary-audit-0_1_0.md) | Any governance document, charter, constitution, proposal template, dispute resolution process, or regenerative/regen community document — includes a regen-specific audit (Regen Reality Check) for documents making regenerative claims |
+| [Frame Language Vocabulary Audit](frame-language/frame-language-vocabulary-audit-0_1_0.md) | Any governance document, charter, constitution, proposal template, dispute resolution process, or regenerative/regen community document (includes a regen-specific audit, Regen Reality Check, for documents making regenerative claims) |
 
 ---
 
@@ -197,12 +197,12 @@ Framework-application documents are operational tools that apply the foundationa
 
 For more complex evaluation work requiring extended reasoning with the suite, use the Claude skills in `../claude-skills/`. Skills encode the frame needed for correct reasoning with each document and with the suite as a whole.
 
-- `claude-skill-coordination-suite-triage-0_1_0.md` — Triage skill: routes by situation to the right instrument across the full prompt system
-- `claude-skill-suite-0_1_1.md` — Full suite skill covering all ten standards, the compressive/generative distinction, and cross-layer interactions
-- `claude-skill-tensegrity-architecture-0_1_0.md` — Tensegrity Architecture skill: orientation and entry point identification
-- `claude-skill-structural-patterns-primer-0_1_0.md` — Structural Patterns Primer skill: pattern recognition across ten named structural patterns
-- `claude-skill-integration-guide-0_1_0.md` — Suite Integration Guide skill: adoption sequencing and detection reliability dependencies
-- `claude-skill-deployment-contexts-0_1_0.md` — Suite Deployment Contexts skill: combination selection and contextual calibration
-- `claude-skill-conflict-transformation-preconditions-0_1_0.md` — Conflict Transformation Preconditions Specification skill: pre-deployment readiness assessment
+- `claude-skill-coordination-suite-triage-0_1_0.md`: Triage skill: routes by situation to the right instrument across the full prompt system
+- `claude-skill-suite-0_1_1.md`: Full suite skill covering all ten standards, the compressive/generative distinction, and cross-layer interactions
+- `claude-skill-tensegrity-architecture-0_1_0.md`: Tensegrity Architecture skill: orientation and entry point identification
+- `claude-skill-structural-patterns-primer-0_1_0.md`: Structural Patterns Primer skill: pattern recognition across ten named structural patterns
+- `claude-skill-integration-guide-0_1_0.md`: Suite Integration Guide skill: adoption sequencing and detection reliability dependencies
+- `claude-skill-deployment-contexts-0_1_0.md`: Suite Deployment Contexts skill: combination selection and contextual calibration
+- `claude-skill-conflict-transformation-preconditions-0_1_0.md`: Conflict Transformation Preconditions Specification skill: pre-deployment readiness assessment
 - Individual standard skills: `claude-skill-[standard-name]-0_1_1.md`
-- `claude-skill-six-v-0_1_0.md` — Six-V Trust Framework skill (framework-application document class)
+- `claude-skill-six-v-0_1_0.md`: Six-V Trust Framework skill (framework-application document class)

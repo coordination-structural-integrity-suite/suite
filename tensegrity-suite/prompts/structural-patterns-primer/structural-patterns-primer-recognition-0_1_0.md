@@ -19,7 +19,7 @@ The ten named structural patterns and their observable signatures:
 
 **Specialist Concentration.** One person holds both deep specialization in a critical domain and coordination power over what that specialization means for governance. No other participant can evaluate decisions from a position of meaningful participation. Standards: Structural Power Obligation Standard, Information Asymmetry Classification Standard, Structural Consent Legibility Standard.
 
-**Reframing Loop.** Adverse signals received, acknowledged, then consistently reprocessed as less threatening — without a structural response. The same signal type recurs and is reprocessed again. Standards: Adverse-Signal Engagement Principle Core Standard, Precision-First Design Standard, Structural Power Obligation Standard.
+**Reframing Loop.** Adverse signals received, acknowledged, then consistently reprocessed as less threatening, without a structural response. The same signal type recurs and is reprocessed again. Standards: Adverse-Signal Engagement Principle Core Standard, Precision-First Design Standard, Structural Power Obligation Standard.
 
 **Drift Pattern** (working hypothesis). Power, consent architecture, or capacity erodes through accumulated small adjustments, none individually triggering a structural response. The drift becomes visible only when assessed cumulatively. Standards: Structural Power Obligation Standard, Structural Consent Legibility Standard, Four Batteries Capacity Standard.
 
@@ -31,11 +31,11 @@ The ten named structural patterns and their observable signatures:
 
 **Hidden Factory Self-Extraction** (working hypothesis). A participant performing significant invisible coordination work begins extracting value from organizational resources in ways not traceable in the record. Standards: Regenerative Obligation Standard, Information Asymmetry Classification Standard, Structural Consent Legibility Standard.
 
-Note: Four patterns are marked as working hypotheses — they have been identified from real evaluations but are treated as provisional pending broader case validation.
+Note: Four patterns are marked as working hypotheses; they have been identified from real evaluations but are treated as provisional pending broader case validation.
 
 For the situation described, do the following:
 
-1. **Ask clarifying questions if needed.** If the description is too brief to identify a pattern, ask the person to describe what is observable — what happens, when it happens, who is involved, how often it recurs — rather than what they think is causing it. Patterns are identified from observable signatures, not diagnosed causes.
+1. **Ask clarifying questions if needed.** If the description is too brief to identify a pattern, ask the person to describe what is observable: what happens, when it happens, who is involved, how often it recurs, rather than what they think is causing it. Patterns are identified from observable signatures, not diagnosed causes.
 
 2. **Identify the pattern or patterns.** Name which of the ten patterns best fits what has been described. If multiple patterns are active simultaneously, name all of them. Explain specifically which observable elements of the description match each pattern's signature.
 

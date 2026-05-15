@@ -7,7 +7,7 @@ Copy everything below the line, paste it into any AI chat, and describe the conf
 ---
 You are applying the Conflict Transformation Preconditions Specification (CC BY 4.0, Regis Chapman) to a specific conflict situation. The goal is to assess whether structural preconditions are in place for a conflict transformation process, producing a proceed/adjust/defer recommendation for each precondition.
 
-A conflict transformation process is not universally helpful. Poorly-timed deployment teaches participants that engaging conflict structurally is unsafe. That lesson persists long after the failed process ends and makes future engagement harder. Deferral is not failure — it is the precondition assessment working correctly.
+A conflict transformation process is not universally helpful. Poorly-timed deployment teaches participants that engaging conflict structurally is unsafe. That lesson persists long after the failed process ends and makes future engagement harder. Deferral is not failure; it is the precondition assessment working correctly.
 
 The six preconditions are sequential. A Defer response at any precondition means the person should not proceed to later preconditions. Address the deferred precondition first, then re-assess.
 
@@ -16,18 +16,18 @@ Ask the person to describe the conflict situation and any process design they ha
 ---
 
 **Precondition 1: Container Design.**
-A bounded structural space must be defined before any engagement begins. Ask: Is it defined who is present? Who facilitates? What are the information boundaries (confidentiality, what enters the record)? What are the recording conditions? What are the entry and exit conditions for all parties — specifically, can a party leave without structural cost?
+A bounded structural space must be defined before any engagement begins. Ask: Is it defined who is present? Who facilitates? What are the information boundaries (confidentiality, what enters the record)? What are the recording conditions? What are the entry and exit conditions for all parties, and specifically: can a party leave without structural cost?
 
 A process that parties cannot leave without cost does not enable proactive engagement; it requires it under threat of consequence. This is a container failure even if everything else is well-designed.
 
-Assess as: **Proceed** (all elements specified), **Adjust** (partially defined — specify the missing elements before starting), or **Defer** (container is absent or fundamentally incomplete).
+Assess as: **Proceed** (all elements specified), **Adjust** (partially defined; specify the missing elements before starting), or **Defer** (container is absent or fundamentally incomplete).
 
 ---
 
 **Precondition 2: Scale Proportion.**
-The process scale must match the conflict scale. Ask: What domain does this conflict involve — interpersonal (between specific individuals), intra-organizational (structural, involving roles or governance), or inter-organizational (involving multiple organizations)? How many parties are directly involved? What is the history and intensity of the conflict? Which tier of the graduated engagement architecture is appropriate — early informal engagement, facilitated transformation, or formal adjudication?
+The process scale must match the conflict scale. Ask: What domain does this conflict involve: interpersonal (between specific individuals), intra-organizational (structural, involving roles or governance), or inter-organizational (involving multiple organizations)? How many parties are directly involved? What is the history and intensity of the conflict? Which tier of the graduated engagement architecture is appropriate: early informal engagement, facilitated transformation, or formal adjudication?
 
-Also assess the Cynefin domain: Is this a situation where cause and effect are clear (complicated — process design is appropriate), or one where the situation is in active flux with no stable pattern (chaotic — stabilization is required before transformation processes are deployed)?
+Also assess the Cynefin domain: Is this a situation where cause and effect are clear (complicated: process design is appropriate), or one where the situation is in active flux with no stable pattern (chaotic: stabilization is required before transformation processes are deployed)?
 
 Assess as: **Proceed**, **Adjust** (adjust the scale or tier selection), or **Defer** (chaotic situation requires stabilization first).
 
@@ -43,7 +43,7 @@ Assess as: **Proceed**, **Adjust** (select a different mode better matched to co
 ---
 
 **Precondition 4: Traversal Mode Selection.**
-Ask: Has a deliberate choice been made about how the process moves through the engagement architecture — governing constraint traversal (requirements govern the path) or enabling constraint traversal (requirements create possibility without prescribing the path)? Has it been specified what enters the coordination record, who records it, and under what access conditions?
+Ask: Has a deliberate choice been made about how the process moves through the engagement architecture: governing constraint traversal (requirements govern the path) or enabling constraint traversal (requirements create possibility without prescribing the path)? Has it been specified what enters the coordination record, who records it, and under what access conditions?
 
 This precondition is often skipped in informal process design. Its absence means the process may produce different structural artifacts than expected.
 
@@ -52,14 +52,14 @@ Assess as: **Proceed**, **Adjust** (define the traversal mode and recording cond
 ---
 
 **Precondition 5: Threshold Management.**
-Named resolution, escalation, and suspension conditions must be defined before the process begins. Ask: What constitutes resolution sufficient to close this process? What specific conditions trigger escalation to the next tier of the graduated architecture? What conditions suspend the process temporarily — including operator depletion thresholds (if the facilitator or supporting roles are depleted, the process should suspend)?
+Named resolution, escalation, and suspension conditions must be defined before the process begins. Ask: What constitutes resolution sufficient to close this process? What specific conditions trigger escalation to the next tier of the graduated architecture? What conditions suspend the process temporarily, including operator depletion thresholds (if the facilitator or supporting roles are depleted, the process should suspend)?
 
 Assess as: **Proceed**, **Adjust** (define missing threshold types before starting), or **Defer** (threshold management is absent entirely).
 
 ---
 
 **Precondition 6: Continuous Consent Loop.**
-Consent must be checked throughout the process, not only at entry. Ask: Is there a mechanism for checking consent at each stage, not just at the beginning? Is there a revocation mechanism — can a party withdraw consent mid-process? What is the exit protocol? What retaliation protection exists for parties who invoke exit or revocation?
+Consent must be checked throughout the process, not only at entry. Ask: Is there a mechanism for checking consent at each stage, not just at the beginning? Is there a revocation mechanism: can a party withdraw consent mid-process? What is the exit protocol? What retaliation protection exists for parties who invoke exit or revocation?
 
 Assess as: **Proceed**, **Adjust** (build in stage-check and revocation mechanisms), or **Defer** (consent architecture is entry-only with no ongoing mechanism).
 
@@ -67,8 +67,8 @@ Assess as: **Proceed**, **Adjust** (build in stage-check and revocation mechanis
 
 **Output format:**
 
-For each precondition: state the assessment (Proceed / Adjust / Defer), name specifically what is in place and what is missing, and — for Adjust — describe exactly what needs to be added or changed before starting. For Defer, describe what needs to be addressed before re-assessment.
+For each precondition: state the assessment (Proceed / Adjust / Defer), name specifically what is in place and what is missing, and (for Adjust) describe exactly what needs to be added or changed before starting. For Defer, describe what needs to be addressed before re-assessment.
 
-After all six: state the overall readiness assessment. If any precondition is Defer, the overall is Defer — name which preconditions to address first and suggest a timeframe for re-assessment. If all are Proceed or Adjust, state what adjustments are required before the process can begin.
+After all six: state the overall readiness assessment. If any precondition is Defer, the overall is Defer; name which preconditions to address first and suggest a timeframe for re-assessment. If all are Proceed or Adjust, state what adjustments are required before the process can begin.
 
 Full suite documentation: https://github.com/coordination-structural-integrity-suite/suite
