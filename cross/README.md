@@ -10,6 +10,24 @@ CROSS does not tell programs how to structure their coordination, how to score a
 
 ---
 
+## Why CROSS was designed this way
+
+Examining how public goods and public interest funding programs fail reveals a consistent pattern, but the failure locates itself differently depending on the type of program.
+
+In web3 and blockchain grant programs, the hard part is consistently upstream: at the point of claim specification. Applicants default to aspiration language. Without a specific measurable baseline, there is no measurement instrument. There is no FROM state, so there can be no TO state, so there can be no outcome. The evaluation process ends up assessing the quality of the aspiration, not the credibility of the claim. Funding decisions are made on the basis of who sounds most plausible, not who has specified what they will actually produce.
+
+In governmental and institutional grant programs, the hard part tends to locate itself downstream: at the point of reporting and verification. The compliance layer is thick. Applications are detailed. Reports arrive on schedule. But the reports describe activity, not outcomes. Grantees learn to write good reports rather than to produce measurable results. Funders receive documentation they cannot verify against any pre-specified baseline. The evidentiary chain between award and impact exists on paper but not in practice.
+
+CROSS was designed to be portable across both failure modes. It does this by separating the evidentiary structure from the program design, and making both configurable.
+
+The three obligation modes allow funders to match the accountability structure to the nature of the work. Build obligation applies where the deliverable is a specific artifact: something is either built or it is not, and the gate tests whether the delivered thing matches what was specified. Change obligation applies where the goal is a measurable shift in the world: the entry specification gate requires a specific measurable baseline and a targeted state in the same units, which prevents aspiration language from entering the record at all. Retroactive obligation applies where the work is already done: the gate tests whether the documented impact is credibly attributed to the prior work.
+
+The gate architecture allows funders to configure where the evidentiary pressure falls. A small community program running its first funding round may need only an entry specification gate: establish what is being built or changed before any funds release. A large institutional program running a multi-year initiative may need all four gates: entry specification before funding, milestone gates during delivery, a completion gate at close, and a continuation gate governing whether the grantee enters the next round. The gates that apply, and the rigor tier at which each gate is set, are published in the round specification before any application opens.
+
+The result is a system where the hard part is placed honestly. For programs where baseline specificity is the failure mode, the entry specification gate installs it at the front. For programs where outcome verification is the failure mode, the milestone and completion gates install it at the back. The configuration is funder-facing; the field definitions are standardized across funders so that a grantee's CROSS record from one program is directly readable by a reviewer at a different program. The hard part, wherever it is placed, is done once rather than re-invented per funder.
+
+---
+
 ## License
 
 CROSS is dedicated to the public domain under **Creative Commons Zero v1.0 Universal (CC0)**. See `LICENSE-CROSS` for the full dedication.
