@@ -16,22 +16,22 @@ Version 0.2.0 | 2026-05-14 | CC0
 
 This document contains the fillable forms that applicants, reviewers, and grantees use to implement CROSS version 0.2.0. Each template is self-contained. Brief inline instructions explain what each field requires. Completion checklists appear at the end of each template.
 
-**Which entry specification template to use.** The accountability mode for a round is declared by the funder in the published round specification before the round opens. Applicants do not choose the mode.
+**Which entry specification template to use.** The obligation mode for a round is declared by the funder in the published round specification before the round opens. Applicants do not choose the mode.
 
-- Build accountability round: use Template 1A (Deliverable Specification Form)
-- Change accountability round, Small Team scale: use Template 1C (FROM/TO Specification, Small Team)
-- Change accountability round, Standard scale: use Template 2 (FROM/TO Specification with Theory of Change)
-- Retroactive accountability round: use Template 1B (Retroactive Contribution Form)
+- Build obligation round: use Template 1A (Deliverable Specification Form)
+- Change obligation round, Small Team scale: use Template 1C (FROM/TO Specification, Small Team)
+- Change obligation round, Standard scale: use Template 2 (FROM/TO Specification with Theory of Change)
+- Retroactive obligation round: use Template 1B (Retroactive Contribution Form)
 
 All applications also require: Template 3 (Indicator Registration Form, one per indicator), Template 4 (Concurrent Funding Disclosure), and Template 5 (Adverse Signal Disclosure). Reviewers complete Templates 6, 7, and 8 (conflict of interest forms). Template 9 is for privacy-sensitive accommodation requests. Template 10 (Gate Evidence Submission) is used at progress verification and completion verification gates, not at application.
 
-The distinction between Standard and Small Team scale in change-accountability rounds is determined by the granting committee's configuration based on funding amount and the scope of the public impact claim. When in doubt, use the Standard version.
+The distinction between Standard and Small Team scale in change-obligation rounds is determined by the granting committee's configuration based on funding amount and the scope of the public impact claim. When in doubt, use the Standard version.
 
 ---
 
 ## Template 1A: Build Accountability - Deliverable Specification Form
 
-*Use this form when the round operates in build accountability mode. The entry specification asks what the applicant will produce and how a reviewer could verify it is complete. Attach this form to the main application.*
+*Use this form when the round operates in build obligation mode. The entry specification asks what the applicant will produce and how a reviewer could verify it is complete. Attach this form to the main application.*
 
 ---
 
@@ -94,15 +94,15 @@ The distinction between Standard and Small Team scale in change-accountability r
 
 ### Named Beneficiary or User
 
-*Who will use this deliverable? Name at least one specific party (a named organization, developer community, protocol, or user type) outside your own team who has expressed a need for it. This field satisfies the beneficiary validation requirement where the stakeholder engagement dimension is activated.*
+*Who will use this deliverable? Name at least one specific party (a named organization, developer community, protocol, or user type) outside your own team who has expressed a need for it. This field satisfies the beneficiary validation requirement where the coordinating party engagement dimension is activated.*
 
 > [Enter named beneficiary or user, and briefly describe how the need was expressed]
 
 ---
 
-### Stakeholder Engagement Dimension (if activated by the funder)
+### Coordinating Party Engagement Dimension (if activated by the funder)
 
-*Complete this section only if the funder has activated the stakeholder engagement dimension for this round. Describe the current absence or inadequacy of the deliverable, with named evidence of the gap it addresses.*
+*Complete this section only if the funder has activated the coordinating party engagement dimension for this round. Describe the current absence or inadequacy of the deliverable, with named evidence of the gap it addresses.*
 
 **Evidence of the gap the deliverable addresses**
 
@@ -120,14 +120,14 @@ The distinction between Standard and Small Team scale in change-accountability r
 - [ ] Completion criteria are stated with enough specificity for independent verification
 - [ ] Independent verifiability statement names the source or party a reviewer would consult
 - [ ] Named beneficiary or user is provided with a brief description of the expressed need
-- [ ] Stakeholder engagement section is completed or marked "Not activated"
+- [ ] Coordinating party engagement section is completed or marked "Not activated"
 - [ ] No fields left blank
 
 ---
 
 ## Template 1B: Retroactive Accountability - Prior Contribution Form
 
-*Use this form when the round operates in retroactive accountability mode. The entry specification asks what prior contribution was produced, when, and with what evidence of use. Attach this form to the main application.*
+*Use this form when the round operates in retroactive obligation mode. The entry specification asks what prior contribution was produced, when, and with what evidence of use. Attach this form to the main application.*
 
 ---
 
@@ -231,7 +231,7 @@ The distinction between Standard and Small Team scale in change-accountability r
 
 ## Template 1C: Change Accountability - FROM/TO Specification (Small Team Version)
 
-*Use this form when the round operates in change accountability mode and the committee has determined that Small Team scale applies. It captures the essential FROM state and TO state. Attach this form to the main application.*
+*Use this form when the round operates in change obligation mode and the committee has determined that Small Team scale applies. It captures the essential FROM state and TO state. Attach this form to the main application.*
 
 **Fields omitted from the Standard version and why:** Theory of change formalization (activities, outputs, outcomes, named assumptions), adaptive management mechanism. The Coordination Scaling Standard makes these optional for small-team applications with specific diagnoses and modest claims. All other FROM/TO fields remain required.
 
@@ -322,7 +322,7 @@ The distinction between Standard and Small Team scale in change-accountability r
 
 ## Template 2: Change Accountability - FROM/TO Specification with Theory of Change (Standard Version)
 
-*Use this form for Standard scale change-accountability applications. It captures the full FROM state, a formalized theory of change with named assumptions at each step, the TO state, and an adaptive management mechanism. Attach this form to the main application.*
+*Use this form for Standard scale change-obligation applications. It captures the full FROM state, a formalized theory of change with named assumptions at each step, the TO state, and an adaptive management mechanism. Attach this form to the main application.*
 
 ---
 
@@ -463,7 +463,7 @@ The distinction between Standard and Small Team scale in change-accountability r
 
 *Complete one form for each claimed outcome indicator. Submit one form per indicator. Attach all indicator registration forms to the main application.*
 
-*Note: this form applies in build-accountability and change-accountability rounds. In retroactive accountability rounds, complete this form only if the program has configured indicator-based forward reporting.*
+*Note: this form applies in build-obligation and change-obligation rounds. In retroactive obligation rounds, complete this form only if the program has configured indicator-based forward reporting.*
 
 *Small Team version note: the Data Cost Estimation field has a simplified version for Small Team applications, noted within that field below. All other fields are identical across both scales.*
 
@@ -499,9 +499,9 @@ The distinction between Standard and Small Team scale in change-accountability r
 
 *Describe what a result looks like and in what form it will be reported. Be specific: name where the evidence comes from, how the result is expressed, and whether values sum across periods or describe a status at a point in time.*
 
-*Useful description (build accountability example): "A binary indicator: either the library is published to the named package registry at the specified version, confirmed by a public repository check, or it is not. Non-cumulative."*
+*Useful description (build obligation example): "A binary indicator: either the library is published to the named package registry at the specified version, confirmed by a public repository check, or it is not. Non-cumulative."*
 
-*Useful description (change accountability example): "A count of unique wallet addresses per 30-day window that completed at least one qualifying transaction on the named contract, sourced from on-chain public data via the named block explorer application programming interface. Non-cumulative: each month's count describes the status for that month."*
+*Useful description (change obligation example): "A count of unique wallet addresses per 30-day window that completed at least one qualifying transaction on the named contract, sourced from on-chain public data via the named block explorer application programming interface. Non-cumulative: each month's count describes the status for that month."*
 
 **Measurement form description**
 
@@ -551,7 +551,7 @@ The distinction between Standard and Small Team scale in change-accountability r
 
 *The calculation rule in sufficient detail that an independent reviewer with access to your stated data source could replicate your result.*
 
-**Formula or counting rule** *(for build-accountability indicators: the completion determination process)*
+**Formula or counting rule** *(for build-obligation indicators: the completion determination process)*
 
 > [Enter formula, counting rule, or completion determination process]
 
@@ -571,7 +571,7 @@ The distinction between Standard and Small Team scale in change-accountability r
 
 - [ ] **Non-cumulative.** This indicator measures a status at a point in time. The life-of-grant target is the target status at grant end. Summing a non-cumulative indicator across periods is a data construction error.
 
-- [ ] **Not applicable.** Binary completion criteria for a build-accountability deliverable; not subject to period-by-period accumulation.
+- [ ] **Not applicable.** Binary completion criteria for a build-obligation deliverable; not subject to period-by-period accumulation.
 
 **Implication for your target**
 
@@ -601,7 +601,7 @@ The distinction between Standard and Small Team scale in change-accountability r
 
 **Named data source**
 
-*For change-accountability indicators: the specific source (contract address, named public application programming interface endpoint, named third-party platform, institutional partner, or named survey instrument). For build-accountability indicators: the named artifact location and the named party who will confirm it meets the completion criteria.*
+*For change-obligation indicators: the specific source (contract address, named public application programming interface endpoint, named third-party platform, institutional partner, or named survey instrument). For build-obligation indicators: the named artifact location and the named party who will confirm it meets the completion criteria.*
 
 > [Enter named data source]
 
@@ -641,9 +641,9 @@ Select the version that applies:
 
 ### Field 10: Baseline (FROM State)
 
-*Complete the section that matches the accountability mode.*
+*Complete the section that matches the obligation mode.*
 
-**Change-accountability:** The documented state of the condition before the intervention begins.
+**Change-obligation:** The documented state of the condition before the intervention begins.
 
 **Baseline value**
 
@@ -665,15 +665,15 @@ Select the version that applies:
 
 ---
 
-**Build-accountability (stakeholder engagement dimension activated):** The documented current absence or inadequacy of the deliverable, with named evidence of the gap.
+**Build-obligation (coordinating party engagement dimension activated):** The documented current absence or inadequacy of the deliverable, with named evidence of the gap.
 
 **Evidence of the gap**
 
-> [Enter named independent evidence of the gap this deliverable addresses, or write "Not applicable" if the stakeholder engagement dimension is not activated for this round]
+> [Enter named independent evidence of the gap this deliverable addresses, or write "Not applicable" if the coordinating party engagement dimension is not activated for this round]
 
 ---
 
-**Retroactive accountability:** The documented state of the prior contribution at the time the award period begins.
+**Retroactive obligation:** The documented state of the prior contribution at the time the award period begins.
 
 **Description of prior contribution state**
 
@@ -683,9 +683,9 @@ Select the version that applies:
 
 ### Field 11: Target (TO State)
 
-*Complete the section that matches the accountability mode.*
+*Complete the section that matches the obligation mode.*
 
-**Change-accountability:** The expected state of the indicator at grant end.
+**Change-obligation:** The expected state of the indicator at grant end.
 
 **Target value**
 
@@ -702,7 +702,7 @@ Select the version that applies:
 
 ---
 
-**Build-accountability:** The completion criteria the deliverable must meet.
+**Build-obligation:** The completion criteria the deliverable must meet.
 
 **Completion criteria**
 
@@ -749,7 +749,7 @@ Select the version that applies:
 
 *All active grants, investments, or revenue sources from the prior 24 months that are related to the scope of this application must be disclosed. Non-disclosure of concurrent funding is a disqualifier. Disclosure is not.*
 
-*For retroactive accountability applications: also disclose any prior awards received for the same or substantially overlapping contribution from this or any other program.*
+*For retroactive obligation applications: also disclose any prior awards received for the same or substantially overlapping contribution from this or any other program.*
 
 *Submit one row per disclosed source. If you have no sources to disclose, complete the attestation at the bottom and state "None."*
 
@@ -775,7 +775,7 @@ Select the version that applies:
 | **Grant period or investment date** | [Start date to end date, or date] |
 | **Relationship to this application's scope** | [Describe how this funding source relates to the work described in this application. If the scopes are non-overlapping, explain why. If they overlap, describe the boundary.] |
 | **Ongoing milestone or reporting obligations to this source** | [ ] Yes / [ ] No. If yes: [describe obligations] |
-| **Governance or decision-making rights held by this source over the funded work** | [ ] Yes / [ ] No. If yes: [describe rights held] |
+| **Decision-making rights held by this source over the funded work** | [ ] Yes / [ ] No. If yes: [describe rights held] |
 
 *Copy this table for each additional source.*
 
@@ -799,7 +799,7 @@ I confirm that the above is a complete and accurate disclosure of all active fun
 - [ ] Grant period or investment date is provided for each entry
 - [ ] Relationship to application scope is explained in free text for each entry
 - [ ] Ongoing obligations are noted (yes/no with detail) for each entry
-- [ ] Governance rights are noted (yes/no with detail) for each entry
+- [ ] Decision-making rights are noted (yes/no with detail) for each entry
 - [ ] If no sources: "None" is stated explicitly and attestation is signed
 - [ ] Attestation is signed and dated
 
@@ -941,7 +941,7 @@ I confirm that the above disclosure is complete and accurate to the best of my k
 - [ ] This relationship exists. Applicant: ___ Description: ___ Waiver justification: ___
 - [ ] This relationship does not exist.
 
-**2e. Decentralized autonomous organization co-membership in governance or committee roles within the same decentralized autonomous organization as the applicant**
+**2e. Decentralized autonomous organization co-membership in coordinating or committee roles within the same decentralized autonomous organization as the applicant**
 
 - [ ] This relationship exists. Applicant: ___ Organization and role: ___ Waiver justification: ___
 - [ ] This relationship does not exist.
@@ -993,7 +993,7 @@ I confirm that the above disclosure is complete and accurate to the best of my k
 - [ ] Yes. Investor name: ___________________________ (assess under Tier 2 or Tier 3)
 - [ ] No.
 
-**Decentralized autonomous organization co-governance roles shared with the applicant**
+**Decentralized autonomous organization co-coordinating roles shared with the applicant**
 
 - [ ] Yes. Description: ___________________________ (assess under Tier 2 or Tier 3)
 - [ ] No.
@@ -1166,7 +1166,7 @@ The relationships and declarations in my pre-review conflict of interest declara
 
 ## Template 9: Privacy-Sensitive Context Accommodation Request
 
-*For applications invoking the privacy-sensitive accommodation for indicator sourcing. The accommodation specifies which accountability mechanisms are appropriate to a context where standard measurement would compromise beneficiary safety; it is not an exemption from accountability. Submit with the Indicator Registration Form for the affected indicator(s).*
+*For applications invoking the privacy-sensitive accommodation for indicator sourcing. The accommodation specifies which obligation mechanisms are appropriate to a context where standard measurement would compromise beneficiary safety; it is not an exemption from obligation. Submit with the Indicator Registration Form for the affected indicator(s).*
 
 ---
 
@@ -1291,7 +1291,7 @@ The relationships and declarations in my pre-review conflict of interest declara
 
 ### Round Configuration (confirm from published round specification)
 
-**Accountability mode:** [ ] Build / [ ] Change / [ ] Retroactive
+**Obligation mode:** [ ] Build / [ ] Change / [ ] Retroactive
 
 **Evidence scope required at this gate:** [ ] Output / [ ] Usage / [ ] Outcome / [ ] Impact
 
@@ -1301,7 +1301,7 @@ The relationships and declarations in my pre-review conflict of interest declara
 
 ### Evidence Package
 
-*Complete the section that matches the accountability mode.*
+*Complete the section that matches the obligation mode.*
 
 ---
 
@@ -1403,7 +1403,7 @@ I confirm that the evidence submitted in this form is accurate and complete to t
 - [ ] Project name, grant reference, and gate type are specified
 - [ ] Round configuration (mode, evidence scope, evidence strength) is confirmed from the published round specification
 - [ ] Evidence section appropriate to the mode is completed
-- [ ] For build accountability at completion gate: public accessibility location is provided
+- [ ] For build obligation at completion gate: public accessibility location is provided
 - [ ] For gates at independent review level: named reviewer or verifying party is identified
 - [ ] Applicant attestation is signed and dated
 - [ ] Submitted by the published gate deadline

@@ -70,7 +70,7 @@ Radius 5 through Radius 150 specifications are normative. Radius 500 and Radius 
 
 **Minimum Conditions.** The structural conditions that must be in place at a given Radius for coordination at that Radius to be possible. A minimum condition is a required structural specification: without it, specific coordination functions cannot be maintained and the attack surface at that threshold opens. A unit that has crossed a threshold without its minimum conditions installed is operating in the broken state that they prevent. Minimum conditions are Radius-specific: the minimum conditions that close the attack surface at Radius 50 are not the minimum conditions that close it at Radius 150. All minimum conditions for all crossed thresholds must be present simultaneously.
 
-**Maximum Conditions.** The structural specification whose absence is the precondition for capture at a given Radius. Absent maximum conditions mean the coordination unit can expand into territory without structural limit, concentrate authority without structural check, or allow any single actor's influence to grow without structural constraint. Maximum conditions do not prevent growth or authority; they prevent growth and authority from becoming structurally unchecked. Absent maximum conditions at any crossed threshold is a conformance failure.
+**Maximum Conditions.** The structural specification whose absence is the precondition for capture at a given Radius. Absent maximum conditions mean the coordination unit can expand into territory without structural limit, concentrate gravitas without structural check, or allow any single actor's influence to grow without structural constraint. Maximum conditions do not prevent growth or gravitas; they prevent growth and gravitas from becoming structurally unchecked. Absent maximum conditions at any crossed threshold is a conformance failure.
 
 **Threshold crossing.** The transition across a Radius boundary. A crossing occurs when a unit's effective Radius moves from below a threshold to above it. A crossing without the appropriate minimum conditions installed opens the attack surface at that threshold immediately. Thresholds are crossed as aggregate conditions, not as headcount events: interaction quality, shared context depth, and communication medium mix change alongside headcount.
 
@@ -122,7 +122,7 @@ Minimum conditions do not require surveillance. They require structural design s
 
 ### 4.4 Maximum Conditions
 
-No single member can hold veto power over all others without the explicit, renewed consent of the group. Absent maximum conditions: dyadic dominance. One member structurally controls the group's decisions, resource access, or narrative, not through formal authority but through the informal power that state opacity and bilateral awareness failure enable at this scale.
+No single member can hold veto power over all others without the explicit, renewed consent of the group. Absent maximum conditions: dyadic dominance. One member structurally controls the group's decisions, resource access, or narrative, not through formal gravitas but through the informal power that state opacity and bilateral awareness failure enable at this scale.
 
 Primary detection signals: one member consistently initiates and concludes decisions while others defer on contested questions; one member's absence stops coordination while others' absences do not; resource access or external contacts route exclusively through one member without the group's explicit authorization.
 
@@ -166,7 +166,7 @@ Below fifty members, informal knowledge of who can do what (who has which skills
 
 ### 6.2 Attack Surface
 
-Authority claims without verification become structurally possible. An actor can claim competence, authority, or role responsibility the group cannot informally check. Single points of failure concentrate invisibly: one person holds knowledge or relationships that no one else knows are load-bearing, and when they leave, the group discovers the dependency only through the failure.
+Gravitas claims without verification become structurally possible. An actor can claim competence, positional gravity, or role responsibility the group cannot informally check. Single points of failure concentrate invisibly: one person holds knowledge or relationships that no one else knows are load-bearing, and when they leave, the group discovers the dependency only through the failure.
 
 ### 6.3 Minimum Conditions
 
@@ -192,7 +192,7 @@ A Radius 50 unit presents at its boundary: an explicit role and capacity record;
 
 ### 7.1 Threshold Justification
 
-Below one hundred fifty members, informal reputation-based norm enforcement functions: when someone violates a shared norm, word travels through personal relationship networks and social consequences reach the violator. Above one hundred fifty, not everyone knows everyone. Reputation signals attenuate. Norm violations can occur without social consequences reaching the violator because the informal network that would carry those consequences has fragmented. Formal structures for norm maintenance become structurally necessary.
+Below one hundred fifty members, informal reputation-based norm response functions: when someone violates a shared norm, word travels through personal relationship networks and social consequences reach the violator. Above one hundred fifty, not everyone knows everyone. Reputation signals attenuate. Norm violations can occur without social consequences reaching the violator because the informal network that would carry those consequences has fragmented. Formal structures for norm maintenance become structurally necessary.
 
 This is the primary Dunbar threshold and the anchor Radius for the current corpus. It is also the threshold at which the founding window condition becomes critical for shared language and foundational commitments.
 
@@ -212,7 +212,7 @@ Radius 150 minimum conditions require four structural conditions, each closing a
 
 **Infrastructure integrity with named redundancy.** Minimum infrastructure integrity for the coordination functions the group depends on. No single actor holds infrastructure access, system knowledge, or external relationships without a named redundancy or succession plan. Load-bearing infrastructure functions are explicitly documented.
 
-**Coordination operability.** Coordination decisions can be operationalized without requiring voluntary compliance from every actor in the group. No single points of failure exist in the coordination execution path. This is the structural prerequisite for formal norm enforcement at this Radius: a coordination mechanism that depends on universal voluntary compliance cannot enforce norms against the actors most likely to violate them.
+**Coordination operability.** Coordination decisions can be operationalized without requiring voluntary conformance from every actor in the group. No single points of failure exist in the coordination execution path. This is the structural prerequisite for formal norm response at this Radius: a coordination mechanism that depends on universal voluntary conformance cannot issue named responses to norm violations by the actors most likely to produce them.
 
 Minimum conditions are absent when any of the four conditions is missing. Partial installation is not conformance; the four conditions are constitutively interdependent.
 
@@ -224,7 +224,7 @@ Primary detection signals: founding members consistently hold information about 
 
 ### 7.5 Interface Conditions
 
-A Radius 150 unit presents at its boundary: all four minimum conditions confirmed present (shared language transmitted, individual capacity structurally sustained, infrastructure integrity with redundancy, coordination operability); formal norm enforcement mechanism operational; founding context architecturally transmitted rather than informally held; and all lower-Radius interface conditions maintained at scale.
+A Radius 150 unit presents at its boundary: all four minimum conditions confirmed present (shared language transmitted, individual capacity structurally sustained, infrastructure integrity with redundancy, coordination operability); formal norm response mechanism operational; founding context architecturally transmitted rather than informally held; and all lower-Radius interface conditions maintained at scale.
 
 ---
 
@@ -250,7 +250,7 @@ Detection architecture structural rather than social: monitoring of coordination
 
 ### 8.4 Maximum Conditions (Provisional)
 
-No single narrative can claim exclusive authority to represent the group's founding context or current purpose. No single faction can capture the ontological surface and use it to privilege their interpretive frame over others.
+No single narrative can claim exclusive gravitas to represent the group's founding context or current purpose. No single faction can capture the ontological surface and use it to privilege their interpretive frame over others.
 
 ### 8.5 Interface Conditions (Provisional)
 
@@ -306,7 +306,7 @@ Assessment questions:
 
 **Is informal knowledge of who can do what, and what coordination functions depend on whom, commonly held and regularly updated through direct interaction?** If yes: below Radius 50. If no: Radius 50 has been crossed.
 
-**Does informal reputation-based norm enforcement function: can norm violations reliably reach their social consequences through personal relationship networks?** If yes: below Radius 150. If no: Radius 150 has been crossed.
+**Does informal reputation-based norm response function: can norm violations reliably reach their social consequences through personal relationship networks?** If yes: below Radius 150. If no: Radius 150 has been crossed.
 
 **Can a single shared narrative be maintained through cultural transmission and direct interaction across the full membership?** If yes: below Radius 500. If no: Radius 500 has been crossed (provisional).
 

@@ -17,13 +17,13 @@ Version 0.2.0 | 2026-05-14 | CC0
 
 ## Section 1: Purpose and Scope
 
-The CROSS (Common Reporting Outcome Standards Schema) Grantee Dashboard is a post-award accountability tool. It takes the structured commitments from an approved grant application and converts them into a persistent, live record that accumulates over the full duration of the grant. The Dashboard is the operational home for everything a grantee committed to at award time: the indicator targets, the gate configuration, the reporting schedule, the disbursement conditions, and the methodology declarations that make those commitments verifiable.
+The CROSS (Common Reporting Outcome Standards Schema) Grantee Dashboard is a post-award obligation tool. It takes the structured commitments from an approved grant application and converts them into a persistent, live record that accumulates over the full duration of the grant. The Dashboard is the operational home for everything a grantee committed to at award time: the indicator targets, the gate configuration, the reporting schedule, the disbursement conditions, and the methodology declarations that make those commitments verifiable.
 
-The Dashboard is not a reporting form. A reporting form is filled out at each reporting milestone and submitted for review. The Dashboard is the record in which each submission lands and accumulates. It persists between reporting periods, displays running progress, enforces schema compliance at submission time, tracks gate evidence packages, and produces the signed attestations that constitute the onchain accountability record.
+The Dashboard is not a reporting form. A reporting form is filled out at each reporting milestone and submitted for review. The Dashboard is the record in which each submission lands and accumulates. It persists between reporting periods, displays running progress, enforces schema conformance at submission time, tracks gate evidence packages, and produces the signed attestations that constitute the onchain obligation record.
 
 The Dashboard is schema-driven rather than freeform. Because field definitions, measurement form declarations, operational definitions, construction methodologies, disaggregation categories, and gate configurations were specified before the award in the round specification produced by the CROSS Grant Configurator, subsequent reporting is structured input against a declared schema. Grantees do not choose what to report at each period; they submit values against the commitments they already made and evidence against the gate requirements that were published before the round opened.
 
-This version (0.2.0) extends version 0.1.0 in three structural ways. First, the Dashboard is now mode-aware: the obligation registry records the accountability mode (build, change, or retroactive), and indicator progress tracking, attestation format, and completion verification behavior differ by mode. Second, gate evidence submission tracking is introduced as a discrete function: progress verification gates and the completion verification gate each have their own evidence submission and verification workflow, separate from the periodic indicator reporting workflow. Third, the data model updates the `data_type` field to `measurement_form` with three classification axes, reflecting the v0.2.0 change to the indicator specification in the CROSS standard.
+This version (0.2.0) extends version 0.1.0 in three structural ways. First, the Dashboard is now mode-aware: the obligation registry records the obligation mode (build, change, or retroactive), and indicator progress tracking, attestation format, and completion verification behavior differ by mode. Second, gate evidence submission tracking is introduced as a discrete function: progress verification gates and the completion verification gate each have their own evidence submission and verification workflow, separate from the periodic indicator reporting workflow. Third, the data model updates the `data_type` field to `measurement_form` with three classification axes, reflecting the v0.2.0 change to the indicator specification in the CROSS standard.
 
 The Dashboard serves two principal user groups. Grantees use it to submit periodic reports, submit gate evidence packages, track progress against their targets, monitor the status of disbursement conditions, and sign attestations. Funders use it to review grantee progress, verify gate submissions and conditions, approve methodology changes, and view cross-grantee comparisons for round-level common indicators.
 
@@ -39,15 +39,15 @@ Each obligation registry entry contains the following elements.
 
 **Round specification reference.** The round identifier and a reference to the round schema published by the funder at round open. The round schema is not embedded in the registry; it is referenced by identifier. Both documents are immutable once published.
 
-**Accountability mode.** The declared accountability mode for this round: build, change, or retroactive. The mode determines which indicator tracking behavior applies (Section 3), which gate evidence requirements are active (Section 6), and which progress display logic is used.
+**Obligation mode.** The declared obligation mode for this round: build, change, or retroactive. The mode determines which indicator tracking behavior applies (Section 3), which gate evidence requirements are active (Section 6), and which progress display logic is used.
 
 **Gate configuration reference.** The evidence scope, evidence strength, and infrastructure declaration for each active gate in this round, as specified in the round specification. The Grantee Dashboard uses this configuration to structure gate submission forms, display gate status, and enforce the disbursement logic that connects gate verification to payment.
 
 **Indicator commitments.** For every outcome indicator the grantee committed to in their approved application, the registry records all fields from Part V of the CROSS standard: indicator name, rationale, measurement form description with three-axis classification (source type, measurement form, aggregation type), operational definition, construction and aggregation methodology, cumulative or non-cumulative designation, disaggregation categories, data source and collection method, data cost attestation, baseline, and target. These fields are recorded exactly as submitted and approved. They are not paraphrased or reformatted.
 
-For build-accountability applications: the registry records the deliverable specification and completion criteria from Template 1A in place of the change-accountability FROM/TO indicator fields. The completion criteria are what the completion verification gate assesses.
+For build-obligation applications: the registry records the deliverable specification and completion criteria from Template 1A in place of the change-obligation FROM/TO indicator fields. The completion criteria are what the completion verification gate assesses.
 
-For retroactive applications with a configured forward commitment: the forward commitment is recorded as a build-accountability indicator commitment alongside the prior contribution evidence summary.
+For retroactive applications with a configured forward commitment: the forward commitment is recorded as a build-obligation indicator commitment alongside the prior contribution evidence summary.
 
 **Concurrent funding disclosure snapshot.** The full concurrent funding disclosure as submitted at the time of application. This snapshot is taken at award and does not update automatically. Subsequent changes to the grantee's funding relationships that are material to the scope of the award must be disclosed through the amendment process.
 
@@ -57,7 +57,7 @@ For retroactive applications with a configured forward commitment: the forward c
 
 **Disbursement structure.** Each tranche, the amount, the milestone or reporting submission it depends on, and any gate verification requirements that gate that tranche.
 
-### Mutability rules
+### Mutability structural conditions
 
 The obligation registry is immutable once set at award. When a change is necessary, it must go through the amendment process. An amendment requires committee approval and records the prior value, the new value, the reason, and the approval timestamp. The original commitment remains visible in the registry alongside the amendment. The registry does not hide or overwrite what was originally committed; it appends the approved change as a documented amendment.
 
@@ -65,41 +65,41 @@ The obligation registry is immutable once set at award. When a change is necessa
 
 ## Section 3: Indicator Progress Tracking
 
-The Dashboard tracks and displays progress for each indicator in the obligation registry. Progress display logic depends on the accountability mode and, for change-accountability and some build-accountability indicators, whether the indicator is cumulative or non-cumulative.
+The Dashboard tracks and displays progress for each indicator in the obligation registry. Progress display logic depends on the obligation mode and, for change-obligation and some build-obligation indicators, whether the indicator is cumulative or non-cumulative.
 
-### Build-accountability progress tracking
+### Build-obligation progress tracking
 
-For build-accountability applications, progress is tracked as completion status against the published criteria, not as incremental values against a numeric target. The Dashboard displays: each completion criterion from the registry, the current confirmation status of each criterion (not yet confirmed, in progress, or confirmed), the named verifying party for each criterion (where specified), and the overall completion status of the deliverable (all criteria confirmed, partial, or no criteria confirmed).
+For build-obligation applications, progress is tracked as completion status against the published criteria, not as incremental values against a numeric target. The Dashboard displays: each completion criterion from the registry, the current confirmation status of each criterion (not yet confirmed, in progress, or confirmed), the named verifying party for each criterion (where specified), and the overall completion status of the deliverable (all criteria confirmed, partial, or no criteria confirmed).
 
-For build-accountability grants with milestone-based disbursements, each milestone has its own set of criteria and its own confirmation status. Progress across milestones is displayed in timeline form, with each milestone's status visible in relation to the overall grant timeline.
+For build-obligation grants with milestone-based disbursements, each milestone has its own set of criteria and its own confirmation status. Progress across milestones is displayed in timeline form, with each milestone's status visible in relation to the overall grant timeline.
 
-The Dashboard must not display a "percentage complete" or numeric progress figure for a build-accountability indicator unless the indicator is explicitly a quantitative count (for example, a deliverable milestone that requires a specific number of test cases to pass). Binary or qualitative completion criteria are not amenable to percentage representations and must not be forced into one.
+The Dashboard must not display a "percentage complete" or numeric progress figure for a build-obligation indicator unless the indicator is explicitly a quantitative count (for example, a deliverable milestone that requires a specific number of test cases to pass). Binary or qualitative completion criteria are not amenable to percentage representations and must not be forced into one.
 
-### Change-accountability progress tracking: cumulative indicators
+### Change-obligation progress tracking: cumulative indicators
 
 For indicators designated as cumulative, the Dashboard displays: the running total accumulated from all reporting periods to date, the period-by-period increments submitted in each report, the life-of-grant target, and the percentage of the life-of-grant target achieved to date.
 
-### Change-accountability progress tracking: non-cumulative indicators
+### Change-obligation progress tracking: non-cumulative indicators
 
 For indicators designated as non-cumulative, the Dashboard displays the most recent period's status value, the life-of-grant target status (the target status to be achieved by grant end, not a sum of period targets), and the trend across periods (a time-series display of reported values by period).
 
 The Dashboard must not sum non-cumulative indicator values across periods and must not display a "total" for a non-cumulative indicator. A non-cumulative indicator measures a status at a point in time; summing status measurements is a data construction error. This prohibition is enforced by design: the Dashboard's aggregation logic must distinguish the two types and apply the correct display accordingly.
 
-### Retroactive accountability progress tracking
+### Retroactive obligation progress tracking
 
-For retroactive applications without a forward commitment, there is no post-award progress to track. The obligation registry records the prior contribution evidence, and the funder's rubric assessment is the sole accountability record for that grant. The Dashboard records the assessment and the award; no periodic reporting is required.
+For retroactive applications without a forward commitment, there is no post-award progress to track. The obligation registry records the prior contribution evidence, and the funder's rubric assessment is the sole obligation record for that grant. The Dashboard records the assessment and the award; no periodic reporting is required.
 
-For retroactive applications with a configured forward commitment, the forward commitment is tracked as a build-accountability indicator. Progress display follows the build-accountability tracking logic above.
+For retroactive applications with a configured forward commitment, the forward commitment is tracked as a build-obligation indicator. Progress display follows the build-obligation tracking logic above.
 
 ### Methodology consistency check at submission
 
-When a grantee submits a change-accountability indicator value that differs substantially from the prior period's value, the Dashboard requires a methodology note before accepting the submission. The threshold for "differs substantially" is a change exceeding 20% of the prior period's value, or a direction reversal, unless the indicator is explicitly designed to fluctuate. The threshold may be configured by the funder at the round level.
+When a grantee submits a change-obligation indicator value that differs substantially from the prior period's value, the Dashboard requires a methodology note before accepting the submission. The threshold for "differs substantially" is a change exceeding 20% of the prior period's value, or a direction reversal, unless the indicator is explicitly designed to fluctuate. The threshold may be configured by the funder at the round level.
 
 This mechanism enforces the reliability standard from Part VIII of the CROSS standard. It does not reject the submission; it holds it pending the note. Once a methodology note is attached, the submission proceeds.
 
 ---
 
-## Section 4: Disaggregation Ratchet Enforcement
+## Section 4: Disaggregation Ratchet Handling
 
 The disaggregation ratchet is established in Part V of the CROSS standard. Disaggregation categories committed to in the application may be supplemented in subsequent reporting periods but may not be removed without committee approval and documented rationale.
 
@@ -127,7 +127,7 @@ A report not submitted by its deadline triggers a notification to both the grant
 
 ## Section 6: Gate Evidence Submission Tracking
 
-The gate architecture from Part IV of the CROSS standard introduces four gate types whose evidence requirements are configured in the round specification. The Dashboard tracks each active gate as a discrete accountability event, separate from periodic indicator reporting.
+The gate architecture from Part IV of the CROSS standard introduces four gate types whose evidence requirements are configured in the round specification. The Dashboard tracks each active gate as a discrete obligation event, separate from periodic indicator reporting.
 
 ### Gate types and Dashboard behavior
 
@@ -135,15 +135,15 @@ The gate architecture from Part IV of the CROSS standard introduces four gate ty
 
 **Progress verification gates.** Each configured progress verification gate corresponds to a milestone disbursement tranche. The Dashboard surfaces a gate submission form when the grantee's grant reaches the relevant point in the timeline. The grantee submits an evidence package using Template 10 (Gate Evidence Submission Form). The submission records: the gate being submitted for, the evidence type and scope, publicly accessible evidence links or artifact descriptions, and any mode-specific completion criteria status.
 
-For build-accountability progress gates: the submission must include a publicly accessible link to the artifact demonstrating progress, and confirmation of which completion criteria from the milestone are met.
+For build-obligation progress gates: the submission must include a publicly accessible link to the artifact demonstrating progress, and confirmation of which completion criteria from the milestone are met.
 
-For change-accountability progress gates: the submission must include the indicator value for the period, the data source reference, and evidence at the strength level configured for this gate.
+For change-obligation progress gates: the submission must include the indicator value for the period, the data source reference, and evidence at the strength level configured for this gate.
 
 **Completion verification gate.** This gate determines whether final payment is released. The Dashboard makes the completion verification gate submission form available after the final reporting period has closed. The grantee submits their completion evidence package using Template 10. The completion gate cannot be bypassed or self-attested; grantee self-report alone does not satisfy the completion verification gate at any evidence strength level.
 
-For build-accountability rounds: the completion gate submission must include a publicly accessible link demonstrating that the specified deliverable is publicly available, plus confirmation that each completion criterion is met. The Dashboard enforces the public accessibility requirement: the submission cannot be marked complete unless a publicly accessible URL is provided. Final payment is blocked until this field is confirmed.
+For build-obligation rounds: the completion gate submission must include a publicly accessible link demonstrating that the specified deliverable is publicly available, plus confirmation that each completion criterion is met. The Dashboard enforces the public accessibility requirement: the submission cannot be marked complete unless a publicly accessible URL is provided. Final payment is blocked until this field is confirmed.
 
-For change-accountability rounds: the completion gate submission must include outcome data against the baseline established at entry, at the evidence scope and strength configured for the round.
+For change-obligation rounds: the completion gate submission must include outcome data against the baseline established at entry, at the evidence scope and strength configured for the round.
 
 **Continuation specification gate.** For programs with a program-level continuation gate, the Dashboard surfaces a continuation gate submission interface when the grantee is preparing to apply for the next stage. The continuation gate submission records: evidence at the required scope and strength for the configured continuation gate, and any cost-effectiveness assessment if the continuation gate requires it (applicable to Stage 2-to-Stage 3 transitions in Graduated Evidence programs). The continuation gate submission is linked to the next stage's application, not to the current award.
 
@@ -153,7 +153,7 @@ Gate submissions received from grantees are routed to the configured verificatio
 
 Grantees cannot mark their own gate submissions as verified. Self-attestation is not sufficient for any gate at progress verification level or above. The role restriction is enforced at the interface level: the verification status field is not editable by grantee users.
 
-Where a gate is configured at independent review level or above, the named reviewer from the infrastructure declaration is the verification contact. The Dashboard records the reviewer's identity, the date of verification, and any notes. This record is part of the onchain accountability record for the grant.
+Where a gate is configured at independent review level or above, the named reviewer from the infrastructure declaration is the verification contact. The Dashboard records the reviewer's identity, the date of verification, and any notes. This record is part of the onchain obligation record for the grant.
 
 Failed gate submissions block the associated disbursement tranche. The grantee may resubmit with corrected or supplemented evidence. The funder may document a waiver with a recorded rationale. Both paths create an amendment record.
 
@@ -183,7 +183,7 @@ Each periodic report submitted by the grantee is a signed attestation. The attes
 
 Each attestation contains: the period covered, the indicator values submitted with disaggregated breakdowns, the construction methodology reference (matching the committed methodology or the most recent approved amendment), any methodology note required by the reliability check, and a standard declaration generated by the Dashboard that the grantee confirms by signing.
 
-Gate submissions produce separate gate attestations that are distinct from periodic indicator attestations. A gate attestation declares that the evidence submitted is accurate, the deliverable is publicly accessible (for build-accountability completion gates), and the data was collected and constructed using the specified methodology. Gate attestations are signed by the grantee and countersigned by the verification contact upon verification.
+Gate submissions produce separate gate attestations that are distinct from periodic indicator attestations. A gate attestation declares that the evidence submitted is accurate, the deliverable is publicly accessible (for build-obligation completion gates), and the data was collected and constructed using the specified methodology. Gate attestations are signed by the grantee and countersigned by the verification contact upon verification.
 
 ### Methodology change process
 
@@ -209,7 +209,7 @@ Each onchain attestation record contains the following fields.
 
 `indicator_id`: the identifier of the indicator, matching the indicator commitment in the obligation registry.
 
-`value`: the reported value for this indicator in this period. For build-accountability completion attestations, this is the confirmation status of each completion criterion, not a numeric value.
+`value`: the reported value for this indicator in this period. For build-obligation completion attestations, this is the confirmation status of each completion criterion, not a numeric value.
 
 `measurement_form_hash`: a cryptographic hash of the measurement form description and three-axis classification as recorded in the obligation registry at commitment time (or the most recent approved amendment). This replaces the `data_type` field from version 0.1.0.
 
@@ -227,9 +227,9 @@ Gate attestations use the same structure with `value` replaced by `gate_evidence
 
 The onchain record is append-only. Corrections are recorded as correction attestations that reference the original by identifier and state the corrected value and reason. The original attestation remains on the record alongside the correction.
 
-### The three-component accountability ledger
+### The three-component obligation ledger
 
-A complete CROSS accountability ledger entry consists of: the round schema (published by the funder at round open, immutable), the application commitments (published onchain at award), and the periodic attestations plus gate attestations (published at each submission). Together, these allow any external party to verify what the round required, what the grantee committed to, and what the grantee actually reported, period by period and gate by gate.
+A complete CROSS obligation ledger entry consists of: the round schema (published by the funder at round open, immutable), the application commitments (published onchain at award), and the periodic attestations plus gate attestations (published at each submission). Together, these allow any external party to verify what the round required, what the grantee committed to, and what the grantee actually reported, period by period and gate by gate.
 
 ---
 
@@ -237,7 +237,7 @@ A complete CROSS accountability ledger entry consists of: the round schema (publ
 
 The funder's view aggregates across all active grantees in a round. The funder can see the full portfolio without navigating to each grantee individually.
 
-The funder view displays for each active grantee: the grantee's name and identifier, their primary indicator and current progress (or completion status for build-accountability grantees), the next reporting or gate deadline, and any flags (overdue reports, gate submissions pending review, conditions with pending or failed verification status).
+The funder view displays for each active grantee: the grantee's name and identifier, their primary indicator and current progress (or completion status for build-obligation grantees), the next reporting or gate deadline, and any flags (overdue reports, gate submissions pending review, conditions with pending or failed verification status).
 
 ### Cross-grantee comparison for common indicators
 
@@ -326,8 +326,8 @@ Indicator_Commitment {
   disaggregation_categories:  array of string
   data_source:                text (named source and collection method)
   data_cost_attestation:      text
-  baseline:                   {value, unit, source, date} or null (null for build-accountability
-                              where stakeholder engagement dimension not activated)
+  baseline:                   {value, unit, source, date} or null (null for build-obligation
+                              where coordinating party engagement dimension not activated)
   target: {
     build_accountability:     {completion_criteria: array of string,
                               verifying_party: string or null} or null
@@ -348,9 +348,9 @@ Gate_Submission {
     description:          text
     public_links:         array of string
     completion_criteria_status: array of {criterion: string, status: enum (met | pending | not_met)}
-    or null (for change-accountability submissions)
+    or null (for change-obligation submissions)
     indicator_values:     array of {indicator_id: string, value, data_source_reference: text}
-    or null (for build-accountability submissions)
+    or null (for build-obligation submissions)
   }
   verification_status:    enum (pending | verified | failed | waived)
   verification_contact:   string or null
@@ -434,7 +434,7 @@ Onchain_Attestation {
 
 ### Cross-funder portability
 
-The Dashboard is designed for a world where grant accountability records are portable and public. A grantee who receives funding from one funder in one round and applies to another funder in a subsequent cycle can share their Dashboard record as verifiable evidence of prior grant performance. The three-component accountability ledger (round schema, application commitments, periodic and gate attestations) is readable by any party without requiring access to the original funder's internal systems. This portability requires that the data model fields in Section 11 remain stable across funders and versions.
+The Dashboard is designed for a world where grant obligation records are portable and public. A grantee who receives funding from one funder in one round and applies to another funder in a subsequent cycle can share their Dashboard record as verifiable evidence of prior grant performance. The three-component obligation ledger (round schema, application commitments, periodic and gate attestations) is readable by any party without requiring access to the original funder's internal systems. This portability requires that the data model fields in Section 11 remain stable across funders and versions.
 
 ### Privacy-sensitive accommodation
 
@@ -450,13 +450,13 @@ The CROSS Reviewers Dashboard (specification forthcoming) is a stage-gated revie
 
 Section 2 (Obligation Registry) implements CROSS Part V (all indicator fields), Part VI (concurrent funding disclosure), and Part VII (conflict of interest documentation at award time).
 
-Section 3 (Indicator Progress Tracking) implements CROSS Part III (accountability modes) and Part VIII (reliability standard for the methodology consistency check).
+Section 3 (Indicator Progress Tracking) implements CROSS Part III (obligation modes) and Part VIII (reliability standard for the methodology consistency check).
 
-Section 4 (Disaggregation Ratchet Enforcement) implements the disaggregation ratchet in Part V.
+Section 4 (Disaggregation Ratchet Handling) implements the disaggregation ratchet in Part V.
 
 Section 5 (Reporting Schedule and Timeline) implements the reporting frequency as set in the round specification per Part IX.
 
-Section 6 (Gate Evidence Submission Tracking) implements CROSS Part IV (gate architecture: progress verification gates and completion verification gate). The completion gate's public accessibility requirement for build-accountability rounds is a CROSS Part IV minimum that the Dashboard enforces at the disbursement interface.
+Section 6 (Gate Evidence Submission Tracking) implements CROSS Part IV (gate architecture: progress verification gates and completion verification gate). The completion gate's public accessibility requirement for build-obligation rounds is a CROSS Part IV minimum that the Dashboard enforces at the disbursement interface.
 
 Section 7 (Disbursement Condition Tracking) implements CROSS Part II (institutional capacity dimension, disbursement conditions tier) and the "Fund with conditions" recommendation type from the assessment rubric.
 

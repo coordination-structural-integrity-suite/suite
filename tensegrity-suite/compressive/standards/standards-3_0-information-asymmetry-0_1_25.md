@@ -91,7 +91,7 @@ relational and positional means, and what was never named because naming
 it would have changed the distribution of that advantage. These are
 facts about process, not state. They cannot be resolved by smart
 contracts, because they cannot be pre-specified. They cannot be remedied
-by transparency alone, because the most consequential information is
+by legibility alone, because the most consequential information is
 often the information that is systematically absent.
 
 The central claim of this document is that information asymmetry in
@@ -1015,11 +1015,11 @@ concentration in which the formal coordination record is architecturally
 designed to capture ratification outputs rather than the coordination
 inputs that produce them. The defining characteristic is not that an
 actor has chosen to exclude specific information from an otherwise
-complete record — that is the canonical scope boundary concentration
+complete record; that is the canonical scope boundary concentration
 pattern. It is that the record's architectural scope was never designed
 to include pre-decision coordination at all: real coordination happens
-in private channels — messaging platforms, informal meetings, side
-conversations — and the formal record receives only the processed
+in private channels (messaging platforms, informal meetings, side
+conversations) and the formal record receives only the processed
 output. The record is not selectively incomplete; it is constitutively
 incomplete, because the boundary of what it captures was drawn at the
 ratification moment rather than the decision moment. The DAO coordination
@@ -1033,7 +1033,7 @@ systematically routes real decision-making to unwitnessed, unarchived
 channels before it surfaces in the formal record. The remediation is
 also distinct: canonical scope boundary concentration is remediable by
 changing which actors control record scope; coordination record asymmetry
-requires architectural change to where real coordination happens —
+requires architectural change to where real coordination happens,
 bringing it into a structured, witnessed record rather than allowing the
 formal record to capture ratification only.
 
@@ -1396,9 +1396,9 @@ A further distinguishing feature: this asymmetry is self-concealing. Participant
 
 The primary deployment context for this extension class is coordination systems in which AI participants contribute analysis, recommendations, or framing to coordination decisions. The class is not limited to AI: any participant whose analytical derivation process is structurally inaccessible to other participants produces this asymmetry type. AI is the primary documented instance.
 
-*Dual-nature note (added 2026-04-12).* The same structural property that generates this asymmetry — opaque training on vast cross-domain knowledge — is also what makes AI participants a functional solution to the knowledge scaling problem in coordination systems above Dunbar's Number: knowledge translation and cascade across scales without the informal trust network degradation that human knowledge transfer requires at scale. The derivation opacity is the risk face of this property; the knowledge scalability is the function face. They are not separable: the same opacity that prevents auditing is what enables the synthesis that makes the scaling function possible.
+*Dual-nature note (added 2026-04-12).* The same structural property that generates this asymmetry (opaque training on vast cross-domain knowledge) is also what makes AI participants a functional solution to the knowledge scaling problem in coordination systems above Dunbar's Number: knowledge translation and cascade across scales without the informal trust network degradation that human knowledge transfer requires at scale. The derivation opacity is the risk face of this property; the knowledge scalability is the function face. They are not separable: the same opacity that prevents auditing is what enables the synthesis that makes the scaling function possible.
 
-The full specification of Extension Class D must address both faces. A specification that characterizes only the asymmetry risk without characterizing the functional capacity it is the other face of would produce an incomplete account of AI participation in coordination systems, with consequences for how detection architecture is designed and how coordination decisions about AI participant inclusion are made. Detection architecture developed from a risk-only characterization may miss the structural conditions under which reducing the asymmetry also reduces the functional capacity — and the conditions under which addressing the risk and enabling the function are the same design move.
+The full specification of Extension Class D must address both faces. A specification that characterizes only the asymmetry risk without characterizing the functional capacity it is the other face of would produce an incomplete account of AI participation in coordination systems, with consequences for how detection architecture is designed and how coordination decisions about AI participant inclusion are made. Detection architecture developed from a risk-only characterization may miss the structural conditions under which reducing the asymmetry also reduces the functional capacity, and the conditions under which addressing the risk and enabling the function are the same design move.
 
 Until this specification is complete, Derivation Opacity Asymmetry may not be used in a conforming detection architecture as a named class. Reference to it in coordination documentation should be accompanied by a note that the class specification is pending. The full specification requires: a regulatory precedent chain documenting coordination recognition of this asymmetry class; a fully characterized detection surface; Cynefin domain classification; and a complete boundary argument against Extension Class A (Generative Asymmetry), whose stub status prevents full orthogonality confirmation at this time.
 

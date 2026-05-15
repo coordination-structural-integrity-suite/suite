@@ -17,7 +17,7 @@ Version 0.1.0 | 2026-05-14 | CC0
 
 ## About Runbooks
 
-A runbook is a pre-built, documented configuration package for a common program type. Each runbook specifies a complete gate configuration: the accountability mode, which gates are active, the evidence scope and evidence strength at each gate, and the infrastructure declaration requirements for any gate that requires independent review or higher. Runbooks also specify a recommended evolution path describing the configuration changes that would constitute a maturation of the program's accountability posture if the program continues into subsequent stages or rounds.
+A runbook is a pre-built, documented configuration package for a common program type. Each runbook specifies a complete gate configuration: the obligation mode, which gates are active, the evidence scope and evidence strength at each gate, and the infrastructure declaration requirements for any gate that requires independent review or higher. Runbooks also specify a recommended evolution path describing the configuration changes that would constitute a maturation of the program's obligation posture if the program continues into subsequent stages or rounds.
 
 A funder adopting a runbook takes it as a starting configuration. Fields that are labeled "configurable" in the runbook may be adjusted by the funder through the Grant Configurator. Fields that are labeled "minimum" may not be loosened; they may only be tightened. Fields that are labeled "fixed" may not be changed without departing from the runbook.
 
@@ -33,7 +33,7 @@ Concurrent funding disclosure from Part VI applies to all runbooks without excep
 
 **Program type this runbook serves.** Short-duration grants producing research, design artifacts, protocol specifications, or feasibility assessments. The funder's goal is an artifact that advances understanding of a problem or a design space, not a measurable change in a population's condition. Discovery sprint grants are typically small and run for four to sixteen weeks.
 
-**Accountability mode: Build accountability.**
+**Obligation mode: Build obligation.**
 
 The deliverable is a document, specification, dataset, assessment, or design artifact. The entry specification asks what the artifact will be and how a reviewer could verify it is complete.
 
@@ -64,9 +64,9 @@ The deliverable is a document, specification, dataset, assessment, or design art
 
 ## Runbook 2: Staged Development
 
-**Program type this runbook serves.** Multi-stage programs in which teams progress through defined development phases. Stage 1 produces an initial deliverable. Stage 2 requires evidence that the Stage 1 deliverable is in use and a specification for the next phase. Later stages may escalate to change accountability if a measurable population condition is the program's ultimate goal. This runbook covers a two-stage program; programs with three or more stages should use Runbook 5 (Graduated Evidence).
+**Program type this runbook serves.** Multi-stage programs in which teams progress through defined development phases. Stage 1 produces an initial deliverable. Stage 2 requires evidence that the Stage 1 deliverable is in use and a specification for the next phase. Later stages may escalate to change obligation if a measurable population condition is the program's ultimate goal. This runbook covers a two-stage program; programs with three or more stages should use Runbook 5 (Graduated Evidence).
 
-**Accountability mode: Build accountability at Stage 1. Build accountability or change accountability at Stage 2, configurable by the funder.**
+**Obligation mode: Build obligation at Stage 1. Build obligation or change obligation at Stage 2, configurable by the funder.**
 
 **Stage 1 gate configuration.**
 
@@ -77,7 +77,7 @@ The deliverable is a document, specification, dataset, assessment, or design art
 | Completion verification | Yes | Output | Third-party verifiable | Named staff or named independent reviewer confirms the deliverable is publicly accessible and meets the published completion criteria |
 | Continuation gate (Stage 1 to Stage 2) | Yes | Usage | Third-party verifiable | Named staff verifies publicly accessible evidence of use by parties outside the applicant's control before Stage 2 funding is released |
 
-**Stage 2 gate configuration (build accountability variant).**
+**Stage 2 gate configuration (build obligation variant).**
 
 | Gate | Active | Evidence scope | Evidence strength | Infrastructure requirement |
 |---|---|---|---|---|
@@ -86,7 +86,7 @@ The deliverable is a document, specification, dataset, assessment, or design art
 | Completion verification | Yes | Output and Usage | Third-party verifiable | Named reviewer confirms the Stage 2 deliverable meets the published criteria and has demonstrable uptake |
 | Continuation gate (Stage 2 onward) | Configurable | Usage | Independent review | If further stages are planned, a named independent reviewer verifies sustained usage before Stage 3 funding is committed |
 
-**Stage 2 gate configuration (change accountability variant).** If the funder activates change accountability for Stage 2, the entry specification gate additionally requires: a FROM state specification with a named data source, a baseline documented against the Stage 1 period, and a target for the Stage 2 period. All change accountability requirements from Part III and the indicator specification requirements from Part V of the standard apply in full.
+**Stage 2 gate configuration (change obligation variant).** If the funder activates change obligation for Stage 2, the entry specification gate additionally requires: a FROM state specification with a named data source, a baseline documented against the Stage 1 period, and a target for the Stage 2 period. All change obligation requirements from Part III and the indicator specification requirements from Part V of the standard apply in full.
 
 **Continuation gate requirements.** The continuation gate from Stage 1 to Stage 2 is the instrument that enforces the usage requirement. A team that delivered a Stage 1 artifact but cannot demonstrate that anyone outside the team is using it does not pass the continuation gate. Usage in this context means documented use by parties outside the applicant's control, at a scale and in a manner that an independent reviewer can verify from public sources. Applicant-asserted usage without accessible public evidence does not satisfy third-party verifiable evidence strength.
 
@@ -94,21 +94,21 @@ The deliverable is a document, specification, dataset, assessment, or design art
 
 **Infrastructure declaration requirements.** The continuation gate is configured at third-party verifiable level; no independent reviewer is required for the standard configuration. If Stage 2 uses independent review at the completion verification gate, the infrastructure declaration must name the reviewer and the timeline before the Stage 2 round opens. The funder must not specify independent review in the published round configuration and then retrospectively reduce it to self-report.
 
-**Recommended rubric emphasis.** Stage 1 rubric emphasis mirrors the Discovery Sprint: Field 11 (completion criteria), Field 5 (methodology), Integrity standard. Stage 2 rubric emphasis shifts to the stakeholder engagement dimension (is the usage claim independently validated?), Field 10 (is the usage baseline credible and independently sourced?), and the Validity standard (does the usage evidence connect causally to the Stage 1 deliverable rather than to background adoption trends?). The continuation gate rubric should give the Integrity standard the highest weight: usage claimed without any independently accessible public source does not satisfy third-party verifiable evidence strength. Funder guidance additions should clarify what constitutes acceptable evidence of external adoption for this program's domain.
+**Recommended rubric emphasis.** Stage 1 rubric emphasis mirrors the Discovery Sprint: Field 11 (completion criteria), Field 5 (methodology), Integrity standard. Stage 2 rubric emphasis shifts to the beneficiary engagement dimension (is the usage claim independently validated?), Field 10 (is the usage baseline credible and independently sourced?), and the Validity standard (does the usage evidence connect causally to the Stage 1 deliverable rather than to background adoption trends?). The continuation gate rubric should give the Integrity standard the highest weight: usage claimed without any independently accessible public source does not satisfy third-party verifiable evidence strength. Funder guidance additions should clarify what constitutes acceptable evidence of external adoption for this program's domain.
 
-**Recommended evolution path.** A program operating this runbook for three or more cycles should consider whether the continuation gate should escalate to outcome evidence, and whether Stage 2 or Stage 3 should require change accountability. That escalation is the Graduated Evidence configuration (Runbook 5).
+**Recommended evolution path.** A program operating this runbook for three or more cycles should consider whether the continuation gate should escalate to outcome evidence, and whether Stage 2 or Stage 3 should require change obligation. That escalation is the Graduated Evidence configuration (Runbook 5).
 
 **Example programs.** Octant multi-epoch programs where teams must demonstrate use before receiving a second epoch, Stellar Development Foundation Community Fund projects with a first-round deliverable requirement and a second-round continuation requirement, staged development programs where continuation is conditioned on demonstrated uptake.
 
 ---
 
-## Runbook 3: Community Allocation with Build Accountability
+## Runbook 3: Community Allocation with Build Obligation
 
-**Program type this runbook serves.** Community-allocated rounds in which funding amounts are determined by a community mechanism (quadratic funding, direct voting, token-weighted allocation, or similar) rather than a committee deliberation. The grant program's accountability structure is separate from the allocation mechanism; this runbook specifies the accountability structure. The allocation mechanism itself is not governed by CROSS.
+**Program type this runbook serves.** Community-allocated rounds in which funding amounts are determined by a community mechanism (quadratic funding, direct voting, token-weighted allocation, or similar) rather than a committee deliberation. The grant program's obligation structure is separate from the allocation mechanism; this runbook specifies the obligation structure. The allocation mechanism itself is not governed by CROSS.
 
 This runbook assumes that many applicants will be small teams with limited reporting capacity. Evidence requirements are calibrated accordingly. The Precision-First Design Standard's double-negation invariant applies: requirements must not be so heavy that legitimate small-team applicants are excluded.
 
-**Accountability mode: Build accountability.**
+**Obligation mode: Build obligation.**
 
 **Gate configuration.**
 
@@ -119,7 +119,7 @@ This runbook assumes that many applicants will be small teams with limited repor
 | Completion verification | Yes | Output | Self-report with documentation for grants below the small grant threshold; third-party verifiable for grants at or above threshold | Named staff confirms the publicly accessible deliverable meets the stated completion criteria |
 | Continuation specification | Configurable | Usage | Third-party verifiable | Activated for teams applying for a second round from the same funder; staff verifies public evidence of use |
 
-**Entry specification requirements for this runbook.** The applicant states: (1) what they are building; (2) what done looks like (completion criteria); and (3) who will use it. The beneficiary field does not require a named individual; a specific user type or developer profile is sufficient at this evidence strength level. The application does not require a FROM state, outcome indicator, or theory of change. Those apply in change-accountability rounds; this is a build-accountability round. Reviewers must not apply change-accountability gate criteria to build-accountability applications.
+**Entry specification requirements for this runbook.** The applicant states: (1) what they are building; (2) what done looks like (completion criteria); and (3) who will use it. The beneficiary field does not require a named individual; a specific user type or developer profile is sufficient at this evidence strength level. The application does not require a FROM state, outcome indicator, or theory of change. Those apply in change-obligation rounds; this is a build-obligation round. Reviewers must not apply change-obligation gate criteria to build-obligation applications.
 
 **Key configuration note: continuation gate for returning teams.** When a team applies for a second consecutive round from the same funder, the continuation specification gate activates. The team must present evidence that the prior round's deliverable is publicly accessible and in use. This gate distinguishes a team with a track record of delivery from a team proposing a perpetual first stage. It is not a requirement for first-round applicants; applying for the first time does not require a usage demonstration.
 
@@ -129,9 +129,9 @@ This runbook assumes that many applicants will be small teams with limited repor
 
 **Infrastructure declaration requirements.** No independent review is required at any gate in the standard configuration. The infrastructure declaration specifies who reviews submitted artifacts against completion criteria, what the review process is, and what the timeline is before final payment.
 
-**Recommended rubric emphasis.** For community-allocated build-accountability rounds, Field 11 (completion criteria) and the beneficiary validation dimension are the most load-bearing rubric sections. The beneficiary validation question is: does a real external party need this, and has that need been confirmed by someone outside the applicant's organization? The concurrent funding disclosure compliance check should be weighted heavily given the community allocation context; governance token voting relationships are especially common and must be assessed under the conflict of interest framework. The Precision standard and formal causal chain validity assessment are less applicable and may be simplified or marked advisory. Funder guidance additions should clarify what counts as an adequate completion demonstration for the types of deliverables this round expects, so reviewers apply a consistent standard across many small applications.
+**Recommended rubric emphasis.** For community-allocated build-obligation rounds, Field 11 (completion criteria) and the beneficiary validation dimension are the most load-bearing rubric sections. The beneficiary validation question is: does a real external party need this, and has that need been confirmed by someone outside the applicant's organization? The concurrent funding disclosure conformance check should be weighted heavily given the community allocation context; governance token voting relationships are especially common and must be assessed under the conflict of interest framework. The Precision standard and formal causal chain validity assessment are less applicable and may be simplified or marked advisory. Funder guidance additions should clarify what counts as an adequate completion demonstration for the types of deliverables this round expects, so reviewers apply a consistent standard across many small applications.
 
-**Recommended evolution path.** A funder running community allocation for multiple cycles should consider activating the continuation specification gate for returning teams after the second round, and requiring third-party verifiable evidence at completion regardless of grant size from the third cycle onward. This represents a natural maturation of accountability posture without changing the core build-accountability mode.
+**Recommended evolution path.** A funder running community allocation for multiple cycles should consider activating the continuation specification gate for returning teams after the second round, and requiring third-party verifiable evidence at completion regardless of grant size from the third cycle onward. This represents a natural maturation of obligation posture without changing the core build-obligation mode.
 
 **Example programs.** Octant standard rounds, Gitcoin quadratic funding rounds, Arbitrum community allocation programs, any program where community signaling or voting determines allocation and the deliverable is a public good artifact.
 
@@ -139,11 +139,11 @@ This runbook assumes that many applicants will be small teams with limited repor
 
 ## Runbook 4: Retroactive Impact
 
-**Program type this runbook serves.** Programs that fund past contribution: work that has already been produced and is already in use. No prospective commitment to future deliverables or outcomes is required at entry. The accountability object is the demonstrated prior contribution, assessed against the program's published criteria.
+**Program type this runbook serves.** Programs that fund past contribution: work that has already been produced and is already in use. No prospective commitment to future deliverables or outcomes is required at entry. The obligation object is the demonstrated prior contribution, assessed against the program's published criteria.
 
-Retroactive accountability is not the absence of accountability; it is accountability for what has already happened. The entry specification asks what the applicant has contributed, to whom, and with what evidence. The assessment rubric evaluates the quality, scale, and alignment of that contribution against the funder's published criteria.
+Retroactive obligation is not the absence of obligation; it is obligation for what has already happened. The entry specification asks what the applicant has contributed, to whom, and with what evidence. The assessment rubric evaluates the quality, scale, and alignment of that contribution against the funder's published criteria.
 
-**Accountability mode: Retroactive accountability.**
+**Obligation mode: Retroactive obligation.**
 
 **Gate configuration.**
 
@@ -165,9 +165,9 @@ Retroactive accountability is not the absence of accountability; it is accountab
 
 **Infrastructure declaration requirements.** Retroactive rounds require at minimum third-party verifiable evidence strength at the entry specification gate, and the review panel constitutes the independent review mechanism at that gate. The infrastructure declaration must name the panel members, state their qualifications relevant to the contribution area, and specify the process for handling panel conflicts of interest. This is a gate at independent review level; all infrastructure declaration requirements from Part IV of the standard apply.
 
-**Recommended rubric emphasis.** The retroactive accountability rubric is entirely funder-authored (Q12.4 of the Configurator). The following structure is recommended as a starting template. Contribution scope and originality: what was produced and what makes it non-duplicative of existing work? Evidence of adoption: what independently accessible sources confirm the contribution is being used, by whom, and at what scale? Sustainability and trajectory: is the contribution maintained and growing, or was it a single output with declining use? Relevance to program criteria: how directly does the contribution address the program's published eligibility domain? The Integrity standard is the highest-priority data quality criterion for retroactive rounds: all contribution and adoption evidence must originate from sources outside the applicant's control. Applicant self-assertion of impact without any independent source fails the Integrity standard regardless of how detailed the self-report is.
+**Recommended rubric emphasis.** The retroactive obligation rubric is entirely funder-authored (Q12.4 of the Configurator). The following structure is recommended as a starting template. Contribution scope and originality: what was produced and what makes it non-duplicative of existing work? Evidence of adoption: what independently accessible sources confirm the contribution is being used, by whom, and at what scale? Sustainability and trajectory: is the contribution maintained and growing, or was it a single output with declining use? Relevance to program criteria: how directly does the contribution address the program's published eligibility domain? The Integrity standard is the highest-priority data quality criterion for retroactive rounds: all contribution and adoption evidence must originate from sources outside the applicant's control. Applicant self-assertion of impact without any independent source fails the Integrity standard regardless of how detailed the self-report is.
 
-**Recommended evolution path.** A funder running retroactive rounds who finds that the same contributors apply repeatedly with overlapping work should consider adding a continuation specification requiring evidence of new contribution since the prior award period. A funder who wants to move from pure retroactive assessment toward a combination of retroactive reward and prospective accountability should configure the forward commitment field and, in subsequent rounds, treat it as a progress verification gate.
+**Recommended evolution path.** A funder running retroactive rounds who finds that the same contributors apply repeatedly with overlapping work should consider adding a continuation specification requiring evidence of new contribution since the prior award period. A funder who wants to move from pure retroactive assessment toward a combination of retroactive reward and prospective obligation should configure the forward commitment field and, in subsequent rounds, treat it as a progress verification gate.
 
 **Example programs.** Optimism Retroactive Public Goods Funding, Protocol Guild distributions for Ethereum core protocol contributors, any program where funding is allocated based on demonstrated past public goods contribution rather than a prospective proposal.
 
@@ -175,11 +175,11 @@ Retroactive accountability is not the absence of accountability; it is accountab
 
 ## Runbook 5: Graduated Evidence
 
-**Program type this runbook serves.** Multi-stage programs in which evidence requirements escalate at each continuation gate. The program is designed so that small, exploratory grants carry light accountability; medium, validated grants carry moderate accountability; and large, scaling grants carry rigorous accountability including independent evaluation. This structure is adapted from the staged-funding model used by the United States Agency for International Development's Development Innovation Ventures program for application in public goods grant contexts.
+**Program type this runbook serves.** Multi-stage programs in which evidence requirements escalate at each continuation gate. The program is designed so that small, exploratory grants carry light obligation; medium, validated grants carry moderate obligation; and large, scaling grants carry rigorous obligation including independent evaluation. This structure is adapted from the staged-funding model used by the United States Agency for International Development's Development Innovation Ventures program for application in public goods grant contexts.
 
 This runbook covers a three-stage program. Programs with two stages should use Runbook 2 (Staged Development). Programs with four or more stages should extend this runbook's pattern.
 
-**Accountability mode: Build accountability at Stage 1. Build accountability or change accountability at Stage 2, configurable by the funder. Change accountability at Stage 3, with independent evaluation at the completion gate.**
+**Obligation mode: Build obligation at Stage 1. Build obligation or change obligation at Stage 2, configurable by the funder. Change obligation at Stage 3, with independent evaluation at the completion gate.**
 
 **Stage 1 gate configuration.**
 
@@ -210,7 +210,7 @@ This runbook covers a three-stage program. Programs with two stages should use R
 
 **Cost-effectiveness at the Stage 2 to Stage 3 continuation gate.** The continuation gate from Stage 2 to Stage 3 includes a cost-effectiveness consideration as a required element, per Part IV of the standard. The review panel must assess whether the evidence from Stage 2 indicates that further investment in this intervention produces meaningful change relative to available alternatives. This is not a disqualifying criterion at Stage 1 or Stage 2 entry; it applies only at the continuation gate before Stage 3 funding is committed.
 
-**Change accountability activation.** At Stage 2, the funder may configure either build accountability or change accountability. Build accountability at Stage 2 is appropriate where the program area is still developing the deliverable infrastructure needed before population-level outcomes can be measured. Change accountability at Stage 2 is appropriate where Stage 1 produced a deployed artifact with external users and a measurable baseline exists. The Grant Configurator supports mode assignment per stage.
+**Change obligation activation.** At Stage 2, the funder may configure either build obligation or change obligation. Build obligation at Stage 2 is appropriate where the program area is still developing the deliverable infrastructure needed before population-level outcomes can be measured. Change obligation at Stage 2 is appropriate where Stage 1 produced a deployed artifact with external users and a measurable baseline exists. The Grant Configurator supports mode assignment per stage.
 
 **Conflict of interest.** Standard three-tier declaration applies at each stage. Independent reviewers at Stage 2 and evaluators at Stage 3 must complete conflict of interest declarations before accessing any application material. The infrastructure declaration for Stage 2 independent review and Stage 3 independent evaluation must confirm the declaration status of the named reviewer or evaluator before the relevant round opens.
 
@@ -224,13 +224,13 @@ This runbook covers a three-stage program. Programs with two stages should use R
 
 ---
 
-## Runbook 6: Institutional Compliance
+## Runbook 6: Institutional Conformance
 
-**Program type this runbook serves.** Programs operating within or alongside institutional accountability frameworks: development agencies, foundations with formal reporting requirements, government grant programs, or organizations that must satisfy external compliance obligations such as environmental and social standards, procurement integrity requirements, or gender equity accountability. This runbook adapts the CROSS gate architecture to the accountability requirements common in these contexts.
+**Program type this runbook serves.** Programs operating within or alongside institutional obligation frameworks: development agencies, foundations with formal reporting requirements, government grant programs, or organizations that must satisfy external conformance obligations such as environmental and social standards, procurement integrity requirements, or gender equity obligation. This runbook adapts the CROSS gate architecture to the obligation requirements common in these contexts.
 
-This runbook is the most demanding configuration in the initial library. It is not appropriate for small community grants or early-stage innovation funding. It is appropriate for large grants to established organizations operating at scale, where the accountability obligations are proportional to the scale of the public impact claim and the institutional compliance environment.
+This runbook is the most demanding configuration in the initial library. It is not appropriate for small community grants or early-stage innovation funding. It is appropriate for large grants to established organizations operating at scale, where the obligation requirements are proportional to the scale of the public impact claim and the institutional conformance environment.
 
-**Accountability mode: Change accountability.**
+**Obligation mode: Change obligation.**
 
 Institutional programs at this scale should be able to specify a FROM state, a measurable indicator, and a TO state. If an applicant in this context cannot specify a FROM state, the entry specification gate fails and the application does not proceed. A large-scale institutional grant to address a problem the applicant cannot name as a specific measurable condition in a defined population does not meet the minimum standard for this funding tier.
 
@@ -240,10 +240,10 @@ Institutional programs at this scale should be able to specify a FROM state, a m
 
 | Gate | Active | Evidence scope | Evidence strength | Infrastructure requirement |
 |---|---|---|---|---|
-| Entry specification | Yes | Outcome (FROM state required) | Third-party verifiable | Review panel assesses the FROM state specification, institutional capacity documentation, and compliance screening |
+| Entry specification | Yes | Outcome (FROM state required) | Third-party verifiable | Review panel assesses the FROM state specification, institutional capacity documentation, and conformance screening |
 | Environmental and social screening (at entry) | Yes | Output | Independent review | Named environmental and social specialist reviews the screening documentation before any award commitment |
-| Progress verification | Yes | Outcome | Third-party verifiable | Named staff reviews outcome data and compliance reports at each disbursement tranche |
-| Completion verification | Yes | Outcome | Independent review | Named independent reviewer with relevant domain expertise confirms completion against the published criteria and compliance requirements |
+| Progress verification | Yes | Outcome | Third-party verifiable | Named staff reviews outcome data and conformance reports at each disbursement tranche |
+| Completion verification | Yes | Outcome | Independent review | Named independent reviewer with relevant domain expertise confirms completion against the published criteria and conformance requirements |
 | Continuation specification | Configurable | Outcome and Impact | Independent evaluation | Where a second phase is planned, the continuation gate requires an independent evaluation of the first phase before Phase 2 funding is committed |
 
 **Entry specification requirements for this runbook.** The applicant must provide: (1) a FROM state specification with a named data source and a documented baseline; (2) institutional capacity documentation including organizational history, prior grants of comparable scale with verified outputs, and financial management systems; (3) environmental and social screening documentation at the level appropriate to the classified impact category; and (4) a procurement plan for any sub-contracting or sub-granting above 20% of the total award. The conflict of interest declaration covers organizational conflicts, where the reviewer's employer has a material financial relationship with the applicant, as well as individual relationships.
@@ -264,11 +264,11 @@ The applicant self-classifies; the independent environmental and social review a
 
 **Procurement integrity requirements.** Where sub-contracting or sub-granting exceeds 20% of the total award, the applicant must submit a procurement plan documenting: the selection criteria for sub-contractors, the competitive process used, any relationships between the applicant and the selected sub-contractor that would constitute a conflict of interest under Part VII, and the reporting requirements placed on the sub-contractor. The funder reviews the procurement plan at the progress verification gate to confirm that awarded sub-contracts match the submitted plan.
 
-**Recommended rubric emphasis.** For institutional compliance rounds, the FROM state quality (Field 10) is the most load-bearing rubric criterion. A weak FROM state specification is a harder failure in this program type than in community rounds: institutional funders expect documented, independently sourced baselines as a prerequisite for any outcome claim. The Validity standard (is the causal chain from intervention to claimed outcome documented at institutional standards?) and the Integrity standard (are named independent sources present for every material claim?) are the two highest-priority data quality criteria. If the environmental and social impact dimension is activated, the classification quality rubric section should specify the evidence required to substantiate each category level. Funder guidance additions should state explicitly what institutional documentation standard this program applies (International Finance Corporation Performance Standards, Green Climate Fund Environmental and Social Policy, or another named standard) so reviewers assess FROM state quality against a named benchmark rather than their own judgment.
+**Recommended rubric emphasis.** For institutional conformance rounds, the FROM state quality (Field 10) is the most load-bearing rubric criterion. A weak FROM state specification is a harder failure in this program type than in community rounds: institutional funders expect documented, independently sourced baselines as a prerequisite for any outcome claim. The Validity standard (is the causal chain from intervention to claimed outcome documented at institutional standards?) and the Integrity standard (are named independent sources present for every material claim?) are the two highest-priority data quality criteria. If the environmental and social impact dimension is activated, the classification quality rubric section should specify the evidence required to substantiate each category level. Funder guidance additions should state explicitly what institutional documentation standard this program applies (International Finance Corporation Performance Standards, Green Climate Fund Environmental and Social Policy, or another named standard) so reviewers assess FROM state quality against a named benchmark rather than their own judgment.
 
-**Recommended evolution path.** A funder operating this runbook for two or more cycles with the same class of applicants should consider publishing a program-level public record of environmental and social findings, gender-disaggregated outcome data, and completion evidence. The CROSS conformance record, tracked in the Grant Configurator, makes this data available across rounds. Publishing it represents the accountability maturation the institutional compliance configuration is designed to enable.
+**Recommended evolution path.** A funder operating this runbook for two or more cycles with the same class of applicants should consider publishing a program-level public record of environmental and social findings, gender-disaggregated outcome data, and completion evidence. The CROSS conformance record, tracked in the Grant Configurator, makes this data available across rounds. Publishing it represents the obligation maturation the institutional conformance configuration is designed to enable.
 
-**Example programs.** Green Climate Fund project financing, World Bank small grants programs, Innovate UK innovation grants with procurement and reporting requirements, foundation programs requiring gender-disaggregated outcome reporting, and web3 grant programs that have chosen to align with institutional environmental and social standards for reasons of donor accountability or global recognition.
+**Example programs.** Green Climate Fund project financing, World Bank small grants programs, Innovate UK innovation grants with procurement and reporting requirements, foundation programs requiring gender-disaggregated outcome reporting, and web3 grant programs that have chosen to align with institutional environmental and social standards for reasons of donor obligation direction or global recognition.
 
 ---
 

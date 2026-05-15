@@ -14,9 +14,9 @@ Version 0.2.0 | 2026-05-14 | CC0
 
 ## Introduction
 
-These examples illustrate CROSS criteria through real grant evaluation cases. Each case identifies the criterion illustrated, states the finding from evaluation, specifies the CROSS assessment, and shows what a compliant approach would have looked like. Cases are drawn from Octant Epoch 12 grant evaluations conducted in May 2026.
+These examples illustrate CROSS criteria through real grant evaluation cases. Each case identifies the criterion illustrated, states the finding from evaluation, specifies the CROSS assessment, and shows what a conformant approach would have looked like. Cases are drawn from Octant Epoch 12 grant evaluations conducted in May 2026.
 
-All six cases in this edition are drawn from rounds operating in change-accountability mode or from the boundary between build and change accountability. Cases illustrating build-accountability and retroactive accountability rounds will be added as examples from those program types accumulate in the PoC vault. The entry specification gate findings in these cases use the change-accountability vocabulary (FROM state classification) unless otherwise noted.
+All six cases in this edition are drawn from rounds operating in change-obligation mode or from the boundary between build and change obligation. Cases illustrating build-obligation and retroactive obligation rounds will be added as examples from those program types accumulate in the PoC vault. The entry specification gate findings in these cases use the change-obligation vocabulary (FROM state classification) unless otherwise noted.
 
 Each case can be read independently. The recommendation vocabulary throughout is: Fund / Fund with conditions / Do not fund.
 
@@ -27,7 +27,7 @@ Each case can be read independently. The recommendation vocabulary throughout is
 **Project:** Mushee Allocate
 **Ask:** \$6,330
 **Outcome:** Do not fund
-**Criterion illustrated:** Stakeholder engagement and beneficiary validation; entry specification gate
+**Criterion illustrated:** Coordinating party engagement and beneficiary validation; entry specification gate
 
 ### The Application
 
@@ -49,15 +49,15 @@ A second dimension failed: product readiness. The closest analogue to Mushee All
 
 Entry specification gate: passes (a specific condition is named in a defined context).
 
-Beneficiary validation: fails. The FROM state was not validated with intended beneficiaries and the applicant did not name existing alternatives, which is a required step under the stakeholder engagement and beneficiary validation dimension.
+Beneficiary validation: fails. The FROM state was not validated with intended beneficiaries and the applicant did not name existing alternatives, which is a required step under the coordinating party engagement and beneficiary validation dimension.
 
 Product readiness: the single-commit demo explicitly self-described as built for grant applications does not constitute evidence of a working product. This is an institutional capacity finding, not a gate finding, but it reinforces the do not fund recommendation.
 
 ### What a Compliant Approach Would Have Looked Like
 
-A compliant application would have named Hedgey Finance, Splits, and Coordinape, explained specifically why each does not address the applicant's stated population's need, and cited at least one source outside the applicant's control confirming that a gap remains. For example: evaluation results from grant programs using Hedgey Finance identifying specific limitations, interviews with grant administrators conducted before writing the application, or documentation of a problem that Hedgey Finance's architecture cannot accommodate.
+A conformant application would have named Hedgey Finance, Splits, and Coordinape, explained specifically why each does not address the applicant's stated population's need, and cited at least one source outside the applicant's control confirming that a gap remains. For example: evaluation results from grant programs using Hedgey Finance identifying specific limitations, interviews with grant administrators conducted before writing the application, or documentation of a problem that Hedgey Finance's architecture cannot accommodate.
 
-The compliant application would then have specified what Mushee Allocate does that Hedgey Finance cannot, in the same operational terms used to describe the FROM state. If no such differentiation exists, the gap does not exist and the application should not proceed.
+The conformant application would then have specified what Mushee Allocate does that Hedgey Finance cannot, in the same operational terms used to describe the FROM state. If no such differentiation exists, the gap does not exist and the application should not proceed.
 
 ---
 
@@ -82,7 +82,7 @@ This is an indicator specification failure under two sub-requirements. First, no
 
 The integrity dimension also fails. All performance metrics in the application are sourced from applicant-controlled systems: the Primev validator dashboard, the Primev documentation, and the KarmaGAP profile created the same day as the application. No named independent corroboration was provided for the headline coverage claim. For a claim of this magnitude in a live infrastructure context, applicant-controlled data without independent corroboration does not satisfy the integrity standard.
 
-A third transparency failure reinforces the finding: venture capital backing from a16z CSX, HashKey Capital, and Figment Capital was not disclosed in the application, despite concurrent funding disclosure being a required field for all CROSS-conformant applications.
+A third legibility failure reinforces the finding: venture capital backing from a16z CSX, HashKey Capital, and Figment Capital was not disclosed in the application, despite concurrent funding disclosure being a required field for all CROSS-conformant applications.
 
 ### CROSS Assessment
 
@@ -96,7 +96,7 @@ Entry specification gate: passes on the encrypted mempool milestone specifically
 
 ### What a Compliant Operational Definition Would Have Looked Like
 
-A compliant operational definition for the "blocks" indicator would specify:
+A conformant operational definition for the "blocks" indicator would specify:
 
 Indicator name: Proportion of Ethereum mainnet blocks per calendar week with at least one mev-commit preconfirmation included.
 
@@ -133,7 +133,7 @@ MoaV ships with zero telemetry by design. This is the correct architectural choi
 
 Standard outcome measurement requirements for a public goods grant would typically ask for user counts, geographic breakdown, and usage frequency. Applied to MoaV without modification, these requirements would create a harm: satisfying them would require collecting the same data that, if obtained by Iranian or Russian authorities, would expose users to adversarial surveillance, detention, or worse.
 
-CROSS specifies that when standard measurement would compromise the safety of the beneficiary population, privacy-preserving measurement methodologies are required in lieu of standard analytics. The accommodation is not an exemption from accountability; it requires specifying which accountability mechanisms are appropriate to the context.
+CROSS specifies that when standard measurement would compromise the safety of the beneficiary population, privacy-preserving measurement methodologies are required in lieu of standard analytics. The accommodation is not an exemption from obligation; it requires specifying which obligation mechanisms are appropriate to the context.
 
 The application partially addressed this: the zero-telemetry design is documented, the privacy rationale is implicit in the tool's architecture, and the Digital Public Goods Standard self-assessment correctly identifies telemetry absence as a design property rather than a gap. However, the application did not formally invoke the privacy-sensitive accommodation. It did not name the specific harm that standard measurement would create, did not name the alternative methodology that would be used instead, and did not identify an institutional partner who could validate the alternative methodology through an ethics-reviewed process.
 
@@ -149,7 +149,7 @@ Institutional capacity: mixed. The founder's background is directly relevant; th
 
 ### What a Compliant Accommodation Request Would Have Looked Like
 
-A compliant formal invocation of the privacy-sensitive accommodation would do four things.
+A conformant formal invocation of the privacy-sensitive accommodation would do four things.
 
 First, it would name the specific harm. "Standard outcome measurement for this grant would require collecting data on the number, geographic distribution, and usage patterns of users in Iran, Russia, and Myanmar. This data, if obtained by authorities in those jurisdictions through server seizure, subpoena of a hosting provider, or interception, would identify individuals who circumvented government-imposed internet restrictions. This constitutes a direct physical safety risk to the beneficiary population."
 
@@ -174,11 +174,11 @@ The Interfold is a protocol and distributed network that uses threshold Fully Ho
 
 ### The CROSS Finding
 
-The application did not disclose a \$1M venture capital round recorded in KarmaGAP. It did not disclose a \$3.82M GnosisDAO treasury allocation under Gnosis Improvement Proposal 78, which covered the Gnosis Guild guild-wide operations including the Enclave project. It did not disclose a Zcash Community Grant application for \$130,000 for a CRISP-based governance tool called Zecret Ballots, which was rejected by the Zcash Community Grants committee in April 2026, approximately one month before this application.
+The application did not disclose a \$1M venture capital round recorded in KarmaGAP. It did not disclose a \$3.82M GnosisDAO treasury allocation under Gnosis Improvement Proposal 78, which covered the Gnosis Guild guild-wide operations including the Enclave project. It did not disclose a Zcash Community Grant application for \$130,000 for a CRISP-based coordinating instrument called Zecret Ballots, which was rejected by the Zcash Community Grants committee in April 2026, approximately one month before this application.
 
 These are three independent disclosure failures under CROSS's concurrent funding disclosure requirement. The venture capital round and the GnosisDAO allocation together represent more than \$4.8M in related prior funding, none of which appeared in the application. The Zcash rejection is an adverse signal for a closely related CRISP application in an adjacent ecosystem, which must be disclosed under the Adverse-Signal Engagement Principle.
 
-The application also misrepresented two claimed partnerships. The application stated that Session had "committed to using the protocol for aggregated user analytics." No Session-side corroboration exists: Session's blog post on user analytics makes no mention of The Interfold, fully homomorphic encryption, or any privacy-preserving analytics integration. The only evidence of a relationship is a co-marketing X Space appearance, which is not a technical commitment. The application stated that Taiko had "committed to using CRISP for governance on their existing Aragon mainnet instance." The Interfold's own blog post on the Taiko collaboration uses entirely aspirational language ("can be deployed," "can operate," "can rely on"), and CRISP is not named in the Taiko collaboration post. No Taiko-side publication confirms a commitment to deploy.
+The application also misrepresented two claimed partnerships. The application stated that Session had "committed to using the protocol for aggregated user analytics." No Session-side corroboration exists: Session's blog post on user analytics makes no mention of The Interfold, fully homomorphic encryption, or any privacy-preserving analytics integration. The only evidence of a relationship is a co-marketing X Space appearance, which is not a technical commitment. The application stated that Taiko had "committed to using CRISP for program decisions on their existing Aragon mainnet instance." The Interfold's own blog post on the Taiko collaboration uses entirely aspirational language ("can be deployed," "can operate," "can rely on"), and CRISP is not named in the Taiko collaboration post. No Taiko-side publication confirms a commitment to deploy.
 
 The core protocol work is genuine. The cryptographic implementation is real: Sepolia deployments are confirmed, 90% of protocol circuits were complete as of April 2026, and the Aragon integration is corroborated from Aragon's side. The disclosure failures are process failures, not fabrications about the technology itself.
 
@@ -186,7 +186,7 @@ The core protocol work is genuine. The cryptographic implementation is real: Sep
 
 Concurrent funding disclosure: incomplete. The \$1M venture capital round and the GnosisDAO Gnosis Improvement Proposal 78 allocation are both related to the scope of the application and both fall within the 24-month disclosure window. Neither appears in the application.
 
-Adverse signal disclosure: incomplete. The April 2026 Zcash Community Grant rejection for Zecret Ballots, a CRISP-based governance tool closely related to the application's scope, was not disclosed.
+Adverse signal disclosure: incomplete. The April 2026 Zcash Community Grant rejection for Zecret Ballots, a CRISP-based coordinating instrument closely related to the application's scope, was not disclosed.
 
 Partnership claim integrity: two claimed commitments (Session and Taiko) are contradicted by the available evidence. This is a rigor-tier finding rather than a gate failure; the gate passes on the strength of the Aragon integration and the cryptographic work. But the two uncorroborated "commitment" claims constitute material misrepresentation that must be corrected before disbursement.
 
@@ -194,9 +194,9 @@ Recommendation: Fund with conditions, not Do not fund, because the disclosure fa
 
 ### What Compliant Disclosure Would Have Looked Like
 
-A compliant application would have listed in the concurrent funding disclosure field:
+A conformant application would have listed in the concurrent funding disclosure field:
 
-(1) Venture capital round: approximately \$1,000,000, investor not publicly named, closed prior to this application, no governance rights over the protocol granted to investors. Relationship to this application: this funded the engineering work that produced the protocol now seeking audit funding.
+(1) Venture capital round: approximately \$1,000,000, investor not publicly named, closed prior to this application, no program decision rights over the protocol granted to investors. Relationship to this application: this funded the engineering work that produced the protocol now seeking audit funding.
 
 (2) GnosisDAO Gnosis Improvement Proposal 78 allocation: approximately \$3,820,000 to Gnosis Guild operations guild-wide, covering Zodiac, Enclave, and other tooling. Portion attributable to Enclave/The Interfold is approximately [amount]. Relationship to this application: prior operating funding that has been substantially deployed; current request is for audit funding not covered by prior allocations.
 
@@ -233,7 +233,7 @@ The second is devnet participation. Gean is listed in the lean-quickstart tool b
 
 Entry specification gate: passes. The FROM state is specific, externally corroborated, and names a real gap.
 
-Institutional capacity: mixed. The project has a genuine development track record (344 commits, 49 passing fixtures, active devnet migration), a named Ethereum Foundation funding relationship, and multiple named contributors. The lead active contributor (dimka90) has no independently verifiable public profile beyond the GitHub username, which is a transparency gap for a three-person team. The legal status discrepancy (the application claims registered organization; the KarmaGAP profile describes an unincorporated working group) should be resolved.
+Institutional capacity: mixed. The project has a genuine development track record (344 commits, 49 passing fixtures, active devnet migration), a named Ethereum Foundation funding relationship, and multiple named contributors. The lead active contributor (dimka90) has no independently verifiable public profile beyond the GitHub username, which is a legibility gap for a three-person team. The legal status discrepancy (the application claims registered organization; the KarmaGAP profile describes an unincorporated working group) should be resolved.
 
 Conditional funding: how it works in CROSS. The conditions are specific, verifiable, and time-bounded. Each has a named verification method: the Ethereum Foundation grant is confirmed by emailing grants-admin@ethereum.org; devnet participation is confirmed by contacting Thomas Coratger at thomas.coratger@ethereum.org. Both are verifiable within days, not months. If either check fails, the recommendation changes to Do not fund. This is the structure of conditional funding under CROSS: conditions are not aspirational guidance; they are binary gates with named verification paths that must be cleared before disbursement.
 
@@ -252,7 +252,7 @@ This case illustrates the distinction between a project that passes the entry sp
 
 ### The Application
 
-poidh is an open-source, non-custodial, immutable bounty protocol deployed across Arbitrum, Base, and Degen Chain. Anyone can post a bounty, anyone can add funds to it, and anyone can claim it by submitting photo, video, or text proof minted as a non-fungible token. When the bounty creator selects a winning claim, contributors vote to approve or veto based on their proportional stake. Smart contracts handle escrow and automatic payout on approval. There is no governance token and no central treasury. The protocol charges a 2.5% fee on completed bounties. In September 2025, a crowdsourced poidh bounty of approximately 10 million DEGEN tokens (worth \$28,000-\$35,000 at peak) funded a successful attempt to break the Guinness World Record for most kickflips in one minute, independently corroborated by Decrypt and video documentation. The v3 contract is deployed at a consistent address across Arbitrum and Base. The \$20,000 ask, the smallest in this evaluation cycle, covers resumed development and promotional public goods bounties.
+poidh is an open-source, non-custodial, immutable bounty protocol deployed across Arbitrum, Base, and Degen Chain. Anyone can post a bounty, anyone can add funds to it, and anyone can claim it by submitting photo, video, or text proof minted as a non-fungible token. When the bounty creator selects a winning claim, contributors vote to approve or veto based on their proportional stake. Smart contracts handle escrow and automatic payout on approval. There is no coordinating token and no central treasury. The protocol charges a 2.5% fee on completed bounties. In September 2025, a crowdsourced poidh bounty of approximately 10 million DEGEN tokens (worth \$28,000-\$35,000 at peak) funded a successful attempt to break the Guinness World Record for most kickflips in one minute, independently corroborated by Decrypt and video documentation. The v3 contract is deployed at a consistent address across Arbitrum and Base. The \$20,000 ask, the smallest in this evaluation cycle, covers resumed development and promotional public goods bounties.
 
 ### The CROSS Finding
 
@@ -319,6 +319,6 @@ Three distinctions recur across these cases and are worth naming explicitly for 
 
 The first is the distinction between an entry specification gate failure and a rigor-tier failure. Cases 1 and 2 both result in Do not fund, but for structurally different reasons. Mushee Allocate fails at the beneficiary validation dimension: the FROM state exists but was not validated against the competitive landscape. mev-commit passes the gate on its encrypted mempool milestone (a specific condition is named) but fails at the rigor tier on indicator specification and integrity. These require different responses from a committee: a gate failure redirects the applicant to do foundational diagnostic work before reapplying; a rigor-tier failure identifies specific documentation deficiencies that could potentially be addressed in a revised application.
 
-The second is the distinction between D1 and D2 failure modes in change-accountability rounds. These are Frame Language diagnostic categories that appear in the CROSS assessment rubric. A D2 failure (values aspiration without conditions) cannot name a FROM state at all; the application produces more values language when pressed for a diagnosis. A D1 failure (canonical vocabulary without structural grounding) can name a FROM state using recognized terminology but cannot support the specific measurable indicators claimed with sourced methodology. Both fail at the entry specification gate, but at different levels and for different reasons, and the appropriate response to each is different. Note that these failure modes apply specifically to change-accountability rounds; the entry specification gate for build-accountability rounds uses different failure vocabulary (direction specification without deliverable; underspecified completion criteria).
+The second is the distinction between D1 and D2 failure modes in change-obligation rounds. These are Frame Language diagnostic categories that appear in the CROSS assessment rubric. A D2 failure (values aspiration without conditions) cannot name a FROM state at all; the application produces more values language when pressed for a diagnosis. A D1 failure (canonical vocabulary without structural grounding) can name a FROM state using recognized terminology but cannot support the specific measurable indicators claimed with sourced methodology. Both fail at the entry specification gate, but at different levels and for different reasons, and the appropriate response to each is different. Note that these failure modes apply specifically to change-obligation rounds; the entry specification gate for build-obligation rounds uses different failure vocabulary (direction specification without deliverable; underspecified completion criteria).
 
 The third is the distinction between adverse signal disclosure failure and a disqualifying adverse signal. Cases 4 and 6 both involve incomplete adverse signal disclosure. In neither case does the disclosure failure automatically disqualify the application: The Interfold's cryptographic work is real and the Zcash rejection does not invalidate it; poidh's protocol merits are genuine and the v2 exploit was remediated. The Adverse-Signal Engagement Principle Core Standard requires disclosure; it does not treat disclosed adverse signals as automatic bars. The conditions in both cases are designed to produce the disclosure and allow the evaluation to proceed on complete information.

@@ -16,11 +16,11 @@ Version 0.2.0 | 2026-05-14 | CC0
 
 This rubric is the reviewer-facing evaluation tool for applications assessed against the Common Reporting Outcome Standards Schema (CROSS) version 0.2.0. It is designed to be used during an active review without cross-referencing the full standard. Reviewers who have not read the standard should still be able to complete a well-grounded evaluation using this document alone.
 
-This version covers three accountability modes: build accountability, change accountability, and retroactive accountability. Before applying any scored criteria, a reviewer must determine which mode the round operates in and navigate to the correct entry specification gate in Section 2. The mode is declared in the published round specification; it is not determined by the reviewer and is not open to interpretation during review.
+This version covers three obligation modes: build obligation, change obligation, and retroactive obligation. Before applying any scored criteria, a reviewer must determine which mode the round operates in and navigate to the correct entry specification gate in Section 2. The mode is declared in the published round specification; it is not determined by the reviewer and is not open to interpretation during review.
 
-The rubric is organized into six sections. Section 1 is a pre-assessment configuration step: the reviewer confirms the mode and active gates. Section 2 contains the mode-specific entry specification gate, which is binary. Sections 3 and 4 contain the scored rubric criteria: indicator specification (11 fields) and data quality standards (5 standards). Section 5 covers three binary compliance checks that run parallel to scoring. Section 6 specifies the recommendation vocabulary.
+The rubric is organized into six sections. Section 1 is a pre-assessment configuration step: the reviewer confirms the mode and active gates. Section 2 contains the mode-specific entry specification gate, which is binary. Sections 3 and 4 contain the scored rubric criteria: indicator specification (11 fields) and data quality standards (5 standards). Section 5 covers three binary conformance checks that run parallel to scoring. Section 6 specifies the recommendation vocabulary.
 
-All three recommendation categories (Fund, Fund with conditions, Do not fund) depend on the complete evaluation record. A strong indicator score does not override a compliance check failure. A gate failure in Section 2 terminates evaluation before scoring begins.
+All three recommendation categories (Fund, Fund with conditions, Do not fund) depend on the complete evaluation record. A strong indicator score does not override a conformance check failure. A gate failure in Section 2 terminates evaluation before scoring begins.
 
 ---
 
@@ -28,11 +28,11 @@ All three recommendation categories (Fund, Fund with conditions, Do not fund) de
 
 Before beginning evaluation, confirm the following from the published round specification. Record the findings; they shape which sections of this rubric apply.
 
-**1. Accountability mode.** Which mode does this round operate in?
+**1. Obligation mode.** Which mode does this round operate in?
 
-- [ ] Build accountability: the funded work must produce a specified deliverable
-- [ ] Change accountability: the funded work must produce a measurable change in a defined population
-- [ ] Retroactive accountability: the application presents evidence of prior demonstrated contribution
+- [ ] Build obligation: the funded work must produce a specified deliverable
+- [ ] Change obligation: the funded work must produce a measurable change in a defined population
+- [ ] Retroactive obligation: the application presents evidence of prior demonstrated contribution
 
 **2. Active gates.** Which gates are active in this round's published configuration?
 
@@ -55,11 +55,11 @@ Evidence strength: _______________ (self-report with documentation / third-party
 
 ## Section 2: Entry Specification Gate
 
-Navigate to the sub-section that matches the accountability mode confirmed in Section 1. Complete the gate assessment before opening any scored rubric sections. A gate failure terminates evaluation; do not apply the indicator rubric to a gate failure.
+Navigate to the sub-section that matches the obligation mode confirmed in Section 1. Complete the gate assessment before opening any scored rubric sections. A gate failure terminates evaluation; do not apply the indicator rubric to a gate failure.
 
 ---
 
-### Section 2A: Entry Specification Gate - Build Accountability
+### Section 2A: Entry Specification Gate - Build Obligation
 
 **What the gate is asking.** Can the applicant name a falsifiable deliverable with independently verifiable completion criteria?
 
@@ -67,7 +67,7 @@ A falsifiable deliverable is an artifact, product, or documented output whose ex
 
 This gate does not ask whether the applicant has already started building, whether the deliverable will be widely adopted, or whether the applicant's approach is the best available. It asks only whether the commitment is specific enough to evaluate at the end of the grant period.
 
-**Direction specification without deliverable.** The primary failure mode in build-accountability rounds is offering a direction or vision in place of a deliverable specification. "Making DeFi more transparent" is a direction. "A reporting module that produces a human-readable summary of fees collected by any ERC-4626 vault, published as an open-source library under the MIT license, with at least one deployed instance on Ethereum mainnet, documented with a usage example and test suite" is a deliverable. The difference is testability: a reviewer at grant end can confirm whether the second was delivered; the first cannot be verified or falsified.
+**Direction specification without deliverable.** The primary failure mode in build-obligation rounds is offering a direction or vision in place of a deliverable specification. "Making DeFi more transparent" is a direction. "A reporting module that produces a human-readable summary of fees collected by any ERC-4626 vault, published as an open-source library under the MIT license, with at least one deployed instance on Ethereum mainnet, documented with a usage example and test suite" is a deliverable. The difference is testability: a reviewer at grant end can confirm whether the second was delivered; the first cannot be verified or falsified.
 
 **Underspecified completion criteria.** A deliverable is named but the completion criteria are too vague for independent verification. "A working prototype" specifies a form but not a standard. "A prototype that successfully executes the three functions listed in the specification document, as demonstrated in a public recording or live session, with accompanying test results from the specified test suite" specifies a verifiable standard. The rubric can be applied to an application that passes the gate but has underspecified criteria; it will score 2 or lower on Fields 10 and 11.
 
@@ -79,7 +79,7 @@ Gate fails: document "Gate fails: [describe what was offered instead of a falsif
 
 ---
 
-### Section 2B: Entry Specification Gate - Change Accountability
+### Section 2B: Entry Specification Gate - Change Obligation
 
 **What the gate is asking.** Can the applicant name the FROM state as a specific measurable condition in a defined population?
 
@@ -89,7 +89,7 @@ A FROM state that passes the gate: "96 to 99 percent network reachability drops 
 
 A FROM state that fails the gate: "There is a lack of privacy tools for people in repressive contexts." This names a category and a vague population. Neither is measurable. A reviewer cannot verify whether this condition exists or how severe it is.
 
-**Two gate failure types in change-accountability rounds.** These are the Frame Language diagnostic categories D2 and D1. They look superficially similar during review but have different implications for the applicant.
+**Two gate failure types in change-obligation rounds.** These are the Frame Language diagnostic categories D2 and D1. They look superficially similar during review but have different implications for the applicant.
 
 Class D2 (values aspiration without conditions): the application offers values language, community commitments, or a mission statement in place of a diagnosis. When asked for a specific FROM state, a D2 application produces more values language because no diagnostic work preceded the application. D2 applications cannot produce a plausible FROM state on request. Gate failure is immediate. The applicant has not performed a problem diagnosis; the path to resubmission is to do the diagnostic work before applying again.
 
@@ -105,7 +105,7 @@ Gate fails: document "Gate fails: [describe what was offered instead of a FROM s
 
 ---
 
-### Section 2C: Entry Specification Gate - Retroactive Accountability
+### Section 2C: Entry Specification Gate - Retroactive Obligation
 
 **What the gate is asking.** Does the applicant present evidence of prior contribution meeting the program's published threshold criteria?
 
@@ -113,7 +113,7 @@ In retroactive rounds, the gate question is not about diagnosis or deliverable s
 
 **What the reviewer is assessing.** The application must contain: a description of what contribution was produced, the period during which it was produced, evidence of who is using or has benefited from it that is accessible from sources outside the applicant's control, and a concurrent funding disclosure covering any prior awards for the same or overlapping work. If any of these is absent, the entry specification gate fails.
 
-**The rubric dependency.** Unlike build and change accountability, retroactive applications are assessed primarily against the program's published rubric rather than the CROSS indicator specification rubric in Section 3. The Section 3 rubric applies if the program has configured additional indicator-based reporting for retroactive applications (for example, a forward commitment combined with an indicator specification). If no indicator specification is required, proceed from this gate to Section 5 (compliance checks) and Section 6 (recommendation framework), using the program's published rubric for the substantive scoring.
+**The rubric dependency.** Unlike build and change obligation, retroactive applications are assessed primarily against the program's published rubric rather than the CROSS indicator specification rubric in Section 3. The Section 3 rubric applies if the program has configured additional indicator-based reporting for retroactive applications (for example, a forward commitment combined with an indicator specification). If no indicator specification is required, proceed from this gate to Section 5 (conformance checks) and Section 6 (recommendation framework), using the program's published rubric for the substantive scoring.
 
 **Gate finding options.**
 
@@ -139,7 +139,7 @@ CROSS requires applicants to self-specify their outcome indicators. The rubric i
 
 Where multiple indicators are specified, each indicator is scored independently. The recommendation reflects the weakest primary indicator.
 
-In retroactive rounds where no indicator specification is required by the program configuration, Sections 3 and 4 do not apply. See Section 2C.
+In retroactive obligation rounds where no indicator specification is required by the program configuration, Sections 3 and 4 do not apply. See Section 2C.
 
 ---
 
@@ -192,9 +192,9 @@ This field replaces the constrained four-option data type list from version 0.1.
 - Cumulative: values sum correctly across reporting periods; see Field 6 for the applicant's explicit designation
 - Non-cumulative: values describe a state at a point in time; summing across periods is a construction error
 
-**For build-accountability indicators:** the measurement form is typically binary or qualitative. The measurement form declaration specifies what done looks like with enough precision that a reviewer who did not commission the work could verify it independently.
+**For build-obligation indicators:** the measurement form is typically binary or qualitative. The measurement form declaration specifies what done looks like with enough precision that a reviewer who did not commission the work could verify it independently.
 
-**For change-accountability indicators:** the measurement form is typically quantitative or ordinal. The declaration must include the unit of measurement and the direction of desirable change.
+**For change-obligation indicators:** the measurement form is typically quantitative or ordinal. The declaration must include the unit of measurement and the direction of desirable change.
 
 | Score | Criterion |
 |---|---|
@@ -222,9 +222,9 @@ This field replaces the constrained four-option data type list from version 0.1.
 
 **Reviewer question:** Is the construction methodology detailed enough that an independent reviewer with access to the stated data source could replicate the result, without contacting the applicant?
 
-For build-accountability indicators: the construction methodology specifies how completion is determined, who performs the verification, and by what process.
+For build-obligation indicators: the construction methodology specifies how completion is determined, who performs the verification, and by what process.
 
-For change-accountability indicators: the standard data construction methodology applies (formula or counting rule, partial data handling, sub-unit aggregation).
+For change-obligation indicators: the standard data construction methodology applies (formula or counting rule, partial data handling, sub-unit aggregation).
 
 | Score | Criterion |
 |---|---|
@@ -239,7 +239,7 @@ For change-accountability indicators: the standard data construction methodology
 
 **Reviewer question:** Has the applicant designated the indicator as cumulative or non-cumulative? Does the target calculation match the designation?
 
-Note: this field is primarily relevant for change-accountability and build-accountability indicators that involve counting over time. Binary completion criteria (did or did not ship the deliverable) are not subject to the cumulative/non-cumulative distinction; mark as not applicable and score 4 for build-accountability binary indicators.
+Note: this field is primarily relevant for change-obligation and build-obligation indicators that involve counting over time. Binary completion criteria (did or did not ship the deliverable) are not subject to the cumulative/non-cumulative distinction; mark as not applicable and score 4 for build-obligation binary indicators.
 
 | Score | Criterion |
 |---|---|
@@ -267,7 +267,7 @@ Note: this field is primarily relevant for change-accountability and build-accou
 
 **Reviewer question:** Is the named source independently accessible? Is the collection method described? Does any evidence source independent of the applicant appear?
 
-For build-accountability indicators: the data source for completion verification is the named artifact itself plus the named party who will confirm it meets the completion criteria.
+For build-obligation indicators: the data source for completion verification is the named artifact itself plus the named party who will confirm it meets the completion criteria.
 
 | Score | Criterion |
 |---|---|
@@ -295,7 +295,7 @@ For build-accountability indicators: the data source for completion verification
 
 **Reviewer question and mode-specific assessment.**
 
-**For change-accountability indicators:** Is the FROM state specific, measurable, and sourced? Does it express the same unit and type as the indicator's operational definition?
+**For change-obligation indicators:** Is the FROM state specific, measurable, and sourced? Does it express the same unit and type as the indicator's operational definition?
 
 | Score | Criterion |
 |---|---|
@@ -304,7 +304,7 @@ For build-accountability indicators: the data source for completion verification
 | 2 | Baseline is directional rather than specific (e.g., "currently low adoption"), or the baseline and target are expressed in different units, or the baseline is asserted without any source. |
 | 1 | Baseline is absent. The TO state target appears without any FROM state reference. |
 
-**For build-accountability indicators where the stakeholder engagement dimension is activated:** Is the documented current absence or inadequacy of the deliverable present, with named evidence?
+**For build-obligation indicators where the coordinating party engagement dimension is activated:** Is the documented current absence or inadequacy of the deliverable present, with named evidence?
 
 | Score | Criterion |
 |---|---|
@@ -313,11 +313,11 @@ For build-accountability indicators: the data source for completion verification
 | 2 | The gap is asserted by the applicant without independent evidence. |
 | 1 | No evidence of the need for the deliverable is present. |
 
-**For build-accountability indicators where the stakeholder engagement dimension is not activated:** Score 4 for any reasonable plain-language statement of what problem or gap the deliverable addresses. This dimension is advisory at this level.
+**For build-obligation indicators where the coordinating party engagement dimension is not activated:** Score 4 for any reasonable plain-language statement of what problem or gap the deliverable addresses. This dimension is advisory at this level.
 
-**For retroactive accountability indicators:** Is the documented state of the prior contribution at the time the award period begins present, with named evidence of use?
+**For retroactive obligation indicators:** Is the documented state of the prior contribution at the time the award period begins present, with named evidence of use?
 
-Apply the change-accountability scoring logic to the evidence of prior contribution: is it specific, does it name a period and source, and is the source independently accessible?
+Apply the change-obligation scoring logic to the evidence of prior contribution: is it specific, does it name a period and source, and is the source independently accessible?
 
 ---
 
@@ -325,7 +325,7 @@ Apply the change-accountability scoring logic to the evidence of prior contribut
 
 **Reviewer question and mode-specific assessment.**
 
-**For change-accountability indicators:** Is the target expressed in the same units as the baseline? Is it consistent with the cumulative/non-cumulative designation? Is it specific enough to be verifiable?
+**For change-obligation indicators:** Is the target expressed in the same units as the baseline? Is it consistent with the cumulative/non-cumulative designation? Is it specific enough to be verifiable?
 
 | Score | Criterion |
 |---|---|
@@ -334,7 +334,7 @@ Apply the change-accountability scoring logic to the evidence of prior contribut
 | 2 | Target is directional rather than specific ("increase user adoption"), or units differ from the baseline, or the designation mismatch noted in Field 6 causes internal inconsistency. |
 | 1 | Target is absent. |
 
-**For build-accountability indicators:** Is the completion criteria clear enough that a reviewer who did not commission the work could verify whether it was met? Do the criteria correspond to the measurement form stated in Field 3?
+**For build-obligation indicators:** Is the completion criteria clear enough that a reviewer who did not commission the work could verify whether it was met? Do the criteria correspond to the measurement form stated in Field 3?
 
 | Score | Criterion |
 |---|---|
@@ -343,17 +343,17 @@ Apply the change-accountability scoring logic to the evidence of prior contribut
 | 2 | Completion criteria are present but too vague for independent verification (e.g., "a working prototype" without specifying what working means or how it will be demonstrated). |
 | 1 | No completion criteria are present. |
 
-**For retroactive accountability with a forward commitment configured:** Is the forward commitment specific enough to verify at the close of the commitment period?
+**For retroactive obligation with a forward commitment configured:** Is the forward commitment specific enough to verify at the close of the commitment period?
 
-Apply the build-accountability scoring logic to the forward commitment criteria.
+Apply the build-obligation scoring logic to the forward commitment criteria.
 
 ---
 
 ## Section 4: Data Quality Standards Assessment
 
-The five data quality standards apply to all evidence claims in the application across all accountability modes. They are assessed as pass/conditional/fail for each standard, separately from the 1-4 indicator field scores. A conditional finding generates a condition equivalent to a score of 2 on an indicator field. A fail finding produces a Do not fund finding for that standard.
+The five data quality standards apply to all evidence claims in the application across all obligation modes. They are assessed as pass/conditional/fail for each standard, separately from the 1-4 indicator field scores. A conditional finding generates a condition equivalent to a score of 2 on an indicator field. A fail finding produces a Do not fund finding for that standard.
 
-In retroactive rounds where the program has not configured indicator-based reporting, assess the data quality standards against the contribution evidence presented in the entry specification. Sections 4's standards still apply to the quality of that evidence.
+In retroactive obligation rounds where the program has not configured indicator-based reporting, assess the data quality standards against the contribution evidence presented in the entry specification. Sections 4's standards still apply to the quality of that evidence.
 
 ---
 
@@ -361,7 +361,7 @@ In retroactive rounds where the program has not configured indicator-based repor
 
 **Assessment question:** Could I, with access to the stated data source and the stated construction methodology, confirm that this indicator measures what the applicant claims it measures?
 
-For build-accountability rounds: is there a documented logical chain from the stated completion criteria to the deliverable being what the applicant says it is?
+For build-obligation rounds: is there a documented logical chain from the stated completion criteria to the deliverable being what the applicant says it is?
 
 **Common failure mode:** A macro-level adoption metric (ecosystem-wide transaction volume, protocol total value locked) is claimed as evidence of a specific project's contribution. The validity failure is the undocumented causal claim connecting the project's work to the metric's movement.
 
@@ -375,7 +375,7 @@ For build-accountability rounds: is there a documented logical chain from the st
 
 For all modes: data collection and reporting must be separated from the actor who benefits from the results. Applicant-controlled dashboards, internal databases, and self-reported results without named independent corroboration do not satisfy this standard on their own.
 
-For build-accountability rounds: the named verifying party in Field 8 (who will confirm the deliverable meets the completion criteria) must be independent of the applicant.
+For build-obligation rounds: the named verifying party in Field 8 (who will confirm the deliverable meets the completion criteria) must be independent of the applicant.
 
 **Finding options:** Pass, Conditional (a specific independent source can be added before disbursement), or Fail (all evidence is applicant-controlled and no independent source is available for the primary outcome claim).
 
@@ -385,9 +385,9 @@ For build-accountability rounds: the named verifying party in Field 8 (who will 
 
 **Assessment question:** Is the claimed change larger than the variance of the measurement method, or are the completion criteria specific enough to distinguish done from not done?
 
-For change-accountability rounds: the measurement instrument must be capable of detecting changes at the magnitude the project claims to produce.
+For change-obligation rounds: the measurement instrument must be capable of detecting changes at the magnitude the project claims to produce.
 
-For build-accountability rounds: the completion criteria must be specific enough to distinguish a passing deliverable from a failing one. Criteria that accept any output ("a working prototype," "some documentation") fail this standard.
+For build-obligation rounds: the completion criteria must be specific enough to distinguish a passing deliverable from a failing one. Criteria that accept any output ("a working prototype," "some documentation") fail this standard.
 
 **Finding options:** Pass, Conditional (the instrument can be refined to achieve the required precision), or Fail (the instrument is structurally incapable of detecting the claimed effect size or distinguishing completion).
 
@@ -399,7 +399,7 @@ For build-accountability rounds: the completion criteria must be specific enough
 
 For first-time applicants: does the methodology specify enough precision that it could be applied consistently across reporting periods?
 
-For continuation grants in any mode: compare the indicator specification in this application against any prior reports on file. Methodology changes are not automatically disqualifying when documented; they are disqualifying when undocumented.
+For continuation grants in any obligation mode: compare the indicator specification in this application against any prior reports on file. Methodology changes are not automatically disqualifying when documented; they are disqualifying when undocumented.
 
 **Finding options:** Pass, Conditional (a specific prior discrepancy can be documented and resolved before disbursement), or Fail (multiple undocumented methodology changes make prior periods incomparable and the baseline is unreliable).
 
@@ -409,23 +409,23 @@ For continuation grants in any mode: compare the indicator specification in this
 
 **Assessment question:** Will the data be current at each disbursement decision point given the collection frequency?
 
-For all modes: data must be current to the reporting period. Annual data collection cannot support quarterly disbursement decisions. A completion claim based on work from a prior period not covered by the current gate does not satisfy timeliness.
+For all obligation modes: data must be current to the reporting period. Annual data collection cannot support quarterly disbursement decisions. A completion claim based on work from a prior period not covered by the current gate does not satisfy timeliness.
 
 **Finding options:** Pass, Conditional (a secondary indicator or interim collection method can bridge the frequency gap), or Fail (no feasible collection method can satisfy the timeliness requirement for the proposed disbursement structure).
 
 ---
 
-## Section 5: Compliance Checks
+## Section 5: Conformance Checks
 
-The three compliance checks are binary: each either passes or fails. They are not part of the scored rubric. A compliance check failure is not a rigor-tier finding; it is a disqualifying or process-requiring finding that operates independently of indicator scores. A compliance check failure produces a Do not fund recommendation regardless of indicator scores.
+The three conformance checks are binary: each either passes or fails. They are not part of the scored rubric. A conformance check failure is not a rigor-tier finding; it is a disqualifying or process-requiring finding that operates independently of indicator scores. A conformance check failure produces a Do not fund recommendation regardless of indicator scores.
 
 ---
 
 ### Check 1: Concurrent Funding Disclosure
 
-**Test:** Is the concurrent funding disclosure complete? Are all grants, investments, or revenue sources from the prior 24 months related to the scope of this application disclosed, including approximate amounts, relationship to the application's scope, ongoing reporting obligations, and any governance or decision-making rights held by funders?
+**Test:** Is the concurrent funding disclosure complete? Are all grants, investments, or revenue sources from the prior 24 months related to the scope of this application disclosed, including approximate amounts, relationship to the application's scope, ongoing reporting obligations, and any coordinating or decision-making rights held by funders?
 
-For retroactive rounds: the disclosure must cover prior awards for the same or overlapping work, as well as active grants and investments related to the application's scope.
+For retroactive obligation rounds: the disclosure must cover prior awards for the same or overlapping work, as well as active grants and investments related to the application's scope.
 
 **Independent evidence:** If the reviewer has independent evidence of a funding relationship not disclosed in the form (public announcements, on-chain treasury flows, prior evaluations from other funders), the application fails this check. The finding must be documented with the source of the independent evidence.
 
@@ -465,17 +465,17 @@ CROSS recognizes three recommendation categories. No other categories exist.
 
 Available when all of the following conditions are met:
 
-The entry specification gate passes (Section 2 finding is "Gate passes"). All indicator fields score 3 or 4 on the indicator specification rubric (no field scores 1 or 2). All five data quality standards pass. All three compliance checks pass. No unresolved conditions of any type are present.
+The entry specification gate passes (Section 2 finding is "Gate passes"). All indicator fields score 3 or 4 on the indicator specification rubric (no field scores 1 or 2). All five data quality standards pass. All three conformance checks pass. No unresolved conditions of any type are present.
 
 A score of 3 on one or more indicator fields is compatible with a Fund recommendation. It indicates a minor gap and does not generate a condition. Reviewers note 3-score findings in the evaluation record for the grantee's awareness during reporting.
 
-For retroactive rounds where the indicator rubric does not apply: Fund is available when the entry specification gate passes, the program's published rubric assessment meets the award threshold, and all compliance checks pass.
+For retroactive obligation rounds where the indicator rubric does not apply: Fund is available when the entry specification gate passes, the program's published rubric assessment meets the award threshold, and all conformance checks pass.
 
 ---
 
 ### Fund with Conditions
 
-Available when the gate passes and at least one indicator field scores 2, or at least one data quality standard produces a conditional finding, but no indicator field scores 1, no compliance check fails, and no gate failure has been documented.
+Available when the gate passes and at least one indicator field scores 2, or at least one data quality standard produces a conditional finding, but no indicator field scores 1, no conformance check fails, and no gate failure has been documented.
 
 Conditions must meet all three of the following requirements. Each condition must specify exactly what must be resolved. Each condition must be verifiable by a named method ("committee review" is not a verification method). Each condition must be time-bounded, with a stated deadline before disbursement occurs.
 
@@ -487,15 +487,15 @@ Conditions attach to disbursement, not to the grant period. Resolution is confir
 
 Required when any of the following apply:
 
-The entry specification gate fails. Any primary indicator field scores 1. Any compliance check fails.
+The entry specification gate fails. Any primary indicator field scores 1. Any conformance check fails.
 
 The evaluation record must distinguish which type of failure produced the finding. A gate failure and a rigor-tier failure are both Do not fund findings but carry different messages. A gate failure means the applicant has not performed the required diagnostic work for the declared mode; the path to resubmission is to do that work first. A rigor-tier failure means the diagnostic work exists but the indicator specification is incomplete; the path to resubmission is to complete the specified fields.
 
-For build-accountability gate failures: the applicant has not named a falsifiable deliverable or verifiable completion criteria; the corrective signal is to specify the deliverable and the done criteria.
+For build-obligation gate failures: the applicant has not named a falsifiable deliverable or verifiable completion criteria; the corrective signal is to specify the deliverable and the done criteria.
 
-For change-accountability gate failures: distinguish D2 (applicant has not diagnosed a problem; needs to do diagnostic work before applying) from D1-equivalent rigor failures (applicant has a diagnosis but the specification is incomplete; needs specific field completion).
+For change-obligation gate failures: distinguish D2 (applicant has not diagnosed a problem; needs to do diagnostic work before applying) from D1-equivalent rigor failures (applicant has a diagnosis but the specification is incomplete; needs specific field completion).
 
-For retroactive gate failures: the applicant has not provided the required categories of contribution evidence; the corrective signal names which categories were absent.
+For retroactive obligation gate failures: the applicant has not provided the required categories of contribution evidence; the corrective signal names which categories were absent.
 
 ---
 

@@ -50,7 +50,7 @@ risk to:
 -   the system's constituencies (e.g., physical, financial,
     reputational, psychological, or rights‑related harm), or
 
--   the integrity of the system's shared records, rules, or enforcement
+-   the integrity of the system's shared records, structural conditions, or named response
     (e.g., manipulation, capture, systemic bias).\[6\]\[9\]\[1\]
 
 ASEP is risk‑weighted: higher‑impact signals demand stronger and faster
@@ -169,7 +169,7 @@ entry should include:
 
 Definitional authority over what counts as an adverse signal, what severity level it warrants, and which harm classes the classification framework recognizes must be distributed among cost-bearing constituencies, not solely held by system operators or insiders. The three operational requirements of this condition are:
 
-**Power context in the record.** ASEP assumes context — culture, power, history, incentives — is not neutral. Where salient, logs should capture relative power or dependency between reporter and subject, relevant history of similar incidents, and structural incentives that may shape reporting or suppression.\[1\] When "context" is invoked to downgrade, defer, or dismiss signals, that reasoning must be recorded; repeated use of context to explain away similar signals is itself a pattern to detect.\[14\]\[20\]\[5\]
+**Power context in the record.** ASEP assumes context (culture, power, history, incentives) is not neutral. Where salient, logs should capture relative power or dependency between reporter and subject, relevant history of similar incidents, and structural incentives that may shape reporting or suppression.\[1\] When "context" is invoked to downgrade, defer, or dismiss signals, that reasoning must be recorded; repeated use of context to explain away similar signals is itself a pattern to detect.\[14\]\[20\]\[5\]
 
 **Classification framework stewardship.** Systems maintain a public or at least internally documented classification framework covering adverse signal categories and severity levels. The framework must be defined ex-ante and versioned over time, and subject to periodic coverage review checking for missing harm classes, especially to marginalized groups, future users, or ecosystems.\[7\]\[8\]\[9\]\[1\] Classification can be approximate but must be explicit; "unclassified" is a temporary state with a maximum dwell time. Persistent use of low-severity labels for recurring signals with substantial aggregate impact MUST prompt a review of the framework and thresholds; resisting such updates is treated as an adverse signal about the stewardship of shared classification authority.
 
@@ -177,9 +177,9 @@ Definitional authority over what counts as an adverse signal, what severity leve
 
 ## 3.3 Navigate -- Responding and Deciding
 
-The Navigate requirements specify the signal processing lifecycle: what happens to a classified adverse signal from decision through resolution. Their normative force derives from what coordination structurally requires — the conditions under which adverse signals can actually be engaged rather than absorbed, routed around, or quietly closed. These requirements do not derive their force from accommodation to the coordination arrangements of adopting systems. A system that already has authority structures in place cannot use those structures to determine which Navigate requirements apply to it; the requirements specify what coordination demands, and existing arrangements are evaluated against that, not the reverse.
+The Navigate requirements specify the signal processing lifecycle: what happens to a classified adverse signal from decision through resolution. Their normative force derives from what coordination structurally requires, specifically the conditions under which adverse signals can actually be engaged rather than absorbed, routed around, or quietly closed. These requirements do not derive their force from accommodation to the coordination arrangements of adopting systems. A system that already has authority structures in place cannot use those structures to determine which Navigate requirements apply to it; the requirements specify what coordination demands, and existing arrangements are evaluated against that, not the reverse.
 
-The structural conditions under which Navigate can operate — power distribution across authority, coordination, and specialization dimensions; nested and polycentric handling requirements; and external override exposure — are specified in the Structural Power Obligation Standard. A coordination system that adopts ASEP without assessing power distribution under that standard may operate a technically conformant Navigate process while the structural conditions for its effectiveness are absent.
+The structural conditions under which Navigate can operate (power distribution across authority, coordination, and specialization dimensions; nested and polycentric handling requirements; and external override exposure) are specified in the Structural Power Obligation Standard. A coordination system that adopts ASEP without assessing power distribution under that standard may operate a technically conformant Navigate process while the structural conditions for its effectiveness are absent.
 
 ### 3.3.1 Time‑boxing and action set
 
@@ -504,7 +504,7 @@ depends on the system's context: token-weighted coordination protocols
 may assign higher weight to coordination evidence produced by early
 engagement; coordination systems may prioritize early-
 stage response in resource allocation; regulatory frameworks may
-offer graduated compliance benefits for proactive engagement. The
+offer graduated conformance benefits for proactive engagement. The
 principle is mechanism-agnostic: whatever incentive structure the
 system uses, it should not be neutral between early and late
 engagement, because the outcomes are not equivalent.
@@ -596,7 +596,7 @@ lack real alternatives or voice.
 A commons persists when nothing can capture it and nothing can be excluded from sustaining it. Elinor Ostrom's principles for governing commons specify the structural conditions under which this remains possible: monitoring by participants who are themselves accountable to the commons, graduated responses, and polycentric coordination.\[23\]\[24\] ASEP's coordination architecture is directly informed by these principles. Implementations should:
 
 -   involve affected constituencies in defining adverse‑signal criteria
-    and escalation rules,
+    and escalation criteria,
 
 -   ensure monitoring and response carry named obligation directions and are not solely centralized,
 
@@ -738,7 +738,7 @@ ASEP-Auditable systems must make audit reports available to their participant po
 
 # 6. Implementation Considerations
 
-ASEP compliance is not only a matter of policy; it requires basic
+ASEP conformance is not only a matter of policy; it requires basic
 technical and organizational infrastructure.
 
 ## 6.1 Data and systems prerequisites

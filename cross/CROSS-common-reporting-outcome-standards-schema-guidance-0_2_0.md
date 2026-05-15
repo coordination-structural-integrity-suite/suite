@@ -14,13 +14,13 @@ Version 0.2.0 | 2026-05-14 | CC0
 
 This document is the practitioner companion to CROSS (Common Reporting Outcome Standards Schema) version 0.2.0. It does not restate the standard. It explains how to apply the standard's criteria, what qualifies and what does not at each decision point, and what the most common failure modes look like. It is written for two audiences: applicants completing a CROSS-conformant grant application, and reviewers evaluating one.
 
-This version of the guidance covers three accountability modes: build accountability, change accountability, and retroactive accountability. Part 1 covers the entry specification for each mode. Part 2 covers the gate architecture. Parts 3 through 9 cover indicator specification and compliance requirements that apply across modes, with mode-specific notes where the application differs.
+This version of the guidance covers three obligation modes: build obligation, change obligation, and retroactive obligation. Part 1 covers the entry specification for each mode. Part 2 covers the gate architecture. Parts 3 through 9 cover indicator specification and conformance requirements that apply across modes, with mode-specific notes where the application differs.
 
 ---
 
 ## Part 1: How to Answer the Entry Specification
 
-### 1A: Build Accountability
+### 1A: Build Obligation
 
 **What the entry gate is asking.** Can the applicant name a falsifiable deliverable with independently verifiable completion criteria?
 
@@ -30,21 +30,21 @@ A falsifiable deliverable is an artifact, product, or documented output whose ex
 
 The completion criteria do not need to be technical. "A research report of at least 15,000 words, published under a Creative Commons open license, covering the three questions named in the application's research plan, with a literature review, at least five primary source interviews, and a named target audience who received the draft before publication" is falsifiable. The reviewer can count words, check the license, verify the scope, and confirm whether the interviews and review were conducted.
 
-**What disqualifies a build-accountability entry specification.** The primary failure mode is offering a direction or vision in place of a deliverable. "Making DeFi more transparent" is a direction. "Building better tooling for privacy" is a direction. A direction cannot be verified at grant end because it does not specify what done looks like. An application that describes what it is trying to achieve, not what it will produce, fails the entry gate.
+**What disqualifies a build-obligation entry specification.** The primary failure mode is offering a direction or vision in place of a deliverable. "Making DeFi more transparent" is a direction. "Building better tooling for privacy" is a direction. A direction cannot be verified at grant end because it does not specify what done looks like. An application that describes what it is trying to achieve, not what it will produce, fails the entry gate.
 
 A second failure mode is naming a deliverable without specifying completion criteria. "A working prototype" names a form (a prototype) but not a standard (what working means). A reviewer cannot verify whether a prototype is working without criteria. The entry gate requires both: a named artifact and verifiable criteria for what counts as complete.
 
-**Build accountability is not the same as "has begun building."** Some programs incorrectly apply change-accountability gate logic to build-accountability applications, treating an applicant who has already started building as though that is a suspicious circumstance. It is not. A team that has already built part of what they are proposing is in a stronger position to specify the deliverable and the completion criteria precisely, because they have working knowledge of the problem. The entry gate asks whether the commitment is falsifiable; it does not ask when the work began.
+**Build obligation is not the same as "has begun building."** Some programs incorrectly apply change-obligation gate logic to build-obligation applications, treating an applicant who has already started building as though that is a suspicious circumstance. It is not. A team that has already built part of what they are proposing is in a stronger position to specify the deliverable and the completion criteria precisely, because they have working knowledge of the problem. The entry gate asks whether the commitment is falsifiable; it does not ask when the work began.
 
-**The deliverable specification at different scales.** A small-team discovery sprint and a large multi-stage development program both use build accountability, but the depth of specification is calibrated to scale. A small team committing to a design document needs: the document type, the scope (what questions it addresses or what design decisions it makes), the format for delivery (public publication, named repository, or named partner), and what constitutes a complete document. A large development program additionally needs: milestone-level completion criteria for each grant period, a named verification mechanism at the completion gate, and evidence that the deliverable will be publicly accessible.
+**The deliverable specification at different scales.** A small-team discovery sprint and a large multi-stage development program both use build obligation, but the depth of specification is calibrated to scale. A small team committing to a design document needs: the document type, the scope (what questions it addresses or what design decisions it makes), the format for delivery (public publication, named repository, or named partner), and what constitutes a complete document. A large development program additionally needs: milestone-level completion criteria for each grant period, a named verification mechanism at the completion gate, and evidence that the deliverable will be publicly accessible.
 
 ---
 
-### 1B: Change Accountability
+### 1B: Change Obligation
 
 **What the entry gate is asking.** Can the applicant name the FROM state as a specific measurable condition in a defined population?
 
-This is the gate that appeared in version 0.1.0 as the sole Theory of Build gate. In version 0.2.0, it is correctly scoped to change-accountability rounds. The term "Theory of Build" now refers to a named failure mode within this mode (offering a deliverable commitment where a problem diagnosis is required), not to the gate itself.
+This is the gate that appeared in version 0.1.0 as the sole entry gate. In version 0.2.0, it is correctly scoped to change-obligation rounds. The Theory of Build gate now refers to a named failure mode within this mode (offering a deliverable commitment where a problem diagnosis is required), not to the gate itself.
 
 **The FROM state.** A FROM state is specific when it names a condition. A condition describes an observable state that exists in the world and can be measured. A category describes a type of problem without grounding it in an observable measurement. The difference matters because conditions can be verified; categories cannot.
 
@@ -52,25 +52,25 @@ A FROM state that passes: "96 to 99 percent network reachability drops for users
 
 A FROM state that fails: "There is a lack of privacy tools for people in repressive contexts." This names a category (lack of privacy tools) and a vague population (people in repressive contexts). Neither is measurable. A reviewer cannot verify whether this condition exists or how severe it is.
 
-**Class D2 failure (values aspiration without conditions).** A D2 application offers values language, community commitments, or a mission statement in place of a diagnosis. When asked for a specific FROM state, a D2 application produces more values language because no diagnostic work preceded the application. These applications articulate what they are trying to achieve: more privacy, better coordination, greater equity. These are directions, not conditions. D2 applications cannot produce a plausible FROM state on request because the diagnostic work was not done before the application was written.
+**Class D2 failure (values aspiration without conditions).** Some applications offer values language, community commitments, or a mission statement in place of a diagnosis. When asked for a specific FROM state, these applications produce more values language because no diagnostic work preceded the application. They articulate what they are trying to achieve: more privacy, better coordination, greater equity. These are directions, not conditions. Applications of this type cannot produce a plausible FROM state on request because the diagnostic work was not done before the application was written.
 
-This is a structural failure, not a communication failure. D2 applicants cannot name the FROM state because they do not know what it is. They began with a desired outcome and worked backward to a scope of work, rather than beginning with a documented problem and working forward to an intervention designed to address it.
+This is a structural failure, not a communication failure. Applicants in this situation cannot name the FROM state because they do not know what it is. They began with a desired outcome and worked backward to a scope of work, rather than beginning with a documented problem and working forward to an intervention designed to address it.
 
-**Class D1 failure (canonical vocabulary without structural grounding).** A D1 application passes the gate because it uses technically correct vocabulary and names something resembling a problem diagnosis. The failure appears at the rigor tier: the specific measurable indicators are unsupported, the baseline is undocumented, or the construction methodology cannot be replicated. A D1 application may score 2s and 1s across the indicator rubric after passing the gate.
+**Class D1 failure (canonical vocabulary without structural grounding).** A second type of application passes the gate because it uses technically correct vocabulary and names something resembling a problem diagnosis. The failure appears at the rigor tier: the specific measurable indicators are unsupported, the baseline is undocumented, or the construction methodology cannot be replicated. An application of this type may score 2s and 1s across the indicator rubric after passing the gate.
 
-These two failure types require different responses from a review committee. A D2 failure is a gate failure: the path to resubmission is to do the diagnostic work first. A D1 failure is a rigor-tier failure: the path to resubmission is specific field completion. Treating a D1 failure as a gate failure misdirects the applicant.
+These two failure types require different responses from a review committee. A D2 failure is a gate failure: the path to resubmission is to do the diagnostic work first. A D1 failure is a rigor-tier failure: the path to resubmission is specific field completion. Treating a D1 failure as a D2 failure misdirects the applicant.
 
 **Application timing is not the diagnostic.** A team that built something before the grant application opened is not automatically exhibiting a gate failure. They can name the FROM state precisely because they built the solution to address it. Application-window activity is a weak corroborating signal about whether work was shaped around funder expectations; it is not a gate criterion.
 
-**Change accountability at different scales.** A small team with a clear diagnosis and a modest claim needs less formal documentation of the FROM state than a large institutional applicant making a broad population-level claim. The Coordination Scaling Standard calibrates this. Both must name a specific measurable condition; the depth of corroboration and the formality of the indicator specification scale upward with the scope of the claim.
+**Change obligation at different scales.** A small team with a clear diagnosis and a modest claim needs less formal documentation of the FROM state than a large institutional applicant making a broad population-level claim. The Coordination Scaling Standard calibrates this. Both must name a specific measurable condition; the depth of corroboration and the formality of the indicator specification scale upward with the scope of the claim.
 
 ---
 
-### 1C: Retroactive Accountability
+### 1C: Retroactive Obligation
 
 **What the entry gate is asking.** Does the applicant present evidence of prior contribution meeting the program's published threshold criteria?
 
-Retroactive accountability is not the absence of accountability; it is accountability for what has already happened. The applicant must demonstrate, not assert, that prior contribution occurred. The difference is evidence that an independent reviewer can access and assess without relying on the applicant's self-report.
+Retroactive obligation is not the absence of obligation; it is obligation for what has already happened. The applicant must demonstrate, not assert, that prior contribution occurred. The difference is evidence that an independent reviewer can access and assess without relying on the applicant's self-report.
 
 **What qualifies as evidence of prior contribution.** Evidence that meets the standard is publicly accessible from sources the applicant does not control. On-chain usage data with a named contract address or deployment record. A public code repository with a documented commit history, stars, forks, or downloads. Published documentation that other projects cite. Named organizations or individuals who use the contribution and can confirm that use. Ecosystem metrics from named third-party data providers.
 
@@ -78,9 +78,9 @@ What does not qualify on its own: the applicant's description of their own work,
 
 **The prior award disclosure requirement.** Retroactive applications must disclose any prior awards received for the same or substantially overlapping contribution, from this or any other program. This is the concurrent funding disclosure requirement applied to the retroactive context. Receiving multiple retroactive awards for the same contribution is not automatically disqualifying, but it must be disclosed and may be weighted in the rubric assessment. Non-disclosure is a disqualifier.
 
-**The forward commitment option.** Programs may configure a forward commitment as a condition of the retroactive award. If activated, the awardee commits to a named forward action (a specified deliverable, a continuation commitment, a public-access maintenance obligation) as a condition of receiving the award. The forward commitment is assessed under build-accountability criteria: it must name a falsifiable deliverable with verifiable completion criteria. If a program has activated a forward commitment and the applicant's forward commitment fails the build-accountability entry specification, that is a rigor-tier finding, not a gate failure for the retroactive application itself.
+**The forward commitment option.** Programs may configure a forward commitment as a condition of the retroactive award. If activated, the awardee commits to a named forward action (a specified deliverable, a continuation commitment, a public-access maintenance obligation) as a condition of receiving the award. The forward commitment is assessed under build-obligation criteria: it must name a falsifiable deliverable with verifiable completion criteria. If a program has activated a forward commitment and the applicant's forward commitment fails the build-obligation entry specification, that is a rigor-tier finding, not a gate failure for the retroactive application itself.
 
-**What reviewers are assessing.** The program's published rubric governs the substantive scoring of retroactive applications; it is not the same as the CROSS indicator specification rubric. The CROSS compliance checks (concurrent funding disclosure, adverse signal disclosure, conflict of interest) apply in full. The indicator specification rubric in Section 3 of the assessment rubric applies only if the program has configured indicator-based forward reporting alongside the retroactive award.
+**What reviewers are assessing.** The program's published rubric governs the substantive scoring of retroactive applications; it is not the same as the CROSS indicator specification rubric. The CROSS conformance checks (concurrent funding disclosure, adverse signal disclosure, conflict of interest) apply in full. The indicator specification rubric in Section 3 of the assessment rubric applies only if the program has configured indicator-based forward reporting alongside the retroactive award.
 
 ---
 
@@ -96,9 +96,9 @@ Progress verification gates trigger mid-funding disbursements. Each tranche disb
 
 The completion verification gate determines who receives final payment. This gate cannot be informal. The funder must have a published mechanism for determining whether completion criteria have been met. Grantee self-report alone does not satisfy the completion verification gate at any evidence strength level.
 
-For build-accountability rounds: the completion gate must additionally confirm that the specified deliverable is publicly accessible before final payment is released. A deliverable that was produced but is not public does not satisfy a build-accountability completion gate.
+For build-obligation rounds: the completion gate must additionally confirm that the specified deliverable is publicly accessible before final payment is released. A deliverable that was produced but is not public does not satisfy a build-obligation completion gate.
 
-For change-accountability rounds: the completion gate requires outcome evidence against the baseline established at entry, assessed by the named mechanism in the infrastructure declaration.
+For change-obligation rounds: the completion gate requires outcome evidence against the baseline established at entry, assessed by the named mechanism in the infrastructure declaration.
 
 The continuation specification gate governs progression across rounds or stages. It is configured at the program level, not the round level, and it must be published before any round in the program opens. It is the primary mechanism for escalating evidentiary pressure as a project matures.
 
@@ -142,11 +142,11 @@ A description that requires the reviewer to infer too much: "User engagement met
 
 **Mode-specific notes on measurement form.**
 
-For build-accountability indicators: the form is typically binary (the deliverable either meets the completion criteria or does not) or qualitative (the deliverable is an artifact assessed against named criteria). The description should name what done looks like and how a reviewer would confirm it: "A binary yes/no indicator: either the library is published to the named package registry with the specified version number and passes the automated tests in the public repository, or it is not. Confirmed by the named reviewer checking the registry and the test results."
+For build-obligation indicators: the form is typically binary (the deliverable either meets the completion criteria or does not) or qualitative (the deliverable is an artifact assessed against named criteria). The description should name what done looks like and how a reviewer would confirm it: "A binary yes/no indicator: either the library is published to the named package registry with the specified version number and passes the automated tests in the public repository, or it is not. Confirmed by the named reviewer checking the registry and the test results."
 
-For change-accountability indicators: the form is typically quantitative or ordinal. Name the unit of measurement and the direction of desirable change: "A quantitative indicator expressed as a count of unique addresses per 30-day window, sourced from on-chain public data. An increasing count indicates progress toward the target."
+For change-obligation indicators: the form is typically quantitative or ordinal. Name the unit of measurement and the direction of desirable change: "A quantitative indicator expressed as a count of unique addresses per 30-day window, sourced from on-chain public data. An increasing count indicates progress toward the target."
 
-For retroactive indicators where a forward commitment is configured: apply the build-accountability description guidance to the forward commitment indicator.
+For retroactive indicators where a forward commitment is configured: apply the build-obligation description guidance to the forward commitment indicator.
 
 **The common error in this field.** Applicants who come from the v0.1.0 format sometimes try to select one of the old four options (number, percentage, yes/no, index). The field no longer works that way. Index and composite indicators require the same plain-language description as any other indicator, with the component specification in the construction methodology field (Field 5) rather than in a sub-table here.
 
@@ -160,9 +160,9 @@ Exclusion criteria name what the indicator explicitly does not count. Example: "
 
 Unit of analysis is the named entity being counted: person, household, wallet address, transaction, site, session, message, or other. The unit must be consistent throughout the indicator's life. If the unit changes between reporting periods, the comparability of prior periods must be formally assessed and documented.
 
-Edge case determination is at least one example of how an ambiguous instance is handled. Example: "A wallet address that transacts using both the privacy module and the legacy module in the same reporting month is counted once in the privacy module indicator and once in the legacy module indicator, not twice in either." Edge cases that are not specified in advance produce inconsistent counting rules across periods. The operational definition is the field that makes cross-funder and cross-period comparability possible.
+Edge case determination is at least one example of how an ambiguous instance is handled. Example: "A wallet address that transacts using both the privacy module and the legacy module in the same reporting month is counted once in the privacy module indicator and once in the legacy module indicator, not twice in either." Edge cases that are not specified in advance produce inconsistent counting criteria across periods. The operational definition is the field that makes cross-funder and cross-period comparability possible.
 
-For build-accountability indicators, the operational definition specifies what completion means at a level of precision that resolves ambiguity: what qualifies as one passing instance of the deliverable, what does not qualify, and how an edge case (a deliverable that meets some but not all criteria) is handled.
+For build-obligation indicators, the operational definition specifies what completion means at a level of precision that resolves ambiguity: what qualifies as one passing instance of the deliverable, what does not qualify, and how an edge case (a deliverable that meets some but not all criteria) is handled.
 
 ### Field 5: Construction and aggregation methodology
 
@@ -170,7 +170,7 @@ The calculation rule in sufficient detail that an independent reviewer with acce
 
 An unusable description: "We track user engagement through our analytics platform and report quarterly." A reviewer cannot replicate this. A replicable description: "We query unique visitor counts from Plausible Analytics at the project domain, using the application programming interface endpoint at [named location], with the date range set to the reporting quarter, counting unique visitor fingerprints as defined by Plausible's methodology, excluding traffic from the IP ranges listed in our exclusions table."
 
-For build-accountability indicators: the methodology specifies how completion is determined, who performs the verification, and by what process. "Completion is determined by the named reviewer, who will check that the library is published to the named package registry at the specified version, that the named test suite passes without errors in the public continuous integration log, and that the application programming interface documentation is publicly accessible at the named location. The reviewer will document their finding in a brief written statement submitted to the program within two weeks of the submission deadline."
+For build-obligation indicators: the methodology specifies how completion is determined, who performs the verification, and by what process. "Completion is determined by the named reviewer, who will check that the library is published to the named package registry at the specified version, that the named test suite passes without errors in the public continuous integration log, and that the application programming interface documentation is publicly accessible at the named location. The reviewer will document their finding in a brief written statement submitted to the program within two weeks of the submission deadline."
 
 ### Field 6: Cumulative or non-cumulative
 
@@ -196,7 +196,7 @@ Sources that do not satisfy the integrity standard on their own: applicant-contr
 
 Naming the source is not the same as describing the collection method. "Google Analytics" is not a collection method. "Monthly unique visitor count exported from Google Analytics property [named ID] using the standard unique users metric, with bot filtering enabled, covering the date range [specified]" is a collection method.
 
-For build-accountability indicators: the data source for completion verification is the named artifact plus the named verifying party. "The library repository at [named public URL], confirmed by [named reviewer] against the completion criteria listed in the application."
+For build-obligation indicators: the data source for completion verification is the named artifact plus the named verifying party. "The library repository at [named public URL], confirmed by [named reviewer] against the completion criteria listed in the application."
 
 ### Field 9: Data cost estimation
 
@@ -206,27 +206,27 @@ An indicator that cannot be collected within the project budget has not been ope
 
 ### Field 10: Baseline (FROM state)
 
-For change-accountability indicators: the documented state of the problem before the intervention begins. Specific, measurable, and sourced. Specific means a named condition, not a category. Measurable means expressed in the same units as the indicator and target. Sourced means the measurement originated from a named source independent of the applicant.
+For change-obligation indicators: the documented state of the problem before the intervention begins. Specific, measurable, and sourced. Specific means a named condition, not a category. Measurable means expressed in the same units as the indicator and target. Sourced means the measurement originated from a named source independent of the applicant.
 
 A sourced baseline: "As of December 2025, 340 unique wallet addresses per month had completed at least one transaction using the protocol's privacy module, based on on-chain data from the named contract address, queried using the specified application programming interface." This names the measurement, the unit, the source, and the time point. A reviewer can verify it independently.
 
-For build-accountability indicators where the stakeholder engagement dimension is activated: the documented current absence or inadequacy of the deliverable, with named evidence of the gap it addresses. A named party outside the applicant's organization who has confirmed the need, or a named existing tool's documented limitation, satisfies this requirement. The applicant's assertion of the gap does not.
+For build-obligation indicators where the coordinating party engagement dimension is activated: the documented current absence or inadequacy of the deliverable, with named evidence of the gap it addresses. A named party outside the applicant's organization who has confirmed the need, or a named existing tool's documented limitation, satisfies this requirement. The applicant's assertion of the gap does not.
 
-For retroactive accountability indicators: the documented state of the contribution at the time the award period begins, with named evidence of use. The prior contribution replaces the pre-intervention baseline; the evidence of use replaces the data source for the baseline value.
+For retroactive obligation indicators: the documented state of the contribution at the time the award period begins, with named evidence of use. The prior contribution replaces the pre-intervention baseline; the evidence of use replaces the data source for the baseline value.
 
 ### Field 11: Target (TO state)
 
-For change-accountability indicators: the expected state of the indicator at the end of the grant period, expressed in the same units as the baseline and operational definition. For cumulative indicators, a cumulative total. For non-cumulative indicators, a target status at grant end.
+For change-obligation indicators: the expected state of the indicator at the end of the grant period, expressed in the same units as the baseline and operational definition. For cumulative indicators, a cumulative total. For non-cumulative indicators, a target status at grant end.
 
-A target not grounded in the baseline creates an accountability vacuum. A project claiming a six-fold increase against baseline requires an explanation of the mechanism that produces that growth. Without it, the target is aspirational rather than evidence-grounded.
+A target not grounded in the baseline creates an obligation vacuum. A project claiming a six-fold increase against baseline requires an explanation of the mechanism that produces that growth. Without it, the target is aspirational rather than evidence-grounded.
 
-For build-accountability indicators: the completion criteria the deliverable must meet, expressed with enough specificity that an independent reviewer could determine whether they are met. "A working prototype" fails. "A prototype that executes the three functions specified in the design document, demonstrated in a public recording with no fatal errors, with test results from the specified test suite attached" passes.
+For build-obligation indicators: the completion criteria the deliverable must meet, expressed with enough specificity that an independent reviewer could determine whether they are met. "A working prototype" fails. "A prototype that executes the three functions specified in the design document, demonstrated in a public recording with no fatal errors, with test results from the specified test suite attached" passes.
 
-For retroactive accountability with a forward commitment: the named action the awardee commits to completing as a condition of the award, expressed with falsifiable completion criteria. Apply the build-accountability guidance to the forward commitment target.
+For retroactive obligation with a forward commitment: the named action the awardee commits to completing as a condition of the award, expressed with falsifiable completion criteria. Apply the build-obligation guidance to the forward commitment target.
 
 ---
 
-## Part 4: Common D1 Indicator Sourcing Failures in Change-Accountability Rounds
+## Part 4: Common D1 Indicator Sourcing Failures in Change-Obligation Rounds
 
 Class D1 (canonical vocabulary without structural grounding) passes the entry specification gate and fails at the rigor tier. Three patterns account for most D1 sourcing failures.
 
@@ -234,7 +234,7 @@ Class D1 (canonical vocabulary without structural grounding) passes the entry sp
 
 **The reach figure without a collection method.** A reach figure ("we have reached 10,000 people with this information") with no specified collection method. The number is present; the mechanism by which it was determined is absent. A count of newsletter subscribers is not the same as a count of people who read the newsletter. A count of social media impressions is not a count of people. Reviewers identify this pattern by checking Fields 5 and 8 against the reported number.
 
-**The applicant-self-assertion baseline.** The coverage claim or baseline is sourced only from the applicant's own assertions, internal records, or self-reported data without named independent corroboration. A compliant application in this situation names the limitation explicitly, proposes a verification mechanism for future reporting periods, and differentiates what is known from independent sources from what is known only from internal records.
+**The applicant-self-assertion baseline.** The coverage claim or baseline is sourced only from the applicant's own assertions, internal records, or self-reported data without named independent corroboration. A conformant application in this situation names the limitation explicitly, proposes a verification mechanism for future reporting periods, and differentiates what is known from independent sources from what is known only from internal records.
 
 ---
 
@@ -308,7 +308,7 @@ Tier 2 relationships require judgment. Whether a relationship rises to the level
 
 ### Who is the named receiving function in a small grants program
 
-Small grants programs often do not have dedicated compliance staff. The receiving function is whoever receives conflict of interest declarations and processes waiver requests. In a small program, this may be a program lead or a board member who does not participate in application review. The function must be a person, not a process. "Submit to the committee" is not a named receiving function.
+Small grants programs often do not have dedicated conformance staff. The receiving function is whoever receives conflict of interest declarations and processes waiver requests. In a small program, this may be a program lead or a board member who does not participate in application review. The function must be a person, not a process. "Submit to the committee" is not a named receiving function.
 
 If the program is small enough that all available staff have potential conflicts with at least some applications, an external trusted person should serve this function. It is operationally untenable for the person reviewing a conflict of interest declaration to be the same person whose independence is in question.
 
@@ -340,16 +340,16 @@ A general preference for privacy is not a harm statement. Absence of analytics i
 
 ### What "validated by parties outside the applicant's control" means
 
-For change-accountability rounds: the FROM state must be confirmed as real by sources the applicant did not produce and does not control. This has two components. The baseline measurement must come from a named independent source. The existence of the problem must be corroborated by evidence the applicant did not generate.
+For change-obligation rounds: the FROM state must be confirmed as real by sources the applicant did not produce and does not control. This has two components. The baseline measurement must come from a named independent source. The existence of the problem must be corroborated by evidence the applicant did not generate.
 
 "Validated by parties outside the applicant's control" means that at least one of the following is true: the baseline data comes from a named independent data source (Open Observatory of Network Interference, a government statistical agency, a peer-reviewed study, a third-party audit), or the problem is documented in a named source (journalism, non-governmental organization reports, independent technical analyses) that the applicant did not produce and does not control.
 
 An applicant who cites only their own assessments, their own user feedback, and their own network as evidence that the problem exists has not demonstrated beneficiary validation. They have demonstrated that they believe the problem exists.
 
-For build-accountability rounds where the stakeholder engagement dimension is activated: the claimed need for the deliverable must be validated by at least one party outside the applicant's organization who would use or benefit from it. A named person or organization who has expressed a specific need for this deliverable satisfies the requirement. A general claim that the ecosystem needs better tooling does not.
+For build-obligation rounds where the coordinating party engagement dimension is activated: the claimed need for the deliverable must be validated by at least one party outside the applicant's organization who would use or benefit from it. A named person or organization who has expressed a specific need for this deliverable satisfies the requirement. A general claim that the ecosystem needs better tooling does not.
 
 ### The alternative-tool check
 
-For change-accountability rounds: applicants who cannot name existing alternatives to their proposed solution for the stated beneficiary population have not diagnosed a problem; they have proposed a solution in search of one. The check does not ask applicants to demonstrate that no competition exists; it asks them to demonstrate awareness of the landscape and to explain why existing approaches are insufficient for the stated population.
+For change-obligation rounds: applicants who cannot name existing alternatives to their proposed solution for the stated beneficiary population have not diagnosed a problem; they have proposed a solution in search of one. The check does not ask applicants to demonstrate that no competition exists; it asks them to demonstrate awareness of the landscape and to explain why existing approaches are insufficient for the stated population.
 
 An applicant who names existing alternatives and explains specifically why those alternatives do not serve the stated population under the stated conditions has completed the beneficiary validation exercise. An applicant who asserts that nothing comparable exists without evidence of having looked has not. When existing tools address the stated FROM state for the stated population, the applicant must explain what additional value their intervention provides.

@@ -19,13 +19,13 @@ Version 0.1.0 | 2026-05-14 | CC0
 
 ## Section 1: Purpose and Scope
 
-The CROSS Reviewers Dashboard is the stage-gated interface through which grant evaluators assess applications against the round's published accountability standard. It is the fourth operational tool in the CROSS implementation architecture, alongside the Grant Configurator, the Grantee Dashboard, and the CROSS skill.
+The CROSS Reviewers Dashboard is the stage-gated interface through which grant evaluators assess applications against the round's published obligation standard. It is the fourth operational tool in the CROSS implementation architecture, alongside the Grant Configurator, the Grantee Dashboard, and the CROSS skill.
 
-The Reviewers Dashboard serves a distinct set of functions that neither the Grant Configurator nor the Grantee Dashboard can perform. The Configurator defines the round's accountability schema. The Grantee Dashboard tracks post-award performance. The Reviewers Dashboard governs the evaluation stage: the period between applications closing and funding decisions being made. During this stage, the Reviewers Dashboard enforces conflict of interest declarations as access controls, maintains assessment isolation between reviewers, loads the correct rubric for the round's configured accountability mode, and provides AI-assisted evaluation support.
+The Reviewers Dashboard serves a distinct set of functions that neither the Grant Configurator nor the Grantee Dashboard can perform. The Configurator defines the round's obligation schema. The Grantee Dashboard tracks post-award performance. The Reviewers Dashboard governs the evaluation stage: the period between applications closing and funding decisions being made. During this stage, the Reviewers Dashboard enforces conflict of interest declarations as access controls, maintains assessment isolation between reviewers, loads the correct rubric for the round's configured obligation mode, and provides AI-assisted evaluation support.
 
 The Reviewers Dashboard is active only during the evaluation stage. Before applications close, it has no function. After funding decisions are made and communicated, it closes again. This boundary is enforced structurally, not by convention: the Dashboard's application content access is gated to the evaluation window as configured in the Grant Configurator, and no reviewer including program administrators can access application content outside that window through the Dashboard interface.
 
-The primary output of the Reviewers Dashboard is the evaluation record: a structured set of per-application assessments that the funder uses to make funding decisions. Each evaluation record contains the reviewer's scored rubric assessment, compliance check findings, and recommendation, alongside the AI assistance outputs that informed it. The evaluation record is the accountability instrument for the review process itself.
+The primary output of the Reviewers Dashboard is the evaluation record: a structured set of per-application assessments that the funder uses to make funding decisions. Each evaluation record contains the reviewer's scored rubric assessment, conformance check findings, and recommendation, alongside the AI assistance outputs that informed it. The evaluation record is the obligation instrument for the review process itself.
 
 ---
 
@@ -33,7 +33,7 @@ The primary output of the Reviewers Dashboard is the evaluation record: a struct
 
 The evaluation stage opens when the program administrator sets the stage to active in the Grant Configurator or in the Reviewers Dashboard administrative interface. It closes when the program administrator marks it closed, or when the configured evaluation window duration elapses.
 
-While the evaluation stage is open, reviewers with assigned roles can access applications assigned to them, subject to the conflict of interest enforcement described in Section 3. While the evaluation stage is closed, no reviewer can access application content regardless of their role. This includes lead reviewers and funder administrators: the stage gate is not a role permission; it is a temporal gate that applies universally.
+While the evaluation stage is open, reviewers with assigned roles can access applications assigned to them, subject to the conflict of interest handling described in Section 3. While the evaluation stage is closed, no reviewer can access application content regardless of their role. This includes lead reviewers and funder administrators: the stage gate is not a role permission; it is a temporal gate that applies universally.
 
 The evaluation window duration and the process for opening and closing the stage are configured in the Grant Configurator (Q1 of the Configurator's question sequence includes the named conflict of interest receiving authority; the Reviewers Dashboard uses the same named authority as the gatekeeper for stage transitions). Funders may configure automated stage opening tied to the round's published close date, or manual stage opening requiring a named administrator action.
 
@@ -41,7 +41,7 @@ The Reviewers Dashboard records the exact timestamp at which the evaluation stag
 
 ---
 
-## Section 3: Conflict of Interest Enforcement
+## Section 3: Conflict of Interest Handling
 
 Conflict of interest declaration is not a pre-condition the Reviewers Dashboard asks reviewers to confirm at login. It is a gate enforced at the application level: a reviewer who has not submitted a valid conflict of interest declaration for a specific application cannot open that application. The gate operates independently for each reviewer-application pair.
 
@@ -51,11 +51,11 @@ When a reviewer attempts to open an application for which they have not submitte
 
 The declaration is application-specific, not round-level. A reviewer who declares no conflicts for Application A and a Tier 2 conflict for Application B cannot open Application B until the Tier 2 conflict has been resolved through the waiver process. The reviewer may continue reviewing Application A while the waiver for Application B is pending.
 
-### Tier 1 enforcement
+### Tier 1 named response
 
 If a reviewer's declaration for a specific application indicates a Tier 1 relationship, the Dashboard blocks access to that application for that reviewer permanently for this round. The block is not reversible by the reviewer; only a program administrator can remove a Tier 1 block, and only for the purpose of reassigning the application to a non-conflicted reviewer. The Tier 1 block and the relationship it identified are recorded in the evaluation record for that application.
 
-### Tier 2 enforcement
+### Tier 2 named response
 
 If a reviewer's declaration indicates a Tier 2 relationship, the Dashboard blocks access to that application until either: a waiver is approved by the named receiving function and recorded in the Dashboard, or the reviewer elects recusal. The waiver approval is recorded with the approver's identity, the justification submitted, and the timestamp. The waiver approval is accessible to the program administrator and is included in the institutional record for the round.
 
@@ -113,11 +113,11 @@ The scoring interface presents the rubric in the sequence specified in the asses
 
 For the entry specification gate (Section 2 of the rubric), the Dashboard requires the reviewer to record a gate finding before the scoring fields become active. A gate failure finding closes the scoring fields and routes the review directly to the recommendation section with a Do not fund pre-selection that the reviewer may not override.
 
-For the compliance checks (Section 5 of the rubric), the Dashboard presents each check as a binary pass/fail with a required text field for findings. A compliance check failure produces a Do not fund pre-selection.
+For the conformance checks (Section 5 of the rubric), the Dashboard presents each check as a binary pass/fail with a required text field for findings. A conformance check failure produces a Do not fund pre-selection.
 
 ### Score entry and validation
 
-The Dashboard validates that all required rubric fields are completed before the submission workflow begins. An incomplete rubric cannot be submitted. Required fields are: gate finding, all scored indicator fields for the primary indicator, all five data quality standard findings, and all three compliance check findings.
+The Dashboard validates that all required rubric fields are completed before the submission workflow begins. An incomplete rubric cannot be submitted. Required fields are: gate finding, all scored indicator fields for the primary indicator, all five data quality standard findings, and all three conformance check findings.
 
 Recommendations are drawn only from the three CROSS recommendation categories: Fund, Fund with conditions, or Do not fund. The Dashboard does not permit any other recommendation vocabulary.
 
@@ -125,7 +125,7 @@ For Fund with conditions recommendations: the Dashboard requires at least one co
 
 ### Assessment reconciliation
 
-When guest reviewer assessments for the same application diverge substantially (defined as a difference of 2 or more points on any scored indicator field, or divergent gate findings, or divergent compliance check findings), the lead reviewer is notified. The lead reviewer may: add their own assessment to the record, initiate a discussion note visible to all reviewers who assessed the application, or escalate to the program administrator.
+When guest reviewer assessments for the same application diverge substantially (defined as a difference of 2 or more points on any scored indicator field, or divergent gate findings, or divergent conformance check findings), the lead reviewer is notified. The lead reviewer may: add their own assessment to the record, initiate a discussion note visible to all reviewers who assessed the application, or escalate to the program administrator.
 
 Reconciliation does not require reviewers to change their submitted assessments. The institutional record retains all submitted assessments. The lead reviewer's role is to document the divergence and ensure the final funding decision record acknowledges it, not to enforce consensus.
 
@@ -135,13 +135,13 @@ Reconciliation does not require reviewers to change their submitted assessments.
 
 The Reviewers Dashboard provides AI-assisted evaluation through three layers. The layers are cumulative: Layer 2 builds on Layer 1, and Layer 3 synthesizes both. Each layer produces a discrete output stored alongside the reviewer's assessment in the evaluation record. Layers are invoked sequentially; the reviewer may view each layer's output, supplement or override it, and invoke the next layer.
 
-The AI assistance is a tool for the reviewer, not a substitute for the reviewer. The reviewer's final assessment is the accountability instrument. AI outputs inform it. The reviewer edits, overrides, and supplements AI-generated content before submission. A reviewer who accepts AI outputs without review has not fulfilled their review obligation.
+The AI assistance is a tool for the reviewer, not a substitute for the reviewer. The reviewer's final assessment is the obligation instrument. AI outputs inform it. The reviewer edits, overrides, and supplements AI-generated content before submission. A reviewer who accepts AI outputs without review has not fulfilled their review obligation.
 
 All AI assistance is invoked using the CROSS skill (claude-skills/claude-skill-CROSS-0_2_0.md) as the machine-readable encoding of the standard, combined with the round specification for rubric calibration.
 
 ### Layer 1: Submitted evidence verification
 
-Layer 1 checks whether the evidence the applicant submitted with their application matches the claims made in the entry specification. The check covers: does the named data source exist and is it publicly accessible? does the reported baseline value correspond to what the named source shows? for build-accountability applications, is the named deliverable location accessible? for retroactive applications, does the evidence of use cited match independently verifiable records?
+Layer 1 checks whether the evidence the applicant submitted with their application matches the claims made in the entry specification. The check covers: does the named data source exist and is it publicly accessible? does the reported baseline value correspond to what the named source shows? for build-obligation applications, is the named deliverable location accessible? for retroactive obligation applications, does the evidence of use cited match independently verifiable records?
 
 This layer is implemented via the evidence verification endpoint (currently at `/api/evidence/verify` in the Octant grant operations dashboard). It returns a structured verification report for each submitted evidence item: verified, verified in substance (with a note on what could not be confirmed), or cannot be verified from any public source (with the reason and what was tried).
 
@@ -161,7 +161,7 @@ Layer 2 investigates the following categories for each applicant:
 
 **Prior grants and funding history.** Search across known grant history databases (Gitcoin grants data, KarmaGAP, on-chain treasury records where accessible) for prior grants to this applicant or this project. Cross-reference against the applicant's concurrent funding disclosure to identify any discrepancy. Prior Octant funding history is checked against the PoC vault records.
 
-**Adverse signal investigation.** Independent search for adverse signals: prior rejections from comparable programs, published technical criticisms, community dispute records, documented governance conflicts, or negative due diligence findings that appear in public sources.
+**Adverse signal investigation.** Independent search for adverse signals: prior rejections from comparable programs, published technical criticisms, community dispute records, documented coordinating conflicts, or negative due diligence findings that appear in public sources.
 
 **Claim verification.** For specific quantitative claims made in the application that can be independently verified (user counts, transaction counts, download figures, protocol metrics), Layer 2 queries the named or inferable sources and reports whether the claim is confirmed, confirmed in substance, or cannot be verified from public sources.
 
@@ -169,13 +169,13 @@ The Layer 2 output is a structured investigation report organized by category, u
 
 ### Layer 3: Draft evaluation
 
-Layer 3 applies the CROSS assessment rubric to the combined findings from Layers 1 and 2 and produces a draft evaluation: per-criterion scores with supporting notes, compliance check findings, and a preliminary recommendation. The draft is pre-populated in the scoring interface described in Section 6.
+Layer 3 applies the CROSS assessment rubric to the combined findings from Layers 1 and 2 and produces a draft evaluation: per-criterion scores with supporting notes, conformance check findings, and a preliminary recommendation. The draft is pre-populated in the scoring interface described in Section 6.
 
-Layer 3 uses the round specification's accountability mode to select the correct rubric variant. For build-accountability rounds it applies the build-accountability gate and completion criteria assessment. For change-accountability rounds it applies the FROM state gate and the eleven-field indicator specification rubric. For retroactive rounds it applies the program's published contribution assessment rubric.
+Layer 3 uses the round specification's obligation mode to select the correct rubric variant. For build-obligation rounds it applies the build-obligation gate and completion criteria assessment. For change-obligation rounds it applies the FROM state gate and the eleven-field indicator specification rubric. For retroactive obligation rounds it applies the program's published contribution assessment rubric.
 
 The draft evaluation is clearly labeled as AI-generated in the scoring interface. The reviewer sees each draft score and note with an indication that it was generated by Layer 3. The reviewer edits, overrides, and supplements the draft before submitting. No draft score or note is submitted as the reviewer's assessment without the reviewer having actively confirmed or modified it.
 
-Layer 3 pre-populates the conflict of interest compliance check as "pending" and requires the reviewer to complete it directly. The AI layer does not assess the reviewer's own conflict of interest status; that is the reviewer's declaration, not a matter for AI inference.
+Layer 3 pre-populates the conflict of interest conformance check as "pending" and requires the reviewer to complete it directly. The AI layer does not assess the reviewer's own conflict of interest status; that is the reviewer's declaration, not a matter for AI inference.
 
 ---
 
@@ -187,7 +187,7 @@ The submission workflow requires in sequence: confirmation that the conflict of 
 
 Once submitted, the assessment is locked for that reviewer. The reviewer cannot edit a submitted assessment. If the program administrator flags an assessment for re-review, the assessment is unlocked for the reviewer who submitted it and they may revise it, with the revision recorded as an amendment to the assessment record.
 
-The submitted assessment record contains: the reviewer's identity (role, not necessarily name, depending on the program's configured anonymization setting), the submission timestamp, the full scored rubric with all findings and notes, the recommendation (Fund, Fund with conditions, or Do not fund), the conditions list if applicable, the compliance check findings, the conflict of interest summary for this reviewer-application pair, the Layer 1, 2, and 3 AI outputs as they existed at submission time, and the post-participation certification.
+The submitted assessment record contains: the reviewer's identity (role, not necessarily name, depending on the program's configured anonymization setting), the submission timestamp, the full scored rubric with all findings and notes, the recommendation (Fund, Fund with conditions, or Do not fund), the conditions list if applicable, the conformance check findings, the conflict of interest summary for this reviewer-application pair, the Layer 1, 2, and 3 AI outputs as they existed at submission time, and the post-participation certification.
 
 ---
 
@@ -271,7 +271,7 @@ Evaluation_Record {
 
   // Reviewer's final assessment
   rubric_assessment: {
-    accountability_mode:  enum (build | change | retroactive)
+    obligation_mode:      enum (build | change | retroactive)
     gate_finding: {
       passed:             boolean
       finding_text:       text
@@ -279,7 +279,7 @@ Evaluation_Record {
     indicator_scores:     array of {field: string, score: integer, finding: text}
     data_quality_standards: array of {standard: string,
                           status: enum (pass | conditional | fail), finding: text}
-    compliance_checks:    array of {check: string, status: enum (pass | fail | signal_documented),
+    conformance_checks:   array of {check: string, status: enum (pass | fail | signal_documented),
                           finding: text}
     recommendation:       enum (fund | fund_with_conditions | do_not_fund)
     conditions:           array of {description: text, verification_method: text,

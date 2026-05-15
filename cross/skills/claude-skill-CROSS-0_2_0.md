@@ -13,17 +13,17 @@ related_documents:
 
 # CROSS Skill
 
-Invoke this skill before evaluating any grant application against CROSS requirements, before running the Grant Configurator sequence for a funder, or before assessing any indicator specification, conflict of interest relationship, gate submission, or data quality claim. This is a procedural encoding of the Common Reporting Outcome Standards Schema (CROSS) version 0.2.0 that enables consistent application across accountability modes, evaluation contexts, and gate types. It is structured so a partial task ("evaluate this FROM state claim" or "assess this gate evidence package") can be received and completed correctly.
+Invoke this skill before evaluating any grant application against CROSS requirements, before running the Grant Configurator sequence for a funder, or before assessing any indicator specification, conflict of interest relationship, gate submission, or data quality claim. This is a procedural encoding of the Common Reporting Outcome Standards Schema (CROSS) version 0.2.0 that enables consistent application across obligation modes, evaluation contexts, and gate types. It is structured so a partial task ("evaluate this FROM state claim" or "assess this gate evidence package") can be received and completed correctly.
 
 ## Runtime Sequence
 
 When given an evaluation task, identify which operation is requested and run the corresponding procedure in full:
 
-1. **Entry specification gate assessment.** Run when given an application text. Determine the round's declared accountability mode first; then run the correct mode procedure. See Part III below.
+1. **Entry specification gate assessment.** Run when given an application text. Determine the round's declared obligation mode first; then run the correct mode procedure. See Part III below.
 
-2. **FROM state classification (change accountability).** Run as part of the change-accountability gate assessment, or independently when asked to classify a specific claim. Returns one of five canonical classifications. See Part III, Section B below.
+2. **FROM state classification (change obligation).** Run as part of the change-obligation gate assessment, or independently when asked to classify a specific claim. Returns one of five canonical classifications. See Part III, Section B below.
 
-3. **Deliverable specification assessment (build accountability).** Run when evaluating whether an application's deliverable specification is falsifiable with independently verifiable completion criteria. See Part III, Section A below.
+3. **Deliverable specification assessment (build obligation).** Run when evaluating whether an application's deliverable specification is falsifiable with independently verifiable completion criteria. See Part III, Section A below.
 
 4. **Retroactive contribution assessment.** Run when evaluating whether a retroactive application's prior contribution evidence meets the program's published threshold criteria. See Part III, Section C below.
 
@@ -37,7 +37,7 @@ When given an evaluation task, identify which operation is requested and run the
 
 9. **Grant Configurator sequence.** Run when a funder wants to generate a round specification from their criteria. See Part VII below.
 
-10. **Accountability dimension activation.** Run when given a set of funder criteria or a specific application profile to determine which of the 11 dimensions are active. See Part II below.
+10. **Obligation dimension activation.** Run when given a set of funder criteria or a specific application profile to determine which of the 11 dimensions are active. See Part II below.
 
 11. **Recommendation generation.** Run after completing a gate assessment and dimension evaluation. Returns one of three canonical recommendation terms. See Part VIII below.
 
@@ -47,26 +47,26 @@ When given an evaluation task, identify which operation is requested and run the
 
 ## Part I: CROSS Purpose and Scope
 
-CROSS specifies what funded interventions are accountable for producing. It provides grants ecosystems with a portable accountability schema that accommodates three distinct accountability modes, calibrates evidentiary pressure to program context, and generates structured reporting data comparable across funders, rounds, and grantees.
+CROSS specifies what funded interventions are obligated to produce. It provides grants ecosystems with a portable obligation schema that accommodates three distinct obligation modes, calibrates evidentiary pressure to program context, and generates structured reporting data comparable across funders, rounds, and grantees.
 
-CROSS is not a process standard. It does not specify how rounds are structured, how funds are distributed, or how governance decisions are made. CROSS specifies the content of accountability: what applicants must demonstrate, what funders must evaluate, and what grantees must report.
+CROSS is not a process standard. It does not specify how rounds are structured, how funds are distributed, or how round administration decisions are made. CROSS specifies the content of obligation: what applicants must demonstrate, what funders must evaluate, and what grantees must report.
 
 **Suite standard references.** CROSS inherits requirements from four companion standards. When evaluating conformance, apply these inherited requirements:
 
 - Adverse-Signal Engagement Principle Core Standard: applicants must surface adverse signals (prior rejections from similar programs, contradictory technical findings, negative due diligence from other funders). Reviewers must not suppress adverse signals found during evaluation.
 - Information Asymmetry Classification Standard: undisclosed concurrent funding is an omission asymmetry. The concurrent funding disclosure requirement instantiates this standard's omission class in the grant application context.
-- Precision-First Design Standard: the double-negation invariant applies. Documentation requirements must not be so light that accountability is absent, and must not be so heavy that legitimate small-team applicants are excluded.
+- Precision-First Design Standard: the double-negation invariant applies. Documentation requirements must not be so light that obligation is absent, and must not be so heavy that legitimate small-team applicants are excluded.
 - Coordination Scaling Standard: calibrates the rigor tier. Determined by scale indicators (funding amount, population claim scope), not by gate passage alone.
 
 The Regenerative Obligation Standard and CROSS are structurally paired but independent. Regenerative Obligation Standard addresses direction; CROSS addresses destination. Run both evaluations independently when both apply; do not merge them.
 
-Frame Language was the conceptual development tool for CROSS. It is not a formal dependency. The diagnostic categories D1 and D2 from Frame Language appear in Part III as shorthand for change-accountability gate failure types; they are not required vocabulary outside that context.
+Frame Language was the conceptual development tool for CROSS. It is not a formal dependency. The diagnostic categories D1 and D2 from Frame Language appear in Part III as shorthand for change-obligation gate failure types; they are not required vocabulary outside that context.
 
 ---
 
-## Part II: Independent Accountability Dimensions
+## Part II: Independent Obligation Dimensions
 
-CROSS specifies 11 independent accountability dimensions. Each dimension has its own triggering logic. Dimensions do not scale together.
+CROSS specifies 11 independent obligation dimensions. Each dimension has its own triggering logic. Dimensions do not scale together.
 
 **Procedure for dimension activation:** For each dimension, apply the trigger test independently. If the trigger condition is met, that dimension is active regardless of other dimensions.
 
@@ -108,19 +108,19 @@ CROSS specifies 11 independent accountability dimensions. Each dimension has its
 
 **Active requirements:** Outputs must be demonstrably open at the time of reporting, not only at application time.
 
-### Dimension 7: Stakeholder Engagement and Beneficiary Validation
+### Dimension 7: Coordinating-Party Engagement and Beneficiary Validation
 
-**Trigger:** The application claims to address a problem experienced by a defined population (change accountability) OR the deliverable addresses a named external need (build accountability, where activated by funder configuration).
+**Trigger:** The application claims to address a problem experienced by a defined population (change obligation) OR the deliverable addresses a named external need (build obligation, where activated by funder configuration).
 
-**Active requirements (change accountability):** The claimed FROM state must be validated by parties outside the applicant's control. Applicants must name existing alternatives and explain why they do not serve the stated population.
+**Active requirements (change obligation):** The claimed FROM state must be validated by parties outside the applicant's control. Applicants must name existing alternatives and explain why they do not serve the stated population.
 
-**Active requirements (build accountability, if activated):** At least one named party outside the applicant's organization has confirmed the need for the deliverable.
+**Active requirements (build obligation, if activated):** At least one named party outside the applicant's organization has confirmed the need for the deliverable.
 
 ### Dimension 8: Privacy and Data Sensitivity
 
 **Trigger:** The beneficiary population faces elevated risk from standard outcome measurement.
 
-**Active requirements:** Privacy-preserving measurement methodologies in lieu of standard analytics. Not an exemption from accountability; specifies which mechanisms are appropriate. See Part IX.
+**Active requirements:** Privacy-preserving measurement methodologies in lieu of standard analytics. Not an exemption from obligation; specifies which mechanisms are appropriate. See Part IX.
 
 ### Dimension 9: Environmental and Social Impact (Optional)
 
@@ -146,11 +146,11 @@ CROSS specifies 11 independent accountability dimensions. Each dimension has its
 
 The entry specification gate is a pre-criterion that operates before any rigor-tier assessment begins. It is binary and non-negotiable.
 
-**First step before any gate assessment:** Confirm the declared accountability mode from the round specification. The mode determines which gate section applies. Do not apply change-accountability gate criteria to a build-accountability application, and do not apply build-accountability gate criteria to a change-accountability application. Misapplying the gate is a reviewer error, not an applicant failure.
+**First step before any gate assessment:** Confirm the declared obligation mode from the round specification. The mode determines which gate section applies. Do not apply change-obligation gate criteria to a build-obligation application, and do not apply build-obligation gate criteria to a change-obligation application. Misapplying the gate is a reviewer error, not an applicant failure.
 
 ---
 
-### Section A: Build Accountability Entry Gate
+### Section A: Build Obligation Entry Gate
 
 **The gate question:** Can the applicant name a falsifiable deliverable with independently verifiable completion criteria?
 
@@ -160,7 +160,7 @@ The entry specification gate is a pre-criterion that operates before any rigor-t
 
 **Fail criteria (Underspecified completion criteria):** A deliverable is named but the completion criteria are too vague for independent verification. "A working prototype" names a form but not a standard. Completion criteria must specify what done means, not just what will be built.
 
-**Critical rule:** The Theory of Build is not a failure mode in build-accountability rounds. An application that describes what it will build, with falsifiable criteria, is correct and complete for this mode. Do not import change-accountability gate logic into a build-accountability assessment.
+**Critical rule:** The Theory of Build is not a failure mode in build-obligation rounds. An application that describes what it will build, with falsifiable criteria, is correct and complete for this mode. Do not import change-obligation gate logic into a build-obligation assessment.
 
 **Gate finding options:**
 
@@ -170,7 +170,7 @@ Gate fails: "Entry specification gate fails: [describe what was offered instead 
 
 ---
 
-### Section B: Change Accountability Entry Gate
+### Section B: Change Obligation Entry Gate
 
 **The gate question:** Can the applicant name the FROM state as a specific measurable condition in a defined population?
 
@@ -206,7 +206,7 @@ Default if no Grant Configurator has been run: assign Tier 2 and note that a Con
 
 ---
 
-### Section C: Retroactive Accountability Entry Gate
+### Section C: Retroactive Obligation Entry Gate
 
 **The gate question:** Does the applicant present evidence of prior contribution meeting the program's published threshold criteria?
 
@@ -216,7 +216,7 @@ Default if no Grant Configurator has been run: assign Tier 2 and note that a Con
 
 **Fail criteria:** Any of the four elements absent. Contribution evidence that consists entirely of applicant self-assertion without any independent source. Use evidence that is not independently accessible.
 
-**Important:** In retroactive rounds, the CROSS indicator specification rubric (Part IV) applies only if the program has configured indicator-based forward reporting. If no indicator specification is required, proceed from this gate to compliance checks and recommendation. The program's published assessment rubric governs substantive scoring; this skill does not replace it.
+**Important:** In retroactive rounds, the CROSS indicator specification rubric (Part IV) applies only if the program has configured indicator-based forward reporting. If no indicator specification is required, proceed from this gate to conformance checks and recommendation. The program's published assessment rubric governs substantive scoring; this skill does not replace it.
 
 **Gate finding options:**
 
@@ -258,7 +258,7 @@ This field replaced the constrained four-option data type list in version 0.2.0.
 
 **Flag:** Description so general that axis classification cannot be determined. Classification conflicts with Field 5 methodology (described as quantitative but methodology produces only binary output). No description present.
 
-**Mode notes:** For build-accountability indicators, the form is typically binary or qualitative. The description should name what done looks like and how a reviewer would confirm it. For change-accountability indicators, the form is typically quantitative or ordinal; name the unit of measurement and direction of desirable change.
+**Mode notes:** For build-obligation indicators, the form is typically binary or qualitative. The description should name what done looks like and how a reviewer would confirm it. For change-obligation indicators, the form is typically quantitative or ordinal; name the unit of measurement and direction of desirable change.
 
 ### Field 4: Operational Definition
 
@@ -275,13 +275,13 @@ This field replaced the constrained four-option data type list in version 0.2.0.
 
 ### Field 5: Construction and Aggregation Methodology
 
-**Pass:** Formula or counting rule stated explicitly (or, for build-accountability indicators, the completion determination process: who verifies, by what method). Partial data handling named. Sub-unit aggregation specified if disaggregated data will be combined.
+**Pass:** Formula or counting rule stated explicitly (or, for build-obligation indicators, the completion determination process: who verifies, by what method). Partial data handling named. Sub-unit aggregation specified if disaggregated data will be combined.
 
 **Flag:** Formula absent. Partial data handling absent. Sub-unit aggregation absent when disaggregation categories are specified in Field 7.
 
 ### Field 6: Cumulative or Non-Cumulative
 
-**Pass:** One of the two states named correctly, consistently with Field 11. For binary build-accountability completion criteria, mark as not applicable and score at standard.
+**Pass:** One of the two states named correctly, consistently with Field 11. For binary build-obligation completion criteria, mark as not applicable and score at standard.
 
 **Flag:** Absent. Inconsistency between Field 6 and Field 11 (cumulative indicator with a point-in-time target, or non-cumulative with a summed target).
 
@@ -297,7 +297,7 @@ This field replaced the constrained four-option data type list in version 0.2.0.
 
 **Pass:** Source is named specifically (contract address, named public application programming interface endpoint, named third-party platform, named institutional partner, or named survey instrument). Source is independently accessible. Collection method specifies who collects, when, and how.
 
-For build-accountability indicators: the named artifact location and the named party who will confirm completion criteria are met.
+For build-obligation indicators: the named artifact location and the named party who will confirm completion criteria are met.
 
 **Flag:** Internal source only with no independent verification path. Source named but not independently accessible. Collection method absent.
 
@@ -311,23 +311,23 @@ For build-accountability indicators: the named artifact location and the named p
 
 **Mode-specific assessment.**
 
-For change-accountability indicators: a specific value, measured before the intervention, from a named independently accessible source. Must be consistent with the FROM state named in the gate assessment.
+For change-obligation indicators: a specific value, measured before the intervention, from a named independently accessible source. Must be consistent with the FROM state named in the gate assessment.
 
-For build-accountability indicators (stakeholder engagement dimension activated): the documented current absence or inadequacy of the deliverable, with named independent evidence of the gap. Applicant assertion of the gap alone does not satisfy this field.
+For build-obligation indicators (coordinating-party engagement dimension activated): the documented current absence or inadequacy of the deliverable, with named independent evidence of the gap. Applicant assertion of the gap alone does not satisfy this field.
 
-For build-accountability indicators (stakeholder engagement dimension not activated): any reasonable plain-language statement of the gap addressed. Advisory only.
+For build-obligation indicators (coordinating-party engagement dimension not activated): any reasonable plain-language statement of the gap addressed. Advisory only.
 
-For retroactive accountability indicators: the documented state of the prior contribution at the time the award period begins, with named evidence of use.
+For retroactive obligation indicators: the documented state of the prior contribution at the time the award period begins, with named evidence of use.
 
-**Flag (change accountability):** Absent. Aspirational ("we expect baseline data to be available"). Baseline that measures something different from what the indicator tracks. Source absent or not independently accessible.
+**Flag (change obligation):** Absent. Aspirational ("we expect baseline data to be available"). Baseline that measures something different from what the indicator tracks. Source absent or not independently accessible.
 
 ### Field 11: Target (TO State)
 
 **Mode-specific assessment.**
 
-For change-accountability indicators: same units as baseline. Format matches cumulative/non-cumulative classification (cumulative indicator has a total target; non-cumulative has a target status at grant end).
+For change-obligation indicators: same units as baseline. Format matches cumulative/non-cumulative classification (cumulative indicator has a total target; non-cumulative has a target status at grant end).
 
-For build-accountability indicators: completion criteria with enough specificity that an independent reviewer could verify whether they are met. "A working prototype" fails. Named criteria specifying what done looks like and how verification occurs passes.
+For build-obligation indicators: completion criteria with enough specificity that an independent reviewer could verify whether they are met. "A working prototype" fails. Named criteria specifying what done looks like and how verification occurs passes.
 
 For retroactive with forward commitment: the named action the awardee commits to, expressed with falsifiable completion criteria.
 
@@ -361,7 +361,7 @@ Apply the five data quality standards in order to any indicator claim or propose
 
 **Operative test:** Remove the applicant from the verification process. Can an independent reviewer confirm that the data collected measures the claimed condition, using only the indicator specification and the named data source?
 
-**Pass:** Logical chain from data to result is explicit and independently verifiable. For build-accountability indicators: the completion criteria have a documented logical chain to the deliverable being what the applicant claims.
+**Pass:** Logical chain from data to result is explicit and independently verifiable. For build-obligation indicators: the completion criteria have a documented logical chain to the deliverable being what the applicant claims.
 
 **Fail:** Chain requires the applicant's interpretation, cooperation, or access to materials not named in the indicator specification. Macro-level metric claimed as evidence of specific project contribution without documented causal chain.
 
@@ -371,15 +371,15 @@ Apply the five data quality standards in order to any indicator claim or propose
 
 **Pass:** Named independent verification mechanism present for each material claim.
 
-**Fail:** All evidence is applicant-controlled with no named independent corroboration. For build-accountability: the named verifying party for completion criteria is the applicant themselves.
+**Fail:** All evidence is applicant-controlled with no named independent corroboration. For build-obligation: the named verifying party for completion criteria is the applicant themselves.
 
 ### Standard 3: Precision
 
-**Operative test:** Is the claimed effect larger than the variance of the measurement method? For build-accountability indicators: are the completion criteria specific enough to distinguish a passing deliverable from a failing one?
+**Operative test:** Is the claimed effect larger than the variance of the measurement method? For build-obligation indicators: are the completion criteria specific enough to distinguish a passing deliverable from a failing one?
 
-**Pass:** Measurement precision is documented and consistent with claimed effect size. Build-accountability criteria distinguish done from not done without ambiguity.
+**Pass:** Measurement precision is documented and consistent with claimed effect size. Build-obligation criteria distinguish done from not done without ambiguity.
 
-**Fail:** Claimed effect within the instrument's margin of error. Build-accountability criteria accept any output as qualifying ("a working prototype" with no further specification).
+**Fail:** Claimed effect within the instrument's margin of error. Build-obligation criteria accept any output as qualifying ("a working prototype" with no further specification).
 
 ### Standard 4: Reliability
 
@@ -458,7 +458,7 @@ Round name, funding organization, opening date, closing date, stage number (if m
 
 **Q2: Accountability mode and program structure.**
 
-Which accountability mode: build / change / retroactive / multi-stage with different modes per stage? For retroactive rounds: is a forward commitment requirement configured?
+Which obligation mode: build / change / retroactive / multi-stage with different modes per stage? For retroactive rounds: is a forward commitment requirement configured?
 
 **Q3: Eligibility domain.**
 
@@ -470,11 +470,11 @@ Minimum and maximum award amounts. Tiered categories if applicable. The Coordina
 
 **Q5: Program-level continuation gate (multi-stage programs only).**
 
-For each stage transition: evidence scope, evidence strength, accountability mode of the next stage, infrastructure declaration if at independent review level or above. Cost-effectiveness consideration active at Stage 2-to-Stage 3 transition?
+For each stage transition: evidence scope, evidence strength, obligation mode of the next stage, infrastructure declaration if at independent review level or above. Cost-effectiveness consideration active at Stage 2-to-Stage 3 transition?
 
 **Q6: Public impact claim scope.**
 
-Geographic or network scope of expected impact claims. For change accountability: is beneficiary validation required? For build accountability: is the stakeholder engagement dimension activated?
+Geographic or network scope of expected impact claims. For change obligation: is beneficiary validation required? For build obligation: is the coordinating-party engagement dimension activated?
 
 **Q7: Track record requirement.**
 
@@ -494,7 +494,7 @@ Any indicators required of all applicants? If yes, provide the full measurement 
 
 **Q11: Round-level gate configuration.**
 
-For each active gate: evidence scope (output / usage / outcome / impact), evidence strength (self-report with documentation / third-party verifiable / independent review / independent evaluation), infrastructure declaration if at independent review level or above. For build-accountability completion gates: confirm that the public accessibility requirement is active (mandatory; cannot be configured out). For retroactive rounds: publish the assessment rubric and name the review panel.
+For each active gate: evidence scope (output / usage / outcome / impact), evidence strength (self-report with documentation / third-party verifiable / independent review / independent evaluation), infrastructure declaration if at independent review level or above. For build-obligation completion gates: confirm that the public accessibility requirement is active (mandatory; cannot be configured out). For retroactive rounds: publish the assessment rubric and name the review panel.
 
 **Q12: Reporting frequency.**
 
@@ -522,7 +522,7 @@ After completing the gate assessment and all active dimension evaluations, gener
 
 **Reasoning structure:** Always accompany the recommendation with structured reasoning.
 
-1. Accountability mode: [build / change / retroactive]
+1. Obligation mode: [build / change / retroactive]
 2. Gate finding: [mode-specific gate finding from the canonical vocabulary]
 3. Active dimensions: [each active dimension and its finding]
 4. Conflict of interest findings: [any classifications and tiers]
@@ -534,7 +534,7 @@ After completing the gate assessment and all active dimension evaluations, gener
 
 ## Part IX: Privacy-Sensitive Accommodation
 
-The privacy-sensitive accommodation applies when standard outcome measurement would compromise the safety of the beneficiary population. It is not a general privacy preference. It does not exempt the applicant from accountability.
+The privacy-sensitive accommodation applies when standard outcome measurement would compromise the safety of the beneficiary population. It is not a general privacy preference. It does not exempt the applicant from obligation.
 
 ### Qualification Criteria
 
@@ -548,9 +548,9 @@ When the accommodation applies, two fields are mandatory (clustering rule trigge
 
 1. **Specific harm:** A named, specific harm that standard measurement would create for this population. Not "privacy risk" in general; the specific mechanism (for example: "collection of user location data would create a database that could be subpoenaed under [named legal regime] and used to identify participants in [specific activity]").
 
-2. **Alternative methodology:** A specific alternative measurement approach that provides accountability without creating the named harm. Must name an institutional partner or established methodology (for example: Open Observatory of Network Interference-style network measurement, ethics-reviewed study under institutional review board protocols, differential privacy techniques applied to aggregate reporting).
+2. **Alternative methodology:** A specific alternative measurement approach that provides obligation direction without creating the named harm. Must name an institutional partner or established methodology (for example: Open Observatory of Network Interference-style network measurement, ethics-reviewed study under institutional review board protocols, differential privacy techniques applied to aggregate reporting).
 
-The accommodation substitutes one accountability mechanism for another. It does not reduce accountability. An applicant who invokes it without supplying both mandatory fields has claimed an exemption that does not exist in CROSS.
+The accommodation substitutes one obligation mechanism for another. It does not reduce obligation. An applicant who invokes it without supplying both mandatory fields has claimed an exemption that does not exist in CROSS.
 
 ### Procedure
 
@@ -566,11 +566,11 @@ Run this procedure when evaluating a progress verification gate submission or co
 
 ### What to confirm before assessing evidence
 
-From the round specification, confirm: (a) the accountability mode; (b) the evidence scope required at this gate (output / usage / outcome / impact); (c) the evidence strength required (self-report with documentation / third-party verifiable / independent review / independent evaluation); and (d) whether an infrastructure declaration exists naming the verification contact.
+From the round specification, confirm: (a) the obligation mode; (b) the evidence scope required at this gate (output / usage / outcome / impact); (c) the evidence strength required (self-report with documentation / third-party verifiable / independent review / independent evaluation); and (d) whether an infrastructure declaration exists naming the verification contact.
 
 ### Evidence scope assessment
 
-**Output evidence:** Does a specified artifact exist? For build-accountability gates: is the deliverable publicly accessible from the named location? Does it meet the published completion criteria?
+**Output evidence:** Does a specified artifact exist? For build-obligation gates: is the deliverable publicly accessible from the named location? Does it meet the published completion criteria?
 
 **Usage evidence:** Is the deliverable being used by parties outside the applicant's control? Is the evidence independently accessible (on-chain data, named public analytics, named third-party corroboration)?
 
@@ -590,7 +590,7 @@ From the round specification, confirm: (a) the accountability mode; (b) the evid
 
 ### Critical rule for completion verification gates
 
-For build-accountability rounds: the gate must confirm that the specified deliverable is publicly accessible before final payment is released. Grantee self-assertion of public accessibility does not satisfy this requirement. A publicly accessible URL must be present and accessible.
+For build-obligation rounds: the gate must confirm that the specified deliverable is publicly accessible before final payment is released. Grantee self-assertion of public accessibility does not satisfy this requirement. A publicly accessible URL must be present and accessible.
 
 ### Gate evidence finding options
 
@@ -608,13 +608,13 @@ Use these terms consistently. Do not invent alternatives.
 
 **Entry specification gate findings:**
 
-Build accountability: Entry specification gate passes / Entry specification gate fails: direction specification without deliverable / Entry specification gate fails: underspecified completion criteria
+Build obligation: Entry specification gate passes / Entry specification gate fails: direction specification without deliverable / Entry specification gate fails: underspecified completion criteria
 
-Change accountability: Specific pass / Specific with minor gap / D1 failure / D2 failure / Insufficient information
+Change obligation: Specific pass / Specific with minor gap / D1 failure / D2 failure / Insufficient information
 
-Retroactive accountability: Entry specification gate passes / Entry specification gate fails: contribution description absent / Entry specification gate fails: independent evidence absent / Entry specification gate fails: prior award disclosure absent
+Retroactive obligation: Entry specification gate passes / Entry specification gate fails: contribution description absent / Entry specification gate fails: independent evidence absent / Entry specification gate fails: prior award disclosure absent
 
-**Rigor tier (change accountability post-gate):** Tier 1 / Tier 2 / Tier 3
+**Rigor tier (change obligation post-gate):** Tier 1 / Tier 2 / Tier 3
 
 **Dimension findings:** Active, conformant | Active, non-conformant | Active, conditionally conformant (with named conditions) | Not triggered
 
@@ -630,7 +630,7 @@ Retroactive accountability: Entry specification gate passes / Entry specificatio
 
 ## Relationship to Other Skills
 
-**Frame Language skill:** CROSS is a Frame 2 instrument. The FROM state requirement in change-accountability rounds is a structural application of the Frame Language inheritance principle: naming the actual condition rather than a projected aspiration. D2 failures in the change-accountability gate assessment are the same failure class Frame Language names as "values aspiration without conditions." Use Frame Language terminology when describing failure types in formal evaluation documents.
+**Frame Language skill:** CROSS is a Frame 2 instrument. The FROM state requirement in change-obligation rounds is a structural application of the Frame Language inheritance principle: naming the actual condition rather than a projected aspiration. D2 failures in the change-obligation gate assessment are the same failure class Frame Language names as "values aspiration without conditions." Use Frame Language terminology when describing failure types in formal evaluation documents.
 
 **Adverse Signal skill:** Dimension 5 of CROSS instantiates the Adverse-Signal Engagement Principle Core Standard. When Dimension 5 is active, the Adverse Signal skill provides the full assessment procedure.
 
@@ -646,7 +646,7 @@ Retroactive accountability: Entry specification gate passes / Entry specificatio
 
 Before generating any finding or recommendation:
 
-1. Confirm the accountability mode from the round specification. Apply the correct gate procedure from Part III.
+1. Confirm the obligation mode from the round specification. Apply the correct gate procedure from Part III.
 
 2. Confirm which task is requested and apply the correct procedure in full. Do not abbreviate the procedure because the application appears simple.
 
@@ -658,7 +658,7 @@ Before generating any finding or recommendation:
 
 6. Do not substitute the gate assessment for the rigor tier assessment, or the rigor tier assessment for the gate. They are sequential, not interchangeable.
 
-7. Do not apply change-accountability gate criteria to build-accountability applications. The Theory of Build is not a failure mode in build-accountability rounds.
+7. Do not apply change-obligation gate criteria to build-obligation applications. The Theory of Build is not a failure mode in build-obligation rounds.
 
 ---
 
