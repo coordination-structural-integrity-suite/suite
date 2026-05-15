@@ -37,7 +37,7 @@ Version 0.2.0 extends version 0.1.0 in three structural ways. First, CROSS now r
 
 CROSS is not a process standard. It does not specify how rounds are structured, how funds are distributed, or how funding decisions are made. CROSS specifies the content of obligation: what applicants must demonstrate, what funders must evaluate, what grantees must report, and how evidentiary pressure is structured across the funding lifecycle.
 
-Funder obligation maturation is trackable through CROSS. A funder operating within a conformant program records their gate configuration for each round. In programs operating within the Proof of Coordination protocol, gate configurations are tracked across rounds, making funder maturation visible to the field over time.
+Funder obligation maturation is trackable through CROSS. A funder operating within a conformant program records their gate configuration for each round. Funders who maintain a versioned round record can track gate configurations across rounds, making funder maturation visible to the field over time.
 
 ---
 

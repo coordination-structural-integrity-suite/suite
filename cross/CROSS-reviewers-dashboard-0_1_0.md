@@ -65,7 +65,7 @@ When a reviewer submits their final assessment for an application, the Dashboard
 
 ### Conflict of interest record in the evaluation output
 
-The evaluation record for each application includes a conflict of interest summary: which reviewers declared which relationships, which Tier 1 blocks applied, which Tier 2 waivers were granted, and which post-participation certifications were completed. This summary is part of the institutional record that transfers to the PoC vault (see Section 9).
+The evaluation record for each application includes a conflict of interest summary: which reviewers declared which relationships, which Tier 1 blocks applied, which Tier 2 waivers were granted, and which post-participation certifications were completed. This summary is part of the institutional record archived at round close (see Section 9).
 
 ---
 
@@ -159,7 +159,7 @@ Layer 2 investigates the following categories for each applicant:
 
 **On-chain usage data.** For applicants making on-chain usage claims: independent query of the claimed contract addresses or protocol addresses from named public blockchain data sources. Comparison against the applicant's stated baseline and target.
 
-**Prior grants and funding history.** Search across known grant history databases (Gitcoin grants data, KarmaGAP, on-chain treasury records where accessible) for prior grants to this applicant or this project. Cross-reference against the applicant's concurrent funding disclosure to identify any discrepancy. Prior Octant funding history is checked against the PoC vault records.
+**Prior grants and funding history.** Search across known grant history databases (Gitcoin grants data, KarmaGAP, on-chain treasury records where accessible) for prior grants to this applicant or this project. Cross-reference against the applicant's concurrent funding disclosure to identify any discrepancy. Prior funding history with this program is checked against available evaluation records.
 
 **Adverse signal investigation.** Independent search for adverse signals: prior rejections from comparable programs, published technical criticisms, community dispute records, documented coordinating conflicts, or negative due diligence findings that appear in public sources.
 
@@ -207,11 +207,11 @@ The following data is stored per evaluation session:
 - The conflict of interest declaration and post-participation certification for each reviewer-application pair
 - The evaluation stage open and close timestamps for the round
 
-### Sync to PoC vault
+### Archival to program record
 
-Completed evaluation records are synced to the Proof of Coordination vault as part of the institutional record. The sync occurs when the evaluation stage closes and the program administrator marks the round's evaluation records as ready for archival.
+Completed evaluation records are archived as part of the program's institutional record. The archival step occurs when the evaluation stage closes and the program administrator marks the round's evaluation records as ready.
 
-The sync writes each evaluation record to the vault in the format of the existing Epoch 12 evaluation files: markdown documents with frontmatter, organized by epoch or round, containing the investigation summary, rubric assessment, and recommendation. The vault record does not include raw AI outputs; it contains the reviewer's final assessment as submitted, with a metadata note indicating whether AI assistance was used and at which layers.
+The archival writes each evaluation record in a structured format organized by round, containing the investigation summary, rubric assessment, and recommendation. The archived record does not include raw AI outputs; it contains the reviewer's final assessment as submitted, with a metadata note indicating whether AI assistance was used and at which layers.
 
 The sync record includes the Layer 2 investigation as a separate linked document in the vault, preserving the research depth for institutional memory purposes. Future reviewers evaluating the same project in a subsequent round can retrieve the prior investigation record from the vault as context, rather than re-investigating sources that have already been checked.
 
@@ -322,8 +322,8 @@ Vault_Sync_Record {
 
 **Integration with the Grantee Dashboard.** The evaluation record produced by the Reviewers Dashboard is the source of the obligation registry contents in the Grantee Dashboard: conditions recorded in a "Fund with conditions" recommendation become the conditions tracked in the Grantee Dashboard's disbursement condition tracking. The connection between the two dashboards is the obligation registry creation step. Conditions must be exported from the Reviewers Dashboard in the format expected by the Grantee Dashboard's obligation registry schema.
 
-**PoC vault as the longitudinal institutional record.** The Proof of Coordination vault accumulates the investigation records from Layer 2 across rounds. A project that has been evaluated in multiple epochs has a growing investigation history in the vault: prior grant usage, prior repository activity snapshots, prior adverse signal checks. Future Layer 2 investigations for the same project can retrieve this history as context, making each successive evaluation more efficient and the investigation more longitudinally coherent. This is one of the concrete expressions of the funder maturation tracking capability noted in the CROSS standard's purpose section.
+**Longitudinal investigation record.** A program that maintains an investigation archive accumulates Layer 2 records across rounds. A project evaluated in multiple rounds has a growing investigation history: prior grant usage, prior repository activity snapshots, prior adverse signal checks. Future Layer 2 investigations for the same project can retrieve this history as context, making each successive evaluation more efficient and the investigation more longitudinally coherent. This is one of the concrete expressions of the funder maturation tracking capability noted in the CROSS standard's purpose section.
 
-**Supabase migration path.** The current Supabase storage architecture is documented as the present implementation, not the permanent one. The data model in Section 10 is designed to be portable: field names and types are specified independently of Supabase's internal representation, and the vault sync mechanism provides a durable copy in the PoC vault. A migration to alternative storage requires only implementing the same data model in the target store and updating the sync logic; no structural changes to the evaluation workflow are required.
+**Supabase migration path.** The current Supabase storage architecture is documented as the present implementation, not the permanent one. The data model in Section 10 is designed to be portable: field names and types are specified independently of Supabase's internal representation, and the archival mechanism provides a durable copy in the program record. A migration to alternative storage requires only implementing the same data model in the target store and updating the sync logic; no structural changes to the evaluation workflow are required.
 
-**AI assistance maturation.** The three-layer AI assistance model is specified at a level of capability available at the time of this document. Layer 2 in particular is calibrated to the current manual investigation practice for Epoch 12 evaluations. As investigation tooling improves (deeper on-chain data access, improved cross-program grant history databases, better adverse signal corpora), the Layer 2 specification should be updated to reflect the expanded investigation capability. The calibration baseline is always the most recent cycle of completed manual evaluations in the PoC vault.
+**AI assistance maturation.** The three-layer AI assistance model is specified at a level of capability available at the time of this document. Layer 2 in particular is calibrated to the current manual investigation practice for Epoch 12 evaluations. As investigation tooling improves (deeper on-chain data access, improved cross-program grant history databases, better adverse signal corpora), the Layer 2 specification should be updated to reflect the expanded investigation capability. The calibration baseline is always the most recent cycle of completed manual evaluations available in the program record.

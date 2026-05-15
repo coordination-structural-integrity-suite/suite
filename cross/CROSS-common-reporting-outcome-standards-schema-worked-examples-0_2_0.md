@@ -16,7 +16,7 @@ Version 0.2.0 | 2026-05-14 | CC0
 
 These examples illustrate CROSS criteria through real grant evaluation cases. Each case identifies the criterion illustrated, states the finding from evaluation, specifies the CROSS assessment, and shows what a conformant approach would have looked like. Cases are drawn from Octant Epoch 12 grant evaluations conducted in May 2026.
 
-All six cases in this edition are drawn from rounds operating in change-obligation mode or from the boundary between build and change obligation. Cases illustrating build-obligation and retroactive obligation rounds will be added as examples from those program types accumulate in the PoC vault. The entry specification gate findings in these cases use the change-obligation vocabulary (FROM state classification) unless otherwise noted.
+All six cases in this edition are drawn from rounds operating in change-obligation mode or from the boundary between build and change obligation. Cases illustrating build-obligation and retroactive obligation rounds will be added as examples from those program types are evaluated and documented. The entry specification gate findings in these cases use the change-obligation vocabulary (FROM state classification) unless otherwise noted.
 
 Each case can be read independently. The recommendation vocabulary throughout is: Fund / Fund with conditions / Do not fund.
 
