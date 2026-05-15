@@ -75,7 +75,7 @@ These standards do not specify coordination outcomes. They specify structural co
 
 ## Who these standards are for
 
-Every governance system that has failed believed it was adequate before it failed. FTX had governance documentation. Terra/Luna had economic theory. GravityDAO had values and processes. Every DAO that required emergency conflict transformation had a community that believed it had a community. The belief that structural failure modes do not apply to a specific system is not irrational from inside that system: it is the predictable output of the mechanisms those failure modes create. Organizations experiencing structural blindness do not experience it as blindness. They experience it as clarity.
+Every coordination system that has failed believed it was adequate before it failed. FTX had process documentation. Terra/Luna had economic theory. GravityDAO had values and processes. Every DAO that required emergency conflict transformation had a community that believed it had a community. The belief that structural failure modes do not apply to a specific system is not irrational from inside that system: it is the predictable output of the mechanisms those failure modes create. Organizations experiencing structural blindness do not experience it as blindness. They experience it as clarity.
 
 These standards are designed primarily for organizations that do not currently believe they have a structural problem. Organizations already in crisis can use them, but the organizations most likely to benefit are the ones convinced their coordination is structurally sound.
 
@@ -123,7 +123,7 @@ Five documents support the standards as a system rather than as individual instr
 
 **Suite Integration Guide** describes how the ten standards relate to each other structurally: which standards depend on which for reliable detection, what the detection reliability dependencies mean for audit confidence, five adoption entry points organized by organizational pain, and how to navigate the suite as a system rather than a collection of independent instruments.
 
-**Suite Deployment Contexts** is the practice-level companion for standards selection. It organizes the suite by the purposes you are trying to achieve rather than by structural layer: which standards to deploy together for adverse signal surfacing, governance disputes, governance capture, invisible work and contributor burnout, and decision-making without adequate information. Includes calibration guidance for tensegrity type, battery state, and substrate profile.
+**Suite Deployment Contexts** is the practice-level companion for standards selection. It organizes the suite by the purposes you are trying to achieve rather than by structural layer: which standards to deploy together for adverse signal surfacing, coordination disputes, coordination capture, invisible work and contributor burnout, and decision-making without adequate information. Includes calibration guidance for tensegrity type, battery state, and substrate profile.
 
 **Conflict Transformation Preconditions Specification** is a downstream operational specification for the Conflict Transformation Standard. It translates the standard's five structural invariants into six precondition domains that practitioners assess before deploying any specific conflict transformation process: container design, scale proportion, process mode selection, traversal mode selection, threshold management, and the continuous consent loop.
 
@@ -155,7 +155,7 @@ If you are deciding where to begin, map your primary pain to the standards most 
 
 **Signals are being suppressed or dismissed.** Start with the Adverse-Signal Engagement Principle Core Standard and Four Batteries Capacity Standard together. Suppressed signals are both a structural engagement failure and a Relational Battery failure. Instrumenting only the Adverse-Signal Engagement Principle Core Standard will show false compliance. Instrumenting only Four Batteries will show the depletion without naming the structural obligation to engage despite it.
 
-**Governance capture or authority concentration.** Start with the Structural Power Obligation Standard and Structural Consent Legibility Standard together. These address the two primary mechanisms of capture: authority accumulation across the three power dimensions, and consent that is formally present but structurally hollow.
+**Coordination capture or authority concentration.** Start with the Structural Power Obligation Standard and Structural Consent Legibility Standard together. These address the two primary mechanisms of capture: authority accumulation across the three power dimensions, and consent that is formally present but structurally hollow.
 
 **Invisible work and contributor burnout.** Start with the Four Batteries Capacity Standard and Regenerative Obligation Standard together. The Hidden Factory dynamic is the Four Batteries presentation; the extraction floor is what the Regenerative Obligation Standard closes.
 

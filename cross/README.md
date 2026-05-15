@@ -6,7 +6,7 @@ Most grant programs have a funding process but no accountability standard. They 
 
 CROSS is a standard for grant accountability. It answers three questions that every grant program must answer but rarely specifies: what must an applicant demonstrate before funding is approved, what must a grantee report during the grant, and what evidence must a funder actually evaluate before releasing each payment. It does this across three types of grants: grants for building something specific, grants for producing a measurable change in the world, and grants recognizing work already done.
 
-CROSS does not tell programs how to run their governance, how to score applications, or how to distribute funds. It specifies the content of accountability at each stage of the funding lifecycle, and makes that content portable across programs so that grantees, funders, and evaluators work from the same definitions.
+CROSS does not tell programs how to structure their coordination, how to score applications, or how to distribute funds. It specifies the content of accountability at each stage of the funding lifecycle, and makes that content portable across programs so that grantees, funders, and evaluators work from the same definitions.
 
 ---
 
