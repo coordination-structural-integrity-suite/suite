@@ -4,7 +4,7 @@
 
 Regis Chapman (Durgadas)
 
-Version 2.1.7 | April 2026
+Version 2.2.0 | May 2026
 
 # Preamble
 
@@ -162,9 +162,19 @@ A trusted interpretive intermediary is an entity that satisfies three conditions
 
 An independent observer is a party that satisfies three conditions: no direct interest in the outcome of the classification or determination, meaning their conclusion does not materially affect their own position within the governed system; access limited to the definition and observable evidence, meaning they cannot and do not consult the author's intent, unpublished context, or privileged information to reach their determination; and structural distinctness from the governed system's decision-making body, meaning they do not hold a role that gives them authority over the outcome they are assessing. The independent observer test is the operational criterion for whether a standard has achieved falsifiability: if the determination requires anything beyond definition plus evidence, the standard has a precision deficit at that point.
 
-# 3. Why Precision is Foundational, Not Supplementary
+# 3. Method-Structure Congruence
 
-## 3.1 The gauge block analogy
+The precision-first invariant addresses the artifact: what an instrument must be for violations to be detectable and compliance to be meaningful. A prior condition applies to the act of producing the artifact: the epistemic method used must match the structural character of what is being known at that stage. This is not a preference for one reasoning mode over another. It is a precision condition on the act of knowing itself.
+
+The critical property of a method-structure mismatch is that it is self-concealing. An instrument built by a mismatched method produces output that is complete within its own terms. The content a congruent method would have generated was never produced, and its absence leaves no gap marker. A specification built by enumerating observed instances, where structural analysis of causal relationships was required, will be internally coherent and systematically blind to novel failure modes, adversarial conditions, and causal relationships not present in the observational premises. The gap is absent, not visible as absent. Internal review cannot surface it; only a change of method can.
+
+> ***The epistemic method applied at any stage of a precision-governed activity must match the structural character of what is being known at that stage. A method-structure mismatch fails in two directions. A congruence deficit occurs when an epistemically weaker method is applied to a problem whose structural character requires a stronger one: the output is complete within the method's terms while being structurally blind to content the congruent method would have generated, and the absence is self-concealing. A congruence imposition occurs when an epistemically more demanding method is applied to a problem whose structural character does not warrant it: the output acquires apparent structural depth that reflects the method's requirements rather than the phenomenon's character, producing false precision. The congruence requirement is met when the method used is the weakest one sufficient to generate the content the stage requires.***
+
+The precision-first invariant and method-structure congruence are not redundant. The invariant tests the artifact: can violations be detected, and does compliance demonstrate the coordination purpose is being served? Congruence tests the process that produced the artifact: was the method used capable of generating the content the stage required? An artifact can satisfy the invariant within the content it contains while failing congruence by containing content selected for by the method rather than by the structural character of the problem.
+
+# 4. Why Precision is Foundational, Not Supplementary
+
+## 4.1 The gauge block analogy
 
 In precision machining, a Johansson gauge block (also called a Jo block or slip gauge) is a ground steel block whose faces are manufactured flat and parallel to a tolerance measured in millionths of an inch. These blocks are not useful in isolation. Their value comes from a property called wringing: when two blocks are slid together with a slight twist, molecular adhesion causes them to stick, and a set of gauge blocks can be combined to produce any measurement to high precision. The set is self-verifying: each block can be calibrated against the others without an external authority.
 
@@ -172,7 +182,7 @@ A precision-first system works on the same principle. Each precisely defined fra
 
 There is a specific mistake this analogy helps name. A builder who achieves precision at one layer sometimes assumes that precision transfers upward without additional work, as if a precisely ground gauge block guarantees that the assembly built from it will be equally precise. It does not. Each new layer must specify its own tolerances, must verify that the joints between layers meet those tolerances, and must be calibrated against the layer below. Precision at layer N is a necessary but not sufficient condition for precision at layer N+1. The failure to treat each layer as requiring its own specification is a distinct class of precision error: not a deficit at the foundational layer, but an inheritance assumption that carries the deficit forward invisibly. Governance stacks, software architectures, and protocol specifications all exhibit this failure mode: a precise lower-layer standard is cited, the upper layer is treated as inheriting its precision by association, and the gap between them becomes the exploitable zone.
 
-## 3.2 Precision enables detection; detection closes the obligation loop
+## 4.2 Precision enables detection; detection closes the obligation loop
 
 The causal chain from precision to obligation loop closure is direct. A precisely defined standard can be violated in a falsifiable way. A falsifiable violation can be detected. A detected violation can trigger a response. A response can be evaluated for proportionality against the violation. Obligation loop closure is the name for this whole chain operating correctly.
 
@@ -180,7 +190,7 @@ Remove precision from the first link and the chain does not merely weaken; it br
 
 This is not an abstract concern. The obligation loop failures that motivated this standard, documented across coordination systems, platform moderation, standards bodies, regulatory frameworks, and coordination protocols, were made possible by precision deficits in the systems that were supposed to prevent them. The precision deficit is not a symptom of coordination failure; it is the mechanism.
 
-## 3.3 Precision as a proactive strategy, not a bureaucratic overhead
+## 4.3 Precision as a proactive strategy, not a bureaucratic overhead
 
 A common objection to precision-first design is that it slows down development. This objection confuses upfront specification with bureaucratic overhead. The comparison class is not "no specification" but "specification now versus specification after the first governance failure." Post-failure specification includes the costs of the failure itself, the adversarial negotiation of the remedial definition, and the reputational damage to the system's credibility.
 
@@ -188,11 +198,11 @@ Precision-first design is, in expected-value terms, the cheaper path. It shifts 
 
 There is a second, less obvious function of a named precision standard: it provides system designers with structural permission to do upfront what they would otherwise only do reactively. In the absence of a shared standard, the designer who insists on operational definitions before deployment appears to be imposing overhead. The standard changes this. It gives the designer a reference: this is not personal preference; it is a named condition that any serious governed system must satisfy. Theodore Porter's historical analysis of quantification in public life makes this dynamic explicit. Precise, publicly legible standards substitute for personal trust; they allow obligation loop closure to function across actors who do not know each other and cannot rely on interpretive goodwill. This is the condition that many modern systems have created at scale, and that precision-first design addresses at the specification layer.
 
-# 4. Five Frameworks That Instantiate Precision-First Design
+# 5. Five Frameworks That Instantiate Precision-First Design
 
 The following frameworks are cited as exemplars of precision-first design because each replaces a vague normative concept with a typed, operationally defined construct. They are not the only such frameworks; they are examples of what precision-first specification looks like in practice. Each is briefly described with its precision contribution made explicit.
 
-## 4.1 Ostrom's Design Principles for Commons Governance
+## 5.1 Ostrom's Design Principles for Commons Governance
 
 **Source:** Ostrom, Elinor. *Governing the Commons.* Cambridge University Press, 1990.
 
@@ -202,7 +212,7 @@ The eight principles are: (1) clearly defined boundaries for the governed consti
 
 The precision contribution of Ostrom's framework is that each principle is a checkable structural condition, not a normative aspiration. A governance system can be evaluated against each of the eight conditions independently, and the result is a partial order of structural adequacy rather than a holistic judgment.
 
-## 4.2 Wheel of Consent
+## 5.2 Wheel of Consent
 
 **Source:** Martin, Betty. *The Art of Receiving and Giving: The Wheel of Consent.* Luminare Press, 2021.
 
@@ -212,7 +222,7 @@ The two axes are who is doing the action and who the action is for. Their inters
 
 The precision contribution is that "consent" is decomposed into a typed structure where each state is distinguishable from adjacent states. An interaction can be classified without reference to how it felt or what the parties intended; the classification depends only on the observable structure of who was doing and who it was for, and whether that structure was explicitly agreed. This makes consent analysis falsifiable in contexts where it previously depended on post-hoc interpretation.
 
-## 4.3 OCAP
+## 5.3 OCAP
 
 **Source:** First Nations Information Governance Centre. *OCAP Principles.* fnigc.ca.
 
@@ -222,7 +232,7 @@ The precision contribution is that each axis can be satisfied or violated indepe
 
 OCAP applies wherever data moves between parties with different interests: software platforms handling user data, research institutions working with community-generated datasets, governance systems collecting participation records, and any system that produces outputs that travel beyond the originating constituency.
 
-## 4.4 CARE Principles for Indigenous Data Governance
+## 5.4 CARE Principles for Indigenous Data Governance
 
 **Source:** Carroll, S.R. et al. "The CARE Principles for Indigenous Data Governance." *Data Science Journal,* 2020.
 
@@ -232,7 +242,7 @@ The precision contribution is that "ethical use" is decomposed into four indepen
 
 CARE is particularly relevant for any system that aggregates individual participation records into collective outputs: reputation systems, coordination metrics, behavioral analytics, and governance participation records. In each case, the question is not merely whether the use is ethical in the abstract but whether each of the four conditions is met for the specific originating constituency.
 
-## 4.5 The Adverse-Signal Engagement Principle: A Worked Example of the Conversion Process
+## 5.5 The Adverse-Signal Engagement Principle: A Worked Example of the Conversion Process
 
 Source: Chapman, Regis Lloyd (Durgadas). Adverse-Signal Engagement Principle (ASEP) Core Standard. v0.5.4, March 2026.
 
@@ -242,21 +252,21 @@ The Adverse-Signal Engagement Principle is included here not as a fifth framewor
 
 The Adverse-Signal Engagement Principle also applies the precision-first standard recursively: failures of its own process are adverse signals under the same standard. A standard that is precise enough to detect its own violations is self-calibrating in the same way that a set of gauge blocks is self-calibrating. This property is a design goal, not an accident.
 
-# 5. Applying Precision-First Design
+# 6. Applying Precision-First Design
 
-This section introduces two parallel frameworks that operate independently: three adoption depths (Section 5.1) describing the quality and thoroughness of precision-first specification work, and five obligation loop tiers (Section 5.5) describing the obligation loop an organization maintains around detected deficits. An organization can operate at any combination of depth and tier. Section 5.1 maps the relationship between the two before either is fully specified.
+This section introduces two parallel frameworks that operate independently: three adoption depths (Section 6.1) describing the quality and thoroughness of precision-first specification work, and five obligation loop tiers (Section 6.5) describing the obligation loop an organization maintains around detected deficits. An organization can operate at any combination of depth and tier. Section 6.1 maps the relationship between the two before either is fully specified.
 
-## 5.1 Adoption depths
+## 6.1 Adoption depths
 
 Precision-first design can be applied at three depths, which describe how thoroughly the precision-first principle is integrated into an organization's specification practice. These adoption depths are distinct from the five-tier obligation loop framework shared across the Tensegrity Compressive Standards within the Coordination Structural Integrity Suite (see the standards README); the depths describe quality of specification work, while the tiers describe the organization's obligation loop closure. An organization can operate at any combination of adoption depth and tier.
 
-Level 1, auditing, involves reviewing an existing document, system, or process for precision deficits: terms that are normative but not operationally defined, detection instruments that cannot specify what they would not detect, and governance processes with unspecified discretion points. The output is a precision deficit map: a structured list of the places where obligation loop closure is structurally unachievable in the current specification. A Level 1 audit is complete when the precision review checklist has been applied to every normative element in the document and the output is a precision deficit map recording each deficit identified, its location, and its pattern type per Section 6.
+Level 1, auditing, involves reviewing an existing document, system, or process for precision deficits: terms that are normative but not operationally defined, detection instruments that cannot specify what they would not detect, and governance processes with unspecified discretion points. The output is a precision deficit map: a structured list of the places where obligation loop closure is structurally unachievable in the current specification. A Level 1 audit is complete when the precision review checklist has been applied to every normative element in the document and the output is a precision deficit map recording each deficit identified, its location, and its pattern type per Section 7.
 
-Level 2, remediation, involves resolving identified precision deficits by replacing vague terms with operational definitions, adding typed taxonomies to replace holistic judgments, and specifying the conditions for each discretionary decision point. The five frameworks in Section 4 are tools for remediation: each one provides a typed structure that can replace a class of vague normative language. A Level 2 remediation is complete when every deficit in the precision deficit map has either a documented resolution or a documented acceptance with rationale and a specified timeline for revisiting.
+Level 2, remediation, involves resolving identified precision deficits by replacing vague terms with operational definitions, adding typed taxonomies to replace holistic judgments, and specifying the conditions for each discretionary decision point. The five frameworks in Section 5 are tools for remediation: each one provides a typed structure that can replace a class of vague normative language. A Level 2 remediation is complete when every deficit in the precision deficit map has either a documented resolution or a documented acceptance with rationale and a specified timeline for revisiting.
 
 Level 3, design-time adoption, involves treating precision as a prerequisite for publication rather than a post-publication refinement. At this level, no element of a specification is considered complete until it is operationally defined. The test is: can an independent observer, using only this document and observable evidence, determine whether this condition is satisfied or violated? A Level 3 process is operating correctly when no specification element is published without first satisfying the checklist, and when that requirement is enforceable without depending on the good judgment of the author.
 
-## 5.2 The precision review checklist
+## 6.2 The precision review checklist
 
 For organizations at Tier 1 or Tier 2, the following questions are recommended before publishing or deploying a governance rule, software specification, or standards document. For organizations at Tier 3 and above, the checklist is required: a specification element is not considered complete until each applicable question has a yes answer or the deficit is documented per the deficit recording requirements of the adopted tier.
 
@@ -270,11 +280,13 @@ For organizations at Tier 1 or Tier 2, the following questions are recommended b
 
 -   For each process, are the conditions for initiation, continuation, and conclusion operationally defined, or does the process depend on discretion at any step?
 
--   For each term that expresses a value judgment or quality assessment not determinable by observable evidence alone (such as fair, reasonable, transparent, or ethical), is there a typed decomposition that replaces the term with independently evaluable conditions? Terms identified as normative through this criterion in specific adoption contexts are candidates for addition to the illustrative list through the extension process in Section 6.
+-   For each term that expresses a value judgment or quality assessment not determinable by observable evidence alone (such as fair, reasonable, transparent, or ethical), is there a typed decomposition that replaces the term with independently evaluable conditions? Terms identified as normative through this criterion in specific adoption contexts are candidates for addition to the illustrative list through the extension process in Section 7.
+
+-   For each precision requirement derived from this standard, is the non-harming dimension explicitly stated in the element itself, including identification of which parties would bear the cost of each failure direction? A precision requirement from which the harmed parties cannot be identified without consulting the foundational principle has not been derived from the unified precision and non-harming principle; it has been derived from the precision dimension only. The non-harming dimension is operative in a derived element only when the specific cost-bearing parties are named within the element, not by reference to the invariant or to Section 2.
 
 For organizations at Tier 1 or Tier 2, a "no" answer to any of these questions identifies a precision deficit to be recorded in the precision deficit map. For organizations at Tier 3 and above, a "no" answer must be resolved before publication, or documented as a known gap with a specified timeline for resolution and entered into the deficit record per the requirements of the adopted tier.
 
-## 5.3 Precision-first in coordination update processes
+## 6.3 Precision-first in coordination update processes
 
 Coordination change processes (amendment procedures, proposal systems, parameter updates, and analogues) are particularly susceptible to precision degradation over time. Each change introduces an opportunity to add vague language, collapse previously distinct categories, or substitute normative assertions for operational definitions.
 
@@ -286,7 +298,7 @@ Precision failures have different complexity profiles, and the appropriate preci
 
 A maturity assessment is valid under this standard if it satisfies two conditions. First, it must be based on observable indicators: documented instances of the practice operating as intended, identified failure modes, and a pattern of outcomes in which the conditions for success and failure have been named in at least one documented instance. Second, it must itself be a documented coordination decision: the determination that a practice has matured enough to warrant higher precision is recorded, attributed, and revisable as new evidence accumulates. A specification is operating at the appropriate precision level for an emergent practice when no valid maturity assessment exists yet and over-specifying would foreclose understanding that the practice has not yet generated. As practices generate valid maturity assessments, the expected precision level should increase correspondingly. Coordination change processes should evaluate precision against the maturity of the process being specified: is this specification as precise as the current maturity assessment warrants, without being more precise than it can support?
 
-## 5.4 Precision-first in software development
+## 6.4 Precision-first in software development
 
 In software development, precision-first design maps onto familiar practices with a specific frame added: the distinction between operational definitions and normative aspirations. Requirements specifications should distinguish between operational definitions (what the system must be capable of detecting or producing) and normative aspirations (what the system should do in a value sense). Acceptance criteria should be stated in terms that an independent tester can evaluate without access to the original author's intent.
 
@@ -294,11 +306,11 @@ API contracts, data schemas, and event taxonomies are precision instruments. A s
 
 Error handling is a precision domain. A system that logs errors as "unexpected error" without classification has reduced its own observability. A system that distinguishes error classes by their structural signature, their detectability at different layers, and their recovery procedures is operating at a higher precision level and will be easier to monitor, audit, and improve.
 
-## 5.5 Obligation loop tier requirements
+## 6.5 Obligation loop tier requirements
 
-The five-tier obligation loop framework (Assessed through Auditable) describes the organization's obligation loop closure around precision deficits. These tiers are distinct from the three adoption depths in Section 5.1 and operate independently: an organization can be at any depth and any tier simultaneously. The bridging relationship is that Tier 3 (Instrumented) broadly corresponds to Level 3 adoption depth: both require real-time observability of the organization's precision state. The tier names use the prefix PFDS (Precision-First Design Standard).
+The five-tier obligation loop framework (Assessed through Auditable) describes the organization's obligation loop closure around precision deficits. These tiers are distinct from the three adoption depths in Section 6.1 and operate independently: an organization can be at any depth and any tier simultaneously. The bridging relationship is that Tier 3 (Instrumented) broadly corresponds to Level 3 adoption depth: both require real-time observability of the organization's precision state. The tier names use the prefix PFDS (Precision-First Design Standard).
 
-**PFDS-Assessed (Tier 1).** The organization has mapped its governance documents against the standard. The precision review checklist (Section 5.2) has been applied, and a precision deficit map exists. No process changes are required at this tier. No conformance claim is made.
+**PFDS-Assessed (Tier 1).** The organization has mapped its governance documents against the standard. The precision review checklist (Section 6.2) has been applied, and a precision deficit map exists. No process changes are required at this tier. No conformance claim is made.
 
 **PFDS-Operational (Tier 2).** The organization has defined processes for identifying and tracking precision deficits. Deficits identified through the checklist or audit process are recorded in a durable form with document, location, deficit type, and date identified. The deficit record is maintained as new documents are published.
 
@@ -310,11 +322,11 @@ The defining property of PFDS-Loop-Closed is that detected precision deficits pr
 
 Every precision deficit identified through the detection architecture must receive a documented coordination decision within a defined window. A window is valid under PFDS-Loop-Closed if it satisfies three conditions: it is specified before any adoption claim is made; it is publicly documented so that any coordination actor can verify whether the system is meeting its own stated commitment; and it is short enough that inaction within it is detectable before the next decision cycle in which the underlying deficit could compound. The adopting system must define its decision cycle length in the same public documentation that specifies the window, as the two specifications are co-dependent: a window length cannot be evaluated against the third condition without a documented cycle length. A system that has not characterized its own decision cycle length cannot satisfy the third condition and does not meet PFDS-Loop-Closed.
 
-The decision must record: the deficit identifier, the document and location, the deficit type per the precision failure taxonomy in Section 6, the decision made, the actor or body responsible, and the rationale.
+The decision must record: the deficit identifier, the document and location, the deficit type per the precision failure taxonomy in Section 7, the decision made, the actor or body responsible, and the rationale.
 
 Three decision outcomes are permissible: remediation (the deficit is closed, with a record of the revision made), acceptance with rationale (the deficit is acknowledged as tolerable at current stage, with explicit rationale and a specified timeline for revisiting), and deferral (the deficit is acknowledged, with a specified timeline and the condition under which it will be revisited). A decision that a deficit is not actually a deficit is also permissible, with rationale. The absence of any decision within the defined window is not a permissible outcome.
 
-The absence of a documented decision within the defined window must be automatically visible to all coordination actors without requiring any actor's initiation. A precision deficit that has exceeded its decision window without a recorded response is itself a precision deficit under Section 6.1 (normative substitution): the coordination decision process has a normative obligation without a specified procedure. That gap is entered into the deficit record and begins its own decision cycle. A system in which an overdue deficit requires a human decision to be flagged has not closed the obligation loop and does not meet PFDS-Loop-Closed.
+The absence of a documented decision within the defined window must be automatically visible to all coordination actors without requiring any actor's initiation. A precision deficit that has exceeded its decision window without a recorded response is itself a precision deficit under Section 7.1 (normative substitution): the coordination decision process has a normative obligation without a specified procedure. That gap is entered into the deficit record and begins its own decision cycle. A system in which an overdue deficit requires a human decision to be flagged has not closed the obligation loop and does not meet PFDS-Loop-Closed.
 
 The deficit and decision records are append-only. Decisions cannot be modified after recording; corrections are recorded as new entries referencing the original. Remediations reference both the deficit entry and the revised document version.
 
@@ -328,33 +340,33 @@ The auditor must be able to verify response completeness: that every deficit in 
 
 Audit scope, findings, and system response to findings are documented and retained in the coordination record under the same append-only constraints as documented decisions. Audit reports are made available to the organization's participant population within a defined period after audit completion.
 
-# 6. Precision Failures: Recognition and Response
+# 7. Precision Failures: Recognition and Response
 
 The following patterns are the currently documented precision failure classes. Each is described with its structural signature and the typical response it enables. Additional classes may be identified and added through the same process used to establish these: structural signature specification, boundary articulation against adjacent classes, and response specification. Changes to this taxonomy are among the highest-consequence structural changes available to an adopting system, because they define what the standard can and cannot detect.
 
-**Extension coordination.** The criteria for adding new precision failure patterns are specified above. Decision authority over new pattern proposals currently sits with the adopting organization: each adopting organization applies the criteria above to evaluate candidate patterns in its own operational context. A canonical extension process with cross-organizational coordination is a known gap in this version of the standard and is addressed in the Standards Coordination document (in development). Organizations that identify candidate patterns meeting the criteria above are encouraged to document them and share them through the feedback channel specified in Section 8.
+**Extension coordination.** The criteria for adding new precision failure patterns are specified above. Decision authority over new pattern proposals currently sits with the adopting organization: each adopting organization applies the criteria above to evaluate candidate patterns in its own operational context. A canonical extension process with cross-organizational coordination is a known gap in this version of the standard and is addressed in the Standards Coordination document (in development). Organizations that identify candidate patterns meeting the criteria above are encouraged to document them and share them through the feedback channel specified in Section 9.
 
-## 6.1 Normative substitution
+## 7.1 Normative substitution
 
 Pattern: A typed construct is replaced with a normative term. Example: "the system must provide meaningful transparency" replaces "the system must publish X, Y, and Z in format F within T days." Structural signature: the new term cannot be violated in a falsifiable way. Response: identify what the normative term was intended to require, decompose it into independently evaluable conditions, and specify each condition operationally.
 
-## 6.2 Category collapse
+## 7.2 Category collapse
 
 Pattern: Two previously distinct categories are merged, either explicitly or by treating them as interchangeable in practice. Structural signature: cases that were handled differently under the prior taxonomy are now handled identically, but the cases are not identical. Response: restate the distinction, specify the criterion for assignment to each category, and retroactively classify the merged cases.
 
-## 6.3 Discretion point accumulation
+## 7.3 Discretion point accumulation
 
 Pattern: Over successive revisions, a process accumulates unspecified discretion points where the outcome depends on the judgment of a particular party. Structural signature: the process description uses language like "as appropriate," "at the committee's discretion," or "subject to review" without specifying the criteria for the discretionary determination. Response: for each discretion point, either specify the criteria operationally or acknowledge it as a zone of bounded discretion and specify the response obligation for that zone. A discretion zone is bounded in the sense this pattern requires if three conditions are met: the criteria that would eliminate the discretion cannot be operationally specified because they depend on situational conditions that are not knowable until the situation is encountered, making pre-specification structurally impossible rather than merely deferred; the actor exercising the discretion holds a named response obligation for its exercise, meaning their decision is recorded, attributed, and subject to challenge through a specified mechanism; and the perimeter of the discretionary zone is itself operationally defined, so that an independent observer can determine whether a given decision falls inside or outside the zone without interpretive judgment.
 
-## 6.4 Detection instrument degradation
+## 7.4 Detection instrument degradation
 
 Pattern: A detection instrument is modified so that its sensitivity decreases or its false-negative rate increases, without acknowledging this as a change to the system's measurement capability. Structural signature: the modified instrument would not detect events that the prior instrument would have detected, but the change is framed as a refinement rather than a reduction. Response: require that any change to a detection instrument include a specification of its false-negative boundary before and after the change.
 
-## 6.5 Inheritance without specification
+## 7.5 Inheritance without specification
 
 Pattern: A document or system claims to inherit or comply with a standard without specifying which provisions apply, how they map to the local context, and how compliance is determined. Structural signature: the inheritance claim is not falsifiable because there is no operational specification of what compliance requires. Response: require that any inheritance claim include a mapping from the inherited standard's provisions to the local system's elements such that an independent observer can determine, for each provision of the inherited standard: whether it applies to the local system; how it maps to a specific local element; and what observable condition constitutes compliance. If any of those three determinations requires access to the author's intent, the mapping does not satisfy this requirement.
 
-# 7. Relationship to Existing Standards and Frameworks
+# 8. Relationship to Existing Standards and Frameworks
 
 Standards bodies have been producing governance and specification standards for over a century. ISO, IEEE, W3C, NIST, and their domain-specific equivalents have generated frameworks of value, many of which exhibit high precision within their defined scope. This standard does not compete with them. It provides a meta-criterion for evaluating any of them: how precisely does this standard define the dynamics it governs, and where does it leave violations undetectable and responses structurally unnamed?
 
@@ -366,17 +378,17 @@ What this looks like in practice differs by domain. In decentralized governance,
 
 In each case the structural signature is the same: a precision deficit creates pressure, the pressure generates compensatory responses, and the responses become load-bearing before the deficit is named. This standard provides the instrument for naming it.
 
-# 8. Adoption and Attribution
+# 9. Adoption and Attribution
 
 This standard is offered for adoption by any team, organization, legal drafter, or standards body in any domain where detection gaps are traceable to precision deficits. Adoption does not require acknowledgment of this document, though attribution to the underlying frameworks (Ostrom, Martin, FNIGC, Carroll et al.) should follow the citation practices of the adopting domain.
 
-Organizations that adopt this standard are encouraged to produce a precision deficit map of their existing specifications (see Section 5.1, Level 1 adoption depth) as their first action. This map creates a baseline against which future precision improvements can be measured.
+Organizations that adopt this standard are encouraged to produce a precision deficit map of their existing specifications (see Section 6.1, Level 1 adoption depth) as their first action. This map creates a baseline against which future precision improvements can be measured.
 
-Adoption of this standard in conjunction with a formal coordination update process should include the precision criterion from Section 5.3 as an explicit evaluation criterion for all proposed changes. This prevents normative drift over time by building precision maintenance into the change process itself.
+Adoption of this standard in conjunction with a formal coordination update process should include the precision criterion from Section 6.3 as an explicit evaluation criterion for all proposed changes. This prevents normative drift over time by building precision maintenance into the change process itself.
 
-Feedback on this standard, including candidate precision failure patterns meeting the criteria in Section 6, may be submitted via the Standards Feedback discussion category at https://github.com/coordination-structural-integrity-suite/suite/discussions.
+Feedback on this standard, including candidate precision failure patterns meeting the criteria in Section 7, may be submitted via the Standards Feedback discussion category at https://github.com/coordination-structural-integrity-suite/suite/discussions.
 
-# 9. Citation Practice
+# 10. Citation Practice
 
 Documents adopting this standard, and all documents within the corpus of standards to which this standard belongs, follow a citation practice designed to eliminate reference staleness as a structural maintenance cost.
 
@@ -386,9 +398,9 @@ Documents adopting this standard, and all documents within the corpus of standar
 
 **Self-referential citations** (inheritance clauses and version-specific commitments within a document) cite the specific version of the document at the time of adoption, since the commitment is to a specific instantiation.
 
-A reference that cites a specific version in prose rather than following this practice is a precision deficit under Section 6.1: it substitutes a version-bound assertion for a structure that would remain accurate across updates. The bibliography is the appropriate place for version specificity; prose references should be version-agnostic except where a normative floor is required.
+A reference that cites a specific version in prose rather than following this practice is a precision deficit under Section 7.1: it substitutes a version-bound assertion for a structure that would remain accurate across updates. The bibliography is the appropriate place for version specificity; prose references should be version-agnostic except where a normative floor is required.
 
-# 10. Inheritance Clause
+# 11. Inheritance Clause
 
 Documents and systems that adopt this standard may include the following statement to make their adoption explicit:
 
@@ -398,7 +410,7 @@ The inheritance clause is optional for general adoption. It is recommended for g
 
 Adoption of this standard at any tier below the full Tensegrity Compressive Standards threshold (Tier 4, Loop-Closed, across all seven Tensegrity Compressive Standards) does not constitute full Tensegrity Compressive Standards conformance and does not reduce structural exposure from uncovered standards. Systems in partial adoption are required to produce a structural exposure disclosure in place of a conformance claim. The specification for a substantive disclosure is in the standards README.
 
-# 11. From Precision to Metrology
+# 12. From Precision to Metrology
 
 This document is a precision standard. Its larger ambition is metrological. Before explaining what that means, a brief orientation is warranted, because the word itself is not common outside technical measurement disciplines.
 
@@ -473,6 +485,8 @@ This standard bears the precision load across the full suite: in its absence, va
 Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the ten standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 # Changelog
+
+v2.2.0 (2026-05-28): Method-Structure Congruence added as Section 3, a second foundational principle alongside the precision-first invariant. The principle specifies that the epistemic method applied at any stage of a precision-governed activity must match the structural character of what is being known at that stage. Two failure directions: congruence deficit (epistemically weaker method than required; self-concealing because the absent content leaves no gap marker) and congruence imposition (epistemically more demanding method than warranted; produces apparent structural depth that reflects the method's requirements rather than the phenomenon's). Success condition: the weakest method sufficient to generate the content the stage requires. This principle is prior to and not redundant with the precision-first invariant: the invariant tests the artifact; congruence tests the process that produced it. Sections 3 through 11 renumbered to 4 through 12. All body cross-references to sections 4-11 updated accordingly; changelog historical references preserved as-is. Section 6.2 precision review checklist extended with a seventh item requiring that the non-harming dimension be explicitly stated in every derived precision element, including identification of which parties would bear the cost of each failure direction; a derived element from which the harmed parties cannot be identified without consulting the foundational principle has been derived from the precision dimension only.
 
 v2.1.7 (2026-04-17): Felt-experience boundary class corrected. The boundary class previously declared navigability and accessibility outside this standard's vocabulary. This was a structural error: whether a specification is accessible to the parties it was designed to protect is within scope via the precision imposition corollary (a specification so procedurally demanding that those parties cannot invoke its protections fails the ceiling direction of the invariant). Revised to distinguish subjective experience of quality (outside scope) from structural accessibility of protection (inside scope, ceiling direction). "Fair" and "transparent" as subjective value assessments remain outside scope. No changes to normative corollaries.
 
