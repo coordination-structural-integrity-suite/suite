@@ -87,7 +87,7 @@ The "it won't happen to us" assumption is not something these standards argue ag
 
 ## The seven Tensegrity Compressive Standards
 
-**Precision-First Design Standard:** Closes precision failure in two directions. A precision deficit occurs when instrument terms are under-specified: violations become undetectable and gaps remain permanently exploitable. A precision imposition occurs when an instrument is over-specified: compliance can be demonstrated while the coordination purpose remains unserved. Nine corollaries covering both failure directions. Addresses Ostrom's second design principle at the standards level.
+**Precision-First Design Standard:** Closes precision failure in two directions. A precision deficit occurs when instrument terms are under-specified: violations become undetectable and gaps remain permanently exploitable. A precision imposition occurs when an instrument is over-specified: compliance can be demonstrated while the coordination purpose remains unserved. Nine corollaries covering both failure directions. Two foundational principles: the precision-first invariant (the artifact test) and Method-Structure Congruence (the process test: the epistemic method used must match the structural character of what is being known; congruence deficits are self-concealing because the absent content leaves no gap marker). Addresses Ostrom's second design principle at the standards level.
 
 **Adverse-Signal Engagement Principle Core Standard:** Requires engagement with signals that contradict current models rather than suppression or reframing. Closes the gap between appearing to address problems and actually addressing them. Addresses Ostrom's design principles 5, 6, and 7 at the standards level.
 

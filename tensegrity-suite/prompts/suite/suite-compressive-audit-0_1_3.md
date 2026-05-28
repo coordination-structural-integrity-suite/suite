@@ -13,6 +13,8 @@ For each standard, identify whether the structural requirement is met, what evid
 
 Every normative claim, process, and classification must carry the structural mechanism that produces its claimed outcome. Unfalsifiable claims cannot carry architectural weight. Precision fails in two directions: a precision deficit is a normative claim that cannot be evaluated by an independent observer; a precision imposition is a normative element specified so completely that compliance can be demonstrated while the coordination purpose it was designed to serve remains unserved. Each criterion below can fail in either direction.
 
+Before applying the nine criteria, apply the Method-Structure Congruence check: ask whether the document or system was produced by a method congruent with the structural character of what it specifies. A congruence deficit occurs when a weaker method was used than the structural character requires; the output is internally coherent but systematically blind to failure modes a congruent method would have found, and the absence leaves no gap marker. A congruence imposition occurs when a more demanding method than warranted was applied, producing apparent structural depth that reflects the method rather than the phenomenon. Name the failure type and describe what the congruent method would have produced. This check is prior to the nine criteria: it evaluates whether the method was capable of generating the content that should be present.
+
 Evaluate whether:
 - Every normative term in a rule or condition has an operational definition an independent observer can apply without access to the author, and whether any definition achieves this by narrowing what counts as the phenomenon, excluding real instances of what it was built to identify
 - Each rule specifies a procedure by which violations can be detected by an independent observer, and whether any detection taxonomy creates more categories than the phenomenon has distinguishable states
@@ -144,5 +146,6 @@ Full standards: https://github.com/coordination-structural-integrity-suite/suite
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 0.1.3 | 2026-05-28 | Standard 1 (Precision-First Design Standard) prior check added: Method-Structure Congruence check inserted before the nine evaluation criteria. Follows PFDS v2.2.0. |
 | 0.1.2 | 2026-05-09 | Standard 6 (Regenerative Obligation Standard) updated: (1) direction vs. destination scope check added as first evaluation criterion, internal mechanics vs. external funding are independent assessments; (2) temporal deferral trap added as third categorical proximity disqualifier alongside additionality and SROI; (3) Frame Language correction: "governance-accessible location" → "accessible location". |
 | 0.1.1 | prior | Initial compressive audit prompt. Seven compressive standards evaluation framework. |

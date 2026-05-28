@@ -15,6 +15,18 @@ This matters because unfalsifiable claims cannot carry architectural weight, and
 
 Precision and non-harming are one commitment at the specification layer. An instrument that under-specifies harms the people it was designed to protect by leaving exploitation vectors permanently open. An instrument that over-specifies harms differently: it makes the coordination purpose unreachable for the people it was designed to serve. These are two aspects of one commitment, not two separate concerns to be balanced against each other.
 
+## Method-Structure Congruence: the prior condition
+
+The precision-first invariant tests the artifact: can violations be detected, and does compliance demonstrate the coordination purpose is being served? A prior condition applies to how the artifact was produced: the epistemic method used must match the structural character of what is being known at that stage. This is not a preference for one reasoning mode over another. It is a precision condition on the act of knowing itself.
+
+This matters because of the self-concealing property of congruence deficits. When an instrument is built using a method weaker than the structure requires, the output is internally coherent and systematically blind to content the congruent method would have generated. No internal check can surface the gap, because the gap is the absence of content that was never produced. A specification built by enumerating observed instances, where structural analysis of causal relationships was required, will pass all nine corollary checks on the content it contains while being structurally blind to adversarial conditions and causal relationships not present in the observational premises.
+
+Two failure directions. A congruence deficit occurs when an epistemically weaker method is applied where a stronger one is required: the output is complete within the method's terms but structurally blind to what the congruent method would have found; the absence leaves no gap marker. A congruence imposition occurs when a method more demanding than warranted is applied: the output acquires structural depth that reflects the method's requirements rather than the phenomenon's character, producing false precision. The success condition: the weakest method sufficient to generate the content the stage requires.
+
+The relationship to the precision-first invariant: they are not redundant. The invariant tests whether the artifact's claims are falsifiable and whether compliance serves the coordination purpose. Congruence tests whether the method used was capable of generating the content the stage required. An artifact can be fully precision-compliant within the content it contains while failing congruence because the content was selected by the method's limits rather than by the structural character of the problem.
+
+When reviewing an instrument: apply the congruence check first. What structural character does this stage have, and was the method used capable of generating content that matches that character? Then apply the precision-first invariant to the content the congruent method would have produced.
+
 ## What the standard requires
 
 The standard specifies nine corollaries to the core precision requirement. The core is the double negation: precision fails when violations are undetectable (precision deficit) or when compliance can be demonstrated while the coordination purpose remains unserved (precision imposition). The requirement is met when violations are detectable and compliance can demonstrate that the coordination purpose is being served.
@@ -81,12 +93,21 @@ When applying this standard in the context of a corpus evolution question (a new
 
 The standalone transclusion skill (`claude-skill-transclusion-0_1_1.md`) provides the full implementation: the prior differentiation check, the test for whether transclusion has occurred, the two failure modes (false separation and false merger), the nondual ground, and worked examples from the corpus. The pointer here is not a re-specification; it is a sequencing instruction. Transclusion check comes before precision audit in corpus evolution contexts.
 
+## Non-harming dimension in derived requirements
+
+When a precision requirement is derived from this standard for use in another instrument, the non-harming dimension of the unified PFDS principle must be explicitly stated within the derived element itself. Citing the invariant or pointing back to this standard does not satisfy the requirement.
+
+A derived element from which the harmed parties cannot be identified without consulting the foundational principle has been derived from the precision dimension only. The non-harming dimension is operative in a derived element only when the specific cost-bearing parties are named within the element, including which parties bear the cost of each failure direction.
+
+This is distinct from the harm-naming obligation in audit findings. The audit context asks you to use the document under review's own identification of its affected population, after the fact of a gap finding. The derivation context requires that you build the non-harming dimension into the derived element at the point of derivation, before any gap finding occurs.
+
 ---
 
 ## Changelog
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 0.1.6 | 2026-05-28 | Method-Structure Congruence section added: prior condition to the precision-first invariant; congruence tests the process that produced the artifact; two failure directions (congruence deficit is self-concealing; congruence imposition produces false precision); success condition is weakest sufficient method. Non-harming dimension in derived requirements section added: derived elements must name the non-harming dimension and specific cost-bearing parties within the element itself; pointing back to the invariant does not satisfy the requirement. Follows PFDS v2.2.0. |
 | 0.1.5 | 2026-04-17 | Scope boundary section added: distinguishes subjective experience of quality (outside scope) from structural accessibility of protection (inside scope, ceiling direction). Follows PFDS v2.1.7 boundary class correction. |
 | 0.1.4 | 2026-04-13 | Frame Language pass: opening line updated from "governance instrument" to "coordination instrument" and "accountability without a falsifiable criterion" to "obligation loop closure without a falsifiable criterion." Follows PFDS v2.1.1 Frame Language pass. |
 | 0.1.3 | 2026-04-13 | Nine ceiling conditions added to the requirements list, one paired with each floor condition. Intro sentence before the nine requirements updated to name the two-direction structure. Follows PFDS v2.1.0, which added nine ceiling corollaries to Section 2. |
