@@ -57,7 +57,7 @@ For auditing or assessing against multiple standards at once, or for orientation
 
 | Prompt | Use it on |
 |---|---|
-| [Compressive Audit](suite/suite-compressive-audit-0_1_1.md) | Any coordination system (runs all seven Tensegrity Compressive Standards) |
+| [Compressive Audit](suite/suite-compressive-audit-0_1_4.md) | Any coordination system (runs all seven Tensegrity Compressive Standards) |
 | [Generative Assessment](suite/suite-generative-assessment-0_1_1.md) | Any coordination system (runs all three Tensegrity Generative Standards) |
 | [Full Suite Audit](suite/suite-full-audit-0_1_2.md) | Any coordination system (runs all ten standards with cross-layer interaction analysis) |
 
