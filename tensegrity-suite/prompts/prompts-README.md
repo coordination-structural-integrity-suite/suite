@@ -44,7 +44,7 @@ A five-stage structured process for assessing your organization's structural hea
 | Stage 0 | [Context Accumulation](suite/suite-assessment-stage-0-context-accumulation-0_3_0.md) | Establishes what kind of arrangement is being assessed, what the historical and structural record says about that kind of thing, and who outside the arrangement's defined party list is affected. Classifies the institutional form, surfaces the compressive and generative precondition profiles, maps the active failure modes (FM1-FM15), assesses the tensegrity configuration, and states the suite's standing limitation. This stage is not optional; without it, the assessment cannot catch correctness-of-design failures, external validity failures, or reference class failures. Output: context summary. |
 | Stage 1 | [Process Orientation](suite/suite-assessment-stage-1-orientation-0_1_0.md) | Orients you to the full process, establishes what you are hoping to understand, presents the data consent statement. Output: process summary. |
 | Stage 2 | [Structural Foundation Check](suite/suite-assessment-stage-2-foundation-check-0_1_0.md) | Assesses which of the six coordination commons components are present, partial, or absent in your actual practice. Output: commons components inventory. |
-| Stage 3 | [Standards Self-Assessment](suite/suite-assessment-stage-3-self-assessment-0_1_2.md) | For each of the ten standards, assesses where your organization currently stands against what the standard requires. Multi-session. Output: standards self-assessment with structured finding per standard. |
+| Stage 3 | [Standards Self-Assessment](suite/suite-assessment-stage-3-self-assessment-0_1_0.md) | For each of the ten standards, assesses where your organization currently stands against what the standard requires. Multi-session. Output: standards self-assessment with structured finding per standard. |
 | Stage 4 | [Gap Map and Priorities](suite/suite-assessment-stage-4-gap-map-0_1_0.md) | Synthesizes your Stage 2 and Stage 3 findings into your three most structurally significant gaps, with gap type and what addressing each would look like. Output: gap map. |
 | Stage 5 | [External Frame Assessment](suite/suite-assessment-stage-5-external-frame-0_1_0.md) | Assesses the arrangement from outside its own logic across four dimensions: ecological fit (ecosystem dependencies and externalities), counterfactual (better than absence or alternatives?), legitimacy class (basis and soundness of authority claim), and value instantiation (what values the incentive structure actually produces). Requires Stage 0 context summary and Stage 4 gap map as inputs. Output: external frame assessment with synthesis. |
 | Stage 6 | [Advancement and Future Framing](suite/suite-assessment-stage-5-advancement-0_1_0.md) | Consolidates findings from all five prior stages, opens with the most important external frame finding, establishes concrete next steps for each priority gap, frames a six-month re-assessment. Output: advancement summary. |
@@ -57,7 +57,7 @@ For auditing or assessing against multiple standards at once, or for orientation
 
 | Prompt | Use it on |
 |---|---|
-| [Compressive Audit](suite/suite-compressive-audit-0_1_3.md) | Any coordination system (runs all seven Tensegrity Compressive Standards) |
+| [Compressive Audit](suite/suite-compressive-audit-0_1_1.md) | Any coordination system (runs all seven Tensegrity Compressive Standards) |
 | [Generative Assessment](suite/suite-generative-assessment-0_1_1.md) | Any coordination system (runs all three Tensegrity Generative Standards) |
 | [Full Suite Audit](suite/suite-full-audit-0_1_2.md) | Any coordination system (runs all ten standards with cross-layer interaction analysis) |
 
@@ -69,9 +69,9 @@ For auditing or assessing against multiple standards at once, or for orientation
 
 | Prompt | Use it on |
 |---|---|
-| [General Audit](../compressive/prompts/precision-first/precision-first-audit-general-0_1_5.md) | Any document, specification, or standard |
-| [Governance Audit](../compressive/prompts/precision-first/precision-first-audit-governance-0_1_5.md) | Decentralized autonomous organization proposals, bylaws, charters, policies, constitutions |
-| [Software Audit](../compressive/prompts/precision-first/precision-first-audit-software-0_1_5.md) | Application programming interface contracts, requirements docs, schemas, technical designs |
+| [General Audit](../compressive/prompts/precision-first/precision-first-audit-general-0_1_6.md) | Any document, specification, or standard |
+| [Governance Audit](../compressive/prompts/precision-first/precision-first-audit-governance-0_1_6.md) | Decentralized autonomous organization proposals, bylaws, charters, policies, constitutions |
+| [Software Audit](../compressive/prompts/precision-first/precision-first-audit-software-0_1_6.md) | Application programming interface contracts, requirements docs, schemas, technical designs |
 
 ### Adverse Signal Engagement Principle Core Standard
 
@@ -198,7 +198,7 @@ Framework-application documents are operational tools that apply the foundationa
 For more complex evaluation work requiring extended reasoning with the suite, use the Claude skills in `../claude-skills/`. Skills encode the frame needed for correct reasoning with each document and with the suite as a whole.
 
 - `claude-skill-coordination-suite-triage-0_1_0.md`: Triage skill: routes by situation to the right instrument across the full prompt system
-- `claude-skill-suite-0_1_2.md`: Full suite skill covering all ten standards, the compressive/generative distinction, and cross-layer interactions
+- `claude-skill-suite-0_1_1.md`: Full suite skill covering all ten standards, the compressive/generative distinction, and cross-layer interactions
 - `claude-skill-tensegrity-architecture-0_1_0.md`: Tensegrity Architecture skill: orientation and entry point identification
 - `claude-skill-structural-patterns-primer-0_1_0.md`: Structural Patterns Primer skill: pattern recognition across ten named structural patterns
 - `claude-skill-integration-guide-0_1_0.md`: Suite Integration Guide skill: adoption sequencing and detection reliability dependencies
