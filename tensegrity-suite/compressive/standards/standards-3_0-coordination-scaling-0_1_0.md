@@ -42,7 +42,7 @@ Scale-blindness is a precision deficit. A specification of structural conditions
 | v0.1.3 | 2026-04-17 | Primary detection signals added to maximum conditions at Radius 5, 15, 50, and 150 (IACS pattern). Threshold approach signal note added to Section 10 (gradient vs. binary threshold). De-crossing and conflicting indicator resolution rules added to Section 3. Contextual baseline statement added to Section 10 (PFDS Corollary 9 requirement; Dunbar thresholds are research-derived approximations; functional questions are primary instrument). |
 | v0.1.2 | 2026-04-17 | Developmental alignment distribution removed from Effective Radius factor list (proto-Frame Language sensemaking; belongs in Frame Language, not as a structural Radius input). Nominal and robust Effective Radius defined as distinct constructs. CSS-Instrumented monitoring requirement replaced with named trigger conditions approach; founding window activation criterion added (opens when first trigger fires). Contribution topology noted as PoC implementation path for robust Effective Radius and maximum conditions assessment. Typological declaration added in correct PFDS form (Descriptive Typology Map v0.1.1). Section 10 factor list explicitly linked to functional questions as their operative instrument. Section 12 stale Board conditions reference corrected. |
 | v0.1.1 | 2026-04-17 | Board and Dome replaced throughout with Minimum Conditions and Maximum Conditions. Board/Dome are LayerCake visualization vocabulary and do not belong in normative standards text. Four Batteries language removed from Radius 150 minimum conditions. |
-| v0.1.0 | 2026-04-17 | Initial normative standard. Promoted from bucket/bucket-dunbar-layer-architecture-0_1_0.md (v0.1.2). Radius 5 through 150 normative; Radius 500 and 1500 provisional. Adoption architecture added. |
+| v0.1.0 | 2026-04-17 | Initial normative standard. Promoted from internal architecture work. Radius 5 through 150 normative; Radius 500 and 1500 provisional. Adoption architecture added. |
 
 ---
 
@@ -374,4 +374,4 @@ The Coordination Scaling Standard closes the scale-blindness exploitation vector
 
 ---
 
-*Sources: Robin Dunbar, "Neocortex size as a constraint on group size in primates," Journal of Human Evolution, 1992; Tamarit, Sánchez, and Cuesta, "Beyond Dunbar circles: a continuous description of social relationships and resource allocation," Scientific Reports, 2022; bucket/bucket-dunbar-layer-architecture-0_1_0.md v0.1.2 (primary source document for this standard's architectural content).*
+*Sources: Robin Dunbar, "Neocortex size as a constraint on group size in primates," Journal of Human Evolution, 1992; Tamarit, Sánchez, and Cuesta, "Beyond Dunbar circles: a continuous description of social relationships and resource allocation," Scientific Reports, 2022.*

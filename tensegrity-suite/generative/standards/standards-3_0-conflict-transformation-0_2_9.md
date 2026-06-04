@@ -280,13 +280,13 @@ Brown, B. (2018). *Dare to Lead*. Random House. (BRAVING Trust framework as comp
 
 Conflict Transformation Preconditions Specification v0.1.0. Downstream operational specification. Translates the structural invariants specified in this standard into preconditions assessable before specific conflict transformation process deployments.
 
-Dispute Resolution Domain Learnings v0.5.1. Bucket document. Accumulated learnings from applied stress-testing of the graduated engagement architecture against dispute resolution and conflict transformation domain cases.
+Dispute Resolution Domain Learnings v0.5.1. Internal learnings document. Accumulated learnings from applied stress-testing of the graduated engagement architecture against dispute resolution and conflict transformation domain cases.
 
-GravityDAO Archive Synthesis v0.1.1. Bucket document. Synthesizes findings from the GravityDAO graphic archive, strategy documents, and Leadership Slides. Full inventory of compatible traditions, Seven Responsibilities, four-layer architecture, DDO model application, intrinsic/extrinsic motivational axis, and Generative Interactions visual specification.
+GravityDAO Archive Synthesis v0.1.1. Internal synthesis document. Synthesizes findings from the GravityDAO graphic archive, strategy documents, and Leadership Slides. Full inventory of compatible traditions, Seven Responsibilities, four-layer architecture, DDO model application, intrinsic/extrinsic motivational axis, and Generative Interactions visual specification.
 
 Chapman, R. L. (Durgadas). (2025). "The Greatest Trick Web3 Ever Pulled." Orientation ring document. Primary source for the structural argument that coordination value is invisible to coordination systems lacking explicit measurement architecture. The GravityDAO paragraph names the causal chain from evaluation-architecture blindness to defunding.
 
-Structural Blindness Inventory v0.1. Bucket document (bucket/tensegrity/). Thirty-class inventory of mechanisms by which organizational structures become blind to critical signals, maintain that blindness, and resist correction. The failure patterns described in Section 3.2 and the "Structural blindness addressed" field of each invariant draw on this inventory.
+Structural Blindness Inventory v0.1. Internal inventory document. Thirty-class inventory of mechanisms by which organizational structures become blind to critical signals, maintain that blindness, and resist correction. The failure patterns described in Section 3.2 and the "Structural blindness addressed" field of each invariant draw on this inventory.
 
 ---
 

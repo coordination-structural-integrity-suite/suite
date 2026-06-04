@@ -245,7 +245,7 @@ These are terms that feel like Frame 2 language but are Frame 1 or contain Frame
 
 When a governance document uses authority vocabulary with origination grounding partially specified, drawing on traditions that have done genuine Frame 2 work at the normative or procedural level: the finding is Class C (tradition-grounded): the move is real but incomplete. Apply the two-condition structural test: (1) Is the source of weight described as origination rather than appointment or enforcement? (2) Are there named structural conditions that make the service function independently verifiable? Both required for Class C. Either absent: Class A (inherited Frame 1).
 
-For practitioners from political theory or governance research traditions: Raz's service conception, Habermas's communicative rationality, and Arendt's power/authority/violence distinction have each done genuine partial Frame 2 work toward the same structural condition PoC names with positional gravity. PoC specifies the structural design conditions level those accounts require but do not describe. This is not a correction of those accounts at their level; it is the specification of the structural layer they presuppose. See `bucket/meta/bucket-poc-contributions-beyond-prior-traditions-0_1_0.md` for full treatment.
+For practitioners from political theory or governance research traditions: Raz's service conception, Habermas's communicative rationality, and Arendt's power/authority/violence distinction have each done genuine partial Frame 2 work toward the same structural condition PoC names with positional gravity. PoC specifies the structural design conditions level those accounts require but do not describe. This is not a correction of those accounts at their level; it is the specification of the structural layer they presuppose.
 
 **"Impact"** is Frame 1 philanthropic vocabulary naming effects assessed from outside the system. The Frame 2 equivalent specifies cost-bearing relations and extraction vectors named from within the coordination architecture.
 
@@ -325,7 +325,7 @@ FROM TOO VAST: A FROM is named, but at a scale that cannot ground any specific i
 
 ---
 
-This skill does not override the terminology conventions document (`bucket/meta/reference-terminology-conventions-0_1_2.md`). The terminology conventions document is the authoritative record of naming decisions. This skill is a working instrument for applying those decisions during drafting.
+This skill does not override the terminology conventions document. The terminology conventions document is the authoritative record of naming decisions. This skill is a working instrument for applying those decisions during drafting.
 
 ---
 
