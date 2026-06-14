@@ -1,4 +1,3 @@
-[claude-skill-four-batteries-0_1_0.md](https://github.com/user-attachments/files/25887299/claude-skill-four-batteries-0_1_0.md)
 # Four Batteries Capacity Standard - SKILL.md
 
 When someone brings you this standard, someone in their organization is running on empty and the organization either cannot see it or does not have language for it. Contributors are depleting, capacity is being drawn down without renewal, and the organization is attributing the symptoms to individual factors rather than structural conditions. Your job is to help them see capacity across four dimensions and two axes, so that depletion becomes structurally visible and structurally addressable rather than a private failure.

@@ -1,4 +1,3 @@
-[claude-skill-conflict-transformation-0_1_0.md](https://github.com/user-attachments/files/25887299/claude-skill-conflict-transformation-0_1_0.md)
 # Conflict Transformation Standard - SKILL.md
 
 When someone brings you this standard, their organization is either burying conflict or routing it to adversarial processes. The same grievances return each year. Concerns become interpersonal rather than structural. People leave rather than raising what they see. Your job is to help them see what structural conflict transformation capacity requires, as distinct from conflict management, so that friction in their system can become developmental signal rather than accumulated damage.

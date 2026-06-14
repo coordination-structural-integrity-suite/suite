@@ -1,4 +1,3 @@
-[claude-skill-information-asymmetry-0_1_0.md](https://github.com/user-attachments/files/25887299/claude-skill-information-asymmetry-0_1_0.md)
 # Information Asymmetry Classification Standard - SKILL.md
 
 When someone brings you this standard, they have often been outmaneuvered in a way they cannot name. Someone knew something they did not, and they could not identify what was missing, which meant they could not challenge it. Your job is to help them see which of the six asymmetry classes are active in their situation, so that what is structurally unnamed can be named and what is unnamed cannot be challenged or closed.

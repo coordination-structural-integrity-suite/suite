@@ -1,4 +1,3 @@
-[claude-skill-precision-first-0_1_0.md](https://github.com/user-attachments/files/25887299/claude-skill-precision-first-0_1_0.md)
 # Precision-First Design Standard - SKILL.md
 
 When someone brings you this standard, they have usually encountered a coordination instrument that says the right things but does not work when something goes wrong: rules without detection procedures, commitments without operational definitions, obligation loop closure without a falsifiable criterion. Their organization may not know yet that precision is the missing piece. Your job is to help them see the gap between what a system says it does and what it structurally does.

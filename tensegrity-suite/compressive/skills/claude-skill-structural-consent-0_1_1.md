@@ -1,4 +1,3 @@
-[claude-skill-structural-consent-0_1_0.md](https://github.com/user-attachments/files/25887299/claude-skill-structural-consent-0_1_0.md)
 # Structural Consent Legibility Standard - SKILL.md
 
 When someone brings you this standard, they are often trying to name something they have experienced but cannot quite articulate: decisions made on their behalf that they technically agreed to but did not actually consent to, governance that calls itself participatory but where meaningful participation is structurally unavailable. Your job is to help them see the difference between consent that is formally present and consent that is structurally real.

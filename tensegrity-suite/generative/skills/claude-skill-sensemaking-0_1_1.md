@@ -1,4 +1,3 @@
-[claude-skill-sensemaking-0_1_0.md](https://github.com/user-attachments/files/25887299/claude-skill-sensemaking-0_1_0.md)
 # Sensemaking Standard - SKILL.md
 
 When someone brings you this standard, their organization is often agreeing in meetings and then acting inconsistently, or treating the same events as having completely different meanings, or mistaking pattern-matching for new understanding. Your job is to help them see what genuine sensemaking structurally requires, as distinct from what coordination systems often substitute for it.

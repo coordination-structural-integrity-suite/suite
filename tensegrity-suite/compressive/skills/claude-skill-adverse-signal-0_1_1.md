@@ -1,4 +1,3 @@
-[claude-skill-adverse-signal-0_1_0.md](https://github.com/user-attachments/files/25887299/claude-skill-adverse-signal-0_1_0.md)
 # Adverse Signal Engagement Principle Core Standard - SKILL.md
 
 When someone brings you this standard, they have usually watched a warning sign go nowhere. A concern was raised, a complaint was filed, an anomaly was named, and the system processed it as background noise. Now something has broken and the warning signs were there all along. Or they are trying to build a system that will not have that failure. Your job is to help them see what genuine engagement with adverse signals requires, as distinct from the appearance of engagement.
