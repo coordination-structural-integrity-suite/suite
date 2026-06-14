@@ -1059,7 +1059,7 @@ respectively.
 Citations: First Nations Information Governance Centre. The First
 Nations Principles of OCAP. https://fnigc.ca/ocap-training/. Global
 Indigenous Data Alliance. CARE Principles for Indigenous Data
-Governance. https://www.gida-global.org/care.
+Governance. https://www.gida-global.org/careprinciples.
 
 7.5 Tensegrity Compressive Standards within the Coordination Structural Integrity Suite
 
