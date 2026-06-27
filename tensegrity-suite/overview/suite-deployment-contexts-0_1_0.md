@@ -243,7 +243,7 @@ A rough characterization of which substrates your context supplies and which it 
 
 ## What Remains to Be Specified
 
-**The remaining named combinations.** The five above cover the most common entry points for suite adoption. A complete combinations library will include additional purpose classes: full structural health assessment (deploying all nine standards together), post-crisis stabilization, genesis cohort launch, and others identified through genesis cohort data.
+**The remaining named combinations.** The five above cover the most common entry points for suite adoption. A complete combinations library will include additional purpose classes: full structural health assessment (deploying all ten standards together), post-crisis stabilization, genesis cohort launch, and others identified through genesis cohort data.
 
 **Threshold calibration for tier routing.** Each combination specifies which standards to deploy but does not yet specify what adoption tier each standard must reach for the deployment to be reliable at different organizational health states. The tier routing guidance will specify minimum adoption tiers per standard per health state for each named combination.
 
