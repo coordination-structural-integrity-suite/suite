@@ -4,7 +4,7 @@
 
 **Regis Chapman (Durgadas)**
 
-Version 0.1.26 \| June 2026
+Version 0.1.27 \| September 2026
 
 *This document establishes a six-class taxonomy of information asymmetry
 in coordination systems. It is intended to be legible to researchers in
@@ -327,12 +327,14 @@ could be instrumented against it; and (d) a clear account
 of why the candidate class is not adequately captured by any existing
 primary class or combination of classes.
 
-Three extension classes are specified in Section 5: Generative Asymmetry,
-Cryptographic Asymmetry, and Descriptive Capacity Asymmetry. The first two
-were named in v0.1 as satisfying the validity criteria and as describing
-mechanisms actively operating in current coordination environments; their
-full specifications remain to be written and are documented as stubs in
-Section 5. Descriptive Capacity Asymmetry is fully specified in Section 5.
+Four extension classes are specified in Section 5: Synthetic-Coordination
+Asymmetry, Cryptographic Asymmetry, Descriptive Capacity Asymmetry, and
+Derivation Opacity Asymmetry. Synthetic-Coordination Asymmetry and
+Descriptive Capacity Asymmetry are fully specified. Cryptographic Asymmetry
+and Derivation Opacity Asymmetry are documented as stubs in Section 5:
+named as satisfying the validity criteria and as describing mechanisms
+actively operating in current coordination environments, with their full
+specifications not yet written.
 The status of all three as \"extension\" rather than \"primary\" classes reflects
 not a judgment about their importance but a recognition that their
 documentation base is less extensive than that of the six primary classes,
@@ -1336,15 +1338,55 @@ calibration.
 
 **Extension Class Specifications**
 
-Two of the four extension classes specified here (Generative Asymmetry and Cryptographic Asymmetry) were named in v0.1 of this standard as satisfying the four validity criteria in Section 2. Their mechanism descriptions, regulatory precedents, and detection surfaces have not yet been formally written. Both are stubs: they are named, their validity claims have been entered into the coordination record, but they are not specified to the level required for instrumentation in a detection architecture. A third extension class, Descriptive Capacity Asymmetry, is fully specified here. A fourth extension class, Derivation Opacity Asymmetry, is added in v0.1.21 as a stub with mechanism characterized but full specification pending.
+Of the four extension classes specified here, two are fully specified: Synthetic-Coordination Asymmetry (Extension Class A) and Descriptive Capacity Asymmetry (Extension Class C). The remaining two are stubs: Cryptographic Asymmetry (Extension Class B), named in v0.1 as satisfying the four validity criteria in Section 2 with its mechanism description, regulatory precedent, and detection surface not yet written; and Derivation Opacity Asymmetry (Extension Class D), with mechanism characterized but full specification pending. A stub is named and its validity claim entered into the coordination record, but it is not specified to the level required for instrumentation in a detection architecture, and it may not be used as a named class in a conforming detection architecture until its specification is complete.
 
-**Extension Class A: Generative Asymmetry**
+**Extension Class A: Synthetic-Coordination Asymmetry**
 
-*Specification status: stub. Full specification pending.*
+*Specification status: fully specified.*
 
-Generative Asymmetry was named as an extension class in v0.1 of this standard. It was assessed at that time as satisfying the four validity criteria: distinct mechanism, documented evidence of the mechanism in real coordination contexts, distinct detection surface, and orthogonality to existing primary classes. The full mechanism description, regulatory precedent, detection surface specification, Cynefin domain classification, and boundary argument against existing primary classes remain to be written.
+Synthetic-Coordination Asymmetry arises when one party gains structural advantage because other participants cannot distinguish synthetic coordination artifacts from genuine ones. A coordination artifact is any claim, record, proposal, signal, identity, endorsement, or consensus-appearance that a coordination system treats as genuine input. The mechanism is not that information is withheld, and not that a shared interpretive framework is controlled: it is that the artifact itself is not genuine, and no participant relying on it can tell. The advantaged party appropriates the reliance others place in genuine artifacts without bearing the cost of producing them honestly.
 
-Until this specification is complete, Generative Asymmetry may not be used in a conforming detection architecture as a named class. Reference to it in coordination documentation should be accompanied by a note that the class specification is pending.
+This distinguishes the class from every other in the taxonomy along a single axis. Every other class presupposes a genuine underlying artifact, fact, or phenomenon, and concerns access to it, framing of it, perception of it, completeness of the record of it, or auditability of its derivation. Synthetic-Coordination Asymmetry alone concerns whether the artifact is genuine at all. Because the harm is that no genuine artifact exists behind the appearance, it cannot be cured by disclosure, translation, or reframing; it is cured only by authentication and provenance. That distinct remedy is what marks it as a distinct mechanism.
+
+The scope of the class is bounded, and several adjacent qualities are handled by other standards rather than here. The capacity to produce coordination instruments faster than others can match is a production or specialization power concentration under the Structural Power Obligation Standard. A flood of low-value artifacts that degrades availability for everyone is an availability condition under the Adverse-Signal Engagement Principle. Extraction of coordination signal without proportional return is a violation of the Regenerative Obligation Standard. This class is specifically the believed-fake mechanism: advantage from the indistinguishability of synthetic artifacts from genuine ones.
+
+***Regulatory Precedent***
+
+The mechanism is among the oldest recognized in law. Its clearest doctrinal anchor is forgery, defined by Blackstone as the fraudulent making or alteration of a writing to the prejudice of another's right, and adopted in those terms by the United States Supreme Court in Moskal v. United States, 498 U.S. 103 (1990). Forgery turns on false making: the instrument itself is not genuine, which is distinct from an instrument that is genuine but states a falsehood. The institutional response was authentication infrastructure built precisely because recipients could not otherwise tell genuine from false: notarization, seals, witnessing, handwriting comparison, and central registries against which a suspect instrument could be checked, developed under Roman notarial practice and carried through medieval and common-law doctrine. The counterfeiting line, from the Roman lex Cornelia de falsis through the Trademark Counterfeiting Act of 1984 (15 U.S.C. 1116(d), 1117), applies the same mechanism to goods and coin; securities fraud by fabricated records (SEC Rule 10b-5; SEC v. Texas Gulf Sulphur Co., 401 F.2d 833 (2d Cir. 1968)) applies it to records, detected by reconciliation against independent custodial data. The contemporary in-force precedent is European Union Artificial Intelligence Act Article 50 (effective 2 August 2026), which requires marking of synthetic content regardless of intent to deceive, a provenance response rather than a disclosure response.
+
+***Detection Surface***
+
+Synthetic-Coordination Asymmetry produces three characteristic signals in a coordination record. In each, the signal is not the presence of unauthenticated artifacts alone, but their concentration in a pattern that systematically advantages the party supplying them.
+
+First, provenance and authentication gap: coordination artifacts entering the record without a traceable, authenticated provenance chain to a genuine originator, in a context where genuine artifacts carry one. The detection logic is comparison against an authenticated exemplar or registry, the operation forgery doctrine has relied on for two thousand years.
+
+Second, independence-chain break in apparent convergence: many nominally independent supporting voices, attestations, or consensus-signals whose independence, on inspection, collapses to a common undisclosed origin or generation process. This is the detection surface for the consensus-manufacturing sub-pattern below.
+
+Third, reconciliation failure against independent records: artifacts that cannot be corroborated against, or that conflict with, independent cross-source traces, concentrated where a specific party benefits from their being believed genuine.
+
+This class carries a detectability limit that it shares with Extension Class D and that the six primary classes do not. A sufficiently well-made synthetic artifact may not be distinguishable from the coordination record alone: the provenance-gap signal presupposes an authentication layer to compare against, and where none exists the fake is invisible to record-reading, so detection depends on a required provenance instrument rather than on reading the existing record. This is a property of the mechanism, not a deficiency of the specification.
+
+Production rate is not a detection signal for this class. A flood of artifacts is an availability condition under the Adverse-Signal Engagement Principle, and the more dangerous synthetic-coordination case is often low in volume: a small number of well-made artifacts that shift a single coordination decision. Keying detection on volume would both re-annex the flooding case that belongs to the Adverse-Signal Engagement Principle and miss this class's characteristic low-volume attack.
+
+This class is a Complex-domain detection problem by default (probe-sense-respond), transitioning to Complicated (sense-analyze-respond) once an authentication or provenance substrate exists for the artifact type, a domain circuit of the kind Section 4.1 describes for Omission asymmetry. Learning loop depth follows the Adverse-Signal Engagement Principle Core Standard, Section 3.3.7 (learning loop depth per Cynefin domain): the Complex default is the double-loop or triple-loop band, and the case in which the fabrication implicates the authentication framework itself, a forged registry or a spoofed provenance signature, is the triple-loop case, a structural gap in the classification framework. The class is never Chaotic; the Chaotic flood is the Adverse-Signal Engagement case.
+
+***Named Sub-Pattern: Consensus Manufacturing***
+
+Consensus manufacturing is the coordination-specific instance of this class: a party fabricates the appearance of many independent voices, attestations, or agreements so that a position is treated as consensus when no genuine independent consensus exists. Its precedent is the fake-endorsement and astroturfing line under Federal Trade Commission Act Section 5 (FTC v. Standard Education Society, 302 U.S. 112 (1937); the 1980 Endorsement Guides, 16 CFR Part 255, which reach fabricated indicators of influence such as fake followers), the doctrine that already treats many apparently independent voices converging as a distinct protected signal and keys detection on a broken independence chain between the apparent source and the real beneficiary.
+
+Consensus manufacturing must be distinguished from Distributed Monoculture, the sub-pattern of Class 3 (Interpretive Asymmetry). Distributed Monoculture is correlation among genuine judgments: the participants are real and their evaluations are genuine, but their independence is nominal because they share priors. Consensus manufacturing is fabrication of the appearance of judgment: there is no independent judgment behind the voices at all. The two co-occur and are visually identical from outside, many voices agreeing, but the mechanisms are orthogonal, correlation of the genuine against fabrication of the appearance, and they key on different signals: Distributed Monoculture on profit correlation with actor type, consensus manufacturing on the independence chain tracing to a common origin.
+
+***Boundary Against Adjacent Classes***
+
+Against Omission (Class 5): omission withholds a real, existing fact, and its remedy is disclosure. A synthetic artifact is not a withheld fact, and forcing the disclosure that it is synthetic does not cure a fabricated attestation already relied upon, because no genuine artifact stands behind it. The remedy is authentication, not disclosure, which is the decisive difference in mechanism.
+
+Against Interpretive (Class 3): interpretive control operates on genuine shared data by controlling its framework; this class operates on the artifact's authenticity. The consensus-manufacturing and Distributed Monoculture distinction above is the specific case.
+
+Against Descriptive Capacity (Extension Class C): the two are mirror images. Descriptive Capacity is a genuine phenomenon that fails to register because the observer's framework cannot perceive it; Synthetic-Coordination Asymmetry is a fabricated artifact that registers as if genuine. Real but unperceived against perceived but unreal.
+
+Against Derivation Opacity (Extension Class D): Class D concerns a genuine output whose derivation cannot be audited; this class concerns whether the output is genuine at all. A synthetic artifact with a fully transparent generation process is within this class and not Class D, and a genuine analysis whose reasoning cannot be audited is Class D and not this class.
+
+Against Complexity (Class 6) and the access classes (Positional, Temporal, Relational): complexity concerns a genuine but hard-to-process artifact, and the access classes concern position, timing, and relationship with respect to genuine things, all orthogonal to authenticity. As with every class, Synthetic-Coordination Asymmetry frequently compounds with these, but orthogonality is a claim about mechanism, not about co-occurrence.
 
 **Extension Class B: Cryptographic Asymmetry**
 
@@ -1386,7 +1428,7 @@ This class is a Complex-domain detection problem (probe-sense-respond). The dete
 
 **Extension Class D: Derivation Opacity Asymmetry**
 
-*Specification status: stub. Mechanism characterized; regulatory precedent chain, full detection surface, Cynefin domain classification, and complete boundary argument against Extension Class A pending.*
+*Specification status: stub. Mechanism characterized and the boundary against Extension Class A established; regulatory precedent chain, full detection surface, and Cynefin domain classification pending.*
 
 Derivation Opacity Asymmetry arises when a coordination participant accesses synthesized cross-domain patterns derived from an opaque training process that other participants cannot audit. The asymmetry is not in information withheld: the participant discloses its outputs. The asymmetry inheres in the derivation process itself, which is inaccessible to the parties receiving the outputs. Participants can evaluate what the participant concludes; they cannot evaluate the epistemic substrate from which the conclusion was derived, what training data shaped it, or what systematic biases may have been introduced by the training process.
 
@@ -1400,7 +1442,7 @@ The primary deployment context for this extension class is coordination systems 
 
 The full specification of Extension Class D must address both faces. A specification that characterizes only the asymmetry risk without characterizing the functional capacity it is the other face of would produce an incomplete account of AI participation in coordination systems, with consequences for how detection architecture is designed and how coordination decisions about AI participant inclusion are made. Detection architecture developed from a risk-only characterization may miss the structural conditions under which reducing the asymmetry also reduces the functional capacity, and the conditions under which addressing the risk and enabling the function are the same design move.
 
-Until this specification is complete, Derivation Opacity Asymmetry may not be used in a conforming detection architecture as a named class. Reference to it in coordination documentation should be accompanied by a note that the class specification is pending. The full specification requires: a regulatory precedent chain documenting coordination recognition of this asymmetry class; a fully characterized detection surface; Cynefin domain classification; and a complete boundary argument against Extension Class A (Generative Asymmetry), whose stub status prevents full orthogonality confirmation at this time.
+Until this specification is complete, Derivation Opacity Asymmetry may not be used in a conforming detection architecture as a named class. Reference to it in coordination documentation should be accompanied by a note that the class specification is pending. The full specification requires a regulatory precedent chain documenting coordination recognition of this asymmetry class, a fully characterized detection surface, and Cynefin domain classification. The boundary against Extension Class A (Synthetic-Coordination Asymmetry) is established: Class D concerns a genuine output whose derivation cannot be audited, while Synthetic-Coordination Asymmetry concerns whether the output is genuine at all.
 
 **Scope and Limitations**
 
@@ -1581,6 +1623,8 @@ Without this standard the suite has no mechanism for classifying which specific 
 Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the ten standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 Changelog
+
+v0.1.27 (2026-09-09): Extension Class A specified and renamed. The v0.1 stub "Generative Asymmetry" is retired and replaced by Synthetic-Coordination Asymmetry (Naming Decision 2.63 in the Terminology Conventions Reference): a party gains structural advantage because others cannot distinguish synthetic coordination artifacts from genuine ones. Full specification added. Mechanism: the believed-fake mechanism, distinct from concealment and interpretive control on the axis of whether the artifact is genuine at all, cured by authentication and provenance rather than by disclosure or reframing. Regulatory precedent: forgery and document authentication as the general anchor (Blackstone; Moskal v. United States, 498 U.S. 103 (1990)), counterfeiting (lex Cornelia de falsis; Trademark Counterfeiting Act of 1984) and securities-fabrication (Rule 10b-5; SEC v. Texas Gulf Sulphur) as supporting lines, and EU Artificial Intelligence Act Article 50 as the contemporary in-force precedent. Detection surface: three signals (provenance and authentication gap, independence-chain break, reconciliation failure) with the who-benefits framing, the detectability limit shared with Extension Class D, and production rate excluded as a signal (volume is the Adverse-Signal Engagement flooding case). Cynefin: Complex by default (probe-sense-respond), transitioning to Complicated once a provenance substrate exists, never Chaotic, with learning loop depth per Adverse-Signal Engagement Principle Section 3.3.7. Named sub-pattern Consensus Manufacturing (fabrication of the appearance of independent voices; precedent FTC Act Section 5 astroturfing doctrine), distinguished from Class 3 Distributed Monoculture as fabrication versus correlation. Boundary argument added against Classes 3, 5, 6, C, D and the access classes. Scope note routes adjacent qualities to owning standards: production capacity to Structural Power Obligation, volume to Adverse-Signal Engagement, harvest to Regenerative Obligation. Extension Class D boundary note updated: orthogonality against Extension Class A is now established (Class D is unauditable derivation of a genuine output; Class A is whether the output is genuine at all). Section 2 extension-framework reference and Section 5 opening updated to name four extension classes with current specification status. No change to the six primary classes, Classes B and C, the four validity criteria, the extension framework process, tiers, or the inheritance clause.
 
 v0.1.26 (2026-06-22): Typological declaration repaired in the combined keystone-and-boundary sweep. Header cites the description classes per the Terminology Conventions Reference rather than a Descriptive Typology Map version. Temporal-dynamic resolved as the ownership case (Option A): Class 2 (temporal asymmetry) now owns the asymmetry-position question (which party can act first) while using the external temporal instrument's sequential-temporal axes as inherited vocabulary for the timing profile, rather than retaining "sequential timing of information access" as its own operative class in collision with the class the instrument owns. Frequency-dynamic remains out of scope. No change to the six-class taxonomy or the Class 2 detection surface; this resolves the ownership overlap. Filling instrument named only as external; no Map pointer.
 

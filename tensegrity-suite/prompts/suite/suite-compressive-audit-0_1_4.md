@@ -79,7 +79,7 @@ Evaluate whether:
 - Asymmetry types outside the six primary classes are evaluated for extension class specification
 - When document production targets a participant population from a different linguistic, epistemic, or ontological baseline, that audience baseline is declared as the detection reference point
 - The classification of which asymmetry classes are present is updated as the system's population and context evolve
-- Within the Omission class, governance record asymmetry is assessed as a distinct sub-pattern: does the formal record capture actual decision-making or only ratification? If real coordination routes through private channels before surfacing in the formal record, this requires architectural remediation, not record-scope adjustment
+- Within the Omission class, coordination record asymmetry is assessed as a distinct sub-pattern: does the formal record capture actual decision-making or only ratification? If real coordination routes through private channels before surfacing in the formal record, this requires architectural remediation, not record-scope adjustment
 
 ---
 

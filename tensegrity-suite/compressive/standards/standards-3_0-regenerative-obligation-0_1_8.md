@@ -1,6 +1,6 @@
 Regenerative Obligation Standard
 
-*Core Standard v0.1.2*
+*Core Standard v0.1.8*
 
 **Regis Chapman (Durgadas)**
 

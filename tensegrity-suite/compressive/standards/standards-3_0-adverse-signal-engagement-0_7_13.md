@@ -2,7 +2,7 @@
 
 **(ASEP)**
 
-*Core Standard v0.7.12*
+*Core Standard v0.7.13*
 
 **Regis Chapman (Durgadas)**
 
@@ -1094,7 +1094,7 @@ PoC is an ASEP-Instrumented implementation. It instantiates all three ASEP
 obligations: Notice (Witness Layer and platform integrations), Name
 (Coordination Ledger with 18 event types and asymmetry class taxonomy),
 and Navigate (CIP coordination, Classified Change Architecture, graduated
-sanctions), in a blockchain‑based coordination protocol. PoC is
+Revelis sanctions), in a blockchain‑based coordination protocol. PoC is
 the reference implementation demonstrating how ASEP can be adopted at
 the ASEP-Instrumented tier in the Web3 context.
 
