@@ -1,8 +1,8 @@
 ---
 title: Frame Language Interpreter - SKILL.md
 type: standards-skill
-version: 0.1.17
-date: 2026-05-14
+version: 0.1.18
+date: 2026-09-27
 status: Active skill. Invokable before drafting any corpus document where frame-correct vocabulary is required. Covers the inheritance chain, Frame 3 language discipline, Frame 2 canonical vocabulary, Frame 1 recognition and translation, common slippage points, and register assignment by document type.
 ---
 
@@ -20,7 +20,7 @@ Apply in order when working in a corpus document:
 
 3. **For Frame 1 terms: attempt translation via the canonical vocabulary table.** Find the term in the Recognition and Translation table and apply the Frame 2 equivalent. If the equivalent is clear and unambiguous, proceed to step 5.
 
-4. **If translation stalls: run the guna traversal.** See conditions and procedure in the Seer-Capacity States section below. Apply tamas → rajas → sattva: name what the term suppresses, name what it projects in place of the actual condition, name the actual structural condition. That structural condition is the Frame 2 replacement candidate. Then proceed to step 5.
+4. **If translation stalls: run the three-capacity traversal.** See conditions and procedure in the Seer-Capacity States section below. Apply the Suppression move, the Projection move, then the Perception move: name what the term suppresses, name what it projects in place of the actual condition, name the actual structural condition. That structural condition is the Frame 2 replacement candidate. Then proceed to step 5.
 
 5. **Apply the two-part test to any proposed replacement.** First: does it name the rope (the actual structural condition the Frame 1 term was concealing)? Second: does it address projecting (is the specification precise enough that the most plausible Frame 1 object cannot appear alongside it as a description of the same thing)? Both parts must be satisfied.
 
@@ -112,17 +112,17 @@ First: does it name the rope? Does it name the actual structural conditions that
 
 Second: does it address Projection? Is the specification precise enough that the most plausible false object a Frame 1 seer would project onto this term cannot appear alongside the specification? The test: can a reader simultaneously hold the Frame 1 object and the Frame 2 condition as descriptions of the same thing? If yes, the Projection capacity has not been addressed. Both parts must be satisfied.
 
-**When the two-part test stalls: using the guna sequence as a traversal tool.**
+**When the two-part test stalls: using the three capacities as a traversal tool.**
 
-The two-part test sometimes stalls. Three conditions warrant invoking the guna traversal: (a) the suppressed structural condition cannot be directly named (you can identify the Frame 1 term but not what it is concealing); (b) multiple Frame 2 candidates seem plausible and none clearly passes the two-part test; (c) a proposed replacement passes "feels right" but cannot be explicitly justified against both parts. When any of these conditions holds, use the guna sequence as a traversal procedure to work out the inheritance.
+The two-part test sometimes stalls. Three conditions warrant invoking the guna traversal: (a) the suppressed structural condition cannot be directly named (you can identify the Frame 1 term but not what it is concealing); (b) multiple Frame 2 candidates seem plausible and none clearly passes the two-part test; (c) a proposed replacement passes "feels right" but cannot be explicitly justified against both parts. When any of these conditions holds, use the three capacities as a traversal procedure to work out the inheritance. (The source tradition names the three as the gunas; the operative names here are Suppression, Projection, and Perception.)
 
 The traversal has three moves, applied in order.
 
-The first move is the tamas move: what does this term make inert or invisible in the reader? What structural condition cannot be seen as long as this term is operative? Tamas names the Suppression: the place where the Suppression capacity is working. Identifying it tells you what the term is concealing.
+The first move is the Suppression move: what does this term make inert or invisible in the reader? What structural condition cannot be seen as long as this term is operative? This names the place where the Suppression capacity is working. Identifying it tells you what the term is concealing.
 
-The second move is the rajas move: what does the term project onto that suppressed surface in place of the actual structural condition? What vivid object does a Frame 1 reader hold when they encounter this term, what does the term make them think they are seeing? Rajas names the Projection: the false object that fills the space the Suppression created.
+The second move is the Projection move: what does the term project onto that suppressed surface in place of the actual structural condition? What vivid object does a Frame 1 reader hold when they encounter this term, what does the term make them think they are seeing? This names the false object that fills the space the Suppression created.
 
-The third move is the sattva move: if the Suppression and the Projection are both removed, what structural condition becomes visible? This is the rope. Naming it precisely is the Frame 2 replacement, and it is what both parts of the two-part test should now be applied to.
+The third move is the Perception move: if the Suppression and the Projection are both removed, what structural condition becomes visible? This is the rope. Naming it precisely is the Frame 2 replacement, and it is what both parts of the two-part test should now be applied to.
 
 This traversal is not a replacement for the two-part test. It is the diagnostic you run when the two-part test cannot get started because the Suppression in the term is not yet visible. The traversal makes the Suppression visible. Then the two-part test verifies the replacement.
 
@@ -212,6 +212,8 @@ Multiplex Consent Architecture: the deliberate structural design of consent in a
 
 These terms appear naturally when writing about coordination structures because they are the dominant vocabulary in the spaces this corpus addresses. Each one imports Frame 1 structural assumptions. Recognize them and use the Frame 2 equivalent when writing in a Frame 2 or normative register.
 
+The canonical machine-readable source for this vocabulary is the Frame Language term registry on the Polymathie one source (`machine-readable/frame-language/src/term-registry.json` in Polymathie-Studio/tools, published at `schema/frame-language/term-registry.json`), from which the MCP server's watchlist and the Frame Language Analyzer also derive. Rows are taken from that registry; to change a term, change the registry and carry the change here.
+
 | Frame 1 term | Frame 1 assumption imported | Frame 2 equivalent |
 |---|---|---|
 | Authority (positional) | Hierarchical license derived from role or title without origination grounding; enforcement capacity imported as legitimate standing; conflates origination weight with positional license | Positional gravity (structural weight a coordination position carries when grounded in actual structural design and function, not appointment); Gravitas (personal weight arising from origination capacity) |
@@ -228,6 +230,26 @@ These terms appear naturally when writing about coordination structures because 
 | Transparency | Financial/legal disclosure upward to authority | Multi-directional visibility; legibility |
 | Decentralized governance | Distributed control within Frame 1 architecture | Multiplex coordination architecture |
 | Exit / liquidity event | Terminal finite-game condition | Dissolution procedure; succession |
+| Beneficiary | Positions the less-powerful party as the passive recipient of another party's delivery, embedding a power relation in the syntactic structure rather than naming the party's own cost-bearing relation to the system. | Named parties with specified cost-bearing relation |
+| Capacity building | Positions the funder as the subject who builds the grantee's capacity, placing in object position the development that should be the grantee's own. | Structural development of [function] |
+| Credibility | A deference claim: asserts that a claim warrants acceptance (trustworthiness) without naming the source of standing or the conditions, common in disclosure-and-rating-framework contexts. | Standing Evidence per named source |
+| Decentralization | In the process sense, names movement away from centralization without naming the destination parties, domain, or criteria for the transition of decision-standing. | Transition of decision-standing |
+| Decision authority | Imports that some role or party holds authority over decisions. | decision standing |
+| Delegate | Imports that voting power is an asset that can be transferred rather than standing exercised directly. | representative |
+| Due diligence | Names a verification activity through institutional borrowed-prior weight without naming the claims checked, the evidence standard, or the response to discrepancy. | Verification |
+| Empowerment | A Frame 1 deference claim about transferred capacity; positions an actor as empowering a community, with a standing that should be the community's instead derived from another party's action. | Named structural conditions; Demonstrated function to deliver [named obligation] |
+| Governed_by | Imports that entities exist in a governance relationship where some have authority over others; built into the semantic kernel. | coordinates_with; specifies_conditions_for |
+| Impact | Philanthropic vocabulary naming outputs: effects assessed from outside the system by formal stakeholders, importing the assessor-as-outsider position. | Named effect on named parties; cost-bearing relations; structural effects on coordination actors |
+| Incentive | Imports extrinsic reward design, conflating it with structural participation arising from a cost-bearing relation. | Contribution condition |
+| Legitimacy | One of the strongest Frame 1 deference claims: asserts an institution warrants acceptance (rightful authority) without naming the source of standing or the conditions. | Named source of standing plus declared conditions of deference |
+| Mandatory | Force substitution term: asserts a requirement through Frame 1 force vocabulary rather than naming the structural reason or the source of the obligation. | Required plus the structural reason; named obligation under [named source] |
+| Oversight | Hides who watches, what they watch, what authority they have to act, and what mechanism enforces their findings. | Monitoring; Body composition / scope of authority / intervention powers / response mechanism |
+| Participation | Splits by use. As a named role it abstracts decision-standing, the domain, and the mechanism for affecting outcomes; as an inclusion claim it asserts that presence constitutes more than presence without naming the structural conditions. | Decision-standing |
+| Position | Mandate-derived assignment without constitutive acceptance of consequences; authority defined by appointment, title, or formal assignment rather than by acceptance of the causal chain between the holder's actions and those who bear the effects. | role |
+| Power structure | Imports that power is organized hierarchically; formal authority, operational control, and resource control name levels of hierarchy. | obligation and control map |
+| Representation | Splits by use. As a structural role it abstracts the derivation basis, scope, and recall mechanism of standing; as an inclusion claim it asserts that a community is represented without naming the structural conditions grounding the decision-standing. | Named standing |
+| Trust | An institutional deference claim: asserts that a party warrants deference without specifying the structural basis. | the conditions a party meets, verified by a named procedure |
+| Voting power | Imports that influence scales as a property right with token accumulation. | coordination standing |
 
 ## Common Slippage Points
 
@@ -283,7 +305,7 @@ Before using any term as a normative design criterion in a standards or protocol
 
 ## Regenerative Claim Audit (Regen Reality Check)
 
-When a document claims to be regenerative, uses "regen" as an identity marker, operates in the Web3 regen space, or presents as a ReFi instrument, run the Regenerative Claim Audit as a domain-specific extension of the standard Frame Language analysis. The audit runs seven independent checks. Each can fail while the others pass.
+When a document claims to be regenerative, uses "regen" as an identity marker, operates in the Web3 regen space, or presents as a ReFi instrument, run the Regenerative Claim Audit as a domain-specific extension of the standard Frame Language analysis. The audit runs nine independent checks. Each can fail while the others pass.
 
 **The Frame 2 done well vs. imitation contrast.** Frame 2 done well produces independently evaluable structural conditions: who owes what to whom, through what mechanism, verifiable by any reader without the organization's cooperation. Frame 2 imitation produces the feeling of that precision without the substance. The operative test: can a party outside the organization verify this condition from the document alone, without relying on the organization's interpretation or cooperation? If not, it is imitation regardless of how structural the vocabulary appears. The sophistication trap applies here specifically: the more rigorous the values framework and the more structural-sounding the vocabulary, the more convincing the imitation, which is why it persists in the ecosystem's most thoughtful documents and in the academic frameworks designed to evaluate them. Values alignment and orientation language performing structural description ("we are regenerative," "we operate from living systems principles," "we prioritize relationships") is Frame 2 imitation, not Frame 2 presence.
 
@@ -333,6 +355,7 @@ This skill does not override the terminology conventions document. The terminolo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 0.1.18 | 2026-09-27 | Recognition and Translation table brought into line with the canonical Frame Language term registry (Polymathie one source, `machine-readable/frame-language/src/term-registry.json`): twenty registry terms added as rows, with the Frame 1 assumption and Frame 2 equivalent taken verbatim from the registry (beneficiary, capacity building, credibility, decentralization, decision authority, delegate, due diligence, empowerment, governed_by, impact, incentive, legitimacy, mandatory, oversight, participation, position, power structure, representation, trust, voting power). A sentence added naming the registry as the canonical source from which this table, the MCP server's watchlist, and the Frame Language Analyzer derive. Regenerative Claim Audit preamble: "seven independent checks" corrected to nine, matching the numbered checks. Traversal renamed to operational English: the guna traversal (tamas, rajas, sattva moves) is now the three-capacity traversal (Suppression, Projection, and Perception moves), with the source tradition's name kept as a citation, matching the vocabulary audit prompt. |
 | 0.1.17 | 2026-05-14 | Two terminology corrections. (1) Frame 2 configuration profile: "Enough Perception is present to ground the fashioning" corrected to "Enough perceptual clarity is present." Frame 2 failure described in seer-capacity terms: perceptual clarity misattached, meaning fully present and operational but fastened onto something other than the actual coordination conditions and cost-bearing parties the instrument was designed to serve. (2) Frame 3 failure mode: seer-capacity description added, specifying that full perceptual clarity is present and operational; what is refused is the compositional movement from that clarity into Frame 2 Projection. "Perceptual clarity" established as the compound term for what the Perception seer-capacity state produces or enables, distinct from the state name itself. |
 | 0.1.16 | 2026-05-13 | Five new failure mode detections added. Regen Claim Audit: Check 8 (financial_conversion: product purchase explicitly reframed as regenerative investment without return architecture; distinct from ros_non_conformance in that the product relationship is named and denied) and Check 9 (commons_without_governance: commons infrastructure built without Ostrom's structural conditions: boundary specification, monitoring, graduated response, conflict resolution). Frame 2 imitation section: propagation_without_feedback (detection architecture explicitly excluded as design choice, justified by problem complexity), governance_deferral (governance architecture deferred to after network formation rather than constituted before it), sovereignty_without_derivation (value asserted as foundational without specifying structural conditions it derives from; FROM present but self-referential). All five types added to analyze.ts with gap score weights. |
 | 0.1.15 | 2026-05-12 | Routing cross-reference added to Regenerative Claim Audit: when Check 5 produces ros_non_conformance findings, the Regenerative Obligation Standard Audit provides the full structural mechanics assessment. Names that Frame Language checks the vocabulary layer and ROS checks the mechanics layer; both can fail independently; run both when the document makes regenerative claims about its return architecture. |
